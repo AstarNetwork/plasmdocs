@@ -1,0 +1,60 @@
+{
+    "output": null,
+
+    "generator": "site",
+
+    "title": null,
+    "description": null,
+    "isbn": null,
+
+    "extension": null,
+
+    "plugins": [],
+
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "sepia",
+            "family": "serif",
+            "size": 1
+        }
+    },
+
+    "variables": {},
+
+    "links": {
+        "sidebar": {
+            "Custom link name": "https://stakedtechnologies.github.io/plasmdocs"
+        },
+
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null,
+            "weibo": null,
+            "all": null
+        }
+    },
+
+    "pdf": {
+        "pageNumbers": false,
+
+        "fontSize": 12,
+
+        "paperSize": "a4",
+
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        },
+
+        "headerTemplate": null,
+
+        "footerTemplate": null
+    },
+
+    "isbn": "null",
+
+    "title": "Plasm Documentations"
+}
