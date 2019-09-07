@@ -1,19 +1,17 @@
 {
   "name": "plasm.pages",
   "version": "1.0.0",
-  "description": "Plasm introduction pages.",
+  "private": true,
+  "description": "Plasm Project introduction.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "gitbook init",
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "publish": "gh-pages -d _book -m 'Auto publish book'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stakedtechnologies/plasm.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stakedtechnologies/plasm.github.io/issues"
-  },
-  "homepage": "https://github.com/stakedtechnologies/plasm.github.io#readme"
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "gitbook-cli": "^2.3.0"
+  }
 }
