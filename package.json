@@ -11,7 +11,7 @@
     "publish": "gh-pages -d _book -m 'Auto publish book'"
   },
   "devDependencies": {
-    "gh-pages": "^0.12.0",
-    "gitbook-cli": "^2.3.0"
+    "gh-pages": "^2.1.1",
+    "gitbook-cli": "^2.3.2"
   }
 }
