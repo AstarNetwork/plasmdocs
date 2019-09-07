@@ -23,15 +23,15 @@
 
     "links": {
         "sidebar": {
-            "Custom link name": "https://stakedtechnologies.github.io/plasmdocs"
+            "Plasm": "https://github.com/stakedtechnologies/Plasm"
         },
 
         "sharing": {
-            "google": null,
-            "facebook": null,
-            "twitter": null,
-            "weibo": null,
-            "all": null
+            "google": true,
+            "facebook": true,
+            "twitter": true,
+            "weibo": true,
+            "all": true
         }
     },
 
