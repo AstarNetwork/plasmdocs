@@ -25,6 +25,12 @@ The standard implementation provides an implementation that assumes the use of b
 | :--: |
 | *Merkle Interval Tree（ref: https://docs.plasma.group/projects/spec/en/latest/src/01-core/merkle-interval-tree.html)* |
 
+Documentation:
+```
+$ cd plasm/contracts/commitment
+$ cargo doc --open
+```
+
 ### Deposit
 Manage assets deposited in PlsmaChain. Deposited assets are traded on PlasmaChain, providing a mechanism that only the rightful owner can exit to the parent chain. This includes most of the logic of PlasmaExitGame.
 The standard implementation provides an ExitGame implementation that does not rely on PlasmaChain tokens. Here is a state transition diagram for ExitGame that focuses on the checkpoints for the following states: Checkpoints ensure that all state transitions before a specified block height for a given NFT are correct.
@@ -33,15 +39,45 @@ The standard implementation provides an ExitGame implementation that does not re
 | :--: |
 | *ExitGame state machine diagram* |
 
+Documentation:
+```
+$ cd plasm/contracts/deposit
+$ cargo doc --open
+```
+
 ### Predicate
 Define your own ExitGame rules. The most basic is to write DeprecateExit, which is the logic that invalidates some exits. Normally, this logic is used to prove that a transaction has been invalidated. Predicate is a generalized PlasmaCash. Therefore, PlasmaCash can be expressed using Predicate.
 The standard implementation provides a Predicate called Ownership Predicate that has only owner information as a state object. The state transition requires the signature of the owner of the state object before the transition. This provides the full functionality needed for PlasmaCash.
 
+Documentation:
+```
+$ cd plasm/contracts/predicate
+$ cargo doc --open
+```
+
 ### Primitive
 Provided as a Primitive library for structures and properties commonly used in PlasmsaContract.
+
+Documentation:
+```
+$ cd plasm/contracts/primitives
+$ cargo doc --open
+```
 
 ### BalanceContract
 Assets handled by PlasmaContract must be prepared according to ERC20. Plasm will prepare BalanceContract as standard to treat Substrate's key currency as an ERC20 compliant contract. Think of it as WrappedETH in Ethereum.
 
+Documentation:
+```
+$ cd plasm/contracts/balances
+$ cargo doc --open
+```
+
 ### PlasmaCashContract
 PlasmaContract with functions corresponding to PlasmCash is implemented as a standard implementation. This is achieved by combining the standard implementation of Ownership Predicate, which is the standard implementation of Predicate, and the standard implementation of Deposit, Commitment.
+
+Documentation:
+```
+$ cd plasm/contracts/cash
+$ cargo doc --open
+```
