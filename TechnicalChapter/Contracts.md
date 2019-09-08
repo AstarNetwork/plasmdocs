@@ -10,7 +10,10 @@ Plasma PGSpec is designed on the assumption that the standard implementation is 
 
 ## Archtecture
 Plasm PGSpec has the following structure.
-![Plasm contract archtecture](https://user-images.githubusercontent.com/6259384/64493921-4cc4d580-d2c1-11e9-9e0b-f0e546be9ae6.png)
+
+| ![](https://user-images.githubusercontent.com/6259384/64493921-4cc4d580-d2c1-11e9-9e0b-f0e546be9ae6.png) |
+| :--: |
+| *Plasm contract archtecture* |
 
 Plasm PGSpec offers the following functions:
 
@@ -18,13 +21,17 @@ Plasm PGSpec offers the following functions:
 Holds the PlasmaChain block header (MerkleRoot). The operator creates a new block and verifies that the block contains a state.
 The standard implementation provides an implementation that assumes the use of block inclusion proof using MerkleIntervalTree.
 
-![Merkle Interval Tree（ref: https://docs.plasma.group/projects/spec/en/latest/src/01-core/merkle-interval-tree.html）](https://user-images.githubusercontent.com/6259384/64493987-2b181e00-d2c2-11e9-8936-e78c00f767c9.png)
+| ![Merkle Interval Tree(ref: https://docs.plasma.group/projects/spec/en/latest/src/01-core/merkle-interval-tree.html)](https://user-images.githubusercontent.com/6259384/64493987-2b181e00-d2c2-11e9-8936-e78c00f767c9.png) |
+| :--: |
+| *Merkle Interval Tree（ref: https://docs.plasma.group/projects/spec/en/latest/src/01-core/merkle-interval-tree.html)* |
 
 ### Deposit
 Manage assets deposited in PlsmaChain. Deposited assets are traded on PlasmaChain, providing a mechanism that only the rightful owner can exit to the parent chain. This includes most of the logic of PlasmaExitGame.
 The standard implementation provides an ExitGame implementation that does not rely on PlasmaChain tokens. Here is a state transition diagram for ExitGame that focuses on the checkpoints for the following states: Checkpoints ensure that all state transitions before a specified block height for a given NFT are correct.
 
-![ExitGame state machine diagram](https://user-images.githubusercontent.com/6259384/64494002-56027200-d2c2-11e9-8b05-7e09acec461e.png)
+| ![ExitGame state machine diagram](https://user-images.githubusercontent.com/6259384/64494002-56027200-d2c2-11e9-8b05-7e09acec461e.png) |
+| :--: |
+| *ExitGame state machine diagram* |
 
 ### Predicate
 Define your own ExitGame rules. The most basic is to write DeprecateExit, which is the logic that invalidates some exits. Normally, this logic is used to prove that a transaction has been invalidated. Predicate is a generalized PlasmaCash. Therefore, PlasmaCash can be expressed using Predicate.
