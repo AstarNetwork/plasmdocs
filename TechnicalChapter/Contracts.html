@@ -267,6 +267,65 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="about-plasm-contracts">About Plasm Contracts</h1>
+<p>Plasm has chosen to implement it as a smart contract using ink! As a way to implement this specification in Substrate. This is because Plasma Chain must be freely customizable and deployable by the user. Such flexibility cannot be realized by implementation using a module that customizes Substrate (commonly known as SRML: Substrate Runtime Module Library).</p>
+<h2 id="ink">ink!</h2>
+<p>ink! is a standard smart contract that can be handled by Substrate above. This is currently under development and can be described using a programming language called Rust. If you want to use smart contracts with ink !, install SRML Contract Module in Substrate Chain. Internally, WebAssembly is used like SRML. The user can deploy smart contracts by uploading the bytecode of WASM that was compiled at hand on Substrate. Please check <a href="https://substrate.dev/docs/en/next/contracts/faq#ink" target="_blank">here</a>.</p>
+<h2 id="plasm-pgspec-design">Plasm PGSpec Design</h2>
+<p>Plasma PGSpec is designed on the assumption that the standard implementation is done with Ethereum. Substrate&apos;s smart contract ink! Has different specifications from Ethereum&apos;s smart contract Solidity (Vyper), so it is necessary to implement a more suitable implementation. Ink! Written in Rust does not have an inheritance, but has a function to describe the characteristics of the structure called Trait. This function that describes the properties that a Contract must-have is considered suitable for expressing general specifications such as PGSpec. Therefore, Plasm decided to take the form that provides the standard implementation and the characteristics that must be combined as PGSpec. Depending on the various use cases, developers can implement their PlasmaContract that meets the Trait provided by Plasm regarding the standard implementation. By doing so, the Rust compiler will verify that it meets the specifications for PlasmaContract. Developers can develop PlasmaContract whose specifications are guaranteed by the compiler.</p>
+<h2 id="archtecture">Archtecture</h2>
+<p>Plasm PGSpec has the following structure.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="https://user-images.githubusercontent.com/6259384/64493921-4cc4d580-d2c1-11e9-9e0b-f0e546be9ae6.png" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>Plasm contract archtecture</em></td>
+</tr>
+</tbody>
+</table>
+<p>Plasm PGSpec offers the following functions:</p>
+<h3 id="commitment">Commitment</h3>
+<p>Holds the PlasmaChain block header (MerkleRoot). The operator creates a new block and verifies that the block contains a state.
+The standard implementation provides an implementation that assumes the use of block inclusion proof using MerkleIntervalTree.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="https://user-images.githubusercontent.com/6259384/64493987-2b181e00-d2c2-11e9-8936-e78c00f767c9.png" alt="Merkle Interval Tree(ref: https://docs.plasma.group/projects/spec/en/latest/src/01-core/merkle-interval-tree.html)"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>Merkle Interval Tree&#xFF08;ref: <a href="https://docs.plasma.group/projects/spec/en/latest/src/01-core/merkle-interval-tree.html" target="_blank">https://docs.plasma.group/projects/spec/en/latest/src/01-core/merkle-interval-tree.html</a>)</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="deposit">Deposit</h3>
+<p>Manage assets deposited in PlsmaChain. Deposited assets are traded on PlasmaChain, providing a mechanism that only the rightful owner can exit to the parent chain. This includes most of the logic of PlasmaExitGame.
+The standard implementation provides an ExitGame implementation that does not rely on PlasmaChain tokens. Here is a state transition diagram for ExitGame that focuses on the checkpoints for the following states: Checkpoints ensure that all state transitions before a specified block height for a given NFT are correct.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="https://user-images.githubusercontent.com/6259384/64494002-56027200-d2c2-11e9-8b05-7e09acec461e.png" alt="ExitGame state machine diagram"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>ExitGame state machine diagram</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="predicate">Predicate</h3>
+<p>Define your own ExitGame rules. The most basic is to write DeprecateExit, which is the logic that invalidates some exits. Normally, this logic is used to prove that a transaction has been invalidated. Predicate is a generalized PlasmaCash. Therefore, PlasmaCash can be expressed using Predicate.
+The standard implementation provides a Predicate called Ownership Predicate that has only owner information as a state object. The state transition requires the signature of the owner of the state object before the transition. This provides the full functionality needed for PlasmaCash.</p>
+<h3 id="primitive">Primitive</h3>
+<p>Provided as a Primitive library for structures and properties commonly used in PlasmsaContract.</p>
+<h3 id="balancecontract">BalanceContract</h3>
+<p>Assets handled by PlasmaContract must be prepared according to ERC20. Plasm will prepare BalanceContract as standard to treat Substrate&apos;s key currency as an ERC20 compliant contract. Think of it as WrappedETH in Ethereum.</p>
+<h3 id="plasmacashcontract">PlasmaCashContract</h3>
+<p>PlasmaContract with functions corresponding to PlasmCash is implemented as a standard implementation. This is achieved by combining the standard implementation of Ownership Predicate, which is the standard implementation of Predicate, and the standard implementation of Deposit, Commitment.</p>
 
                                 
                                 </section>
@@ -310,7 +369,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Contracts","level":"1.3.4","depth":2,"next":{"title":"Client","level":"1.3.5","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},"previous":{"title":"Constitution","level":"1.3.3","depth":2,"path":"TechnicalChapter/Constitution.md","ref":"TechnicalChapter/Constitution.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/Contracts.md","mtime":"2019-09-07T08:52:43.400Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-07T08:53:17.813Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Contracts","level":"1.3.4","depth":2,"next":{"title":"Client","level":"1.3.5","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},"previous":{"title":"Constitution","level":"1.3.3","depth":2,"path":"TechnicalChapter/Constitution.md","ref":"TechnicalChapter/Constitution.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/Contracts.md","mtime":"2019-09-08T20:44:04.956Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-08T20:33:19.749Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
