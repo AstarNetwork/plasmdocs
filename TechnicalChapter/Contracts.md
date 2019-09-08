@@ -15,6 +15,8 @@ Plasm PGSpec has the following structure.
 | :--: |
 | *Plasm contract archtecture* |
 
+https://github.com/stakedtechnologies/Plasm/tree/master/contracts
+
 Plasm PGSpec offers the following functions:
 
 ### Commitment
