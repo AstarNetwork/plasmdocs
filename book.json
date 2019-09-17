@@ -11,6 +11,11 @@
 
     "plugins": [],
 
+    "structure": {
+        "readme": "Introduction.md",
+        "summary": "SUMMARY.md"
+    },
+
     "pluginsConfig": {
         "fontSettings": {
             "theme": "sepia",

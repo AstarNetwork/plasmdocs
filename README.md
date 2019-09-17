@@ -1,23 +1,21 @@
-# Introduction
+# How PlasmDocs Update.
 
-We will update the OS of the existing society using the blockchain. In the existing society, there is a history of creating monopoly rules of information and wealth by those who have authority and rules that are advantageous to them. In addition, even if a fair mechanism is sought, it can be said that there is no transparency and it depends on trust. For such an existing society, blockchain uses a decentralized governance to realize a trustless system with transparency and fairness that the platform does not manage. This is because blockchain is a system that can achieve fault tolerance and high tamper resistance on a system that anyone can view, verify and operate.
+## init
+```
+yarn run init
+```
 
-***
+## build
+```
+yarn run build
+```
 
-An application is necessary to actually deliver the benefits to users as creating a social OS. This is because an application is an interface that connects a kind of OS and users. Applications on the blockchain are commonly called Decentralized applications (Dapps). Currently, Dapps are developed and deployed to users in various blockchains in the form of smart contracts and chain codes. However, the processing performance of Dapps is not high due to the distributed and redundant structure of the blockchain. The transaction throughput of Ethereum, the blockchain with the largest smart contract, is 14 transactions per second. On the other hand, VISA and ARI PAY, which have many users around the world, process 1700 transactions and 256,000 transactions per second. It turns out that the current performance is too inadequate for many users to benefit from Dapps. Therefore, various scale solutions were devised in the blockchain.
+## local test
+```
+yarn run start
+```
 
-***
-
-There are several blockchain scale solutions. For example, a solution that compresses the block size such as Segwit, a state channel in which several users combine off-chain transactions and only the final state is written in the blockchain There is Sharding that performs distributed processing, and Plasma that stores transactions in a separate chain and stores only the root hash in the main chain. The reason we focused on Plasma is that Plasma is a scale solution that is the least dependent on the processing performance of the main chain. In Plasma, an operator called a single operator operates the side chain. This means that many transactions can be handled in a centralized way that does not require a consensus process. It means that the scale solution used in the existing centralized system can be used as it is, so it is possible to achieve high processing performance that is not possible with a distributed ledger. Plasma's approach can be said to become an indispensable technology in the future because it can dramatically improve processing performance for all distributed ledgers.
-
-***
-
-I understand that Plasma boasts high scalability. However, there are still some problems with the operation of Plasma. One is that there is a limit to what can be done with Plamsa applications (Plaaps). It is said that what Plasma can do is "descriptive with Predicate". And the definition of the range that can be described by this "Predicate" is currently under study. Another is that Plasma is a complex system consisting of multiple components. Plapps cannot be built simply by writing and deploying smart contracts. Specifically, Plapps consists of four components: a parent chain contract, a child chain, an operator, and a user. We will solve these problems through Plasm Project. **Plasm** creates a library with a standard so that Predicate can be written correctly. **PlaaS** builds a cloud service that allows you to easily deploy multiple components. It helps developers to develop Plaaps through products provided by Plasm Project.
-
-***
-
-We are planning to expand these systems around Polkadot. Polkadot is a protocol that bundles multiple different blockchains. Polkadot allows multiple blockchains that have been independent so far to be interoperable under transparent and decentralized governance. In addition, there is a framework for creating blockchains called Substrate. Polkadot bundles and Polkadot itself can also be created using Substrate. Covering all uses with one ideal blockchain is not practical. Therefore, many blockchain platforms have been created so far. Polkadot and Substrate will further spur the times when people build blockchains according to their use. We decided to bet on this big trend. Of course, Plasma is an indispensable role in Polkadot. So we chose Polkadot × Substrate before deploying Plasma.
-
-***
-
-Presented by [StakeTechnologies](https://stake.co.jp).
+### push
+```
+yarn run publish
+```
