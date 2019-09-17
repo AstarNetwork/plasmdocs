@@ -28,7 +28,8 @@
 
     "links": {
         "sidebar": {
-            "Plasm": "https://github.com/stakedtechnologies/Plasm"
+            "Plasm": "https://github.com/stakedtechnologies/Plasm",
+            "PlasmProject Whitepaper in JP": "https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"
         },
 
         "sharing": {
