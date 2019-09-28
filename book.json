@@ -29,7 +29,7 @@
     "links": {
         "sidebar": {
             "Plasm": "https://github.com/stakedtechnologies/Plasm",
-            "Documentation": "http://crates.plasm.stake.co.jp",
+            "Documentation(crates)": "http://crates.plasm.stake.co.jp",
             "PlasmProject Whitepaper in JP": "https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"
         },
 
