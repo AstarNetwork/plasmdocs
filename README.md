@@ -1,13 +1,11 @@
 # How PlasmDocs Update.
 
-## init
-```
-yarn run init
-```
+## Install yarn.
+Please install yarn.
 
-## build
+## install dependencies libraries
 ```
-yarn run build
+$ yarn
 ```
 
 ## local test
@@ -15,7 +13,10 @@ yarn run build
 yarn run start
 ```
 
-### push
+## publish contents.
 ```
+git add .
+git commit -m 'update contents'
+git push origin master
 yarn run publish
 ```

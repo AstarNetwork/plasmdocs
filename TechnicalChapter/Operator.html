@@ -90,7 +90,7 @@
     
         
         <li>
-            <a href="http://crates.plasm.stake.co.jp" target="_blank" class="custom-link">Documentation</a>
+            <a href="http://crates.plasm.stake.co.jp" target="_blank" class="custom-link">Documentation(crates)</a>
         </li>
     
         
@@ -351,34 +351,6 @@
 <p>Plasm Opeartor is an opeartor of a Plasm child chain.</p>
 <p>To Do: Add descriptions here.</p>
 <p><em>- Coming soon.</em></p>
-<h2 id="plasm-treasury">Plasm Treasury</h2>
-<p>50% of the block reward on the Plasm chain is distributed to DApps developers who increase the value of the network. PLM holders can stake not only on a validator but also on a Plasma application operator (Plapp operator), the person who manages a child chain and an application on that chain. </p>
-<p>Plapps nominator stakes Plasm tokens on Plasma application operator.</p>
-<p><img src="../img/004.jpg" alt="PlasmTreasury"></p>
-<p>Definition</p>
-<ul>
-<li>BlockReward: The block reward per a block</li>
-<li><code>n</code>: The number of Plapp operators</li>
-<li><code>m_i</code>: The number of Plapps nominators for i-th Plapp operator</li>
-<li><code>stake_{i,j}</code>: The total staking amount of j-th Plapps Nominator for the i-th Plasma operator</li>
-<li><code>Plapps Nominator_{i,j}</code>: j-th Plapps nominator who stakes on i-th Plapp operator</li>
-</ul>
-<p>In this case,  <code>Plapps Nominator_{i,j}</code> gets the following block reward. </p>
-<p>Note:  <code>Plapps Nominator_{i,j} = Plapps Nominator_{k,l} (i&#x2260;k)</code> is possible. </p>
-<pre><code class="lang-math">&#x6570;&#x5F0F;&#x304B;&#x3044;&#x3066;&#xFF01;
-</code></pre>
-<p>A staked Plapp operator can get the following block reward </p>
-<pre><code class="lang-math">&#x6570;&#x5F0F;&#x304B;&#x3044;&#x3066;
-</code></pre>
-<p>The reward of Plapps nominator is in proportion to the staking amount of the Plapps operator regardless of the selected operator. On the other hand, a Plapp operator can get rewards in proportion to the staked amount and  in inverse proportion to the total staked amount. Plapps nominator tends to stake his tokens on an application which enhances the value of the Plasm network because the price of PLM is increased by the valuable application. In addition to that, Plapps operators are able to get semipermanent block rewards through this incentive design. In general, traditional DApps creators are definitely contributing to the ecosystem, but what they are actually doing is paying costs like gas and get few rewards. We solve this problem by fixing basic low layer functions. </p>
-<p>An operator can make some malicious attacks, but fortunately, Plasma has a method to prevent  such operator&apos;s behaviors. When an operator commits a fraud, any user on the plasma chain can submit the fraud proof as evidence and the operator&apos;s block reward will be slashed as well as the Plapps nominator&apos;s staked tokens once the evidence is successfully approved. In other words, every Plapps nominator has a risk to lose it&apos;s token when his operator commits a fraud. A stakeholder who owns a large portion of the network stakes tokens on his Plapps operator, the operator will be slashed. </p>
-<p>  Assuming that there is the slashing mechanism, a nominator tends not to stake on an unstable operator. If all nominators stake their tokens on stable operators, the network will be centralized.  As a solution, the Plasm has an alternative incentive mechanism. Every nominator who stakes PLM on an operator who operates his application within three months prior to the birth has a right to get an additional bonus. This right can be executed for three months if the operator runs his application for more than a year.  </p>
-<p> <code>x^{old}</code> is the rate of <code>x</code> when a nominator stakes PLM. The nominator will get the reward calculated below. </p>
-<pre><code class="lang-math">&#x6570;&#x5F0F;&#x304B;&#x3044;&#x3066;
-</code></pre>
-<p>This means that the nominator can get bonus in proportion to the operator&apos;s rewards.  </p>
-<h2 id="44-operator-trading">4.4 Operator Trading</h2>
-<p>Operator trading is a mechanism to buy and sell the right to be a Plasma operator. Since the right is tradable, this is similar to M&amp;A. A Plasma operator gets constant basic income by creating Plapps owning to Plasm treasury. If the Plapp is meaningful for the community, the creator receives higher revenue. As a result, other players may want the right to operate the Plapp. The successor will receive the reward instead of a previous operator. The important thing is that the buyer does not need to take over the operation itself though the buyer has ownership. Through this mechanism, we assume that the new off-chain market will be created.</p>
 
                                 
                                 </section>
@@ -422,7 +394,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Operator","level":"1.3.6","depth":2,"next":{"title":"PlasmChain","level":"1.4","depth":1,"path":"PlasmChain/README.md","ref":"PlasmChain/README.md","articles":[{"title":"Plasm Chain Token Design","level":"1.4.1","depth":2,"path":"PlasmChain/TokenDesign.md","ref":"PlasmChain/TokenDesign.md","articles":[]},{"title":"Consensus Algorithm","level":"1.4.2","depth":2,"path":"PlasmChain/ConsensusAlgorithm.md","ref":"PlasmChain/ConsensusAlgorithm.md","articles":[]},{"title":"Plasm Treasury","level":"1.4.3","depth":2,"path":"PlasmChain/Treasury.md","ref":"PlasmChain/Treasury.md","articles":[]},{"title":"Operator Trading","level":"1.4.4","depth":2,"path":"PlasmChain/OperatorTrading.md","ref":"PlasmChain/OperatorTrading.md","articles":[]}]},"previous":{"title":"Client","level":"1.3.5","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation":"http://crates.plasm.stake.co.jp","PlasmProject Whitepaper in JP":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/Operator.md","mtime":"2019-09-28T04:42:40.314Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-28T04:40:39.506Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Operator","level":"1.3.6","depth":2,"next":{"title":"PlasmChain","level":"1.4","depth":1,"path":"PlasmChain/README.md","ref":"PlasmChain/README.md","articles":[{"title":"Plasm Chain Token Design","level":"1.4.1","depth":2,"path":"PlasmChain/TokenDesign.md","ref":"PlasmChain/TokenDesign.md","articles":[]},{"title":"Consensus Algorithm","level":"1.4.2","depth":2,"path":"PlasmChain/ConsensusAlgorithm.md","ref":"PlasmChain/ConsensusAlgorithm.md","articles":[]},{"title":"Plasm Treasury","level":"1.4.3","depth":2,"path":"PlasmChain/Treasury.md","ref":"PlasmChain/Treasury.md","articles":[]},{"title":"Operator Trading","level":"1.4.4","depth":2,"path":"PlasmChain/OperatorTrading.md","ref":"PlasmChain/OperatorTrading.md","articles":[]}]},"previous":{"title":"Client","level":"1.3.5","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasm.stake.co.jp","PlasmProject Whitepaper in JP":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/Operator.md","mtime":"2019-09-28T05:23:48.672Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-28T04:40:39.506Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
