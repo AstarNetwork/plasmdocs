@@ -88,6 +88,11 @@
     
         
         <li>
+            <a href="http://crates.plasm.stake.co.jp" target="_blank" class="custom-link">Documentation</a>
+        </li>
+    
+        
+        <li>
             <a href="https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf" target="_blank" class="custom-link">PlasmProject Whitepaper in JP</a>
         </li>
     
@@ -224,6 +229,77 @@
             
         </li>
     
+        <li class="chapter " data-level="1.4" data-path="PlasmChain/">
+            
+                <a href="PlasmChain/">
+            
+                    
+                    PlasmChain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="PlasmChain/TokenDesign.html">
+            
+                <a href="PlasmChain/TokenDesign.html">
+            
+                    
+                    Plasm Chain Token Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="PlasmChain/ConsensusAlgorithm.html">
+            
+                <a href="PlasmChain/ConsensusAlgorithm.html">
+            
+                    
+                    Consensus Algorithm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="PlasmChain/Treasury.html">
+            
+                <a href="PlasmChain/Treasury.html">
+            
+                    
+                    Plasm Treasury
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="PlasmChain/OperatorTrading.html">
+            
+                <a href="PlasmChain/OperatorTrading.html">
+            
+                    
+                    Operator Trading
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
     
 
@@ -269,17 +345,32 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="introduction">Introduction</h1>
-<p>We will update the OS of the existing society using the blockchain. In the existing society, there is a history of creating monopoly rules of information and wealth by those who have authority and rules that are advantageous to them. In addition, even if a fair mechanism is sought, it can be said that there is no transparency and it depends on trust. For such an existing society, blockchain uses a decentralized governance to realize a trustless system with transparency and fairness that the platform does not manage. This is because blockchain is a system that can achieve fault tolerance and high tamper resistance on a system that anyone can view, verify and operate.</p>
-<hr>
-<p>An application is necessary to actually deliver the benefits to users as creating a social OS. This is because an application is an interface that connects a kind of OS and users. Applications on the blockchain are commonly called Decentralized applications (Dapps). Currently, Dapps are developed and deployed to users in various blockchains in the form of smart contracts and chain codes. However, the processing performance of Dapps is not high due to the distributed and redundant structure of the blockchain. The transaction throughput of Ethereum, the blockchain with the largest smart contract, is 14 transactions per second. On the other hand, VISA and ARI PAY, which have many users around the world, process 1700 transactions and 256,000 transactions per second. It turns out that the current performance is too inadequate for many users to benefit from Dapps. Therefore, various scale solutions were devised in the blockchain.</p>
-<hr>
-<p>There are several blockchain scale solutions. For example, a solution that compresses the block size such as Segwit, a state channel in which several users combine off-chain transactions and only the final state is written in the blockchain There is Sharding that performs distributed processing, and Plasma that stores transactions in a separate chain and stores only the root hash in the main chain. The reason we focused on Plasma is that Plasma is a scale solution that is the least dependent on the processing performance of the main chain. In Plasma, an operator called a single operator operates the side chain. This means that many transactions can be handled in a centralized way that does not require a consensus process. It means that the scale solution used in the existing centralized system can be used as it is, so it is possible to achieve high processing performance that is not possible with a distributed ledger. Plasma&apos;s approach can be said to become an indispensable technology in the future because it can dramatically improve processing performance for all distributed ledgers.</p>
-<hr>
-<p>I understand that Plasma boasts high scalability. However, there are still some problems with the operation of Plasma. One is that there is a limit to what can be done with Plamsa applications (Plaaps). It is said that what Plasma can do is &quot;descriptive with Predicate&quot;. And the definition of the range that can be described by this &quot;Predicate&quot; is currently under study. Another is that Plasma is a complex system consisting of multiple components. Plapps cannot be built simply by writing and deploying smart contracts. Specifically, Plapps consists of four components: a parent chain contract, a child chain, an operator, and a user. We will solve these problems through Plasm Project. <strong>Plasm</strong> creates a library with a standard so that Predicate can be written correctly. <strong>PlaaS</strong> builds a cloud service that allows you to easily deploy multiple components. It helps developers to develop Plaaps through products provided by Plasm Project.</p>
-<hr>
-<p>We are planning to expand these systems around Polkadot. Polkadot is a protocol that bundles multiple different blockchains. Polkadot allows multiple blockchains that have been independent so far to be interoperable under transparent and decentralized governance. In addition, there is a framework for creating blockchains called Substrate. Polkadot bundles and Polkadot itself can also be created using Substrate. Covering all uses with one ideal blockchain is not practical. Therefore, many blockchain platforms have been created so far. Polkadot and Substrate will further spur the times when people build blockchains according to their use. We decided to bet on this big trend. Of course, Plasma is an indispensable role in Polkadot. So we chose Polkadot &#xD7; Substrate before deploying Plasma.</p>
-<hr>
+                                <p>Reminder: This is the first draft. We will polish this draft to make it more understandable and more professional.</p>
+<h1 id="introduction">Introduction</h1>
+<p>We realize Web3.0 by utilizing blockchain technologies. In the existing society, data and wealth are controlled by central authorities and history shows us that they made a monopoly structure and created the rules that justify themselves. Even if the centralized authority builds a fair mechanism, this has not been verifiable because the system has no transparency. Traditionally, the protocol and application have been based on the trust of the party.  On the other hand, public blockchain, a decentralized peer to peer network has decentralized governance to realize a trust-less system with high transparency and fairness without a single point of failure. In this sense, public blockchain has fault tolerance and a high tamper resistance on the system that anyone can view, verify, and operate.</p>
+<p>An application is necessary when protocol developers deliver the benefits of blockchain because an application is an interface between a protocol and a user. Blockchain applications are generally called Decentralized Application (DApps). A lot of DApps have been developed and provided to users on various blockchains in the form of smart contracts and chain codes. However, the processing performance of Dapps is not high due to the distributed and redundant structure of blockchains. The transaction throughput of Ethereum, the largest smart contract platform, is 14 per second. On the other hand, VISA and Alipay, which have many users around the world, process 3,000 transactions and 256,000 transactions per second. It turns out that the current performance is too inadequate for many users to get benefits from Dapps. Therefore, various scaling solutions were invented.</p>
+<p>There are several blockchain scaling solutions. For example, </p>
+<ol>
+<li><strong>SegWit</strong> : Fixing transaction malleability by removing the signature information and storing it outside the base transaction block. </li>
+<li><strong>State channel</strong> : Combining off-chain transactions among particular users and only the final state is committed to the main blockchain.</li>
+<li><strong>Sharding :</strong> Allowing many more transactions to be processed in parallel at the same time by making shards. </li>
+<li><strong>Plasma</strong> :  Storing transactions in separate child chains and only the root hash is stored in the main chain.</li>
+</ol>
+<p>And so on. 
+<strong>To Do: Clarify the sentences above.</strong></p>
+<p>Among all scaling solutions, we focus on layer2 solutions because public blockchain like Bitcoin and Ethereum are almost full[15]. We believe that blockchain will be used in a different way from the way we use today. The 1st layer will be a trust layer and a 2nd layer will be a transaction layer. </p>
+<p>Among all layer2 solutions, the reason we focus on Plasma is that Plasma is a scaling solution that is the least dependent on the processing performance of the main chain. In Plasma, an operator manages his side-chain without sacrificing decentralization. This means that many transactions can be handled in a centralized way that does not require a consensus process, but all participants on the side chain can safely exit by submitting fraud proofs. The scaling solutions used in the existing centralized system can be used as they are. Hence, it is possible to achieve high processing performance that is not feasible with a native distributed ledger. Plasma should be recognized as an indispensable technology in the future because it can dramatically improve processing performance for all distributed ledgers.</p>
+<p>However, Plasma has several difficulties. First, there is a limitation on what can be done with Plasma Applications (Plapps).  All the things that Plasma can is described with Predicate[11]. But, the Predicate is under development. 
+<strong>To Do: Add an explanation of Predicate.</strong></p>
+<p>Second, it is difficult to make a Plapps compared to making a traditional DApp because writing and deploying smart contracts are not enough to make a Plapps. Plasma is the complicated technical stack that consists of several components. Precisely, Plasma application consists of 4 components, a smart contract on a parent chain, a child chain, an operator, and a user. We solve these two problems through <strong>&quot;Plasm Project&quot;</strong>. </p>
+<p><strong>&quot;Plasm Project&quot;</strong> has</p>
+<ul>
+<li><strong>Plasm</strong> is a set of standard libraries that enable to write Predicates quickly.</li>
+<li><strong>PlaaS</strong> is cloud service to deploy and manage the Plasma components.</li>
+<li><strong>Plasm chain</strong> is a blockchain that is expected to be a parachain on Polkadot.</li>
+</ul>
+<p>With these tools, Plasm developers can build their applications easily. </p>
+<p>We are planning to build these systems around Polkadot.  Polkadot is a heterogeneous multi chain framework which empowers blockchain networks to work together under the protection of shared security. In addition, there is a framework to create blockchains called Substrate. Currently, Polkadot itself and parachains are created with Substrate. In the future, we think blockchains will be paralleled simply because there is no perfect blockchain which supports all governance models and customer&apos;s needs by itself. Hence, there are more than 900 public blockchains have been built and more and more blockchains are being created. Polkadot and Substrate empower this movement of creating the perfect custom blockchain based on the need. Plasma is one of the most promising domains on Polkadot as Dr.Gavin mentioned at Subzero Summit. We decided to make Plasma solutions for Polkadot and Substrate.</p>
 <p>Presented by <a href="https://stake.co.jp" target="_blank">StakeTechnologies</a>.</p>
 
                                 
@@ -320,7 +411,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Trying","level":"1.2","depth":1,"path":"Trying.md","ref":"Trying.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","PlasmProject Whitepaper in JP":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"Introduction.md","mtime":"2019-09-17T14:07:00.390Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-17T16:04:15.414Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Trying","level":"1.2","depth":1,"path":"Trying.md","ref":"Trying.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation":"http://crates.plasm.stake.co.jp","PlasmProject Whitepaper in JP":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"Introduction.md","mtime":"2019-09-28T04:40:29.323Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-28T04:40:39.506Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

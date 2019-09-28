@@ -90,6 +90,11 @@
     
         
         <li>
+            <a href="http://crates.plasm.stake.co.jp" target="_blank" class="custom-link">Documentation</a>
+        </li>
+    
+        
+        <li>
             <a href="https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf" target="_blank" class="custom-link">PlasmProject Whitepaper in JP</a>
         </li>
     
@@ -226,6 +231,77 @@
             
         </li>
     
+        <li class="chapter " data-level="1.4" data-path="../PlasmChain/">
+            
+                <a href="../PlasmChain/">
+            
+                    
+                    PlasmChain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../PlasmChain/TokenDesign.html">
+            
+                <a href="../PlasmChain/TokenDesign.html">
+            
+                    
+                    Plasm Chain Token Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../PlasmChain/ConsensusAlgorithm.html">
+            
+                <a href="../PlasmChain/ConsensusAlgorithm.html">
+            
+                    
+                    Consensus Algorithm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../PlasmChain/Treasury.html">
+            
+                <a href="../PlasmChain/Treasury.html">
+            
+                    
+                    Plasm Treasury
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../PlasmChain/OperatorTrading.html">
+            
+                <a href="../PlasmChain/OperatorTrading.html">
+            
+                    
+                    Operator Trading
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
     
 
@@ -271,12 +347,15 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="about-plasma-overview">About Plasma Overview</h1>
-<p>This item explains the overview of Plasma.</p>
-<h2 id="about-plasma">About Plasma</h2>
-<p>Plasma is a blockchain scale solution.</p>
-<p>There are several solutions for scaling blockchains. For example, a solution that compresses the block size, such as Segwit, a state channel that allows users to combine several transactions off-chain and describe only the final state in the blockchain, and sharding that distributes transactions on multiple nodes , And Plasma that saves only the root hash in the main chain by transacting to another chain.</p>
-<p>The reason we focused on Plasma is that Plasma is a scalable solution that is the least dependent on the processing performance of the main chain. In Plasma, an operator called a single operator operates the side chain. This means that many transactions can be handled in a centralized way that does not require a consensus process. It means that the scale solution used in the existing centralized system can be used as it is, so it is possible to achieve high processing performance that is not possible with a distributed ledger. Plasma&apos;s approach can be said to become an indispensable technology in the future because it can dramatically improve processing performance for all distributed ledgers.</p>
+                                <h1 id="plasma-overview">Plasma Overview</h1>
+<p>We will walk through the basic functions of Plasma on this page.</p>
+<p>Plasma is one of the blockchain scaling solutions invented by Joseph Poon Poon and Vitalik Buterin. <a href="https://plasma.io/plasma.pdf" target="_blank">White paper</a></p>
+<p>Plasma is a framework to make a side chain and connect it to a main chain (e.g. Ethereum). The side chain and the main chain communicate each other.  </p>
+<h2 id="why-plasma">Why Plasma?</h2>
+<p>Blockchains are slow and expensive by design. Blockchains can&apos;t be an infrastructure of the world without an high scalability. We, Plasma implementors try to make it fast and cheap without sacrifycing safety and decentralization so that everyone can use blockchains. </p>
+<h2 id="hierarchical-structure">Hierarchical Structure</h2>
+<p>Plasma has an hierarchical stracture which consists of a parant chain and child chains. The top of these chains is called the root chain (e.g. Ethereum) Traditionally, public blockchain processses all transactions on the first layer. However, this mechanism doesn&apos;t scale because of the limited capacity and capability. Therefore, the second layer, the Plasma child chains is used as a transaction layer. </p>
+<p>To Do: Add descriptions.</p>
 
                                 
                                 </section>
@@ -320,7 +399,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Plasma Overview","level":"1.3.1","depth":2,"next":{"title":"Generalized Plasma","level":"1.3.2","depth":2,"path":"TechnicalChapter/GeneralizedPlasma.md","ref":"TechnicalChapter/GeneralizedPlasma.md","articles":[]},"previous":{"title":"TechnicalChapter","level":"1.3","depth":1,"path":"TechnicalChapter/README.md","ref":"TechnicalChapter/README.md","articles":[{"title":"Plasma Overview","level":"1.3.1","depth":2,"path":"TechnicalChapter/PlasmaOverview.md","ref":"TechnicalChapter/PlasmaOverview.md","articles":[]},{"title":"Generalized Plasma","level":"1.3.2","depth":2,"path":"TechnicalChapter/GeneralizedPlasma.md","ref":"TechnicalChapter/GeneralizedPlasma.md","articles":[]},{"title":"Constitution","level":"1.3.3","depth":2,"path":"TechnicalChapter/Constitution.md","ref":"TechnicalChapter/Constitution.md","articles":[]},{"title":"Contracts","level":"1.3.4","depth":2,"path":"TechnicalChapter/Contracts.md","ref":"TechnicalChapter/Contracts.md","articles":[]},{"title":"Client","level":"1.3.5","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},{"title":"Operator","level":"1.3.6","depth":2,"path":"TechnicalChapter/Operator.md","ref":"TechnicalChapter/Operator.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","PlasmProject Whitepaper in JP":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/PlasmaOverview.md","mtime":"2019-09-08T15:01:33.123Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-17T16:04:15.414Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Plasma Overview","level":"1.3.1","depth":2,"next":{"title":"Generalized Plasma","level":"1.3.2","depth":2,"path":"TechnicalChapter/GeneralizedPlasma.md","ref":"TechnicalChapter/GeneralizedPlasma.md","articles":[]},"previous":{"title":"TechnicalChapter","level":"1.3","depth":1,"path":"TechnicalChapter/README.md","ref":"TechnicalChapter/README.md","articles":[{"title":"Plasma Overview","level":"1.3.1","depth":2,"path":"TechnicalChapter/PlasmaOverview.md","ref":"TechnicalChapter/PlasmaOverview.md","articles":[]},{"title":"Generalized Plasma","level":"1.3.2","depth":2,"path":"TechnicalChapter/GeneralizedPlasma.md","ref":"TechnicalChapter/GeneralizedPlasma.md","articles":[]},{"title":"Constitution","level":"1.3.3","depth":2,"path":"TechnicalChapter/Constitution.md","ref":"TechnicalChapter/Constitution.md","articles":[]},{"title":"Contracts","level":"1.3.4","depth":2,"path":"TechnicalChapter/Contracts.md","ref":"TechnicalChapter/Contracts.md","articles":[]},{"title":"Client","level":"1.3.5","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},{"title":"Operator","level":"1.3.6","depth":2,"path":"TechnicalChapter/Operator.md","ref":"TechnicalChapter/Operator.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation":"http://crates.plasm.stake.co.jp","PlasmProject Whitepaper in JP":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/PlasmaOverview.md","mtime":"2019-09-28T04:42:40.312Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-28T04:40:39.506Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

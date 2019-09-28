@@ -90,6 +90,11 @@
     
         
         <li>
+            <a href="http://crates.plasm.stake.co.jp" target="_blank" class="custom-link">Documentation</a>
+        </li>
+    
+        
+        <li>
             <a href="https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf" target="_blank" class="custom-link">PlasmProject Whitepaper in JP</a>
         </li>
     
@@ -226,6 +231,77 @@
             
         </li>
     
+        <li class="chapter " data-level="1.4" data-path="PlasmChain/">
+            
+                <a href="PlasmChain/">
+            
+                    
+                    PlasmChain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="PlasmChain/TokenDesign.html">
+            
+                <a href="PlasmChain/TokenDesign.html">
+            
+                    
+                    Plasm Chain Token Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="PlasmChain/ConsensusAlgorithm.html">
+            
+                <a href="PlasmChain/ConsensusAlgorithm.html">
+            
+                    
+                    Consensus Algorithm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="PlasmChain/Treasury.html">
+            
+                <a href="PlasmChain/Treasury.html">
+            
+                    
+                    Plasm Treasury
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="PlasmChain/OperatorTrading.html">
+            
+                <a href="PlasmChain/OperatorTrading.html">
+            
+                    
+                    Operator Trading
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
     
 
@@ -271,9 +347,105 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="trying-plasm">Trying Plasm</h1>
-<p>Shall we try to deploy Plasm contract and operation on <a href="https://polkadot.js.org/apps/" target="_blank">Polkadot.app</a>.</p>
-<p><em>- Coming soon.</em></p>
+                                <h1 id="try-plasm">Try Plasm</h1>
+<p>Let&apos;s try Plasm contracts on <a href="https://polkadot.js.org/apps/" target="_blank">Polkadot.app</a>.
+<em>- Coming soon.</em></p>
+<p>Now, you can make a Plasma chain with Substrate. </p>
+<h2 id="lets-make-a-plasma-chain-with-plasm-and-substrate">Let&apos;s make a Plasma chain with Plasm and Substrate.</h2>
+<p>In this chapter, we would like to show you how to make Plasma chains with Plasm and Substrate.</p>
+<p>Plasm ver0.2.0 is a prototype which has the following functions.</p>
+<ul>
+<li>Plasma MVP implementation<ul>
+<li>Plasm-Parent provides the parent chain&#x2019;s specification. Mainly
+Plasm-Parent has the logic of each exit game.</li>
+<li>Plasm-Child provides the child chain&#x2019;s specification.</li>
+<li>Plasm UTXO/Merkle provides the data structure which manages transactions.</li>
+</ul>
+</li>
+<li>Plasma Client implementation<ul>
+<li>Plasm Util is a wrapper function to call the endpoint of blockchains.</li>
+<li>Plasm Operator is monitoring a parent chain and a child chain to make the deposit/exit successful.</li>
+<li>Plasm CLI is a CLI tool to call the endpoint.</li>
+<li>Plasm Wallet is an application to send, withdraw and receive tokens.</li>
+</ul>
+</li>
+</ul>
+<p>As a next step, let&#x2019;s make a wallet demo application on your laptop and see what&#x2019;s happening.</p>
+<h3 id="step1">Step1</h3>
+<p>Clone Plasm from our GitHub.</p>
+<pre><code>git clone https://github.com/stakedtechnologies/Plasm.git
+cd Plasm
+git checkout v0.2.0
+</code></pre><h3 id="step2">Step2</h3>
+<p>Build Plasm Node. After a successful build, you can run Plasma nodes.</p>
+<pre><code>cargo build
+./target/debug/plasm-node --dev
+</code></pre><h3 id="step3">Step3</h3>
+<p>Open another terminal and clone Plasm-Client from our GitHub.</p>
+<pre><code>git clone https://github.com/stakedtechnologies/plasm-client.git
+cd plasm-client
+git checkout v0.2.0
+</code></pre><h3 id="step4">Step4</h3>
+<p>Start Plasm Operator. The operator is monitoring both the parent chain and the child chain. When the parent chain deposits tokens to the child chain or the child chain exits tokens to the parent chain, the operator writes the root hash of the child chain on the parent chain.</p>
+<pre><code>cd packages/operator
+cp ../../env.sample .env
+yarn install
+yarn start
+</code></pre><p><img src="img/plasm1.jpg" alt="Plasm"></p>
+<p>If you can see the output below, this project has been successful.</p>
+<p><img src="img/plasm2.jpg" alt="Plasm"></p>
+<p>Yeah, you made it, but what actually happened? Let me clarify! (You can skip if you want. This is complicated, so we will publish another article focused on this topic.)</p>
+<blockquote>
+<p>Plasm-Operator gets an event which the plasma child/parent chain issues and processes the following steps.
+Parent chain&#x2019;s events</p>
+<ul>
+<li>When an operator receives a Submit event, she finalizes &gt;the status of the child chain.</li>
+<li>When an operator receives a Deposit event, she sends tokens to the issuer.</li>
+<li>When an operator receives an ExitStart event, she deletes the UTXO which was used for exiting on the child chain.
+Child chain&#x2019;s events.
+When an operator receives a Submit event, she submits the ?root hash to the parent chain. The Submit event on a child chain is issued regularly. &#xFF08;You can decide this logic. For this time, 1 time in 5 blocks.)</li>
+</ul>
+</blockquote>
+<h3 id="step5">Step5</h3>
+<p>Open another terminal and move to plasm-client root directory. Then, start Plasm Wallet UI Demo Application.</p>
+<pre><code>cd packages/wallet
+yarn install
+yarn dev
+</code></pre><p><img src="img/plasm3.jpg" alt="Plasm"></p>
+<p>After that, let&#x2019;s go to localhost:8000 on your browser.
+We will create 2 different accounts and send/receive tokens by using the wallet application I mentioned above.</p>
+<h2 id="account-registration">Account Registration</h2>
+<p>First, you need to register your demo account. Since a default operator is Alice, you should add //Alice &#x2460;. Then, create an account &#x2461;. You can check Alice&#x2019;s balance &#x2462;.</p>
+<p><img src="img/plasm4.jpg" alt="Plasm"></p>
+<p>To send tokens from Alice to Bob, Alice to Tom and Bob to Tom, generate Bob&#x2019;s and Tom&#x2019;s account as well.</p>
+<p><img src="img/plasm5.jpg" alt="Plasm"></p>
+<h2 id="token-transfer-on-parent-chain">Token Transfer on Parent Chain</h2>
+<p>As a next step, we will send tokens from Alice to Bob and Alice to Tom on the parent chain.
+<img src="img/plasm6.jpg" alt="Plasm"></p>
+<p><img src="img/plasm7.jpg" alt="Plasm"></p>
+<p>Enter the account name and decide the amount of token. Then, click the &#x201C;Send&#x201D; button. Keep your eye on the &#x201C;ParentBalance&#x201D; next to the account name. After a successful transaction, you will notice that Bob&#x2019;s amount is increasing. Currently, we collect the exchange fee from the sender on the parent chain. So, Bob and Tom need to have some tokens on the parent chain.</p>
+<h2 id="deposit-deposit-tokens-from-parent-wallet-to-child-wallet">Deposit (Deposit tokens from Parent Wallet to Child Wallet.)</h2>
+<p><img src="img/plasm8.jpg" alt="Plasm"></p>
+<p>Third, we will send tokens from the parent chain to the child chain. For this time, Bob deposits 5,000,000 tokens to the child chain. Just keep in mind, it takes time to increase ChildBalance because the operator checks the event and executes a transaction.</p>
+<p><img src="img/plasm9.jpg" alt="Plasm"></p>
+<h2 id="token-transfer-on-child-chain">Token Transfer on Child Chain</h2>
+<p><img src="img/plasm10.jpg" alt="Plasm"></p>
+<p>Fourth, let&#x2019;s send some tokens from Bob to Tom on the child chain.</p>
+<p><img src="img/plasm11.jpg" alt="Plasm"></p>
+<p>Bob has 5,000,000 tokens. He sent 1,000,000 tokens out of 5,000,000 to Tom.</p>
+<h2 id="exit-part1&#xFF08;exit-tokens-from-childwallet-to-parentwallet&#xFF09;">Exit Part1&#xFF08;Exit tokens from ChildWallet to ParentWallet.&#xFF09;</h2>
+<p><img src="img/plasm12.jpg" alt="Plasm"></p>
+<p>Exit tokens from Tom&#x2019;s account on the child chain to his account on the parent chain. If you type your account name, you can find UTXO lists you have. A child chain has all transaction histories you made and tokens are exited based on UTXO.</p>
+<p><img src="img/plasm13.jpg" alt="Plasm"></p>
+<p>Press the ExitStart button so that you can exit your tokens to the parent chain.</p>
+<p><img src="img/plasm14.jpg" alt="Plasm"></p>
+<p>BUT, you have to wait about 60 seconds. It is a Plasma challenge period which we decided. Full node holders can challenge the legitimacy of exits in it.</p>
+<h2 id="exit-part2&#xFF08;exitfinalize-childwallet-to-parentwallet&#xFF09;">Exit Part2&#xFF08;ExitFinalize ChildWallet to ParentWallet.&#xFF09;</h2>
+<p>Click ExitFinalize.</p>
+<p><img src="img/plasm15.jpg" alt="Plasm"></p>
+<p>Then,</p>
+<p><img src="img/plasm16.jpg" alt="Plasm"></p>
+<p>Finally, the exit is successful. Well done!! This is a simple demo, but it&#x2019;s one giant leap for the Polkadot/Substrate community!!</p>
 
                                 
                                 </section>
@@ -317,7 +489,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Trying","level":"1.2","depth":1,"next":{"title":"TechnicalChapter","level":"1.3","depth":1,"path":"TechnicalChapter/README.md","ref":"TechnicalChapter/README.md","articles":[{"title":"Plasma Overview","level":"1.3.1","depth":2,"path":"TechnicalChapter/PlasmaOverview.md","ref":"TechnicalChapter/PlasmaOverview.md","articles":[]},{"title":"Generalized Plasma","level":"1.3.2","depth":2,"path":"TechnicalChapter/GeneralizedPlasma.md","ref":"TechnicalChapter/GeneralizedPlasma.md","articles":[]},{"title":"Constitution","level":"1.3.3","depth":2,"path":"TechnicalChapter/Constitution.md","ref":"TechnicalChapter/Constitution.md","articles":[]},{"title":"Contracts","level":"1.3.4","depth":2,"path":"TechnicalChapter/Contracts.md","ref":"TechnicalChapter/Contracts.md","articles":[]},{"title":"Client","level":"1.3.5","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},{"title":"Operator","level":"1.3.6","depth":2,"path":"TechnicalChapter/Operator.md","ref":"TechnicalChapter/Operator.md","articles":[]}]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"Introduction.md","ref":"Introduction.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","PlasmProject Whitepaper in JP":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"Trying.md","mtime":"2019-09-08T20:51:15.288Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-17T16:04:15.414Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Trying","level":"1.2","depth":1,"next":{"title":"TechnicalChapter","level":"1.3","depth":1,"path":"TechnicalChapter/README.md","ref":"TechnicalChapter/README.md","articles":[{"title":"Plasma Overview","level":"1.3.1","depth":2,"path":"TechnicalChapter/PlasmaOverview.md","ref":"TechnicalChapter/PlasmaOverview.md","articles":[]},{"title":"Generalized Plasma","level":"1.3.2","depth":2,"path":"TechnicalChapter/GeneralizedPlasma.md","ref":"TechnicalChapter/GeneralizedPlasma.md","articles":[]},{"title":"Constitution","level":"1.3.3","depth":2,"path":"TechnicalChapter/Constitution.md","ref":"TechnicalChapter/Constitution.md","articles":[]},{"title":"Contracts","level":"1.3.4","depth":2,"path":"TechnicalChapter/Contracts.md","ref":"TechnicalChapter/Contracts.md","articles":[]},{"title":"Client","level":"1.3.5","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},{"title":"Operator","level":"1.3.6","depth":2,"path":"TechnicalChapter/Operator.md","ref":"TechnicalChapter/Operator.md","articles":[]}]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"Introduction.md","ref":"Introduction.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation":"http://crates.plasm.stake.co.jp","PlasmProject Whitepaper in JP":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/wp.pdf"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"Trying.md","mtime":"2019-09-28T04:41:42.656Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-28T04:40:39.506Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
