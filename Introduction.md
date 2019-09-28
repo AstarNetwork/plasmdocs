@@ -1,6 +1,7 @@
 Reminder: This is the first draft. We will polish this draft to make it more understandable and more professional.
 
 # Introduction
+![Plasm](./img/plasm.png)
 We realize Web3.0 by utilizing blockchain technologies. In the existing society, data and wealth are controlled by central authorities and history shows us that they made a monopoly structure and created the rules that justify themselves. Even if the centralized authority builds a fair mechanism, this has not been verifiable because the system has no transparency. Traditionally, the protocol and application have been based on the trust of the party.  On the other hand, public blockchain, a decentralized peer to peer network has decentralized governance to realize a trust-less system with high transparency and fairness without a single point of failure. In this sense, public blockchain has fault tolerance and a high tamper resistance on the system that anyone can view, verify, and operate.
 
 An application is necessary when protocol developers deliver the benefits of blockchain because an application is an interface between a protocol and a user. Blockchain applications are generally called Decentralized Application (DApps). A lot of DApps have been developed and provided to users on various blockchains in the form of smart contracts and chain codes. However, the processing performance of Dapps is not high due to the distributed and redundant structure of blockchains. The transaction throughput of Ethereum, the largest smart contract platform, is 14 per second. On the other hand, VISA and Alipay, which have many users around the world, process 3,000 transactions and 256,000 transactions per second. It turns out that the current performance is too inadequate for many users to get benefits from Dapps. Therefore, various scaling solutions were invented.
@@ -30,6 +31,7 @@ Second, it is difficult to make a Plapps compared to making a traditional DApp b
 - **PlaaS** is cloud service to deploy and manage the Plasma components.
 - **Plasm chain** is a blockchain that is expected to be a parachain on Polkadot.
 
+![PlasmProject](./img/project.png)
 With these tools, Plasm developers can build their applications easily. 
 
 We are planning to build these systems around Polkadot.  Polkadot is a heterogeneous multi chain framework which empowers blockchain networks to work together under the protection of shared security. In addition, there is a framework to create blockchains called Substrate. Currently, Polkadot itself and parachains are created with Substrate. In the future, we think blockchains will be paralleled simply because there is no perfect blockchain which supports all governance models and customer's needs by itself. Hence, there are more than 900 public blockchains have been built and more and more blockchains are being created. Polkadot and Substrate empower this movement of creating the perfect custom blockchain based on the need. Plasma is one of the most promising domains on Polkadot as Dr.Gavin mentioned at Subzero Summit. We decided to make Plasma solutions for Polkadot and Substrate.
