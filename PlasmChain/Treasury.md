@@ -1,12 +1,5 @@
-# Plasm Operator
+# Plasm Treasury
 
-Plasm Opeartor is an opeartor of a Plasm child chain.
-
-To Do: Add descriptions here.
-
-*- Coming soon.*
-
-## Plasm Treasury
 50% of the block reward on the Plasm chain is distributed to DApps developers who increase the value of the network. PLM holders can stake not only on a validator but also on a Plasma application operator (Plapp operator), the person who manages a child chain and an application on that chain. 
 
 Plapps nominator stakes Plasm tokens on Plasma application operator.
@@ -25,15 +18,11 @@ In this case,  `Plapps Nominator_{i,j}` gets the following block reward.
 
 Note:  `Plapps Nominator_{i,j} = Plapps Nominator_{k,l} (i≠k)` is possible. 
 
-```math
-数式かいて！
-```
+![NominatorReward](../img/reward1.png)
 
-A staked Plapp operator can get the following block reward 
+A staked Plapp operator can get the following block reward.
 
-```math
-数式かいて
-```
+![OperatorReward](../img/reward2.png)
 
 The reward of Plapps nominator is in proportion to the staking amount of the Plapps operator regardless of the selected operator. On the other hand, a Plapp operator can get rewards in proportion to the staked amount and  in inverse proportion to the total staked amount. Plapps nominator tends to stake his tokens on an application which enhances the value of the Plasm network because the price of PLM is increased by the valuable application. In addition to that, Plapps operators are able to get semipermanent block rewards through this incentive design. In general, traditional DApps creators are definitely contributing to the ecosystem, but what they are actually doing is paying costs like gas and get few rewards. We solve this problem by fixing basic low layer functions. 
 
@@ -43,12 +32,6 @@ An operator can make some malicious attacks, but fortunately, Plasma has a metho
 
  `x^{old}` is the rate of `x` when a nominator stakes PLM. The nominator will get the reward calculated below. 
 
-```math
-数式かいて
-```
+![AdditionalReward](../img/reward3.png)
 
-This means that the nominator can get bonus in proportion to the operator's rewards.  
-
-## 4.4 Operator Trading
-
-Operator trading is a mechanism to buy and sell the right to be a Plasma operator. Since the right is tradable, this is similar to M&A. A Plasma operator gets constant basic income by creating Plapps owning to Plasm treasury. If the Plapp is meaningful for the community, the creator receives higher revenue. As a result, other players may want the right to operate the Plapp. The successor will receive the reward instead of a previous operator. The important thing is that the buyer does not need to take over the operation itself though the buyer has ownership. Through this mechanism, we assume that the new off-chain market will be created.
+This means that the nominator can get bonus in proportion to the operator's rewards.

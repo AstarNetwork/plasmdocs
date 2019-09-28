@@ -11,3 +11,9 @@
     * [Contracts](TechnicalChapter/Contracts.md)
     * [Client](TechnicalChapter/Client.md)
     * [Operator](TechnicalChapter/Operator.md)
+
+* [PlasmChain](PlasmChain/README.md)
+    * [Plasm Chain Token Design](PlasmChain/TokenDesign.md)
+    * [Consensus Algorithm](PlasmChain/ConsensusAlgorithm.md)
+    * [Plasm Treasury](PlasmChain/Treasury.md)
+    * [Operator Trading](PlasmChain/OperatorTrading.md)

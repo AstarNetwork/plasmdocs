@@ -1,4 +1,4 @@
-# About Plasm Constitution
+# Plasm Constitution
 
 Plasm is a library for handling Plasma chains in Substrate. Plasm initially only envisaged the development of SRML (Substrate Runtime Module Library). However, we decided to change the policy and divide the Plasm library into multiple components to make it easier for users to deploy Plasma applications. Accordingly, Plasma adopted the Plasma Group Spec (PGSpec) as the standard implementation standard for Plasma. However, PGSpec is supposed to have Ethereum as the parent chain. Therefore, Plasm modifies PGSpec to a design suitable for Substrate. The following is the overall structure of Plasm PGSpec.
 

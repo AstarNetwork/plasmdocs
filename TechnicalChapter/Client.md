@@ -1,7 +1,7 @@
-# About Plasm Client
+# Plasm Client
 
-Plasm Client is client sides application of plasm.
+Plasm client provides client applications and a common set of libraries for an operator and a user. 
 
-This will be lounch [here](https://github.com/stakedtechnologies/plasm-client).
+More information can be founded [here](https://github.com/stakedtechnologies/plasm-client).
 
 *- Coming soon.*
