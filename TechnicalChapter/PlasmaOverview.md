@@ -10,6 +10,3 @@ Blockchains are slow and expensive by design. Blockchains can't be an infrastruc
 
 ## Hierarchical Structure
 Plasma has an hierarchical stracture which consists of a parant chain and child chains. The top of these chains is called the root chain (e.g. Ethereum) Traditionally, public blockchain processses all transactions on the first layer. However, this mechanism doesn't scale because of the limited capacity and capability. Therefore, the second layer, the Plasma child chains is used as a transaction layer. 
-
-To Do: Add descriptions.
-
