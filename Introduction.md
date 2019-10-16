@@ -13,15 +13,13 @@ There are several blockchain scaling solutions. For example,
 3. **Sharding :** Allowing many more transactions to be processed in parallel at the same time by making shards. 
 4. **Plasma** :  Storing transactions in separate child chains and only the root hash is stored in the main chain.
 
-And so on. 
-**To Do: Clarify the sentences above.**
-
 Among all scaling solutions, we focus on layer2 solutions because public blockchain like Bitcoin and Ethereum are almost full[15]. We believe that blockchain will be used in a different way from the way we use today. The 1st layer will be a trust layer and a 2nd layer will be a transaction layer. 
 
 Among all layer2 solutions, the reason we focus on Plasma is that Plasma is a scaling solution that is the least dependent on the processing performance of the main chain. In Plasma, an operator manages his side-chain without sacrificing decentralization. This means that many transactions can be handled in a centralized way that does not require a consensus process, but all participants on the side chain can safely exit by submitting fraud proofs. The scaling solutions used in the existing centralized system can be used as they are. Hence, it is possible to achieve high processing performance that is not feasible with a native distributed ledger. Plasma should be recognized as an indispensable technology in the future because it can dramatically improve processing performance for all distributed ledgers.
 
 However, Plasma has several difficulties. First, there is a limitation on what can be done with Plasma Applications (Plapps).  All the things that Plasma can is described with Predicate[11]. But, the Predicate is under development. 
-**To Do: Add an explanation of Predicate.**
+
+Note that Predicate is a model which makes it possible to generalize secure state updates of a layer2 application.
 
 Second, it is difficult to make a Plapps compared to making a traditional DApp because writing and deploying smart contracts are not enough to make a Plapps. Plasma is the complicated technical stack that consists of several components. Precisely, Plasma application consists of 4 components, a smart contract on a parent chain, a child chain, an operator, and a user. We solve these two problems through **"Plasm Project"**. 
 
