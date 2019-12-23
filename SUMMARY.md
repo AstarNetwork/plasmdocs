@@ -17,3 +17,7 @@
     * [Consensus Algorithm](PlasmChain/ConsensusAlgorithm.md)
     * [Plasm Treasury](PlasmChain/Treasury.md)
     * [Operator Trading](PlasmChain/OperatorTrading.md)
+
+* [PlasmTestnet](PlasmTestnet/README.md)
+    * [Design Overview](PlasmTestnet/DesignOverview.md)
+    * [Validator Guide](PlasmTestnet/ValidatorGuide.md)
