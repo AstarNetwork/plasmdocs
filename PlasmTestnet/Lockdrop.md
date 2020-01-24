@@ -7,10 +7,10 @@ Testnet Lockdrop is also final tests of lockdrop sourcecode before mainnet launc
 First (Ropsten) lockdrop
 ------------------------
 
-Currency: Ropsten `ETH`
-Dates: 13 Dec - 20 Dec 2019.
-The Aim: initial token distribution for `Plasm Testnet V3`.
-URI: https://lockdrop.plasmnet.io/
+* Currency: Ropsten `ETH`
+* Dates: 13 Dec 2019 - 20 Dec 2019
+* The Aim: Initial token distribution for `Plasm Testnet V3`.
+* URI: https://lockdrop.plasmnet.io/
 
 This lockdrop was held in Ethereum Testnet before Plasm Testnet version 3 was launched.
 PLM tokens in Plasm Testnet was distributed in [genesis](https://github.com/staketechnologies/Plasm/blob/952165972b479bb2ee55211a67048f698561b3cc/bin/node/cli/src/chain_spec.rs#L247) according to `Lock` events
@@ -73,10 +73,10 @@ Now we just copy the hex string to the extrinsic field and push the **Submit RPC
 Second (Live Testnet) lockdrop
 ------------------------------
 
-Currency: Testnet `BTC`
-Dates: 15 Feb - 15 Mar 2020.
-The Aim: Live lockdrop for `Plasm Testnet V3`.
-URI: https://apps.plasmnet.io/
+* Currency: Testnet `BTC`
+* Dates: 15 Feb 2020 - 15 Mar 2020.
+* The Aim: Live lockdrop for `Plasm Testnet V3`.
+* URI: https://apps.plasmnet.io/
 
 This lockdrop will held in already launched Plasm Testnet to show 
 how to participate in Live lockdrop using Testnet BTC.

@@ -3,7 +3,7 @@ Plasm Validator Program
 
 > This short guide explain step by step how to become a Plasm Testnet validator.
 
-- Install node **v0.7.0** and above in accordance with [README](https://github.com/staketechnologies/Plasm#building-from-source).
+- Install node **v0.7.1** and above in accordance with [README](https://github.com/staketechnologies/Plasm#building-from-source).
 - Launch node plasm-node --validator --name node-name --rpc-cors all
 - Wait for syncing up.
 
