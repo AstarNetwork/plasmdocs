@@ -2,7 +2,7 @@ name: Build test on GitBook
 on: [pull_request]
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-18.04
     strategy:
         matrix:
