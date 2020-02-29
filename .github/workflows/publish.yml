@@ -1,6 +1,6 @@
 name: github pages
 
-on: push
+on: [push]
 #   push:
 #     branches:
 #       - master
@@ -14,15 +14,15 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-            node-version: ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
     - name: Install dependencies
-        run: yarn
+      run: yarn
     - name: GitBook Build
-        run: yarn run build
+      run: yarn run build
     - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./_book
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_book
