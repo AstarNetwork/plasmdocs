@@ -14,9 +14,4 @@ yarn run start
 ```
 
 ## publish contents.
-```
-git add .
-git commit -m 'update contents'
-git push origin master
-yarn run publish
-```
+If master push, auto build and publish to docs.plasmnet.io.

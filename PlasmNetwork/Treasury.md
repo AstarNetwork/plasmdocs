@@ -1,6 +1,6 @@
 # Plasm Treasury
 
-50% of the block reward on the Plasm chain is distributed to DApps developers who increase the value of the network. PLM holders can stake not only on a validator but also on a Plasma application operator (Plapp operator), the person who manages a child chain and an application on that chain. 
+50% of the block reward on the Plasm Network is distributed to DApps developers who increase the value of the network. PLM holders can stake not only on a validator but also on a Plasma application operator (Plapp operator), the person who manages a child chain and an application on that chain. 
 
 Plapps nominator stakes Plasm tokens on Plasma application operator.
 

@@ -3,14 +3,14 @@ Real-time Lockdrop
 
 As Real-time Lockdrop we mean process that held on already launched network.
 In comparation to Genesis Lockdrop that held before network launch to prepare genesis block token distribution,
-Real-time Lockdrop runs on live network to continue token distribution process. Plasm Multi-Lockdrop described at https://docs.plasmnet.io/PlasmChain/TokenDesign.html. First Lockdrop in sequence is Genesis lockdrop but second and next is Real-time lockdrops.
+Real-time Lockdrop runs on live network to continue token distribution process. Plasm Multi-Lockdrop described at https://docs.plasmnet.io/Plasm Network/TokenDesign.html. First Lockdrop in sequence is Genesis lockdrop but second and next is Real-time lockdrops.
 
 Real-time Lockdrop Module
 -------------------------
 
 Plasm Network implements Real-time Lockdrop approach using Substrate runtime module with name `plasm-lockdrop`.
 This module consist of multiple parts and use Off-chain workers launched on network authorities as powerful oracles
-that provide off-chain information into Plasm chain.
+that provide off-chain information into Plasm Network.
 
 ### Dollar Rate Oracle
 

@@ -27,7 +27,7 @@ Second, it is difficult to make a Plapps compared to making a traditional DApp b
 
 - **Plasm** is a set of standard libraries that enable to write Predicates quickly.
 - **PlaaS** is cloud service to deploy and manage the Plasma components.
-- **Plasm chain** is a blockchain that is expected to be a parachain on Polkadot.
+- **Plasm Network** is a blockchain that is expected to be a parachain on Polkadot.
 
 ![PlasmProject](./img/project.png)
 With these tools, Plasm developers can build their applications easily. 
