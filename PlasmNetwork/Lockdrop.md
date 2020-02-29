@@ -96,7 +96,7 @@ The following the below figure shows an example of how the amounts of tokens dis
 
 ## Real-Time Lockdrop
 
-Real-Time Lockdrop is a mechanism for 2-nd and 3-rd Lockdrop in Multi-Lockdrop described in the previous chapter. In 1-st Lockdrop, after the period, tokens are issued at once in the Genesis block. Real-Time Lockdrop allows you to get a PLM token immediately after you lock during the Lockdrop period. The details are [here](https://docs.plasmnet.io/PlasmChain/RealtimeLockdrop.html).
+Real-Time Lockdrop is a mechanism for 2-nd and 3-rd Lockdrop in Multi-Lockdrop described in the previous chapter. In 1-st Lockdrop, after the period, tokens are issued at once in the Genesis block. Real-Time Lockdrop allows you to get a PLM token immediately after you lock during the Lockdrop period. The details are [here](https://docs.plasmnet.io/PlasmNetwork/RealtimeLockdrop.html).
 
 ## Polkadot auctions Lockdrop
 
