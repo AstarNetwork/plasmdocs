@@ -18,6 +18,7 @@
     * [Consensus Algorithm](PlasmChain/ConsensusAlgorithm.md)
     * [Plasm Treasury](PlasmChain/Treasury.md)
     * [Operator Trading](PlasmChain/OperatorTrading.md)
+    * [Lockdrop](PlasmChain/Lockdrop.md)
     * [Real-time Lockdrop](PlasmChain/RealtimeLockdrop.md)
 
 * [PlasmTestnet](PlasmTestnet/README.md)

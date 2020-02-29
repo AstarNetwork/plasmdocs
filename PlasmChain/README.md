@@ -3,8 +3,8 @@
 
 This chapter discusses about PlasmChain.
 
-## [Plasm Chain Token Design](./TokenDesign.md)
-This item explains the overview of the token design.
+## [Plasm Network Lockdrop](./Lockdrop.md)
+This item explains the overview of the lockdrop design(token distributed algorithm).
 
 ## [Consensus Algorithm](./ConsensusAlgorithm.md)
 This item explains the overview of consensus algorithm.

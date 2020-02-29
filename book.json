@@ -9,7 +9,7 @@
 
     "extension": null,
 
-    "plugins": [],
+    "plugins": ["katex"],
 
     "structure": {
         "readme": "Introduction.md",
