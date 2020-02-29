@@ -8,7 +8,8 @@
     "init": "gitbook init",
     "start": "gitbook serve",
     "build": "gitbook build",
-    "publish": "gh-pages -d _book -m 'Auto publish book'"
+    "publish": "gh-pages -d _book -m 'Auto publish book'",
+    "install": "gitbook init && gitbook install"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
