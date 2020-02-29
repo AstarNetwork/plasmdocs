@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Real-time Lockdrop · Plasm Documentations</title>
+        <title>Plasm Network Token Design · Plasm Documentations</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../PlasmTestnet/" />
+    <link rel="next" href="ConsensusAlgorithm.html" />
     
     
-    <link rel="prev" href="Lockdrop.html" />
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -276,7 +276,7 @@
                 <a href="./">
             
                     
-                    PlasmChain
+                    Plasm Network
             
                 </a>
             
@@ -285,12 +285,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="TokenDesign.html">
+        <li class="chapter active" data-level="1.5.1" data-path="TokenDesign.html">
             
                 <a href="TokenDesign.html">
             
                     
-                    Plasm Chain Token Design
+                    Plasm Network Token Design
             
                 </a>
             
@@ -350,7 +350,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.6" data-path="RealtimeLockdrop.html">
+        <li class="chapter " data-level="1.5.6" data-path="RealtimeLockdrop.html">
             
                 <a href="RealtimeLockdrop.html">
             
@@ -456,7 +456,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Real-time Lockdrop</a>
+        <a href=".." >Plasm Network Token Design</a>
     </h1>
 </div>
 
@@ -471,41 +471,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="real-time-lockdrop">Real-time Lockdrop</h1>
-<p>As Real-time Lockdrop we mean process that held on already launched network.
-In comparation to Genesis Lockdrop that held before network launch to prepare genesis block token distribution,
-Real-time Lockdrop runs on live network to continue token distribution process. Plasm Multi-Lockdrop described at <a href="https://docs.plasmnet.io/PlasmChain/TokenDesign.html" target="_blank">https://docs.plasmnet.io/PlasmChain/TokenDesign.html</a>. First Lockdrop in sequence is Genesis lockdrop but second and next is Real-time lockdrops.</p>
-<h2 id="real-time-lockdrop-module">Real-time Lockdrop Module</h2>
-<p>Plasm Network implements Real-time Lockdrop approach using Substrate runtime module with name <code>plasm-lockdrop</code>.
-This module consist of multiple parts and use Off-chain workers launched on network authorities as powerful oracles
-that provide off-chain information into Plasm chain.</p>
-<h3 id="dollar-rate-oracle">Dollar Rate Oracle</h3>
-<p>This simple oracle implemented using Off-chain Workers and fetch BTC/ETH/EOS/etc. token price via HTTP requests on authorities.</p>
-<p><img src="../img/dollar_rate_oracle.png" alt="Dollar Rate Oracle"></p>
-<p>Dollar price filtered using <a href="https://en.wikipedia.org/wiki/Median_filter" target="_blank">Medial filter</a> to prevent high price fluctuation between measurements.</p>
-<h3 id="claim-voting-oracle">Claim Voting Oracle</h3>
-<p>As same as dollar rate oracle claim voting oracles checks that tokens in different chains was really locked according to protocol and votes for user request to mint Plasm native token for user.</p>
-<p><img src="../img/vote_oracle.png" alt="Vote Oracle"></p>
-<h4 id="btc-locking-user-story">BTC locking user story</h4>
-<ol>
-<li>Using DApp <strong>User</strong> generate p2sh address for given unlocker public key and lock duration.</li>
-<li>Using wallet <strong>User</strong> send BTC transaction to generated address. </li>
-<li>Using DApp <em>user</em> send extrinsic to Plasm Network with <strong>BTC transaction hash</strong> and locking parameters.</li>
-<li><strong>Off-chain workers</strong> get Lockdrop checking request from user.</li>
-<li><strong>Off-chain workers</strong> fetch BTC transaction data using HTTP from public source.</li>
-<li><strong>Off-chain workers</strong> vote on chain to approve/decline <em>user</em> request.</li>
-<li>When <em>User</em> request reach enough votes, he send <code>claim</code> extrinsic to get tokens on unlocker address (derivered from unlocker public key).</li>
-<li><em>User</em> receive Plasm token during BTC lockdrop.</li>
-</ol>
-<p>Estimation time of processing request (except BTC confirmation time): ~2-3 minutes.</p>
-<h4 id="references">References</h4>
-<ol>
-<li><a href="https://gnunicorn.github.io/substrate-offchain-cb/" target="_blank">https://gnunicorn.github.io/substrate-offchain-cb/</a></li>
-<li><a href="https://github.com/gnunicorn/substrate-offchain-cb" target="_blank">https://github.com/gnunicorn/substrate-offchain-cb</a></li>
-<li><a href="https://substrate.dev/docs/en/overview/off-chain-workers" target="_blank">https://substrate.dev/docs/en/overview/off-chain-workers</a></li>
-<li><a href="https://en.bitcoin.it/wiki/Timelock" target="_blank">https://en.bitcoin.it/wiki/Timelock</a></li>
-<li><a href="https://prestwi.ch/bitcoin-time-locks/" target="_blank">https://prestwi.ch/bitcoin-time-locks/</a></li>
-</ol>
+                                <h1 id="plasm-network-token-design">Plasm Network Token Design</h1>
 
                                 
                                 </section>
@@ -533,12 +499,12 @@ that provide off-chain information into Plasm chain.</p>
 
             
                 
-                <a href="Lockdrop.html" class="navigation navigation-prev " aria-label="Previous page: Lockdrop">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Plasm Network">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../PlasmTestnet/" class="navigation navigation-next " aria-label="Next page: PlasmTestnet">
+                <a href="ConsensusAlgorithm.html" class="navigation navigation-next " aria-label="Next page: Consensus Algorithm">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -549,7 +515,7 @@ that provide off-chain information into Plasm chain.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Real-time Lockdrop","level":"1.5.6","depth":2,"next":{"title":"PlasmTestnet","level":"1.6","depth":1,"path":"PlasmTestnet/README.md","ref":"PlasmTestnet/README.md","articles":[{"title":"Design Overview","level":"1.6.1","depth":2,"path":"PlasmTestnet/DesignOverview.md","ref":"PlasmTestnet/DesignOverview.md","articles":[]},{"title":"Validator Guide","level":"1.6.2","depth":2,"path":"PlasmTestnet/ValidatorGuide.md","ref":"PlasmTestnet/ValidatorGuide.md","articles":[]},{"title":"Lockdrop","level":"1.6.3","depth":2,"path":"PlasmTestnet/Lockdrop.md","ref":"PlasmTestnet/Lockdrop.md","articles":[]}]},"previous":{"title":"Lockdrop","level":"1.5.5","depth":2,"path":"PlasmChain/Lockdrop.md","ref":"PlasmChain/Lockdrop.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmChain/RealtimeLockdrop.md","mtime":"2020-02-29T07:10:02.431Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-29T07:10:56.010Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Plasm Network Token Design","level":"1.5.1","depth":2,"next":{"title":"Consensus Algorithm","level":"1.5.2","depth":2,"path":"PlasmNetwork/ConsensusAlgorithm.md","ref":"PlasmNetwork/ConsensusAlgorithm.md","articles":[]},"previous":{"title":"Plasm Network","level":"1.5","depth":1,"path":"PlasmNetwork/README.md","ref":"PlasmNetwork/README.md","articles":[{"title":"Plasm Network Token Design","level":"1.5.1","depth":2,"path":"PlasmNetwork/TokenDesign.md","ref":"PlasmNetwork/TokenDesign.md","articles":[]},{"title":"Consensus Algorithm","level":"1.5.2","depth":2,"path":"PlasmNetwork/ConsensusAlgorithm.md","ref":"PlasmNetwork/ConsensusAlgorithm.md","articles":[]},{"title":"Plasm Treasury","level":"1.5.3","depth":2,"path":"PlasmNetwork/Treasury.md","ref":"PlasmNetwork/Treasury.md","articles":[]},{"title":"Operator Trading","level":"1.5.4","depth":2,"path":"PlasmNetwork/OperatorTrading.md","ref":"PlasmNetwork/OperatorTrading.md","articles":[]},{"title":"Lockdrop","level":"1.5.5","depth":2,"path":"PlasmNetwork/Lockdrop.md","ref":"PlasmNetwork/Lockdrop.md","articles":[]},{"title":"Real-time Lockdrop","level":"1.5.6","depth":2,"path":"PlasmNetwork/RealtimeLockdrop.md","ref":"PlasmNetwork/RealtimeLockdrop.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmNetwork/TokenDesign.md","mtime":"2020-02-29T07:20:24.188Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-29T07:20:41.437Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

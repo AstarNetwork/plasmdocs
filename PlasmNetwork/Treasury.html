@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Plasm Chain Token Design · Plasm Documentations</title>
+        <title>Plasm Treasury · Plasm Documentations</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="ConsensusAlgorithm.html" />
+    <link rel="next" href="OperatorTrading.html" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="ConsensusAlgorithm.html" />
     
 
     </head>
@@ -276,7 +276,7 @@
                 <a href="./">
             
                     
-                    PlasmChain
+                    Plasm Network
             
                 </a>
             
@@ -285,12 +285,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.5.1" data-path="TokenDesign.html">
+        <li class="chapter " data-level="1.5.1" data-path="TokenDesign.html">
             
                 <a href="TokenDesign.html">
             
                     
-                    Plasm Chain Token Design
+                    Plasm Network Token Design
             
                 </a>
             
@@ -311,7 +311,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="Treasury.html">
+        <li class="chapter active" data-level="1.5.3" data-path="Treasury.html">
             
                 <a href="Treasury.html">
             
@@ -456,7 +456,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Plasm Chain Token Design</a>
+        <a href=".." >Plasm Treasury</a>
     </h1>
 </div>
 
@@ -471,7 +471,29 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="plasm-chain-token-design">Plasm Chain Token Design</h1>
+                                <h1 id="plasm-treasury">Plasm Treasury</h1>
+<p>50% of the block reward on the Plasm Network is distributed to DApps developers who increase the value of the network. PLM holders can stake not only on a validator but also on a Plasma application operator (Plapp operator), the person who manages a child chain and an application on that chain. </p>
+<p>Plapps nominator stakes Plasm tokens on Plasma application operator.</p>
+<p><img src="../img/004.jpg" alt="PlasmTreasury"></p>
+<p>Definition</p>
+<ul>
+<li>BlockReward: The block reward per a block</li>
+<li><code>n</code>: The number of Plapp operators</li>
+<li><code>m_i</code>: The number of Plapps nominators for i-th Plapp operator</li>
+<li><code>stake_{i,j}</code>: The total staking amount of j-th Plapps Nominator for the i-th Plasma operator</li>
+<li><code>Plapps Nominator_{i,j}</code>: j-th Plapps nominator who stakes on i-th Plapp operator</li>
+</ul>
+<p>In this case,  <code>Plapps Nominator_{i,j}</code> gets the following block reward. </p>
+<p>Note:  <code>Plapps Nominator_{i,j} = Plapps Nominator_{k,l} (i&#x2260;k)</code> is possible. </p>
+<p><img src="../img/reward1.png" alt="NominatorReward"></p>
+<p>A staked Plapp operator can get the following block reward.</p>
+<p><img src="../img/reward2.png" alt="OperatorReward"></p>
+<p>The reward of Plapps nominator is in proportion to the staking amount of the Plapps operator regardless of the selected operator. On the other hand, a Plapp operator can get rewards in proportion to the staked amount and  in inverse proportion to the total staked amount. Plapps nominator tends to stake his tokens on an application which enhances the value of the Plasm network because the price of PLM is increased by the valuable application. In addition to that, Plapps operators are able to get semipermanent block rewards through this incentive design. In general, traditional DApps creators are definitely contributing to the ecosystem, but what they are actually doing is paying costs like gas and get few rewards. We solve this problem by fixing basic low layer functions. </p>
+<p>An operator can make some malicious attacks, but fortunately, Plasma has a method to prevent  such operator&apos;s behaviors. When an operator commits a fraud, any user on the plasma chain can submit the fraud proof as evidence and the operator&apos;s block reward will be slashed as well as the Plapps nominator&apos;s staked tokens once the evidence is successfully approved. In other words, every Plapps nominator has a risk to lose it&apos;s token when his operator commits a fraud. A stakeholder who owns a large portion of the network stakes tokens on his Plapps operator, the operator will be slashed. </p>
+<p>  Assuming that there is the slashing mechanism, a nominator tends not to stake on an unstable operator. If all nominators stake their tokens on stable operators, the network will be centralized.  As a solution, the Plasm has an alternative incentive mechanism. Every nominator who stakes PLM on an operator who operates his application within three months prior to the birth has a right to get an additional bonus. This right can be executed for three months if the operator runs his application for more than a year.  </p>
+<p> <code>x^{old}</code> is the rate of <code>x</code> when a nominator stakes PLM. The nominator will get the reward calculated below. </p>
+<p><img src="../img/reward3.png" alt="AdditionalReward"></p>
+<p>This means that the nominator can get bonus in proportion to the operator&apos;s rewards.</p>
 
                                 
                                 </section>
@@ -499,12 +521,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: PlasmChain">
+                <a href="ConsensusAlgorithm.html" class="navigation navigation-prev " aria-label="Previous page: Consensus Algorithm">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="ConsensusAlgorithm.html" class="navigation navigation-next " aria-label="Next page: Consensus Algorithm">
+                <a href="OperatorTrading.html" class="navigation navigation-next " aria-label="Next page: Operator Trading">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -515,7 +537,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Plasm Chain Token Design","level":"1.5.1","depth":2,"next":{"title":"Consensus Algorithm","level":"1.5.2","depth":2,"path":"PlasmChain/ConsensusAlgorithm.md","ref":"PlasmChain/ConsensusAlgorithm.md","articles":[]},"previous":{"title":"PlasmChain","level":"1.5","depth":1,"path":"PlasmChain/README.md","ref":"PlasmChain/README.md","articles":[{"title":"Plasm Chain Token Design","level":"1.5.1","depth":2,"path":"PlasmChain/TokenDesign.md","ref":"PlasmChain/TokenDesign.md","articles":[]},{"title":"Consensus Algorithm","level":"1.5.2","depth":2,"path":"PlasmChain/ConsensusAlgorithm.md","ref":"PlasmChain/ConsensusAlgorithm.md","articles":[]},{"title":"Plasm Treasury","level":"1.5.3","depth":2,"path":"PlasmChain/Treasury.md","ref":"PlasmChain/Treasury.md","articles":[]},{"title":"Operator Trading","level":"1.5.4","depth":2,"path":"PlasmChain/OperatorTrading.md","ref":"PlasmChain/OperatorTrading.md","articles":[]},{"title":"Lockdrop","level":"1.5.5","depth":2,"path":"PlasmChain/Lockdrop.md","ref":"PlasmChain/Lockdrop.md","articles":[]},{"title":"Real-time Lockdrop","level":"1.5.6","depth":2,"path":"PlasmChain/RealtimeLockdrop.md","ref":"PlasmChain/RealtimeLockdrop.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmChain/TokenDesign.md","mtime":"2020-02-29T07:10:42.036Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-29T07:10:56.010Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Plasm Treasury","level":"1.5.3","depth":2,"next":{"title":"Operator Trading","level":"1.5.4","depth":2,"path":"PlasmNetwork/OperatorTrading.md","ref":"PlasmNetwork/OperatorTrading.md","articles":[]},"previous":{"title":"Consensus Algorithm","level":"1.5.2","depth":2,"path":"PlasmNetwork/ConsensusAlgorithm.md","ref":"PlasmNetwork/ConsensusAlgorithm.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmNetwork/Treasury.md","mtime":"2020-02-29T07:19:36.355Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-29T07:20:41.437Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

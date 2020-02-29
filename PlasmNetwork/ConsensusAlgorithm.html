@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Operator Trading · Plasm Documentations</title>
+        <title>Consensus Algorithm · Plasm Documentations</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Lockdrop.html" />
+    <link rel="next" href="Treasury.html" />
     
     
-    <link rel="prev" href="Treasury.html" />
+    <link rel="prev" href="TokenDesign.html" />
     
 
     </head>
@@ -276,7 +276,7 @@
                 <a href="./">
             
                     
-                    PlasmChain
+                    Plasm Network
             
                 </a>
             
@@ -290,7 +290,7 @@
                 <a href="TokenDesign.html">
             
                     
-                    Plasm Chain Token Design
+                    Plasm Network Token Design
             
                 </a>
             
@@ -298,7 +298,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="ConsensusAlgorithm.html">
+        <li class="chapter active" data-level="1.5.2" data-path="ConsensusAlgorithm.html">
             
                 <a href="ConsensusAlgorithm.html">
             
@@ -324,7 +324,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.4" data-path="OperatorTrading.html">
+        <li class="chapter " data-level="1.5.4" data-path="OperatorTrading.html">
             
                 <a href="OperatorTrading.html">
             
@@ -456,7 +456,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Operator Trading</a>
+        <a href=".." >Consensus Algorithm</a>
     </h1>
 </div>
 
@@ -471,8 +471,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="operator-trading">Operator Trading</h1>
-<p>Operator trading is a mechanism to buy and sell the right to be a Plasma operator. Since the right is tradable, this is similar to M&amp;A. A Plasma operator gets constant basic income by creating Plapps owning to Plasm treasury. If the Plapp is meaningful for the community, the creator receives higher revenue. As a result, other players may want the right to operate the Plapp. The successor will receive the reward instead of a previous operator. The important thing is that the buyer does not need to take over the operation itself though the buyer has ownership. Through this mechanism, we assume that the new off-chain market will be created.</p>
+                                <h1 id="consensus-algorithm">Consensus Algorithm</h1>
+<p>Plasm Network uses NPoS which is used on the Polkadot relay chain. This consensus algorithm consists of 3 steps.</p>
+<ol>
+<li>A Nominator selects a validator <a href="https://research.web3.foundation/en/latest/polkadot/NPoS/" target="_blank">NPoS</a></li>
+<li>A validator verifies transactions and make a new block <a href="https://research.web3.foundation/en/latest/polkadot/BABE/Babe/" target="_blank">BABE</a></li>
+<li>Finalize the block that was delivered in the network <a href="https://research.web3.foundation/en/latest/polkadot/GRANDPA/" target="_blank">GRANDPA</a></li>
+</ol>
+<p>The block reward is distributed to the validator who created the block and his Nominator. In addition to that, the reward is also paid to the Plasm Network contributors as follows.</p>
 
                                 
                                 </section>
@@ -500,12 +506,12 @@
 
             
                 
-                <a href="Treasury.html" class="navigation navigation-prev " aria-label="Previous page: Plasm Treasury">
+                <a href="TokenDesign.html" class="navigation navigation-prev " aria-label="Previous page: Plasm Network Token Design">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="Lockdrop.html" class="navigation navigation-next " aria-label="Next page: Lockdrop">
+                <a href="Treasury.html" class="navigation navigation-next " aria-label="Next page: Plasm Treasury">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -516,7 +522,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Operator Trading","level":"1.5.4","depth":2,"next":{"title":"Lockdrop","level":"1.5.5","depth":2,"path":"PlasmChain/Lockdrop.md","ref":"PlasmChain/Lockdrop.md","articles":[]},"previous":{"title":"Plasm Treasury","level":"1.5.3","depth":2,"path":"PlasmChain/Treasury.md","ref":"PlasmChain/Treasury.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmChain/OperatorTrading.md","mtime":"2020-02-29T07:10:02.431Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-29T07:10:56.010Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Consensus Algorithm","level":"1.5.2","depth":2,"next":{"title":"Plasm Treasury","level":"1.5.3","depth":2,"path":"PlasmNetwork/Treasury.md","ref":"PlasmNetwork/Treasury.md","articles":[]},"previous":{"title":"Plasm Network Token Design","level":"1.5.1","depth":2,"path":"PlasmNetwork/TokenDesign.md","ref":"PlasmNetwork/TokenDesign.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmNetwork/ConsensusAlgorithm.md","mtime":"2020-02-29T07:19:36.355Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-29T07:20:41.437Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
