@@ -9,8 +9,8 @@ This item explains the overview of the lockdrop design(token distributed algorit
 ## [Consensus Algorithm](./ConsensusAlgorithm.md)
 This item explains the overview of consensus algorithm.
 
-## [Plasm Treasury](./Treasury.md)
-This item explains about the plasm treasury.
+## [DappsRewards](./DappsRewards.md)
+This item explains about the DappsRewards.
 
 ## [Operator Trading](./OperatorTrading.md)
 This item explains about the operator trading.
