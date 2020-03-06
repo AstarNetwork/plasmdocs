@@ -16,7 +16,7 @@
 * [Plasm Network](PlasmNetwork/README.md)
     * [Plasm Network Token Design](PlasmNetwork/TokenDesign.md)
     * [Consensus Algorithm](PlasmNetwork/ConsensusAlgorithm.md)
-    * [DappsRewards](PlasmNetwork/DappsRewards.md)
+    * [Dapps Rewards](PlasmNetwork/DappsRewards.md)
     * [Operator Trading](PlasmNetwork/OperatorTrading.md)
     * [Lockdrop](PlasmNetwork/Lockdrop.md)
     * [Real-time Lockdrop](PlasmNetwork/RealtimeLockdrop.md)

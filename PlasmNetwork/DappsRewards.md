@@ -1,4 +1,4 @@
-# DappsRewards
+# Dapps Rewards
 
 Dapps Rewards is a mechanism that rewards developers or administrators of smart contracts on an ongoing basis. 50% of Plasm Network's Staking reward goes to application developers who have enhanced the value of Plasm Network. The Plasm Network allows you to assign a smart contract administrator to a smart contract, and this administrator is called an "Operator". The user can also take smart contracts. This action is called Nominate, and the person who does it is called Dapps Nominator. As shown below, the operator of the smart contract receiving many nominates can receive the newly issued PLM token from the chain.
 
@@ -81,3 +81,7 @@ For example, An operator Bob was staked 100 PLM at 0 days and $$p=0.1$$ and $$r=
 100 days after, Bob received 1000 PLM. Then Alice executed the credit and get 1000 × 0.05 = 50 PLM.
 
 In general, the risk of staking to operators is higher than one of staking to the validator. Because slashing is difficult to predict compared to slash validators. And getting rewards takes more time. Therefore, we add the above incentive systems for operator staking. We think operator staking is advanced. So the ideal percentage of staking is $$Validator:Operateor=4:1$$.
+
+## Trying
+
+You can try [here](https://medium.com/stake-technologies/lets-play-with-plasm-testnet-v3-%E2%91%A1-dapps-rewards-ab6f637ffe4c).
