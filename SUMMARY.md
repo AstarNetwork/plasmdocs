@@ -14,7 +14,7 @@
     * [Operator](TechnicalChapter/Operator.md)
 
 * [Plasm Network](PlasmNetwork/README.md)
-    * [Plasm Network Token Design](PlasmNetwork/TokenDesign.md)
+    * [Token Ecosystem](PlasmNetwork/TokenEcosystem.md)
     * [Consensus Algorithm](PlasmNetwork/ConsensusAlgorithm.md)
     * [Dapps Rewards](PlasmNetwork/DappsRewards.md)
     * [Operator Trading](PlasmNetwork/OperatorTrading.md)
