@@ -1,5 +1,17 @@
 # Consensus Algorithm
 
+The Plasm Network changes consensus algorithms and reward designs step by step to maintain security. Specifically, it initially takes the form of a Proof of Authority that is run solely by Validators selected by the community. Next, we will change to rewards centered on [collator](https://wiki.polkadot.network/docs/en/maintain-collator) to participate as [Parachain](https://wiki.polkadot.network/docs/en/learn-parachains). Eventually, we will move to NPoS, which is also used by Polkadot's Relaychain. Please refer to the PLM Token Ecosystem chapter for details on how to distribute rewards.
+
+## Proof of Authority
+
+Proof of Authority is a consensus-building algorithm that operates only with a validator selected by the community. Public blockchains can be vulnerable when few are launching reliable validators. For this reason, PoA will be operated until a sufficient distribution of token holders and the existence of potential validators can be confirmed. The validator at this time will be paid according to the specified parameters as in the case of PoS.
+
+## Incentives of Collator
+
+Incentives of Collator is an incentive design for operating Collator in Parachain. The Plasm Network is expected to become Parachain of Polkadot. Parachain needs a Collator to collect transactions, monitor the transactions in the block, and send the block certificate to the Relaychain validator. Collators must be a full node, so you need an incentive to join Plasm Network as a collator. At first, the Plasm Network Collator is selected by the community, as in the PoA mentioned above. After that, it will be changed to be elected by NPoS described later. In other words, the node that was acting as a validator function as a Collator while the Plasm Network is a Parachain.
+
+## Nominated Proof of Staking
+
 Plasm Network uses NPoS which is used on the Polkadot relay chain. This consensus algorithm consists of 3 steps.
 
 1. A Nominator selects a validator [NPoS](https://research.web3.foundation/en/latest/polkadot/NPoS/)
