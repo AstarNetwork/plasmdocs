@@ -12,6 +12,9 @@ This item explains the overview of consensus algorithm.
 ## [Dapps Rewards](./DappsRewards.md)
 This item explains about the Dapps Rewards.
 
+## [Token Ecosystem](./TokenEcosystem.md)
+This item explains about the Token Ecosystem.
+
 ## [Operator Trading](./OperatorTrading.md)
 This item explains about the operator trading.
 
