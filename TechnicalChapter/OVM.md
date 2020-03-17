@@ -48,7 +48,7 @@ function finalizeExit(
 
 ### Ownership payout contract
 
-Ownership payout contract is a contract that the token owner can withdraw. Specifically, When the Exit is determined to be true in the Challenge Game, the owner represented by that State Object (in this case, OwnershipPredicate) can withdraw the token. The Ownership Payout contract is expressed in the Ethereum contract like [this] (https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/plasma/OwnershipPayout.sol).
+Ownership payout contract is a contract that the token owner can withdraw. Specifically, When the Exit is determined to be true in the Challenge Game, the owner represented by that State Object (in this case, OwnershipPredicate) can withdraw the token. The Ownership Payout contract is expressed in the Ethereum contract like [this](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/plasma/OwnershipPayout.sol).
 
 # Modules
 
@@ -61,7 +61,7 @@ Specifically, it can be divided into OVM Modules, which perform general OVM proc
 
 # OVM Module
 
-OVM Module describes the processing commonly performed in OVM. Specifically, the execution logic of Predicate is included in this module. In addition, the smart contract is executed by using the truth of Predicate as a trigger. This module is a modularized version of [Universal Adjudication contract] (https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol) in the Ethereum Smart contract.
+OVM Module describes the processing commonly performed in OVM. Specifically, the execution logic of Predicate is included in this module. In addition, the smart contract is executed by using the truth of Predicate as a trigger. This module is a modularized version of [Universal Adjudication contract](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol) in the Ethereum Smart contract.
 
 
 ## Types
@@ -150,9 +150,9 @@ ChallengeRemoved(Hash, Hash);
 
 # Plasma Module
 
-Plasma Module is a module that is responsible for processing specific to Plasma. It calls the OVM Module and the specified smart contract function. The Plasma Module has one "Commitment" and "Deposit" address per application. These are each defined by `decl_child_storage`. `decl_child_storage!` is a macro that implements DB in SubTrie. This sets AccountId as the key value. This is like a contract address. Specifically, implements with reference to [AccountDb] (https://github.com/paritytech/substrate/blob/master/frame/contracts/src/account_db.rs) of contract module.
+Plasma Module is a module that is responsible for processing specific to Plasma. It calls the OVM Module and the specified smart contract function. The Plasma Module has one "Commitment" and "Deposit" address per application. These are each defined by `decl_child_storage`. `decl_child_storage!` is a macro that implements DB in SubTrie. This sets AccountId as the key value. This is like a contract address. Specifically, implements with reference to [AccountDb](https://github.com/paritytech/substrate/blob/master/frame/contracts/src/account_db.rs) of contract module.
 
-This is modularized  [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) and [CompiledPredicate] (https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) contracts in the Ethereum.
+This is modularized  [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) and [CompiledPredicate](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) contracts in the Ethereum.
 
 ## Types
 Defines the type used by Plasma Module.
