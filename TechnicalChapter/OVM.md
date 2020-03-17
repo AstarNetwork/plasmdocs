@@ -48,7 +48,7 @@ function finalizeExit(
 
 ### Ownership payout contract
 
-Ownership payout contract is a contract that the token owner can withdraw. Specifically, the token can be returned to Layer1 by proving ownership of the token by the inclusion proof. The Ownership Payout contract is expressed in the Ethereum contract like [this] (https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/plasma/OwnershipPayout.sol).
+Ownership payout contract is a contract that the token owner can withdraw. Specifically, When the Exit is determined to be true in the Challenge Game, the owner represented by that State Object (in this case, OwnershipPredicate) can withdraw the token. The Ownership Payout contract is expressed in the Ethereum contract like [this] (https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/plasma/OwnershipPayout.sol).
 
 # Modules
 
@@ -58,7 +58,13 @@ Then, it is necessary to consider special storage that can handle the Layer2 app
 
 Specifically, it can be divided into OVM Modules, which perform general OVM processing, and Plasma modules, which are responsible for plasma-specific processing. See the architecture diagram for the dependencies of each module and contract.
 
-# Types
+
+# OVM Module
+
+OVM Module describes the processing commonly performed in OVM. Specifically, the execution logic of Predicate is included in this module. In addition, the smart contract is executed by using the truth of Predicate as a trigger. This module is a modularized version of [Universal Adjudication contract] (https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol) in the Ethereum Smart contract.
+
+
+## Types
 Defines the type used by OVM Module.
 ```rust
 pub struct Predicate(Vec<u8>);
@@ -86,7 +92,71 @@ pub struct Range<Balance> {
 	start: Balance,
 	end: Balance,
 }
+```
 
+## Universal Adjudication
+
+### Contants
+```rust
+/// During the dispute period defined here, the user can challenge. If nothing is found, the state is determined after the dispute period.
+type DISPUTE_PERIOD: T::Moment = 7;
+```
+### Storage
+```rust
+decl_storage! {
+	Predicate get(fn predicate): map T::AccountId => T::Predicate;
+	DisputePeriod get(fn dispute_period): T::Moment;
+	InstantiatedGames get(fn instantiated_games): map T::Hash => T::ChallengeGame;
+}
+```
+### Modules
+```rust
+decl_storage! {
+	fn deploy(predicate: T::Predicate);
+	fn claim_property(claim: T::Property);
+	fn decide_claim_to_true(game_id: T::Hash);
+	fn decide_claim_to_false(game_id: T::Hash, challenging_game_id: T::Hash);
+	fn remove_challenge(game_id: T::Hash, challenging_game_id: T::Hash);
+	fn set_predicate_decision(game_id: T::Hash, decision: bool);
+	/**
+   * @dev challenge a game specified by gameId with a challengingGame specified by _challengingGameId
+   * @param _gameId challenged game id
+   * @param _challengeInputs array of input to verify child of game tree
+   * @param _challengingGameId child of game tree
+   */
+	fn challenge(game_id: T::Hash, challenge_inputs: Vec<u8>, challenging_game_id);
+	
+	/// callable
+	fn is_decided(property: T::Property);
+	fn get_game(claim_id: T::Hash);
+	fn get_property_id(property: T::Property);
+}
+```
+### Events
+```rust
+// (predicate_address: AccountId);
+DeployPredicate(AccountId);
+// (gameId: Hash, decision: bool)
+AtomicPropositionDecided(Hash, bool);
+// (game_id: Hash, property: Property, createdBlock: BlockNumber)
+NewPropertyClaimed(Hash, Property, BlockNumber);
+// (game_id: Hash, challengeGameId: Hash)
+ClaimChallenged(Hash, Hash);
+// (game_id: Hash, decision: bool)
+ClaimDecided(Hash, bool);
+// (game_id: Hash, challengeGameId: Hash)
+ChallengeRemoved(Hash, Hash);
+```
+
+# Plasma Module
+
+Plasma Module is a module that is responsible for processing specific to Plasma. It calls the OVM Module and the specified smart contract function. The Plasma Module has one "Commitment" and "Deposit" address per application. These are each defined by `decl_child_storage`. `decl_child_storage!` is a macro that implements DB in SubTrie. This sets AccountId as the key value. This is like a contract address. Specifically, implements with reference to [AccountDb] (https://github.com/paritytech/substrate/blob/master/frame/contracts/src/account_db.rs) of contract module.
+
+This is modularized  [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) and [CompiledPredicate] (https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) contracts in the Ethereum.
+
+## Types
+Defines the type used by Plasma Module.
+```rust
 pub struct StateUpdate<AccountId, Balance, BlockNumber> {
 	deposit_contract_address: AccountId,
 	ragne: Range<Balance>,
@@ -131,12 +201,6 @@ pub struct AddressTreeNode<AccountId> {
 	token_address: AccountId,
 }
 ```
-
-# Plasma Module
-
-Plasma Module is a module that is responsible for processing specific to Plasma. It calls the OVM Module and the specified smart contract function. The Plasma Module has one "Commitment" and "Deposit" address per application. These are each defined by `decl_child_storage`. `decl_child_storage!` is a macro that implements DB in SubTrie. This sets AccountId as the key value. This is like a contract address. Specifically, implements with reference to [AccountDb] (https://github.com/paritytech/substrate/blob/master/frame/contracts/src/account_db.rs) of contract module.
-
-This is modularized  [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) and [CompiledPredicate] (https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) contracts in the Ethereum.
 
 ### modules
 ```rust
@@ -240,7 +304,7 @@ DepositedRangeRemoved(Range);
 ```
 ## Compiled Predicate
 
-Compiled Predicate is for running Layer2 applications via Predicate. PayoutContract withdrawal processing that exists for each Layer2 application can only be called via Compiled Predicate. This makes you can process Layer2 as secure of Layer1.
+The role of CompiledPredicate is optimizing claim size by compiling complex proposition to one simple predicate. The Plasma Module has method for running Layer2 applications via Predicate. PayoutContract withdrawal processing that exists for each Layer2 application can only be called via Compiled Predicate. This makes you can process Layer2 as secure of Layer1.
 
 ### Storage
 ```rust
@@ -254,60 +318,4 @@ fn decide_true(predicate_address: T::AccountId, inputs: Vec<u8>, witness: Vec<u8
 /// callable
 fn is_valid_challenge(predicate_address: T::AccountId, inputs: Vec<u8>, challenge_inputs: Vec<u8>, challenge: T::Property);
 fn decide(predicate_addres: T::AccountId, inputs: Vec<u8>, witness: Vec<u8>);
-```
-# OVM Module
-
-OVM Module describes the processing commonly performed in OVM. Specifically, the execution logic of Predicate is included in this module. In addition, the smart contract is executed by using the truth of Predicate as a trigger. This module is a modularized version of [Universal Adjudication contract] (https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol) in the Ethereum Smart contract.
-
-## Universal Adjudication
-
-### Contants
-```rust
-type DISPUTE_PERIOD: T::Moment = 7;
-```
-### Storage
-```rust
-decl_storage! {
-	Predicate get(fn predicate): map T::AccountId => T::Predicate;
-	DisputePeriod get(fn dispute_period): T::Moment;
-	InstantiatedGames get(fn instantiated_games): map T::Hash => T::ChallengeGame;
-}
-```
-### Modules
-```rust
-decl_storage! {
-	fn deploy(predicate: T::Predicate);
-	fn claim_property(claim: T::Property);
-	fn decide_claim_to_true(game_id: T::Hash);
-	fn decide_claim_to_false(game_id: T::Hash, challenging_game_id: T::Hash);
-	fn remove_challenge(game_id: T::Hash, challenging_game_id: T::Hash);
-	fn set_predicate_decision(game_id: T::Hash, decision: bool);
-	/**
-   * @dev challenge a game specified by gameId with a challengingGame specified by _challengingGameId
-   * @param _gameId challenged game id
-   * @param _challengeInputs array of input to verify child of game tree
-   * @param _challengingGameId child of game tree
-   */
-	fn challenge(game_id: T::Hash, challenge_inputs: Vec<u8>, challenging_game_id);
-	
-	/// callable
-	fn is_decided(property: T::Property);
-	fn get_game(claim_id: T::Hash);
-	fn get_property_id(property: T::Property);
-}
-```
-### Events
-```rust
-// (predicate_address: AccountId);
-DeployPredicate(AccountId);
-// (gameId: Hash, decision: bool)
-AtomicPropositionDecided(Hash, bool);
-// (game_id: Hash, property: Property, createdBlock: BlockNumber)
-NewPropertyClaimed(Hash, Property, BlockNumber);
-// (game_id: Hash, challengeGameId: Hash)
-ClaimChallenged(Hash, Hash);
-// (game_id: Hash, decision: bool)
-ClaimDecided(Hash, bool);
-// (game_id: Hash, challengeGameId: Hash)
-ChallengeRemoved(Hash, Hash);
 ```
