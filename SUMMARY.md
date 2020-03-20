@@ -2,6 +2,8 @@
 
 * [Introduction](Introduction.md)
 * [Trying](Trying/README.md)
+    * [Operator Trading](Trying/OperatorTrading.md)
+    * [Dapps Staking](Trying/DappsStaking.md)
 * [TechnicalChapter](TechnicalChapter/README.md)
     * [Plasma Overview](TechnicalChapter/PlasmaOverview.md)
     * [OVM Overview](TechnicalChapter/OVM.md)
