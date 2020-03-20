@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](Introduction.md)
-* [Trying](Trying.md)
+* [Trying](Trying/README.md)
 * [TechnicalChapter](TechnicalChapter/README.md)
     * [Plasma Overview](TechnicalChapter/PlasmaOverview.md)
     * [OVM Overview](TechnicalChapter/OVM.md)
