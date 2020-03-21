@@ -1,3 +1,5 @@
+[日本語版はこちら](https://medium.com/stake-technologies/%E9%81%8A%E3%81%BC%E3%81%86-plasm-testnet-v3-%E2%91%A0-operator-trading-64323fa2d4fd)
+
 # Preparation
 To follow this demo on the testnet, you’ll need some tokens. If you do not own one, please join our Discord server and go to #faucet to get some! If you just want to try it without any tokens, you can use the Local Developer Node as well.
 ※ The Local Node can be easily set up by using the docker image for the Plasm node, which can be done from the following commands.

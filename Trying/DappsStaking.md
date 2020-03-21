@@ -1,3 +1,5 @@
+[日本版はこちら](https://medium.com/stake-technologies/%E9%81%8A%E3%81%BC%E3%81%86-plasm-testnet-v3-%E2%91%A1-dapps-rewards-a58419e4ff97)
+
 # Preparation
 Just like what we did in our [previous trying](./OperatorTrading.html), we need to deploy a Contract. After that, when you go to your sidebar and press DappsStaking, it should show like the following. Once you’re here, our preparation is over!
 

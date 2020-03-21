@@ -1,3 +1,5 @@
+[日本版はこちら](https://medium.com/stake-technologies/plasm-network-lockdrop-%E3%81%B8%E3%81%AE%E5%8F%82%E5%8A%A0%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3-1ed3b2d6a698).
+
 # How to Participate in the Lockdrop
 First, make sure that you have a Web3 wallet browser extension (i.e. MetaMask) installed to your browser. Without this, we cannot communicate with the contract through normal means.
 Next head on to [https://lockdrop.plasmnet.io/](https://lockdrop.plasmnet.io) to start the application. The actual demo below is done via a local chain on a local server, but the one from the above URL will give you a working version with the contract deployed to Repsten testnet. The main net contract is not yet deployed.
