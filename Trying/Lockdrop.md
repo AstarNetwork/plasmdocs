@@ -47,7 +47,7 @@ This time, let’s try locking a token with an introducer’s address. The addre
 
 Furthermore, if you try to input an address that is not affiliated with the program or your own public address, the client will not accept the input.
 
-![1_SFSKg5hlHvhLHvwp7wVKSA](https://user-images.githubusercontent.com/6259384/77226791-57d8b680-6bbe-11ea-9c73-5385667eeaad.jpeg)
+![result](https://user-images.githubusercontent.com/6259384/77226791-57d8b680-6bbe-11ea-9c73-5385667eeaad.jpeg)
 
 Now we can start locking, and as you can see our introducer is properly displayed on the list.
 
