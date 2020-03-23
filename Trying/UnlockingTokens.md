@@ -17,14 +17,14 @@ Lockdrop's Lock Contract contains the following anonymous function.
      }
     }
 
-This enables the contract to return the locked balance to the original token locker's address by sending an empty transaction to this contract address.
+This enables the contract to return the locked balance (the entire contract balance) to the original token locker's address by sending an empty transaction to this contract address.
 However, the timestamp of the transaction must be greater than the timestamp of the lock including the lock duration.
 When someone sends a transaction before the duration of the locks is passed, the transaction will return a error.
 Sending a transaction to the lock (i.e. unlocking the tokens) can be done by anyone given that they have enough funds to pay for the transaction fee.
 But the the locked tokens will only return to the original locker rather than the address that sent the transaction.
 So it is possible to allow another address to unlock the locked token on behalf of the original locker, but they cannot claim the tokens for themselves.
-One minor inconvenience that this contract has is that once the lock duration is over, the contract will act as a normal contract without any transaction rejections, meaning even if the token was returned to the original locker, anyone can still send a transaction to the contract without any errors.
-Once the token is claimed it will not be able to return any more tokens, but it makes it hard for the original locker to check if the tokens were unlocked or not without comparing their post-unlock wallet balance, effectively giving a potential issue of wasting transaction fee for attempting to claim the locked tokens that was already unlocked.
+One point to note is that once the lock duration is over, the contract will not have any transaction rejections, meaning even if the token was returned to the original locker, anyone can still send a transaction to the contract without any errors.
+Once the token is claimed it will not be able to return any more tokens,as the contract balance will be 0, but it makes it hard for the original locker to check if the tokens were unlocked or not without having to check the contract balance or track their balance, effectively giving a potential issue of wasting transaction fee for attempting to claim the locked tokens that was already unlocked.
 
 ![unlock image](https://user-images.githubusercontent.com/40356749/77284164-608dd180-6d11-11ea-83e5-464b63b45b0f.jpg)
 
