@@ -2,6 +2,7 @@
 
 * [Introduction](Introduction.md)
 * [Lockdrop Guide](Trying/Lockdrop.md)
+* [Unlock Guide](Trying/UnlockingTokens.md)
 * [Trying](Trying/README.md)
     * [Operator Trading](Trying/OperatorTrading.md)
     * [Dapps Staking](Trying/DappsStaking.md)
