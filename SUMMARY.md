@@ -2,6 +2,7 @@
 
 * [Introduction](Introduction.md)
 * [Lockdrop Guide](Trying/Lockdrop.md)
+* [Unlock Guide](Trying/UnlockingTokens.md)
 * [Trying](Trying/README.md)
     * [Operator Trading](Trying/OperatorTrading.md)
     * [Dapps Staking](Trying/DappsStaking.md)
@@ -24,3 +25,4 @@
     * [Design Overview](PlasmTestnet/DesignOverview.md)
     * [Validator Guide](PlasmTestnet/ValidatorGuide.md)
     * [Lockdrop](PlasmTestnet/Lockdrop.md)
+
