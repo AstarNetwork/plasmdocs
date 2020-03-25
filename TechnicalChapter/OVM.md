@@ -319,3 +319,12 @@ fn decide_true(predicate_address: T::AccountId, inputs: Vec<u8>, witness: Vec<u8
 fn is_valid_challenge(predicate_address: T::AccountId, inputs: Vec<u8>, challenge_inputs: Vec<u8>, challenge: T::Property);
 fn decide(predicate_addres: T::AccountId, inputs: Vec<u8>, witness: Vec<u8>);
 ```
+
+
+# For Substrate & Polkadot & ink!
+
+The above OVM specification can be handled by all Substrate Chains in common. Also, Polakdot and the following specification are independent concepts with no direct relationship; Handling Layer 2 solutions by Polkadot can be achieved by connecting the Polkadot Network with a Parachain that implements the following specification.
+
+The above specification recommends the ink! contract as a smart contract. This is because Substrate's default smart contract specification is ink! Therefore, if you want to use it in EVM, etc., you can run different smart contract modules in the same way by preparing an implementation with the same specification.
+
+The processes for OVM and Plasma can be handled as a Runtime module (pallet) of the Substrate, respectively. Properly importing each module implemented according to the specification will allow an arbitrary chain to work with these specifications.
