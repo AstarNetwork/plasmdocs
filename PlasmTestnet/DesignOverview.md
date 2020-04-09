@@ -94,3 +94,46 @@ Planned features:
 
 - Operator - smart contract operator support.
 - PlasmStaking - Plasm operator nominating and rewards support.
+
+# Dusty Plasm
+
+This is Plasm `canary` network, it looks like `beta` of Mainnet.
+**Dusty** predict mainnet runtime source code for 1-2 weeks.
+
+## Incentives
+
+Yes, Dusty network participation is incentivized by default.
+Dusty pay rewards in PLD (network native token) for each PoA validator and DApp operator nominators.
+
+> When Plasm Network token distribution finish Stake Technologies team plan distribute **0.5%** of Plasm tokens for Dusty token holders.
+
+Planned features:
+- Multi-lockdrop
+- Optimistic Virtual Machine
+
+## Version
+
+- authoring_version: 4
+- spec_version: 40
+- impl_version: 40
+
+### Core modules
+
+- System - core substrate functionality.
+- Timestamp - timestamp runtime oracle.
+- Session - authority session keys management.
+- Babe - block producing consensus engine.
+- Grandpa - block finalizing consensus engine.
+- Indices - account indexing engine.
+- Balances - native asset operations.
+- RandomnessCollectiveFlip - source of random numbers.
+- Contracts - smart contract support.
+- Sudo - superuser actions.
+
+### StakeTechnologies modules
+
+- Operator - smart contract operator support.
+- DappStaking - stake on decentralized application to collect operator rewards.
+- PlasmValidator - authority manager for Plasm network.
+- PlasmRewards - this module split block rewards between dapp operators and validators.
+- PlasmLockdrop - multi-lockdrop token distribution.
