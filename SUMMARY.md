@@ -6,6 +6,7 @@
 * [Trying](Trying/README.md)
     * [Operator Trading](Trying/OperatorTrading.md)
     * [Dapps Staking](Trying/DappsStaking.md)
+    * [Multi-lockdrop](Trying/LockdropModule.md)
 * [TechnicalChapter](TechnicalChapter/README.md)
     * [Plasma Overview](TechnicalChapter/PlasmaOverview.md)
     * [OVM Overview](TechnicalChapter/OVM.md)
@@ -24,5 +25,3 @@
 * [PlasmTestnet](PlasmTestnet/README.md)
     * [Design Overview](PlasmTestnet/DesignOverview.md)
     * [Validator Guide](PlasmTestnet/ValidatorGuide.md)
-    * [Lockdrop](PlasmTestnet/Lockdrop.md)
-
