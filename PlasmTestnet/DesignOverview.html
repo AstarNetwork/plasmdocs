@@ -553,66 +553,6 @@
 </ul>
 <p>Runtime upgrade is acceptable for minor patches, end users should not notice a change of this upgrade. It&#x2019;s an easy way to introduce small non breakable features / patches for the network.</p>
 <p>For the major upgrade the high version number is changed and testnet version is increased. This mean that testnet started from scratch. Major updates could be used for introducing breakable features or blockchain wipes for network participants&apos; resource-saving.</p>
-<h1 id="plasm-testnet-v2">Plasm Testnet v2</h1>
-<p>This testnet is used for testing manual management of community validators and experiment with permission for validating blocks for community members as same as integration with ink-playground contract upload sandbox.</p>
-<h2 id="version">Version</h2>
-<ul>
-<li>authoring_version: 2</li>
-<li>spec_version: 20</li>
-<li>impl_version: 20</li>
-</ul>
-<h2 id="modules">Modules</h2>
-<p>List of enabled runtime modules.</p>
-<h3 id="core-modules">Core modules</h3>
-<ul>
-<li>System - core substrate functionality.</li>
-<li>Timestamp - timestamp runtime oracle.</li>
-<li>Session - authority session keys management.</li>
-<li>Babe - block producing consensus engine.</li>
-<li>Grandpa - block finalizing consensus engine.</li>
-<li>Indices - account indexing engine.</li>
-<li>Balances - native asset operations.</li>
-<li>RandomnessCollectiveFlip - source of random numbers.</li>
-<li>Contracts - smart contract support.</li>
-<li>Sudo - superuser actions.</li>
-</ul>
-<h3 id="staketechnologies-modules">StakeTechnologies modules</h3>
-<ul>
-<li>Operator - smart contract operators.</li>
-<li>SessionManager - PoA validator management.</li>
-</ul>
-<h1 id="plasm-testnet-v3">Plasm Testnet v3</h1>
-<p>This is a reference network for future mainnet. </p>
-<p>Planned features:</p>
-<ul>
-<li>token distribution according to lockdrop results;</li>
-<li>operator staking;</li>
-<li>validator rewards.</li>
-</ul>
-<h2 id="version">Version</h2>
-<ul>
-<li>authoring_version: 3</li>
-<li>spec_version: 30</li>
-<li>impl_version: 30</li>
-</ul>
-<h3 id="core-modules">Core modules</h3>
-<ul>
-<li>System - core substrate functionality.</li>
-<li>Timestamp - timestamp runtime oracle.</li>
-<li>Session - authority session keys management.</li>
-<li>Babe - block producing consensus engine.</li>
-<li>Grandpa - block finalizing consensus engine.</li>
-<li>Indices - account indexing engine.</li>
-<li>Balances - native asset operations.</li>
-<li>RandomnessCollectiveFlip - source of random numbers.</li>
-<li>Contracts - smart contract support.</li>
-<li>Sudo - superuser actions.</li>
-</ul>
-<h3 id="staketechnologies-modules">StakeTechnologies modules</h3>
-<ul>
-<li>Operator - smart contract operator support.</li>
-<li>PlasmStaking - Plasm operator nominating and rewards support.</li>
-</ul>
 <h1 id="dusty-plasm">Dusty Plasm</h1>
 <p>This is Plasm <code>canary</code> network, it looks like <code>beta</code> of Mainnet.
 <strong>Dusty</strong> predict mainnet runtime source code for 1-2 weeks.</p>
@@ -653,6 +593,66 @@ Dusty pay rewards in PLD (network native token) for each PoA validator and DApp 
 <li>PlasmValidator - authority manager for Plasm network.</li>
 <li>PlasmRewards - this module split block rewards between dapp operators and validators.</li>
 <li>PlasmLockdrop - multi-lockdrop token distribution.</li>
+</ul>
+<h1 id="plasm-testnet-v3">Plasm Testnet v3</h1>
+<p>This is a reference network for future mainnet. </p>
+<p>Planned features:</p>
+<ul>
+<li>token distribution according to lockdrop results;</li>
+<li>operator staking;</li>
+<li>validator rewards.</li>
+</ul>
+<h2 id="version">Version</h2>
+<ul>
+<li>authoring_version: 3</li>
+<li>spec_version: 30</li>
+<li>impl_version: 30</li>
+</ul>
+<h3 id="core-modules">Core modules</h3>
+<ul>
+<li>System - core substrate functionality.</li>
+<li>Timestamp - timestamp runtime oracle.</li>
+<li>Session - authority session keys management.</li>
+<li>Babe - block producing consensus engine.</li>
+<li>Grandpa - block finalizing consensus engine.</li>
+<li>Indices - account indexing engine.</li>
+<li>Balances - native asset operations.</li>
+<li>RandomnessCollectiveFlip - source of random numbers.</li>
+<li>Contracts - smart contract support.</li>
+<li>Sudo - superuser actions.</li>
+</ul>
+<h3 id="staketechnologies-modules">StakeTechnologies modules</h3>
+<ul>
+<li>Operator - smart contract operator support.</li>
+<li>PlasmStaking - Plasm operator nominating and rewards support.</li>
+</ul>
+<h1 id="plasm-testnet-v2">Plasm Testnet v2</h1>
+<p>This testnet is used for testing manual management of community validators and experiment with permission for validating blocks for community members as same as integration with ink-playground contract upload sandbox.</p>
+<h2 id="version">Version</h2>
+<ul>
+<li>authoring_version: 2</li>
+<li>spec_version: 20</li>
+<li>impl_version: 20</li>
+</ul>
+<h2 id="modules">Modules</h2>
+<p>List of enabled runtime modules.</p>
+<h3 id="core-modules">Core modules</h3>
+<ul>
+<li>System - core substrate functionality.</li>
+<li>Timestamp - timestamp runtime oracle.</li>
+<li>Session - authority session keys management.</li>
+<li>Babe - block producing consensus engine.</li>
+<li>Grandpa - block finalizing consensus engine.</li>
+<li>Indices - account indexing engine.</li>
+<li>Balances - native asset operations.</li>
+<li>RandomnessCollectiveFlip - source of random numbers.</li>
+<li>Contracts - smart contract support.</li>
+<li>Sudo - superuser actions.</li>
+</ul>
+<h3 id="staketechnologies-modules">StakeTechnologies modules</h3>
+<ul>
+<li>Operator - smart contract operators.</li>
+<li>SessionManager - PoA validator management.</li>
 </ul>
 
                                 
@@ -697,7 +697,7 @@ Dusty pay rewards in PLD (network native token) for each PoA validator and DApp 
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Design Overview","level":"1.8.1","depth":2,"next":{"title":"Validator Guide","level":"1.8.2","depth":2,"path":"PlasmTestnet/ValidatorGuide.md","ref":"PlasmTestnet/ValidatorGuide.md","articles":[]},"previous":{"title":"PlasmTestnet","level":"1.8","depth":1,"path":"PlasmTestnet/README.md","ref":"PlasmTestnet/README.md","articles":[{"title":"Design Overview","level":"1.8.1","depth":2,"path":"PlasmTestnet/DesignOverview.md","ref":"PlasmTestnet/DesignOverview.md","articles":[]},{"title":"Validator Guide","level":"1.8.2","depth":2,"path":"PlasmTestnet/ValidatorGuide.md","ref":"PlasmTestnet/ValidatorGuide.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmTestnet/DesignOverview.md","mtime":"2020-04-09T05:17:59.216Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-09T05:18:58.587Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Design Overview","level":"1.8.1","depth":2,"next":{"title":"Validator Guide","level":"1.8.2","depth":2,"path":"PlasmTestnet/ValidatorGuide.md","ref":"PlasmTestnet/ValidatorGuide.md","articles":[]},"previous":{"title":"PlasmTestnet","level":"1.8","depth":1,"path":"PlasmTestnet/README.md","ref":"PlasmTestnet/README.md","articles":[{"title":"Design Overview","level":"1.8.1","depth":2,"path":"PlasmTestnet/DesignOverview.md","ref":"PlasmTestnet/DesignOverview.md","articles":[]},{"title":"Validator Guide","level":"1.8.2","depth":2,"path":"PlasmTestnet/ValidatorGuide.md","ref":"PlasmTestnet/ValidatorGuide.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmTestnet/DesignOverview.md","mtime":"2020-04-10T05:12:39.266Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-10T05:13:40.050Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
