@@ -3,7 +3,7 @@ Plasm Validator Program
 
 > This short guide explain step by step how to become a Plasm Testnet validator.
 
-- Install node **v0.8.0** and above in accordance with [README](https://github.com/staketechnologies/Plasm#building-from-source).
+- Install node **v0.8.0** using [binaries](https://github.com/staketechnologies/Plasm/releases/tag/v0.8.0) or [build from source code](https://github.com/staketechnologies/Plasm#building-from-source).
 - Launch node plasm-node --validator --name node-name --rpc-cors all
 - Wait for syncing up.
 
@@ -35,3 +35,11 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 ### Conclusion
 
 When you finish this tutorial please wait a bit while **Stake Technologies** team approve your account as validator. Thank you for Plasm Network contribution and let's make Plasm better together!
+
+### Testnet v3 migration
+
+When you already participate in Testnet V3 validation you could be initerested in migration.
+Please copy your session keys from testnet v3 keystore into dusty keystore by following commands before launch node:
+
+    mkdir .local/share/plasm-node/chains/dusty
+    cp -r .local/share/plasm-node/chains/plasm_testnet_v3/keystore .local/share/plasm-node/chains/dusty
