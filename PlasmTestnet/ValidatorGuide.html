@@ -532,7 +532,7 @@
 <p>This short guide explain step by step how to become a Plasm Testnet validator.</p>
 </blockquote>
 <ul>
-<li>Install node <strong>v0.8.0</strong> and above in accordance with <a href="https://github.com/staketechnologies/Plasm#building-from-source" target="_blank">README</a>.</li>
+<li>Install node <strong>v0.8.0</strong> using <a href="https://github.com/staketechnologies/Plasm/releases/tag/v0.8.0" target="_blank">binaries</a> or <a href="https://github.com/staketechnologies/Plasm#building-from-source" target="_blank">build from source code</a>.</li>
 <li>Launch node plasm-node --validator --name node-name --rpc-cors all</li>
 <li>Wait for syncing up.</li>
 </ul>
@@ -560,7 +560,12 @@
 <p><img src="../img/testnet_session.png" alt="Testnet Session"></p>
 <h3 id="conclusion">Conclusion</h3>
 <p>When you finish this tutorial please wait a bit while <strong>Stake Technologies</strong> team approve your account as validator. Thank you for Plasm Network contribution and let&apos;s make Plasm better together!</p>
-
+<h3 id="testnet-v3-migration">Testnet v3 migration</h3>
+<p>When you already participate in Testnet V3 validation you could be initerested in migration.
+Please copy your session keys from testnet v3 keystore into dusty keystore by following commands before launch node:</p>
+<pre><code>mkdir .local/share/plasm-node/chains/dusty
+cp -r .local/share/plasm-node/chains/plasm_testnet_v3/keystore .local/share/plasm-node/chains/dusty
+</code></pre>
                                 
                                 </section>
                             
@@ -599,7 +604,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Validator Guide","level":"1.8.2","depth":2,"previous":{"title":"Design Overview","level":"1.8.1","depth":2,"path":"PlasmTestnet/DesignOverview.md","ref":"PlasmTestnet/DesignOverview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmTestnet/ValidatorGuide.md","mtime":"2020-04-17T12:12:59.417Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-17T12:14:02.387Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Validator Guide","level":"1.8.2","depth":2,"previous":{"title":"Design Overview","level":"1.8.1","depth":2,"path":"PlasmTestnet/DesignOverview.md","ref":"PlasmTestnet/DesignOverview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmTestnet/ValidatorGuide.md","mtime":"2020-04-17T13:53:04.471Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-17T13:54:10.733Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
