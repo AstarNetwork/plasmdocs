@@ -17,8 +17,8 @@ Plasm Validator Program
 
 ![Testnet Accounts](../img/testnet_accounts.png)
 
-- Share your validator account address and with **Stake Technologies** team in [Discord](https://discord.gg/Z3nC9U4).
-- Get some tokens for transactions in [Discord](https://discord.gg/Z3nC9U4) **faucet** channel.
+- Share your validator account address and with **Stake Technologies** team in [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSday0ckkK43TzJgKtQmJdzkudQNFDXspZAuUGi5Y5vfjkis3Q/viewform).
+- [Claim tokens](https://medium.com/stake-technologies/dusty-lockdrop-how-to-claim-def048fa353) for transactions or request it in [Discord](https://discord.gg/Z3nC9U4) **#faucet** channel.
 - Open Toolbox window and call `rotateKeys()` RPC call or use curl command:
 
 ```bash
