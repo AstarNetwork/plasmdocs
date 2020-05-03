@@ -17,14 +17,12 @@ At genesis, Plasm will use all of the rewards for `ForSecurity`. Performing Dapp
 The target maximum token supply inflation rate per year is
 $$I \le I_0 = 2.5\%$$
 
-$I_0$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators (here, we assume the sufficient number of validators is 100). This figure was borrowed from the numbers defined in the Polkadot Ecosystem. Furthermore, this value will be equivalent to the validator rewards when there are 0 Stakes in a NPoS consensus.
+$$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators (here, we assume the sufficient number of validators is 100). This figure was borrowed from the numbers defined in the Polkadot Ecosystem. Furthermore, this value will be equivalent to the validator rewards when there are 0 Stakes in a NPoS consensus.
 
-Validator compensation per Era is strictly defined as the following. First, we define the meaning of each variable. `TotalForSecurityRewards` is the total amount of compensation paid for the validator. `TotalAmountOfIssue` is the total number of PLM tokens issued by Plasm Network. $I_0$ is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes are interested. `EraDuration` is the length of duration of the Era. `NumberOfValidators` is the actual number of validators in the Network. `TargetsNumber` is 100 that is the sufficient number of validators.
+Validator compensation per Era is strictly defined as the following. First, we define the meaning of each variable. `TotalForSecurityRewards` is the total amount of compensation paid for the validator. `TotalAmountOfIssue` is the total number of PLM tokens issued by Plasm Network. $$I_0$$ is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes are interested. `EraDuration` is the length of duration of the Era. `NumberOfValidators` is the actual number of validators in the Network. `TargetsNumber` is 100 that is the sufficient number of validators.
 
-If
-$$TargetsNumber < NumberOfValidators$$
+If $$TargetsNumber < NumberOfValidators$$ then:
 
-Then:
 $$TotalForSecurityRewards = TotalAmountOfIssue \times I_0\% \times \frac{EraDuration}{1year}$$
 
 Else:
