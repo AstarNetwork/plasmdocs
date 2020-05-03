@@ -11,6 +11,10 @@
 
     "plugins": ["katex"],
 
+    "styles": {
+        "website": "css/index.css"
+    },
+
     "structure": {
         "readme": "Introduction.md",
         "summary": "SUMMARY.md"

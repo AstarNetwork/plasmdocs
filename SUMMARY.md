@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Introduction](Introduction.md)
 * [Lockdrop Guide](Trying/Lockdrop.md)
 * [Unlock Guide](Trying/UnlockingTokens.md)
@@ -22,6 +23,10 @@
     * [Operator Trading](PlasmNetwork/OperatorTrading.md)
     * [Lockdrop](PlasmNetwork/Lockdrop.md)
     * [Real-time Lockdrop](PlasmNetwork/RealtimeLockdrop.md)
+* [PlasmMainnet](PlasmMainnet/README.md)
+    * [Chainspec Overview](PlasmMainnet/ChainSpec.md)
+    * [First Rewards Guide](PlasmMainnet/FirstRewards.md)
 * [PlasmTestnet](PlasmTestnet/README.md)
-    * [Design Overview](PlasmTestnet/DesignOverview.md)
+    * [Chainspec Overview](PlasmTestnet/DesignOverview.md)
     * [Validator Guide](PlasmTestnet/ValidatorGuide.md)
+

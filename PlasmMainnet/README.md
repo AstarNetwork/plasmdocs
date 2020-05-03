@@ -4,9 +4,9 @@
 
 ## Version
 
-- authoring_version: 5
-- spec_version: 50
-- impl_version: 50
+- authoring_version: 1
+- spec_version: 1
+- impl_version: 1
 
 ### Core modules
 
@@ -36,7 +36,11 @@ This item explains the chain spec of the genesis plasm mainnet.
 ## [First Rewards](./FirstRewards.md)
 This item explains the first rewards of genesis plasm mainnet.
 
-**2020 May 1~**
+
+---
+
+
+**Run mainnet since 2020 May 1**
 
 
 ## Future Works

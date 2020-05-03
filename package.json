@@ -14,5 +14,6 @@
   "devDependencies": {
     "gh-pages": "^2.1.1",
     "gitbook-cli": "^2.3.2"
-  }
+  },
+  "dependencies": {}
 }
