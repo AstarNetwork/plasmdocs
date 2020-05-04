@@ -69,7 +69,7 @@ Author and sign a Node pallet_balances::Transfer transaction with a given (secre
     subkey transfer <from> <to> <amount> <index> --genesis <genesis>FLAGS:
     -h, --help       Prints help information
     -V, --version    Prints version informationOPTIONS:
-    -g, --genesis <genesis>    The genesis hash or a recognised chain identifier (dev, elm, alex).ARGS:
+    -g, --genesis [genesis]    The genesis hash or a recognised chain identifier (plasm, dusty).ARGS:
     <from>      The signing secret key URI.
     <to>        The destination account public key URI.
     <amount>    The number of units to transfer.
@@ -82,14 +82,15 @@ By using the transfer command, it is possible to create RAW Extrinsics from a va
 
 You can do this with the following command.
 
-    subkey -k transfer 0x2F9C34E12950FC8EC9F73EBC9337CBC6EA29556EB462E8AD30B981784B9F907E 5Cakru1BpXPiezeD2LRZh3pJamHcbX9yZ13KLBxuqdTpgnYF 42000000 0 -g ac0090073a92ae1a68c049e84d5b3671d9156833f18f30031c1066eb2f1278a6
+    subkey -k transfer 0x2F9C34E12950FC8EC9F73EBC9337CBC6EA29556EB462E8AD30B981784B9F907E 5Cakru1BpXPiezeD2LRZh3pJamHcbX9yZ13KLBxuqdTpgnYF 42000000 0
 
 Before we go to the results, please allow me to dissect this long string of command.
 
 * The first hex that looks like this: `0x2F9C34E12950FC8EC9F73EBC9337CBC6EA29556EB462E8AD30B981784B9F907E` which is the lockdrop Ethereum private key.
 * The next line that looks like `5Cakru1BpXPiezeD2LRZh3pJamHcbX9yZ13KLBxuqdTpgnYF` is the destination Plasm Network account.
 * `42000000` is the value of tokens (1 PLM = 10¹⁵), this value should be followed by a `0` to show that this is the first transaction
-* Finally, the string of hash followed by the `-g` flag is the Testnet V3 genesis hash.
+
+> For Dusty network command should be extended by `-g dusty` sentence.
 
 If you copy and paste the long command, you should get the following results printed in your terminal.
 
