@@ -12,7 +12,7 @@ Please be cautious when handling Ethereum Private key, as it may potentially com
 The first step for importing your Ethereum wallet to Plasm Network is to access the Plasm Network Portal.
 You can use the following IPFS link.
 
-* [IPFS Link](https://ipfs.io/ipfs/QmWiJvTYavdKrQ99uncQvh4q9YXYPKXZ5YxhgQe767Vvu2)
+* [IPFS Link](https://ipfs.io/ipfs/QmZQBwe4DeW6aruayemGXA5ysexsqJVRzF6YHHeNPzKi7d)
 
 > IPFS as content-oriented distributed storage is a most safe place for sensitive code. Any changes in code will change URI and makes this code unavailable.
 
