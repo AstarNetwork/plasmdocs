@@ -1,10 +1,8 @@
-Plasm Testnet Design
-====================
+# Plasm Testnet Design
 
 > Main aim of Plasm Testnet is experimental network for community integration and public tests.
 
-Versioning
-----------
+## Versioning
 
 - spec-name: plasm-testnet
 - impl-name: plasm-testnet-node
@@ -14,7 +12,7 @@ Version naming notion:
 - For authoring version, it just equals to the testnet generation spec, testnet generation will not change authoring interface.
 - For spec/impl versions, two numbers are used, the high number is for testnet generation, the low number for testnet runtime upgrades (probably we will have no more than 9 patch fixes for testnet generation). Example: 10 for Testnet v1 genesis, 21 for Testnet v2 patch 1.
 
-Testnet generation could be or not compatible with old network. In my opinion, for testnets periodic blockchain wipe isn't bad, it helps resource saving for testnet participants.
+Testnet generation could be or not compatible with old network. However, a periodic testnet blockchain wipe is not a bad thing, as it helps reducing the required resources for testnet participants.
 
 **Estimated life cycle for testnet generation is approximately from two weeks to two months.**
 
@@ -25,9 +23,9 @@ Testnet upgrade could be two types:
 - major upgrade
 - minor runtime patch
 
-Runtime upgrade is acceptable for minor patches, end users should not notice a change of this upgrade. It’s an easy way to introduce small non breakable features / patches for the network.
-
 For the major upgrade the high version number is changed and testnet version is increased. This mean that testnet started from scratch. Major updates could be used for introducing breakable features or blockchain wipes for network participants' resource-saving.
+
+Runtime upgrade is acceptable for minor patches, end-users should not notice a change of this upgrade. It’s an easy way to introduce small, non breakable features/patches for the network.
 
 # Dusty Plasm
 

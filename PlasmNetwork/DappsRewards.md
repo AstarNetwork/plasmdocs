@@ -6,15 +6,15 @@ Dapps Rewards is a mechanism that rewards developers or administrators of smart 
 
 We will define how to distribute this reward to Operator and Nominator respectively. Define the following variables:
 
-- $$Rewards_{nominate}$$  : The total rewards allocated to Nominator.
-- $$Rewards_{contract}$$  : The total rewards allocated to smart contracts.
-- $$Rewards_{nominate_{i,j}}$$  : The rewards allocated to the j-th Nomimate fro the i-th smart contract.
-- $$Rewards_{contract_i}$$  : The rewards allocated to the operator of the i-th smart contract.
-- $$n$$  : The number of smart contract.
-- $$m_i$$  : The number of Nominate against the i-th smart contract.
-- $$stake_{i,j}$$  : The amount of PLM staked by the j-th Nominate for the i-th smart contract.
+- $Rewards_{nominate}$  : The total rewards allocated to Nominator.
+- $Rewards_{contract}$  : The total rewards allocated to smart contracts.
+- $Rewards_{nominate_{i,j}}$  : The rewards allocated to the j-th Nomimate fro the i-th smart contract.
+- $Rewards_{contract_i}$  : The rewards allocated to the operator of the i-th smart contract.
+- $n$  : The number of smart contract.
+- $m_i$  : The number of Nominate against the i-th smart contract.
+- $stake_{i,j}$  : The amount of PLM staked by the j-th Nominate for the i-th smart contract.
 
-Then, $$Nominate_ {i, j}$$  gives the following reward for this stake.
+Then, $Nominate_ {i, j}$  gives the following reward for this stake.
 
 $$Rewards_{nominate_{i,j}}=Rewards_{nominate} \times \frac{\sum_{j}^{m_i}stake_{i,j}}{\sum_i^n\sum_j^{m_i}stake_{i,j}}$$
 
@@ -52,36 +52,35 @@ Then, you note that a user can vote with Sybil attack. However, a user has to st
 
 For example, Alice has 1 million PLM. Alice can make 1 million users and Sybil voting attacks. But, she is better to stake her tokens, but Sybil voting attack. (In actuality, she needs more tokens in order to make 1 million users because of transaction fees.)
 
-
 ## A few popular operators are staked from almost nominators
 
 When Plasmchain installs to the above system, many user stakes to a few operators that they are already stable running. Then the gap between rich and poor is growing. This solution solves the problem.
 
 ![option_rewards](https://user-images.githubusercontent.com/6259384/76012067-004d1080-5f59-11ea-8e10-c3097e138202.png)
 
-As shown in the figure, give smart contracts first-mover benefits. Stakes for smart contracts have the option (optional) to get bonus rewards separately. This allows you to exercise your right to receive the following rewards up to r (≥0) days after receiving your Stake reward. Where $$x^k$$  represents $$x$$  at some point $$k$$ . First, introduce the following variables:
+As shown in the figure, give smart contracts first-mover benefits. Stakes for smart contracts have the option (optional) to get bonus rewards separately. This allows you to exercise your right to receive the following rewards up to r (≥0) days after receiving your Stake reward. Where $$x^k$$  represents $$x$$  at some point $k$ . First, introduce the following variables:
 
-- $$Rewards_{optoion^k_{i,j}}$$ : The rewards of getting by exercising an option that can be obtained at the j-th Nominate for the i-th Smart Contract at a certain location $$k$$ .
-- $$Rewards_{contract_i}$$ : The reward of the operator of the i-th smart contract when exercising the option.
-- $$stake^{k}_{i,j}$$  : The amount of PLM staked by the j-th Nominate for the i-th smart contract at time $$k$$ .
-- $$m^k_i$$  : The number of Nominate against the i-th smart contract at time $$k$$ .
-- $$p^k_{contract_i}$$  : A coefficient parameter for determining the option reward obtained when nominating the i-th smart contract at time $$k$$ , the operator of the smart contract can be defined.
+- $Rewards_{optoion^k_{i,j}}$ : The rewards of getting by exercising an option that can be obtained at the j-th Nominate for the i-th Smart Contract at a certain location $k$ .
+- $Rewards_{contract_i}$ : The reward of the operator of the i-th smart contract when exercising the option.
+- $stake^{k}_{i,j}$  : The amount of PLM staked by the j-th Nominate for the i-th smart contract at time $k$ .
+- $m^k_i$  : The number of Nominate against the i-th smart contract at time $k$ .
+- $p^k_{contract_i}$  : A coefficient parameter for determining the option reward obtained when nominating the i-th smart contract at time $k$ , the operator of the smart contract can be defined.
 
 $$Rewards_{option_{i,j}^{k}}=Rewards_{contract_{i}}\times \frac{stake_{i,j}^k}{\sum^{m_i^k}_jstake_{i,j}^k}\times p^k_{contract_i}$$
 
-Note that $$Rewards_ {contract_i}$$  and "Operator" indicated by $$Rewards_ {option_i ^ {k}}$$  are equal. $$p$$  allows the operator to specify a value less than 0.2.
+Note that $Rewards_{contract_i}$ and "Operator" indicated by $Rewards_{option_i ^ {k}}$ are equal. $p$ allows the operator to specify a value less than 0.2.
 
-When this right is exercised, the operator will be able to distribute the reward from Operator at the time of $$p*100$$ % and the share of Stake to the smart contract at the time of $$k$$ . You. Put simply, $$\sum^{m_i^k}_jstake_{i, j} ^ k$$  is the popularity of smart contract $$ i $$  at time $$ k $$ . Increasing the stake for a smart contract while it is low in popularity will increase the option profits that can be obtained when the popularity of the smart contract increases in the future.
+When this right is exercised, the operator will be able to distribute the reward from Operator at the time of $p*100$% and the share of Stake to the smart contract at the time of $k$ . You. Put simply, $\sum^{m_i^k}_jstake_{i, j}^k$  is the popularity of smart contract $i$  at time $k$ . Increasing the stake for a smart contract while it is low in popularity will increase the option profits that can be obtained when the popularity of the smart contract increases in the future.
 
-When this right is exercised, the reward that the Operator can receive is reduced by that amount. So Operator can control the value $$ p $$ . Operator can specify $$ r $$ , $$ p $$  first.
+When this right is exercised, the reward that the Operator can receive is reduced by that amount. So Operator can control the value $p$ . Operator can specify $r$ , $p$  first.
 
-Note: The limitation about $$r$$  and $$p$$  provides that malicious operator or nominator receives many staking rewards by misusing the system.
+Note: The limitation about $r$  and $p$  provides that malicious operator or nominator receives many staking rewards by misusing the system.
 
-For example, An operator Bob was staked 100 PLM at 0 days and $$p=0.1$$ and $$r=200$$. Then Alice staked 50 PLM to Bob. Alice gets a credit that she would get rewards from Bob someday between 100 days after and 200 days after. The amount of the rewards is 0.5 × 0.1 = 0.05 times as the amount of Bob's rewards at that moment in time.
+For example, An operator Bob was staked 100 PLM at 0 days and $p=0.1$ and $r=200$. Then Alice staked 50 PLM to Bob. Alice gets a credit that she would get rewards from Bob someday between 100 days after and 200 days after. The amount of the rewards is 0.5 × 0.1 = 0.05 times as the amount of Bob's rewards at that moment in time.
 100 days after, Bob received 1000 PLM. Then Alice executed the credit and get 1000 × 0.05 = 50 PLM.
 
-In general, the risk of staking to operators is higher than one of staking to the validator. Because slashing is difficult to predict compared to slash validators. And getting rewards takes more time. Therefore, we add the above incentive systems for operator staking. We think operator staking is advanced. So the ideal percentage of staking is $$Validator:Operateor=4:1$$.
+In general, the risk of staking to operators is higher than one of staking to the validator. Because slashing is difficult to predict compared to slash validators. And getting rewards takes more time. Therefore, we add the above incentive systems for operator staking. We think operator staking is advanced. So the ideal percentage of staking is $Validator:Operator=4:1$.
 
-## Trying
+## Demo
 
-You can try [here](https://medium.com/stake-technologies/lets-play-with-plasm-testnet-v3-%E2%91%A1-dapps-rewards-ab6f637ffe4c).
+You can try it yourself [here](https://medium.com/stake-technologies/lets-play-with-plasm-testnet-v3-%E2%91%A1-dapps-rewards-ab6f637ffe4c).

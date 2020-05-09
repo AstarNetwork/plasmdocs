@@ -6,9 +6,8 @@ Plasm is a library for handling Plasma chains in Substrate. Plasm initially only
 |:--:| 
 | *Plasma Group Spec optimized for Substrate(refer to https://docs.plasma.group/projects/spec/en/latest/src/05-client-architecture/introduction.html)* |
 
-
 We decided to develop the Plasma specification and default implementation using ink !, a smart contract on Substrate. This is called **Plasm Contract**.
 
 Plasm also handles child chain databases. This assumes the following content. Use Substrate to implement a child chain database and its endpoints. This is called **Plasm Childchain**.
 
-Operators and user roles are implemented as client applications that hit the endpoints of the child chain appropriately. The client application that hits SubstrateNode is called ** Plasm Client **.
+Operators and user roles are implemented as client applications that hit the endpoints of the child chain appropriately. The client application that hits SubstrateNode is called **Plasm Client**.

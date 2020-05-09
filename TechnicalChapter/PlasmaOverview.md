@@ -1,14 +1,17 @@
 # Plasma Overview
-We will walk through the basic functions of Plasma on this page.
+
+In this chapter, we will discuss the basic functions of Plasma.
 
 Plasma is one of the blockchain scaling solutions invented by Joseph Poon Poon and Vitalik Buterin. [White paper](https://plasma.io/plasma.pdf)
 
 Plasma is a framework to make a side chain and connect it to a main chain (e.g. Ethereum). The side chain and the main chain communicate each other.  
 
-## Why Plasma?
-Blockchains are slow and expensive by design. Blockchains can't be an infrastructure of the world without an high scalability. We, Plasma implementors try to make it fast and cheap without sacrifycing safety and decentralization so that everyone can use blockchains. 
+## Why Plasma
+
+Blockchains are slow and expensive by design. Blockchains can't be an infrastructure of the world without an high scalability. We, Plasma implementors try to make it fast and cheap without sacrificing safety and decentralization so that everyone can use blockchains.
 
 ## In the Plasm Network
+
 Plasma is one of the scale solutions in the blockchain. The basic idea of ​​Plasma is to manage and process transactions in a Merkle tree outside the chain at high speed, and engrave only the Merkle root on the blockchain. The person responsible for performing the off-chain processing and submitting the hash to the blockchain is called an Aggregator in the context of Plasma.
 
 ![plasma_1](https://user-images.githubusercontent.com/6259384/75877313-c4338600-5e5a-11ea-845a-edef3640c469.png)

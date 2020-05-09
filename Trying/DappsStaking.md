@@ -1,12 +1,15 @@
+# Preparation
+
 [日本版はこちら](https://medium.com/stake-technologies/%E9%81%8A%E3%81%BC%E3%81%86-plasm-testnet-v3-%E2%91%A1-dapps-rewards-a58419e4ff97)
 
-# Preparation
 Just like what we did in our [previous trying](./OperatorTrading.html), we need to deploy a Contract. After that, when you go to your sidebar and press DappsStaking, it should show like the following. Once you’re here, our preparation is over!
 
 ![DppsStaking board](https://user-images.githubusercontent.com/6259384/77172548-775dd980-6b01-11ea-9c32-c360a6f09759.png)
 
 ## The concept of Dapps Rewards
+
 The overall logistics of how the Dapps Rewards works is like the following.
+
 1. Select a Smart Contract to stake. (this is also referred as nominate)
 2. The nominator and the Smart Contract operator who’s nominated will gain economic incentives from Plasmchain that is proportional to the amount that has been staked.
 

@@ -1,10 +1,9 @@
-# Import Ethereum Seed
+# Import Ethereum Seed to Plasm Network
 
 This is a guide for importing your ECDSA key (notably Ethereum wallets) into Plasm Network to use it within the network.
 Any Ethereum private keys can be used within Plasm Network, however, this guide will be most helpful for Etherum lockdrop participants to access their tokens.
 
-**Disclaimer**
-
+> **Disclaimer**
 Please be cautious when handling Ethereum Private key, as it may potentially compromise your Ethereum wallet when it is leaked.
 
 ## Plasm Network Portal
@@ -25,7 +24,7 @@ You should be able to see the following page.
 
 ![Local Plasm Portal](../img/local_plasm_portal.png)
 
-## Import Ethereum Seed
+## Importing Ethereum Seed
 
 Now prepare your Ethereum private key that you wish to import to Plasm Network.
 For lockdrop participants, it *must* be the private key of a wallet that made the lockdrop transaction.

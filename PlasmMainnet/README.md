@@ -31,31 +31,34 @@
 
 
 ## [Plasm Network ChainSpec](./ChainSpec.md)
+
 This item explains the chain spec of the genesis plasm mainnet.
 
 ## [First Rewards](./FirstRewards.md)
-This item explains the first rewards of genesis plasm mainnet.
 
+This item explains the first rewards of genesis plasm mainnet.
 
 ---
 
-
 **Run mainnet since 2020 May 1**
 
-
-## Future Works
+## Development Roadmap
 
 ### 2020 Q2
+
 - [Dapps Staking](../PlasmNetwork/DappsRewards.md) module will be avalable.
 
 ### 2020 Q3
+
 - [Ovm + Plasma](../TechnicalChapter/OVM.md) module will be avalable.
 - [Real time Lockdrop](../PlasmNetwork/RealtimeLockdrop.md) module will be avalable.
 
 ### 2020 Q4
+
 - First L2 application will be released.
 - L2 interoperability between ETH.
 - Migrate to NPoS from PoA.
 
-### 2020
+### In 2020
+
 - Plasm Network as Parachain join the Polkadot.

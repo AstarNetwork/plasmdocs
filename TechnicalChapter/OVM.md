@@ -12,14 +12,9 @@ Plasma applications (Plapps) can be created and run properly through the dedicat
 
 These Plasm Network logics can be combined with the implementation provided by the Plasma L2 Implementation described above to build an application.
 
+> The following sections are the technical details.
 
----
-Below are the technical details.
-
-
----
-
-# Smart Contract
+## Smart Contract
 
 Smart contracts in Plasm Network's Layer2 applications require **ERC20 Contracts** and **Payout Contracts**. Each Layer2 application developer must implement their own smart contract.
 
@@ -58,14 +53,14 @@ Then, it is necessary to consider special storage that can handle the Layer2 app
 
 Specifically, it can be divided into OVM Modules, which perform general OVM processing, and Plasma modules, which are responsible for plasma-specific processing. See the architecture diagram for the dependencies of each module and contract.
 
-
-# OVM Module
+## OVM Module
 
 OVM Module describes the processing commonly performed in OVM. Specifically, the execution logic of Predicate is included in this module. In addition, the smart contract is executed by using the truth of Predicate as a trigger. This module is a modularized version of [Universal Adjudication contract](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol) in the Ethereum Smart contract.
 
-
 ## Types
+
 Defines the type used by OVM Module.
+
 ```rust
 pub struct Predicate(Vec<u8>);
 
@@ -96,11 +91,12 @@ pub struct Range<Balance> {
 
 ## Universal Adjudication
 
-### Contants
-```rust
+### Contents
+
 /// During the dispute period defined here, the user can challenge. If nothing is found, the state is determined after the dispute period.
 type DISPUTE_PERIOD: T::Moment = 7;
-```
+
+```rust
 ### Storage
 ```rust
 decl_storage! {
@@ -109,7 +105,9 @@ decl_storage! {
 	InstantiatedGames get(fn instantiated_games): map T::Hash => T::ChallengeGame;
 }
 ```
+
 ### Modules
+
 ```rust
 decl_storage! {
 	fn deploy(predicate: T::Predicate);
@@ -132,7 +130,9 @@ decl_storage! {
 	fn get_property_id(property: T::Property);
 }
 ```
+
 ### Events
+
 ```rust
 // (predicate_address: AccountId);
 DeployPredicate(AccountId);
@@ -155,7 +155,9 @@ Plasma Module is a module that is responsible for processing specific to Plasma.
 This is modularized  [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) and [CompiledPredicate](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) contracts in the Ethereum.
 
 ## Types
+
 Defines the type used by Plasma Module.
+
 ```rust
 pub struct StateUpdate<AccountId, Balance, BlockNumber> {
 	deposit_contract_address: AccountId,
@@ -203,6 +205,7 @@ pub struct AddressTreeNode<AccountId> {
 ```
 
 ### modules
+
 ```rust
 /// Commitment constructor + Deposit constructor
 fn deploy(
@@ -210,11 +213,13 @@ fn deploy(
 	erc20: T::AccountId,
 	state_update_predicate: T::AccountId);
 ```
+
 ## Commitment
 
 Commitment is something to save the Merkle Root owned by the Plasma child chain. Child storage of Commitment is generated for each Layer2 application. This can be used like accessing smart contracts.
 
 ### Storage
+
 ```rust
 // Commitment storage: Plapps address => Commitment Child Storage.
 Commitment get(fn commitment): T::AccountId => Commitment;
@@ -232,7 +237,9 @@ decl_child_storage! {
 	}
 }
 ```
+
 ## Modules
+
 ```rust
 decl_modules! {
 	fn submitRoot(blk_number: u64, root: T::Hash); 
@@ -250,17 +257,20 @@ decl_modules! {
 	fn verifyInclusion(leaf: T::Hash, address, T::AccountId, range: T::Range, inclusionProof: InclusionProof, blk_number);
 }
 ```
+
 ## Events
+
 ```rust
 // Event definitions (AccountID: PlappsAddress, BlockNumber, Hash: root)
 BlockSubmitted(AccountId, BlockNumber, Hash);
 ```
-## Deposit
 
+## Deposit
 
 Deposit is something to deposit ERC20 tokens from Layer1 to Layer2. Child storage of Deposit is generated for each Layer2 application. This can be used like accessing smart contracts.
 
 ### Storage
+
 ```rust
 // Deposit storage: Plapps address => Deposit Child Storage.
 Deposit get(fn deposit): T::AccountId => Deposit;
@@ -278,7 +288,9 @@ decl_child_storage! {
     }
 }
 ```
+
 ### Modules
+
 ```rust
 decl_modules! {
 	fn deposit(amount: T::Balance, initial_state: T::Property);
@@ -291,7 +303,9 @@ decl_modules! {
 	fn is_subrange(subrange: T::Range, surroundingRange T::Range);
 }
 ```
+
 ### Events
+
 ```rust
 // (checkpointId: Hash, checkpoint: Checkpoint);
 CheckpointFinalized(Hash, Checkpoint);
@@ -302,16 +316,20 @@ DepositedRangeExtended(Range);
 // (removed_range: Range)
 DepositedRangeRemoved(Range);
 ```
+
 ## Compiled Predicate
 
 The role of CompiledPredicate is optimizing claim size by compiling complex proposition to one simple predicate. The Plasma Module has method for running Layer2 applications via Predicate. PayoutContract withdrawal processing that exists for each Layer2 application can only be called via Compiled Predicate. This makes you can process Layer2 as secure of Layer1.
 
 ### Storage
+
 ```rust
 /// predicate address => payout address
 PayoutContractAddress get(fn payout_contract_address): map T::AccountId => T::AccountId;
 ```
+
 ### Modules
+
 ```rust
 fn decide_true(predicate_address: T::AccountId, inputs: Vec<u8>, witness: Vec<u8>);
 
@@ -319,7 +337,6 @@ fn decide_true(predicate_address: T::AccountId, inputs: Vec<u8>, witness: Vec<u8
 fn is_valid_challenge(predicate_address: T::AccountId, inputs: Vec<u8>, challenge_inputs: Vec<u8>, challenge: T::Property);
 fn decide(predicate_addres: T::AccountId, inputs: Vec<u8>, witness: Vec<u8>);
 ```
-
 
 # For Substrate & Polkadot & ink!
 

@@ -1,7 +1,8 @@
-Plasm Validator Program
-=======================
+# Plasm Validator Program
 
 > This short guide explain step by step how to become a Plasm Testnet validator.
+
+## Setting up a validator node
 
 - Install node **v1.0.0-dusty** using [binaries](https://github.com/staketechnologies/Plasm/releases/tag/v1.0.0-dusty) or [build from source code](https://github.com/staketechnologies/Plasm#building-from-source).
 - Launch node plasm-node --validator --name node-name --rpc-cors all
@@ -41,5 +42,7 @@ When you finish this tutorial please wait a bit while **Stake Technologies** tea
 When you already participate in Testnet V3 validation you could be initerested in migration.
 Please copy your session keys from testnet v3 keystore into dusty keystore by following commands before launch node:
 
+```bash
     mkdir .local/share/plasm-node/chains/dusty
     cp -r .local/share/plasm-node/chains/plasm_testnet_v3/keystore .local/share/plasm-node/chains/dusty
+```

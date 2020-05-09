@@ -1,6 +1,7 @@
-Reminder: This is the first draft. We will polish this draft to make it more understandable and more professional.
-
 # Introduction
+
+> **Reminder:** This is a rough draft of the final version. We will incrementally polish this version as development continues.
+
 ![Plasm](./img/plasm.png)
 We aim to realize Web3.0 via blockchain technology. The traditional social structure allows people with authority to monopolize information, and history has proven that these people will bend the rules to their benefit([ref: Saving Capitalism: For the Many, Not the Few](https://www.jstage.jst.go.jp/article/lecgsa/15/0/15_139/_pdf/-char/en)). Even if people claim that their system is fair, it still lacks transparency, proving that everything is still conceived upon pillars of sand that are called trust. In contrast to this, blockchain provides a system with decentralized governance that does not require a single group or organization to manage everything, effectively removing a single point of failure and making a transparent and trustless system. This is possible because blockchain is a system that allows anyone to view, prove, and host with a highly fault-tolerant consensus mechanism([Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook)).
 

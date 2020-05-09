@@ -2,6 +2,7 @@
 
 Lockdrop's Lock Contract contains the following anonymous function.
 
+```solidity
     /**
     * @dev Withdraw function once timestamp has passed unlock time
     */
@@ -16,6 +17,7 @@ Lockdrop's Lock Contract contains the following anonymous function.
       }
      }
     }
+```
 
 This enables the contract to return the locked balance (the entire contract balance) to the original token locker's address by sending an empty transaction to this contract address.
 However, the timestamp of the transaction must be greater than the timestamp of the lock including the lock duration.

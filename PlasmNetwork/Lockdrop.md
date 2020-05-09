@@ -1,6 +1,6 @@
 # Lockdrop
 
-[Lockdrop](https://blog.edgewa.re/full-details-on-the-edgeware-lockdrop) is a new low-risk economic incentivization mechanism, where it uses opportunity costs rather than legal tender (or assets) as collateral. Plasm Network uses this mechanism to issue tokens with monetary value. Throughout this section, we will explain Plasm Network's token issuance mechanism. The concept of a lockdrop was first conceived by Edgeware, and the one used for Plasm Network is an expansion of its original mechanism. The native token used in the Plasm Network is written PLM and pronounced as "plum". PLM will only calculate from the 15th decimal place and truncate any numbers below that. For more information regarding the role of the Token, please refer to the PLM Token Economics section.
+[Lockdrop](https://blog.edgewa.re/full-details-on-the-edgeware-lockdrop) is a new token distribution mechanism and a low-risk economic incentivization mechanism. It uses opportunity costs rather than legal tender (or assets) as collateral. Plasm Network uses this mechanism to issue tokens with monetary value. Throughout this section, we will explain Plasm Network's token issuance mechanism. The concept of a lockdrop was first conceived by Edgeware, and the one used for Plasm Network is an expansion of its original mechanism. The native token used in the Plasm Network is written PLM and pronounced as "plum". PLM will only calculate from the 15th decimal place and truncate any numbers below that. For more information regarding the role of the Token, please refer to the PLM Token Economics section.
 
 ## Lockdrop Overview
 
@@ -31,13 +31,13 @@ Furthermore, Plasm Network will accept the following tokens for the 1s
 
 ### Defenitions
 
-We define the amount of distributed PLM (TotalPLM^{genesis}) from the first lockdrop to be as the following.
+We define the amount of distributed PLM ($TotalPLM^{genesis}$) from the first lockdrop to be as the following.
 
 $$TotalPLM^{genesis} = 500,000,000$$
 
-The total amount will be distributed to the lockdrop participants in accordance with the token issue rate (IssueRatio). The IssueRatio is proportional to the number of locked tokens, the exchange rate in dollars  $$ DollarRate_{token} $$  of the locked tokens at the time of the lockdrop and the number of days multiplied by 1.0005 to the power of days  $$ Days * 1.0005^{Days} $$ . The value of 1.0005 is based on Polkadot's interest rate. To elaborate, by default, Polkadot defines its maximum average annual interest rate to be 20% ([reference](https://research.web3.foundation/en/latest/polkadot/Token%20Economics.html)). Converting this into daily interest rates with compound interest gives us an approximate value of 0.05%.
+The total amount will be distributed to the lockdrop participants in accordance with the token issue rate (IssueRatio). The IssueRatio is proportional to the number of locked tokens, the exchange rate in dollars $DollarRate_{token}$ of the locked tokens at the time of the lockdrop and the number of days multiplied by 1.0005 to the power of days  $Days * 1.0005^{Days}$ . The value of 1.0005 is based on Polkadot's interest rate. To elaborate, by default, Polkadot defines its maximum average annual interest rate to be 20% ([reference](https://research.web3.foundation/en/latest/polkadot/Token%20Economics.html)). Converting this into daily interest rates with compound interest gives us an approximate value of 0.05%.
 
-The users have the option to choose the lockdrop duration from the following 4 + 1 options. The $$ IssueRatio $$ will be determined by the duration fo the lock which comes directly after evaluating the value of the locked tokens in Dollars.
+The users have the option to choose the lockdrop duration from the following 4 + 1 options. The $IssueRatio$ will be determined by the duration fo the lock which comes directly after evaluating the value of the locked tokens in Dollars.
 
 ![LockdropTable](https://user-images.githubusercontent.com/6259384/75602324-6d9b1480-5b07-11ea-9501-576eaefd155f.png)
 
@@ -45,51 +45,51 @@ The users have the option to choose the lockdrop duration from the following 4 +
 
 Based on the aforementioned information, the IssueRatio will be defined as the following.
 
-- $$Locked_{token}$$ is the number of locked tokens for the lockdrop
-- $$DolalrRate_{token}$$ is the value for 1 token in Dollars
-- $$LockBonus_{days}$$ is the amount of bonus the user will receive according to the locked days
+- $Locked_{token}$ is the number of locked tokens for the lockdrop
+- $DolalrRate_{token}$ is the value for 1 token in Dollars
+- $LockBonus_{days}$ is the amount of bonus the user will receive according to the locked days
 
-$$ IssueRatio = Locked_{token} \times DollarRate_{token}\times LockBonus_{days}  (token \in \{ETH,BTC,DOT\}) $$
+$$IssueRatio = Locked_{token} \times DollarRate_{token}\times LockBonus_{days}  (token \in \{ETH,BTC,DOT\})$$
 
-The number of tokens to be got who Lockdrop participant has is determined based on the calculated IssueRatio. The algorithm for determining the token distribution amount is as follows. 
+The number of tokens to be got who Lockdrop participant has is determined based on the calculated IssueRatio. The algorithm for determining the token distribution amount is as follows.
 
-- $$n$$ is the number of Lockdrop participant.
-- $$IssueRatio_i$$ is $$ IssueRatio $$ for user $$i$$.
+- $n$ is the number of Lockdrop participant.
+- $IssueRatio_i$ is $IssueRatio$ for user $i$.
 - We define 15% (3/20) of the total issued tokens as development costs we hold.
-- $$PLM_i$$ is the amount of tokens user $$i$$ can get.
+- $PLM_i$ is the amount of tokens user $i$ can get.
 
 $$PLM_{i}=TotalPLM^{genesis} \times \frac{17}{20} \times \frac{IssueRatio_i}{\sum_{j=0}^{n}IssueRatio_j}$$
 
-In other words, PLM will be distributed by the ratio of your $$ IssueRatio $$ to the total $$ IssueRatio $$  At this time, 75,000,000 PLM, which is 3/20 as development cost, will be used. Here, we define $$ TotalIssueRatio $$  which is the sum of $$ IssueRation $$ 
+In other words, PLM will be distributed by the ratio of your $IssueRatio$ to the total $IssueRatio$  At this time, 75,000,000 PLM, which is 3/20 as development cost, will be used. Here, we define $TotalIssueRatio$  which is the sum of $IssueRation$.
 
 $$TotalIssueRatio=\sum^{n}_{j=0}{IssueRatio_j}$$
 
-Also, $α_1$ is the amount of PLM issued per unit $$ IssueRatio $$ in the first Lockdrop. This is an important value to determine the amount of PLM issued in the second and subsequent Lockdrops.
+Also, $α_1$ is the amount of PLM issued per unit $IssueRatio$ in the first Lockdrop. This is an important value to determine the amount of PLM issued in the second and subsequent Lockdrops.
 
 $$\alpha_1 = \frac{PLM_{i}}{IssueRatio_i} = TotalPLM^{genesis} \times \frac{17}{20} \times \frac{1}{TotalIssueRatio}$$
 
-Define the number of PLM issues per unit $$ IssueRatio $$ for the second and third times to satisfy a_2 and a_3 the following equation.
+Define the number of PLM issues per unit $IssueRatio$ for the second and third times to satisfy $a_2$ and $a_3$ the following equation.
 
 $$\alpha_1:\alpha_2:\alpha_3 = 6:5:4$$
 
-From the above, the amount of PLM distributed to the second and third user $$i$$ is as follows.
+From the above, the amount of PLM distributed to the second and third user $i$ is as follows.
 
 $$\alpha_j \times IssueRatio_i\:\:\:\:(j=2,3)$$
 
-This allows the user to get the amounts of tokens proportional to $$ IssueRatio $$ on the second and subsequent Lockdrops. This solves the problem that if a large number of users do Lockdrop after the first Lockdrop, the amount of PLM that users can get will be excessively small relative to the overall ratio.
+This allows the user to get the amounts of tokens proportional to $IssueRatio$ on the second and subsequent Lockdrops. This solves the problem that if a large number of users do Lockdrop after the first Lockdrop, the amount of PLM that users can get will be excessively small relative to the overall ratio.
 
-The following the below figure shows an example of how the amounts of tokens distribution changes in multiple Lockdrops. Here, $$ DollarRate $$ is fixed.
+The following the below figure shows an example of how the amounts of tokens distribution changes in multiple Lockdrops. Here, $DollarRate$ is fixed.
 
 ![MultiLockdrop](https://user-images.githubusercontent.com/6259384/75602454-ac7d9a00-5b08-11ea-80a1-d3e697f1c776.png)
 
-### Why issue Lockdrop tokens?
+### Why issue Lockdrop tokens
 
 - We do not hold the assets of the Lockdrop user.
 - Users do not need to consider the risk of stealing assets by scammers. Issue a PLM with the opportunity cost as collateral. Assets locked by the user will return after the Lock period has expired.
 - Users can join Lockdrop at a low cost. Anyone who can run a smart contract can participate in Lockdrop. All token holders have the opportunity to participate.
 - Unlike Airdrop, Lockdrop participants pay a cost to get a PLM. You can issue tokens with a non-zero value.
 
-### Why split Lockdrop multiple times?
+### Why split Lockdrop multiple times
 
 - If all PLMs are issued on the first Lockdrop, a small number of token holders may own a huge amount of PLM. If you do, there is a risk that a healthy ecosystem will not work. Prevent excessive first-mover benefits.
 - Users can increase their chances of acquiring tokens by performing multiple Lockdrops. Allow more people to earn a PLM.
