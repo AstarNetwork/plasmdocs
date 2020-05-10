@@ -573,10 +573,10 @@
 <p><img src="https://user-images.githubusercontent.com/6259384/75546609-404d5880-5a6c-11ea-84d0-f063e0bc252c.png" alt="ovmodule"></p>
 <p>Plasma applications (Plapps) can be created and run properly through the dedicated client application L1 adapter. Plapps are composed of OVM, Plasma and Contracts modules in Plasm Network. In Plasma development at Ethereum, everything provided in these modules was managed by smart contracts. However, in that case, there is a problem that it is difficult to predict the gas cost when running a plasma application containing complicated logic. Also, building applications that combine multiple contracts can be confusing to developers. For this reason, Plasma Network has considered a superficially concise and easy-to-understand configuration by separating the roles into three modules. The OVM Module implements a function called Universal Adjudication to cause a dispute when the user finds a mistake in the information on Layer1. The Plasma Module supports a common implementation of some of the essential smart contracts for Plasma. Only the implementations that require different logic for each application are managed by the Contracts Module.</p>
 <p>These Plasm Network logics can be combined with the implementation provided by the Plasma L2 Implementation described above to build an application.</p>
-<hr>
-<p>Below are the technical details.</p>
-<hr>
-<h1 id="smart-contract">Smart Contract</h1>
+<blockquote>
+<p>The following sections are the technical details.</p>
+</blockquote>
+<h2 id="smart-contract">Smart Contract</h2>
 <p>Smart contracts in Plasm Network&apos;s Layer2 applications require <strong>ERC20 Contracts</strong> and <strong>Payout Contracts</strong>. Each Layer2 application developer must implement their own smart contract.</p>
 <h2 id="erc20-contract">ERC20 Contract</h2>
 <p>ERC20 Contract is a contract that expresses tokens handled by Layer2 application. Refer to this specification for <a href="https://eips.ethereum.org/EIPS/eip-20" target="_blank">ERC20</a>. We implement PLM&apos;s wrapped Contract as the default ERC20 Contract.</p>
@@ -598,7 +598,7 @@
 <p>Operations related to OVM are implemented by the Substrate runtime module. This is so that users do not have to deploy complex smart contracts. This is intended to make gas costs of deployment cheap and easy to estimate. In addition, this makes developers of Layer2 applications can consider and implement only the essentially required &quot;ERC20 contract&quot; and &quot;Payment contract&quot; and properties that indicate the rules of state transition.</p>
 <p>Then, it is necessary to consider special storage that can handle the Layer2 application with the Substrate Runtime Module. It treats one application as one AccountId in the same way as a smart contract.</p>
 <p>Specifically, it can be divided into OVM Modules, which perform general OVM processing, and Plasma modules, which are responsible for plasma-specific processing. See the architecture diagram for the dependencies of each module and contract.</p>
-<h1 id="ovm-module">OVM Module</h1>
+<h2 id="ovm-module">OVM Module</h2>
 <p>OVM Module describes the processing commonly performed in OVM. Specifically, the execution logic of Predicate is included in this module. In addition, the smart contract is executed by using the truth of Predicate as a trigger. This module is a modularized version of <a href="https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol" target="_blank">Universal Adjudication contract</a> in the Ethereum Smart contract.</p>
 <h2 id="types">Types</h2>
 <p>Defines the type used by OVM Module.</p>
@@ -629,12 +629,12 @@
 }
 </code></pre>
 <h2 id="universal-adjudication">Universal Adjudication</h2>
-<h3 id="contants">Contants</h3>
-<pre><code class="lang-rust"><span class="hljs-comment">/// During the dispute period defined here, the user can challenge. If nothing is found, the state is determined after the dispute period.</span>
-<span class="hljs-class"><span class="hljs-keyword">type</span> <span class="hljs-title">DISPUTE_PERIOD</span></span>: T::Moment = <span class="hljs-number">7</span>;
-</code></pre>
-<h3 id="storage">Storage</h3>
-<pre><code class="lang-rust">decl_storage! {
+<h3 id="contents">Contents</h3>
+<p>/// During the dispute period defined here, the user can challenge. If nothing is found, the state is determined after the dispute period.
+type DISPUTE_PERIOD: T::Moment = 7;</p>
+<pre><code class="lang-rust">### Storage
+```rust
+decl_storage! {
     Predicate get(<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">predicate</span>): <span class="hljs-title">map</span> <span class="hljs-title">T</span>::<span class="hljs-title">AccountId</span> =&gt; <span class="hljs-title">T</span>::<span class="hljs-title">Predicate</span>;
     <span class="hljs-title">DisputePeriod</span> <span class="hljs-title">get</span></span>(<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">dispute_period</span>): <span class="hljs-title">T</span>::<span class="hljs-title">Moment</span>;
     <span class="hljs-title">InstantiatedGames</span> <span class="hljs-title">get</span></span>(<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">instantiated_games</span>): <span class="hljs-title">map</span> <span class="hljs-title">T</span>::<span class="hljs-title">Hash</span> =&gt; <span class="hljs-title">T</span>::<span class="hljs-title">ChallengeGame</span>;
@@ -871,7 +871,7 @@ PayoutContractAddress get(<span class="hljs-function"><span class="hljs-keyword"
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"OVM Overview","level":"1.6.2","depth":2,"next":{"title":"Generalized Plasma","level":"1.6.3","depth":2,"path":"TechnicalChapter/GeneralizedPlasma.md","ref":"TechnicalChapter/GeneralizedPlasma.md","articles":[]},"previous":{"title":"Plasma Overview","level":"1.6.1","depth":2,"path":"TechnicalChapter/PlasmaOverview.md","ref":"TechnicalChapter/PlasmaOverview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/OVM.md","mtime":"2020-05-04T03:18:12.143Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-04T03:19:11.841Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"OVM Overview","level":"1.6.2","depth":2,"next":{"title":"Generalized Plasma","level":"1.6.3","depth":2,"path":"TechnicalChapter/GeneralizedPlasma.md","ref":"TechnicalChapter/GeneralizedPlasma.md","articles":[]},"previous":{"title":"Plasma Overview","level":"1.6.1","depth":2,"path":"TechnicalChapter/PlasmaOverview.md","ref":"TechnicalChapter/PlasmaOverview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/OVM.md","mtime":"2020-05-10T05:39:49.260Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-10T05:40:43.367Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

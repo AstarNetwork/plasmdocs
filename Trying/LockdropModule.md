@@ -1,11 +1,9 @@
-Plasm Testnet Lockdrop
-======================
+# Plasm Testnet Lockdrop
 
 To prevent errors and meet users with lockdrop scenario we decide to held lockdrop in Plasm Testnets.
 Testnet Lockdrop is also final tests of lockdrop sourcecode before mainnet launch.
 
-First (Ropsten) lockdrop
-------------------------
+## First (Ropsten) lockdrop
 
 * Currency: Ropsten `ETH`
 * Dates: 13 Dec 2019 - 20 Dec 2019
@@ -26,8 +24,7 @@ Once you have finished installing the subkey utility, let’s try using it. For 
 
 ```bash
 $ subkey transfer --help
-subkey-transfer 
-Author and sign a Node pallet_balances::Transfer transaction with a given (secret) keyUSAGE:
+subkey-transfer Author and sign a Node pallet_balances::Transfer transaction with a given (secret) keyUSAGE:
     subkey transfer <from> <to> <amount> <index> --genesis <genesis>FLAGS:
     -h, --help       Prints help information
     -V, --version    Prints version informationOPTIONS:
@@ -55,8 +52,10 @@ Before we go to the results, please allow me to dissect this long string of comm
 
 If you copy and paste the long command, you should get the following results printed in your terminal.
 
+```bash
     Using a genesis hash of ac0090073a92ae1a68c049e84d5b3671d9156833f18f30031c1066eb2f1278a6
     0x310284ffe28153d70c05ebce1758dfd58356b05ff6bcb90fae903e27b00baa9bdfb9fd2f0210c5ecce7198b3adf13dece166a277890c189c05e5e061240cfacd8b9e2e9b497be46283d20ae801c784e1ec962a64644508b5e492c4bdb1932f202bbdbb63db010000000300ff16eb796bee0c857db3d646ee7070252707aec0c7d82b2eda856632f6a2306a58a10f
+```
 
 You’ll notice that the first line of hash is familiar from what we have seen before. It’s the genesis hash! But the important part is the second line, which is the hex-encoded raw extrinsic. We’ll be needing this in a short while so please copy this.
 
@@ -70,13 +69,11 @@ The link above should redirect you directly to the toolbox page shown in the fol
 
 Now we just copy the hex string to the extrinsic field and push the **Submit RPC call** button. The transfer transaction will be sent immediately. You can check the results from the [account balances](https://apps.plasmnet.io/#/accounts) page.
 
-Second (Live Testnet) lockdrop
-------------------------------
+## Second (Live Testnet) lockdrop
 
 * Currency: Testnet `BTC`
 * Dates: 15 Feb 2020 - 15 Mar 2020.
 * The Aim: Live lockdrop for `Plasm Testnet V3`.
 * URI: https://apps.plasmnet.io/
 
-This lockdrop will held in already launched Plasm Testnet to show 
-how to participate in Live lockdrop using Testnet BTC.
+This lockdrop will be held in our newly launched Plasm Testnet to show how to participate in Live lockdrop using Testnet BTC.

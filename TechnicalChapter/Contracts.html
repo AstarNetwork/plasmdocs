@@ -567,25 +567,25 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="plasm-contracts">Plasm Contracts</h1>
-<p>Plasm Contract is written by ink!, a smart contract language on Substrate. By using Plasm Contract libraries, developers can make a Plasma parent chain contract that meets a Plasma standard. Plasm Contract provides Trait which describes Plasma standard implementations, a generalized data structure, and a Plasma Cash implementation which is created based on the Plasma Group Specification. </p>
+<p>Plasm Contracts are written in ink!, a Rust--based embedded domain specific language for writing smart contract for Substrate. By using Plasm Contract libraries, developers can make a Plasma parent chain contract that meets a Plasma standard. Plasm Contract provides Trait which describes Plasma standard implementations, a generalized data structure, and a Plasma Cash implementation which is created based on the Plasma Group Specification.</p>
 <h2 id="ink">ink!</h2>
-<p>ink! is a smart contract language on Substrate. ink! is currently under developement. If you want to use ink!, install Substrate Runtime Module Library into Substrate chain. Internally, WebAssembly is used. A user can deploy smart contracts by uploading the bytecode of WASM file.</p>
+<p>ink! is a Rust--based embedded domain specific language for writing smart contracts on Substrate. ink! is currently under development and rapid changes. If you want to use ink!, install Substrate Runtime Module Library into Substrate chain. Internally, WebAssembly is used. A user can deploy smart contracts by uploading the bytecode of WASM file.</p>
 <p>For the further information, please check out <a href="https://substrate.dev/docs/en/next/contracts/faq#ink" target="_blank">this article</a>.</p>
 <h2 id="plasm-pgspec-plasma-group-specification-design">Plasm PGSpec (Plasma Group Specification) Design</h2>
-<p>Originally, Plasma PGSpec is designed for Ethereum. Of course, ink!, a smart contract language on Substrate has different features from Solidity and Vyper. Since we are developing Plasma on Substrate, it is nessesary for us to implement a more suitable features. Ink! which is written in Rust does not have an inheritance, but has a function to describe the characteristics of the structure called Trait.
-This function is suitable to express a generalized specification like PGSpec. The Plasm team decided to make a PGSpec by using ink!. </p>
-<p>By using this standard implementation, developers can implement their PlasmaContract that meets the Trait depending on their needs. </p>
+<p>Originally, Plasma PGSpec is designed for Ethereum. Of course, ink! has different features from that of Solidity and Vyper. Since we are developing Plasma on Substrate, it is necessary for us to implement a more suitable feature. Ink! which is written in Rust does not have a concept of inheritance, but has a function to describe the characteristics of the structure called Trait.
+This function is suitable to express a generalized specification like PGSpec. The Plasm team decided to make a PGSpec by using ink!.</p>
+<p>By using this standard implementation, developers can implement their PlasmaContract that meets the Trait depending on their needs.</p>
 <h2 id="archtecture">Archtecture</h2>
 <p>Plasm PGSpec has the following structure.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><img src="https://user-images.githubusercontent.com/6259384/64493921-4cc4d580-d2c1-11e9-9e0b-f0e546be9ae6.png" alt=""></th>
+<th style="text-align:center"><img src="https://user-images.githubusercontent.com/6259384/64493921-4cc4d580-d2c1-11e9-9e0b-f0e546be9ae6.png" alt="PGSpec structure"></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><em>Plasm contract archtecture</em></td>
+<td style="text-align:center"><em>Plasm contract architecture</em></td>
 </tr>
 </tbody>
 </table>
@@ -606,10 +606,11 @@ This function is suitable to express a generalized specification like PGSpec. Th
 </tbody>
 </table>
 <p>Documentation:</p>
-<pre><code>$ cd plasm/contracts/commitment
-$ cargo doc --open
-</code></pre><h3 id="deposit">Deposit</h3>
-<p>It manages the assets that were deposited on a Plasma child chain. The deposited assets are transferred on the child chain ,and just the legitimate owner can exit from the child chain to the parent chain. As a standard-setting, a Plasma exit game logic which does not rely on tokens is implemented. Figure5 is a transaction diagram of an exit game. The role of each checkpoint is to prove that all states before the pointed block number are correct.</p>
+<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> plasm/contracts/commitment
+cargo doc --open
+</code></pre>
+<h3 id="deposit">Deposit</h3>
+<p>This manages the assets that were deposited on a Plasma child chain. The deposited assets are transferred on the child chain ,and just the legitimate owner can exit from the child chain to the parent chain. As a standard-setting, a Plasma exit game logic which does not rely on tokens is implemented. Figure5 is a transaction diagram of an exit game. The role of each checkpoint is to prove that all states before the pointed block number are correct.</p>
 <p>To Do: Make these sentences understandable.</p>
 <table>
 <thead>
@@ -624,32 +625,37 @@ $ cargo doc --open
 </tbody>
 </table>
 <p>Documentation:</p>
-<pre><code>$ cd plasm/contracts/deposit
-$ cargo doc --open
-</code></pre><h3 id="predicate">Predicate</h3>
-<p>Predicate is a smart contract which defines an original logic of an exit game. For example, the most fundamental logic is DeprecateExit which makes an outdated exit invalid. </p>
-<p>Predicates can be used as fully customized extensions to the base plasma cash exit game. In this sense, Predicate is a generalized Plasma Cash. In other words, Plasma Cash can only handle currencies and Predicate extends the ability to assets. </p>
+<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> plasm/contracts/deposit
+cargo doc --open
+</code></pre>
+<h3 id="predicate">Predicate</h3>
+<p>Predicate is a smart contract that defines an original logic of an exit game. For example, the most fundamental logic is <code>DeprecateExit</code> which makes an outdated exit invalid.</p>
+<p>Predicates can be used as fully customized extensions to the base plasma cash exit game. In this sense, Predicate is a generalized Plasma Cash. In other words, Plasma Cash can only handle currencies and Predicate extends the ability to assets.</p>
 <p>As a standard design, Ownership Predicate is provided. The contract manages the information of token holders. A digital signature of the owner is required when the state is changed.</p>
 <p>Documentation:</p>
-<pre><code>$ cd plasm/contracts/predicate
-$ cargo doc --open
-</code></pre><h3 id="primitive">Primitive</h3>
-<p>Common Plasma contract structures and the features are provided as a set of Primitive libraries. </p>
+<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> plasm/contracts/predicate
+cargo doc --open
+</code></pre>
+<h3 id="primitive">Primitive</h3>
+<p>Common Plasma contract structures and the features are provided as a set of Primitive libraries.</p>
 <p>Documentation:</p>
-<pre><code>$ cd plasm/contracts/primitives
-$ cargo doc --open
-</code></pre><h3 id="balancecontract">BalanceContract</h3>
-<p>Every asset on a Plasma contract needs to be confirmed to ERC20 standard. The Plasm team  provides customized balance contracts to use ERC20 on Substrate. </p>
+<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> plasm/contracts/primitives
+cargo doc --open
+</code></pre>
+<h3 id="balancecontract">BalanceContract</h3>
+<p>Every asset on a Plasma contract needs to be confirmed to ERC20 standard. The Plasm team  provides customized balance contracts to use ERC20 on Substrate.</p>
 <p>Documentation:</p>
-<pre><code>$ cd plasm/contracts/balances
-$ cargo doc --open
-</code></pre><h3 id="plasmacashcontract">PlasmaCashContract</h3>
+<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> plasm/contracts/balances
+cargo doc --open
+</code></pre>
+<h3 id="plasmacashcontract">PlasmaCashContract</h3>
 <p>Plasma contract which has equivalent functions to Plasma Cash is implemented. More specifically, it consists of Ownership Predicate, Deposit, and Commitment on the figure3.</p>
 <p>To do: More explanation is needed.</p>
 <p>Documentation:</p>
-<pre><code>$ cd plasm/contracts/cash
-$ cargo doc --open
+<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> plasm/contracts/cash
+cargo doc --open
 </code></pre>
+
                                 
                                 </section>
                             
@@ -692,7 +698,7 @@ $ cargo doc --open
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Contracts","level":"1.6.5","depth":2,"next":{"title":"Client","level":"1.6.6","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},"previous":{"title":"Constitution","level":"1.6.4","depth":2,"path":"TechnicalChapter/Constitution.md","ref":"TechnicalChapter/Constitution.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/Contracts.md","mtime":"2020-05-04T03:18:12.143Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-04T03:19:11.841Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Contracts","level":"1.6.5","depth":2,"next":{"title":"Client","level":"1.6.6","depth":2,"path":"TechnicalChapter/Client.md","ref":"TechnicalChapter/Client.md","articles":[]},"previous":{"title":"Constitution","level":"1.6.4","depth":2,"path":"TechnicalChapter/Constitution.md","ref":"TechnicalChapter/Constitution.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"TechnicalChapter/Contracts.md","mtime":"2020-05-10T05:39:49.260Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-10T05:40:43.367Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
