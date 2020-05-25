@@ -219,6 +219,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.5.4" data-path="../Trying/LockdropModle.html">
+            
+                <a href="../Trying/LockdropModle.html">
+            
+                    
+                    Realtime Lockdrop
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -580,7 +593,7 @@
 <li>For authoring version, it just equals to the testnet generation spec, testnet generation will not change authoring interface.</li>
 <li>For spec/impl versions, two numbers are used, the high number is for testnet generation, the low number for testnet runtime upgrades (probably we will have no more than 9 patch fixes for testnet generation). Example: 10 for Testnet v1 genesis, 21 for Testnet v2 patch 1.</li>
 </ul>
-<p>Testnet generation could be or not compatible with old network. However, a periodic testnet blockchain wipe is not a bad thing, as it helps reducing the required resources for testnet participants.</p>
+<p>Testnet generation could be or not compatible with old network. In my opinion, for testnets periodic blockchain wipe isn&apos;t bad, it helps resource saving for testnet participants.</p>
 <p><strong>Estimated life cycle for testnet generation is approximately from two weeks to two months.</strong></p>
 <h2 id="testnet-migration-guidelines">Testnet migration guidelines</h2>
 <p>Testnet upgrade could be two types:</p>
@@ -588,8 +601,8 @@
 <li>major upgrade</li>
 <li>minor runtime patch</li>
 </ul>
+<p>Runtime upgrade is acceptable for minor patches, end users should not notice a change of this upgrade. It&#x2019;s an easy way to introduce small non breakable features / patches for the network.</p>
 <p>For the major upgrade the high version number is changed and testnet version is increased. This mean that testnet started from scratch. Major updates could be used for introducing breakable features or blockchain wipes for network participants&apos; resource-saving.</p>
-<p>Runtime upgrade is acceptable for minor patches, end-users should not notice a change of this upgrade. It&#x2019;s an easy way to introduce small, non breakable features/patches for the network.</p>
 <h1 id="dusty-plasm">Dusty Plasm</h1>
 <p>This is Plasm <code>canary</code> network, it looks like <code>beta</code> of Mainnet.
 <strong>Dusty</strong> predict mainnet runtime source code for 1-2 weeks.</p>
@@ -734,7 +747,7 @@ Dusty pay rewards in PLD (network native token) for each PoA validator and DApp 
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Chainspec Overview","level":"1.9.1","depth":2,"next":{"title":"Validator Guide","level":"1.9.2","depth":2,"path":"PlasmTestnet/ValidatorGuide.md","ref":"PlasmTestnet/ValidatorGuide.md","articles":[]},"previous":{"title":"PlasmTestnet","level":"1.9","depth":1,"path":"PlasmTestnet/README.md","ref":"PlasmTestnet/README.md","articles":[{"title":"Chainspec Overview","level":"1.9.1","depth":2,"path":"PlasmTestnet/DesignOverview.md","ref":"PlasmTestnet/DesignOverview.md","articles":[]},{"title":"Validator Guide","level":"1.9.2","depth":2,"path":"PlasmTestnet/ValidatorGuide.md","ref":"PlasmTestnet/ValidatorGuide.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmTestnet/DesignOverview.md","mtime":"2020-05-10T05:39:49.260Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-10T05:40:43.367Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Chainspec Overview","level":"1.9.1","depth":2,"next":{"title":"Validator Guide","level":"1.9.2","depth":2,"path":"PlasmTestnet/ValidatorGuide.md","ref":"PlasmTestnet/ValidatorGuide.md","articles":[]},"previous":{"title":"PlasmTestnet","level":"1.9","depth":1,"path":"PlasmTestnet/README.md","ref":"PlasmTestnet/README.md","articles":[{"title":"Chainspec Overview","level":"1.9.1","depth":2,"path":"PlasmTestnet/DesignOverview.md","ref":"PlasmTestnet/DesignOverview.md","articles":[]},{"title":"Validator Guide","level":"1.9.2","depth":2,"path":"PlasmTestnet/ValidatorGuide.md","ref":"PlasmTestnet/ValidatorGuide.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmTestnet/DesignOverview.md","mtime":"2020-05-25T09:36:13.871Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-25T09:37:16.223Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

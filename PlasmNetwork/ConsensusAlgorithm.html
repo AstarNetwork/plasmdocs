@@ -219,6 +219,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.5.4" data-path="../Trying/LockdropModle.html">
+            
+                <a href="../Trying/LockdropModle.html">
+            
+                    
+                    Realtime Lockdrop
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -567,19 +580,19 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="consensus-algorithm">Consensus Algorithm</h1>
-<p>The Plasm Network changes the consensus algorithm and the reward mechanism step by step to maintain security. Specifically, it initially takes the form of a Proof-of-Authority consensus that is solely maintained by Validators that are selected by the community. However, in the near future we will change the reward mechanism to one that is centered on <a href="https://wiki.polkadot.network/docs/en/maintain-collator" target="_blank">collators</a> to participate as a <a href="https://wiki.polkadot.network/docs/en/learn-parachains" target="_blank">Parachain</a>. Eventually, we will move to Nominated Proof-o-Stake, which is also used by Polkadot&apos;s Relaychain. Please refer to the PLM Token Ecosystem chapter for details on how the rewards are distributed.</p>
+<p>The Plasm Network changes consensus algorithms and reward designs step by step to maintain security. Specifically, it initially takes the form of a Proof of Authority that is run solely by Validators selected by the community. Next, we will change to rewards centered on <a href="https://wiki.polkadot.network/docs/en/maintain-collator" target="_blank">collator</a> to participate as <a href="https://wiki.polkadot.network/docs/en/learn-parachains" target="_blank">Parachain</a>. Eventually, we will move to NPoS, which is also used by Polkadot&apos;s Relaychain. Please refer to the PLM Token Ecosystem chapter for details on how to distribute rewards.</p>
 <h2 id="proof-of-authority">Proof of Authority</h2>
-<p>Proof of Authority is a consensus-building algorithm that operates only with a validator that is selected by the community. Public blockchains can be vulnerable during early launch as there are very few reliable validators within the network. For this reason, PoA will be operated until a sufficient distribution of token holders and the existence of potential validators can be confirmed. The validator at this time will be paid according to the specified parameters as in the case of PoS.</p>
+<p>Proof of Authority is a consensus-building algorithm that operates only with a validator selected by the community. Public blockchains can be vulnerable when few are launching reliable validators. For this reason, PoA will be operated until a sufficient distribution of token holders and the existence of potential validators can be confirmed. The validator at this time will be paid according to the specified parameters as in the case of PoS.</p>
 <h2 id="incentives-of-collator">Incentives of Collator</h2>
-<p>Incentives of Collator is an incentive mechanism for operating Collator in a Parachain. The Plasm Network is expected to become a Parachain of Polkadot, therefore, the Network needs a Collator to collect transactions, monitor the transactions in the block and send the block certificate to the Relaychain validator. Collators must be a full node, which is why it is important to incentivize these people for joining Plasm Network as a collator. At first, the Plasm Network Collator is selected by the community, similar to how it works in PoA as mentioned above. After that, the Network will be changed to impalement a election system by NPoS described later. In other words, the node that was acting as a validator function as a Collator while the Plasm Network is a Parachain.</p>
+<p>Incentives of Collator is an incentive design for operating Collator in Parachain. The Plasm Network is expected to become Parachain of Polkadot. Parachain needs a Collator to collect transactions, monitor the transactions in the block, and send the block certificate to the Relaychain validator. Collators must be a full node, so you need an incentive to join Plasm Network as a collator. At first, the Plasm Network Collator is selected by the community, as in the PoA mentioned above. After that, it will be changed to be elected by NPoS described later. In other words, the node that was acting as a validator function as a Collator while the Plasm Network is a Parachain.</p>
 <h2 id="nominated-proof-of-staking">Nominated Proof of Staking</h2>
-<p>Plasm Network will use NPoS consensus which is used on the Polkadot relay chain. This consensus algorithm consists of 3 steps.</p>
+<p>Plasm Network uses NPoS which is used on the Polkadot relay chain. This consensus algorithm consists of 3 steps.</p>
 <ol>
 <li>A Nominator selects a validator <a href="https://research.web3.foundation/en/latest/polkadot/NPoS/" target="_blank">NPoS</a></li>
 <li>A validator verifies transactions and make a new block <a href="https://research.web3.foundation/en/latest/polkadot/BABE/Babe/" target="_blank">BABE</a></li>
 <li>Finalize the block that was delivered in the network <a href="https://research.web3.foundation/en/latest/polkadot/GRANDPA/" target="_blank">GRANDPA</a></li>
 </ol>
-<p>The block reward is distributed to the validator who created the block and his Nominator. In addition to that, the reward is also paid to the Plasm Network contributors as well.</p>
+<p>The block reward is distributed to the validator who created the block and his Nominator. In addition to that, the reward is also paid to the Plasm Network contributors as follows.</p>
 
                                 
                                 </section>
@@ -623,7 +636,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Consensus Algorithm","level":"1.7.2","depth":2,"next":{"title":"Dapps Rewards","level":"1.7.3","depth":2,"path":"PlasmNetwork/DappsRewards.md","ref":"PlasmNetwork/DappsRewards.md","articles":[]},"previous":{"title":"Token Ecosystem","level":"1.7.1","depth":2,"path":"PlasmNetwork/TokenEcosystem.md","ref":"PlasmNetwork/TokenEcosystem.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmNetwork/ConsensusAlgorithm.md","mtime":"2020-05-10T05:39:49.260Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-10T05:40:43.367Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Consensus Algorithm","level":"1.7.2","depth":2,"next":{"title":"Dapps Rewards","level":"1.7.3","depth":2,"path":"PlasmNetwork/DappsRewards.md","ref":"PlasmNetwork/DappsRewards.md","articles":[]},"previous":{"title":"Token Ecosystem","level":"1.7.1","depth":2,"path":"PlasmNetwork/TokenEcosystem.md","ref":"PlasmNetwork/TokenEcosystem.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"PlasmNetwork/ConsensusAlgorithm.md","mtime":"2020-05-25T09:36:13.867Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-25T09:37:16.223Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

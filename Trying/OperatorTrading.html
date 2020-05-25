@@ -219,6 +219,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.5.4" data-path="LockdropModle.html">
+            
+                <a href="LockdropModle.html">
+            
+                    
+                    Realtime Lockdrop
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -566,17 +579,16 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="preparation">Preparation</h1>
-<p><a href="https://medium.com/stake-technologies/%E9%81%8A%E3%81%BC%E3%81%86-plasm-testnet-v3-%E2%91%A0-operator-trading-64323fa2d4fd" target="_blank">&#x65E5;&#x672C;&#x8A9E;&#x7248;&#x306F;&#x3053;&#x3061;&#x3089;</a></p>
+                                <p><a href="https://medium.com/stake-technologies/%E9%81%8A%E3%81%BC%E3%81%86-plasm-testnet-v3-%E2%91%A0-operator-trading-64323fa2d4fd" target="_blank">&#x65E5;&#x672C;&#x8A9E;&#x7248;&#x306F;&#x3053;&#x3061;&#x3089;</a></p>
+<h1 id="preparation">Preparation</h1>
 <p>To follow this demo on the testnet, you&#x2019;ll need some tokens. If you do not own one, please join our Discord server and go to #faucet to get some! If you just want to try it without any tokens, you can use the Local Developer Node as well.
 &#x203B; The Local Node can be easily set up by using the docker image for the Plasm node, which can be done from the following commands.</p>
-<pre><code class="lang-bash">docker pull staketechnologies/plasm-node:0.7.0
-docker run -p 9944:9944 staketechnologies/plasm-node:0.7.0 --dev --ws-external
-</code></pre>
-<p>After that, go to <a href="https://apps.plasmnet.io/" target="_blank">https://apps.plasmnet.io/</a>, and Settings -&gt; remote node/endpoint to connect to and select Local Node (the default node will be set to Plasm Testnet v3).</p>
+<pre><code>$ docker pull staketechnologies/plasm-node:0.7.0
+$ docker run -p 9944:9944 staketechnologies/plasm-node:0.7.0 --dev --ws-external
+</code></pre><p>After that, go to <a href="https://apps.plasmnet.io/" target="_blank">https://apps.plasmnet.io/</a>, and Settings -&gt; remote node/endpoint to connect to and select Local Node (the default node will be set to Plasm Testnet v3).</p>
 <p><img src="https://user-images.githubusercontent.com/6259384/77171125-598f7500-6aff-11ea-94d9-7a300749440e.png" alt="home"></p>
 <p>For those who want to run the node in another method, please refer to our <a href="https://github.com/staketechnologies/Plasm" target="_blank">Readme</a>. For questions and comments, please join our <a href="https://discord.gg/Auas9qj" target="_blank">Discord</a>, we will be happy to be in touch with you!</p>
-<h1 id="lets-use-the-operator-trading">Let&#x2019;s use the Operator Trading</h1>
+<h1 id="lets-use-the-operator-trading">Let&#x2019;s use the Operator Trading!!</h1>
 <p>To get started, please go to <a href="https://apps.plasmnet.io/" target="_blank">https://apps.plasmnet.io/</a>.</p>
 <h2 id="&#x2460;-upload-contract">&#x2460; Upload Contract</h2>
 <p>We can&#x2019;t do anything without uploading our Contracts, so first, let&#x2019;s do that by clicking OP Contracts (short for Operated Contracts) from the sidebar, and click Upload WASM.</p>
@@ -599,11 +611,10 @@ Now let&#x2019;s get back to the Upload WASM modal. Next we upload the &#x201C;s
 <p>That&#x2019;s it! We&#x2019;ve successfully uploaded the Smart Contract!</p>
 <h3 id="reading-an-existing-contract">Reading an existing contract</h3>
 <p>If you&#x2019;re using the Plasm Testnet v3 instead of a local node, you can make your life easier by choosing OpContracts -&gt; Add an existing code hash and copy the following hash on to the code hash panel.</p>
-<pre><code class="lang-bash">0x22b781155b1a9df69ea97ac5ec8f35af8e90f5dc7173439dcab50aafdcd7b5bb
-</code></pre>
-<p>After that, you just have to provide the &#x201C;metadata.json&#x201D; to the contract ABI panel to read the existing smart contract in the blockchain.</p>
+<pre><code>0x22b781155b1a9df69ea97ac5ec8f35af8e90f5dc7173439dcab50aafdcd7b5bb
+</code></pre><p>After that, you just have to provide the &#x201C;metadata.json&#x201D; to the contract ABI panel to read the existing smart contract in the blockchain.</p>
 <p><img src="https://user-images.githubusercontent.com/6259384/77171472-d7ec1700-6aff-11ea-8615-87129335dab3.png" alt="add"></p>
-<h2 id="&#x2461;-lets-deploy-the-contract">&#x2461; Let&#x2019;s deploy the contract</h2>
+<h2 id="&#x2461;-lets-deploy-the-contract">&#x2461; Let&#x2019;s deploy the contract!!</h2>
 <p>In Plasm, you can&#x2019;t just use the Contract by uploading it. It will only function as a proper Smart Contract once you have deployed it on the chain. This is to increase the re-usability of the Smart Contract.
 Deploying the Contract is very simple. All you need to do is click the deploy button that can be found in the upper-right hand corner and fill in the values required in the preceding Deploy a new contract portal and click Deploy -&gt; Sign and Submit.</p>
 <p><img src="https://user-images.githubusercontent.com/6259384/77171467-d7ec1700-6aff-11ea-93b9-5ccdbb498d56.png" alt="Click Deploy"></p>
@@ -622,7 +633,7 @@ After we finish deploying the Contract, we can see the deployed contract and the
 <p><img src="https://user-images.githubusercontent.com/6259384/77171439-d02c7280-6aff-11ea-8e70-4255167cd320.png" alt="confirmed"></p>
 <p>With this, we have finished the demo for creating a Smart Contract and transferring its ownership from one operator to another!
 Thank you for sticking with us.</p>
-<h2 id="summary">Summary</h2>
+<h1 id="summary">Summary</h1>
 <ul>
 <li>We&#x2019;ve talked about how to use the Operator Trading function.</li>
 <li>We&#x2019;ve talked about how Plasm has a concept of ownerships in Smart Contracts.</li>
@@ -672,7 +683,7 @@ Thank you for sticking with us.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Operator Trading","level":"1.5.1","depth":2,"next":{"title":"Dapps Staking","level":"1.5.2","depth":2,"path":"Trying/DappsStaking.md","ref":"Trying/DappsStaking.md","articles":[]},"previous":{"title":"Trying","level":"1.5","depth":1,"path":"Trying/README.md","ref":"Trying/README.md","articles":[{"title":"Operator Trading","level":"1.5.1","depth":2,"path":"Trying/OperatorTrading.md","ref":"Trying/OperatorTrading.md","articles":[]},{"title":"Dapps Staking","level":"1.5.2","depth":2,"path":"Trying/DappsStaking.md","ref":"Trying/DappsStaking.md","articles":[]},{"title":"Import Ethereum Seed","level":"1.5.3","depth":2,"path":"Trying/ImportEthereumSeed.md","ref":"Trying/ImportEthereumSeed.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"Trying/OperatorTrading.md","mtime":"2020-05-10T05:39:49.260Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-10T05:40:43.367Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Operator Trading","level":"1.5.1","depth":2,"next":{"title":"Dapps Staking","level":"1.5.2","depth":2,"path":"Trying/DappsStaking.md","ref":"Trying/DappsStaking.md","articles":[]},"previous":{"title":"Trying","level":"1.5","depth":1,"path":"Trying/README.md","ref":"Trying/README.md","articles":[{"title":"Operator Trading","level":"1.5.1","depth":2,"path":"Trying/OperatorTrading.md","ref":"Trying/OperatorTrading.md","articles":[]},{"title":"Dapps Staking","level":"1.5.2","depth":2,"path":"Trying/DappsStaking.md","ref":"Trying/DappsStaking.md","articles":[]},{"title":"Import Ethereum Seed","level":"1.5.3","depth":2,"path":"Trying/ImportEthereumSeed.md","ref":"Trying/ImportEthereumSeed.md","articles":[]},{"title":"Realtime Lockdrop","level":"1.5.4","depth":2,"path":"Trying/LockdropModle.md","ref":"Trying/LockdropModle.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["katex"],"styles":{"website":"css/index.css"},"pluginsConfig":{"fontSettings":{"theme":"sepia","family":"serif","size":1},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"null","variables":{},"title":"Plasm Documentations","links":{"sidebar":{"Plasm":"https://github.com/stakedtechnologies/Plasm","Documentation(crates)":"http://crates.plasmnet.io","PlasmProject Whitepaper(en)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/en.pdf","PlasmProject Whitepaper(jp)":"https://github.com/stakedtechnologies/plasmdocs/blob/master/wp/jp.pdf","Telegram":"https://t.me/PlasmOfficial"},"sharing":{"google":true,"facebook":true,"twitter":true,"weibo":true,"all":true}},"gitbook":"*","description":null,"extension":null},"file":{"path":"Trying/OperatorTrading.md","mtime":"2020-05-25T09:36:13.871Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-25T09:37:16.223Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
