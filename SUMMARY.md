@@ -8,6 +8,7 @@
     * [Operator Trading](Trying/OperatorTrading.md)
     * [Dapps Staking](Trying/DappsStaking.md)
     * [Import Ethereum Seed](Trying/ImportEthereumSeed.md)
+    * [Realtime Lockdrop](Trying/LockdropModule.md)
 * [TechnicalChapter](TechnicalChapter/README.md)
     * [Plasma Overview](TechnicalChapter/PlasmaOverview.md)
     * [OVM Overview](TechnicalChapter/OVM.md)

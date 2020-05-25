@@ -1,82 +1,106 @@
-Plasm Testnet Lockdrop
-======================
+# Plasm Lockdrop Module
 
-To prevent errors and meet users with lockdrop scenario we decide to held lockdrop in Plasm Testnets.
-Testnet Lockdrop is also final tests of lockdrop sourcecode before mainnet launch.
+> This is experimental module, some features couldn't work or work with issues, feel free to report any problems [on GitHub](https://github.com/staketechnologies/Plasm/issues/new/choose).
 
-First (Ropsten) lockdrop
-------------------------
 
-* Currency: Ropsten `ETH`
-* Dates: 13 Dec 2019 - 20 Dec 2019
-* The Aim: Initial token distribution for `Plasm Testnet V3`.
-* URI: https://lockdrop.plasmnet.io/
+## Quick Install
 
-This lockdrop was held in Ethereum Testnet before Plasm Testnet version 3 was launched.
-PLM tokens in Plasm Testnet was distributed in [genesis](https://github.com/staketechnologies/Plasm/blob/952165972b479bb2ee55211a67048f698561b3cc/bin/node/cli/src/chain_spec.rs#L247) according to `Lock` events
-in [Lockdrop smart contract](https://github.com/staketechnologies/ethereum-lockdrop/blob/master/contracts/Lockdrop.sol).
+1. Install dependencies according to [README](https://github.com/staketechnologies/Plasm/tree/plasm-real-time-lockdrop#building-from-source).
 
-## Claim Testnet v3 PLM using Subkey
+2. Fetch custom lockdrop branch of plasm-node.
 
-Private key manipulation utility is supplied in Plasm repository and could be installed with the following command.
-
-    cargo install --force --git https://github.com/staketechnologies/Plasm --tag v0.7.1 subkey 
-
-Once you have finished installing the subkey utility, let’s try using it. For this article, we’re mainly interested in the transfer command, which has the following options.
-
-```bash
-$ subkey transfer --help
-subkey-transfer 
-Author and sign a Node pallet_balances::Transfer transaction with a given (secret) keyUSAGE:
-    subkey transfer <from> <to> <amount> <index> --genesis <genesis>FLAGS:
-    -h, --help       Prints help information
-    -V, --version    Prints version informationOPTIONS:
-    -g, --genesis <genesis>    The genesis hash or a recognised chain identifier (dev, elm, alex).ARGS:
-    <from>      The signing secret key URI.
-    <to>        The destination account public key URI.
-    <amount>    The number of units to transfer.
-    <index>     The signing account's transaction index.
+```
+git clone https://github.com/staketechnologies/Plasm -b plasm-real-time-lockdrop && cd Plasm
 ```
 
-### Create extrinsic
+3. Build Plasm binary.
 
-By using the transfer command, it is possible to create RAW Extrinsics from a valid Ethereum account, which can be used for node RPC or the UI. The main benefit of this is that we can create extrinsics offline without having to provide our private key to the Plasm UI or any other nodes.
+```
+cargo build --release
+```
 
-You can do this with the following command.
+4. Wait for build process.
 
-    subkey -k transfer 0x2F9C34E12950FC8EC9F73EBC9337CBC6EA29556EB462E8AD30B981784B9F907E 5Cakru1BpXPiezeD2LRZh3pJamHcbX9yZ13KLBxuqdTpgnYF 42000000 0 -g ac0090073a92ae1a68c049e84d5b3671d9156833f18f30031c1066eb2f1278a6
+## Preparing for tests 
 
-Before we go to the results, please allow me to dissect this long string of command.
+1. Launch node in development mode:
 
-* The first hex that looks like this: `0x2F9C34E12950FC8EC9F73EBC9337CBC6EA29556EB462E8AD30B981784B9F907E` which is the lockdrop Ethereum private key.
-* The next line that looks like `5Cakru1BpXPiezeD2LRZh3pJamHcbX9yZ13KLBxuqdTpgnYF` is the destination Plasm Network account.
-* `42000000` is the value of tokens (1 PLM = 10¹⁵), this value should be followed by a `0` to show that this is the first transaction
-* Finally, the string of hash followed by the `-g` flag is the Testnet V3 genesis hash.
+```
+./target/release/plasm-node --dev
+```
 
-If you copy and paste the long command, you should get the following results printed in your terminal.
+> Previous versions of db should be removed before launch: `./target/release/plasm-node purge-chain --dev`
 
-    Using a genesis hash of ac0090073a92ae1a68c049e84d5b3671d9156833f18f30031c1066eb2f1278a6
-    0x310284ffe28153d70c05ebce1758dfd58356b05ff6bcb90fae903e27b00baa9bdfb9fd2f0210c5ecce7198b3adf13dece166a277890c189c05e5e061240cfacd8b9e2e9b497be46283d20ae801c784e1ec962a64644508b5e492c4bdb1932f202bbdbb63db010000000300ff16eb796bee0c857db3d646ee7070252707aec0c7d82b2eda856632f6a2306a58a10f
+2. Open Plasm Portal [Settings page](https://apps.plasmnet.io/#/settings).
+    1. Choose remote endpoint to `Local Node`.
+    2. On `Developer` tab put followed custom types:
 
-You’ll notice that the first line of hash is familiar from what we have seen before. It’s the genesis hash! But the important part is the second line, which is the hex-encoded raw extrinsic. We’ll be needing this in a short while so please copy this.
+```json
+{
+  "ClaimId": "H256",
+  "Lockdrop": {
+    "type": "u8",
+    "transaction_hash": "H256",
+    "public_key": "[u8; 33]",
+    "duration": "u64",
+    "value": "u128"
+  },
+  "TickerRate": {
+    "authority": "u16",
+    "btc": "DollarRate",
+    "eth": "DollarRate"
+  },
+  "DollarRate": "u128",
+  "AuthorityId": "AccountId",
+  "AuthorityVote": "u32",
+  "ClaimVote": {
+    "claim_id": "ClaimId",
+    "approve": "bool",
+    "authority": "u16"
+  },
+  "Claim": {
+    "params": "Lockdrop",
+    "approve": "AuthorityVote",
+    "decline": "AuthorityVote",
+    "amount": "u128",
+    "complete": "bool"
+  }
+}
+```
 
-### Send extrinsic
+## Price oracle
 
-To make things easy, please use the official [UI Toolbox](https://apps.plasmnet.io/#/toolbox) provided by Stake Technologies.
+After launch authority node starts periodically fetch and send into chain current prices of BTC and ETH in USD.
+Opening [explorer](https://apps.plasmnet.io/#/explorer) you can see set dollar rate extrinsics in each imported module.
+This dollar rate used in lockdrop pallet for issue amount estimation.
 
-The link above should redirect you directly to the toolbox page shown in the following image.
+![Set Dollar Rate](../img/set_dollar_rate_xt.png)
 
-![Send Extrinsic](../img/send_extrinsic.png)
+## Lockdrop request
 
-Now we just copy the hex string to the extrinsic field and push the **Submit RPC call** button. The transfer transaction will be sent immediately. You can check the results from the [account balances](https://apps.plasmnet.io/#/accounts) page.
+Especially for test purposes we deploy Lockdrop smart contract into Ethereum Ropsten network:
 
-Second (Live Testnet) lockdrop
-------------------------------
+* https://ropsten.etherscan.io/address/0xeed84a89675342fb04fafe06f7bb176fe35cb168
 
-* Currency: Testnet `BTC`
-* Dates: 15 Feb 2020 - 15 Mar 2020.
-* The Aim: Live lockdrop for `Plasm Testnet V3`.
-* URI: https://apps.plasmnet.io/
+Let's send treansaction into lockdrop smart contract using Etherscan and metamask:
 
-This lockdrop will held in already launched Plasm Testnet to show 
-how to participate in Live lockdrop using Testnet BTC.
+![Lock tx](../img/lock_tx_etherscan.png)
+
+After locking let's create request in Plasm development chain:
+
+![Request](../img/eth_lockdrop_req.png)
+
+Used test data below:
+
+```
+0x6c4364b2f5a847ffc69f787a0894191b75aa278a95020f02e4753c76119324e0
+0x039360c9cbbede9ee771a55581d4a53cbcc4640953169549993a3b0e6ec7984061
+2592000
+100000000000000000
+```
+
+![Response](../img/eth_lockdrop_res.png)
+
+And results available on chain:
+
+![Chain state](../img/eth_lockdrop_state.png)
