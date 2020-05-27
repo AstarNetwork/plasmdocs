@@ -9,12 +9,9 @@ Next head on to [https://lockdrop.plasmnet.io/](https://lockdrop.plasmnet.io) to
 
 ![connecting](https://user-images.githubusercontent.com/6259384/77226803-5dce9780-6bbe-11ea-89a4-3ca4a481ac2e.jpeg)
 
-
 If you have properly installed your wallet extension, you should be greeted with the following loading screen and a prompt from your wallet. Make sure to allow the connection.
 
-
 ![The first section of the application](https://user-images.githubusercontent.com/6259384/77226800-5dce9780-6bbe-11ea-9d91-49a48abcde1a.jpeg)
-
 
 ![The second section of the application](https://user-images.githubusercontent.com/6259384/77226799-5d360100-6bbe-11ea-95aa-3122874f180a.jpeg)
 
@@ -29,11 +26,9 @@ Now let’s try locking some tokens! For this lock, I won’t provide any introd
 
 You can see that the wallet is asking for your permission to interact with the contract. Click confirm to make the transaction.
 
-
 ![success](https://user-images.githubusercontent.com/6259384/77226796-5c04d400-6bbe-11ea-93c0-a5994e250f2a.jpeg)
 
 Given that everything went well, you can see a green toast popping on the side announcing that it was successfully locked.
-
 
 ![global locks](https://user-images.githubusercontent.com/6259384/77226795-5c04d400-6bbe-11ea-8c31-cd37b1148840.jpeg)
 
@@ -42,7 +37,6 @@ You can also see that we have locked our tokens to the blockchain with the addre
 ![miss](https://user-images.githubusercontent.com/6259384/77226794-5b6c3d80-6bbe-11ea-83b6-e38c332567fd.jpeg)
 
 This time, let’s try locking a token with an introducer’s address. The address above is a mock affiliated address so it won’t work on the real thing.
-
 
 ![invalidaffiliate](https://user-images.githubusercontent.com/6259384/77226793-5ad3a700-6bbe-11ea-9007-e9a7ac8480b3.jpeg)
 
@@ -58,13 +52,13 @@ Now we can start locking, and as you can see our introducer is properly displaye
 
 Private key manipulation utility is supplied in Plasm repository and could be installed with the following command.
 
-    cargo install --force --git https://github.com/staketechnologies/Plasm --tag v0.7.1 subkey 
+    cargo install --force --git https://github.com/staketechnologies/Plasm --tag v0.7.1 subkey
 
 Once you have finished installing the subkey utility, let’s try using it. For this article, we’re mainly interested in the transfer command, which has the following options.
 
 ```bash
 $ subkey transfer --help
-subkey-transfer 
+subkey-transfer
 Author and sign a Node pallet_balances::Transfer transaction with a given (secret) keyUSAGE:
     subkey transfer <from> <to> <amount> <index> --genesis <genesis>FLAGS:
     -h, --help       Prints help information
@@ -86,9 +80,9 @@ You can do this with the following command.
 
 Before we go to the results, please allow me to dissect this long string of command.
 
-* The first hex that looks like this: `0x2F9C34E12950FC8EC9F73EBC9337CBC6EA29556EB462E8AD30B981784B9F907E` which is the lockdrop Ethereum private key.
-* The next line that looks like `5Cakru1BpXPiezeD2LRZh3pJamHcbX9yZ13KLBxuqdTpgnYF` is the destination Plasm Network account.
-* `42000000` is the value of tokens (1 PLM = 10¹⁵), this value should be followed by a `0` to show that this is the first transaction
+- The first hex that looks like this: `0x2F9C34E12950FC8EC9F73EBC9337CBC6EA29556EB462E8AD30B981784B9F907E` which is the lockdrop Ethereum private key.
+- The next line that looks like `5Cakru1BpXPiezeD2LRZh3pJamHcbX9yZ13KLBxuqdTpgnYF` is the destination Plasm Network account.
+- `42000000` is the value of tokens (1 PLM = 10¹⁵), this value should be followed by a `0` to show that this is the first transaction
 
 > For Dusty network command should be extended by `-g dusty` sentence.
 
@@ -108,6 +102,8 @@ The link above should redirect you directly to the toolbox page shown in the fol
 ![Send Extrinsic](../img/send_extrinsic.png)
 
 Now we just copy the hex string to the extrinsic field and push the **Submit RPC call** button. The transfer transaction will be sent immediately. You can check the results from the [account balances](https://apps.plasmnet.io/#/accounts) page.
+
+> You can also claim your lockdrop via the Plasm Network Portal by importing your Ethereum private keys. Please check our **Import Ethereum Seed** guide for details.
 
 # Conclusion
 
