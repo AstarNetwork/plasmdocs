@@ -1,28 +1,38 @@
-# Summary
+# Table of contents
 
-* [Introduction](Introduction.md)
-* [Tutorials](Trying/README.md)
-    * [Lockdrop Tutorials](Trying/Lockdrop.md)
-    * [Unlock Tutorials](Trying/UnlockingTokens.md)
-    * [Operator Trading Tutorials](Trying/OperatorTrading.md)
-    * [Dapps Staking Tutorials](Trying/DappsStaking.md)
-    * [Import Ethereum Seed Tutorials](Trying/ImportEthereumSeed.md)
-    * [Realtime Lockdrop Tutorials](Trying/LockdropModule.md)
-* [TechnicalChapter](TechnicalChapter/README.md)
-    * [Plasma Overview](TechnicalChapter/PlasmaOverview.md)
-    * [Generalized Plasma](TechnicalChapter/GeneralizedPlasma.md)
-    * [OVM Overview](TechnicalChapter/OVM.md)
-* [Plasm Network](PlasmNetwork/README.md)
-    * [Token Ecosystem](PlasmNetwork/TokenEcosystem.md)
-    * [Consensus Algorithm](PlasmNetwork/ConsensusAlgorithm.md)
-    * [Dapps Rewards](PlasmNetwork/DappsRewards.md)
-    * [Operator Trading](PlasmNetwork/OperatorTrading.md)
-    * [Lockdrop](PlasmNetwork/Lockdrop.md)
-    * [Real-time Lockdrop](PlasmNetwork/RealtimeLockdrop.md)
-* [PlasmMainnet](PlasmMainnet/README.md)
-    * [Chainspec Overview](PlasmMainnet/ChainSpec.md)
-    * [First Rewards Guide](PlasmMainnet/FirstRewards.md)
-* [PlasmTestnet](PlasmTestnet/README.md)
-    * [Chainspec Overview](PlasmTestnet/DesignOverview.md)
-    * [Validator Guide](PlasmTestnet/ValidatorGuide.md)
+* [Welcome](Introduction.md)
+
+## Main
+
+* [Introduction](main/introduction.md)
+* [Wiki Index](main/wiki-index.md)
+* [Polkadot and Plasm](main/polkadot-and-plasm.md)
+* [Substrate](main/substrate.md)
+* [Community](main/community.md)
+
+## Learn
+
+* [Index](learn/index.md)
+* [Plasma Overview](learn/plasma-overview.md)
+* [Generalized Plasma](learn/generalized-plasma.md)
+* [Optimistic Virtual Machine](learn/optimistic-virtual-machine.md)
+* [Core Features](learn/core-features.md)
+
+## Build
+
+* [Running Node](build/untitled.md)
+* [Plapps](build/plapps.md)
+
+## Maintain
+
+* [Untitled](maintain/untitled.md)
+
+## Workshop & Tutorial <a id="tutorial"></a>
+
+* [Operator Trading](tutorial/untitled.md)
+* [DApps Reward](tutorial/dapps-reward.md)
+* [Importing Ethereum Seed Key](tutorial/importing-ethereum-seed-key.md)
+* [Realtime Lockdrop](tutorial/realtime-lockdrop.md)
+* [Lockdrop](tutorial/lockdrop.md)
+* [Plasm Network White Paper](https://github.com/staketechnologies/plasmdocs/blob/master/wp/en.pdf)
 
