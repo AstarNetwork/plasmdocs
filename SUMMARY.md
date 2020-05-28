@@ -1,28 +1,31 @@
-# Summary
+# Table of contents
 
-* [Introduction](Introduction.md)
-* [Tutorials](Trying/README.md)
-    * [Lockdrop Tutorials](Trying/Lockdrop.md)
-    * [Unlock Tutorials](Trying/UnlockingTokens.md)
-    * [Operator Trading Tutorials](Trying/OperatorTrading.md)
-    * [Dapps Staking Tutorials](Trying/DappsStaking.md)
-    * [Import Ethereum Seed Tutorials](Trying/ImportEthereumSeed.md)
-    * [Realtime Lockdrop Tutorials](Trying/LockdropModule.md)
-* [TechnicalChapter](TechnicalChapter/README.md)
-    * [Plasma Overview](TechnicalChapter/PlasmaOverview.md)
-    * [Generalized Plasma](TechnicalChapter/GeneralizedPlasma.md)
-    * [OVM Overview](TechnicalChapter/OVM.md)
-* [Plasm Network](PlasmNetwork/README.md)
-    * [Token Ecosystem](PlasmNetwork/TokenEcosystem.md)
-    * [Consensus Algorithm](PlasmNetwork/ConsensusAlgorithm.md)
-    * [Dapps Rewards](PlasmNetwork/DappsRewards.md)
-    * [Operator Trading](PlasmNetwork/OperatorTrading.md)
-    * [Lockdrop](PlasmNetwork/Lockdrop.md)
-    * [Real-time Lockdrop](PlasmNetwork/RealtimeLockdrop.md)
-* [PlasmMainnet](PlasmMainnet/README.md)
-    * [Chainspec Overview](PlasmMainnet/ChainSpec.md)
-    * [First Rewards Guide](PlasmMainnet/FirstRewards.md)
-* [PlasmTestnet](PlasmTestnet/README.md)
-    * [Chainspec Overview](PlasmTestnet/DesignOverview.md)
-    * [Validator Guide](PlasmTestnet/ValidatorGuide.md)
+* [Welcome 💁](Introduction.md)
+
+## エコシステム
+
+* [Polkadotについて💫](ekoshisutemu/polkadotnitsuite.md)
+* [Substrateについて 📣](ekoshisutemu/substratenitsuite.md)
+
+## 学ぶ <a id="bu-1"></a>
+
+* [Plasm Networkが解く課題 ⚡](bu-1/plasm-networkgaku.md)
+* [Plasm Networkの概要 👑](bu-1/plasm-networkno.md)
+* [レイヤー2ソリューション](bu-1/reiy2soryshon.md)
+* [コアな特徴](bu-1/koana.md)
+* [DApps Reward](bu-1/dapps-reward.md)
+* [Operator Trading](bu-1/operator-trading.md)
+* [Multi-Lockdrop](bu-1/multi-lockdrop.md)
+
+## 作る
+
+* [Untitled](ru/untitled-1.md)
+
+## ベーシック
+
+* [よくある質問](bshikku/yokuaru.md)
+* [単語集](bshikku/untitled-1.md)
+* [Untitled](bshikku/untitled.md)
+* [ホワイトペーパー](https://github.com/staketechnologies/plasmdocs/blob/master/wp/jp.pdf)
+* [テックチャネル（Discord）](https://discord.com/invite/wUcQt3R)
 
