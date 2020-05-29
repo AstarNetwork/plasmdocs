@@ -21,6 +21,7 @@
 * [Multi-Lockdrop](bu-1/multi-lockdrop.md)
 * [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn-2.md)
 * [コンセンサス](bu-1/konsensasu.md)
+* [トークンエコノミクス](bu-1/tkunekonomikusu.md)
 
 ## 作る
 
