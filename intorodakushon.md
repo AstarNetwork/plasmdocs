@@ -14,5 +14,3 @@ Plasm Networkは分散型Web（Web3.0）を実現するコアな基盤として�
 
 {% page-ref page="ekoshisutemu/polkadotnitsuite.md" %}
 
-
-
