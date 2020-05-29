@@ -1,6 +1,6 @@
 # Plasm Lockdrop Module
 
-> This is experimental module, some features couldn't work or work with issues, feel free to report any problems [on GitHub](https://github.com/staketechnologies/Plasm/issues/new/choose).
+> This is an experimental module, some features couldn't work or work with issues, feel free to report any problems [on GitHub](https://github.com/staketechnologies/Plasm/issues/new/choose).
 
 
 ## Quick Install
@@ -13,13 +13,13 @@
 git clone https://github.com/staketechnologies/Plasm -b plasm-real-time-lockdrop && cd Plasm
 ```
 
-3. Build Plasm binary.
+3. Build a Plasm binary.
 
 ```
 cargo build --release
 ```
 
-4. Wait for build process.
+4. Wait for the build process.
 
 ## Preparing for tests 
 
@@ -71,18 +71,18 @@ cargo build --release
 ## Price oracle
 
 After launch authority node starts periodically fetch and send into chain current prices of BTC and ETH in USD.
-Opening [explorer](https://apps.plasmnet.io/#/explorer) you can see set dollar rate extrinsics in each imported module.
-This dollar rate used in lockdrop pallet for issue amount estimation.
+Opening [explorer](https://apps.plasmnet.io/#/explorer) you can see set dollar rate extrinsic in each imported module.
+This dollar rate used in the lockdrop pallet for an issue amount estimation.
 
 ![Set Dollar Rate](../img/set_dollar_rate_xt.png)
 
 ## Lockdrop request
 
-Especially for test purposes we deploy Lockdrop smart contract into Ethereum Ropsten network:
+Especially for test purposes, we deploy Lockdrop smart contract into Ethereum Ropsten network:
 
 * https://ropsten.etherscan.io/address/0xeed84a89675342fb04fafe06f7bb176fe35cb168
 
-Let's send treansaction into lockdrop smart contract using Etherscan and metamask:
+Let's send a transaction into lockdrop smart contract using Etherscan and metamask:
 
 ![Lock tx](../img/lock_tx_etherscan.png)
 
@@ -101,6 +101,6 @@ Used test data below:
 
 ![Response](../img/eth_lockdrop_res.png)
 
-And results available on chain:
+And results available on-chain:
 
 ![Chain state](../img/eth_lockdrop_state.png)
