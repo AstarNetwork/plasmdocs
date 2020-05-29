@@ -26,5 +26,3 @@ description: Polkadotの基盤であるSubstrateについて
 
 {% embed url="https://www.substrate.io/" %}
 
-
-

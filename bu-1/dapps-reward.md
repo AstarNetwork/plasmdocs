@@ -1,2 +1,2 @@
-# DApps Reward
+# DApps Rewards
 
