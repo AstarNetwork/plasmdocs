@@ -24,7 +24,7 @@
 
 ## 作る
 
-* [Untitled](ru/untitled-1.md)
+* [スマートコントラクトを書く](ru/untitled-1.md)
 
 ## ベーシック
 
