@@ -1,4 +1,4 @@
-# Multi-Lockdrop
+# Multi-Lockdrop 🍬
 
 ### Lockdropとはなにか？
 
@@ -59,7 +59,7 @@ Lockdrop を複数回に分ける理由は2つあります。
 上記をもとに **IsseRatio** を以下のような式で定義されます.ここで
 
 * **Locked\_token**： Lockdrop の対象の token を Lock した量
-* **DolalrRate{token}** ：1token のドル建て価格
+* **DollarRate{token}** ：1token のドル建て価格
 * **LockBonus\_day**： days 日間ロックしたときの**LockBonus**を示します
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-29-163659png.png)
