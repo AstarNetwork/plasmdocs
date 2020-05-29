@@ -1,4 +1,4 @@
-# Plasm Networkの概要 👑
+# Plasm Networkの概要
 
 ### Plasm Networkは、Polkadotのパラチェーンとして接続できるレイヤー2スケーラビリティソリューションを実装しているパブリックブロックチェーンです。 <a id="f736"></a>
 

@@ -1,4 +1,4 @@
-# Optimistic Virtual Machine ✨
+# Optimistic Virtual Machine
 
 ### Optimistic Virtual Machine（OVM）とは何か？
 

@@ -1,4 +1,4 @@
-# Plasm Networkが解く課題 ⚡
+# Plasm Networkが解く課題
 
 [Plasm Network](https://www.plasmnet.io/)はブロックチェーンにおける**「処理性能（スケーラビリティ）」**と**「相互運用性（インターオペラビリティ）」**の問題を解決するためのブロックチェーンです。
 

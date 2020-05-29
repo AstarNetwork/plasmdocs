@@ -2,7 +2,7 @@
 description: Polkadotの基盤であるSubstrateについて
 ---
 
-# Substrateについて 📣
+# Substrateについて
 
 ![substrate.io](../.gitbook/assets/sukurnshotto-2020-05-28-195006png.png)
 

@@ -1,4 +1,4 @@
-# Polkadotについて💫
+# Polkadotについて
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M8GVK5H7hOsGnYqg-7q%2F-M8O_q7qMICPSQndb4KJ%2F-M8Of9g6MJA1ujMtrrNX%2F%E3%82%BF%E3%82%99%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%88%E3%82%99.png?alt=media&token=4095b8f4-e673-4c26-ae06-72399603d6dc)
 
