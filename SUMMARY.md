@@ -12,7 +12,8 @@
 
 * [Plasm Networkが解く課題 ⚡](bu-1/plasm-networkgaku.md)
 * [Plasm Networkの概要 👑](bu-1/plasm-networkno.md)
-* [レイヤー2ソリューション](bu-1/reiy2soryshon.md)
+* [レイヤー2とPlasma 🚅](bu-1/reiy2soryshon.md)
+* [Optimistic Virtual Machine](bu-1/optimistic-virtual-machine.md)
 * [コアな特徴](bu-1/koana.md)
 * [DApps Reward](bu-1/dapps-reward.md)
 * [Operator Trading](bu-1/operator-trading.md)
