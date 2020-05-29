@@ -1,4 +1,4 @@
-# Multi-Lockdrop 🍬
+# Multi-Lockdrop
 
 ### Lockdropとはなにか？
 

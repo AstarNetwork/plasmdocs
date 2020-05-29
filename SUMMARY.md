@@ -18,7 +18,8 @@
 * [コアな特徴](bu-1/koana.md)
 * [DApps Reward](bu-1/dapps-reward.md)
 * [Operator Trading](bu-1/operator-trading.md)
-* [Multi-Lockdrop 🍬](bu-1/multi-lockdrop.md)
+* [Multi-Lockdrop](bu-1/multi-lockdrop.md)
+* [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn-2.md)
 * [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn.md)
 * [コンセンサス](bu-1/konsensasu.md)
 
