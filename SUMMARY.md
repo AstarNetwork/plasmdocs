@@ -20,12 +20,12 @@
 * [Operator Trading](bu-1/operator-trading.md)
 * [Multi-Lockdrop](bu-1/multi-lockdrop.md)
 * [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn-2.md)
-* [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn.md)
 * [コンセンサス](bu-1/konsensasu.md)
 
 ## 作る
 
 * [スマートコントラクトを書く](ru/untitled-1.md)
+* [Operator Trading Tutrial](ru/operator-trading-tutrial.md)
 
 ## ベーシック
 
