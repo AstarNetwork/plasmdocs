@@ -20,7 +20,7 @@
 * [Operator Trading](bu-1/operator-trading.md)
 * [Multi-Lockdrop 🍬](bu-1/multi-lockdrop.md)
 * [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn.md)
-* [コンセンサス](bu-1/konsensasu.md)
+* [コンセンサス 👌](bu-1/konsensasu.md)
 
 ## 作る
 
