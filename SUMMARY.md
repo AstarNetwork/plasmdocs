@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome 💁](Introduction.md)
+* [イントロダクション 🙋](intorodakushon.md)
 
 ## エコシステム
 
