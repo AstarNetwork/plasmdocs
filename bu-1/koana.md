@@ -1,6 +1,6 @@
 # コアな特徴
 
-Plasm Networkには以下のコアな要素が実装されています。
+[Plasm Network](https://www.plasmnet.io/)には以下のコアな要素が実装されています。
 
 **Operator Trading：**コントラクトの所有者を管理する機能です。コントラクトを資産として移転することが可能になります。
 

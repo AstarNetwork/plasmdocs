@@ -10,7 +10,7 @@
 
 ### Plasm Network上のレイヤー2スケーリングソリューション
 
-Plasm Networkはパブリックブロックチェーンであり、Plasm Network上にスケーラビリティソリューションが実装されています。具体的にはOVM\(Optimistic Virtual Machine\)というプロトコルを実装することによってレイヤー2ソリューションが実装可能となります。
+[Plasm Network](https://www.plasmnet.io/)はパブリックブロックチェーンであり、[Plasm Network](https://www.plasmnet.io/)上にスケーラビリティソリューションが実装されています。具体的にはOVM\(Optimistic Virtual Machine\)というプロトコルを実装することによってレイヤー2ソリューションが実装可能となります。
 
 > OVMはブロックチェーンにおけるLayer2アプリケーションのロジックを統一的に記述するためのプロトコルです。OVMによって記述された内容はそれぞれアプリケーションロジックとしてLayer1/2向けのコードとしてそれぞれコンパイルされます。Plasm NetworkではOVMをスマートコントラクトと切り離してモジュールとして容易することでより簡潔に便利にOVMを利用できるようにします。 \(Plasm Networkホワイトペーパーより\)
 

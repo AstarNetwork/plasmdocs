@@ -31,7 +31,6 @@
 
 * [よくある質問](bshikku/yokuaru.md)
 * [単語集](bshikku/untitled-1.md)
-* [Untitled](bshikku/untitled.md)
 * [ホワイトペーパー](https://github.com/staketechnologies/plasmdocs/blob/master/wp/jp.pdf)
 * [テックチャネル（Discord）](https://discord.com/invite/wUcQt3R)
 
