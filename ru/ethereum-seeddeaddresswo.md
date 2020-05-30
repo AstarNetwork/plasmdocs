@@ -6,7 +6,9 @@
 
 {% page-ref page="../ekoshisutemu/substratenitsuite.md" %}
 
+{% hint style="danger" %}
 **免責事項 :** Ethereumの秘密鍵が流出すると、Ethereumウォレットが危険にさらされる可能性があるので、取り扱いには注意が必要です。
+{% endhint %}
 
 ## Plasm Network Portal
 
@@ -29,7 +31,9 @@ Ethereumウォレットを[Plasm Network](https://www.plasmnet.io/)にインポ�
 
 それでは、[Plasm Network](https://www.plasmnet.io/)にインポートしたいEthereumの秘密鍵を準備しましょう。ロックドロップ参加者の場合は、ロックドロップ取引を行ったウォレットの秘密鍵でなければなりません。16進数文字列でも、ニーモニックでもどちらでも構いません。
 
-> [Metamask guid](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)に沿って鍵を取り出すことができます。
+{% hint style="info" %}
+[Metamask guid](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)に沿って鍵を取り出すことができます。
+{% endhint %}
 
 Ethereumウォレットからの鍵のエクスポートが完了したら、Plasm Networkにインポートする準備ができました。サイドタブから「アカウント」→「アカウントを追加」に移動します。
 
@@ -37,7 +41,9 @@ Ethereumウォレットからの鍵のエクスポートが完了したら、Pla
 
 ここで、16進数の秘密鍵やニーモニックをコピーしてシード入力欄に貼り付けます。 **ECDSA**タイプの鍵ペアと16進数を選択してください（メタマスク鍵をガイドでエクスポートする場合）。
 
-> 0xをhex文字列秘密鍵の先頭につけることを忘れないでください。
+{% hint style="info" %}
+0xをhex文字列秘密鍵の先頭につけることを忘れないでください。
+{% endhint %}
 
 ![Put ECDSA seed](https://docs.plasmnet.io/img/ecdsa_seed.png)
 

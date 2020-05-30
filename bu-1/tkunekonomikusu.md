@@ -1,5 +1,9 @@
 # トークンエコノミクス
 
+{% hint style="info" %}
+このセクションは難易度が高くなっています。
+{% endhint %}
+
 Plasm NetworkのトークンエコノミクスはPolkadotを参照にしています。従って、このセクションにはPolkadotのトークンエコノミクスも含まれます。
 
 Plasm Networkにおけるトークンの名前はPLMといい、"PLUM（プラム）"と発音します。

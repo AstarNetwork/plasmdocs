@@ -1,6 +1,8 @@
 # Real Time Lockdrop
 
-> このモジュールは実験的なもので、いくつかの機能が動作しなかったり、問題があっても動作しなかったりします。問題を発見した際には[こちら](https://github.com/staketechnologies/Plasm/issues/new/choose)よりレポートをお願いします。
+{% hint style="warning" %}
+このモジュールは実験的なもので、いくつかの機能が動作しなかったり、問題があっても動作しなかったりします。問題を発見した際には[こちら](https://github.com/staketechnologies/Plasm/issues/new/choose)よりレポートをお願いします。
+{% endhint %}
 
 ### Quick Install <a id="quick-install"></a>
 
