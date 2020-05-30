@@ -95,3 +95,5 @@ Local Node を使った場合、この Era を強制的に動かすことで待�
 
 以上で今回のデモを終わります！お疲れさまでした！
 
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+

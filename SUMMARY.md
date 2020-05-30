@@ -31,6 +31,7 @@
 * [Lockdrop Tutorial](ru/lockdrop-tutorial.md)
 * [Unlock Tutorial](ru/unlock-tutorial.md)
 * [Ethereum SeedでAddressを作成](ru/ethereum-seeddeaddresswo.md)
+* [Real Time Lockdrop](ru/real-time-lockdrop.md)
 
 ## ベーシック
 

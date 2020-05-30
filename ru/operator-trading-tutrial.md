@@ -113,5 +113,5 @@ _**Change Operator -&gt; Sign and Submit**_ を押してしばらく待つと以
 
 {% embed url="https://medium.com/stake-technologies/%E9%81%8A%E3%81%BC%E3%81%86-plasm-testnet-v3-%E2%91%A0-operator-trading-64323fa2d4fd" %}
 
-
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
 
