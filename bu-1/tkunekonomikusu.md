@@ -120,7 +120,48 @@ $$
 I_{operators}=\frac{tI_{Staking}}{\frac{q}{1-q}+1}\\\frac{tI_{Staking}}{\frac{q}{1-q}+\frac{1-q}{1-q}}\\\frac{tI_{Staking}}{\frac{1}{1-q}}\\=t(1-q)I_{Staking}
 $$
 
+* $$i_{operators} $$ は Operator が得られる報酬の平均的な\(Stake された量に対する\)利率を表します。上記の式より $$i_{operators}=\frac{I_{operators}}{x(1-q)}$$ です。 
+* $$I$$ は全体のインフレーション率です。これは Staking に対する報酬と Operator に対する報酬によるインフレ率を足し合わせたもので $$I=I{Staking}+I{operators}$$ です。 
 
+$$I_{Staking}$$ の式は $$x$$ について場合分けして以下のようになります。
+
+$$
+I_{Staking} = \begin{cases} I_0 + x(i_{ideal} - \frac{I_0}{X_{ideal}})\cdot2^{-|q-Q_{ideal}|/g} & (0 \lt x \le X_{ideal})\\ I_0 + (i_{ideal} \cdot X_{ideal} - I_0) \cdot 2^{(X_{ideal}-x)/d-|q-Q_{ideal}|/g} & (X_{ideal} \lt x \le 1) \end{cases}
+$$
+
+以下の図はそれぞれ各パラメータに以下を設定したときのインフレーション率をシミュレーションしたグラフです。
+
+$$
+i_{ideal}=0.2 \\X_{ideal}=0.5\\Q_{ideal}=5/6\\I_0=0.025\\d=0.02\\g=0.15\\t=4
+$$
+
+![](../.gitbook/assets/sukurnshotto-2020-05-30-151814png.png)
+
+上記のグラフは $$q=Q{ideal}$$ __で固定した際のグラフです。ここで、上の緑線が operator のstaking量に対する平均年利_\(_ $$i{operators}$$ _\),_ 下の緑線が staking の平均年利_\(_ $$i{staking}$$ _\),_ 赤い線が全体のインフレ率_\(_ $$I$$ _\),_ 青い上の線が Staking 報酬によるインフレ率_\(_ $$I{Staking}$$ _\),_ 青い下の線が Operator 報酬によるインフレ率_\(_ $$I{Operator}$$ _\)_を意味します_。_ $$x$$ _,_ $$q$$ __共に理想値のときのインフレ率は最大で 0.166..._\(1/6\)_ となります。次に __$$q=0.2$$ __であるときのグラフを以下の図に示します。_$q=0.2$_ のとき、Staking の割合が __$$1:5 = Staking{validators} : Staking_{contracts}$$ であり、報酬の割合は以下のようになります。
+
+$$
+Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators}=1:5:20
+$$
+
+![](../.gitbook/assets/sukurnshotto-2020-05-30-152246png.png)
+
+このとき Operator 報酬が占める割合が増えているものの、 $$q$$ が理想値から離れているため operator のstaking量に対する平均年利を表す上の緑線が低いことが分かります。結果としてスマートコントラクトに対する Staking の割合が増加したとしても Operator に支払われる報酬は理想状態と大きく変わりません。また、Staking による報酬の平均年利を表す下の緑線も低下するためStakerはバランスを保つためにバリデータにStakingするインセンティブが生まれます。次に極端な例として、 $$q=1.0$$ のときのグラフを以下に示します。このとき、誰もスマートコントラクトに対する Staking をしていない状態であり、報酬は以下のようになります。
+
+$$
+Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators}=1:0:0
+$$
+
+![](../.gitbook/assets/sukurnshotto-2020-05-30-153315png.png)
+
+Opeator が得られる報酬がゼロであり、$q$ が理想値から離れているため Staking に対する報酬の平均年利を表す緑線が理想状態に比べて低下しています。この場合もまた、Stakerはバランスを保つためにスマートコントラクトにStakingするインセンティブが生まれます。このとき全体のインフレ率を表す赤い線とStaking 報酬によるインフレ率を表す青い線が重なっているため後者が視認できないことに気をつけてください。また、これらグラフは以下の成約を満たしていることを注目してください。
+
+* 平均年利を表す関数 $$i_{staking}, i_{operator}$$ は $$x$$ について単調増加です。
+* 平均年利を表す関数 $$i_{staking}, i_{operator}$$ は $$q$$ が理想値である時に最大化します。
+* $$I_{Staking}, I_{Operator}, I$$ は $$x, q$$ が共に理想値である時に最大化します。
+* $$I_0$$ はインフレーションレートの下限値です。
+* $$q$$ が理想値である時に $$Rewards_{staking} : Rewards_{operator} = 5 + 1 : 4 = 6 : 4 = 3 : 2$$ を常に満たします。言い換えると $$q$$ が理想値である時に $$I_{staking} : I_{operator} = 3 : 2$$ を満たします。
+
+上記のインフレーションモデルを追加することで、Plasm Networkユーザのインセンティブを調整し Plasm Netowork にとって期待される行動を促します。
 
 質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
 
