@@ -35,7 +35,7 @@
 
 ## Workshop & Tutorial <a id="tutorial"></a>
 
-* [Operator Trading 🌌](tutorial/untitled.md)
+* [Operator Trading](tutorial/untitled.md)
 * [DApps Reward](tutorial/dapps-reward.md)
 * [Importing Ethereum Seed Key](tutorial/importing-ethereum-seed-key.md)
 * [Realtime Lockdrop](tutorial/realtime-lockdrop.md)

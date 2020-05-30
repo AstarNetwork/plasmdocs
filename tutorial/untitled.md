@@ -1,4 +1,4 @@
-# Operator Trading 🌌
+# Operator Trading
 
 ## Preparation
 
