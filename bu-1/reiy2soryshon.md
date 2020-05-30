@@ -53,3 +53,5 @@ Plasma において 単一の Aggregator がこれらのトランザクション
 
 [Plasm Network](https://www.plasmnet.io/)はこの2つの問題を通して解決していきます。[Plasm Network](https://www.plasmnet.io/) では Predicate を正しく記述できるように標準規格を設けてライブラリ化します。そして最終的に複数のコンポーネントを簡単にデプロイできるためのクラウドサービスを構築します。[Plasm Network](https://www.plasmnet.io/) が提供するプロダクトを通して開発者がアプリケーションを開発する過程を手助けします。
 
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+

@@ -20,6 +20,8 @@ description: Polkadotの基盤であるSubstrateについて
 
 などがあります。
 
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+
 ### 参考リンク
 
 {% embed url="https://substrate.dev/" %}

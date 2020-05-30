@@ -16,6 +16,8 @@ Plasm Network は最終的に Polkadot の RelayChain で採用されている�
 
 また、初期の Validator ノードを限定することで十分な Validator がいない状態において悪意のある Validator が闊歩するリスクを減らすことができます。ブロックの生成報酬は Validator とその支援者である Nominator に分配されます。また、Plasm Network の価値向上の貢献者にもこの報酬は支払われます。
 
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+
 **参照リンク**
 
 {% embed url="https://wiki.polkadot.network/docs/en/learn-staking" %}

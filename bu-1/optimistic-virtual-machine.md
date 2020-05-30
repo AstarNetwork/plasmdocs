@@ -34,3 +34,5 @@ Polkadot が束ねるチェーンや Polkadot 自体も Substrate を使って�
 
 それ故に、今まで900を超えるパブリックブロックチェーンが作られてきました。Polkadot と Substrate は人々が用途に応じてブロックチェーンを作っていく時代にさらに拍車を掛けていくでしょう。Plasm Networkはこの大きな流れにのっています。当然、Polkadot においても Plasma は必要不可欠な役割です。
 
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+

@@ -42,3 +42,5 @@ Polkadotエコシステム [https://forum.web3.foundation/t/teams-building-on-po
 
 [Plasm Network](https://www.plasmnet.io/)に従来のレイヤー1のスマートコントラクト及び、レイヤー2ソリューションを通して、様々なアプリケーションが構築されることを楽しみにしています。
 
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+

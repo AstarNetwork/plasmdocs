@@ -18,3 +18,5 @@ DOTによるLockdropは1回目、2回目、3回目のLockdrop とは独立して
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-29-223353png.png)
 
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+

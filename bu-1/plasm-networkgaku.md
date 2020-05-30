@@ -12,3 +12,5 @@
 
 現在、BitcoinやEthereumなど様々なパブリックブロックチェーンが世の中に存在していますが、ほとんどのブロックチェーン間には相互に運用性がありません。（例えばBitcoinの価値をEthereumに移すにはブロックチェーン外の取引所を経由する必要があります。）互いに相互運用性を持たないことでユーザビリティが低下しています。[Plasm Network](https://www.plasmnet.io/)はPolkadotに接続することによりこの問題を解決します。
 
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+

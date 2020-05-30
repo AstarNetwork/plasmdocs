@@ -34,3 +34,5 @@ Polkadotにはリレーチェーンいう唯一のチェーンと、パラチェ
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-28-211840png.png)
 
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+
