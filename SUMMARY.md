@@ -22,10 +22,14 @@
 * [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn-2.md)
 * [コンセンサス](bu-1/konsensasu.md)
 * [トークンエコノミクス](bu-1/tkunekonomikusu.md)
+* [チェーンスペック](bu-1/chnsupekku/README.md)
+  * [メインネット](bu-1/chnsupekku/meinnetto.md)
+  * [テストネット](bu-1/chnsupekku/tesutonetto.md)
 
 ## 作る
 
 * [スマートコントラクトを書く](ru/untitled-1.md)
+* [Validatorになる](ru/validatorninaru.md)
 * [Operator Trading Tutrial](ru/operator-trading-tutrial.md)
 * [Dapps Rewards Tutrial](ru/dapps-rewards-tutrial.md)
 * [Lockdrop Tutorial](ru/lockdrop-tutorial.md)
