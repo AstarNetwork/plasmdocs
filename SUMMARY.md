@@ -16,7 +16,7 @@
 * [Optimistic Virtual Machine](bu-1/optimistic-virtual-machine.md)
 * [Plasm Networkの構造](bu-1/plasm-networkno-1.md)
 * [コアな特徴](bu-1/koana.md)
-* [DApps Rewards](bu-1/dapps-reward.md)
+* [Dapps Rewards](bu-1/dapps-reward.md)
 * [Operator Trading](bu-1/operator-trading.md)
 * [Multi-Lockdrop](bu-1/multi-lockdrop.md)
 * [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn-2.md)
@@ -27,6 +27,7 @@
 
 * [スマートコントラクトを書く](ru/untitled-1.md)
 * [Operator Trading Tutrial](ru/operator-trading-tutrial.md)
+* [Dapps Rewards Tutrial](ru/dapps-rewards-tutrial.md)
 
 ## ベーシック
 
