@@ -2,7 +2,7 @@
 description: "Hi everyone! Thank you for checking Plasm Network documentation \U0001F609"
 ---
 
-# Welcome
+# Welcome 💁
 
 ![](.gitbook/assets/sukurnshotto-2020-05-27-200702png.png)
 
