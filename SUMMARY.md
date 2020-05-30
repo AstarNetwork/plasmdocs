@@ -2,13 +2,13 @@
 
 * [Welcome](Introduction.md)
 
-## Main
+## Ecosystem
 
-* [Introduction](main/introduction.md)
-* [Wiki Index](main/wiki-index.md)
-* [Polkadot and Plasm](main/polkadot-and-plasm.md)
-* [Substrate](main/substrate.md)
-* [Community](main/community.md)
+* [Polkadot](ecosystem/introduction.md)
+* [Wiki Index](ecosystem/wiki-index.md)
+* [Polkadot and Plasm](ecosystem/polkadot-and-plasm.md)
+* [Substrate](ecosystem/substrate.md)
+* [Community](ecosystem/community.md)
 
 ## Learn
 
