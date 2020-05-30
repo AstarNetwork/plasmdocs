@@ -6,7 +6,7 @@
 
 [Plasm ****Network](https://www.plasmnet.io/)はEthereumやBitcoinなどのブロックチェーンと同じレイヤー1層のブロックチェーン基盤です。ブロックチェーン基盤なので他のブロックチェーンと同様にスマートコントラクトをレイヤー1にデプロイすることもできます。PLM（プラム）というトークンを持ち、コンセンサスアルゴリズムはソフトローンチ時ではPoA（Proof of Authority）であり、最終的にNPoS\(Nominated Proof-of-Stake\)にすることで分散性を段階的に担保します。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-28-205034png.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-30-203814png.png)
 
 ### Plasm Network上のレイヤー2スケーリングソリューション
 
