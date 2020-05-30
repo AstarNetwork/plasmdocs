@@ -27,7 +27,6 @@
 
 ## Workshop & Tutorial
 
-* [Plapps](workshop-and-tutorial/plapps.md)
 * [Smart Contract](workshop-and-tutorial/smart-contract.md)
 * [Validator](workshop-and-tutorial/untitled.md)
 * [DApps Reward](workshop-and-tutorial/dapps-reward.md)
