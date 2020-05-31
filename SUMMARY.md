@@ -7,7 +7,7 @@
 
 * [Polkadot](ecosystem/introduction.md)
 * [Substrate](ecosystem/substrate-1.md)
-* [Community](ecosystem/community.md)
+* [Community 🎨](ecosystem/community.md)
 
 ## Learn
 
