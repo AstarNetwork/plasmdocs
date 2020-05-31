@@ -6,9 +6,8 @@
 ## Ecosystem
 
 * [Polkadot](ecosystem/introduction.md)
-* [Community](ecosystem/community.md)
 * [Substrate](ecosystem/substrate-1.md)
-* [Wiki Index](ecosystem/wiki-index.md)
+* [Community](ecosystem/community.md)
 
 ## Learn
 
