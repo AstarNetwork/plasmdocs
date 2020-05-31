@@ -84,7 +84,7 @@ Let's send a transaction to the lockdrop smart contract using Etherscan and Meta
 
 After locking your ETH, you can make a claim on your local chain.
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%281%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174402png%20%281%29.png)
 
 You can use a test data below:
 
@@ -95,11 +95,11 @@ You can use a test data below:
 100000000000000000
 ```
 
-![](https://docs.plasmnet.io/img/eth_lockdrop_state.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174413png.png)
 
 And here is the results available on chain:
 
-![Response](https://docs.plasmnet.io/img/eth_lockdrop_res.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174408png%20%281%29.png)
 
 Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 
