@@ -37,7 +37,7 @@ Ethereumウォレットを[Plasm Network](https://www.plasmnet.io/)にインポ�
 
 Ethereumウォレットからの鍵のエクスポートが完了したら、Plasm Networkにインポートする準備ができました。サイドタブから「アカウント」→「アカウントを追加」に移動します。
 
-![Create account](https://docs.plasmnet.io/img/create_ecdsa_account.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-173619png.png)
 
 ここで、16進数の秘密鍵やニーモニックをコピーしてシード入力欄に貼り付けます。 **ECDSA**タイプの鍵ペアと16進数を選択してください（メタマスク鍵をガイドでエクスポートする場合）。
 
@@ -45,11 +45,11 @@ Ethereumウォレットからの鍵のエクスポートが完了したら、Pla
 0xをhex文字列秘密鍵の先頭につけることを忘れないでください。
 {% endhint %}
 
-![Put ECDSA seed](https://docs.plasmnet.io/img/ecdsa_seed.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-173905png%20%281%29.png)
 
 パスワードを含む別のフィールドにアカウントを保存するように記入します。
 
-![Check balance](https://docs.plasmnet.io/img/check_account_balance.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-173938png.png)
 
 すべてがうまくいった場合は、インポートされているECDSAのタイプの新しいウォレットが表示されるはずです。さらに、ロックドロップ参加者の場合は、インポートされたアドレスにロックドロップから受け取ったPLMが含まれていることを確認する必要があります。
 
