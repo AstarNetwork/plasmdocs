@@ -39,3 +39,5 @@ Fill another fields including password as save account.
 
 If everything went well, you should be able to see a new wallet with the type of ECDSA being imported. Additionally, for lockdrop participants, you should see that the imported address contains the PLM that you've received from the lockdrop.
 
+Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+

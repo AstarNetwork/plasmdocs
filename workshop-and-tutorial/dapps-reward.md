@@ -89,3 +89,5 @@ A little hard to notice but if we look closely, we can see that Alice and Bob’
 
 We have introduced some new functionality of Plasm through this and the previous article. But there is room for improvements and changes we can make to these features. In which case we’ll update everyone so please stay tuned!
 
+Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+

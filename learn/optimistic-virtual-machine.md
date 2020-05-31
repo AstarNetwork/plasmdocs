@@ -368,3 +368,5 @@ The above specification recommends the ink! contract as a smart contract. This i
 
 The processes for OVM and Plasma can be handled as a Runtime module \(pallet\) of the Substrate, respectively. Properly importing each module implemented according to the specification will allow an arbitrary chain to work with these specifications.
 
+Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+

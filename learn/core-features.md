@@ -24,3 +24,5 @@ Lockdrop is a method for distributing tokens. Participants lock their tokens fro
 
 {% page-ref page="multi-lockdrop.md" %}
 
+Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+
