@@ -29,7 +29,7 @@
 
 * [Smart Contract](workshop-and-tutorial/smart-contract.md)
 * [Validator](workshop-and-tutorial/untitled.md)
-* [Operator Trading](workshop-and-tutorial/operator-trading.md)
+* [Operator Trading 💱](workshop-and-tutorial/operator-trading.md)
 * [DApps Reward 🍦](workshop-and-tutorial/dapps-reward.md)
 * [Multi-Lockdrop](workshop-and-tutorial/multi-lockdrop.md)
 * [Importing Ethereum Seed 🔐](workshop-and-tutorial/importing-ethereum-seed.md)
