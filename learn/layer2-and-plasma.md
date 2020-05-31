@@ -1,4 +1,4 @@
-# Layer2 and Plasma
+# Layer2 and Plasma ⚡
 
 ### The Necessity of Scalability
 
