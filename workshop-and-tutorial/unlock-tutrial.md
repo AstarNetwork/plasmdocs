@@ -1,4 +1,4 @@
-# Unlock Tutrial 🔓
+# Unlock Tutorial 🔓
 
 Lockdrop's Lock Contract contains the following anonymous function.
 
