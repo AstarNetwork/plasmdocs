@@ -32,8 +32,10 @@ cargo build --release
 > Previous versions of db should be removed before launch: `./target/release/plasm-node purge-chain --dev`
 
 1. Plasm Portalの[Settings page](https://apps.plasmnet.io/#/settings)を開きます。
-   1. `Local Node`.にremote endpointを設定します。
-   2. `Developer` タブで以下のcustom typesを入力します。
+2. `Local Node`.にremote endpointを設定します。
+3. `Developer` タブで以下のcustom typesを入力します。
+
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174451png%20%281%29.png)
 
 ```text
 {
@@ -72,7 +74,7 @@ cargo build --release
 
 起動後、権限ノードは定期的にフェッチを開始し、ブロックチェーンに送信します BTCとETHの現在の価格を米ドルで取得します。[エクスプローラ](https://apps.plasmnet.io/#/explorer)を開くと、各インポートされたモジュールに設定されたドルレートのExtrinsicを見ることができます。このドルレートは、発行量の推定のためのロックドロップパレットで使用されます。
 
-![Set Dollar Rate](https://docs.plasmnet.io/img/set_dollar_rate_xt.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%281%29.png)
 
 ### Lockdrop request <a id="lockdrop-request"></a>
 
@@ -82,11 +84,11 @@ cargo build --release
 
 Etherscanとmetamaskを使ってトランザクションをlockdropスマートコントラクトに送り込んでみましょう。
 
-![Lock tx](https://docs.plasmnet.io/img/lock_tx_etherscan.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174357png%20%281%29.png)
 
 ロックした後、Plasm開発チェーンでリクエストを作成してみましょう。
 
-![Request](https://docs.plasmnet.io/img/eth_lockdrop_req.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174402png%20%282%29.png)
 
 使用したテストデータは以下です。
 
@@ -97,11 +99,11 @@ Etherscanとmetamaskを使ってトランザクションをlockdropスマート�
 100000000000000000
 ```
 
-![Response](https://docs.plasmnet.io/img/eth_lockdrop_res.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174408png%20%281%29.png)
 
 また、結果は以下で確認することができます。
 
-![Chain state](https://docs.plasmnet.io/img/eth_lockdrop_state.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174413png%20%282%29.png)
 
 質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
 
