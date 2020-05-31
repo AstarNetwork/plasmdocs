@@ -70,7 +70,7 @@ cargo build --release
 
 After the launch, your authority node starts to fetch and send the current USD price of BTC and ETH into your chain. By opening [explorer](https://apps.plasmnet.io/#/explorer), you can see the dollar rate extrinsics in each imported module. This dollar rate is used in Lockdrop Substrate Pallet for checking the price during the Lockdrop periods.
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%282%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%283%29.png)
 
 ### Lockdrop Request
 
@@ -95,7 +95,7 @@ You can use a test data below:
 100000000000000000
 ```
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174408png%20%281%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174408png%20%282%29.png)
 
 And here is the results available on chain:
 
