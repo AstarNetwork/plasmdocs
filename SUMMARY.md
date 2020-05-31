@@ -12,9 +12,9 @@
 ## Learn
 
 * [The Problems Plasm Solves](learn/the-problems-plasm-solves.md)
-* [Plasm Overview](learn/plasm-overview.md)
 * [Layer2 and Plasma](learn/layer2-and-plasma.md)
-* [Optimistic Virtual Machine 🔮](learn/optimistic-virtual-machine.md)
+* [Plasm Overview 🔮](learn/plasm-overview.md)
+* [Optimistic Virtual Machine 🌔](learn/optimistic-virtual-machine.md)
 * [Plasm Structure](learn/polkadot-and-plasm.md)
 * [Core Features 🏡](learn/core-features.md)
 * [Operator Trading](learn/operator-trading.md)
@@ -32,7 +32,6 @@
 * [Validator](workshop-and-tutorial/untitled.md)
 * [Operator Trading 💱](workshop-and-tutorial/operator-trading.md)
 * [DApps Reward 🍦](workshop-and-tutorial/dapps-reward.md)
-* [Multi-Lockdrop](workshop-and-tutorial/multi-lockdrop.md)
 * [Importing Ethereum Seed 🔐](workshop-and-tutorial/importing-ethereum-seed.md)
 * [Real-Time Lockdrop 🍬](workshop-and-tutorial/real-time-lockdrop.md)
 
