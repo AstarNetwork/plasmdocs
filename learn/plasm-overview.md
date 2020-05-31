@@ -1,4 +1,4 @@
-# Plasm Overview 🔮
+# Plasma Overview 🔮
 
 We will walk through the basic functions of Plasma on this page.
 
