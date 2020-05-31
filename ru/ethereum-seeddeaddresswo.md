@@ -25,7 +25,7 @@ Ethereumウォレットを[Plasm Network](https://www.plasmnet.io/)にインポ�
 
 以下のページをご覧になってみてください。
 
-![Local Plasm Portal](https://docs.plasmnet.io/img/local_plasm_portal.png)
+
 
 ## Import Ethereum Seed
 
