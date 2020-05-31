@@ -109,3 +109,5 @@ With this, we have finished the demo for creating a Smart Contract and transferr
 
 So now, we have shown the concept of contract ownerships and the transfer of ownership, but why is it important and why should everyone care about it? The answer is simple; the ownership of the Smart Contract determines who receives the profit from the Dapps Rewards. The next question would be “so how does this Dapps Rewards work?” That will be discussed in the next article by going through some demos. So please stay tuned for more!
 
+Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+

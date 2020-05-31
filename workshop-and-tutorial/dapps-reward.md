@@ -83,7 +83,7 @@ A little hard to notice but if we look closely, we can see that Alice and Bob’
 
 ### Summary <a id="summary"></a>
 
-* We have played with Dapps Staking!
+* We have played with Dapps Reward!
 * In Plasm, there is a system for incentivizing \(rewarding\) the Smart Contract owner!
 * The amount being incentivized will be different from the users’ nomination!
 

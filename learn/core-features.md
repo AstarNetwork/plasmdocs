@@ -22,7 +22,5 @@ As the name suggests, this focuses on the reward system for Dapps \(including Pl
 
 Lockdrop is a method for distributing tokens. Participants lock their tokens from existing blockchains \(like DOT or ETH\) for a certain duration. Next, we distribute the tokens to the locked participants and take the opportunity cost that comes from locking a token as collateral. A Multi-Lockdrop is when we repeat this multiple times to distribute the native token with value to a massive number of token holders.
 
-{% page-ref page="multi-lockdrop.md" %}
-
 Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

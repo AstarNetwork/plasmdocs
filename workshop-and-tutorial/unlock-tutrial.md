@@ -25,3 +25,5 @@ This enables the contract to return the locked balance \(the entire contract bal
 
 The Lockdrop Web Application comes with an intuitive form that displays any lock information. Under the `Unlock Tokens` tab, it will display a list of locks that was locked by the current address in a Web3 enabled browser wallet extension. Once the lock duration is over, the lock icon on the right will change to a lighter color. Clicking this icon will allow you to send to transaction of 0 ETH to the lock address, unlocking the tokens. This form allows you to easily check the lock information, time until the lock is over and unlock once it is over. However, as mentioned above, it is hard to check if the lock has been already claimed or not, so even if the locks were successfully claimed, the UI elements will still look the same.
 
+Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+
