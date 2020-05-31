@@ -23,7 +23,9 @@
 * [Multi-Lockdrop](learn/multi-lockdrop.md)
 * [Token Economy](learn/token-economy.md)
 * [Consennsus](learn/consennsus.md)
-* [Chain Spec](learn/chain-spec.md)
+* [Chain Spec 📌](learn/chain-spec/README.md)
+  * [Mainnet](learn/chain-spec/mainnet.md)
+  * [Testnet](learn/chain-spec/testnet.md)
 
 ## Workshop & Tutorial
 
