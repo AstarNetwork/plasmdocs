@@ -31,11 +31,11 @@ When you have finished exporting the keys from your Ethereum wallet, you are rea
 
 Please choose **ECDSA** type of keypair and hex-string for seed \(if you export Metamask key by [guide](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)\).
 
-![Put ECDSA seed](https://docs.plasmnet.io/.gitbook/assets/ecdsa_seed.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-173905png%20%281%29.png)
 
 Fill another fields including password as save account.
 
-![Check balance](https://docs.plasmnet.io/.gitbook/assets/check_account_balance.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-173938png.png)
 
 If everything went well, you should be able to see a new wallet with the type of ECDSA being imported. Additionally, for lockdrop participants, you should see that the imported address contains the PLM that you've received from the lockdrop.
 
