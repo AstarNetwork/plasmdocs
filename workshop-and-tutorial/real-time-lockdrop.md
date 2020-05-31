@@ -31,7 +31,7 @@ cargo build --release
 2. Choose `Local Node` in the remote node section.
 3. Check out the **"Developer"** tab and put the following custom types.
 
-![](https://docs.plasmnet.io/.gitbook/assets/sukurnshotto-2020-05-28-153801png.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174451png.png)
 
 ```text
 {
@@ -70,7 +70,7 @@ cargo build --release
 
 After the launch, your authority node starts to fetch and send the current USD price of BTC and ETH into your chain. By opening [explorer](https://apps.plasmnet.io/#/explorer), you can see the dollar rate extrinsics in each imported module. This dollar rate is used in Lockdrop Substrate Pallet for checking the price during the Lockdrop periods.
 
-![Response](https://docs.plasmnet.io/img/eth_lockdrop_res.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174408png.png)
 
 ### Lockdrop Request
 
@@ -80,11 +80,11 @@ Plasm  Network team has deployed the Lockdrop smart contract on Ethereum Ropsten
 
 Let's send a transaction to the lockdrop smart contract using Etherscan and Metamask!
 
-![Lock tx](https://docs.plasmnet.io/img/lock_tx_etherscan.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174357png.png)
 
 After locking your ETH, you can make a claim on your local chain.
 
-![Request](https://docs.plasmnet.io/img/eth_lockdrop_req.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%281%29.png)
 
 You can use a test data below:
 
