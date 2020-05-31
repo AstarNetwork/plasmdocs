@@ -1,10 +1,8 @@
 # Testnet
 
-
-
-
-
-> Main aim of Plasm Testnet is experimental network for community integration and public tests.
+{% hint style="info" %}
+Main aim of Plasm Testnet is experimental network for community integration and public tests.
+{% endhint %}
 
 ### Versioning <a id="versioning"></a>
 
