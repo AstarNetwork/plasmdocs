@@ -27,7 +27,7 @@ Now prepare your Ethereum private key that you wish to import to [Plasm Network]
 
 When you have finished exporting the keys from your Ethereum wallet, you are ready to import then to Plasm Network. Go to **Accounts** -&gt; **Add account** from the side tab.
 
-![Create account](https://docs.plasmnet.io/.gitbook/assets/create_ecdsa_account.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-173619png.png)
 
 Please choose **ECDSA** type of keypair and hex-string for seed \(if you export Metamask key by [guide](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)\).
 
