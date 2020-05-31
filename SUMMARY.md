@@ -26,6 +26,8 @@
 * [Chain Spec 📌](learn/chain-spec/README.md)
   * [Mainnet](learn/chain-spec/mainnet.md)
   * [Testnet](learn/chain-spec/testnet.md)
+* [Lockdrop](learn/lockdrop.md)
+* [Real-time Lockdrop](learn/real-time-lockdrop.md)
 
 ## Workshop & Tutorial
 
