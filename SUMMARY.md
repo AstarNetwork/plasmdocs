@@ -31,7 +31,7 @@
 ## Workshop & Tutorial
 
 * [Smart Contract](workshop-and-tutorial/smart-contract.md)
-* [Validator Guide](workshop-and-tutorial/untitled.md)
+* [Validator Guide 🔱](workshop-and-tutorial/untitled.md)
 * [Operator Trading 💱](workshop-and-tutorial/operator-trading.md)
 * [DApps Reward 🍦](workshop-and-tutorial/dapps-reward.md)
 * [Lockdrop Tutorial 🔒](workshop-and-tutorial/lockdrop-tutrial.md)
