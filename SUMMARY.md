@@ -19,14 +19,14 @@
 * [Core Features 🏡](learn/core-features.md)
 * [Operator Trading](learn/operator-trading.md)
 * [DApps Reward 🍭](learn/dapps-reward.md)
+* [Lockdrop](learn/lockdrop.md)
+* [Real-time Lockdrop](learn/real-time-lockdrop.md)
 * [Token Economics 📈](learn/token-economy.md)
 * [Consensus 🎬](learn/consennsus.md)
-* [Plasm Mainnet](learn/plasm-mainnet.md)
+* [Plasm Mainnet 🆙](learn/plasm-mainnet.md)
 * [Chain Spec 📌](learn/chain-spec/README.md)
   * [Mainnet](learn/chain-spec/mainnet.md)
   * [Testnet](learn/chain-spec/testnet.md)
-* [Lockdrop](learn/lockdrop.md)
-* [Real-time Lockdrop](learn/real-time-lockdrop.md)
 
 ## Workshop & Tutorial
 

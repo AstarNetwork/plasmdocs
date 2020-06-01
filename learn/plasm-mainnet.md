@@ -1,4 +1,4 @@
-# Plasm Mainnet
+# Plasm Mainnet 🆙
 
 This page describes the specs of Plasm mainnet in detail. In addition, the behavior of Plasm mainnet changes as the network grows. 
 
