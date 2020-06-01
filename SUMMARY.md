@@ -19,7 +19,7 @@
 * [Core Features 🏡](learn/core-features.md)
 * [Operator Trading](learn/operator-trading.md)
 * [DApps Reward 🍭](learn/dapps-reward.md)
-* [Lockdrop](learn/lockdrop.md)
+* [Lockdrop 🔒](learn/lockdrop.md)
 * [Real-time Lockdrop](learn/real-time-lockdrop.md)
 * [Token Economics 📈](learn/token-economy.md)
 * [Consensus 🎬](learn/consennsus.md)
