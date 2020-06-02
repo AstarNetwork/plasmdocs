@@ -26,6 +26,7 @@
 * [Chain Spec 📌](learn/chain-spec/README.md)
   * [Mainnet](learn/chain-spec/mainnet.md)
   * [Testnet](learn/chain-spec/testnet.md)
+* [Plasm Network Bounties](learn/plasm-network-bounties.md)
 
 ## Workshop & Tutorial
 
