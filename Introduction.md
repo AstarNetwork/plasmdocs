@@ -15,11 +15,15 @@ The work of the community is maintained under a public domain license at
 
 Plasm Network is an open source project. There are a lot of opportunities to get involved. 
 
-## Want to learn more?
+## Want to learn more? Please visit 👇
 
-## Want to build on Plasm Network?
+{% page-ref page="learn/the-problems-plasm-solves.md" %}
 
-## Want to run a node?
+## Want to build on Plasm Network? Please visit 👇
 
+{% page-ref page="workshop-and-tutorial/smart-contract.md" %}
 
+## Want to run a node? Please visit 👇
+
+{% page-ref page="workshop-and-tutorial/untitled.md" %}
 
