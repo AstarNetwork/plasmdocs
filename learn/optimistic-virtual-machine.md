@@ -4,8 +4,6 @@ description: Plasma and beyond.
 
 # Optimistic Virtual Machine 🌔
 
-#### To Do : Modify English
-
 ### What is Optimistic Virtual Machine?
 
 To put it simply, OVM \(Optimistic Virtual Machine\)  is the virtual machine designed to support all laye r2 protocols invented by the Ethereum Foundation Plasma Group. It is a possible unification of all layer2 scalabilities constructions. This means that **Plasm Network will not only be for Plasma applications but also for Lightning Network applications or any other layer 2 protocols.**
@@ -359,14 +357,6 @@ fn decide_true(predicate_address: T::AccountId, inputs: Vec<u8>, witness: Vec<u8
 fn is_valid_challenge(predicate_address: T::AccountId, inputs: Vec<u8>, challenge_inputs: Vec<u8>, challenge: T::Property);
 fn decide(predicate_addres: T::AccountId, inputs: Vec<u8>, witness: Vec<u8>);
 ```
-
-## For Substrate & Polkadot & ink! <a id="for-substrate--polkadot--ink"></a>
-
-The above OVM specification can be handled by all Substrate Chains in common. Also, Polkadot and the following specification are independent concepts with no direct relationship; Handling layer 2 solutions by Polkadot can be achieved by connecting the Polkadot Network with a Polkadot Parachain that implements the following specification.
-
-The above specification recommends the ink! contract as a smart contract. This is because Substrate's default smart contract specification is ink! Therefore, if you want to use it in EVM, etc., you can run different smart contract modules in the same way by preparing an implementation with the same specification.
-
-The processes for OVM and Plasma can be handled as a Runtime module \(pallet\) of the Substrate, respectively. Properly importing each module implemented according to the specification will allow an arbitrary chain to work with these specifications.
 
 Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 
