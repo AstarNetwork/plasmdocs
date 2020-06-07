@@ -22,7 +22,7 @@ Through this architecture, Polkadot makes the following things possible.
 1. **By connecting Parachain to the Relaychain, the data and token can be transferable among Parachains seamlessly.**
 2. **Parachain can import Relaychain's security.**
 
-f you are interested in Polkadot, you can learn more from the following web pages.
+If you are interested in Polkadot, you can learn more from the following web pages.
 
 * **Polkadot Lightpaper:** [https://polkadot.network/Polkadot-lightpaper.pdf](https://polkadot.network/Polkadot-lightpaper.pdf)
 * **Polkadot web page:** [https://polkadot.network/](https://polkadot.network/)
@@ -53,7 +53,7 @@ Polkadot has the layer1 scalability because it is a sharding ish architecture. [
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-234905png.png)
 
-Layer1 solution and layer2 solution is completely different and they complement each other. 
+Layer1 solution and layer2 solution are completely different and they complement each other. 
 
 In addition to that, scalability is NOT just a benefit we can get through layer2 solutions. We can get the followings as well
 
@@ -61,7 +61,7 @@ In addition to that, scalability is NOT just a benefit we can get through layer2
 * **Flexible DApps development**
 * **Cheap transaction\(gas\) cost**
 
-Trough layer1 smart contract and layer2 solutions, we are looking forward to seeing various use cases on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gamin, IoT, Payment, DEX, and Bridge\) 
+Trough layer1 smart contract and layer2 solutions, we are looking forward to seeing various use cases on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\) 
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-08-00739png.png)
 
