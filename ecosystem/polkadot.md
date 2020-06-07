@@ -15,7 +15,7 @@ Polkadot mainly consists of two parts: Relaychain and Prachain.
 
 \*\*\*\*[**Plasm Network**](https://www.plasmnet.io/) **aims to be the first SCALABLE smart contract Polkadot Parachain. \(**Plasm can be a Parachain since it is built on Parity Substrate\)
 
-{% page-ref page="substrate-1.md" %}
+{% page-ref page="substrate.md" %}
 
 Through this architecture, Polkadot makes the following things possible. 
 

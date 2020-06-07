@@ -18,7 +18,7 @@ Currently, many blockchains are created but few blockchains have interoperabilit
 
 [Plasm Network](https://www.plasmnet.io/) is compatible with Polkadot. By connecting [Plasm Network](https://www.plasmnet.io/) to Polkadot, we will have a true interoperability.
 
-{% page-ref page="../ecosystem/introduction.md" %}
+{% page-ref page="../ecosystem/polkadot.md" %}
 
 Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

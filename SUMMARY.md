@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Welcome 💁](Introduction.md)
-* [Introduction 🐾](introduction-1.md)
+* [Introduction 🐾](introduction.md)
 
 ## Ecosystem
 
-* [Polkadot 🔴](ecosystem/introduction.md)
-* [Substrate 🅾](ecosystem/substrate-1.md)
+* [Polkadot 🔴](ecosystem/polkadot.md)
+* [Substrate 🅾](ecosystem/substrate.md)
 * [Community 🎨](ecosystem/community.md)
 
 ## Learn
