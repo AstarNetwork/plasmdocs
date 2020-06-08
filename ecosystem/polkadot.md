@@ -59,7 +59,7 @@ In addition to that, scalability is NOT just a benefit we can get through layer2
 
 * **First Finality**
 * **Flexible DApps development**
-* **Cheap transaction\(gas\) cost**
+* **Cheaper transaction\(gas\) cost**
 
 Through layer1 smart contract and layer2 solutions, we are looking forward to seeing various use cases on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\) 
 
