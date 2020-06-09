@@ -1,5 +1,9 @@
 # Lockdrop 🔒
 
+## For Lockdrop participants, you can claim PLM token from 👇
+
+[https://lockdrop.plasmnet.io/\#/lock-form](https://lockdrop.plasmnet.io/#/lock-form)
+
 ## Introduction
 
 [Lockdrop](https://blog.edgewa.re/full-details-on-the-edgeware-lockdrop) is a new low-risk economic incentivization mechanism, where it uses opportunity costs rather than legal tender \(or assets\) as collateral. [Plasm Network](https://www.plasmnet.io/) uses this mechanism to issue tokens with monetary value. Throughout this section, we will explain [Plasm Network](https://www.plasmnet.io/)'s token issuance mechanism. The concept of a lockdrop was first conceived by [Edgeware](https://edgewa.re/), and the one used for [Plasm Network](https://www.plasmnet.io/) is an expansion of its original mechanism. The native token used in the [Plasm Network](https://www.plasmnet.io/) is written PLM and pronounced as "PLUM". PLM will only calculate from the 15th decimal place and truncate any numbers below that. For more information regarding the role of the Token, please refer to the PLM Token Economics section.
