@@ -8,15 +8,17 @@
 
 [Lockdrop](https://blog.edgewa.re/full-details-on-the-edgeware-lockdrop) is a new low-risk economic incentivization mechanism, where it uses opportunity costs rather than legal tender \(or assets\) as collateral. [Plasm Network](https://www.plasmnet.io/) uses this mechanism to issue tokens with monetary value. Throughout this section, we will explain [Plasm Network](https://www.plasmnet.io/)'s token issuance mechanism. The concept of a lockdrop was first conceived by [Edgeware](https://edgewa.re/), and the one used for [Plasm Network](https://www.plasmnet.io/) is an expansion of its original mechanism. The native token used in the [Plasm Network](https://www.plasmnet.io/) is written PLM and pronounced as "PLUM". PLM will only calculate from the 15th decimal place and truncate any numbers below that. For more information regarding the role of the Token, please refer to the PLM Token Economics section.
 
+{% page-ref page="token-economy.md" %}
+
 ## Lockdrop Overview
 
-For our first lockdrop, we will be using Ethereum's opportunity cost. Therefore, further sections will make the assumption that the locked token is ETH. However, lockdrop itself is an algorithm that can be implemented to any chains that support TimeLock and is not limited to Ethereum. The below Figure shows an example of how the lockdrop will work on the [Plasm Network](https://www.plasmnet.io/).
+For our first lockdrop, we will be using Ethereum's opportunity cost. Therefore, further sections will make the assumption that the locked token is ETH. However, lockdrop itself is an algorithm that can be implemented on any chains that support TimeLock. The figure below shows an example of how the lockdrop will work on the [Plasm Network](https://www.plasmnet.io/).
 
 ![Lockdrop](https://user-images.githubusercontent.com/6259384/75602291-16953f80-5b07-11ea-9944-311e066f6f21.png)
 
 A lockdrop will work by the following process.
 
-1. Ethereum token holder will send the number ETH locking, and the duration of the lock as a transaction to the LockContract that resides within the Ethereum blockchain.
+1. Ethereum token holder will send her ETH and decide the duration of the lock as a transaction to the LockContract that resides within the Ethereum blockchain.
 2. For every token holders who participated in the lockdrop, the number of PLM calculated by `total locked ETH × Lock bonus per duration × α` will be recorded on the [Plasm Network](https://www.plasmnet.io/) genesis block.
 3. The Plasm Team will take `total issued amount × 15%` PlasmTokens from the genesis block.
 4. Once the lock duration that the token holder specified has passed, the exact number lock ETH will be returned back to the participant after the lockdrop.
