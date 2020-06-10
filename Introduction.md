@@ -19,3 +19,21 @@
 * **Twitter** : [https://twitter.com/Plasm\_Network](https://twitter.com/Plasm_Network)
 * **Telegram** : [https://t.me/PlasmOfficial](https://t.me/PlasmOfficial)
 
+## コントリビューション
+
+[Plasm Network](https://www.plasmnet.io/)はOSSであり、開発している機能や計画、これからのto-doを公開しています。コントリビューションをお待ちしています！
+
+**今やっていること（6月）**
+
+* [ ] Plasm Network上でのスマートコントラクトの実装
+* [ ] DApps Rewardの実装
+
+**これからやっていくこと（7月以降）**
+
+* [ ] a
+
+**To** **Do**
+
+* [ ] グラフィカルデザイン
+* [ ] ドキュメンテーションの翻訳
+
