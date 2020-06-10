@@ -2,7 +2,6 @@
 
 * [Welcome 💁](Introduction.md)
 * [イントロダクション](intorodakushon.md)
-* [ロードマップ](rdomappu.md)
 * [Untitled](untitled.md)
 
 ## エコシステム
@@ -27,6 +26,7 @@
 * [チェーンスペック](bu-1/chnsupekku/README.md)
   * [メインネット](bu-1/chnsupekku/meinnetto.md)
   * [テストネット](bu-1/chnsupekku/tesutonetto.md)
+* [ロードマップ](bu-1/rdomappu.md)
 
 ## 作る
 
