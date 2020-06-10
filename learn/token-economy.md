@@ -67,11 +67,11 @@ PLM tokens use the same NPoS as Polkadot. This nominator and validator can opera
 * $$Q_{ideal}$$ is the ideal value of $$q$$ . From $$5:1 = Staking_{validators} : Staking_{contracts}$$ , the ideal value of $$q$$ is $$Q_{ideal} = 5/6$$.
 * $$i(x,q)$$ is the average annual interest getting by Staker. It is a monotonically decreasing function of $$x$$, $$| Q_{ideal} -q |$$ \(difference from the ideal ratio\). To make both $$x$$, $$q$$ close to the ideal value, when $$x$$, $$| Q_{ideal} -q |$$ is low, raise the interest rate as an incentive to increase the amount of stake. When $$x$$, $$| Q_{ideal} -q |$$ is high, lower interest rates as an incentive to reduce stake.
 * $$i_{ideal}$$ is the average annual interest rate of Staker $$i (x, q)$$ when both $$x$$ and $$q$$ are ideal values. in other words, $$i_{ideal} = i (X_{ideal }, Q_{ideal})$$.
-* $$I_{Staking}$$ is the inflation rate by Staking. $$I_{Staking}$$, a bivariate function involving $$x$$ and $$q$$, draws a three-dimensional convex function. Expressing Staking total amount x interest rate = inflation rate and expressing it as $$x * i (x, q) = I_{Staking}$$ Also, this value is maximized when $$x$$, $$q$$ is the ideal value from the reward design of $$i (x, q)$$. The ideal state equation can be expressed as $$X_{ideal} * i (X_{ideal}, Q_{ideal}) = Maxmium I_{Staking}$$.rateStakingtotalamountxinterestrate
+* $$I_{Staking}$$ is the inflation rate by Staking. $$I_{Staking}$$, a bivariate function involving $$x$$ and $$q$$, draws a three-dimensional convex function. Expressing Staking total amount x interest rate = inflation rate and expressing it as $$x * i (x, q) = I_{Staking}$$ Also, this value is maximized when $$x$$, $$q$$ is the ideal value from the reward design of $$i (x, q)$$. The ideal state equation can be expressed as $$X_{ideal} * i (X_{ideal}, Q_{ideal}) = Maxmium I_{Staking}$$
 * $$I_0$$ is the lower limit of inflation rate. When $$x = 1 or x = 0$$, converge to the lower limit. $$I_0$$ is equivalent to the operating cost of the validator. The reason is that if you do not secure at least the incentive to operate the validator, the chain will break, so I\_0 = 0.025 is recommended here.
 * $$d$$ is an adjustable decay rate for each $$x$$. Each time $$x$$ is $$d$$ more than $$X_{ideal}$$, $$I_{Staking}$$ is reduced by 50%. In other words, $$I_{Staking} (X_{ideal} + d, Q_{ideal}) \ge I_{Staking} /2$$.We recommend d = 0.02.
 * $$g$$ is an adjustable decay rate on $$q$$. Each time $$q$$ is $$g$$ away from $$Q_{ideal}$$, $$I_{Staking}$$ is reduced by 50%. In other words, $$I_{Staking} (X_{ideal}, Q_{ideal} \ pm e) \ge I_{Staking} / 2$$. We recommend g = 0.15.
-* $$i_{staking}$$ is the average annual interest earned by the nominator through Staking. This can be determined by dividing inflation by the Staking ratio. In other words, $$i_{staking} = \ frac {I_{Staking}} {x}$$.
+* $$i_{staking}$$ is the average annual interest earned by the nominator through Staking. This can be determined by dividing inflation by the Staking ratio. In other words, $$i_{staking} = \frac{I_{Staking}}{x}$$.
 * $$I_{operators}$$ is the inflation rate due to the rewards that the Operator can get. This is t times the ratio \(1-q\) of Staking to Operator in I_{Staking}._ 
 
 \_\_
@@ -110,7 +110,7 @@ $$
 
 
 
-* represents the average \(based on the amount staken\) interest rate of the operator's reward. From the auxiliary formula, $$i_{operators} = \ frac {I_{operators}} {x (1-q)}$$.
+* represents the average \(based on the amount staken\) interest rate of the operator's reward. From the auxiliary formula, $$i_{operators}=\frac{I_{operators}}{x(1-q)}$$.
 * $$I$$ is the overall inflation rate. This is $$I = I_{Staking} + I_{operators}$$, which is the sum of the reward for Staking and the inflation rate due to the reward for Operator.
 
 $$I_{Staking}$$ is follows the below formula.
