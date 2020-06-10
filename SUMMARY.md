@@ -2,7 +2,6 @@
 
 * [Welcome 💁](Introduction.md)
 * [イントロダクション](intorodakushon.md)
-* [Untitled](untitled.md)
 
 ## エコシステム
 
