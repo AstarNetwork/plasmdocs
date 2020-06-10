@@ -82,13 +82,13 @@ $$ Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operato
 
 $$Rewards_{staking_{validators}}(y+1) = (Rewards_{staking_{contract}}+Rewards_{staking_{validators}})y$$ 
 
-$$q & =\frac{Staking_{validators}}{Staking_{validators}+Staking_{contracts}} \\\\     & =\frac{Rewards_{stakers_{validators}}}{Rewards_{stakers_{validators}}+Rewards_{stakers_{contracts}}} \\\\     & =y/(y+1) \\\\     q & =y/(y+1) \\\\      (y+1)q & =y \\\\      yq+q & =y \\\\      q+q/y & =1 \\\\      q/y & =1-q \\\\      y & =q/(1-q) \\\\ $$                                                   $$q =\frac{Staking_{validators}}{Staking_{validators}+Staking_{contracts}}$$ 
+                                                   $$q =\frac{Staking_{validators}}{Staking_{validators}+Staking_{contracts}}$$ 
 
                                           $$=\frac{Rewards_{stakers_{validators}}}{Rewards_{stakers_{validators}}+Rewards_{stakers_{contracts}}}$$ 
 
                                                          $$=y/(y+1)$$ 
 
-$$(y+1)q & =y$$                                                         $$(y+1)q  =y$$ 
+                                                         $$(y+1)q  =y$$ 
 
                                                             $$y =q/(1-q)$$ 
 
