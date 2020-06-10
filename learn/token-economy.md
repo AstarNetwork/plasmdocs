@@ -1,6 +1,6 @@
 # Token Economics 📈
 
-
+TO DO: Modify English
 
 {% hint style="warning" %}
 This include advanced contents.
@@ -23,7 +23,16 @@ $$
 
 ## Inflation Model
 
-Defines the algorithm that determines the issue amount and distribution method when issuing new Plasm Network tokens. The Plasm Network is structured that the new token issuance fee is shared with Dapps Rewards and a reward for securing the chain. The rewards for securing the chain are expected to become finally NPoS. Thereby, there are two types of Staking actions: Staking \(NPoS\) for Validator and Staking \(Dapps Rewards\) for smart contracts. Both rewards from each staking are equally proportional to the amount of staking. Users who take Stakes on validators / smart contracts are collectively called nominators. The ideal ratio of Staking for validators and Staking for smart contracts is: Here, $$Staking_{validators}$$ and $$Staking_{contracts}$$ are Staking for validators and Staking for smart contracts, respectively. Then, the below formula is expected the ratio between Staking for validators and Staking for smart contracts.
+In the previous chapter, we defined the algorithm that determines the issue amount and distribution method when issuing new Plasm Network tokens. The Plasm Network is structured that the new token issuance fee is shared with Dapps Rewards and a reward for securing the chain. The consensus algorithm of the Plasm Network is expected to be NPoS. Thereby, there are two types of Staking actions: Staking \(NPoS\) for Validator and Staking \(Dapps Rewards\) for smart contracts. Both rewards from each staking are equally proportional to the amount of staking. Users who stake on validators / smart contracts are collectively called nominators. The ideal ratio of Staking for validators and Staking for smart contracts is:   
+
+
+$$Staking_{validators}$$ represents the action of staking on validators.
+
+ $$Staking_{contracts}$$ represents the action of staking on smart contracts.  
+
+
+Then, the below formula is the expected ratio between Staking for validators and Staking for smart contracts.  
+
 
 $$
 5:1 = Staking_{validators} : Staking_{contracts}
@@ -65,24 +74,27 @@ PLM tokens use the same NPoS as Polkadot. This nominator and validator can opera
 * $$i_{staking}$$ is the average annual interest earned by the nominator through Staking. This can be determined by dividing inflation by the Staking ratio. In other words, $$i_{staking} = \ frac {I_{Staking}} {x}$$.
 * $$I_{operators}$$ is the inflation rate due to the rewards that the Operator can get. This is t times the ratio \(1-q\) of Staking to Operator in I_{Staking}._ 
 
-$$
-\begin{aligned}
-    & Staking_{validators}:Staking_{contracts} = Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}} \\\\ 
-    & Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} = y:1:t \\\\ 
-    & Rewards_{staking_{validators}}(y+1) = (Rewards_{staking_{contract}}+Rewards_{staking_{validators}})y \\\\ 
-    q & =\frac{Staking_{validators}}{Staking_{validators}+Staking_{contracts}} \\\\
-    & =\frac{Rewards_{stakers_{validators}}}{Rewards_{stakers_{validators}}+Rewards_{stakers_{contracts}}} \\\\
-    & =y/(y+1) \\\\
-    q & =y/(y+1) \\\\ 
-    (y+1)q & =y \\\\ 
-    yq+q & =y \\\\ 
-    q+q/y & =1 \\\\ 
-    q/y & =1-q \\\\ 
-    y & =q/(1-q) \\\\ 
-    & Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} =q/(1-q):1:t \\\\ 
-    & Rewards_{stakers}:Rewards_{operators} =q/(1-q)+1:t 
-\end{aligned}
-$$
+\_\_
+
+\_\_$$Staking_{validators}:Staking_{contracts} = Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}$$ __
+
+$$ Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} = y:1:t$$ 
+
+$$Rewards_{staking_{validators}}(y+1) = (Rewards_{staking_{contract}}+Rewards_{staking_{validators}})y$$ 
+
+$$q & =\frac{Staking_{validators}}{Staking_{validators}+Staking_{contracts}} \\\\     & =\frac{Rewards_{stakers_{validators}}}{Rewards_{stakers_{validators}}+Rewards_{stakers_{contracts}}} \\\\     & =y/(y+1) \\\\     q & =y/(y+1) \\\\      (y+1)q & =y \\\\      yq+q & =y \\\\      q+q/y & =1 \\\\      q/y & =1-q \\\\      y & =q/(1-q) \\\\ $$                                                   $$q =\frac{Staking_{validators}}{Staking_{validators}+Staking_{contracts}}$$ 
+
+                                          $$=\frac{Rewards_{stakers_{validators}}}{Rewards_{stakers_{validators}}+Rewards_{stakers_{contracts}}}$$ 
+
+                                                         $$=y/(y+1)$$ 
+
+$$(y+1)q & =y$$                                                         $$(y+1)q  =y$$ 
+
+                                                            $$y =q/(1-q)$$ 
+
+ $$Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} =q/(1-q):1:t $$ 
+
+                          $$Rewards_{stakers}:Rewards_{operators} =q/(1-q)+1:t $$ 
 
 Here, the ratio of the amount of reward and the ratio of the inflation rate are equal.
 
