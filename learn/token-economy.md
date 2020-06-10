@@ -6,16 +6,16 @@
 This include advanced contents.
 {% endhint %}
 
-[Plasm Network](https://www.plasmnet.io/) token ecosystem refers to Polkadot. Therefore, this document includes the same formula and values as Polkadot. The token name of Plasm Network is PLM that is called "PLUM".
+[Plasm Network](https://www.plasmnet.io/)'s token ecosystem refers to Polkadot. Therefore, this document includes the same formula and values as Polkadot. The token name of Plasm Network is PLM that is called "PLUM".
 
 PLM has four main roles:
 
-1. Staking for Consensus, rewards for validators and nominators.
-2. Transaction Fee used to prevent harmful behavior.
-3. Block rewards for Dapps operator, Sustainable reward design for applications.
+1. Staking for consensus, rewards for validators and nominators.
+2. Transaction Fee used to prevent harmful behaviors.
+3. Block rewards for Dapps operator, sustainable reward designed for applications.
 4. Good / Bad Voting, Dapps Operator.
 
-PLM is intended to be used as a liquidity token. Therefore, multiple Lockdrop tokens are issued to secure non-zero value collateral and a large number of holders. PLM tokens are expected to be operated at the ratio of $$1:1 = Staking:Liquidity$$, as the ratio of Staking is over 50% in many PoS-based cryptocurrencies.
+PLM is intended to be used as a liquidity token. Tokens are issued through multiple Lockdrops to prevent zero-value collateral and increase the number of token holders. PLM tokens are expected to be operated at the ratio of $$1:1 = Staking:Liquidity$$.
 
 $$
 1:1 = Staking: Liquidity
