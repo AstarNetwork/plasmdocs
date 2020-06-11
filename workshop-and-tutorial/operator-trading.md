@@ -45,13 +45,9 @@ First, visit [https://ink-playground.com](https://ink-playground.com/), you’ll
 
 ![Click COMPILE CODE](../.gitbook/assets/screen-shot-2020-06-11-at-15.50.03.png)
 
-![](../.gitbook/assets/sukurnshotto-2020-06-11-145624png.png)
-
 Wait for a few seconds and you’ll see the following message appear on the panel in the right-side. You can download the WASM file and the METADATA file by clicking the button of the same name. The default downloaded file names will be “sample.wasm” and “metadata.json”.
 
 ![Download WASM and METADATA](../.gitbook/assets/screen-shot-2020-06-11-at-15.56.52.png)
-
-![](../.gitbook/assets/sukurnshotto-2020-06-11-145631png.png)
 
 Now let’s get back to the Upload WASM modal. Next we upload the “sample.wasm” to compiled contract WASM panel, and “metadata.json” to contract ABI panel. Once we finish all that, the following parameter will be displayed.
 
