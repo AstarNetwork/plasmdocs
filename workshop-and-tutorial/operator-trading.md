@@ -43,11 +43,11 @@ This is where we provide the WASM file and the ABI JSON that was compiled from i
 
 First, visit [https://ink-playground.com](https://ink-playground.com/), you’ll see a pre-coded Contract in the on-screen editor. All you need to do is just press **COMPILE CODE** to \(you guessed it\) compile the code.
 
-![](https://docs.plasmnet.io/.gitbook/assets/77171484-dae70780-6aff-11ea-81c7-fdafe1d0be03.png)
+![](../.gitbook/assets/sukurnshotto-2020-06-11-145624png.png)
 
 Wait for a few seconds and you’ll see the following message appear on the panel in the right-side. You can download the WASM file and the METADATA file by clicking the button of the same name. The default downloaded file names will be “sample.wasm” and “metadata.json”.
 
-![](https://docs.plasmnet.io/.gitbook/assets/77171482-da4e7100-6aff-11ea-9173-4e6cd1feb598.png)
+![](../.gitbook/assets/sukurnshotto-2020-06-11-145631png.png)
 
 Now let’s get back to the Upload WASM modal. Next we upload the “sample.wasm” to compiled contract WASM panel, and “metadata.json” to contract ABI panel. Once we finish all that, the following parameter will be displayed.
 
