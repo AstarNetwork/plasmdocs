@@ -35,7 +35,7 @@ The Plasm `canary` network is a `beta` Mainnet. **Dusty** observe and debug main
 
 ### Incentives <a id="incentives"></a>
 
-Dusty network participation is incentivized, paying rewards in PLD \(network native token\) to PoA validators and dApp operator nominators.
+Dusty network participation is incentivized, paying rewards in PLD \(network native token\) to PoA validators and dApps operator nominators.
 
 > When Plasm Network token stake technology is implemented, **0.5%** of the total Plasm token supply will be airdropped to Dusty token holders.
 
@@ -66,9 +66,9 @@ Planned features:
 #### StakeTechnologies modules <a id="staketechnologies-modules"></a>
 
 * Operator - smart contract operator support
-* dApptaking - stake on decentralized application to collect operator rewards
+* dAppstaking - stake on decentralized application to collect operator rewards
 * PlasmValidator - authority manager for Plasm network
-* PlasmRewards - reward router between dApp operators and validators
+* PlasmRewards - reward router between dApps operators and validators
 * PlasmLockdrop - multi-lockdrop token distribution
 
 ## Plasm Testnet v3 <a id="plasm-testnet-v3"></a>

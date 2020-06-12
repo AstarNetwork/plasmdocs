@@ -1,8 +1,8 @@
-# dApp Rewards
+# dApps Rewards
 
-dApp Rewards is a mechanism that rewards developers or administrators of smart contracts on an ongoing basis. 50% of Plasm Network's Staking reward goes to application developers who have enhanced the value of Plasm Network. The Plasm Network allows you to assign a smart contract administrator to a smart contract, and this administrator is called an "Operator". The user can also take smart contracts. This action is called Nominate, and the person who does it is called dApp Nominator. As shown below, the operator of the smart contract receiving many nominates can receive the newly issued PLM token from the chain.
+dApps Rewards is a mechanism that rewards developers or administrators of smart contracts on an ongoing basis. 50% of Plasm Network's Staking reward goes to application developers who have enhanced the value of Plasm Network. The Plasm Network allows you to assign a smart contract administrator to a smart contract, and this administrator is called an "Operator". The user can also take smart contracts. This action is called Nominate, and the person who does it is called dApps Nominator. As shown below, the operator of the smart contract receiving many nominates can receive the newly issued PLM token from the chain.
 
-![dApp_rewards](https://user-images.githubusercontent.com/6259384/76012083-04792e00-5f59-11ea-97a6-0af8e60b8ff0.png)
+![dApps_rewards](https://user-images.githubusercontent.com/6259384/76012083-04792e00-5f59-11ea-97a6-0af8e60b8ff0.png)
 
 We will define how to distribute this reward to Operator and Nominator respectively. Define the following variables:
 
@@ -84,4 +84,4 @@ In general, the risk of staking to operators is higher than one of staking to th
 
 ## Trying
 
-You can try [here](https://medium.com/stake-technologies/lets-play-with-plasm-testnet-v3-%E2%91%A1-dApp-rewards-ab6f637ffe4c).
+You can try [here](https://medium.com/stake-technologies/lets-play-with-plasm-testnet-v3-%E2%91%A1-dApps-rewards-ab6f637ffe4c).

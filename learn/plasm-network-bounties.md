@@ -8,7 +8,7 @@ Plasm Network is an open source project. The Plasm team wants to provide incenti
 
 To BE  Added
 
-{% page-ref page="dApp-reward.md" %}
+{% page-ref page="dApps-reward.md" %}
 
 
 

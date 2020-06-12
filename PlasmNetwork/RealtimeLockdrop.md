@@ -28,9 +28,9 @@ As same as dollar rate oracle claim voting oracles checks that tokens in differe
 
 #### BTC locking user story
 
-1. Using DApp **User** generate p2sh address for given unlocker public key and lock duration.
+1. Using dApps **User** generate p2sh address for given unlocker public key and lock duration.
 2. Using wallet **User** send BTC transaction to generated address. 
-3. Using DApp *user* send extrinsic to Plasm Network with **BTC transaction hash** and locking parameters.
+3. Using dApps *user* send extrinsic to Plasm Network with **BTC transaction hash** and locking parameters.
 3. **Off-chain workers** get Lockdrop checking request from user.
 4. **Off-chain workers** fetch BTC transaction data using HTTP from public source.
 6. **Off-chain workers** vote on chain to approve/decline *user* request.
