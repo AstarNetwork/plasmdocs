@@ -1,7 +1,7 @@
 # Testnet
 
 {% hint style="info" %}
-Main aim of Plasm Testnet is experimental network for community integration and public tests.
+The Plasm Testnet is a public test environment for developers and community integration's. This is where debugging should occur prior to mainnet deployment.
 {% endhint %}
 
 ### Versioning <a id="versioning"></a>
@@ -9,35 +9,35 @@ Main aim of Plasm Testnet is experimental network for community integration and 
 * spec-name: plasm-testnet
 * impl-name: plasm-testnet-node
 
-Version naming notion:
+Version naming notation:
 
-* For authoring version, it just equals to the testnet generation spec, testnet generation will not change authoring interface.
-* For spec/impl versions, two numbers are used, the high number is for testnet generation, the low number for testnet runtime upgrades \(probably we will have no more than 9 patch fixes for testnet generation\). Example: 10 for Testnet v1 genesis, 21 for Testnet v2 patch 1.
+* Authoring version: Equals testnet generation spec. Testnet generation will not change authoring interface.
+* Spec/Impl Versions: High number = testnet generation; low number = testnet runtime upgrades. Example: 10 for Testnet v1 genesis, 21 for Testnet v2 Patch 1.
 
-Testnet generation could be or not compatible with old network. In my opinion, for testnets periodic blockchain wipe isn't bad, it helps resource saving for testnet participants.
+Testnet generation my not be backwards compatible with old networks. A periodic blockchain wipe is suggested for compatibility and to keep testnet resources available for other users.
 
-**Estimated life cycle for testnet generation is approximately from two weeks to two months.**
+**Testnet generation life cycle is estimated to be between two weeks and two months**
 
-### Testnet migration guidelines <a id="testnet-migration-guidelines"></a>
+### Testnet Migration Guidelines <a id="testnet-migration-guidelines"></a>
 
-Testnet upgrade could be two types:
+Testnet upgrade types fall into one of two categories:
 
-* major upgrade
-* minor runtime patch
+* Major upgrade
+* Minor runtime patch
 
-Runtime upgrade is acceptable for minor patches, end users should not notice a change of this upgrade. It’s an easy way to introduce small non breakable features / patches for the network.
+Runtime patches have a minor impact and end users should not notice any changes. These patches are non breakable features and minor network maintenance patches.
 
-For the major upgrade the high version number is changed and testnet version is increased. This mean that testnet started from scratch. Major updates could be used for introducing breakable features or blockchain wipes for network participants' resource-saving.
+Major upgrades occur when the testnet is completely rebuilt including major upgrades and changes from the previous version. These upgrades increase the version number. These upgrades can include breaking changes or entire blockchain wipes to optimize user resources.
 
 ## Dusty Plasm <a id="dusty-plasm"></a>
 
-This is Plasm `canary` network, it looks like `beta` of Mainnet. **Dusty** predict mainnet runtime source code for 1-2 weeks.
+The Plasm `canary` network is a `beta` Mainnet. **Dusty** observe and debug mainnet code for approximately two weeks.
 
 ### Incentives <a id="incentives"></a>
 
-Yes, Dusty network participation is incentivized by default. Dusty pay rewards in PLD \(network native token\) for each PoA validator and DApp operator nominators.
+Dusty network participation is incentivized, paying rewards in PLD \(network native token\) to PoA validators and dApp operator nominators.
 
-> When Plasm Network token distribution finish Stake Technologies team plan distribute **0.5%** of Plasm tokens for Dusty token holders.
+> When Plasm Network token stake technology is implemented, **0.5%** of the total Plasm token supply will be airdropped to Dusty token holders.
 
 Planned features:
 
@@ -52,24 +52,24 @@ Planned features:
 
 #### Core modules <a id="core-modules"></a>
 
-* System - core substrate functionality.
-* Timestamp - timestamp runtime oracle.
-* Session - authority session keys management.
-* Babe - block producing consensus engine.
-* Grandpa - block finalizing consensus engine.
-* Indices - account indexing engine.
-* Balances - native asset operations.
-* RandomnessCollectiveFlip - source of random numbers.
-* Contracts - smart contract support.
-* Sudo - superuser actions.
+* System - core substrate functionality
+* Timestamp - timestamp runtime oracle
+* Session - authority session keys management
+* Babe - block producing consensus engine
+* Grandpa - block finalizing consensus engine
+* Indices - account indexing engine
+* Balances - native asset operations
+* RandomnessCollectiveFlip - source of random numbers
+* Contracts - smart contract support
+* Sudo - superuser actions
 
 #### StakeTechnologies modules <a id="staketechnologies-modules"></a>
 
-* Operator - smart contract operator support.
-* DappStaking - stake on decentralized application to collect operator rewards.
-* PlasmValidator - authority manager for Plasm network.
-* PlasmRewards - this module split block rewards between dapp operators and validators.
-* PlasmLockdrop - multi-lockdrop token distribution.
+* Operator - smart contract operator support
+* dApptaking - stake on decentralized application to collect operator rewards
+* PlasmValidator - authority manager for Plasm network
+* PlasmRewards - reward router between dApp operators and validators
+* PlasmLockdrop - multi-lockdrop token distribution
 
 ## Plasm Testnet v3 <a id="plasm-testnet-v3"></a>
 
@@ -77,9 +77,9 @@ This is a reference network for future mainnet.
 
 Planned features:
 
-* token distribution according to lockdrop results;
-* operator staking;
-* validator rewards.
+* Token distribution according to lockdrop results;
+* Operator staking;
+* Validator rewards.
 
 ### Version <a id="version"></a>
 
@@ -89,25 +89,25 @@ Planned features:
 
 #### Core modules <a id="core-modules"></a>
 
-* System - core substrate functionality.
-* Timestamp - timestamp runtime oracle.
-* Session - authority session keys management.
-* Babe - block producing consensus engine.
-* Grandpa - block finalizing consensus engine.
-* Indices - account indexing engine.
-* Balances - native asset operations.
-* RandomnessCollectiveFlip - source of random numbers.
-* Contracts - smart contract support.
-* Sudo - superuser actions.
+* System - core substrate functionality
+* Timestamp - timestamp runtime oracle
+* Session - authority session keys management
+* Babe - block producing consensus engine
+* Grandpa - block finalizing consensus engine
+* Indices - account indexing engine
+* Balances - native asset operations
+* RandomnessCollectiveFlip - random number generator
+* Contracts - smart contract support
+* Sudo - superuser actions
 
 #### StakeTechnologies modules <a id="staketechnologies-modules"></a>
 
-* Operator - smart contract operator support.
-* PlasmStaking - Plasm operator nominating and rewards support.
+* Operator - smart contract operator support
+* PlasmStaking - Plasm operator nominating and rewards support
 
 ## Plasm Testnet v2 <a id="plasm-testnet-v2"></a>
 
-This testnet is used for testing manual management of community validators and experiment with permission for validating blocks for community members as same as integration with ink-playground contract upload sandbox.
+This environment is for testing manual management of community validators and experimenting with permissions for validating blocks. It is the same integration with the ink-playground contract upload sandbox.
 
 ### Version <a id="version"></a>
 
@@ -121,19 +121,20 @@ List of enabled runtime modules.
 
 #### Core modules <a id="core-modules"></a>
 
-* System - core substrate functionality.
-* Timestamp - timestamp runtime oracle.
-* Session - authority session keys management.
-* Babe - block producing consensus engine.
-* Grandpa - block finalizing consensus engine.
-* Indices - account indexing engine.
-* Balances - native asset operations.
-* RandomnessCollectiveFlip - source of random numbers.
-* Contracts - smart contract support.
-* Sudo - superuser actions.
+* System - core substrate functionality
+* Timestamp - timestamp runtime oracle
+* Session - authority session keys management
+* Babe - block producing consensus engine
+* Grandpa - block finalizing consensus engine
+* Indices - account indexing engine
+* Balances - native asset operations
+* RandomnessCollectiveFlip - random number generator
+* Contracts - smart contract support
+* Sudo - superuser actions
 
 #### StakeTechnologies modules <a id="staketechnologies-modules"></a>
 
-* Operator - smart contract operators.
-* SessionManager - PoA validator management.
+* Operator - smart contract operators
+* SessionManager - PoA validator management
+
 

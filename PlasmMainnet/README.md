@@ -24,7 +24,7 @@
 ### StakeTechnologies modules
 
 - Operator - smart contract operator support.
-- **In preparation**: ~~DappStaking - stake on decentralized application to collect operator rewards.~~
+- **In preparation**: ~~dApptaking - stake on decentralized application to collect operator rewards.~~
 - PlasmValidator - authority manager for Plasm network.
 - PlasmRewards - this module split block rewards between dapp operators and validators.
 - **In preparation**:~~PlasmLockdrop - multi-lockdrop token distribution.~~
@@ -46,7 +46,7 @@ This item explains the first rewards of genesis plasm mainnet.
 ## Future Works
 
 ### 2020 Q2
-- [Dapps Staking](../PlasmNetwork/DappsRewards.md) module will be avalable.
+- [dApp Staking](../PlasmNetwork/dAppRewards.md) module will be avalable.
 
 ### 2020 Q3
 - [Ovm + Plasma](../TechnicalChapter/OVM.md) module will be avalable.

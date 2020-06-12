@@ -33,7 +33,7 @@ Please choose **ECDSA** type of keypair and hex-string for seed \(if you export 
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-173905png%20%281%29.png)
 
-Fill another fields including password as save account.
+Fill all of the fields including password as save account.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-173938png.png)
 

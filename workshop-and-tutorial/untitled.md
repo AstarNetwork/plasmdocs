@@ -1,7 +1,7 @@
 # Validator Guide 🔱
 
 {% hint style="info" %}
-This short guide explains the way how to become a Plasm testnet validator step by step.
+This short guide explains how to become a Plasm testnet validator step by step.
 {% endhint %}
 
 * Install node **v1.0.0-dusty** using [binaries](https://github.com/staketechnologies/Plasm/releases/tag/v1.0.0-dusty) or [building from source code](https://github.com/staketechnologies/Plasm#building-from-source).

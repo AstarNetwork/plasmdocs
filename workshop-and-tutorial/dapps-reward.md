@@ -1,56 +1,58 @@
-# DApps Reward 🍦
+# dApp Reward 🍦
 
 ## Preparation
 
-Just like what we did in our previous tutorial, we need to deploy a Contract. After that, when you go to your sidebar and press Staking, it should show like the following. Once you’re here, our preparation is over!
+Like in the previous tutorial, deploy a smart contract. In the sidebar press dAppStaking; it should show like the following. 
 
 {% page-ref page="operator-trading.md" %}
 
 ![Dapps Staking Board](../.gitbook/assets/screen-shot-2020-06-11-at-16.26.00.png)
 
-## The concept of Dapps Rewards
+## The concept of dApp Rewards
 
-The overall logistics of how the Dapps Rewards works is like the following.
+dApp Rewards Work Flow:
 
-1. Select a Smart Contract to stake. \(this is also referred as nominate\)   
-2. The nominator and the Smart Contract operator who’s nominated will gain economic incentives from Plasm chain that is proportional to the amount that has been staked.
+1. Select a smart contract to stake \(nominate\)   
+2. The nominator and operator will receive a reward proportional to the amount that has been staked.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-30-160230png%20%281%29.png)
 
-Let’s try this ourselves!
+Try it out:
 
-### ① Let’s Nominate a Smart Contract!
+### ① Nominate a Smart Contract:
 
-Click **Staking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look something like the following. From here press + New stake button in the top right corner.
+Click **dAppStaking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
+
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.29.20.png)
 
-After that, you should be able to see a screen appear that looks like the following image. There are four input parameters in here and we’ll go through all of them.
+The following screen should appear that contains four input parameters as follows:
 
-* **Stash account**: Specifies which account’s tokens to use. Think of this as a “bank account”.
-* **Controller account**: Specifies the account that will be controlling the nomination status. For security reasons, it is recommended to have different accounts for the Stash account and Controller account, but for this demo, I’ll be using Bob’s account for both.
-* **Value bonded**: Specifies the amount of token used for staking.
-* **Payment destination**: Specifies the recipient of the Rewards.
+* **Stash account**: Specifies which account tokens to use
+* **Controller account**: Specifies the account that will be controlling the nomination status. For security reasons, it is recommended to have different accounts for the Stash account and Controller account, but for this demo, Bob’s account is used for both.
+* **Value bonded**: Specifies the amount of token used for staking
+* **Payment destination**: Specifies the recipient of the Rewards
 
 ![Bonding](../.gitbook/assets/screen-shot-2020-06-11-at-16.31.22.png)
 
-After you’ve finished the inputs, press Bonding -&gt; sign and Submit to issue a transaction. Now you should be able to see something like the following image, a new card should appear with the same value that was given in the Bonding Preferences menu.
+Enter the inputs and press Bonding -&gt; sign and Submit to issue a transaction. The following screen should appear, with a new card and the same value that was given in the Bonding Preferences menu.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.33.28.png)
 
-With this, we have successfully locked our token. But this is not enough to say that we’ve Nominated someone. For that, we must press the Nominate button in the right side of the card.
+Tokens have been successfully locked, but this is not enough to nominated someone. Press the Nominate button in the right side of the card to officially nominate.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.35.14.png)
 
-Pressing that will show the following form. Here, we get to choose the Smart Contract that will be nominated. Let’s select the demo Contract named “SAMPLE.WASM” that we uploaded from the last article! Please note that we can only choose a Smart Contract that has the canBeNominate parameter as Yes.
+Choose the Smart Contract that will be nominated. Select the demo contract named “SAMPLE.WASM” uploaded from the last article! You can only choose a Smart Contract that has the canBeNominate parameter as Yes.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-22.54.43.png)
 
-Press Nominate -&gt; Sign and Submit to issue a transaction. After a few moments, as we can see in the following image, we see a new section named Nominating with the Smart Contract that we chose in the previous step.
+Press Nominate -&gt; Sign and Submit to issue a transaction. After a few moments, as we can see in the following image:
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.38.25.png)
 
 Now we have finished nominating a Smart Contract!
+
 
 ### ② Let’s **receive some Dapps Rewards**!
 
@@ -72,7 +74,7 @@ To claim rewards for nominators, select nominator address and latest era, and pu
 * In Plasm, there is a system for incentivizing \(rewarding\) the Smart Contract owner!
 * The amount being incentivized will be different from the users’ nomination!
 
-We have introduced some new functionality of Plasm through this and the previous article. But there is room for improvements and changes we can make to these features. In which case we’ll update everyone so please stay tuned!
+New functionality of Plasm has been introduced through this and the previous article. As the Plasm Network is improved upon you will find updates to the documentation as well.
 
 Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

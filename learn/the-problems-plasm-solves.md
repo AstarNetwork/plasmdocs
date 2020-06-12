@@ -4,9 +4,9 @@
 
 ## Scalability
 
-Blockchain does't scale by design because of decentralized consensus mechanism. TPS \(Transaction Per Second\) is much smaller than a centralized data base and there is an upper limitation of data that can be stored in every block. Therefore, users across the network may notice their transactions sit as unconfirmed or pending for a longer period of time, and we understand this makes user experience worse. 
+Blockchains do not scale by design because of decentralized consensus mechanism. TPS \(Transaction Per Second\) is much smaller than a centralized data base and there is an upper limitation of data that can be stored in every block. Therefore, users across the network may notice their transactions sit unconfirmed or pending for long periods of time, creating a poor user experience.
 
-When we say "scalability", [Plasm Network](https://www.plasmnet.io/) is addressing the followings topics.
+Scalability on the [Plasm Network](https://www.plasmnet.io/) is addressing the followings topics:
 
 * More Transaction Per Second \(TPS\)
 * Cheaper transaction cost
@@ -14,9 +14,9 @@ When we say "scalability", [Plasm Network](https://www.plasmnet.io/) is addressi
 
 ### Interoperability
 
-Currently, many blockchains are created but few blockchains have interoperability as a feature.  For example, to move "value" from Bitcoin to Ethereum, we need some sorts of centralized exchanges. Polkadot is a sharded protocol that enables blockchain networks to operate together seamlessly. 
+Many different blockchains exist but few have interoperability as a feature.  To move "value" from Bitcoin to Ethereum, we need requires a centralized exchange. Polkadot is a sharded protocol that enables blockchain networks to operate together seamlessly. 
 
-[Plasm Network](https://www.plasmnet.io/) is compatible with Polkadot. By connecting [Plasm Network](https://www.plasmnet.io/) to Polkadot, we will have a true interoperability.
+[Plasm Network](https://www.plasmnet.io/) is compatible with Polkadot. By connecting [Plasm Network](https://www.plasmnet.io/) to Polkadot, we will have true interoperability.
 
 {% page-ref page="../ecosystem/polkadot.md" %}
 

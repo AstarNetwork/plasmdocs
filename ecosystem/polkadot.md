@@ -2,68 +2,68 @@
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-221155png.png)
 
-[Polkadot](https://polkadot.network/) is a sharded protocol that enables blockchain networks to operate together seamlessly. It is an open-source project led by [Web3 Foundation](https://web3.foundation/). 
+[Polkadot](https://polkadot.network/) is an open-source project led by the [Web3 Foundation](https://web3.foundation/). It is a sharded protocol that connects different blockchain networks.
 
-### Polkadot Basic
+### Polkadot Basics
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-230056png.png)
 
-Polkadot mainly consists of two parts: Relaychain and Prachain. 
+Polkadot consists of two parts: Relaychain and Parachain. 
 
-* **Relaychain:** The heart of Polkadot, responsible for the network’s security, consensus and cross-chain interoperability.
-* **Parachain:** Sovereign blockchains that can have their own tokens and optimize their functionality for specific use cases. To connect to the Relay Chain, parachains can pay as they go or lease a slot for continuous connectivity.
+* **Relaychain:** This is the core of Polkadot which is responsible for network security, consensus, and cross-chain interoperability.
+* **Parachain:** These are sovereign blockchains with custom tokens and optimized functionality for specific use cases. Parachain connection to Relaychain is priced on a pay-as-you-go basis or a continuous connectivity lease.
 
-\*\*\*\*[**Plasm Network**](https://www.plasmnet.io/) **aims to be the first SCALABLE smart contract Polkadot Parachain. \(**Plasm can be a Parachain since it is built on Parity Substrate\)
+\*\*\*\*[**Plasm Network**](https://www.plasmnet.io/) **Plasm is built on Parity Substrate making it one of the first SCALABLE smart contract Polkadot Parachains.
 
 {% page-ref page="substrate.md" %}
 
-Through this architecture, Polkadot makes the following things possible. 
+Parachain and Relaychain in Polkadot makes the following things possible:
 
-1. **By connecting Parachain to the Relaychain, the data and token can be transferable among Parachains seamlessly.**
-2. **Parachain can import Relaychain's security.**
+1. **Data and tokens can be transferred among parachains seamlessly.**
+2. **Parachains can import Relaychain security.**
 
-If you are interested in Polkadot, you can learn more from the following web pages.
+Learn more about Polkadot: 
 
 * **Polkadot Lightpaper:** [https://polkadot.network/Polkadot-lightpaper.pdf](https://polkadot.network/Polkadot-lightpaper.pdf)
 * **Polkadot web page:** [https://polkadot.network/](https://polkadot.network/)
 * **Polkadot wiki:** [https://wiki.polkadot.network/](https://wiki.polkadot.network/)
 
-##  Plasm Network and Polkadot
+## Plasm Network and Polkadot
 
-In this section, we will describe the roles of [Plasm Network ](https://www.plasmnet.io/)in the Polkadot ecosystem. [Plasm Network](https://www.plasmnet.io/) aims to be the first scalable smart contract Polkadot Parachain. 
+This section describes how the [Plasm Network ](https://www.plasmnet.io/) integrates to the Polkadot ecosystem. [Plasm Network](https://www.plasmnet.io/) aims to be the first scalable smart contract Polkadot Parachain. 
 
 ### Smart Contract
 
-The [Polkadot](https://polkadot.network/) Relaychain, by design, does not support smart contracts. This allows Plasm the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands DApp developers have. Ideally, the developers can build whatever applications on Plasm Network without having to consider its scalability.
+The [Polkadot](https://polkadot.network/) Relaychain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApp knowing that they can be scaled up with ease.
 
 ### Scalability
 
-[Plasm Network](https://www.plasmnet.io/) is scalable because we are implementing layer2 solutions especially Optimistic Virtual Machine.
+[Plasm Network](https://www.plasmnet.io/) scalability relies on layer 2 solutions such as the Optimistic Virtual Machine.
 
 {% page-ref page="../learn/optimistic-virtual-machine.md" %}
 
-Scalability is one of the most crucial issues blockchain has. In order to make blockchain a social infrastructure, it needs high processing performance. Solving this scalability problem in the blockchain ecosystem is an urgent task for us.
+Scalability is the greatest challenge to all blockchains. To bring widespread adoption of blockchain technology, higher performance is necessary. Scalability is a critical issue that Plasm Network seeks to optimize.
 
-When we say scalability, there are 2 types: 
+Two Types Of Scalability 
 
-* **Layer1 \(horizontal\) scalability:** The concept of layer1 scalability is to do more on layer1 blockchain. \(e.g. sharding and Segwit\)
-* **Layer2 \(vertical\) scalability:** The concept of layer2 scalability is to do less on layer1 and to do more on layer2 or off-chain.  \(e.g. Plasma and State Channel\)
+* **Layer 1 \(horizontal\) scalability:** Do more on the layer 1 blockchain. \(e.g. sharding and Segwit\)
+* **Layer 2 \(vertical\) scalability:** Do less on layer 1 and more on layer 2 or off-chain. \(e.g. Plasma and State Channel\)
 
-Polkadot has the layer1 scalability because it is a sharding ish architecture. [Plasm](https://www.plasmnet.io/) is also scalable because it has layer2 vertical scalabilities. 
+Polkadot uses sharding technology allowing greater scalability. [Plasm](https://www.plasmnet.io/) also incorporates layer 2 vertical capabilities. 
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-234905png.png)
 
-Layer1 solution and layer2 solution are completely different and they complement each other. 
+Layer 1 and layer 2 offer different yet complementary solutions.
 
-In addition to that, scalability is NOT just a benefit we can get through layer2 solutions. We can get the followings as well
+Additional benefits of the Plasm Network architecture include: 
 
 * **First Finality**
-* **Flexible DApps development**
-* **Cheaper transaction\(gas\) cost**
+* **Flexible dApp development**
+* **Significantly lower transaction\(gas\) costs**
 
-Through layer1 smart contract and layer2 solutions, we are looking forward to seeing various use cases on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\) 
+Smart contract capability combined with layer 2 architecture makes many interesting dApp possible on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\) 
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-08-00739png.png)
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Questions? Reach out to the [Discord Tech Channel](https://discord.gg/Z3nC9U4) where team and community members can help you find answers.
 

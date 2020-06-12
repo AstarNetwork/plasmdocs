@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Plasm Network is an open source project. So, the Plasm team wants to make the community bigger together. The team recognizes that people need an incentive to work on Plasm Network. Here is the first trial to provide grants for contributors.
+Plasm Network is an open source project. The Plasm team wants to provide incentive to grow the Plasm Community.  Here is the outline of the Plasm Community Grant program.
 
 ## How To
 
 To BE  Added
 
-{% page-ref page="dapps-reward.md" %}
+{% page-ref page="dApp-reward.md" %}
 
 
 

@@ -12,7 +12,7 @@ If you want to be a validator, you can start your journey from our [Validator Gu
 
 ![first_rewards](https://user-images.githubusercontent.com/6259384/80910872-7f01d680-8d6d-11ea-84eb-56d27f7b0a26.jpeg)
 
-At genesis, Plasm will use all of the rewards for `ForSecurity`. Performing Dapps Staking in the initial phase will definitely make it rough. Furthermore, countermeasures for malicious actors may not work perfectly as intended. Therefore, at genesis Plasm will adopt a simple reward algorithm.
+At genesis, Plasm will use all of the rewards for `ForSecurity`. Performing dApp Staking in the initial phase will definitely make it rough. Furthermore, countermeasures for malicious actors may not work perfectly as intended. Therefore, at genesis Plasm will adopt a simple reward algorithm.
 
 The target maximum token supply inflation rate per year is
 $$I \le I_0 = 2.5\%$$

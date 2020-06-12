@@ -1,8 +1,8 @@
 # Substrate 🅾
 
-Parity Substrate is a blockchain framework to build your own blockchain. You can use Substrate’s pallets to easily create what you want, or craft your own custom logic. Either way, Substrate makes building a blockchain far faster, easier, and safer than ever before.
+Parity Substrate is a framework for building custom blockchains. Substrate offers blockchain templates or you can define a unique structure and logic. Substrate implements a high level of security, making blockchain development fast, easy, and secure.
 
-Substrate has the following features:
+Substrate features include:
 
 * **Forkless Update**
 * **Cross-Language Support with WebAssembly**
@@ -10,6 +10,6 @@ Substrate has the following features:
 * **Deterministic Finality**
 * **Seamless Integration**
 
-Lear more from 👇  
+Learn more: 👇  
 Substrate : [https://www.substrate.io/](https://www.substrate.io/)
 
