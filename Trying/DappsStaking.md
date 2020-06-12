@@ -1,21 +1,21 @@
-[日本版はこちら](https://medium.com/stake-technologies/%E9%81%8A%E3%81%BC%E3%81%86-plasm-testnet-v3-%E2%91%A1-dapps-rewards-a58419e4ff97)
+[日本版はこちら](https://medium.com/stake-technologies/%E9%81%8A%E3%81%BC%E3%81%86-plasm-testnet-v3-%E2%91%A1-dApp-rewards-a58419e4ff97)
 
 # Preparation
-Just like what we did in our [previous trying](./OperatorTrading.html), we need to deploy a Contract. After that, when you go to your sidebar and press DappsStaking, it should show like the following. Once you’re here, our preparation is over!
+Just like what we did in our [previous trying](./OperatorTrading.html), we need to deploy a Contract. After that, when you go to your sidebar and press dAppStaking, it should show like the following. Once you’re here, our preparation is over!
 
 ![DppsStaking board](https://user-images.githubusercontent.com/6259384/77172548-775dd980-6b01-11ea-9c32-c360a6f09759.png)
 
-## The concept of Dapps Rewards
-The overall logistics of how the Dapps Rewards works is like the following.
+## The concept of dApp Rewards
+The overall logistics of how the dApp Rewards works is like the following.
 1. Select a Smart Contract to stake. (this is also referred as nominate)
 2. The nominator and the Smart Contract operator who’s nominated will gain economic incentives from Plasmchain that is proportional to the amount that has been staked.
 
-![Dapps Rewards flow](https://user-images.githubusercontent.com/6259384/77172544-76c54300-6b01-11ea-858f-e73d6388a318.png)
+![dApp Rewards flow](https://user-images.githubusercontent.com/6259384/77172544-76c54300-6b01-11ea-858f-e73d6388a318.png)
 
 Let’s try this ourselves!
 
 ## ① Let’s Nominate a Smart Contract!
-Click DappsStaking -> Account actions. If you have not previously staked anything, your screen should look something like the following. From here press + New stake button in the top right corner.
+Click dAppStaking -> Account actions. If you have not previously staked anything, your screen should look something like the following. From here press + New stake button in the top right corner.
 
 
 ![rightcorner](https://user-images.githubusercontent.com/6259384/77172540-762cac80-6b01-11ea-9215-053c0584f327.png)
@@ -47,8 +47,8 @@ Press Nominate -> Sign and Submit to issue a transaction. After a few moments, a
 
 Now we have finished nominating a Smart Contract!
 
-## ② Let’s receive some Dapps Rewards!
-Receiving a Dapps Reward is very simple! We wait! You see, Dapps Rewards is issued for each Era, which is a specific time cycle of the blockchain defined by the GRANDPA finality gadget. At the end of each Era, the Plasmchain will process the following.
+## ② Let’s receive some dApp Rewards!
+Receiving a dApp Reward is very simple! We wait! You see, dApp Rewards is issued for each Era, which is a specific time cycle of the blockchain defined by the GRANDPA finality gadget. At the end of each Era, the Plasmchain will process the following.
 1. pay the incentives for every staking enabled nominator and the Contract operator.
 2. enable staking for newly added nominations in this Era.
 In other words, nominations in Era1 will be enabled at the end of Era1 and receive incentives at the end of Era2.
@@ -63,7 +63,7 @@ Issuing this transaction allows us to only once skip to the next Era. To check i
 
 ![we can see that the Era has changed](https://user-images.githubusercontent.com/6259384/77172529-72992580-6b01-11ea-88ef-cb9588cdf829.png)
 
-After a few minutes the Era will change, so let’s go to DappsStaking -> Staking overview to check if our staking status has been enabled for SAMPLE.WASM. As we can see from the following image, it is indeed enabled.
+After a few minutes the Era will change, so let’s go to dAppStaking -> Staking overview to check if our staking status has been enabled for SAMPLE.WASM. As we can see from the following image, it is indeed enabled.
 
 ![Staking overview](https://user-images.githubusercontent.com/6259384/77172527-72008f00-6b01-11ea-9898-a07f8b1f2929.png)
 
@@ -82,7 +82,7 @@ If you are interested in understanding the algorithm for how the blockchain dete
 With this, we have finished the demo! Thank you for following me this far!
 
 # Summary
-- We have played with Dapps Staking!
+- We have played with dApp Staking!
 - In Plasm, there is a system for incentivizing (rewarding) the Smart Contract owner!
 - The amount being incentivized will be different from the users’ nomination!
 

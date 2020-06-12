@@ -2,7 +2,7 @@
 
 ## How to Participate in the Lockdrop
 
-First, make sure that you have a Web3 wallet browser extension \(i.e. MetaMask\) installed to your browser. Without this, we cannot communicate with the contract through normal means. Next head on to [https://lockdrop.plasmnet.io/](https://lockdrop.plasmnet.io) to start the application. The actual demo below is done via a local chain on a local server, but the one from the above URL will give you a working version with the contract deployed to Repsten testnet. The main net contract is not yet deployed.
+First, make sure that you have a Web3 wallet browser extension \(i.e. MetaMask\) installed to your browser. Without this, we cannot communicate with the contract through normal means. Next go to [https://lockdrop.plasmnet.io/](https://lockdrop.plasmnet.io) to start the application. The actual demo below is done via a local chain on a local server, but the one from the above URL will give you a working version with the contract deployed to the Ropsten testnet. 
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-190014png.png)
 
@@ -12,7 +12,7 @@ If you have properly installed your wallet extension, you should be greeted with
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-190155png.png)
 
-The lockdrop page will be dived into two sections; the input form and the global locks. The form is straight forward. You just have to input the amount you want to lock in ETH, the duration that you want to lock it for \(the participant is able to choose from 30, 100, 300, and 1000 days\), and the public address of your introducer. The last input requires special care as the form will only accept public addresses that are part of the affiliation program. If you leave this part empty, the introducer will default to `0x0000000000000000000000000000000000000000`. Furthermore, the introducer address input field will reject any invalid address hashes so please keep that in mind. The global lock section will listen to every `Locked` event and display them as a list, giving participants immediate feedback for every lock.
+The lockdrop page will be dived into two sections; the input form and the global locks. The form is straight forward. You just have to input the amount you want to lock in ETH, the duration that you want to lock it for \(the participant is able to choose from 30, 100, 300, and 1000 days\), and the public address of your introducer. The last input requires special care as the form will only accept public addresses that are part of the affiliation program. If you leave this part empty, the introducer will default to `0x0000000000000000000000000000000000000000`. The introducer address input field will reject any invalid address hashes so please keep that in mind. The global lock section will listen to every `Locked` event and display them as a list, giving participants immediate feedback for every lock.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-190257png.png)
 
@@ -28,17 +28,17 @@ Given that everything went well, you can see a green toast popping on the side a
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-190439png.png)
 
-You can also see that we have locked our tokens to the blockchain with the address of the lock by looking at the global lock tracker. You can also notice that because we didn’t provide any introducer, the list shows that we don’t have any.
+You can also see that we have locked our tokens to the blockchain with the address of the lock by looking at the global lock tracker. Notice that because we didn’t provide any introducer, the list shows that we don’t have any.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-190942png.png)
 
-This time, let’s try locking a token with an introducer’s address. The address above is a mock affiliated address so it won’t work on the real thing.
+This time, try locking a token with an introducer’s address. The address above is a mock affiliated address so it won’t work on the real thing.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-191025png.png)
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-191057png%20%281%29.png)
 
-Furthermore, if you try to input an address that is not affiliated with the program or your own public address, the client will not accept the input.
+If you try to input an address that is not affiliated with the program or your own public address, the client will not accept the input.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-191136png.png)
 
@@ -52,7 +52,7 @@ Private key manipulation utility is supplied in Plasm repository and could be in
 cargo install --force --git https://github.com/staketechnologies/Plasm --tag v0.7.1 subkey 
 ```
 
-Once you have finished installing the subkey utility, let’s try using it. For this article, we’re mainly interested in the transfer command, which has the following options.
+Once you have finished installing the subkey utility, try using it. You will mainly be interested in the transfer command, which has the following options.
 
 ```bash
 $ subkey transfer --help
@@ -95,7 +95,7 @@ Using a genesis hash of ac0090073a92ae1a68c049e84d5b3671d9156833f18f30031c1066eb
 0x310284ffe28153d70c05ebce1758dfd58356b05ff6bcb90fae903e27b00baa9bdfb9fd2f0210c5ecce7198b3adf13dece166a277890c189c05e5e061240cfacd8b9e2e9b497be46283d20ae801c784e1ec962a64644508b5e492c4bdb1932f202bbdbb63db010000000300ff16eb796bee0c857db3d646ee7070252707aec0c7d82b2eda856632f6a2306a58a10f
 ```
 
-You’ll notice that the first line of hash is familiar from what we have seen before. It’s the genesis hash! But the important part is the second line, which is the hex-encoded raw extrinsic. We’ll be needing this in a short while so please copy this.
+Notice that the first line of hash is familiar. It’s the genesis hash! But the important part is the second line, which is the hex-encoded raw extrinsic. We’ll need this in a short while so please copy it.
 
 ### Send extrinsic
 
@@ -109,7 +109,7 @@ Now we just copy the hex string to the extrinsic field and push the **Submit RPC
 
 ## Conclusion
 
-We’ve looked into how the lockdrop for Plasm Network will work and how to use the lockdrop application. Given that you have enough tokens, it is fairly straight forward to use. With this, you should be able to participate in the lockdrop, and get your hands on some fresh PLMs!
+This tutorial explores how the lockdrop for Plasm Network works and how to use the lockdrop application.  You should be able to participate in the lockdrop, and get your hands on some fresh PLMs!
 
 Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

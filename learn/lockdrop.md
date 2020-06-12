@@ -29,7 +29,7 @@ The assumption is that the Ethereum token holder's opportunity cost is proportio
 
 Multi-Lockdrop is a the lockdrop mechanism iterated multiple times. [Plasm Network](https://www.plasmnet.io/).  [Plasm Network](https://www.plasmnet.io/)'s total token supply will not be set at genesis. Tokens will be issued every 3rd lockdrop, and additional tokens will be minted utilizing the "Staking" function, discussed later.
 
-{% page-ref page="dapps-reward.md" %}
+{% page-ref page="dApp-reward.md" %}
 
 Multiple lockdrop iterations have two advantages: 
 

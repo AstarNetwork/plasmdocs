@@ -69,7 +69,7 @@ Deploying the Contract is very simple. All you need to do is click the deploy bu
 ![Input Parameters and click deploy](https://user-images.githubusercontent.com/6259384/77171463-d7538080-6aff-11ea-835d-2598a2d6b221.png)
 
 During this step, people who have uploaded a smart contract in a different Substrate-based blockchain might have noticed something different in the contract deploy portal. That is the Parameters input box, highlighted in red in the above picture.
-In Plasm, you can set a special parameter for every contract. This is important for the aforementioned special feature for Plasm; the DappsRewards. But this is beyond the scope of today’s article so let’s just provide the value Yes to canBeNominated parameter and upload it. Who knows, something good might happen😉.
+In Plasm, you can set a special parameter for every contract. This is important for the aforementioned special feature for Plasm; the dAppRewards. But this is beyond the scope of today’s article so let’s just provide the value Yes to canBeNominated parameter and upload it. Who knows, something good might happen😉.
 After we finish deploying the Contract, we can see the deployed contract and the operator like the following image. The first operator is the account that deployed the Contract (the screenshot is from a local node hence why the operator is named Alice).
 
 ![Deployed contract(SAMPLE.WASM) and its operator(ALICE)](https://user-images.githubusercontent.com/6259384/77171460-d6225380-6aff-11ea-8bea-fc55c39664a1.png)
@@ -98,4 +98,4 @@ Thank you for sticking with us.
 - We’ve talked about how Plasm has a concept of ownerships in Smart Contracts.
 - And we can transfer the ownership of the Contract according to the Operator.
 
-So now, we have shown the concept of contract ownerships and the transfer of ownership, but why is it important and why should everyone care about it? The answer is simple; the ownership of the Smart Contract determines who receives the profit from the Dapps Rewards. The next question would be “so how does this Dapps Rewards work?” That will be discussed in the next article by going through some demos. So please stay tuned for more!
+So now, we have shown the concept of contract ownerships and the transfer of ownership, but why is it important and why should everyone care about it? The answer is simple; the ownership of the Smart Contract determines who receives the profit from the dApp Rewards. The next question would be “so how does this dApp Rewards work?” That will be discussed in the next article by going through some demos. So please stay tuned for more!

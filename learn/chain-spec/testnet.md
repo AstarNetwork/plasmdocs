@@ -66,7 +66,7 @@ Planned features:
 #### StakeTechnologies modules <a id="staketechnologies-modules"></a>
 
 * Operator - smart contract operator support
-* DappStaking - stake on decentralized application to collect operator rewards
+* dApptaking - stake on decentralized application to collect operator rewards
 * PlasmValidator - authority manager for Plasm network
 * PlasmRewards - reward router between dApp operators and validators
 * PlasmLockdrop - multi-lockdrop token distribution

@@ -1,6 +1,6 @@
 # Real-Time Lockdrop 🍬
 
-**Declaimer**: This is an experimental module. Some features don't work or work with issues. Please report problems [on GitHub](https://github.com/staketechnologies/Plasm/issues/new/choose) when you find.
+**Declaimer**: This is an experimental module. Some features don't work or work with issues. Please report problems [on GitHub](https://github.com/staketechnologies/Plasm/issues/new/choose) if they arise.
 
 ### Quick Install
 
@@ -74,7 +74,7 @@ After the launch, your authority node starts to fetch and send the current USD p
 
 ### Lockdrop Request
 
-Plasm  Network team has deployed the Lockdrop smart contract on Ethereum Ropsten network just for testing purpose. You can check it from 
+Plasm  Network team has deployed the Lockdrop smart contract on Ethereum Ropsten network just for testing purpose. You can check it here:
 
 {% embed url="https://ropsten.etherscan.io/address/0xeed84a89675342fb04fafe06f7bb176fe35cb168" %}
 

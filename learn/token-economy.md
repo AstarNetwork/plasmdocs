@@ -21,7 +21,7 @@ $$
 
 ## Inflation Model
 
-In the previous chapter, we defined the algorithm that determines the issue amount and distribution method when issuing new Plasm Network tokens. The Plasm Network is structured that the new token issuance fee is shared with dApp Rewards and a reward for securing the chain. The consensus algorithm of the Plasm Network is expected to be NPoS. Thereby, there are two types of Staking actions: Staking \(NPoS\) for Validator and Staking \(Dapps Rewards\) for smart contracts. Both rewards from each staking are equally proportional to the amount of staking. Users who stake on validators / smart contracts are collectively called nominators. The ideal ratio of Staking for validators and Staking for smart contracts is:   
+In the previous chapter, we defined the algorithm that determines the issue amount and distribution method when issuing new Plasm Network tokens. The Plasm Network is structured that the new token issuance fee is shared with dApp Rewards and a reward for securing the chain. The consensus algorithm of the Plasm Network is expected to be NPoS. Thereby, there are two types of Staking actions: Staking \(NPoS\) for Validator and Staking \(dApp Rewards\) for smart contracts. Both rewards from each staking are equally proportional to the amount of staking. Users who stake on validators / smart contracts are collectively called nominators. The ideal ratio of Staking for validators and Staking for smart contracts is:   
 
 
 $$Staking_{validators}$$ represents the action of staking on validators.
@@ -36,14 +36,14 @@ $$
 5:1 = Staking_{validators} : Staking_{contracts}
 $$
 
-Rewards paid to Operators are dApp Rewards. Operator rewards increase in proportion to the inflation rate due to Staking. dApp Rewards rewards 50% of the total reward when meeting the ideal $$q$$ from quote the Dapps Rewards chapter. The rewards given to the Operator at that time is maximized. To show the specific reward distribution, we introduce the following variables:
+Rewards paid to Operators are dApp Rewards. Operator rewards increase in proportion to the inflation rate due to Staking. dApp Rewards rewards 50% of the total reward when meeting the ideal $$q$$ from quote the dApp Rewards chapter. The rewards given to the Operator at that time is maximized. To show the specific reward distribution, we introduce the following variables:
 
 * $$Rewards_{operators}$$ is the total amount of reward got by the Operator.
 * $$Rewards_{stakers_{validators}}$$ is the total amount of rewards got by staking a validator.
 * $$Reards_{stakers_{contracts}}$$ is the total amount of reward got by staking smart contracts.
 * $$t$$ is a coefficient that represents how many times the total amount of rewards earned by the operator is greater than the rewards earned by taking a smart contract.
 
-$$t= 4$$ from quote the Dapps Rewards chapter and 50% of the total reward for meeting the ideal $$q$$ will go to the Dapps Rewards reward. Therefore, the ideal distribution ratio of remuneration is determined as follows.
+$$t= 4$$ from quote the dApp Rewards chapter and 50% of the total reward for meeting the ideal $$q$$ will go to the dApp Rewards reward. Therefore, the ideal distribution ratio of remuneration is determined as follows.
 
 $$
 \begin{aligned}
@@ -57,7 +57,7 @@ $$
 Staking_{validators}:Staking_{contracts}=Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}
 $$
 
-PLM tokens use the same NPoS as Polkadot. This nominator and validator can operate the token at a certain annual interest rate for Staking. Also, token rewards will be paid to the PLM Dapps operator's Nominator and Operator as well. Plasm Network's inflation model is defined as follows: First, follow the Polkadot inflation model and define the following variables:
+PLM tokens use the same NPoS as Polkadot. This nominator and validator can operate the token at a certain annual interest rate for Staking. Also, token rewards will be paid to the PLM dApp operator's Nominator and Operator as well. Plasm Network's inflation model is defined as follows: First, follow the Polkadot inflation model and define the following variables:
 
 * $$x$$ is the total amount of staking divided by the total amount of tokens issued.
 * $$X_{ideal}$$ is the ideal value of $$x$$. $$Staking: Liquidity = 1: 1$$, so $$X_ideal = 0.5$$.

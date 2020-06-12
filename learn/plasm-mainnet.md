@@ -35,7 +35,7 @@ Note that the past status is also listed here. Each detailed spec is annotated a
 
 ### 2020 Q2
 
-* [Dapps Staking](../PlasmNetwork/DappsRewards.md) module will be available
+* [dApp Staking](../PlasmNetwork/dAppRewards.md) module will be available
 
 ### 2020 Q3
 
