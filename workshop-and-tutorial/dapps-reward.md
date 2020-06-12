@@ -2,11 +2,13 @@
 
 ## Preparation
 
+
 Like in the previous tutorial, deploy a smart contract. In the sidebar press dAppStaking; it should show like the following. 
+
 
 {% page-ref page="operator-trading.md" %}
 
-![DppsStaking board](https://user-images.githubusercontent.com/6259384/77172548-775dd980-6b01-11ea-9c32-c360a6f09759.png)
+![Dapps Staking Board](../.gitbook/assets/screen-shot-2020-06-11-at-16.26.00.png)
 
 ## The concept of dApp Rewards
 
@@ -21,9 +23,11 @@ Try it out:
 
 ### ① Nominate a Smart Contract:
 
-Click **dAppStaking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
 
-![rightcorner](https://user-images.githubusercontent.com/6259384/77172540-762cac80-6b01-11ea-9215-053c0584f327.png)
+Click **Staking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look something like the following. From here press + New stake button in the top right corner.
+
+
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.29.20.png)
 
 The following screen should appear that contains four input parameters as follows:
 
@@ -32,25 +36,26 @@ The following screen should appear that contains four input parameters as follow
 * **Value bonded**: Specifies the amount of token used for staking
 * **Payment destination**: Specifies the recipient of the Rewards
 
-![Bonding](https://user-images.githubusercontent.com/6259384/77172537-75941600-6b01-11ea-8a13-907d18ae8cf1.png)
+![Bonding](../.gitbook/assets/screen-shot-2020-06-11-at-16.31.22.png)
 
 Enter the inputs and press Bonding -&gt; sign and Submit to issue a transaction. The following screen should appear, with a new card and the same value that was given in the Bonding Preferences menu.
 
-![The specified amount bonded and the receiving account is the same as the value we provided](https://user-images.githubusercontent.com/6259384/77172536-74fb7f80-6b01-11ea-970d-6f649ad28af8.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.33.28.png)
 
 Tokens have been successfully locked, but this is not enough to nominated someone. Press the Nominate button in the right side of the card to officially nominate.
 
-![pressent](https://user-images.githubusercontent.com/6259384/77172535-7462e900-6b01-11ea-8d94-06f8ffba6cb5.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.35.14.png)
 
 Choose the Smart Contract that will be nominated. Select the demo contract named “SAMPLE.WASM” uploaded from the last article! You can only choose a Smart Contract that has the canBeNominate parameter as Yes.
 
-![Press Nominate](https://user-images.githubusercontent.com/6259384/77172533-73ca5280-6b01-11ea-9a67-01357aa6f9eb.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-22.54.43.png)
 
 Press Nominate -&gt; Sign and Submit to issue a transaction. After a few moments, as we can see in the following image:
 
-![Smart Contract](https://user-images.githubusercontent.com/6259384/77172532-7331bc00-6b01-11ea-93df-6b7dd61fec66.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.38.25.png)
 
 Now we have finished nominating a Smart Contract!
+
 
 ### ② Let’s receive some dApp Rewards!
 
@@ -65,7 +70,9 @@ Well, “Why in the name of bologna would I wait for that much for a demo,” yo
 
 First, go to the sidebar and choose Extrinsics. Then with your root user \(Alice in this case\) issue the following transaction. **Sudo\(forceNewEra\(\)\)**.
 
-![sudo](https://user-images.githubusercontent.com/6259384/77172531-7331bc00-6b01-11ea-98d4-8d132a91ee58.png)
+
+![](../.gitbook/assets/screen-shot-2020-06-11-at-23.07.30.png)
+
 
 Issuing this transaction allows us to skip once to the next Era. To check if you moved on to the next Era, refer to the chain state. Check the value of forceEra\(\) in the plasmStaking, if it says ForceNew that means the Era has not been changed if it’s NotForcing that means the Era has changed.
 
@@ -88,10 +95,11 @@ Looking closely, you can see that Alice and Bob’s token have increased! If you
 ### Summary <a id="summary"></a>
 
 * This tutorial allowed you to play with dApp Reward!
+
+
 * In Plasm, there is a system for incentivizing \(rewarding\) the Smart Contract owner!
 * The amount being incentivized will be different from the users’ nomination!
 
 New functionality of Plasm has been introduced through this and the previous article. As the Plasm Network is improved upon you will find updates to the documentation as well.
 
 Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
-
