@@ -18,7 +18,7 @@ This is enhanced smart contract owner management which allows tokenization of co
 
 This is the reward system for dApps \(including Plasm Applications\) developers. It is a blockchain-specific monetization model for the Web3.0 and maybe even the next generation.
 
-{% page-ref page="dApps-reward.md" %}
+{% page-ref page="dapps-rewad.md" %}
 
 ### **Multi-Lockdrop**
 
