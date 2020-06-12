@@ -6,7 +6,7 @@ Like in the previous tutorial, deploy a smart contract. In the sidebar press dAp
 
 {% page-ref page="operator-trading.md" %}
 
-![DppsStaking board](https://user-images.githubusercontent.com/6259384/77172548-775dd980-6b01-11ea-9c32-c360a6f09759.png)
+![Dapps Staking Board](../.gitbook/assets/screen-shot-2020-06-11-at-16.26.00.png)
 
 ## The concept of dApp Rewards
 
@@ -23,7 +23,8 @@ Try it out:
 
 Click **dAppStaking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
 
-![rightcorner](https://user-images.githubusercontent.com/6259384/77172540-762cac80-6b01-11ea-9215-053c0584f327.png)
+
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.29.20.png)
 
 The following screen should appear that contains four input parameters as follows:
 
@@ -32,62 +33,44 @@ The following screen should appear that contains four input parameters as follow
 * **Value bonded**: Specifies the amount of token used for staking
 * **Payment destination**: Specifies the recipient of the Rewards
 
-![Bonding](https://user-images.githubusercontent.com/6259384/77172537-75941600-6b01-11ea-8a13-907d18ae8cf1.png)
+![Bonding](../.gitbook/assets/screen-shot-2020-06-11-at-16.31.22.png)
 
 Enter the inputs and press Bonding -&gt; sign and Submit to issue a transaction. The following screen should appear, with a new card and the same value that was given in the Bonding Preferences menu.
 
-![The specified amount bonded and the receiving account is the same as the value we provided](https://user-images.githubusercontent.com/6259384/77172536-74fb7f80-6b01-11ea-970d-6f649ad28af8.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.33.28.png)
 
 Tokens have been successfully locked, but this is not enough to nominated someone. Press the Nominate button in the right side of the card to officially nominate.
 
-![pressent](https://user-images.githubusercontent.com/6259384/77172535-7462e900-6b01-11ea-8d94-06f8ffba6cb5.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.35.14.png)
 
 Choose the Smart Contract that will be nominated. Select the demo contract named “SAMPLE.WASM” uploaded from the last article! You can only choose a Smart Contract that has the canBeNominate parameter as Yes.
 
-![Press Nominate](https://user-images.githubusercontent.com/6259384/77172533-73ca5280-6b01-11ea-9a67-01357aa6f9eb.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-22.54.43.png)
 
 Press Nominate -&gt; Sign and Submit to issue a transaction. After a few moments, as we can see in the following image:
 
-![Smart Contract](https://user-images.githubusercontent.com/6259384/77172532-7331bc00-6b01-11ea-93df-6b7dd61fec66.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.38.25.png)
 
 Now we have finished nominating a Smart Contract!
 
-### ② Let’s receive some dApp Rewards!
 
-Receiving a dApp Reward is very simple! Just wait! dApp Rewards are issued for each Era, which is a specific time cycle of the blockchain defined by the GRANDPA finality gadget. At the end of each Era, the Plasm chain will process the following:
+### ② Let’s **receive some Dapps Rewards**!
 
-1. Pay the incentives for every staking enabled nominator and the Contract operator.   
-2. Enable staking for newly added nominations in this Era.  Nominations in Era1 will be enabled at the end of Era1 and receive incentives at the end of Era2. 
+If you nominate a smart contract on the era \(E\), you can receive rewards after the next era \(E + 1\) is finished \(The term of an era is one day and the term of a session is ten minutes at Dusty\). Actually, we need to wait until the era \(E + 2\), but we can fast-forward the era by using ForceNewEra on your local node. First, go to the sidebar and choose Extrinsics. Then with your root user \(Alice in this case\) to issue the following transaction two times. Sudo\(forceNewEra\(\)\).
 
-The timing between each Era is by default set to an hour. So, at the very most, just wait around 2 hours to receive incentives. 
+![](../.gitbook/assets/screen-shot-2020-06-11-at-21.23.53.png)
 
-Well, “Why in the name of bologna would I wait for that much for a demo,” you ask? If you’re using a local node, you can fast-forward the Era. 
+Now, you can claim rewards with "Claim for Nominator" tab and "Claim for Operator" tab. Click "Claim for Nominator" tab on Staking page and click "Claim" button. Then, you can see the following modal. 
 
-First, go to the sidebar and choose Extrinsics. Then with your root user \(Alice in this case\) issue the following transaction. **Sudo\(forceNewEra\(\)\)**.
+![](../.gitbook/assets/screen-shot-2020-06-11-at-23.07.30.png)
 
-![sudo](https://user-images.githubusercontent.com/6259384/77172531-7331bc00-6b01-11ea-98d4-8d132a91ee58.png)
+To claim rewards for nominators, select nominator address and latest era, and push "Claim" button. You can use "Claim for Operator" tab for the same way.
 
-Issuing this transaction allows us to skip once to the next Era. To check if you moved on to the next Era, refer to the chain state. Check the value of forceEra\(\) in the plasmStaking, if it says ForceNew that means the Era has not been changed if it’s NotForcing that means the Era has changed.
-
-![we can see that the Era has changed](https://user-images.githubusercontent.com/6259384/77172529-72992580-6b01-11ea-88ef-cb9588cdf829.png)
-
-After a few minutes the Era will change.  Go to dAppStaking -&gt; Staking overview to check if the staking status has been enabled for SAMPLE.WASM. The following image shows that it is enabled.
-
-![Staking overview](https://user-images.githubusercontent.com/6259384/77172527-72008f00-6b01-11ea-9898-a07f8b1f2929.png)
-
-You can check the amount of token Bob and Alice have from the Accounts side menu.
-
-![Accounts side menu 1](https://user-images.githubusercontent.com/6259384/77172525-7167f880-6b01-11ea-8198-6b13863c0f3c.png)
-
-Again, if you use the same method mentioned above to fast-forward the Era and check Alice and Bob’s token…
-
-![Accounts side menu 2](https://user-images.githubusercontent.com/6259384/77172516-6f059e80-6b01-11ea-8c73-0a0dd424a432.png)
-
-Looking closely, you can see that Alice and Bob’s token have increased! If you are interested in understanding the algorithm for how the blockchain determines the amount of token to reward, please consider reading this article. The TL;DR version of it is that the rewards are proportional to the number of staked tokens. Additionally, the operator gains more rewards than the nominator. This concludes the demo.
+![](../.gitbook/assets/screen-shot-2020-06-11-at-22.58.13.png)
 
 ### Summary <a id="summary"></a>
 
-* This tutorial allowed you to play with dApp Reward!
+* We have played to nominate a smart contract!
 * In Plasm, there is a system for incentivizing \(rewarding\) the Smart Contract owner!
 * The amount being incentivized will be different from the users’ nomination!
 
