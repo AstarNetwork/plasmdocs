@@ -34,7 +34,7 @@ This section describes how the [Plasm Network ](https://www.plasmnet.io/) integr
 
 ### Smart Contract
 
-The [Polkadot](https://polkadot.network/) Relaychain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApp knowing that they can be scaled up with ease.
+The [Polkadot](https://polkadot.network/) Relaychain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApps knowing that they can be scaled up with ease.
 
 ### Scalability
 
@@ -58,10 +58,10 @@ Layer 1 and layer 2 offer different yet complementary solutions.
 Additional benefits of the Plasm Network architecture include: 
 
 * **First Finality**
-* **Flexible dApp development**
+* **Flexible dApps development**
 * **Significantly lower transaction\(gas\) costs**
 
-Smart contract capability combined with layer 2 architecture makes many interesting dApp possible on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\) 
+Smart contract capability combined with layer 2 architecture makes many interesting dApps possible on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\) 
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-08-00739png.png)
 

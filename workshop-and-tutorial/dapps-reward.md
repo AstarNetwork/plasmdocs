@@ -1,16 +1,16 @@
-# dApp Reward 🍦
+# dApps Reward 🍦
 
 ## Preparation
 
-Like in the previous tutorial, deploy a smart contract. In the sidebar press dAppStaking; it should show like the following. 
+Like in the previous tutorial, deploy a smart contract. In the sidebar press dAppstaking; it should show like the following. 
 
 {% page-ref page="operator-trading.md" %}
 
-![Dapps Staking Board](../.gitbook/assets/screen-shot-2020-06-11-at-16.26.00.png)
+![dApps Staking Board](../.gitbook/assets/screen-shot-2020-06-11-at-16.26.00.png)
 
-## The concept of dApp Rewards
+## The concept of dApps Rewards
 
-dApp Rewards Work Flow:
+dApps Rewards Work Flow:
 
 1. Select a smart contract to stake \(nominate\)   
 2. The nominator and operator will receive a reward proportional to the amount that has been staked.
@@ -21,7 +21,7 @@ Try it out:
 
 ### ① Nominate a Smart Contract:
 
-Click **dAppStaking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
+Click **dAppstaking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
 
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.29.20.png)
@@ -54,7 +54,7 @@ Press Nominate -&gt; Sign and Submit to issue a transaction. After a few moments
 Now we have finished nominating a Smart Contract!
 
 
-### ② Let’s **receive some Dapps Rewards**!
+### ② Let’s **receive some dApps Rewards**!
 
 If you nominate a smart contract on the era \(E\), you can receive rewards after the next era \(E + 1\) is finished \(The term of an era is one day and the term of a session is ten minutes at Dusty\). Actually, we need to wait until the era \(E + 2\), but we can fast-forward the era by using ForceNewEra on your local node. First, go to the sidebar and choose Extrinsics. Then with your root user \(Alice in this case\) to issue the following transaction two times. Sudo\(forceNewEra\(\)\).
 

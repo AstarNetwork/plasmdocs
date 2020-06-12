@@ -9,8 +9,8 @@ To follow this demo on the testnet, you will need some tokens. To obtain some, p
 {% endhint %}
 
 ```text
-$ docker pull staketechnologies/plasm-node:dapps-reward
-$ docker run -p 9944:9944 staketechnologies/plasm-node:dapps-reward --dev --ws-external
+$ docker pull staketechnologies/plasm-node:dApps-reward
+$ docker run -p 9944:9944 staketechnologies/plasm-node:dApps-reward --dev --ws-external
 ```
 
 After that, go to [https://local.plasmnet.io/](https://local.plasmnet.io). It connects to your local node.
@@ -79,7 +79,7 @@ In Plasm, you can’t just use the Contract by uploading it. It will only functi
 
 ![Input Parameters and click deploy](../.gitbook/assets/screen-shot-2020-06-11-at-16.10.34.png)
 
-During this step, people who have uploaded a smart contract in a different Substrate-based blockchain might have noticed something different in the contract deploy portal. That is the Parameters input box, highlighted in red in the above picture. In Plasm, you can set a special parameter for every contract. This is important for the aforementioned special feature for Plasm; the dAppRewards. But this is beyond the scope of today’s article so let’s just provide the value Yes to canBeNominated parameter and upload it. Who knows, something good might happen😉. After we finish deploying the Contract, we can see the deployed contract and the operator like the following image. The first operator is the account that deployed the Contract \(the screenshot is from a local node hence why the operator is named Alice\).
+During this step, people who have uploaded a smart contract in a different Substrate-based blockchain might have noticed something different in the contract deploy portal. That is the Parameters input box, highlighted in red in the above picture. In Plasm, you can set a special parameter for every contract. This is important for the aforementioned special feature for Plasm; the dAppsRewards. But this is beyond the scope of today’s article so let’s just provide the value Yes to canBeNominated parameter and upload it. Who knows, something good might happen😉. After we finish deploying the Contract, we can see the deployed contract and the operator like the following image. The first operator is the account that deployed the Contract \(the screenshot is from a local node hence why the operator is named Alice\).
 
 ![Deployed contract \(SAMPLE.WASM\) and its operator \(ALICE\)](../.gitbook/assets/screen-shot-2020-06-11-at-16.14.43.png)
 
@@ -107,7 +107,7 @@ This concludes the demo for creating a Smart Contract and transferring ownership
 * How Plasm has a concept of ownerships in Smart Contracts
 * Transfer the ownership of the Contract according to the Operator
 
-You have explored the concept of contract ownership and the transfer of ownership, but why is it important and why should anyone care about it? The answer is simple; the ownership of the Smart Contract determines who receives the profit from the dApp Rewards. The next question would be “so how does this dApp Rewards work?” That will be discussed in the next article by going through some demos. 
+You have explored the concept of contract ownership and the transfer of ownership, but why is it important and why should anyone care about it? The answer is simple; the ownership of the Smart Contract determines who receives the profit from the dApps Rewards. The next question would be “so how does this dApps Rewards work?” That will be discussed in the next article by going through some demos. 
 
 Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 
