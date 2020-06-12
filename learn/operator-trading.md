@@ -1,6 +1,6 @@
 # Operator Trading 🎯
 
-Operator Trading is a mechanism to buy and sell Plasma application the operators. Since the right is tradable, this is similar to M&A. With the above Dapps Rewards mechanism, Operators can always benefit. If you can manage the Operator better, it is a good idea to give the Operator to another party. Of course, Operators are not always bought and sold. Operators will give their rights to opponents who give a value that seems reasonable to the value given to them. Those who have been granted the rights of the operators can receive the reward as operators. There is no need to actually switch operations at this time. However, the side that sold the Operator has already lost the incentive to operate the operator in good faith, and the owner of the new Operator to be transferred will inevitably operate the Operator. Through this mechanism, we assume that the new off-chain market will be created.
+Operator Trading is a mechanism to buy and sell Plasma applications. This is similar to M&A. With the dApp Rewards mechanism, operators have the potential to benefit greatly. A developer may want to assign an opertor for chain maintenance and administration or other various use cases. Operators will give their rights to opponents who give a value that seems reasonable to the value given to them. Those who have been granted the rights of the operators can receive the buyout.  This mechanism assumes that new off-chain markets will be created.
 
 {% page-ref page="../workshop-and-tutorial/operator-trading.md" %}
 
