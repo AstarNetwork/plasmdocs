@@ -2,11 +2,11 @@
 
 ## Preparation
 
-Like in the previous tutorial, deploy a smart contract. In the sidebar press dApps staking; it should show like the following. 
+Like in the previous tutorial, deploy a smart contract. In the sidebar press dAppsStaking; it should show like the following. 
 
 {% page-ref page="operator-trading.md" %}
 
-![dApps Staking Board](../.gitbook/assets/screen-shot-2020-06-11-at-16.26.00.png)
+![dAppsStaking Board](../.gitbook/assets/screen-shot-2020-06-11-at-16.26.00.png)
 
 ## The concept of dApps Rewards
 
@@ -21,7 +21,7 @@ Try it out:
 
 ### ① Nominate a Smart Contract:
 
-Click **dApps staking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
+Click **dAppsStaking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
 
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.29.20.png)
