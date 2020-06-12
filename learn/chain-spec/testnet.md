@@ -137,4 +137,3 @@ List of enabled runtime modules.
 * Operator - smart contract operators
 * SessionManager - PoA validator management
 
-

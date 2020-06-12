@@ -2,7 +2,7 @@
 
 ## How to Participate in the Lockdrop
 
-First, make sure that you have a Web3 wallet browser extension \(i.e. MetaMask\) installed to your browser. Without this, we cannot communicate with the contract through normal means. Next go to [https://lockdrop.plasmnet.io/](https://lockdrop.plasmnet.io) to start the application. The actual demo below is done via a local chain on a local server, but the one from the above URL will give you a working version with the contract deployed to the Ropsten testnet. 
+First, make sure that you have a Web3 wallet browser extension \(i.e. MetaMask\) installed to your browser. Without this, we cannot communicate with the contract through normal means. Next go to [https://lockdrop.plasmnet.io/](https://lockdrop.plasmnet.io) to start the application. The actual demo below is done via a local chain on a local server, but the one from the above URL will give you a working version with the contract deployed to the Ropsten testnet.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-190014png.png)
 
@@ -49,7 +49,7 @@ Now we can start locking, and as you can see our introducer is properly displaye
 Private key manipulation utility is supplied in Plasm repository and could be installed with the following command.
 
 ```text
-cargo install --force --git https://github.com/staketechnologies/Plasm --tag v0.7.1 subkey 
+cargo install --force --git https://github.com/staketechnologies/Plasm --tag v0.7.1 subkey
 ```
 
 Once you have finished installing the subkey utility, try using it. You will mainly be interested in the transfer command, which has the following options.
@@ -109,7 +109,7 @@ Now we just copy the hex string to the extrinsic field and push the **Submit RPC
 
 ## Conclusion
 
-This tutorial explores how the lockdrop for Plasm Network works and how to use the lockdrop application.  You should be able to participate in the lockdrop, and get your hands on some fresh PLMs!
+This tutorial explores how the lockdrop for Plasm Network works and how to use the lockdrop application. You should be able to participate in the lockdrop, and get your hands on some fresh PLMs!
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

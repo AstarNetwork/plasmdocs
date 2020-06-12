@@ -2,7 +2,7 @@
 
 [Mainnet Geniesis Chain Spec](https://github.com/staketechnologies/Plasm/blob/v1.0.0/bin/node/cli/res/plasm.json).‌
 
-### System <a id="system"></a>
+## System <a id="system"></a>
 
 | Key | Value | Types | Remarkds | Refs |
 | :--- | :--- | :--- | :--- | :--- |
@@ -11,7 +11,7 @@
 
 ‌
 
-### Balances <a id="balances"></a>
+## Balances <a id="balances"></a>
 
 | Key | Value | Type | Remarks | Ref |
 | :--- | :--- | :--- | :--- | :--- |
@@ -19,7 +19,7 @@
 
 ‌
 
-### Indices <a id="indices"></a>
+## Indices <a id="indices"></a>
 
 | Key | Value | Type | Remarks | Ref |
 | :--- | :--- | :--- | :--- | :--- |
@@ -27,7 +27,7 @@
 
 ‌
 
-### Plasm rewards <a id="plasm-rewards"></a>
+## Plasm rewards <a id="plasm-rewards"></a>
 
 | Key | Value | Type | Remarks | Ref |
 | :--- | :--- | :--- | :--- | :--- |
@@ -35,7 +35,7 @@
 
 ‌
 
-### Session <a id="session"></a>
+## Session <a id="session"></a>
 
 | Key | Value | Type | Remarks | Ref |
 | :--- | :--- | :--- | :--- | :--- |
@@ -43,7 +43,7 @@
 
 ‌
 
-### Babe <a id="babe"></a>
+## Babe <a id="babe"></a>
 
 | Key | Value | Type | Remarks | Ref |
 | :--- | :--- | :--- | :--- | :--- |
@@ -53,7 +53,7 @@
 
 This is automatically inserted by `on_genesis_session`\| \|‌
 
-### Grandpa <a id="grandpa"></a>
+## Grandpa <a id="grandpa"></a>
 
 | Key | Value | Type | Remarks | Ref |
 | :--- | :--- | :--- | :--- | :--- |
@@ -63,7 +63,7 @@ This is automatically inserted by `on_genesis_session`\| \|‌
 
 This is automatically inserted by `on_genesis_session`\| \|‌
 
-### Contracts <a id="contracts"></a>
+## Contracts <a id="contracts"></a>
 
 | Key | Value | Type | Remarks | Ref |
 | :--- | :--- | :--- | :--- | :--- |
@@ -77,7 +77,7 @@ This is automatically inserted by `on_genesis_session`\| \|‌
 
 ‌
 
-### Sudo <a id="sudo"></a>
+## Sudo <a id="sudo"></a>
 
 | Key | Value | Type | Remarks | Ref |
 | :--- | :--- | :--- | :--- | :--- |

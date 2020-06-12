@@ -27,13 +27,13 @@ The assumption is that the Ethereum token holder's opportunity cost is proportio
 
 ## Multi-Lockdrop
 
-Multi-Lockdrop is a the lockdrop mechanism iterated multiple times. [Plasm Network](https://www.plasmnet.io/).  [Plasm Network](https://www.plasmnet.io/)'s total token supply will not be set at genesis. Tokens will be issued every 3rd lockdrop, and additional tokens will be minted utilizing the "Staking" function, discussed later.
+Multi-Lockdrop is a the lockdrop mechanism iterated multiple times. [Plasm Network](https://www.plasmnet.io/). [Plasm Network](https://www.plasmnet.io/)'s total token supply will not be set at genesis. Tokens will be issued every 3rd lockdrop, and additional tokens will be minted utilizing the "Staking" function, discussed later.
 
 {% page-ref page="dapps-reward.md" %}
 
-Multiple lockdrop iterations have two advantages: 
+Multiple lockdrop iterations have two advantages:
 
-It prevents uneven token distribution and discourages 'whales' if initial offering purchases are low. Rolling back the blockchain to fix this ruins the integrity of the network. In a blockchain must establish a rule before the launch, thoughtfully. We solve this with a variable token supply algorithm at genesis. 
+It prevents uneven token distribution and discourages 'whales' if initial offering purchases are low. Rolling back the blockchain to fix this ruins the integrity of the network. In a blockchain must establish a rule before the launch, thoughtfully. We solve this with a variable token supply algorithm at genesis.
 
 Second, it allows for code results to be observed so that the team can ensure that the [Plasm Network](https://www.plasmnet.io/) can scale and be decentralized. The security and integrity of a blockchain relies on the distribution of nodes and token holders. It is not desirable to hold the security after the official launch at Stake. Repeating the lockdrop three times allows us to understand the distribution of tokens among the holders, also reducing maintenance costs for fixing issues and further risks that follow. This aligns with our goal of making [Plasm Network](https://www.plasmnet.io/) a complete public blockchain.
 
@@ -69,7 +69,7 @@ The IssueRatio will be defined as follows:
 
 $$IssueRatio = Locked_{token} \times DollarRate_{token}\times LockBonus_{days} (token \in \{ETH,BTC,DOT\})$$
 
-The number of tokens to be awarded to the lockdrop participant is determined by the calculated IssueRatio. 
+The number of tokens to be awarded to the lockdrop participant is determined by the calculated IssueRatio.
 
 * $$n$$ is the number of Lockdrop participant.
 * $$IssueRatio_i$$ is $$IssueRatio$$ for user $$i$$.

@@ -20,5 +20,3 @@ Proof of Authority is a consensus-building algorithm that operates only with a v
 
 The block reward is distributed to the validator who created the block and respective Nominator. A reward is also paid to the [Plasm Network](https://www.plasmnet.io/) contributors.
 
-
-

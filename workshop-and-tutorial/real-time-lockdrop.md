@@ -2,7 +2,7 @@
 
 **Declaimer**: This is an experimental module. Some features don't work or work with issues. Please report problems [on GitHub](https://github.com/staketechnologies/Plasm/issues/new/choose) if they arise.
 
-### Quick Install
+## Quick Install
 
 1. Install dependencies according to [README](https://github.com/staketechnologies/Plasm/tree/plasm-real-time-lockdrop#building-from-source).
 2. Fetch the custom lockdrop branch of plasm-node.
@@ -17,7 +17,7 @@ git clone https://github.com/staketechnologies/Plasm -b plasm-real-time-lockdrop
 cargo build --release
 ```
 
-### Preparing for tests
+## Preparing for tests
 
 1. Launch your node in your development environment:
 
@@ -66,17 +66,17 @@ cargo build --release
 }
 ```
 
-### Price Oracle
+## Price Oracle
 
 After the launch, your authority node starts to fetch and send the current USD price of BTC and ETH into your chain. By opening [explorer](https://apps.plasmnet.io/#/explorer), you can see the dollar rate extrinsics in each imported module. This dollar rate is used in Lockdrop Substrate Pallet for checking the price during the Lockdrop periods.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%283%29.png)
 
-### Lockdrop Request
+## Lockdrop Request
 
-Plasm  Network team has deployed the Lockdrop smart contract on Ethereum Ropsten network just for testing purpose. You can check it here:
+Plasm Network team has deployed the Lockdrop smart contract on Ethereum Ropsten network just for testing purpose. You can check it here:
 
-{% embed url="https://ropsten.etherscan.io/address/0xeed84a89675342fb04fafe06f7bb176fe35cb168" %}
+{% embed url="https://ropsten.etherscan.io/address/0xeed84a89675342fb04fafe06f7bb176fe35cb168" caption="" %}
 
 Let's send a transaction to the lockdrop smart contract using Etherscan and Metamask!
 
@@ -101,5 +101,5 @@ And here is the results available on chain:
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-174413png.png)
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

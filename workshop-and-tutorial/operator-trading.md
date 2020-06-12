@@ -5,7 +5,7 @@
 To follow this demo on the testnet, you will need some tokens. To obtain some, please join our [Discord server](https://discord.gg/wUcQt3R) and go to **\#faucet**. If you just want to try it without any tokens, you can use the Local Developer Node as well.
 
 {% hint style="info" %}
- The Local Node can be easily set up by using the docker image for the Plasm node, which can be done with the following commands.
+The Local Node can be easily set up by using the docker image for the Plasm node, which can be done with the following commands.
 {% endhint %}
 
 ```text
@@ -37,7 +37,7 @@ When you click the **Upload WASM** button from the page, the following modal wil
 
 ![Upload WASM \(Modal Window\)](../.gitbook/assets/screen-shot-2020-06-11-at-15.45.42.png)
 
-This is where we provide the WASM file and the ABI JSON that was compiled from ink! Contract. You can always create your own, but I’ve prepared a sample Smart Contract using ink-playground. 
+This is where we provide the WASM file and the ABI JSON that was compiled from ink! Contract. You can always create your own, but I’ve prepared a sample Smart Contract using ink-playground.
 
 ## **Download the sample contract**
 
@@ -107,7 +107,7 @@ This concludes the demo for creating a Smart Contract and transferring ownership
 * How Plasm has a concept of ownerships in Smart Contracts
 * Transfer the ownership of the Contract according to the Operator
 
-You have explored the concept of contract ownership and the transfer of ownership, but why is it important and why should anyone care about it? The answer is simple; the ownership of the Smart Contract determines who receives the profit from the dApps Rewards. The next question would be “so how does this dApps Rewards work?” That will be discussed in the next article by going through some demos. 
+You have explored the concept of contract ownership and the transfer of ownership, but why is it important and why should anyone care about it? The answer is simple; the ownership of the Smart Contract determines who receives the profit from the dApps Rewards. The next question would be “so how does this dApps Rewards work?” That will be discussed in the next article by going through some demos.
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

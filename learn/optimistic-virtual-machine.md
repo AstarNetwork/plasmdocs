@@ -6,13 +6,13 @@ description: Plasma and beyond.
 
 ### What is Optimistic Virtual Machine?
 
-The OVM \(Optimistic Virtual Machine\)  is a virtual machine designed to support all layer 2 protocols. It is a possible unification of all layer 2 protocols meaning: **Plasm Network will not only be for Plasma applications but also for Lightning Network applications or any other layer 2 protocols.**
+The OVM \(Optimistic Virtual Machine\) is a virtual machine designed to support all layer 2 protocols. It is a possible unification of all layer 2 protocols meaning: **Plasm Network will not only be for Plasma applications but also for Lightning Network applications or any other layer 2 protocols.**
 
 Plasm Network will houses all layer 2 scaling solutions. Users can choose which solution to use and make their use case possible with minimum overhead.
 
 ### Learn More
 
-The OVM is a powerful concept in layer 2 applications. We can express complex dispute logics by a simple OVM language and that language contains [Optimistic Game Semantics](https://plasma.group/optimistic-game-semantics.pdf) \(OGS\). 
+The OVM is a powerful concept in layer 2 applications. We can express complex dispute logics by a simple OVM language and that language contains [Optimistic Game Semantics](https://plasma.group/optimistic-game-semantics.pdf) \(OGS\).
 
 For example, we can express Plasma checkpoint and exit claims with 2 simple definitions \(we call these "property"\) by OGS. Plasm Network separates the OVM from the smart contract and prepares it as a module so that OVM can be used more simply and conveniently.
 
@@ -22,9 +22,9 @@ The OVM and its surrounding architecture are as shown in the figure below.
 
 ![ovmodule](https://user-images.githubusercontent.com/6259384/75546609-404d5880-5a6c-11ea-84d0-f063e0bc252c.png)
 
-Plasma applications \(Plapps\) can be created and run properly through the dedicated client application L1 adapter. Plapps are composed of OVM, Plasma, and contract modules in the Plasm Network. 
+Plasma applications \(Plapps\) can be created and run properly through the dedicated client application L1 adapter. Plapps are composed of OVM, Plasma, and contract modules in the Plasm Network.
 
-In case of Ethereum Plasma applications, everything provided in these modules was managed by smart contracts. This makes it difficult to predict the gas cost when running a plasma application containing complicated logic. Also, building applications that combines multiple contracts can be confusing for developers. 
+In case of Ethereum Plasma applications, everything provided in these modules was managed by smart contracts. This makes it difficult to predict the gas cost when running a plasma application containing complicated logic. Also, building applications that combines multiple contracts can be confusing for developers.
 
 For this reason, Plasma Network has considered a superficially concise and easy-to-understand configuration by separating the roles into three modules. The OVM Module implements a function called Universal Adjudication to initiate a dispute if the user finds a mistake in the information on layer 1. The Plasma Module supports a common implementation of some of the essential smart contracts. Only the implementations that require different logic are managed by the Contracts Module.
 
@@ -46,7 +46,7 @@ wPLM contract is a wrapped contract of PLM token. This is an ERC20 token issued 
 
 ### Payout Contract <a id="payout-contract"></a>
 
-Payout Contract is a contract that handles  returning tokens from layer 2 to layer 1. Layer 2 application developers must include this contract for users to be able to withdraw from layer 1.  **Ownership payout contract** is the default payout contract.
+Payout Contract is a contract that handles returning tokens from layer 2 to layer 1. Layer 2 application developers must include this contract for users to be able to withdraw from layer 1. **Ownership payout contract** is the default payout contract.
 
 Payout contract must be able to call the `finalizeExit` method.
 
@@ -358,5 +358,5 @@ fn is_valid_challenge(predicate_address: T::AccountId, inputs: Vec<u8>, challeng
 fn decide(predicate_addres: T::AccountId, inputs: Vec<u8>, witness: Vec<u8>);
 ```
 
-Questions? find answers here => [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Questions? find answers here =&gt; [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

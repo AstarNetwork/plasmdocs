@@ -1,4 +1,4 @@
-# dApps Rewards 🍭
+# dApps Reward 🍭
 
 dApps Rewards is a reward mechanism for developers or administrators of smart contracts. 50% of Plasm Network's staking reward goes to application developers who have enhanced the value of the Plasm Network. Plasm allows the assignment of a smart contract administrator, called an "operator." "Operators" can be "Nominated" by other dApps "Nominators." As shown below, the operator of the smart contract receiving many nominations can receives newly minted PLM token from the chain.
 
@@ -27,5 +27,4 @@ Also, the operator can get a reward proportional to the ratio of the stake of th
 {% hint style="info" %}
 **The operators and nominators have to wait to receive rewards.**
 {% endhint %}
-
 

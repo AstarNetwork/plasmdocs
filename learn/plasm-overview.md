@@ -1,6 +1,6 @@
 # Plasma Overview 🔮
 
-Plasma is a blockchain scaling solution invented by Joseph Poon and Vitalik Buterin. 
+Plasma is a blockchain scaling solution invented by Joseph Poon and Vitalik Buterin.
 
 [White paper](https://plasma.io/plasma.pdf)
 
@@ -16,7 +16,7 @@ Plasma is a popular blockchain scaling solution. ​​Plasma manages and proces
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-183650png.png)
 
-Plasm Network supports "Plasma" which is based on Plasma-Cash. It has one NFT state, not a transaction, at the leaves of the Merkle tree. Rules for performing state transition can be defined by Optimistic Virtual Machine \(OVM\) are described later. 
+Plasm Network supports "Plasma" which is based on Plasma-Cash. It has one NFT state, not a transaction, at the leaves of the Merkle tree. Rules for performing state transition can be defined by Optimistic Virtual Machine \(OVM\) are described later.
 
 {% page-ref page="optimistic-virtual-machine.md" %}
 

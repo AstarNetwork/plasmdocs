@@ -1,6 +1,6 @@
 # Plasm Mainnet 🆙
 
-This page describes the specs of Plasm mainnet in detail. The behavior of Plasm mainnet changes as the network grows. 
+This page describes the specs of Plasm mainnet in detail. The behavior of Plasm mainnet changes as the network grows.
 
 Note that the past status is also listed here. Each detailed spec is annotated at the beginning of the page, whether it is "Latest" or "Deprecated".
 
@@ -35,12 +35,12 @@ Note that the past status is also listed here. Each detailed spec is annotated a
 
 ### 2020 Q2
 
-* [dAppsStaking](../PlasmNetwork/dAppsRewards.md) module will be available
+* [dAppsStaking](https://github.com/staketechnologies/plasmdocs/tree/6321fe1f19becdbf1e329e0732b98b5d41274bc9/PlasmNetwork/dAppsRewards.md) module will be available
 
 ### 2020 Q3
 
-* [Ovm + Plasma](../TechnicalChapter/OVM.md) module will be available
-* [Real time Lockdrop](../PlasmNetwork/RealtimeLockdrop.md) module will be available
+* [Ovm + Plasma](https://github.com/staketechnologies/plasmdocs/tree/6321fe1f19becdbf1e329e0732b98b5d41274bc9/TechnicalChapter/OVM.md) module will be available
+* [Real time Lockdrop](https://github.com/staketechnologies/plasmdocs/tree/6321fe1f19becdbf1e329e0732b98b5d41274bc9/PlasmNetwork/RealtimeLockdrop.md) module will be available
 
 ### 2020 Q4
 

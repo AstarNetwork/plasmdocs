@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Like in the previous tutorial, deploy a smart contract. In the sidebar press dAppsStaking; it should show like the following. 
+Like in the previous tutorial, deploy a smart contract. In the sidebar press dAppsStaking; it should show like the following.
 
 {% page-ref page="operator-trading.md" %}
 
@@ -22,7 +22,6 @@ Try it out:
 ### ① Nominate a Smart Contract:
 
 Click **dAppsStaking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
-
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.29.20.png)
 
@@ -53,14 +52,22 @@ Press Nominate -&gt; Sign and Submit to issue a transaction. After a few moments
 
 Now we have finished nominating a Smart Contract!
 
-
 ### ② Let’s **receive some dApps Rewards**!
 
-If you nominate a smart contract on the era \(E\), you can receive rewards after the next era \(E + 1\) is finished \(The term of an era is one day and the term of a session is ten minutes at Dusty\). Actually, we need to wait until the era \(E + 2\), but we can fast-forward the era by using ForceNewEra on your local node. First, go to the sidebar and choose Extrinsics. Then with your root user \(Alice in this case\) to issue the following transaction two times. Sudo\(forceNewEra\(\)\).
+If you nominate a smart contract in the era \(E\), you can receive rewards after the next era \(E + 1\) is finished.
+
+In case of Dusty
+
+* Era = 1 day
+* Session = 10 minutes
+
+Actually, we need to wait until the era \(E + 2\), but we can fast-forward the era by using ForceNewEra on your local node. 
+
+First, go to the sidebar and choose Extrinsics. Then with your root user \(Alice in this case\) to issue the following transaction two times. Sudo\(forceNewEra\(\)\).
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-21.23.53.png)
 
-Now, you can claim rewards with "Claim for Nominator" tab and "Claim for Operator" tab. Click "Claim for Nominator" tab on Staking page and click "Claim" button. Then, you can see the following modal. 
+Now, you can claim rewards with "Claim for Nominator" tab and "Claim for Operator" tab. Click "Claim for Nominator" tab on Staking page and click "Claim" button. Then, you can see the following modal.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-23.07.30.png)
 
@@ -76,5 +83,5 @@ To claim rewards for nominators, select nominator address and latest era, and pu
 
 New functionality of Plasm has been introduced through this and the previous article. As the Plasm Network is improved upon you will find updates to the documentation as well.
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 
