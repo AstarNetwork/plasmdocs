@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Like in the previous tutorial, deploy a smart contract. In the sidebar press dAppstaking; it should show like the following. 
+Like in the previous tutorial, deploy a smart contract. In the sidebar press dApps staking; it should show like the following. 
 
 {% page-ref page="operator-trading.md" %}
 
@@ -21,7 +21,7 @@ Try it out:
 
 ### ① Nominate a Smart Contract:
 
-Click **dAppstaking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
+Click **dApps staking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
 
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.29.20.png)

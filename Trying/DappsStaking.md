@@ -1,7 +1,7 @@
 [日本版はこちら](https://medium.com/stake-technologies/%E9%81%8A%E3%81%BC%E3%81%86-plasm-testnet-v3-%E2%91%A1-dApps-rewards-a58419e4ff97)
 
 # Preparation
-Just like what we did in our [previous trying](./OperatorTrading.html), we need to deploy a Contract. After that, when you go to your sidebar and press dAppstaking, it should show like the following. Once you’re here, our preparation is over!
+Just like what we did in our [previous trying](./OperatorTrading.html), we need to deploy a Contract. After that, when you go to your sidebar and press dApps staking, it should show like the following. Once you’re here, our preparation is over!
 
 ![DppsStaking board](https://user-images.githubusercontent.com/6259384/77172548-775dd980-6b01-11ea-9c32-c360a6f09759.png)
 
@@ -15,7 +15,7 @@ The overall logistics of how the dApps Rewards works is like the following.
 Let’s try this ourselves!
 
 ## ① Let’s Nominate a Smart Contract!
-Click dAppstaking -> Account actions. If you have not previously staked anything, your screen should look something like the following. From here press + New stake button in the top right corner.
+Click dApps staking -> Account actions. If you have not previously staked anything, your screen should look something like the following. From here press + New stake button in the top right corner.
 
 
 ![rightcorner](https://user-images.githubusercontent.com/6259384/77172540-762cac80-6b01-11ea-9215-053c0584f327.png)
@@ -63,7 +63,7 @@ Issuing this transaction allows us to only once skip to the next Era. To check i
 
 ![we can see that the Era has changed](https://user-images.githubusercontent.com/6259384/77172529-72992580-6b01-11ea-88ef-cb9588cdf829.png)
 
-After a few minutes the Era will change, so let’s go to dAppstaking -> Staking overview to check if our staking status has been enabled for SAMPLE.WASM. As we can see from the following image, it is indeed enabled.
+After a few minutes the Era will change, so let’s go to dApps staking -> Staking overview to check if our staking status has been enabled for SAMPLE.WASM. As we can see from the following image, it is indeed enabled.
 
 ![Staking overview](https://user-images.githubusercontent.com/6259384/77172527-72008f00-6b01-11ea-9898-a07f8b1f2929.png)
 
