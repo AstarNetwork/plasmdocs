@@ -1,6 +1,5 @@
 ---
-description: >-
-Links to Plasm Network community channels. Check back for updates as the Plasm Network community is continually growing.
+description:  Plasm Network community channels
 ---
 
 # Community 🎨

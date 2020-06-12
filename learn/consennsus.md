@@ -1,24 +1,24 @@
 # Consensus 🎬
 
-The [Plasm Network](https://www.plasmnet.io/) changes consensus algorithms and reward designs step by step to maintain security. Specifically, it initially takes the form of a Proof of Authority that is run solely by Validators selected by the community. 
+To increase security, the [Plasm Network](https://www.plasmnet.io/) will have consensus and reward algorithm upgrades over time. Plasm will start using a Proof of Authority model run by community selected validators.
 
-Next, we will change to rewards centered on [collator](https://wiki.polkadot.network/docs/en/maintain-collator) to participate as [Parachain](https://wiki.polkadot.network/docs/en/learn-parachains). Eventually, we will move to NPoS, which is also used by Polkadot's Relaychain. Please refer to the PLM Token Ecosystem chapter for details on how to distribute rewards.
+The next upgrade will change reward and consensus to [collator](https://wiki.polkadot.network/docs/en/maintain-collator) which is a [Parachain](https://wiki.polkadot.network/docs/en/learn-parachains) requirement. Ultimately Plasm will move to NPoS which is used by Polkadot's Relaychain. More details about reward distribution can be found in the PLM Token Ecosystem chapter.
 
 {% page-ref page="token-economy.md" %}
 
 ## Proof of Authority
 
-Proof of Authority is a consensus-building algorithm that operates only with a validator selected by the community. Public blockchains can be vulnerable when few are launching reliable validators. For this reason, PoA will be operated until a sufficient distribution of token holders and the existence of potential validators can be confirmed. The validator at this time will be paid according to the specified parameters as in the case of PoS.
+Proof of Authority is a consensus-building algorithm that operates only with a validator selected by the community. Public blockchains can be vulnerable when there are a low amount of reliable validators. For this reason, PoA will operate until sufficient token distribution and potential validators can be confirmed. The validator reward structure will follow PoS convention.
 
 ## Nominated Proof of Staking
 
-[Plasm Network](https://www.plasmnet.io/) uses NPoS which is used on the Polkadot relay chain. This consensus algorithm consists of 3 steps.
+[Plasm Network](https://www.plasmnet.io/) uses NPoS a Polkadot relay chain feature. This consensus algorithm consists of 3 steps:
 
 1. A Nominator selects a validator [NPoS](https://research.web3.foundation/en/latest/polkadot/NPoS/)
-2. A validator verifies transactions and make a new block [BABE](https://research.web3.foundation/en/latest/polkadot/BABE/Babe/)
-3. Finalize the block that was delivered in the network [GRANDPA](https://research.web3.foundation/en/latest/polkadot/GRANDPA/)
+2. A validator verifies transactions and makes a new block [BABE](https://research.web3.foundation/en/latest/polkadot/BABE/Babe/)
+3. Validator finalizes the block that was delivered in the network [GRANDPA](https://research.web3.foundation/en/latest/polkadot/GRANDPA/)
 
-The block reward is distributed to the validator who created the block and his/her Nominator. In addition to that, the reward is also paid to the [Plasm Network](https://www.plasmnet.io/) contributors as follows.
+The block reward is distributed to the validator who created the block and respective Nominator. A reward is also paid to the [Plasm Network](https://www.plasmnet.io/) contributors.
 
 
 

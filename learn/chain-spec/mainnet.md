@@ -1,6 +1,6 @@
 # Mainnet
 
-This section describes Mainnet's genesis chain spec distributed [here](https://github.com/staketechnologies/Plasm/blob/v1.0.0/bin/node/cli/res/plasm.json).‌
+[Mainnet Geniesis Chain Spec](https://github.com/staketechnologies/Plasm/blob/v1.0.0/bin/node/cli/res/plasm.json).‌
 
 ### System <a id="system"></a>
 
