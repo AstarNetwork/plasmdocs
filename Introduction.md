@@ -22,11 +22,13 @@ Plasm Network é um projeto de código aberto. Existem muitas oportunidades para
 
 {% page-ref page="learn/the-problems-plasm-solves.md" %}
 
-## **Deseja construir na Plasm Network? Por favor, visite👇** 
+## **Deseja construir na Plasm Network? Por favor, visite👇**
 
 {% page-ref page="workshop-and-tutorial/smart-contract.md" %}
 
 ## Want to run a node? Please visit 👇
 
 {% page-ref page="workshop-and-tutorial/untitled.md" %}
+
+
 
