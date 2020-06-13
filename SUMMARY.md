@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome 💁](Introduction.md)
+* [Bem-Vindo 💁](Introduction.md)
 * [Introduction 🐾](introduction-1.md)
 
 ## Ecosystem
