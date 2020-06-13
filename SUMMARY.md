@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Bem-Vindo 💁](Introduction.md)
-* [Introduction 🐾](introduction-1.md)
+* [Introdução 🐾](introduction-1.md)
 
 ## Ecosystem
 
