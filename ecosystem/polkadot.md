@@ -2,31 +2,34 @@
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-221155png.png)
 
-[Polkadot](https://polkadot.network/) is an open-source project led by the [Web3 Foundation](https://web3.foundation/). It is a sharded protocol that connects different blockchain networks.
+O [Polkadot](https://polkadot.network/) é um protocolo fragmentado que permite que as redes blockchain operem juntas de maneira integrada. É um projeto de código aberto liderado pela [Web3 Foundation](https://web3.foundation/).
 
 ### Polkadot Basics
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-230056png.png)
 
-Polkadot consists of two parts: Relaychain and Parachain.
+O Polkadot consiste principalmente em duas partes: Relaychain e Prachain.
 
-* **Relaychain:** This is the core of Polkadot which is responsible for network security, consensus, and cross-chain interoperability.
-* **Parachain:** These are sovereign blockchains with custom tokens and optimized functionality for specific use cases. Parachain connection to Relaychain is priced on a pay-as-you-go basis or a continuous connectivity lease.
+ **Relaychain:** O coração de Polkadot, responsável pela segurança, consenso e interoperabilidade da cadeia cruzada da rede.
 
-\*\*\*\*[**Plasm Network**](https://www.plasmnet.io/) \*\*Plasm is built on Parity Substrate making it one of the first SCALABLE smart contract Polkadot Parachains.
+ **Parachain:** Blockchains soberanas que podem ter seus próprios tokens e otimizar sua funcionalidade para casos de uso específicos. Para conectar-se à Relay Chain, os parachains podem pagar conforme o necessário ou alugar um slot para conectividade contínua.  
+
+
+A Plasm Network pretende ser o primeiro contrato inteligente escalável da Polkadot Parachain. \(A Plasm Network pode ser um Parachain, pois é construído no Parity Substrate\)
 
 {% page-ref page="substrate.md" %}
 
-Parachain and Relaychain in Polkadot makes the following things possible:
+Por meio dessa arquitetura, o Polkadot possibilita o seguinte:  
 
-1. **Data and tokens can be transferred among parachains seamlessly.**
-2. **Parachains can import Relaychain security.**
 
-Learn more about Polkadot:
+1. **Ao conectar o Parachain ao Relaychain, os dados e token podem ser transferidos entre Parachains sem problemas.**
+2. **O Parachain pode importar a segurança do Relaychain.**
 
-* **Polkadot Lightpaper:** [https://polkadot.network/Polkadot-lightpaper.pdf](https://polkadot.network/Polkadot-lightpaper.pdf)
-* **Polkadot web page:** [https://polkadot.network/](https://polkadot.network/)
-* **Polkadot wiki:** [https://wiki.polkadot.network/](https://wiki.polkadot.network/)
+Se você está interessado no Polkadot, pode aprender mais nas seguintes páginas da web:
+
+* **Polkadot Lightpaper:** https://polkadot.network/Polkadot-lightpaper.pdf
+* **Site Polkadot:** https://polkadot.network/
+* **Wiki de Polkadot:** https://wiki.polkadot.network
 
 ## Plasm Network and Polkadot
 
