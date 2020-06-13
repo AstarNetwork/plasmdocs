@@ -11,7 +11,7 @@
 
 ## Learn
 
-* [The Problems Plasm Solves 🌾](learn/the-problems-plasm-solves.md)
+* [Os Problemas que o Plasm Resolve 🌾](learn/the-problems-plasm-solves.md)
 * [Layer2 and Plasma ⚡](learn/layer2-and-plasma.md)
 * [Plasma Overview 🔮](learn/plasm-overview.md)
 * [Optimistic Virtual Machine 🌔](learn/optimistic-virtual-machine.md)
