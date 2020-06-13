@@ -29,42 +29,48 @@ Se você está interessado no Polkadot, pode aprender mais nas seguintes página
 * **Site Polkadot:** https://polkadot.network/
 * **Wiki de Polkadot:** https://wiki.polkadot.network
 
-## Plasm Network and Polkadot
+## **Plasm Network e Polkadot**
 
-This section describes how the [Plasm Network ](https://www.plasmnet.io/) integrates to the Polkadot ecosystem. [Plasm Network](https://www.plasmnet.io/) aims to be the first scalable smart contract Polkadot Parachain.
+Nesta seção, descreveremos os papéis da Plasm Network no ecossistema Polkadot. A Plasm Network pretende ser o primeiro contrato inteligente escalável da Polkadot Parachain.
 
-### Smart Contract
+### **Contrato Inteligene**
 
-The [Polkadot](https://polkadot.network/) Relaychain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApps knowing that they can be scaled up with ease.
+O Polkadot Relaychain, por design, não suporta contratos inteligentes. Isso permite que a Plasm tenha a oportunidade de preencher essa lacuna. A escalabilidade é obviamente uma das demandas mais cruciais dos desenvolvedores do DApp. Idealmente, os desenvolvedores podem criar quaisquer aplicativos na Plasm Network sem precisar considerar sua escalabilidade.
 
-### Scalability
+### **Escalabilidade**
 
-[Plasm Network](https://www.plasmnet.io/) scalability relies on layer 2 solutions such as the Optimistic Virtual Machine.
+A Plasm Network é escalável, porque estamos implementando soluções de Layer2, especialmente a Máquina Virtual Otimista.  
+
 
 {% page-ref page="../learn/optimistic-virtual-machine.md" %}
 
-Scalability is the greatest challenge to all blockchains. To bring widespread adoption of blockchain technology, higher performance is necessary. Scalability is a critical issue that Plasm Network seeks to optimize.
+A escalabilidade é um dos problemas mais cruciais que o blockchain tem. Para tornar a blockchain uma infraestrutura social, ela precisa de alto desempenho de processamento. Resolver esse problema de escalabilidade no ecossistema blockchain é uma tarefa urgente para nós.
 
-Two Types Of Scalability
+Quando dizemos escalabilidade, existem 2 tipos:
 
-* **Layer 1 \(horizontal\) scalability:** Do more on the layer 1 blockchain. \(e.g. sharding and Segwit\)
-* **Layer 2 \(vertical\) scalability:** Do less on layer 1 and more on layer 2 or off-chain. \(e.g. Plasma and State Channel\)
+1. **Escalabilidade da Layer1 \(horizontal\):** o conceito de escalabilidade da Layer1 é fazer mais no blockchain da Layer1. \(por exemplo, sharding e Segwit\)
+2. **Escalabilidade da Layer2 \(vertical\):** o conceito de escalabilidade da Layer2 é fazer menos na Layer1 e fazer mais na Layer2 ou fora da cadeia \(por exemplo, canal de plasma e estado\).
 
-Polkadot uses sharding technology allowing greater scalability. [Plasm](https://www.plasmnet.io/) also incorporates layer 2 vertical capabilities.
+O Polkadot tem a escalabilidade layer1 porque é uma arquitetura de sharding. O Plasm também é escalável porque possui escalabilidade vertical na layer2.
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-234905png.png)
 
-Layer 1 and layer 2 offer different yet complementary solutions.
+Plasma, State Channel -&gt; Escalabilidade vertical, mais flexível e menos unidos.  
+Sharding -&gt; Escalabilidade horizontal, menos flexível. mais unidos.  
+  
+As soluções Layer1 e Layer2 são completamente diferentes e se complementam.  
+  
+Além disso, a escalabilidade não é o único benefício que podemos obter através das soluções da layer2. Também podemos obter os seguintes:
 
-Additional benefits of the Plasm Network architecture include:
+* **Primeira Finalidade**
+* **Desenvolvimento flexível de DApps**
+* **Custo de transação \(gás\) mais barato**
 
-* **First Finality**
-* **Flexible dApps development**
-* **Significantly lower transaction\(gas\) costs**
+Por meio de soluções inteligentes de contrato e de layer2, esperamos ver vários casos de uso na Plasm Network \(por exemplo: jogos, IoT, pagamento, DEX e Bridge\).  
 
-Smart contract capability combined with layer 2 architecture makes many interesting dApps possible on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\)
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-08-00739png.png)
 
-Questions? Reach out to the [Discord Tech Channel](https://discord.gg/Z3nC9U4) where team and community members can help you find answers.
+Alguma pergunta? Não hesite em perguntar-nos no [Discord Tech Channel.](https://discord.gg/Z3nC9U4)  
+
 
