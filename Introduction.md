@@ -1,29 +1,29 @@
 ---
-description: "Hi everyone! Thank you for checking Plasm Network documentation \U0001F609"
+Beschreibung: "Hallo zusammen! Danke, dass Sie sich die Dokumentation zum Plasm Network anschauen. \U0001F609"
 ---
 
-# Welcome 💁
+# Willkommen 💁
 
 ![](.gitbook/assets/sukurnshotto-2020-05-27-200702png.png)
 
-## Welcome to the Plasm Network documentation!
+## Willkommen bei der Plasm Network Dokumentation!!
 
-Plasm Network is a **scalable and interoperable infrastructure for Web3.0**. Since Plasm Network is built with [Parity’s Substrate framework](https://www.substrate.io/), it can be a future [Polkadot](https://polkadot.network/) **Parachain** that also acts as a scalable smart contract platform. The [Polkadot](https://polkadot.network/) Relaychain, by design, does not support smart contracts. This allows Plasm the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands DApp developers have. Ideally, the developers can build whatever applications on Plasm Network without having to consider its scalability.
+Plasm Network ist eine skalierbare und interoperable Infrastruktur für Web3.0. Da Plasm Network mit [Parity’s Substrate framework](https://www.substrate.io/) entwickelt wurde, kann es eine zukünftige [Polkadot](https://polkadot.network/) **Parachain** sein, die auch als skalierbare intelligente Vertragsplattform fungiert. Die [Polkadot](https://polkadot.network/) Relaychain unterstützt von vornherein keine intelligenten Verträge. Dies gibt Plasm die Möglichkeit, diese Lücke zu schließen. Skalierbarkeit ist offensichtlich eine der wichtigsten Anforderungen, die DApp-Entwickler haben. Im Idealfall können die Entwickler beliebige Anwendungen auf dem Plasm-Netzwerk aufbauen, ohne dessen Skalierbarkeit berücksichtigen zu müssen.
 
-The work of the community is maintained under a public domain license at  
+Die Arbeit der Community wird unter einer Public-Domain-Lizenz betrieben  
 [https://github.com/stakedtechnologies/Plasm](https://github.com/stakedtechnologies/Plasm)
 
-Plasm Network is an open source project. There are a lot of opportunities to get involved. 
+Plasm Network ist ein Open-Source-Projekt. Es gibt viele Möglichkeiten, sich zu beteiligen. 
 
-## Want to learn more? Please visit 👇
+## Möchten Sie mehr erfahren? Bitte besuchen Sie 👇
 
 {% page-ref page="learn/the-problems-plasm-solves.md" %}
 
-## Want to build on Plasm Network? Please visit 👇
+## Wollen Sie auf dem Plasm-Netzwerk entwickeln Bitte besuchen Sie 👇
 
 {% page-ref page="workshop-and-tutorial/smart-contract.md" %}
 
-## Want to run a node? Please visit 👇
+## Möchten Sie eine Node betreiben? Bitte besuchen Sie 👇
 
 {% page-ref page="workshop-and-tutorial/untitled.md" %}
 
