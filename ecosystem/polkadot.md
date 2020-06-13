@@ -12,15 +12,13 @@ O Polkadot consiste principalmente em duas partes: Relaychain e Prachain.
 
  **Relaychain:** O coração de Polkadot, responsável pela segurança, consenso e interoperabilidade da cadeia cruzada da rede.
 
- **Parachain:** Blockchains soberanas que podem ter seus próprios tokens e otimizar sua funcionalidade para casos de uso específicos. Para conectar-se à Relay Chain, os parachains podem pagar conforme o necessário ou alugar um slot para conectividade contínua.  
-
+ **Parachain:** Blockchains soberanas que podem ter seus próprios tokens e otimizar sua funcionalidade para casos de uso específicos. Para conectar-se à Relay Chain, os parachains podem pagar conforme o necessário ou alugar um slot para conectividade contínua.
 
 A Plasm Network pretende ser o primeiro contrato inteligente escalável da Polkadot Parachain. \(A Plasm Network pode ser um Parachain, pois é construído no Parity Substrate\)
 
 {% page-ref page="substrate.md" %}
 
-Por meio dessa arquitetura, o Polkadot possibilita o seguinte:  
-
+Por meio dessa arquitetura, o Polkadot possibilita o seguinte:
 
 1. **Ao conectar o Parachain ao Relaychain, os dados e token podem ser transferidos entre Parachains sem problemas.**
 2. **O Parachain pode importar a segurança do Relaychain.**
