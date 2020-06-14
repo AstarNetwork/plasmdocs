@@ -1,11 +1,11 @@
-# Operator Trading 💱
+# Negociação do operador 💱
 
-## Preparation
+## **Preparação**
 
-To follow this demo on the testnet, you will need some tokens. To obtain some, please join our [Discord server](https://discord.gg/wUcQt3R) and go to **\#faucet**. If you just want to try it without any tokens, you can use the Local Developer Node as well.
+Para acompanhar esta demonstração no testnet, você precisará de alguns tokens. Se você não possui um, junte-se ao nosso [servidor do Discord](https://discord.gg/wUcQt3R) e vá para **\#faucet** para obter alguns! Se você quiser apenas testá-lo sem tokens, também poderá usar o Nó Local do Desenvolvedor.
 
 {% hint style="info" %}
-The Local Node can be easily set up by using the docker image for the Plasm node, which can be done with the following commands.
+**O nó local pode ser facilmente configurado usando a imagem da janela de encaixe para o nó Plasm, o que pode ser feito a partir dos seguintes comandos.**
 {% endhint %}
 
 ```text
@@ -17,97 +17,101 @@ After that, go to [https://local.plasmnet.io/](https://local.plasmnet.io). It co
 
 ![Home](../.gitbook/assets/screen-shot-2020-06-11-at-15.24.26.png)
 
-For those who want to run the node using another method, please refer to our [Readme](https://github.com/staketechnologies/Plasm). For questions and comments, please join our [Discord](https://discord.gg/Auas9qj), we will be happy to be in touch with you!
+Para aqueles que desejam executar o nó em outro método, consulte nosso Leia-me. Para perguntas e comentários, junte-se ao nosso Discord, teremos o maior prazer em entrar em contato com você!
 
-## Let’s use the Operator Trading!!
+## **Vamos usar a negociação com operadores !!**
 
-To get started, please go to [https://local.plasmnet.io/](https://local.plasmnet.io/).
+Para começar, acesse https://apps.plasmnet.io/
 
-### ① Upload Contract
+### ① **Upload Contrato**
 
-First, upload a contract by clicking OP Contracts \(short for Operated Contracts\) from the sidebar, and click Upload WASM.
+Não podemos fazer nada sem fazer upload de nossos contratos; portanto, primeiro, faça isso clicando em OP Contracts \(abreviação de Contracts Operated\) na barra lateral e clique em Upload WASM.
 
-#### **Uploading the Contract by ourselves**
+**Upload do contrato por nós mesmos**
 
-When there are no Contracts uploaded, the OP Contracts page will look like the following image.
+Quando não há Contratos carregados, a página Contratos OP será semelhante à imagem a seguir.
 
 ![Upload WASM](../.gitbook/assets/screen-shot-2020-06-11-at-15.44.05.png)
 
-When you click the **Upload WASM** button from the page, the following modal will appear on your screen.
+Quando você clica no botão Carregar WASM na página, o seguinte modal aparecerá na sua tela.
 
 ![Upload WASM \(Modal Window\)](../.gitbook/assets/screen-shot-2020-06-11-at-15.45.42.png)
 
-This is where we provide the WASM file and the ABI JSON that was compiled from ink! Contract. You can always create your own, but I’ve prepared a sample Smart Contract using ink-playground.
+É aqui que fornecemos o arquivo WASM e o ABI JSON que foi compilado a partir da tinta! Contrato. Claro, você sempre pode criar o seu próprio, mas não será uma tarefa trivial para as pessoas que estão participando. Então, desta vez, preparei uma amostra de Contrato inteligente usando o ink-playground.
 
-## **Download the sample contract**
+## **Faça o download do contrato de amostra**
 
-First, visit [https://ink-playground.com](https://ink-playground.com/), you’ll see a pre-coded Contract in the on-screen editor. Press **COMPILE CODE** to compile the code.
+Primeiro, visite [https://ink-playground.com](https://ink-playground.com/), você verá um contrato pré-codificado no editor na tela. Tudo o que você precisa fazer é pressionar o botão **COMPILE CODE** para \(você adivinhou\) compilar o código.  
+
 
 ![Click COMPILE CODE](../.gitbook/assets/screen-shot-2020-06-11-at-15.50.03.png)
 
-Wait for a few seconds and you’ll see the following message appear on the panel in the right-side. You can download the WASM file and the METADATA file by clicking the button of the same name. The default downloaded file names will be “sample.wasm” and “metadata.json”.
+Aguarde alguns segundos e você verá a seguinte mensagem no painel do lado direito. É possível fazer o download do arquivo WASM e do arquivo METADATA clicando no botão com o mesmo nome. Os nomes padrão dos arquivos baixados serão "sample.wasm" e "metadata.json".
 
 ![Download WASM and METADATA](../.gitbook/assets/screen-shot-2020-06-11-at-15.56.52.png)
 
-Go back to the Upload WASM modal. Next, upload the “sample.wasm” to compiled contract WASM panel, and “metadata.json” to contract ABI panel. Once finished, the following parameter will be displayed.
+Agora vamos voltar ao modal Upload WASM. Em seguida, carregamos o “sample.wasm” no painel WASM do contrato compilado e o “metadata.json” no painel ABI do contrato. Quando terminarmos tudo isso, o seguinte parâmetro será exibido.
 
 ![Ready upload contract binary](../.gitbook/assets/screen-shot-2020-06-11-at-15.56.08.png)
 
-After that, **Upload -&gt; Sign and Submit**. Now you should be able to see the Contract that we’ve uploaded.
+Depois disso, fazemos o upload -&gt; Assinar e enviar. Agora você deve poder ver o contrato que enviamos.
 
 ![Uploaded the Smart Contract](../.gitbook/assets/screen-shot-2020-06-11-at-15.59.49.png)
 
-You have successfully uploaded the smart contract!
+É isso aí! Fizemos o upload do contrato inteligente com sucesso!  
 
-### **① Reading an existing contract**
 
-If you’re using the Plasm Testnet v3 instead of a local node, you can make your life easier by choosing OpContracts -&gt; Add an existing code hash and copy the following hash on to the code hash panel.
+### **① Lendo um contrato existente**
+
+Se você estiver usando o Plasm Testnet v3 em vez de um nó local, poderá facilitar sua vida escolhendo OpContracts -&gt; Adicionar um hash de código existente e copie o seguinte hash no painel de hash de código.
 
 ```text
 0x22b781155b1a9df69ea97ac5ec8f35af8e90f5dc7173439dcab50aafdcd7b5bb
 ```
 
-After that, you just have to provide the “metadata.json” to the contract ABI panel to read the existing smart contract in the blockchain.
+Depois disso, basta fornecer o "metadata.json" ao painel da ABI do contrato para ler o contrato inteligente existente no blockchain.
 
 ![add](https://user-images.githubusercontent.com/6259384/77171472-d7ec1700-6aff-11ea-8615-87129335dab3.png)
 
-### ② Deploy the contract
+### ② **Vamos implantar o contrato !!**
 
-In Plasm, you can’t just use the Contract by uploading it. It will only function as a proper Smart Contract once deployed on the chain. This is to increase the re-usability of the Smart Contract. Deploying the Contract is very simple. All you need to do is click the deploy button that can be found in the upper-right hand corner and fill in the values required in the preceding Deploy a new contract portal and click Deploy -&gt; Sign and Submit.
+No Plasm, você não pode simplesmente usar o contrato fazendo o upload dele. Ele funcionará apenas como um Contrato inteligente adequado depois de implantá-lo na cadeia. Isso é para aumentar a reutilização do contrato inteligente. A implantação do contrato é muito simples. Tudo o que você precisa fazer é clicar no botão de implantação, localizado no canto superior direito, e preencher os valores exigidos no item anterior Implantar um novo portal de contratos e clicar em Deploy\(Implementar\) -&gt; Sing\(Assinar\) e Submit\(enviar\).
 
 ![Click Deploy](../.gitbook/assets/screen-shot-2020-06-11-at-16.04.52.png)
 
 ![Input Parameters and click deploy](../.gitbook/assets/screen-shot-2020-06-11-at-16.10.34.png)
 
-During this step, people who have uploaded a smart contract in a different Substrate-based blockchain might have noticed something different in the contract deploy portal. That is the Parameters input box, highlighted in red in the above picture. In Plasm, you can set a special parameter for every contract. This is important for the aforementioned special feature for Plasm; the dAppsRewards. But this is beyond the scope of today’s article so let’s just provide the value Yes to canBeNominated parameter and upload it. Who knows, something good might happen😉. After we finish deploying the Contract, we can see the deployed contract and the operator like the following image. The first operator is the account that deployed the Contract \(the screenshot is from a local node hence why the operator is named Alice\).
+Durante esta etapa, como as pessoas que fizeram o upload de um contrato inteligente em um blockchain utilizado no Substrato diferente podem ter notado algo diferente no portal de implantação de contratos. Essa é uma caixa de entrada Parâmetros, destacada em vermelho na figura acima. No Plasm, você pode definir um parâmetro especial para cada contrato. Isso é importante para o recurso especial acima mencionado para Plasm; o DappsRewards. Mas isso está além do escopo do artigo de hoje, portanto, basta fornecer o valor Sim ao parâmetro canBeNominated e enviá-lo. Quem sabe, algo de bom pode acontecer. Depois de concluir a implantação do contrato, podemos ver o contrato implantado e o operador como imagem a seguir. O primeiro operador é uma conta que implanta o contrato \(captura de tela de um nó local, portanto, o motivo pelo qual o operador chama Alice\).
 
 ![Deployed contract \(SAMPLE.WASM\) and its operator \(ALICE\)](../.gitbook/assets/screen-shot-2020-06-11-at-16.14.43.png)
 
-In Plasm there is a concept of ownership amongst Smart Contracts, and we call it the Operator.
+Como você pode ver, no Plasm existe um conceito de propriedade entre os Smart Contracts, que chamamos de Operador.
 
-### ③ Change an operator
+### ③ **Vamos mudar de operador**
 
-First, click the Operator tab on the left side.
+Agora chegou a hora de mudarmos de operador! Primeiro, clique na guia Operator\(Operador\) no lado esquerdo.
 
 ![Select Operator](../.gitbook/assets/screen-shot-2020-06-11-at-16.17.17.png)
 
-Doing that will display the following modal. Choosing an Operator from here will display a list of all the contracts that the account owns, you’ll have to choose which contract you wish to change ownership of. After that, we choose the new Operator who will have ownership of the selected Contract. For this example, ALICE will transfer BOB the ownership for SAMPLE.WASM contract.
+Isso exibirá o seguinte modal. A escolha de um operador a partir daqui exibirá uma lista de todos os contratos que a conta possui. Você deverá escolher em qual contrato deseja alterar a propriedade. Depois disso, escolhemos o novo Operador que terá a propriedade do Contrato selecionado. Neste exemplo, o ALICE transferirá a BOB a propriedade do contrato SAMPLE.WASM.
 
 ![ALICE&apos;s contract list](../.gitbook/assets/screen-shot-2020-06-11-at-16.19.46%20%281%29.png)
 
-Press Change Operator -&gt; Sign and Submit, after a few moments you can see from the following image that the Operator of the Contract has changed from ALICE to BOB.
+Pressione Change Operator\(Alterar Operador\) -&gt; Sign\(Assinar\) e Submit\(Enviar\), depois de alguns momentos, podemos ver na imagem a seguir que o Operador do Contrato mudou de ALICE para BOB.  
+
 
 ![Changed Operator](../.gitbook/assets/screen-shot-2020-06-11-at-16.21.22.png)
 
-This concludes the demo for creating a Smart Contract and transferring ownership from one operator to another.
+Com isso, concluímos a demonstração para criar um contrato inteligente e transferir sua propriedade de um operador para outro! Obrigado por continuar conosco.  
 
-### Summary <a id="summary"></a>
 
-* How to use the Operator Trading function
-* How Plasm has a concept of ownerships in Smart Contracts
-* Transfer the ownership of the Contract according to the Operator
+### **Sumário** <a id="summary"></a>
 
-You have explored the concept of contract ownership and the transfer of ownership, but why is it important and why should anyone care about it? The answer is simple; the ownership of the Smart Contract determines who receives the profit from the dApps Rewards. The next question would be “so how does this dApps Rewards work?” That will be discussed in the next article by going through some demos.
+* Falamos sobre como usar a função Operator Trading.
+* Falamos sobre como o Plasm tem um conceito de propriedade no contrato inteligente
+* E podemos transferir a propriedade do Contrato de acordo com o Operador.
 
-Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Então, agora, mostramos o conceito de propriedade de contrato e a transferência de propriedade, mas por que é importante e por que todos deveriam se preocupar com isso? A resposta é simples; a propriedade do Contrato inteligente determina quem recebe o lucro dos Dapps Rewards. A próxima pergunta seria "então como é que esse Dapps Rewards funciona?" Isso será discutido no próximo artigo, passando por algumas demos. Então, fique atento para mais!
+
+Alguma pergunta? Não hesite em perguntar-nos no [Discord Tech Channel.](https://discord.gg/Z3nC9U4)
 

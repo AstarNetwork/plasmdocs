@@ -1,8 +1,8 @@
 # Plasm Mainnet 🆙
 
-This page describes the specs of Plasm mainnet in detail. The behavior of Plasm mainnet changes as the network grows.
+Esta página descreve as especificações da rede principal do Plasm em detalhes. Além disso, o comportamento da rede principal do Plasm muda à medida que a rede cresce.
 
-Note that the past status is also listed here. Each detailed spec is annotated at the beginning of the page, whether it is "Latest" or "Deprecated".
+Observe que o status passado também está listado aqui. Cada especificação detalhada é anotada no início da página, seja "Latest" ou "Deprecate".
 
 ## Previous Works
 

@@ -1,6 +1,7 @@
 # Unlock Tutorial 🔓
 
-Lockdrop's Lock Contract contains the following anonymous function.
+O Contrato de Bloqueio do Lockdrop contém a seguinte função anônima.  
+
 
 ```text
 /**
@@ -19,15 +20,11 @@ function () external payable {
 }
 ```
 
-This enables the contract to return the locked balance \(the entire contract balance\) to the original token locker's address by sending an empty transaction to this contract address. The timestamp of the transaction must be greater than the timestamp of the lock including the lock duration. When someone sends a transaction before the duration of the locks is passed, the transaction will return an error.
-
-Sending a transaction to the lock \(i.e. unlocking the tokens\) can be done by anyone given that they have enough funds to pay for the transaction fee. The the locked tokens will only return to the original locker. So it is possible to allow another address to unlock the locked token on behalf of the original locker, but they cannot claim the tokens for themselves.
-
-One point to note is that once the lock duration is over, the contract will not have any transaction rejections, meaning even if the token was returned to the original locker, anyone can still send a transaction to the contract without any errors. Once the token is claimed it will not be able to return any more tokens,as the contract balance will be 0, but it makes it hard for the original locker to check if the tokens were unlocked or not without having to check the contract balance or track their balance, effectively giving a potential issue of wasting transaction fee for attempting to claim the locked tokens that was already unlocked.
+Isso permite que o contrato retorne o saldo bloqueado \(todo o saldo do contrato\) para o endereço do cacifo original, enviando uma transação vazia para esse endereço do contrato. No entanto, o registro de data e hora da transação deve ser maior que o registro de data e hora do bloqueio, incluindo a duração do bloqueio. Quando alguém envia uma transação antes que a duração dos bloqueios seja passada, a transação retornará um erro. O envio de uma transação para o bloqueio \(ou seja, desbloquear os tokens\) pode ser feito por qualquer pessoa, uma vez que eles têm fundos suficientes para pagar a taxa da transação. Mas os tokens bloqueados retornarão apenas ao armário original, e não ao endereço que enviou a transação. Portanto, é possível permitir que outro endereço desbloqueie o token bloqueado em nome do armário original, mas eles não podem reivindicar os tokens por si mesmos. Um ponto a ser observado é que, quando a duração do bloqueio terminar, o contrato não terá nenhuma rejeição de transação, ou seja, mesmo que o token tenha sido devolvido ao armário original, qualquer pessoa ainda poderá enviar uma transação ao contrato sem erros. Depois que o token for reivindicado, ele não poderá retornar mais tokens, pois o saldo do contrato será 0, mas torna difícil para o cacifo original verificar se os tokens foram desbloqueados ou não sem ter que verificar o saldo do contrato ou rastreie seu saldo, efetivamente dando um possível problema de desperdício de taxa de transação por tentar reivindicar os tokens bloqueados que já estavam desbloqueados.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-191620png.png)
 
-The Lockdrop Web Application comes with an intuitive form that displays any lock information. Under the `Unlock Tokens` tab, it will display a list of locks that was locked by the current address in a Web3 enabled browser wallet extension. Once the lock duration is over, the lock icon on the right will change to a lighter color. Clicking this icon will allow you to send to transaction of 0 ETH to the lock address, unlocking the tokens. This form allows you to easily check the lock information, time until the lock is over and unlock once it is over. However, as mentioned above, it is hard to check if the lock has been already claimed or not, so even if the locks were successfully claimed, the UI elements will still look the same.
+O aplicativo da Web Lockdrop é fornecido com um formulário intuitivo que exibe qualquer informação de bloqueio. Na guia `Unlock Tokens`, ele exibirá uma lista de bloqueios bloqueados pelo endereço atual em uma extensão da carteira do navegador habilitada para Web3. Quando a duração do bloqueio terminar, o ícone de bloqueio à direita mudará para uma cor mais clara. Clicar neste ícone permitirá enviar para a transação 0 ETH para o endereço de bloqueio, desbloqueando os tokens. Este formulário permite que você verifique facilmente as informações do bloqueio, tempo até o bloqueio terminar e desbloquear assim que terminar. No entanto, como mencionado acima, é difícil verificar se o bloqueio já foi reivindicado ou não; portanto, mesmo se os bloqueios foram reivindicados com êxito, os elementos da interface do usuário ainda terão a mesma aparência.
 
-Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Alguma pergunta? Não hesite em perguntar-nos no [Discord Tech Channel.](https://discord.gg/Z3nC9U4)
 
