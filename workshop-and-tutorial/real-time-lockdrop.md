@@ -1,25 +1,26 @@
 # Real-Time Lockdrop 🍬
 
-**Declaimer**: This is an experimental module. Some features don't work or work with issues. Please report problems [on GitHub](https://github.com/staketechnologies/Plasm/issues/new/choose) if they arise.
+**Declaimer:** Este é um módulo experimental. Alguns recursos não funcionam ou funcionam com problemas. Por favor, reporte problemas no [GitHub](https://github.com/staketechnologies/Plasm/issues/new/choose) quando encontrar.   
 
-## Quick Install
 
-1. Install dependencies according to [README](https://github.com/staketechnologies/Plasm/tree/plasm-real-time-lockdrop#building-from-source).
-2. Fetch the custom lockdrop branch of plasm-node.
+## **Instalação Rápida**
+
+1. Instale dependências de acordo com[ README](https://github.com/staketechnologies/Plasm/tree/plasm-real-time-lockdrop#building-from-source).
+2. Busque a ramificação de bloqueio personalizada do plasm-node
 
 ```text
 git clone https://github.com/staketechnologies/Plasm -b plasm-real-time-lockdrop && cd Plasm
 ```
 
-1. Build Plasm binary.
+1. Construa o binário do Plasm..
 
 ```text
 cargo build --release
 ```
 
-## Preparing for tests
+## **Preparando para testes**
 
-1. Launch your node in your development environment:
+1. Ative seu nó em seu ambiente de desenvolvimento:
 
 ```text
 ./target/release/plasm-node --dev
@@ -27,9 +28,9 @@ cargo build --release
 
 > Previous versions of db should be removed before the launch: `./target/release/plasm-node purge-chain --dev`
 
-1. Open Plasm Portal "[Settings page](https://apps.plasmnet.io/#/settings)".
-2. Choose `Local Node` in the remote node section.
-3. Check out the **"Developer"** tab and put the following custom types.
+1. Abra Plasm Portal "[Settings page](https://apps.plasmnet.io/#/settings)".
+2. Escolha `local node` \(Nó local\) na seção do node section\(nó remoto\).
+3. Confira a guia "Developer" e coloque os sequintes tipos personalizados.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-174451png.png)
 
@@ -66,27 +67,28 @@ cargo build --release
 }
 ```
 
-## Price Oracle
+## **Preço Oracle**
 
-After the launch, your authority node starts to fetch and send the current USD price of BTC and ETH into your chain. By opening [explorer](https://apps.plasmnet.io/#/explorer), you can see the dollar rate extrinsics in each imported module. This dollar rate is used in Lockdrop Substrate Pallet for checking the price during the Lockdrop periods.
+Após o lançamento, seu nó de autoridade começa a buscar e enviar o preço atual em dólares do BTC e ETH para sua cadeia. Ao abrir o [explorer](https://apps.plasmnet.io/#/explorer), você pode ver os extrínsecos da taxa do dólar em cada módulo importado. Essa taxa em dólar é usada no Pallet de substrato do Lockdrop para verificar o preço durante os períodos do Lockdrop.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%283%29.png)
 
-## Lockdrop Request
+## **Solicitação de lockdrop**
 
-Plasm Network team has deployed the Lockdrop smart contract on Ethereum Ropsten network just for testing purpose. You can check it here:
+A equipe da Plasm Network implantou o contrato inteligente da Lockdrop na rede Ethereum Ropsten apenas para fins de teste. Você pode conferir em
 
 {% embed url="https://ropsten.etherscan.io/address/0xeed84a89675342fb04fafe06f7bb176fe35cb168" caption="" %}
 
-Let's send a transaction to the lockdrop smart contract using Etherscan and Metamask!
+Vamos enviar uma transação para o contrato inteligente de bloqueio usando Etherscan e Metamask!
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-174357png.png)
 
-After locking your ETH, you can make a claim on your local chain.
+Depois de bloquear o seu ETH, você pode fazer uma reclamação na sua rede local.  
+
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-174402png%20%281%29.png)
 
-You can use a test data below:
+Você pode usar os dados de teste abaixo:
 
 ```text
 0x6c4364b2f5a847ffc69f787a0894191b75aa278a95020f02e4753c76119324e0
@@ -97,9 +99,9 @@ You can use a test data below:
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-174408png%20%282%29.png)
 
-And here is the results available on chain:
+E aqui estão os resultados disponíveis na cadeia:
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-174413png.png)
 
-Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Alguma pergunta? Não hesite em perguntar-nos no [Discord Tech Channel](https://discord.com/invite/Z3nC9U4).
 

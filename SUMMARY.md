@@ -36,7 +36,7 @@
 * [dApps Reward 🍦](workshop-and-tutorial/dapps-reward.md)
 * [Lockdrop Tutorial 🔒](workshop-and-tutorial/lockdrop-tutrial.md)
 * [Unlock Tutorial 🔓](workshop-and-tutorial/unlock-tutrial.md)
-* [Importing Ethereum Seed 🔐](workshop-and-tutorial/importing-ethereum-seed.md)
+* [Importando sementes Ethereum 🔐](workshop-and-tutorial/importing-ethereum-seed.md)
 * [Real-Time Lockdrop 🍬](workshop-and-tutorial/real-time-lockdrop.md)
 
 ## Basic
