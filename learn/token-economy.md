@@ -69,33 +69,35 @@ PLM tokens use the same NPoS as Polkadot. This nominator and validator can opera
 * $$i_{staking}$$ is the average annual interest earned by the nominator through Staking. This can be determined by dividing inflation by the Staking ratio. In other words, $$i_{staking} = \frac{I_{Staking}}{x}$$.
 * $$I_{operators}$$ is the inflation rate due to the rewards that the Operator can get. This is t times the ratio \(1-q\) of Staking to Operator in I_{Staking}._ 
 
-\_\_
-
-\_\_$$Staking_{validators}:Staking_{contracts} = Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}$$ \_\_
+$$Staking_{validators}:Staking_{contracts} = Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}$$ 
 
 $$Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} = y:1:t$$
 
 $$Rewards_{staking_{validators}}(y+1) = (Rewards_{staking_{contract}}+Rewards_{staking_{validators}})y$$
 
-```text
-                                               $$q =\frac{Staking_{validators}}{Staking_{validators}+Staking_{contracts}}$$ 
+$$
+q =\frac{Staking_{validators}}{Staking_{validators}+Staking_{contracts}}
+$$
 
-                                      $$=\frac{Rewards_{stakers_{validators}}}{Rewards_{stakers_{validators}}+Rewards_{stakers_{contracts}}}$$ 
+$$
+=\frac{Rewards_{stakers_{validators}}}{Rewards_{stakers_{validators}}+Rewards_{stakers_{contracts}}}
+$$
 
-                                                     $$=y/(y+1)$$ 
+$$
+=y/(y+1)
+$$
 
-                                                     $$(y+1)q  =y$$ 
+$$
+y =q/(1-q)
+$$
 
-                                                        $$y =q/(1-q)$$ 
-```
+$$Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} =q/(1-q):1:t$$ 
 
-$$Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} =q/(1-q):1:t$$
+$$
+Rewards_{stakers}:Rewards_{operators} =q/(1-q)+1:t
+$$
 
-```text
-                      $$Rewards_{stakers}:Rewards_{operators} =q/(1-q)+1:t $$ 
-```
-
-Here, the ratio of the amount of reward and the ratio of the inflation rate are equal.
+ Here, the ratio of the amount of reward and the ratio of the inflation rate are equal.
 
 $$
 \begin{aligned}
