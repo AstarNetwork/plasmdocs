@@ -1,17 +1,17 @@
-# How PlasmDocs Update.
+# Wie PlasmDocs aktualisieren.
 
-## Install yarn.
-Please install yarn.
+## Yarn installieren.
+Bitte yarn installieren.
 
-## install dependencies libraries
+## installiere notwendige libraries
 ```
 $ yarn
 ```
 
-## local test
+## lokaler Test
 ```
 yarn run start
 ```
 
-## publish contents.
-If master push, auto build and publish to docs.plasmnet.io.
+## Inhalte veröffentlichen.
+Wenn master push, automatische Erstellung und Veröffentlichung auf docs.plasmnet.io.
