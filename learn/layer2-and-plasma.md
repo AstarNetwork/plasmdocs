@@ -26,3 +26,5 @@ Entre todas as soluções da layer2, a razão pela qual nos concentramos no Plas
 
 O plasma deve ser reconhecido como uma tecnologia indispensável no futuro, pois pode melhorar drasticamente o desempenho do processamento de todos os livros distribuídos.
 
+Alguma pergunta? Não hesite em perguntar-nos no [Discord Tech Channel.](https://discord.gg/Z3nC9U4)
+

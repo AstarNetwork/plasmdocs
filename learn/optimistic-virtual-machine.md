@@ -4,51 +4,53 @@ description: Plasma and beyond.
 
 # Optimistic Virtual Machine 🌔
 
-### What is Optimistic Virtual Machine?
+### **O que é Optimistic Virtual Machine \(Máquina virtual otimista\)?**
 
-The OVM \(Optimistic Virtual Machine\) is a virtual machine designed to support all layer 2 protocols. It is a possible unification of all layer 2 protocols meaning: **Plasm Network will not only be for Plasma applications but also for Lightning Network applications or any other layer 2 protocols.**
+Simplificando, o OVM \(Optimistic Virtual Machine\) é a máquina virtual projetada para suportar todos os protocolos layer2 inventados pelo Ethereum Foundation Plasma Group. É uma possível unificação de todas as construções de escalabilidade da Layer2. Isso significa que o Plasm Network não será apenas para aplicativos Plasma, mas também para aplicativos Lightning Network ou quaisquer outros protocolos da Layer2.  
 
-Plasm Network will houses all layer 2 scaling solutions. Users can choose which solution to use and make their use case possible with minimum overhead.
 
-### Learn More
+A Plasm Network deve ser uma plataforma que abriga todas as soluções de dimensionamento da Layer2. Os usuários podem escolher qual solução usar e possibilitar seu caso de uso com custos indiretos mínimos.
 
-The OVM is a powerful concept in layer 2 applications. We can express complex dispute logics by a simple OVM language and that language contains [Optimistic Game Semantics](https://plasma.group/optimistic-game-semantics.pdf) \(OGS\).
+### **Saiba mais**
 
-For example, we can express Plasma checkpoint and exit claims with 2 simple definitions \(we call these "property"\) by OGS. Plasm Network separates the OVM from the smart contract and prepares it as a module so that OVM can be used more simply and conveniently.
+OVM é um conceito poderoso para desenvolver aplicativos da Layer2. Podemos expressar lógicas de disputa complexas por uma linguagem OVM simples e essa linguagem contém a Optimistic Game Semantics \(OGS\).
+
+Por exemplo, podemos expressar o ponto de verificação do plasma e sair das declarações com duas definições simples \(chamamos de "propriedade"\) pelo OGS. A Plasm Network separa a OVM do contrato inteligente e a prepara como um módulo para que a OVM possa ser usada de maneira mais simples e conveniente.
 
 ### OVM in Plasm Network <a id="ovm-in-plasm-network"></a>
 
-The OVM and its surrounding architecture are as shown in the figure below.
+A OVM e sua arquitetura circundante são mostradas na figura abaixo.  
+
 
 ![ovmodule](https://user-images.githubusercontent.com/6259384/75546609-404d5880-5a6c-11ea-84d0-f063e0bc252c.png)
 
-Plasma applications \(Plapps\) can be created and run properly through the dedicated client application L1 adapter. Plapps are composed of OVM, Plasma, and contract modules in the Plasm Network.
+Os aplicativos de plasma \(Plapps\) podem ser criados e executados corretamente por meio do adaptador L1. Os Plapps são compostos pelos módulos OVM, Plasma e Contracts na Plasm Network.
 
-In case of Ethereum Plasma applications, everything provided in these modules was managed by smart contracts. This makes it difficult to predict the gas cost when running a plasma application containing complicated logic. Also, building applications that combines multiple contracts can be confusing for developers.
+No caso de aplicativos Ethereum Plasma, tudo o que é fornecido nesses módulos foi gerenciado por contratos inteligentes. No entanto, nesse caso, há um problema que é difícil prever: o custo do gás ao executar um aplicativo de plasma contendo lógica complicada. Além disso, a criação de aplicativos que combina vários contratos pode ser confusa para os desenvolvedores.
 
-For this reason, Plasma Network has considered a superficially concise and easy-to-understand configuration by separating the roles into three modules. The OVM Module implements a function called Universal Adjudication to initiate a dispute if the user finds a mistake in the information on layer 1. The Plasma Module supports a common implementation of some of the essential smart contracts. Only the implementations that require different logic are managed by the Contracts Module.
+Por esse motivo, a Plasma Network considerou uma configuração superficialmente concisa e fácil de entender, separando as funções em três módulos. O Módulo OVM implementa uma função chamada Universal Adjudication para causar uma disputa quando o usuário encontra um erro nas informações da layer1. O Módulo Plasma suporta uma implementação comum de alguns dos contratos inteligentes essenciais para o Plasma. Somente as implementações que exigem lógica diferente para cada aplicativo são gerenciadas pelo Módulo de contratos.
 
-This Plasm Network logic can be combined with the Plasma Layer 2 implementation described above to build an application.
+Essas lógicas da Plasm Network podem ser combinadas com a implementação fornecida pela implementação do Plasma L2 \(layer2\) descrita acima para criar um aplicativo.
 
-You can see the details below.
+Você pode ver os detalhes abaixo.
 
-## Smart Contract <a id="smart-contract"></a>
+## **Contrato Inteligente** <a id="smart-contract"></a>
 
-Smart contracts in Plasm Network's layer 2 applications require **ERC20 Contracts** and **Payout Contracts**. Each layer 2 application developer must implement their own smart contract.
+Os contratos inteligentes nos aplicativos da Layer2 da Plasma Networks exigem contratos ERC20 e contratos de pagamento. Cada desenvolvedor de aplicativos da Layer2 deve implementar seu próprio contrato inteligente.
 
-### ERC20 Contract <a id="erc20-contract"></a>
+### **Contrato ERC20**  <a id="erc20-contract"></a>
 
-ERC20 Contract is a contract that expresses tokens handled by layer 2 application. Refer to this specification for [ERC20](https://eips.ethereum.org/EIPS/eip-20). PLM wrapped Contracts are the default ERC20 Contract.
+Contrato ERC20 é um contrato que expressa tokens manipulados pelo aplicativo da Layer2. Consulte esta especificação para o [ERC20](https://eips.ethereum.org/EIPS/eip-20). Implementamos o Contrato embrulhado do PLM como o Contrato ERC20 padrão.
 
-#### wPLM contract <a id="wplm--contract"></a>
+#### **Contrato wPLM**  <a id="wplm--contract"></a>
 
-wPLM contract is a wrapped contract of PLM token. This is an ERC20 token issued by depositing the PLM token, the basic token of Plasm Network with the contract. In other words, it has the same value as PLM, like [wETH](https://weth.io/jp/).
+O contrato wPLM é um contrato agrupado do token PLM. Este é um token ERC20 emitido ao depositar o token PLM, o token básico da Plasm Network no contrato. Em outras palavras, ele tem o mesmo valor que o PLM. Isto é como [wETH](https://weth.io/jp/).
 
-### Payout Contract <a id="payout-contract"></a>
+### **Contrato de Pagamento** <a id="payout-contract"></a>
 
-Payout Contract is a contract that handles returning tokens from layer 2 to layer 1. Layer 2 application developers must include this contract for users to be able to withdraw from layer 1. **Ownership payout contract** is the default payout contract.
+Contrato de pagamento é um contrato que expressa o processo ao retornar tokens da Layer2 para a Layer1. Os desenvolvedores de aplicativos da layer2 devem implementá-lo porque o usuário não pode retirar-se sem este contrato. Implementamos o contrato de pagamento de propriedade como o contrato de pagamento padrão.
 
-Payout contract must be able to call the `finalizeExit` method.
+O contrato acima pode ser implementado sem depender dos seguintes módulos ovm. O contrato de pagamento deve poder chamar o método finalizeExit. Isso é imposto pela característica.
 
 ```text
 function finalizeExit(
@@ -59,25 +61,25 @@ function finalizeExit(
 )
 ```
 
-#### Ownership payout contract <a id="ownership-payout-contract"></a>
+#### **Contrato de pagamento de propriedade** <a id="ownership-payout-contract"></a>
 
-Ownership payout contract is a contract that the token owner can withdraw. Specifically, When the Exit is determined to be true in the Challenge Game, the owner represented by that State Object \(in this case, OwnershipPredicate\) can withdraw the token. The Ownership Payout contract is expressed in the Ethereum contract like [this](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/plasma/OwnershipPayout.sol).
+Contrato de pagamento de propriedade é um contrato que o proprietário do token pode retirar. Especificamente, quando a saída é determinada como verdadeira, o proprietário representado por esse objeto de estado \(nesse caso, OwnershipPredicate\) pode retirar o token. O contrato de pagamento de propriedade é expresso no contrato Ethereum assim.
 
-## Modules <a id="modules"></a>
+## **Módulos** <a id="modules"></a>
 
-Operations related to OVM are implemented by the Substrate runtime module. This is so that users do not have to deploy complex smart contracts. This is intended to make gas costs of deployment cheap and easy to estimate. In addition, this allows developers of layer 2 applications to implement only essentially required "ERC20 contract" and "Payment contract" and properties.
+As operações relacionadas ao OVM são implementadas pelo módulo de tempo de execução do Substrate. Isso é para que os usuários não precisem implantar contratos inteligentes complexos. O objetivo é tornar os custos de implantação de gás baratos e fáceis de estimar. Além disso, isso faz com que os desenvolvedores de aplicativos da Layer2 possam considerar e implementar apenas o "contrato ERC20" e o "Contrato de pagamento" e as propriedades que indicam as regras da transição do estado.
 
-special storage that can handle the layer 2 application must be considered with the Substrate Runtime Module. It treats one application as one AccountId in the same way as a smart contract.
+Em seguida, é necessário considerar o armazenamento especial que pode lidar com o aplicativo da Layer2 com o Substrate Runtime Module. Ele trata um aplicativo como um AccountId da mesma maneira que um contrato inteligente.
 
-It can be divided into OVM Modules, which perform general OVM processing, and Plasma modules, which are responsible for plasma-specific processing. See the architecture diagram for the dependencies of each module and contract.
+Especificamente, ele pode ser dividido em Módulos OVM, que executam o processamento geral da OVM, e módulos Plasma, responsáveis pelo processamento específico do plasma. Veja o diagrama da arquitetura para as dependências de cada módulo e contrato.
 
-## OVM Module <a id="ovm-module"></a>
+## **Modulo OVM** <a id="ovm-module"></a>
 
-OVM Module describes the processing commonly performed in OVM. Specifically, the execution logic of predicate is included in this module. In addition, the smart contract is executed by using the truth of predicate as a trigger. This module is a modularized version of [Universal Adjudication contract](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol) in the Ethereum Smart contract.
+OVM Module descreve o processamento normalmente executado na OVM. Especificamente, a lógica de execução do Predicate está incluída neste módulo. Além disso, o contrato inteligente é executado usando a verdade do Predicate como gatilho. Este módulo é uma versão modularizada do contrato [Universal Adjudication](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol) no contrato inteligente do Ethereum.
 
 ### Types <a id="types"></a>
 
-Defines the type used by OVM Module.
+Define o tipo usado pelo módulo OVM.
 
 ```text
 pub struct Predicate(Vec<u8>);
@@ -168,15 +170,17 @@ ClaimDecided(Hash, bool);
 ChallengeRemoved(Hash, Hash);
 ```
 
-## Plasma Module <a id="plasma-module"></a>
+## **Módulo de Plasma** <a id="plasma-module"></a>
 
-Plasma Module is a module that is responsible for processing specific to Plasma. It calls the OVM Module and the specified smart contract function. The Plasma Module has one "Commitment" and "Deposit" address per application. These are each defined by `decl_child_storage`. `decl_child_storage!` is a macro that implements DB in SubTrie. This sets AccountId as the key value. This is like a contract address that implements with reference to [AccountDb](https://github.com/paritytech/substrate/blob/master/frame/contracts/src/account_db.rs) of contract module.
+Módulo de plasma é o módulo responsável pelo processamento específico do plasma. Ele chama o Módulo OVM e a função de contrato inteligente especificada. O módulo de plasma possui um endereço "Compromisso" e "Depósito" por aplicativo. Estes são definidos por `decl_child_storage`. `decl_child_storage!` é uma macro que implementa o DB no SubTrie. Isso define AccountId como o valor da chave. É como um endereço de contrato. 
 
-This is modularized [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) and [CompiledPredicate](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) contracts in the Ethereum.
+Especificamente, implementa com referência ao AccountDb do módulo de contrato.
 
-### Types <a id="types"></a>
+Trata-se de contratos modularizados de Compromisso, Depósito e Compilado no Ethereum.
 
-Defines the type used by Plasma Module.
+### **Tipos** <a id="types"></a>
+
+Define o tipo usado pelo módulo de plasma
 
 ```text
 pub struct StateUpdate<AccountId, Balance, BlockNumber> {
@@ -224,7 +228,7 @@ pub struct AddressTreeNode<AccountId> {
 }
 ```
 
-#### modules <a id="modules"></a>
+#### **modulos** <a id="modules"></a>
 
 ```text
 /// Commitment constructor + Deposit constructor
@@ -234,9 +238,9 @@ fn deploy(
     state_update_predicate: T::AccountId);
 ```
 
-### Commitment <a id="commitment"></a>
+### **Commitment** <a id="commitment"></a>
 
-Commitment is something to save the Merkle Root owned by the Plasma child chain. Child storage of Commitment is generated for each layer 2 application. This can be used for accessing smart contracts.
+Commitment é algo para salvar a Raiz de Merkle, pertencente à cadeia de filhos de Plasma. O armazenamento filho de Commitment é gerado para cada aplicativo da Layer2. Isso pode ser usado como acessar contratos inteligentes.
 
 #### Storage <a id="storage"></a>
 
@@ -287,7 +291,7 @@ BlockSubmitted(AccountId, BlockNumber, Hash);
 
 ### Deposit <a id="deposit"></a>
 
-Deposit allows depositing ERC20 tokens from layer 1 to layer 2. Child storage of Deposit is generated for each layer 2 application. This can be used like accessing smart contracts.
+Deposit é algo para depositar tokens ERC20 da Layer1 para a Layer2. O armazenamento filho de Deposit é gerado para cada aplicativo da Layer2. Isso pode ser usado como acessar contratos inteligentes.
 
 #### Storage <a id="storage"></a>
 
@@ -337,9 +341,9 @@ DepositedRangeExtended(Range);
 DepositedRangeRemoved(Range);
 ```
 
-### Compiled Predicate <a id="compiled-predicate"></a>
+### **Compiled Predicate** <a id="compiled-predicate"></a>
 
-The role of `CompiledPredicate` is optimizing claim size by compiling complex proposition to one simple predicate. The Plasma Module has method for running layer 2 applications via Predicate. `PayoutContract` withdrawal processing that exists for each layer 2 application can only be called via Compiled Predicate. This allows for transactions on layer 2 to be as secure as layer 1.
+O papel do `CompiledPredicate` é otimizar o tamanho da declaração, compilando proposições complexas para um predicado simples. O Módulo Plasma possui um método para executar aplicativos da Layer 2 via Predicate. O processamento de retirada do `PayoutContract` que existe para cada aplicativo da Layer 2 só pode ser chamado via Compiled Predicate. Isso permite que a Layer 2 das transações seja tão segura quanto a Layer1.
 
 #### Storage <a id="storage"></a>
 
@@ -358,5 +362,5 @@ fn is_valid_challenge(predicate_address: T::AccountId, inputs: Vec<u8>, challeng
 fn decide(predicate_addres: T::AccountId, inputs: Vec<u8>, witness: Vec<u8>);
 ```
 
-Questions? find answers here =&gt; [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Alguma pergunta? Não hesite em perguntar-nos no [Discord Tech Channel.](https://discord.gg/Z3nC9U4)
 

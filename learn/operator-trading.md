@@ -1,6 +1,8 @@
-# Operator Trading 🎯
+# Operador de Negociação \(Operator Trading\) 🎯
 
-Operator Trading is a mechanism to buy and sell Plasma applications. This is similar to M&A. With the dApps Rewards mechanism, operators have the potential to benefit greatly. A developer may want to assign an opertor for chain maintenance and administration or other various use cases. Operators will give their rights to opponents who give a value that seems reasonable to the value given to them. Those who have been granted the rights of the operators can receive the buyout. This mechanism assumes that new off-chain markets will be created.
+Operator Trading é um mecanismo para comprar e vender aplicativos de plasma para os operadores. Como o direito é negociável, isso é semelhante às fusões e aquisições. Com o mecanismo Dapps Rewards acima, os operadores sempre podem se beneficiar. Se você pode gerenciar melhor o Operador, é uma boa ideia entregá-lo a outra parte. Obviamente, os operadores nem sempre são comprados e vendidos. Os operadores darão seus direitos aos oponentes que atribuam um valor que parece razoável ao valor que lhes é dado. Aqueles a quem foram concedidos os direitos dos operadores podem receber a recompensa como operadores. Atualmente, não há necessidade de alternar as operações. No entanto, o lado que vendeu o Operador já perdeu o incentivo para operar o operador de boa fé, e o proprietário do novo Operador a ser transferido inevitavelmente operará o Operador. Por meio desse mecanismo, assumimos que o novo mercado fora da cadeia será criado.
 
 {% page-ref page="../workshop-and-tutorial/operator-trading.md" %}
+
+Bring your questions, we have answers here =&gt; [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 
