@@ -26,7 +26,7 @@ A. Oh yes! In fact, we recommend diversifying your portfolio in any investment. 
 
 **Q. How many hours do SESSION and ERA last respectively?**
 
-A. In case of Dusty, generally an era would be expected to last a single day \(24 hours\) while a session would last about 10 minutes.
+A. Generally an era would be expected to last a single day \(24 hours\) while a session would last about 10 minutes.
 
 **Q. ERA is 6x session?**
 
