@@ -34,7 +34,7 @@ A. Not necessarily. In case of Dusty an Era is 144x a session.
 
 **Q. How is the distribution of the reward for the nodes that are currently validating on the mainnet? Do they get reward every ERA? Do all nodes get the same amount of reward or does it depend on the performance of the machine?**
 
-A. 
+A. Yes the rewards are distributed ever Era. Generally the number of rewards will be the same for all the validator nodes.
 
 **Q. Is there slashing penalty on Plasm Mainnet PoA phase?**
 
