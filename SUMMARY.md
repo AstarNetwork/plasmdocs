@@ -6,9 +6,10 @@
 ## Ecosystem <a id="ekoshisutemu"></a>
 
 * [Polkadot 🔴](ekoshisutemu/polkadotnitsuite.md)
-* [Substrateについて](ekoshisutemu/substratenitsuite.md)
+* [Substrate 🅾](ekoshisutemu/substratenitsuite.md)
+* [​Сообщество 🎨](ekoshisutemu/soobshestvo.md)
 
-## 学ぶ <a id="bu-1"></a>
+## Learn <a id="bu-1"></a>
 
 * [Plasm Networkが解く課題](bu-1/plasm-networkgaku.md)
 * [Plasm Networkの概要](bu-1/plasm-networkno.md)
