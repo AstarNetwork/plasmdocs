@@ -11,10 +11,10 @@
 
 ## Learn <a id="bu-1"></a>
 
-* [Plasm Networkが解く課題](bu-1/plasm-networkgaku.md)
-* [Plasm Networkの概要](bu-1/plasm-networkno.md)
-* [レイヤー2とPlasma](bu-1/reiy2soryshon.md)
-* [Optimistic Virtual Machine](bu-1/optimistic-virtual-machine.md)
+* [Проблемы, которые решает Plasm 🌾](bu-1/plasm-networkgaku.md)
+* [Layer2 и Plasma ⚡](bu-1/reiy2soryshon.md)
+* [Обзор технологии Plasma  🔮](bu-1/optimistic-virtual-machine.md)
+* [Оптимистичная Виртуальная машина \(OVM\)  🌔](bu-1/optimistichnaya-virtualnaya-mashina-ovm.md)
 * [Plasm Networkの構造](bu-1/plasm-networkno-1.md)
 * [コアな特徴](bu-1/koana.md)
 * [Dapps Rewards](bu-1/dapps-reward.md)

@@ -9,5 +9,9 @@
 Plasm Network решает эти проблемы, ниже указаны ссылки на уже реализованные функции системы.  
 
 
+{% page-ref page="bu-1/optimistic-virtual-machine.md" %}
 
+{% page-ref page="bu-1/reiy2soryshon.md" %}
+
+{% page-ref page="bu-1/koana.md" %}
 
