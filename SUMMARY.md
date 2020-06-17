@@ -3,9 +3,9 @@
 * [Приветствие 💁](Introduction.md)
 * [Введение в Plasm 🐾](intorodakushon.md)
 
-## エコシステム
+## Ecosystem <a id="ekoshisutemu"></a>
 
-* [Polkadotについて](ekoshisutemu/polkadotnitsuite.md)
+* [Polkadot 🔴](ekoshisutemu/polkadotnitsuite.md)
 * [Substrateについて](ekoshisutemu/substratenitsuite.md)
 
 ## 学ぶ <a id="bu-1"></a>
