@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Welcome 💁](Introduction.md)
-* [イントロダクション](intorodakushon.md)
+* [Приветствие 💁](Introduction.md)
+* [Введение в Plasm 🐾](intorodakushon.md)
 
 ## エコシステム
 

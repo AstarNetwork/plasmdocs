@@ -1,39 +1,30 @@
-# Welcome 💁
+---
+description: "Добро пожаловать в раздел документации Plasm Network, надеемся, что этот раздел будет для вас полезен и поможет лучше понять систему и ее возможности. Добро пожаловать! \U0001F609"
+---
 
-## Plasm Networkコミュニティへようこそ！
+# Приветствие 💁
 
 ![](.gitbook/assets/sukurnshotto-2020-05-27-200702-1png.png)
 
-[Plasm Network](https://www.plasmnet.io/)は日本発の**スケーラブル（処理性能が高い）**かつ**インターオペラブル（異なる基盤との相互運用性）**なパブリックブロックチェーンです。すべての開発者にスケーラブルな分散アプリケーションの開発インフラを提供することを通して新しい Web のあり方、分散Web（"Web3.0"） を実現することをミッションにおいています。開発者はスケーラビリティを気にすることなくアプリケーションを作成することが可能になり、開発したアプリケーションは[Polkadot](https://polkadot.network/)を経由して異なるブロックチェーン上でも機能することが想定されています。
+Plasm Network - это масштабируемая и совместимая с другими элементами инфраструктура для Web3.0. Поскольку Plasm Network построена на основе технологии Substrate от Parity, это может быть будущий [Парачейн](https://wiki.polkadot.network/docs/ru/glossary#%D0%BF%D0%B0%D1%80%D0%B0%D1%87%D0%B5%D0%B9%D0%BDparachain) \(Parachain – блокчейн присоединенный к основной сети Polkadot \). Также Plasm Network будет выступать в качестве масштабируемой платформы для смарт-контрактов и децентрализованных приложений. По замыслу, Polkadot и его[ релейная сеть](https://wiki.polkadot.network/docs/ru/glossary#%D1%80%D0%B5%D0%BB%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F-%D1%86%D0%B5%D0%BF%D1%8Crelay-chain) \(основная сеть Polkadot\) не поддерживает смарт-контракты. Plasm заполняет этот пробел и поэтому является важным компонентом экосистемы Polkadot. Масштабируемость, очевидно, является одним из наиболее важных требований, предъявляемых разработчиками DApp\(децентрализованных приложений\). Мы работаем над тем, чтобы разработчики могли создавать любые приложения в Plasm Network без необходимости учитывать ее масштабируемость, так как это уже учтено в архитектуре Plasm и Polkadot в целом.
 
-[Plasm Network](https://www.plasmnet.io/)は[Parity Technologies](https://www.parity.io/)社の開発している[Parity Substrateフレームワーク](https://substrate.dev/)を用いて実装されています。これにより[Polkadot](https://polkadot.network/)に接続をすることができます。（Polkadotに接続するブロックチェーンはSubstrateによって作成されている必要があります。）Polkadotと[Plasm  Network](https://www.plasmnet.io/)の詳細は以下よりご確認ください。
+Работа сообщества поддерживается в соответствии с лицензией - public domain license \(лицензией общественного достояния\)
 
-{% page-ref page="ekoshisutemu/polkadotnitsuite.md" %}
+https://github.com/stakedtechnologies/Plasm​
 
-[Plasm Network](https://www.plasmnet.io/)はオープンソースのブロックチェーンであり、以下のドメインで最先端の実装を把握することができます。  
-[https://github.com/stakedtechnologies/Plasm](https://github.com/stakedtechnologies/Plasm)
+Plasm Network - проект с открытым исходным кодом. Мы приглашаем всех заинтересованных лиц принять участие в развитии и использовании проекта. Ждем вас в нашем комьюнити:
 
-また、以下のリンクよりコミュニティに参加することができます。
-
-* **技術的なディスカッション**：[https://discord.gg/wUcQt3R](https://discord.gg/wUcQt3R)
+* **Tech Discussion**：[https://discord.gg/wUcQt3R](https://discord.gg/wUcQt3R)
 * **Twitter** : [https://twitter.com/Plasm\_Network](https://twitter.com/Plasm_Network)
 * **Telegram** : [https://t.me/PlasmOfficial](https://t.me/PlasmOfficial)
 
-## コントリビューション
+## **Хотите узнать больше? Пожалуйста, посетите 👇**
 
-[Plasm Network](https://www.plasmnet.io/)はOSSであり、開発している機能や計画、これからのto-doを公開しています。コントリビューションをお待ちしています！
+\*\*\*\*
 
-**今やっていること（6月）**
+## **Хотите использовать Plasm Network? Вам сюда 👇**
 
-* [ ] Plasm Network上でのスマートコントラクトの実装
-* [ ] DApps Rewardの実装
+\*\*\*\*
 
-**これからやっていくこと（7月以降）**
-
-* [ ] a
-
-**To** **Do**
-
-* [ ] グラフィカルデザイン
-* [ ] ドキュメンテーションの翻訳
+## **Хотите запустить узел\(ноду\)? Вам сюда 👇** 
 
