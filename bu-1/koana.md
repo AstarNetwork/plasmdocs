@@ -1,16 +1,22 @@
-# コアな特徴
+# Основной функционал 🏡
 
-[Plasm Network](https://www.plasmnet.io/)には以下のコアな要素が実装されています。
+The Plasm testnet has three additional features in addition to the existing Substrate modules:
 
-**Operator Trading：**コントラクトの所有者を管理する機能です。コントラクトを資産として移転することが可能になります。
+## **Operator Trading**
+
+This is enhanced smart contract owner management which allows tokenization of contracts and transfer of contract ownership.
 
 {% page-ref page="operator-trading.md" %}
 
-**DApps Rewards：**Dapps\(Plasma アプリケーションを含む\)開発者に報酬を与える仕組みです。ブロックチェーンならではのマネタイズモデルをアプリケーション開発者に与えます。
+## **dApps Rewards**
+
+This is the reward system for dApps \(including Plasm Applications\) developers. It is a blockchain-specific monetization model for the Web3.0 and maybe even the next generation.
 
 {% page-ref page="dapps-reward.md" %}
 
-**Multi-Lockdrop：**複数回の Lockdrop を行います。Lockdrop は他の暗号資産を一定期間使えなくすることで機会費用を担保にトークンを発行する方法です。これを複数回繰り返すことで多くのトークンホルダーに価値あるトークンを配布します。
+## **Multi-Lockdrop**
 
-{% page-ref page="multi-lockdrop.md" %}
+Lockdrop is a method for distributing tokens. Participants lock tokens from other blockchains \(DOT or ETH\) for a certain duration. Native tokens are then distributed to participants and the opportunity cost that comes is taken as collateral. Repeat this multiple times to distribute the native token with value to a massive number of token holders.
+
+Bring your questions, we have answers here =&gt; [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

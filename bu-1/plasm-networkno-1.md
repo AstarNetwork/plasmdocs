@@ -1,10 +1,10 @@
-# Plasm Networkの構造
+# Структура Plasm 🏯
 
-[Plasm Network](https://www.plasmnet.io/) はすべての開発者にスケーラブルな分散アプリケーションの開発メソッドを提供するためのプロジェクトです。私達はこれを以下のアーキテクチャにより実現します。
+[Plasm Network](https://www.plasmnet.io/) предоставляет масштабируемые методы создания приложений для всех разработчиков. Такая архитектура позволяет:
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-29-155751png.png)
 
-[Plasm Network](https://www.plasmnet.io/) は Substrate を用いて構築されたレイヤー1のパブリックブロックチェーンです。その上にスケーラブルな Dapps を乗せるための独自の機能と、OVM のモジュール、そして Plasma アプリケーションに必要なスマートコントラクトの標準実装が搭載されています。また、これは Plasma Defauct Standard Chain として機能するPolkdotパラチェーンになることができます。一般に Plasmaアプリケーションをデプロイする時のデフォルトチェーンとして [Plasma Network](https://www.plasmnet.io/) が選ばれます。[Plasm Network ](https://www.plasmnet.io/)はランタイムに独自の機能を搭載することで Plasma アプリケーションに新たな可能性と快適なユーザビリティを提供します。また、[Plasm Network](https://www.plasmnet.io/) では革新的なトークン発行アルゴリズムを用いてUser/Developerファーストなトークンエコノミーを設計しています。
+Plasm Network - layer1 публичный блокчейн, который разработан на основе Substrate. На Substrate команда Plasm разрабатывает модуль OVM, Plasma модуль и остальной функционал для создания масштабируемых приложений. Plasm Network станет первым Plasma/OVM парачейном Polkadot.
 
-質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
+Остались вопросы? Не стесняйтесь, пишите в[ Discord](https://discord.com/channels/644182966574252073/659740674882666506) .
 
