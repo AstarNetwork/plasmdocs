@@ -1,12 +1,12 @@
 # Introduction 🐾
 
-[Plasm Network](https://www.plasmnet.io/)'s mission is to provide a scalable, interoperable, and decentralized application platform that defines and realizes the new form of the web: Web3.0.
+Die Mission von [Plasm Network](https://www.plasmnet.io/) ist es, eine skalierbare, interoperable und dezentralisierte Anwendungsplattform bereitzustellen, die die neue Form des Web definiert und realisiert.: Web3.0.
 
-The traditional social structure allows people with authority to monopolize information, and history has proven that these people will bend the rules to their benefit. Even if people claim that their system is fair, it still lack transparency, proving that everything is still conceived upon pillars of sand that are called trust. In contrast to this, blockchain provides a system with decentralized governance that does not require a single point of failure and making a transparent and trustless system. This is possible because blockchain is a system that allows anyone to view, prove, and host with a highly fault-tolerant consensus mechanism.
+Die traditionelle Sozialstruktur erlaubt es Menschen mit Autorität, Informationen zu monopolisieren, und die Geschichte hat bewiesen, dass diese Menschen die Regeln zu ihrem Vorteil verändern werden. Selbst wenn die Menschen behaupten, dass ihr System fair ist, so fehlt es ihm doch an Transparenz, was beweist, dass alles immer noch auf Säulen aus Sand gebaut ist, die man Vertrauen nennt. Im Gegensatz dazu bietet Blockchain ein System mit dezentralisierter Steuerung, das keinen Single Point of Failure erfordert und ein transparentes und vertrauenswürdiges System darstellt. Dies ist möglich, da Blockchain ein System ist, das es jedem erlaubt, mit einem hochgradig fehlertoleranten Konsensmechanismus einzusehen, zu beweisen und zu hosten.
 
-For end-users to fully utilize the strengths of the blockchain protocol, there must be an application that provides an interface to them. Applications that work on top of blockchains are referred to as Decentralized Application \(dApps\). Currently, there are countless dApps developed in the form of smart contracts and chain codes that are deployed on a blockchain, providing utility for various people. However, due to the decentralized nature of dApps, the processing speed is far from fast.
+Damit die Endbenutzer die Stärken des Blockchain-Protokolls voll ausschöpfen können, muss es eine Anwendung geben, die ihnen eine Schnittstelle zur Verfügung stellt. Anwendungen, die auf Blockchains aufbauen, werden als Dezentrale Anwendung \(dApps\) bezeichnet. Gegenwärtig gibt es unzählige dApps, die in Form von intelligenten Verträgen und Chain-Codes entwickelt wurden, die in einer Blockchain eingesetzt werden und verschiedenen Personen Nutzen bringen. Aufgrund des dezentralen Charakters von dApps ist die Verarbeitungsgeschwindigkeit jedoch alles andere als hoch.
 
-To solve this issue, some features are implemented on Plasm Network that are accessible from the links below.
+Um dieses Problem zu lösen, sind einige Funktionen auf Plasm Network implementiert, die über die untenstehenden Links zugänglich sind.
 
 {% page-ref page="learn/plasm-overview.md" %}
 
