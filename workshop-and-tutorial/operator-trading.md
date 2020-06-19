@@ -10,7 +10,7 @@ The Local Node can be easily set up by using the docker image for the Plasm node
 
 ```text
 $ docker pull staketechnologies/plasm-node:dApps-reward
-$ docker run -p 9944:9944 staketechnologies/plasm-node:dApps-reward --dev --ws-external
+$ docker run -p 9944:9944 staketechnologies/plasm-node:dapps-reward --dev --ws-external
 ```
 
 After that, go to [https://local.plasmnet.io/](https://local.plasmnet.io). It connects to your local node.
