@@ -18,7 +18,7 @@
 * [Структура Plasm 🏯](bu-1/plasm-networkno-1.md)
 * [Основной функционал 🏡](bu-1/koana.md)
 * [Возможности операторов 🎯](bu-1/operator-trading.md)
-* [Награды приложений  DApps🍭](bu-1/dapps-reward.md)
+* [Награды приложений  DApps��](bu-1/dapps-reward.md)
 * [Multi-Lockdrop](bu-1/multi-lockdrop.md)
 * [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn-2.md)
 * [コンセンサス](bu-1/konsensasu.md)
@@ -43,6 +43,9 @@
 
 * [よくある質問](bshikku/yokuaru.md)
 * [単語集](bshikku/untitled-1.md)
+
+---
+
 * [ホワイトペーパー](https://github.com/staketechnologies/plasmdocs/blob/master/wp/jp.pdf)
 * [テックチャネル（Discord）](https://discord.com/invite/wUcQt3R)
 
