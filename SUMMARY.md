@@ -14,7 +14,7 @@
 * [The Problems Plasm Solves 🌾](learn/the-problems-plasm-solves.md)
 * [Layer2 and Plasma ⚡](learn/layer2-and-plasma.md)
 * [Plasma Overview 🔮](learn/plasm-overview.md)
-* [Optimistic Virtual Machine 🌔](learn/optimistic-virtual-machine.md)
+* [Optimistic Virtual Machine ��](learn/optimistic-virtual-machine.md)
 * [Plasm Structure 🏯](learn/polkadot-and-plasm.md)
 * [Core Features 🏡](learn/core-features.md)
 * [Operator Trading 🎯](learn/operator-trading.md)

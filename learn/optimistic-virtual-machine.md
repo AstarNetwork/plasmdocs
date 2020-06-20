@@ -2,7 +2,7 @@
 description: Plasma and beyond.
 ---
 
-# Optimistic Virtual Machine 🌔
+# Optimistic Virtual Machine ��
 
 ### What is Optimistic Virtual Machine?
 
