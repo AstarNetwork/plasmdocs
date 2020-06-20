@@ -30,7 +30,8 @@
 
 ## Workshop & Tutorial
 
-* [Smart Contract](workshop-and-tutorial/smart-contract.md)
+* [Layer1 Smart Contract](workshop-and-tutorial/smart-contract/README.md)
+  * [Install](workshop-and-tutorial/smart-contract/install.md)
 * [Validator Guide 🔱](workshop-and-tutorial/untitled.md)
 * [Operator Trading 💱](workshop-and-tutorial/operator-trading.md)
 * [dApps Reward 🍦](workshop-and-tutorial/dapps-reward.md)
