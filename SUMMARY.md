@@ -33,6 +33,8 @@
 * [Layer1 Smart Contract](workshop-and-tutorial/smart-contract/README.md)
   * [Install](workshop-and-tutorial/smart-contract/install.md)
   * [Create Your Project by Using ink!](workshop-and-tutorial/smart-contract/create-your-project-by-using-ink.md)
+  * [Build](workshop-and-tutorial/smart-contract/build.md)
+  * [Deploy Your Smart  Contract  on Plasm](workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm.md)
 * [Validator Guide 🔱](workshop-and-tutorial/untitled.md)
 * [Operator Trading 💱](workshop-and-tutorial/operator-trading.md)
 * [dApps Reward 🍦](workshop-and-tutorial/dapps-reward.md)
