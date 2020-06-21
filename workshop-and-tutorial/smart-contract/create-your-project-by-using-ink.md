@@ -12,7 +12,7 @@ cargo contract new myproj
 cd myproj
 ```
 
-Now you could install the simplest ink! smart contract!
+Now you could install the simplest ink! smart contract! When you are making your own smart contract, feel free to edit files, and make your own smart contract.
 
 ### Test
 
