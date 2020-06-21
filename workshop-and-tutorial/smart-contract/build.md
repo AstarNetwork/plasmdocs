@@ -3,10 +3,10 @@
 Let's compile the smart contract.
 
 ```text
-cargo +nightly contract myproj
+cargo +nightly contract build
 ```
 
-Then, you can see something like this.
+Then, you can see something like this: 
 
 ![](../../.gitbook/assets/sukurnshotto-2020-06-21-103323png.png)
 

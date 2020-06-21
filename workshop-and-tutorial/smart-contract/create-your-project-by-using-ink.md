@@ -19,7 +19,7 @@ Now you could install the simplest ink! smart contract! When you are making your
 Off-chain test environment is provided by ink!. We can quickly test your codes.
 
 ```text
-cargo +nightly test
+cargo +nightly build
 ```
 
 Then,

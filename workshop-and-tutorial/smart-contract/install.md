@@ -8,28 +8,11 @@ description: >-
 
 To write smart contracts on Plasm Network, you need to set up following things on your computer.
 
-### Substrate
+### Plasm Node
 
-If you don't install Substrate yet, please set up to build Substrate as a first step.
+If you don't install Plasm Node yet, please set up from latest release:
 
-**OSX or Linux** 
-
-```text
-curl https://getsubstrate.io -sSf | bash -s -- --fast
-
-rustup target add wasm32-unknown-unknown --toolchain stable
-rustup component add rust-src --toolchain nightly
-```
-
-**Windows**
-
-if you are using Windows, please refer to [Substrate Developer Hub](https://substrate.dev/docs/en/knowledgebase/getting-started/windows-users) maintained by Parity Technologies.
-
-Then, let's install a Substrate node that contains the Contracts module.
-
-```text
-cargo install node-cli --git https://github.com/paritytech/substrate.git --force
-```
+{% embed url="https://github.com/staketechnologies/Plasm/releases/tag/v1.1.0-dusty" %}
 
 The final tool we will be installing is ink! utility. 
 
