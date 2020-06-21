@@ -36,6 +36,7 @@
   * [Build](workshop-and-tutorial/smart-contract/build.md)
   * [Deploy Your Smart  Contract  on Plasm](workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm.md)
   * [Calling Your Contract](workshop-and-tutorial/smart-contract/calling-your-contract.md)
+* [ink!](workshop-and-tutorial/ink.md)
 * [Validator Guide 🔱](workshop-and-tutorial/untitled.md)
 * [Operator Trading 💱](workshop-and-tutorial/operator-trading.md)
 * [dApps Reward 🍦](workshop-and-tutorial/dapps-reward.md)
