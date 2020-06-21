@@ -8,5 +8,25 @@ cargo contract new myproj
 
  This command creates a new folder named `myproj` 
 
+```text
+cd myproj
+```
 
+Now you could install the simplest ink! smart contract!
+
+### Test
+
+Off-chain test environment is provided by ink!. We can quickly test your codes.
+
+```text
+cargo +nightly test
+```
+
+Then,
+
+```text
+cargo +nightly test
+```
+
+You could see a successful test completion.
 
