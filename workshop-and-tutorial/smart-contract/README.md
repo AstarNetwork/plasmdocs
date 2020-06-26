@@ -4,17 +4,23 @@
 
 ### Introduction
 
-As we learned on the Substrate chapter,  Plasm Network is based on Substrate. Hence, we support ink!, an [eDSL](https://wiki.haskell.org/Embedded_domain_specific_language) to write WebAssembly based smart contracts using the Rust programming language. 
+As we learned in the Substrate chapter,  Plasm Network is based on Substrate. Hence, we support ink!, an [eDSL](https://wiki.haskell.org/Embedded_domain_specific_language) to write WebAssembly based smart contracts using the Rust programming language. 
 
 {% page-ref page="../../ecosystem/substrate.md" %}
 
-Parity technologies made an ink! tutorial and we can refer to this page: [https://substrate.dev/substrate-contracts-workshop/\#/](https://substrate.dev/substrate-contracts-workshop/#/)
+Parity Technologies made an ink! tutorial and we can refer to this page: [https://substrate.dev/substrate-contracts-workshop/\#/](https://substrate.dev/substrate-contracts-workshop/#/)
 
- The contents below are derived from the document and optimized for Plasm Network 
+ The contents below are derived from that document and optimized for Plasm Network 
 
 {% page-ref page="install.md" %}
 
+{% page-ref page="create-your-project-by-using-ink.md" %}
 
+{% page-ref page="build.md" %}
+
+{% page-ref page="deploy-your-smart-contract-on-plasm.md" %}
+
+{% page-ref page="calling-your-contract.md" %}
 
 
 
