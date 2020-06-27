@@ -44,10 +44,10 @@ cargo install --git https://github.com/alexcrichton/wasm-gc
 Install Plasm node from git source:
 
 ```text
-cargo install --force --git https://github.com/staketechnologies/Plasm --tag v1.0.0 plasm-cli
+cargo install --force —locked  --git https://github.com/staketechnologies/Plasm --tag v1.0.0 plasm-cli
 ```
 
-Run node in [Plasm testnet](https://telemetry.polkadot.io/#/PlasmTestnet%20v1):
+Run node on the Plasm Testnet
 
 ```text
 plasm-node
@@ -58,10 +58,6 @@ Or run in your local development network:
 ```text
 plasm-node --dev
 ```
-
-
-
-
 
 The final tool we will be installing is ink! utility. 
 
