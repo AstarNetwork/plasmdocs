@@ -6,5 +6,7 @@ ink! is developed by Parity Technologies under the [Apache License2.0](https://g
 
 ink! Tutorial👇
 
+{% embed url="https://substrate.dev/substrate-contracts-workshop/\#/1/introduction" %}
+
     
 
