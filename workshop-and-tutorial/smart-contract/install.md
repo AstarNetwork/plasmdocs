@@ -12,11 +12,11 @@ To write smart contracts on Plasm Network, you need to set up the following thin
 
 Currently, we have 2 ways to install ****the Plasm Node as follows.
 
-**Install from the latest release**
+**①Install from the latest release**
 
 {% embed url="https://github.com/staketechnologies/Plasm/releases/tag/v1.1.0-dusty" %}
 
-**Build from source**
+**②Build from source**
 
 Make sure you have already installed Rust 
 

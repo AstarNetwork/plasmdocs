@@ -1,14 +1,14 @@
-# Deploy Your Smart Contract  on Plasm
+# Deploy Your Smart Contract on Plasm
 
-Before deploying your smart contract on the Plasm Mainnet, you are recommended to deploy the contract on you local Development chain, and after that on the [Dusty Network](https://medium.com/stake-technologies/the-dusty-plasm-93df289b3a5).
+Before deploying your smart contract on the Plasm Mainnet, you are recommended to deploy the contract on your local development chain, and after that on the [Dusty Network](https://medium.com/stake-technologies/the-dusty-plasm-93df289b3a5).
 
 ### Development Network
 
-Try on you smart contract on local chain looks like a good idea. Let's open Plasm Network Portal UI.
+Try out your smart contract on the local chain looks like a good idea. Let's open Plasm Network Portal UI.
 
 {% embed url="https://apps.plasmnet.io" %}
 
-The first, select **Local Node** in top left chain selection menu.
+First, select **Local Node** on the top left of the chain selection menu.
 
 ![](../../.gitbook/assets/select_local.png)
 
@@ -16,21 +16,21 @@ Click **Contracts** tab and choose **Code** -&gt; **Upload WASM**.
 
 ![](../../.gitbook/assets/upload.png)
 
-Metadata and WASM code should be filled out the form.
+Metadata and WASM code should be filled out in the form.
 
 ![](../../.gitbook/assets/filled_form.png)
 
-Uploading the code takes around 220 Unit.
+Uploading the code takes around 220 Units.
 
 ![](../../.gitbook/assets/uploaded.png)
 
-Congratulations! You uploading your first L1 Smart contract! Let's create instance of your code using **Deploy** button.
+Congratulations! You uploading your first L1 Smart contract! Let's create an instance of your code using "**Deploy"** button.
 
 ![Don&apos;t foget to set 100 unit endowment.](../../.gitbook/assets/deploy.png)
 
-Deploy transaction fee is around 1.6 unit. As result you can see instance of your smart contract.
+The transaction fee is around 1.6 units. As the result you can see the instance of your smart contract.
 
 ![](../../.gitbook/assets/instance_000.png)
 
-Contract interaction will be explained in next chapter.
+Contract interaction will be explained in the next chapter.
 

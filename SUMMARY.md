@@ -34,7 +34,7 @@
   * [Install](workshop-and-tutorial/smart-contract/install.md)
   * [Create Your Project by Using ink!](workshop-and-tutorial/smart-contract/create-your-project-by-using-ink.md)
   * [Build](workshop-and-tutorial/smart-contract/build.md)
-  * [Deploy Your Smart Contract  on Plasm](workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm.md)
+  * [Deploy Your Smart Contract on Plasm](workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm.md)
   * [Calling Your Contract](workshop-and-tutorial/smart-contract/calling-your-contract.md)
 * [ink!](workshop-and-tutorial/ink.md)
 * [Layer2 Applications](workshop-and-tutorial/layer2-applications.md)
