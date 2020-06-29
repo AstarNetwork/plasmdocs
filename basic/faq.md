@@ -1,5 +1,7 @@
 # FAQ
 
+![](../.gitbook/assets/sukurnshotto-2020-06-29-180001png.png)
+
 ## Lockdrop
 
 **Q, How many lockdrops in total will there be? And what dates will these lockdrops be happening?**

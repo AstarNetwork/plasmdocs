@@ -1,4 +1,4 @@
-# Importing Ethereum Seed 🔐
+# Importing Ethereum Seed
 
 This is a guide for importing your ECDSA key \(notably Ethereum wallets\) into [Plasm Network ](https://www.plasmnet.io/)to use it within the network. Any Ethereum private keys can be used within [Plasm Network](https://www.plasmnet.io/), however, this guide will be most helpful for Etherum lockdrop participants to access their tokens.
 

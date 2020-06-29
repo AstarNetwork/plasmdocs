@@ -1,4 +1,4 @@
-# dApps Reward 🍦
+# dApps Reward
 
 ## Preparation
 

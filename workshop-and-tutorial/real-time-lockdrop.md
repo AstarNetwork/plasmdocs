@@ -1,4 +1,4 @@
-# Real-Time Lockdrop 🍬
+# Real-Time Lockdrop
 
 **Declaimer**: This is an experimental module. Some features don't work or work with issues. Please report problems [on GitHub](https://github.com/staketechnologies/Plasm/issues/new/choose) if they arise.
 

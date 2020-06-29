@@ -1,5 +1,7 @@
 # Glossary
 
+![](../.gitbook/assets/sukurnshotto-2020-06-29-180120png.png)
+
 ## Plasm Network
 
 Plasm Network is a Substrate based layer1 blockchain that is compatible with Polkadot natively. The main feature of this blockchain is "high scalability". Layer2 solutions are implemented. 

@@ -1,4 +1,4 @@
-# Lockdrop 🔒
+# Lockdrop
 
 ## Lockdrop participants can claim PLM token here 👇
 

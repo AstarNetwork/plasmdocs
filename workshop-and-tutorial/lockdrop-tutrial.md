@@ -1,4 +1,4 @@
-# Lockdrop Tutorial 🔒
+# Lockdrop Tutorial
 
 ## How to Participate in the Lockdrop
 

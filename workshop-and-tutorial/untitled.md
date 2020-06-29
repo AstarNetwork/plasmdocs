@@ -1,4 +1,4 @@
-# Validator Guide 🔱
+# Validator Guide
 
 {% hint style="info" %}
 This short guide explains how to become a Plasm testnet validator step by step.

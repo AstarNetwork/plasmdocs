@@ -1,2 +1,2 @@
-# Chain Spec 📌
+# Chain Spec
 

@@ -1,10 +1,10 @@
-# Token Economics 📈
+# Token Economics
 
 {% hint style="warning" %}
-This include advanced contents.
+This includes advanced content.
 {% endhint %}
 
-[Plasm Network](https://www.plasmnet.io/)'s token ecosystem is built in to Polkadot. Therefore, this document includes the same formula and values as Polkadot. The token name of Plasm Network is PLM pronounced "PLUM".
+[Plasm Network](https://www.plasmnet.io/)'s token ecosystem is built into Polkadot. Therefore, this document includes the same formula and values as Polkadot. The token name of Plasm Network is PLM pronounced "PLUM".
 
 PLM has four main roles:
 

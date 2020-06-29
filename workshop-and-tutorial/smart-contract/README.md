@@ -1,5 +1,7 @@
 # Layer1 Smart Contract
 
+![](../../.gitbook/assets/sukurnshotto-2020-06-29-175649png.png)
+
 [Plasm Network](https://www.plasmnet.io/) supports smart contracts on the layer1. In this tutorial,  we will learn how to write, deploy, and interact with your smart contract on Plasm Network.
 
 ### Introduction
