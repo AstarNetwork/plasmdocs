@@ -24,5 +24,5 @@ Parity Technologies made an ink! tutorial and we can refer to this page: [https:
 
 {% page-ref page="calling-your-contract.md" %}
 
-
+If you have questions, please join [Discord](https://discord.gg/kH3Njpr) to ask!
 
