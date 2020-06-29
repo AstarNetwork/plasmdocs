@@ -1,4 +1,4 @@
-# Polkadot 🔴
+# Polkadot
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-221155png.png)
 

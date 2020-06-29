@@ -2,7 +2,7 @@
 description: Functionalities of the Plasm Testnet
 ---
 
-# Core Features 🏡
+# Core Features
 
 The Plasm testnet has three additional features in addition to the existing Substrate modules:
 

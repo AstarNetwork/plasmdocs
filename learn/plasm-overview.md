@@ -1,14 +1,14 @@
-# Plasma Overview 🔮
+# Plasma Overview
 
 Plasma is a blockchain scaling solution invented by Joseph Poon and Vitalik Buterin.
 
 [White paper](https://plasma.io/plasma.pdf)
 
-Plasma is a framework to make a side chain and connect it to a main chain \(e.g. Ethereum\). The side chain and the main chain communicate each other.
+Plasma is a framework to make a side chain and connect it to the main chain \(e.g. Ethereum\). The side chain and the main chain communicate with each other.
 
 ## Why Plasma?
 
-Blockchains are slow and expensive by design. Blockchains can't be an infrastructure of the world without an high scalability. Plasma intends on making blockchains fast and cheap without sacrificing safety and decentralization.
+Blockchains are slow and expensive by design. Blockchains can't be an infrastructure of the world without high scalability. Plasma intends on making blockchains fast and cheap without sacrificing safety and decentralization.
 
 ## In the Plasm Network
 
@@ -24,7 +24,7 @@ Below shows an example of an NFT state transition that has ownership as a state 
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-183843png.png)
 
-State transition work flow:
+State transition workflow:
 
 1. Owner signes the transaction 
 2. A new state must be specified for output   

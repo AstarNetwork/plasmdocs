@@ -1,4 +1,4 @@
-# Introduction 🐾
+# Introduction
 
 ![](.gitbook/assets/sukurnshotto-2020-06-29-173257png.png)
 

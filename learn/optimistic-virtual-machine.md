@@ -2,13 +2,13 @@
 description: Plasma and beyond.
 ---
 
-# Optimistic Virtual Machine 🌔
+# Optimistic Virtual Machine
 
 ### What is Optimistic Virtual Machine?
 
 The OVM \(Optimistic Virtual Machine\) is a virtual machine designed to support all layer 2 protocols. It is a possible unification of all layer 2 protocols meaning: **Plasm Network will not only be for Plasma applications but also for Lightning Network applications or any other layer 2 protocols.**
 
-Plasm Network will houses all layer 2 scaling solutions. Users can choose which solution to use and make their use case possible with minimum overhead.
+Plasm Network will house all layer 2 scaling solutions. Users can choose which solution to use and make their use case possible with minimum overhead.
 
 ### Learn More
 
@@ -24,7 +24,7 @@ The OVM and its surrounding architecture are as shown in the figure below.
 
 Plasma applications \(Plapps\) can be created and run properly through the dedicated client application L1 adapter. Plapps are composed of OVM, Plasma, and contract modules in the Plasm Network.
 
-In case of Ethereum Plasma applications, everything provided in these modules was managed by smart contracts. This makes it difficult to predict the gas cost when running a plasma application containing complicated logic. Also, building applications that combines multiple contracts can be confusing for developers.
+In the case of Ethereum Plasma applications, everything provided in these modules was managed by smart contracts. This makes it difficult to predict the gas cost when running a plasma application containing complicated logic. Also, building applications that combine multiple contracts can be confusing for developers.
 
 For this reason, Plasma Network has considered a superficially concise and easy-to-understand configuration by separating the roles into three modules. The OVM Module implements a function called Universal Adjudication to initiate a dispute if the user finds a mistake in the information on layer 1. The Plasma Module supports a common implementation of some of the essential smart contracts. Only the implementations that require different logic are managed by the Contracts Module.
 
@@ -34,7 +34,7 @@ You can see the details below.
 
 ## Smart Contract <a id="smart-contract"></a>
 
-Smart contracts in Plasm Network's layer 2 applications require **ERC20 Contracts** and **Payout Contracts**. Each layer 2 application developer must implement their own smart contract.
+Smart contracts in Plasm Network's layer 2 applications require **ERC20 Contracts** and **Payout Contracts**. Each layer 2 application developers must implement their own smart contract.
 
 ### ERC20 Contract <a id="erc20-contract"></a>
 
@@ -339,7 +339,7 @@ DepositedRangeRemoved(Range);
 
 ### Compiled Predicate <a id="compiled-predicate"></a>
 
-The role of `CompiledPredicate` is optimizing claim size by compiling complex proposition to one simple predicate. The Plasma Module has method for running layer 2 applications via Predicate. `PayoutContract` withdrawal processing that exists for each layer 2 application can only be called via Compiled Predicate. This allows for transactions on layer 2 to be as secure as layer 1.
+The role of `CompiledPredicate` is optimizing claim size by compiling complex proposition to one simple predicate. The Plasma Module has a method for running layer 2 applications via Predicate. `PayoutContract` withdrawal processing that exists for each layer 2 application can only be called via Compiled Predicate. This allows for transactions on layer 2 to be as secure as layer 1.
 
 #### Storage <a id="storage"></a>
 

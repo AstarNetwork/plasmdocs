@@ -1,4 +1,4 @@
-# Substrate 🅾
+# Substrate
 
 Parity Substrate is a framework for building custom blockchains. Substrate offers blockchain templates or you can define a unique structure and logic. Substrate implements a high level of security, making blockchain development fast, easy, and secure.
 
@@ -12,4 +12,6 @@ Substrate features include:
 
 Learn more: 👇  
 Substrate : [https://www.substrate.io/](https://www.substrate.io/)
+
+![](../.gitbook/assets/sukurnshotto-2020-06-29-173943png.png)
 

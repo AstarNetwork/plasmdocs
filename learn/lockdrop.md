@@ -4,6 +4,8 @@
 
 [https://lockdrop.plasmnet.io/\#/lock-form](https://lockdrop.plasmnet.io/#/lock-form)
 
+![](../.gitbook/assets/sukurnshotto-2020-06-29-175215png.png)
+
 ## Introduction
 
 [Lockdrop](https://blog.edgewa.re/full-details-on-the-edgeware-lockdrop) is a new low-risk economic incentivization mechanism, using opportunity costs rather than legal tender \(or assets\) as collateral. [Plasm Network](https://www.plasmnet.io/) uses this mechanism to issue tokens with monetary value. This section explains the [Plasm Network](https://www.plasmnet.io/) token issuance mechanism. Lockdrop was first conceived by [Edgeware](https://edgewa.re/), and the implementation on the [Plasm Network](https://www.plasmnet.io/) is an expansion of this. The native token used on the [Plasm Network](https://www.plasmnet.io/) is symbol: PLM and pronounced "PLUM". PLM will only calculate from the 15th decimal place and truncate any numbers below that. For more information regarding the role of PLM, please refer to the PLM Token Economics section.

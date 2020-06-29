@@ -1,24 +1,24 @@
 # Table of contents
 
-* [Welcome 💁](Introduction.md)
-* [Introduction 🐾](introduction-1.md)
+* [Welcome](Introduction.md)
+* [Introduction](introduction-1.md)
 
 ## Ecosystem
 
-* [Polkadot 🔴](ecosystem/polkadot.md)
-* [Substrate 🅾](ecosystem/substrate.md)
-* [Community 🎨](ecosystem/community.md)
+* [Polkadot](ecosystem/polkadot.md)
+* [Substrate](ecosystem/substrate.md)
+* [Community](ecosystem/community.md)
 
 ## Learn
 
-* [The Problems Plasm Solves 🌾](learn/the-problems-plasm-solves.md)
-* [Layer2 and Plasma ⚡](learn/layer2-and-plasma.md)
-* [Plasma Overview 🔮](learn/plasm-overview.md)
-* [Optimistic Virtual Machine 🌔](learn/optimistic-virtual-machine.md)
-* [Plasm Structure 🏯](learn/polkadot-and-plasm.md)
-* [Core Features 🏡](learn/core-features.md)
-* [Operator Trading 🎯](learn/operator-trading.md)
-* [dApps Reward 🍭](learn/dapps-reward.md)
+* [The Problems Plasm Solves](learn/the-problems-plasm-solves.md)
+* [Layer2 and Plasma](learn/layer2-and-plasma.md)
+* [Plasma Overview](learn/plasm-overview.md)
+* [Optimistic Virtual Machine](learn/optimistic-virtual-machine.md)
+* [Plasm Structure](learn/polkadot-and-plasm.md)
+* [Core Features](learn/core-features.md)
+* [Operator Trading](learn/operator-trading.md)
+* [dApps Reward](learn/dapps-reward.md)
 * [Lockdrop 🔒](learn/lockdrop.md)
 * [Token Economics 📈](learn/token-economy.md)
 * [Consensus 🎬](learn/consennsus.md)

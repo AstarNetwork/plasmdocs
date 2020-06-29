@@ -2,7 +2,9 @@
 description: Plasm Network community channels
 ---
 
-# Community 🎨
+# Community
+
+![](../.gitbook/assets/sukurnshotto-2020-06-29-174141png.png)
 
 ## Ecosystem Tool
 
