@@ -23,3 +23,5 @@ Second, let's change a smart contract state by sending a "message", send `flip()
 
 Using these two kinds of messages, your DApp can easily write and read the smart contract data. Have fun!
 
+Any questions? Feel free to ask [us](https://discord.gg/kH3Njpr).
+

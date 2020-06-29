@@ -26,3 +26,5 @@ The metadata is also known as contract ABI.
 
  Now, you can find a `metadata.json` file in the same directory.
 
+Any questions? Feel free to ask [us](https://discord.gg/kH3Njpr).
+

@@ -30,3 +30,5 @@ cargo +nightly test
 
 You could see a successful test completion.
 
+Any questions? Feel free to ask [us](https://discord.gg/kH3Njpr).
+

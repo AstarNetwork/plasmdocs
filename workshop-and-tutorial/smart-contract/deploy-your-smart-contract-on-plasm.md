@@ -34,3 +34,5 @@ The transaction fee is around 1.6 units. As the result you can see the instance 
 
 Contract interaction will be explained in the next chapter.
 
+Any questions? Feel free to ask [us](https://discord.gg/kH3Njpr).
+

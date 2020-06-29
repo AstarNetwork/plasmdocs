@@ -41,19 +41,19 @@ Install additional build tools:
 cargo install --git https://github.com/alexcrichton/wasm-gc
 ```
 
-Install Plasm node from git source:
+Install the Plasm node from git source:
 
 ```text
 cargo install --force —locked  --git https://github.com/staketechnologies/Plasm --tag v1.0.0 plasm-cli
 ```
 
-Run node on the Plasm Testnet
+Run node on the Plasm canary network  \(Dusty Network\)
 
 ```text
 plasm-node
 ```
 
-Or run in your local development network:
+Or run on your local development network:
 
 ```text
 plasm-node --dev
@@ -68,4 +68,6 @@ cargo install cargo-contract --vers 0.6.1 --force
 {% hint style="info" %}
 You can  use  "cargo contract --help" to understand commands
 {% endhint %}
+
+Any questions? Feel free to ask [us](https://discord.gg/kH3Njpr).
 
