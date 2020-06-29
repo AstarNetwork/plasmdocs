@@ -15,6 +15,8 @@ The work of the community is maintained under a public domain license at
 
 Plasm Network is an open source project. There are a lot of opportunities to get involved. 
 
+![](.gitbook/assets/sukurnshotto-2020-06-29-173603png.png)
+
 ## Want to learn more? Please visit 👇
 
 {% page-ref page="learn/the-problems-plasm-solves.md" %}
