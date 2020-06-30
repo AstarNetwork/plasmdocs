@@ -11,19 +11,19 @@ PLMのテストネットトークンをまだ持っていな方は [Discord](htt
 > Local Nodeは [Docker](https://hub.docker.com/repository/docker/staketechnologies/plasm-node) を用いることで以下のコマンドで簡単に起動することができます。
 
 ```text
-$ docker pull stakedtechnologies/plasm-node:0.7.0
-$ docker run -p 9944:9944 staketechnologies/plasm-node:0.7.0 --dev --ws-external
+$ docker pull staketechnologies/plasm-node:dApps-reward
+$ docker run -p 9944:9944 staketechnologies/plasm-node:dapps-reward --dev --ws-external
 ```
 
-そして、[https://apps.plasmnet.io/](https://apps.plasmnet.io/) にアクセスし、**Settings** から リモートノード・エンドポイントで **Local Node** を選択してください。\(デフォルトでは Plasm Testnet v3 が選択されています。\)
+そして、[https://local.plasmnet.io/](https://local.plasmnet.io/) にアクセスしてください。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-225822png.png)
+![Home](../.gitbook/assets/screen-shot-2020-06-11-at-15.24.26.png)
 
 > その他の方法で plasm-node を動かしたい方は Readme を参照してみてください。また、分からないことがあれば [Discord](https://discord.gg/UmVqZm) でお気軽に聞いてください。
 
 ## Operator Trading を使ってみ
 
-まずは [https://apps.plasmnet.io/](https://apps.plasmnet.io/) にアクセスしましょう_。_
+まずは [https://local.plasmnet.io/](https://local.plasmnet.io/) にアクセスしましょう_。_
 
 ### ① コントラクトをアップロードする <a id="1d31"></a>
 
@@ -33,11 +33,11 @@ $ docker run -p 9944:9944 staketechnologies/plasm-node:0.7.0 --dev --ws-external
 
 まだ、コントラクトを1つもアップロードしていない場合以下のような画面を見ることができます。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-230056png.png)
+![Upload WASM](../.gitbook/assets/screen-shot-2020-06-11-at-15.44.05.png)
 
 ここで、 Upload WASM を選択すると以下のようなモーダルウィンドウが現れます。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-230136png.png)
+![Upload WASM \(Modal Window\)](../.gitbook/assets/screen-shot-2020-06-11-at-15.45.42.png)
 
 ink! Contract をコンパイルした WASM ファイルと ABI の JSON ファイルをここで入力します。もちろん、自分でスマートコントラクトを開発してアップロードすることも可能です。
 
@@ -55,11 +55,11 @@ ink! Contract をコンパイルした WASM ファイルと ABI の JSON ファ�
 
 ダウンロードした “sample.wasm” ファイルを _**compiled contract WASM**_ に “metadata.json”ファイルを _**contract ABI**_ にアップロードします。すると、以下のようにパラメータが表示されます。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-231553png.png)
+![Ready upload contract binary](../.gitbook/assets/screen-shot-2020-06-11-at-15.56.08.png)
 
 あとは、 _**Upload -&gt; Sign and Submit**_ を押すと下のようにアップロードしたコントラクトコードが表示されます。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-231629png.png)
+![Uploaded the Smart Contract](../.gitbook/assets/screen-shot-2020-06-11-at-15.59.49.png)
 
 これで、コントラクトのアップロードが完了しました。お疲れさまです。
 
@@ -85,7 +85,9 @@ Plasm ではコントラクトをアップロードしただけでは、使う�
 _**テストネットでコントラクトをデプロイするには約1000PLM程度必要になります。トランザクションが失敗する方は保有しているトークンの量を確認し足りない場合は Discord でトークンを貰ってください。\(追記：2020/1/1\)**_
 {% endhint %}
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-232017png.png)
+![Deploy&#x3092;&#x62BC;&#x3059;](../.gitbook/assets/screen-shot-2020-06-11-at-16.04.52.png)
+
+![&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30FC;&#x3092;&#x6307;&#x5B9A;](../.gitbook/assets/screen-shot-2020-06-11-at-16.10.34.png)
 
 ここで、すでにSubstrate の既存の機能を使ってスマートコントラクトをアップロードした経験がある方は「おや？」と思うかもしれません。上記のポータルにある赤枠で囲われた _**Parameters**_ とは何でしょうか？
 
@@ -93,7 +95,7 @@ Plasm では Contract ごとに特殊なパラメータを追加で設定する�
 
 コントラクトのデプロイが完了すると、以下のようにデプロイしたコントラクトとそのオペレータが表示されます。最初のオペレータは、Deploy したアカウント\(今回は local 環境なので ALICE\)と同じになっています。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-232117png.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.14.43.png)
 
 このように Plasm ではコントラクトの**所有者**という概念が存在します。そしてコントラクトの**所有者**をオペレータ\(Operator\)と呼びます。
 
@@ -101,15 +103,15 @@ Plasm では Contract ごとに特殊なパラメータを追加で設定する�
 
 最後にオペレータを変更してみまし。これもとても簡単です。サイドバーから _**Operator**_ という項目をクリックしてください。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-232239png.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.17.17.png)
 
 すると、以下のようなモーダルが現れます。オペレータを選択するとそのオペレータが保有してるコントラクトのリストが表示されるので、オペレータを変更したいコントラクトを選択してください。そして、新たなオペレータを選択してみましょう。今回は ALICE から BOB に SAMPLE.WASM コントラクトの所有権を移譲します。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-232448png.png)
+![ALICE&#x306E;&#x4FDD;&#x6709;&#x3057;&#x3066;&#x3044;&#x308B;SAMPLE.WASM&#x304C;&#x73FE;&#x308C;&#x308B;](../.gitbook/assets/screen-shot-2020-06-11-at-16.19.46%20%281%29.png)
 
 _**Change Operator -&gt; Sign and Submit**_ を押してしばらく待つと以下のようにコントラクトのオペレータが ALICE から BOB に変更されていることが確認できます。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-29-232530png.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-16.21.22.png)
 
 これでコントラクトを作りその所有権を受け渡すデモが終了しました。
 

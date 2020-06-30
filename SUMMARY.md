@@ -32,7 +32,7 @@
 * [スマートコントラクトを書く](ru/untitled-1.md)
 * [Validatorになる](ru/validatorninaru.md)
 * [Operator Trading Tutrial](ru/operator-trading-tutrial.md)
-* [Dapps Rewards Tutrial](ru/dapps-rewards-tutrial.md)
+* [dApps Rewards Tutrial](ru/dapps-rewards-tutrial.md)
 * [Lockdrop Tutorial](ru/lockdrop-tutorial.md)
 * [Unlock Tutorial](ru/unlock-tutorial.md)
 * [Ethereum SeedでAddressを作成](ru/ethereum-seeddeaddresswo.md)
