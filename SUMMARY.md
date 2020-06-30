@@ -29,6 +29,7 @@
 
 ## 作る
 
+* [開発の全体像](ru/no.md)
 * [スマートコントラクトを書く](ru/untitled-1.md)
 * [Validatorになる](ru/validatorninaru.md)
 * [Operator Trading Tutrial](ru/operator-trading-tutrial.md)
