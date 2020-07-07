@@ -23,17 +23,21 @@
 
 [Plasm Network](https://www.plasmnet.io/)はOSSであり、開発している機能や計画、これからのto-doを公開しています。コントリビューションをお待ちしています！
 
-**今やっていること（6月）**
+\*\*\*\*
 
-* [ ] Plasm Network上でのスマートコントラクトの実装
-* [ ] DApps Rewardの実装
+## Contributions Area
 
-**これからやっていくこと（7月以降）**
+[Plasm Network](https://www.plasmnet.io/) is an open-source project anyone can join, develop, and modify.  Here are the Plasm  Network's status and contribution areas.
 
-* [ ] a
+ **Current Focus  \(June\)**
 
-**To** **Do**
+* [ ] Smart Contract module 
+* [ ] DApps Reward
 
-* [ ] グラフィカルデザイン
-* [ ] ドキュメンテーションの翻訳
+**To-Do**
+
+* [ ] 2nd Lockdrop and 3rd Lockdrop
+* [ ] SUpport Layer2 Plasma  
+* [ ] Plasm Network graphical design and marketing
+* [ ] Document translation 
 
