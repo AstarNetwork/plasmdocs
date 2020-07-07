@@ -21,7 +21,7 @@ $ docker run -p 9944:9944 staketechnologies/plasm-node:dapps-reward --dev --ws-e
 
 > その他の方法で plasm-node を動かしたい方は Readme を参照してみてください。また、分からないことがあれば [Discord](https://discord.gg/UmVqZm) でお気軽に聞いてください。
 
-## Operator Trading を使ってみ
+## Operator Trading を使ってみる
 
 まずは [https://local.plasmnet.io/](https://local.plasmnet.io/) にアクセスしましょう_。_
 

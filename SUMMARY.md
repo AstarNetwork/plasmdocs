@@ -30,14 +30,21 @@
 ## 作る
 
 * [開発の全体像](ru/no.md)
+* [ローカルでノードを動かす](ru/rkarudendowokasu.md)
 * [スマートコントラクトを書く](ru/untitled-1.md)
-* [Validatorになる](ru/validatorninaru.md)
-* [Operator Trading Tutrial](ru/operator-trading-tutrial.md)
-* [dApps Rewards Tutrial](ru/dapps-rewards-tutrial.md)
-* [Lockdrop Tutorial](ru/lockdrop-tutorial.md)
-* [Unlock Tutorial](ru/unlock-tutorial.md)
+* [テスト](ru/tesuto.md)
+* [デプロイ](ru/depuroi.md)
+* [UI開発](ru/ui-kai-fa.md)
 * [Ethereum SeedでAddressを作成](ru/ethereum-seeddeaddresswo.md)
-* [Real Time Lockdrop](ru/real-time-lockdrop.md)
+
+## チュートリアル
+
+* [Validatorになる](chtoriaru/validatorninaru.md)
+* [Operator Trading Tutrial](chtoriaru/operator-trading-tutrial.md)
+* [dApps Rewards Tutrial](chtoriaru/dapps-rewards-tutrial.md)
+* [Lockdrop Tutorial](chtoriaru/lockdrop-tutorial.md)
+* [Unlock Tutorial](chtoriaru/unlock-tutorial.md)
+* [Real Time Lockdrop](chtoriaru/real-time-lockdrop.md)
 
 ## ベーシック
 
