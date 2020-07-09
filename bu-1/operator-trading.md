@@ -1,6 +1,8 @@
 # Operator Trading
 
-Operator Trading は**コントラクトの所有者を管理する機能です。コントラクトを資産として移転することが可能になります**。Dapps Rewards の仕組みにより、Operator は恒常的に利益を得ることができます。
+![](../.gitbook/assets/sukurnshotto-2020-06-29-175012png.png)
+
+Operator Trading は**コントラクトの所有者を管理する機能です。コントラクトを資産として移転することが可能になります**。Dapps Reward の仕組みにより、Operator は恒常的に利益を得ることができます。
 
 {% page-ref page="dapps-reward.md" %}
 

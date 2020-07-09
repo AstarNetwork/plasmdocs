@@ -1,8 +1,8 @@
-# Dapps Rewards
+# Dapps Reward
 
 {% embed url="https://medium.com/stake-technologies/dapps-%E9%96%8B%E7%99%BA%E8%80%85%E3%81%8C%E3%83%9E%E3%83%8D%E3%82%BF%E3%82%A4%E3%82%BA%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E7%94%9F%E6%88%90%E5%A0%B1%E9%85%AC%E3%81%A8%E3%81%AF-1062a0925909" %}
 
-Dapps Rewards はスマートコントラクトの開発者または管理者に継続的な報酬を与える仕組みです。[Plasm Network](https://www.plasmnet.io/) の Staking 報酬の50% は [Plasm Network](https://www.plasmnet.io/) の価値を向上させたアプリケーション作成者に当てられます。[Plasm Network](https://www.plasmnet.io/) ではスマートコントラクトに対してスマートコントラクトの管理者を割り当てることができ、この管理者のことを "Operator" と呼びます。ユーザはスマートコントラクトに対しても Staking をすることができます。この行為を Nominate と呼び、それを行う人を Dapps Nominator と呼びます。下図のように、多くの Nominate を受けたスマートコントラクトの Operator は新たに発行されたPLMトークンをチェーンから受け取ることができます。
+Dapps Reward はスマートコントラクトの開発者または管理者に継続的な報酬を与える仕組みです。[Plasm Network](https://www.plasmnet.io/) の Staking 報酬の50% は [Plasm Network](https://www.plasmnet.io/) の価値を向上させたアプリケーション作成者に当てられます。[Plasm Network](https://www.plasmnet.io/) ではスマートコントラクトに対してスマートコントラクトの管理者を割り当てることができ、この管理者のことを "Operator" と呼びます。ユーザはスマートコントラクトに対しても Staking をすることができます。この行為を Nominate と呼び、それを行う人を Dapps Nominator と呼びます。下図のように、多くの Nominate を受けたスマートコントラクトの Operator は新たに発行されたPLMトークンをチェーンから受け取ることができます。
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-30-122939png.png)
 
