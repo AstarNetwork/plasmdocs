@@ -6,7 +6,7 @@
 
 ローカルノードへのデプロイをするためには、ローカルでノードを動かす必要があります。「ローカルでノードを動かす」のセクションに従ってノードを動かしてください。
 
-{% page-ref page="rkarudendowokasu.md" %}
+{% page-ref page="run-node.md" %}
 
 次に、[Plasm Network](https://www.plasmnet.io/)の[Plasm Network Portal](https://apps.plasmnet.io/)を開きましょう。
 

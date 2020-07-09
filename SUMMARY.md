@@ -29,11 +29,11 @@
 
 ## 作る
 
-* [開発の全体像](ru/no.md)
-* [ローカルでノードを動かす](ru/rkarudendowokasu.md)
-* [スマートコントラクトを書く](ru/untitled-1.md)
-* [テスト](ru/tesuto.md)
-* [デプロイ](ru/depuroi.md)
+* [開発の全体像](ru/dev-overview.md)
+* [ローカルでノードを動かす](ru/run-node.md)
+* [スマートコントラクトを書く](ru/writing-smart-contract.md)
+* [テスト](ru/test.md)
+* [デプロイ](ru/deploy.md)
 * [UI開発](ru/ui-kai-fa.md)
 * [Ethereum SeedでAddressを作成](ru/ethereum-seeddeaddresswo.md)
 
