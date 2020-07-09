@@ -1,6 +1,6 @@
 # デプロイ
 
-Plasm Networkのメインネットにデプロイする前に、自身のローカルチェーンとDusty Networkにデプロイすることがおすすめされています。これは安全な開発を行なうためであり、ローカル環境とDusty Network上でテストを行なうことでデプロイするスマートコントラクトの動作を確認することができます。
+[Plasm Network](https://www.plasmnet.io/)のメインネットにデプロイする前に、自身のローカルチェーンとDusty Networkにデプロイすることがおすすめされています。これは安全な開発を行なうためであり、ローカル環境とDusty Network上でテストを行なうことでデプロイするスマートコントラクトの動作を確認することができます。
 
 ### ローカルチェーンへのデプロイ
 
@@ -8,7 +8,7 @@ Plasm Networkのメインネットにデプロイする前に、自身のロー�
 
 {% page-ref page="rkarudendowokasu.md" %}
 
-次に、Plasm Networkの[Plasm Network Portal](https://apps.plasmnet.io/)を開きましょう。
+次に、[Plasm Network](https://www.plasmnet.io/)の[Plasm Network Portal](https://apps.plasmnet.io/)を開きましょう。
 
 ![](../.gitbook/assets/screen-shot-2020-07-09-at-12.25.16.png)
 
