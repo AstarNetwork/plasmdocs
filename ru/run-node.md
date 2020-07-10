@@ -14,7 +14,7 @@ Plasm Networkにスマートコントラクトをデプロイする前に、ロ�
 
 **①最新のリリースからインストールする**
 
-{% embed url="https://github.com/staketechnologies/Plasm/releases/tag/v1.1.0-dusty" %}
+{% embed url="https://github.com/staketechnologies/Plasm/releases" %}
 
 **②ソースからビルドする**
 
@@ -48,13 +48,7 @@ Plasm NetworkのR&Dチェーン（準テストネット）であるDusty Network
 plasm-node
 ```
 
-開発環境でノードを動かすには以下のコマンドを実行します。
-
-```text
-plasm-node --dev
-```
-
-最後にPlasm上のスマートコントラクト言語であるink!を書くためにink!をインストールします。
+開発環境でノードを動かすには以下のコマンドを実行します。最後にPlasm上のスマートコントラクト言語であるink!を書くためにink!をインストールします。
 
 ```text
 cargo install cargo-contract --vers 0.6.1 --force
