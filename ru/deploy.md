@@ -18,9 +18,19 @@
 
 今回はローカルチェーンにデプロイするため、"Local Node"を選択します。（※ Dusty Network、Plasm Networkにデプロイしたい場合はそれぞれのロゴをクリックします。）
 
-続いて、画面左端の"Contracts"タブをクリックし "Upload WASM"を選択します。WASMとはWebAssemblyの略語であり、ink!などの言語で書かれたスマートコントラクトがコンパイルされた状態を指します。
-
 ![](../.gitbook/assets/upload.png)
+
+続いて、画面左端の"Contracts"タブをクリックし "Upload WASM"を選択します。WASMとはWebAssemblyの略語であり、ink!などの言語で書かれたスマートコントラクトがコンパイルされた状態を指します。ここではMetadataもしくはWASMコードをアップロードすることができます。
+
+（※ サンプルコードが必要な方は [ink! のサンプルコード](https://github.com/paritytech/ink/tree/v2.1.0/examples)をご利用ください。）
+
+![](../.gitbook/assets/deploy.png)
+
+ファイルをアップロードするためには、少額のトランザクションコストが必要となります。
+
+![](../.gitbook/assets/uploaded.png)
+
+コントラクトがアップデートできたことを確認したら実際にデプロイを行いインスタンスを作成しましょう。
 
 
 
