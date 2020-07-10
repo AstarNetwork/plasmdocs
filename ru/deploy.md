@@ -24,13 +24,31 @@
 
 （※ サンプルコードが必要な方は [ink! のサンプルコード](https://github.com/paritytech/ink/tree/v2.1.0/examples)をご利用ください。）
 
-![](../.gitbook/assets/deploy.png)
+![](../.gitbook/assets/filled_form.png)
 
 ファイルをアップロードするためには、少額のトランザクションコストが必要となります。
 
 ![](../.gitbook/assets/uploaded.png)
 
 コントラクトがアップデートできたことを確認したら実際にデプロイを行いインスタンスを作成しましょう。
+
+アップロードではバイナリコードをアップロードします。 デプロイはアップロードしたバイナリコードに初期値を与えてスマートコントラクトを実体化します。この両者には少量のトランザクションコストがかかります。
+
+![](../.gitbook/assets/deploy.png)
+
+画面、右下のDeployを押しWASMファイルを実際にデプロイします。デプロイ後、以下のようにインスタンスが作成されたことを確認できます。
+
+![](../.gitbook/assets/instance_000.png)
+
+### Dusty Network、Plasm Networkへのデプロイ
+
+Dusty Network及び、Plasm Networkへのデプロイはローカルチェーンのデプロイとほとんど同じです。"Select Network"でPlasm NetworkもしくはDusty Networkを選択し上記と同じステップでコントラクトをデプロイします。
+
+![](../.gitbook/assets/select_local.png)
+
+
+
+
 
 
 
