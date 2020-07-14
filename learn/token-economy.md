@@ -1,10 +1,10 @@
-# Token Economics
+# Token Economics 📈
 
 {% hint style="warning" %}
-This includes advanced content.
+This include advanced contents.
 {% endhint %}
 
-[Plasm Network](https://www.plasmnet.io/)'s token ecosystem is built into Polkadot. Therefore, this document includes the same formula and values as Polkadot. The token name of Plasm Network is PLM pronounced "PLUM".
+[Plasm Network](https://www.plasmnet.io/)'s token ecosystem is built in to Polkadot. Therefore, this document includes the same formula and values as Polkadot. The token name of Plasm Network is PLM pronounced "PLUM".
 
 PLM has four main roles:
 
@@ -91,13 +91,13 @@ $$
 y =q/(1-q)
 $$
 
-$$Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} =q/(1-q):1:t$$
+$$Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} =q/(1-q):1:t$$ 
 
 $$
 Rewards_{stakers}:Rewards_{operators} =q/(1-q)+1:t
 $$
 
-Here, the ratio of the amount of reward and the ratio of the inflation rate are equal.
+ Here, the ratio of the amount of reward and the ratio of the inflation rate are equal.
 
 $$
 \begin{aligned}

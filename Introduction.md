@@ -1,47 +1,34 @@
 ---
-description: "Hi everyone! Thank you for checking Plasm Network documentation \U0001F609"
+description: "Olá a todos! Obrigado por verificar a documentação da Plasm Network \U0001F609"
 ---
 
-# Welcome
+# Bem-Vindo 💁
 
 ![](.gitbook/assets/sukurnshotto-2020-05-27-200702png.png)
 
-## Welcome to the Plasm Network documentation!
+## **Bem-Vindo a Documentação do Plasm Network!**
 
-Plasm Network is a **scalable and interoperable infrastructure for Web3.0**. Since Plasm Network is built with [Parity’s Substrate framework](https://www.substrate.io/), it can be a future [Polkadot](https://polkadot.network/) **Parachain** that also acts as a scalable smart contract platform. The [Polkadot](https://polkadot.network/) Relaychain, by design, does not support smart contracts. This allows Plasm the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands DApp developers have. Ideally, the developers can build whatever applications on Plasm Network without having to consider its scalability.
+Plasm Network é uma infraestrutura **escalável e interoperável** para a Web3.0. Como a Plasm Network é construída com a estrutura Substrate da Parity, pode ser um futuro Polkadot Parachain que também atua como uma plataforma de contrato inteligente escalável. O Polkadot Relaychain, por design não suporta contratos inteligentes. Isso permite que a Plasm tenha a oportunidade de preencher essa lacuna. A escalabilidade é obviamente uma das demandas mais cruciais dos desenvolvedores do DApp. Idealmente, os desenvolvedores podem criar quaisquer aplicativos na Plasm Network sem precisar considerar sua escalabilidade.  
 
-The work of the community is maintained under a public domain license at  
+
+O trabalho da comunidade é mantido sob uma licença de domínio público em:
+
 [https://github.com/stakedtechnologies/Plasm](https://github.com/stakedtechnologies/Plasm)
 
-Plasm Network is an open source project. There are a lot of opportunities to get involved. 
+Plasm Network é um projeto de código aberto. Existem muitas oportunidades para se envolver.  
 
-![](.gitbook/assets/sukurnshotto-2020-06-29-173603png.png)
 
-## Want to learn more? Please visit 👇
+## **Deseja saber mais? Por favor, visite👇**
 
 {% page-ref page="learn/the-problems-plasm-solves.md" %}
 
-## Want to build on Plasm Network? Please visit 👇
+## **Deseja construir na Plasm Network? Por favor, visite👇**
 
-{% page-ref page="workshop-and-tutorial/smart-contract/" %}
+{% page-ref page="workshop-and-tutorial/smart-contract.md" %}
 
 ## Want to run a node? Please visit 👇
 
 {% page-ref page="workshop-and-tutorial/untitled.md" %}
 
-## Contributions Area
 
-[Plasm Network](https://www.plasmnet.io/) is an open-source project anyone can join, develop, and modify.  Here are the Plasm  Network's status and contribution areas.
-
- **Current Focus  \(June\)**
-
-* [ ] Smart Contract module 
-* [ ] DApps Reward
-
-**To-Do**
-
-* [ ] 2nd Lockdrop and 3rd Lockdrop
-* [ ] SUpport Layer2 Plasma  
-* [ ] Plasm Network graphical design and marketing
-* [ ] Document translation 
 

@@ -1,58 +1,63 @@
-# dApps Reward
+---
+description: 'To Do: Finish the translation'
+---
 
-## Preparation
+# dApps Reward 🍦
 
-Like in the previous tutorial, deploy a smart contract. In the sidebar press Staking; it should show like the following.
+## **Preparação**
+
+Assim como fizemos no tutorial anterior, precisamos implantar um contrato. Depois disso, quando você for para a barra lateral e pressionar DappsStaking, deverá aparecer da seguinte maneira. Quando você estiver aqui, nossa preparação terminou!
 
 {% page-ref page="operator-trading.md" %}
 
 ![dAppsStaking Board](../.gitbook/assets/screen-shot-2020-06-11-at-16.26.00.png)
 
-## The concept of dApps Rewards
+## **O conceito de Dapps Rewards**
 
-dApps Rewards Work Flow:
+A logística geral de como o Dapps Rewards funciona é a seguinte.
 
-1. Select a smart contract to stake \(nominate\)   
-2. The nominator and operator will receive a reward proportional to the amount that has been staked.
+1. Selecione um contrato inteligente para apostar. \(isso também é chamado de nomeado\) 2. O nomeador e o operador de contrato inteligente nomeado ganharão incentivos econômicos da cadeia Plasm que são proporcionais à quantia que foi apostada.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-30-160230png%20%281%29.png)
 
-Try it out:
+### ① **Vamos nomear um contrato inteligente!**
 
-### ① Nominate a Smart Contract:
-
-Click **dAppsStaking -&gt; Account** **actions**. If you have not previously staked anything, your screen should look similar to below. Press + New stake button in the top right corner.
+Clique DappsStaking -&gt; Account actions.Se você não apostou nada anteriormente, sua tela deve se parecer com a seguinte. A partir daqui, pressione + Novo botão de aposta no canto superior direito.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.29.20.png)
 
-The following screen should appear that contains four input parameters as follows:
+Depois disso, você poderá ver uma tela parecida com a imagem a seguir. Existem quatro parâmetros de entrada aqui e vamos analisar todos eles.
 
-* **Stash account**: Specifies which account tokens to use
-* **Controller account**: Specifies the account that will be controlling the nomination status. For security reasons, it is recommended to have different accounts for the Stash account and Controller account, but for this demo, Bob’s account is used for both.
-* **Value bonded**: Specifies the amount of token used for staking
-* **Payment destination**: Specifies the recipient of the Rewards
+* **Stash account:** Especifica quais tokens da conta usar. Pense nisso como uma "conta bancária".
+* **Controller account:** Especifica a conta que controlará o status da indicação. Por motivos de segurança, é recomendável ter contas diferentes para as contas Stash e Controller, mas para esta demonstração, usarei a conta de Bob para ambas.
+* **Value bonded:** Especifica a quantidade de token usada para staking.
+* **Payment destination:** Especifica o destinatário das recompensas.
+
+The following screen should appear that contains four input parameters as follows:
 
 ![Bonding](../.gitbook/assets/screen-shot-2020-06-11-at-16.31.22.png)
 
-Enter the inputs and press Bonding -&gt; sign and Submit to issue a transaction. The following screen should appear, with a new card and the same value that was given in the Bonding Preferences menu.
+Depois de concluir as entradas, pressione Bonding\(união\) -&gt; sign\(Assinar\) e Submit \(Enviar\) para emitir uma transação. Agora você deve conseguir ver algo como a imagem a seguir; um novo cartão deve aparecer com o mesmo valor que foi fornecido no menu Preferências de ligação.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.33.28.png)
 
-Tokens have been successfully locked, but this is not enough to nominated someone. Press the Nominate button in the right side of the card to officially nominate.
+A quantia especificada vinculada e a conta receptora são iguais ao valor que fornecemos
+
+Com isso, bloqueamos com sucesso nosso token. Mas isso não basta dizer que nomeamos alguém. Para isso, devemos pressionar o botão Nomear no lado direito do cartão.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.35.14.png)
 
-Choose the Smart Contract that will be nominated. Select the demo contract named “SAMPLE.WASM” uploaded from the last article! You can only choose a Smart Contract that has the canBeNominate parameter as Yes.
+Pressionar para mostrar o seguinte formulário. Aqui, escolhemos o Contrato Inteligente que será indicado. Vamos selecionar o contrato de demonstração chamado "SAMPLE.WASM" que enviamos do último artigo! Observe que só podemos escolher um contrato inteligente que tenha o parâmetro canBeNominate como Sim.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-22.54.43.png)
 
-Press Nominate -&gt; Sign and Submit to issue a transaction. After a few moments, as we can see in the following image:
+Pressione Nominate\(Nomear\) -&gt; Sign\(assinar\) e Submit \(Enviar\) para emitir uma transação. Após alguns instantes, como podemos ver na imagem a seguir, vemos uma nova seção denominada Nomeando com o contrato inteligente que escolhemos na etapa anterior.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-16.38.25.png)
 
-Now we have finished nominating a Smart Contract!
+Agora terminamos de nomear um contrato inteligente!
 
-### ② Let’s **receive some dApps Rewards**!
+### ② **Vamos receber algumas recompensas Dapps!**
 
 If you nominate a smart contract in the era \(E\), you can receive rewards after the next era \(E + 1\) is finished.
 

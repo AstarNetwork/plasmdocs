@@ -1,43 +1,49 @@
-# Importing Ethereum Seed
+---
+description: >-
+  This section includes sensitive information. Please check English version as
+  well.
+---
 
-This is a guide for importing your ECDSA key \(notably Ethereum wallets\) into [Plasm Network ](https://www.plasmnet.io/)to use it within the network. Any Ethereum private keys can be used within [Plasm Network](https://www.plasmnet.io/), however, this guide will be most helpful for Etherum lockdrop participants to access their tokens.
+# Importando sementes Ethereum 🔐
 
-**Disclaimer:** Please be cautious when handling Ethereum Private key, as it may potentially compromise your Ethereum wallet when it is leaked.
+Este é um guia para importar sua chave ECDSA \(principalmente as carteiras Ethereum\) para a [Plasm Network](https://www.plasmnet.io/) para usá-la na rede. Quaisquer chaves privadas do Ethereum podem ser usadas na [Plasm Network](https://www.plasmnet.io/), no entanto, este guia será mais útil para os participantes do bloqueio de tela Ethereum acessarem seus tokens.
+
+**Isenção de responsabilidade:** tenha cuidado ao manusear a chave privada do Ethereum, pois isso pode comprometer sua carteira da Ethereum quando ela vazar.
 
 ## Plasm Network Portal
 
-The first step for importing your Ethereum wallet to [Plasm Network](https://www.plasmnet.io/) is to access the Plasm Network Portal. You can use the following IPFS link.
+O primeiro passo para importar sua carteira Ethereum para a Plasm Network é acessar o Portal da [Plasm Network](https://www.plasmnet.io/). Você pode usar o seguinte link IPFS.
 
 * ​[IPFS Link](https://ipfs.io/ipfs/QmZQBwe4DeW6aruayemGXA5ysexsqJVRzF6YHHeNPzKi7d)​
 
-> IPFS as content-oriented distributed storage is a most safe place for sensitive code. Any changes in code will change URI and makes this code unavailable.
+O IPFS como armazenamento distribuído orientado a conteúdo é o local mais seguro para códigos confidenciais. Quaisquer alterações no código alterarão o URI e o tornarão indisponível.
 
-For better performance, we recommend to use local installed [IPFS node](https://github.com/ipfs-shipyard/ipfs-desktop). And IPFS Companion extension for your browser:
+Para um melhor desempenho, recomendamos o uso do [nó IPFS](https://github.com/ipfs-shipyard/ipfs-desktop) instalado local. E a extensão IPFS Companion para o seu navegador:
 
-* Chrome: [https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)​
-* FireFox: [https://addons.mozilla.org/ru/firefox/addon/ipfs-companion/](https://addons.mozilla.org/ru/firefox/addon/ipfs-companion/)​
+* Chrome:[ https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)​
+* FireFox:[ https://addons.mozilla.org/ru/firefox/addon/ipfs-companion/](https://addons.mozilla.org/ru/firefox/addon/ipfs-companion/)​
 
-You should be able to see the following page.
+Você poderá ver a página a seguir.
 
-## Importing Ethereum Seed Key
+## **Importando chave de semente do Ethereum**
 
-Now prepare your Ethereum private key that you wish to import to [Plasm Network](https://www.plasmnet.io/). For lockdrop participants, it _must_ be the private key of a wallet that made the lockdrop transaction. It can either be a hex-string, or mnemonic.
+Agora prepare sua chave privada Ethereum que você deseja importar para a [Plasm Network](https://www.plasmnet.io/). Para participantes do bloqueio, deve ser a chave privada de uma carteira que fez a transação. Pode ser uma sequência hexadecimal ou mnemônica.
 
-> How to export your keys from [Metamask guide](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
+Como exportar suas chaves do[ Metamask gui](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)a.
 
-When you have finished exporting the keys from your Ethereum wallet, you are ready to import them to Plasm Network. Go to **Accounts** -&gt; **Add account** from the side tab.
+Quando você terminar de exportar as chaves da sua carteira Ethereum, estará pronto para importar para a Plasm Network. Vá para **Accounts \(Contas\) -&gt; Add account \(Adicionar Conta\)** na guia lateral.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-173619png.png)
 
-Please choose **ECDSA** type of keypair and hex-string for seed \(if you export Metamask key by [guide](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)\).
+Por favor, escolha o tipo de par de chaves e a sequência hexadecimal ECDSA para a semente \(se você exportar a chave Metamask pelo [guia](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)\).
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-173905png%20%281%29.png)
 
-Fill all of the fields including password as save account.
+Preencha outros campos, incluindo a senha, como salvar conta.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-173938png.png)
 
-If everything went well, you should be able to see a new wallet with the type of ECDSA being imported. Additionally, for lockdrop participants, you should see that the imported address contains the PLM that you've received from the lockdrop.
+Se tudo der certo, você poderá ver uma nova carteira com o tipo de ECDSA sendo importado. Além disso, para os participantes do bloqueio, você deve ver que o endereço importado contém o PLM que você recebeu do bloqueio.
 
-Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Alguma pergunta? Não hesite em perguntar-nos no [Discord Tech Channel](https://discord.com/invite/Z3nC9U4).
 

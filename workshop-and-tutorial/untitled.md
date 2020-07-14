@@ -1,26 +1,28 @@
-# Validator Guide
+# Guia do validador 🔱
 
 {% hint style="info" %}
-This short guide explains how to become a Dusty Network validator step by step.
+Este pequeno guia explica como se tornar um validador Plasm testnet passo a passo.
 {% endhint %}
 
-* Install node **v1.0.0-dusty** using [binaries](https://github.com/staketechnologies/Plasm/releases/tag/v1.0.0-dusty) or [building from source code](https://github.com/staketechnologies/Plasm#building-from-source).
-* Launch node `plasm-node --validator --name node-name --rpc-cors all`
-* Wait for syncing up.
+1. Instale o node v1.0.0-dusty  usando [binários](https://github.com/staketechnologies/Plasm/releases/tag/v1.0.0-dusty) ou a partir do [código fonte](https://github.com/staketechnologies/Plasm#building-from-source)
+2. Inicie o node plasm-node --validator --name node-name --rpc-cors all.
+3. Aguarde a sincronização
+
+
 
 ![](../.gitbook/assets/testnet_sync.png)
 
-* Open "[Setting](https://apps.plasmnet.io/#/settings)" and select "local node".
+* Abra "[Configuração](https://apps.plasmnet.io/#/settings)" e selecione o nó local.
 
 ![](../.gitbook/assets/testnet_settings.png)
 
-* Open "[Accounts](https://apps.plasmnet.io/#/accounts)" and create a new account.
+* Abra “[Accounts](https://apps.plasmnet.io/#/accounts)” e crie uma nova conta.
 
 ![](../.gitbook/assets/testnet_accounts.png)
 
-* Share your validator account address with **Stake Technologies** team via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSday0ckkK43TzJgKtQmJdzkudQNFDXspZAuUGi5Y5vfjkis3Q/viewform).
-* [Claim tokens](https://medium.com/stake-technologies/dusty-lockdrop-how-to-claim-def048fa353) for transactions or request them on [the Discord](https://discord.gg/Z3nC9U4) **\#faucet** channel.
-* Open Toolbox window and call `rotateKeys()` RPC call or use curl command:
+* Compartilhe o endereço da sua conta de validador com a equipe da Stake Technologies por meio do [Formulário do Google.](https://docs.google.com/forms/d/e/1FAIpQLSday0ckkK43TzJgKtQmJdzkudQNFDXspZAuUGi5Y5vfjkis3Q/viewform)
+* [Reivindique tokens](https://medium.com/stake-technologies/dusty-lockdrop-how-to-claim-def048fa353) para transações ou solicite-os no canal [Discord](https://discord.gg/Z3nC9U4) \#faucet.
+* Abra a ToolBox  e faça uma chamada RPC `rotateKeys ()` ou use o comando curl:
 
 ```bash
 curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
@@ -28,21 +30,21 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 
 ![](../.gitbook/assets/testnet_rotate.png)
 
-* Save the result for the next steps.
-* Click the "Session Key" button and paste the result for the validator account.
+* Salve o resultado para as próximas etapas
+* Clique no botão "Session Key" e cole o resultado da conta do validador.
 
-## Conclusion
+## **Conclusão**
 
-When you finish this tutorial, please wait a bit while **Stake Technologies** team approves your account as a validator. Thank you for Plasm Network contribution and let's make Plasm better together!
+Ao concluir este tutorial, aguarde um pouco enquanto a equipe da Stake Technologies aprova sua conta como validadora. Obrigado pela contribuição da Plasm Network e vamos melhorar o Plasm juntos!
 
-## Testnet v3 migration
+## **Migração Testnet v3**
 
-If you have already participated in testnet V3 as a validator, you could be interested in migration. Please copy your session keys from **testnet v3 keystore** into **dusty keystore** by following commands before launch node:
+Se você já participou do testnet V3 como validador, pode estar interessado na migração. Copie suas chaves de sessão do keystore testnet v3 no keystore empoeirado, seguindo os comandos antes de iniciar o nó:
 
 ```text
 mkdir .local/share/plasm-node/chains/dusty
 cp -r .local/share/plasm-node/chains/plasm_testnet_v3/keystore .local/share/plasm-node/chains/dusty
 ```
 
-Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+alguma pergunta? Não hesite em perguntar-nos no [Discord Tech Channel.](https://discord.gg/Z3nC9U4)
 

@@ -1,26 +1,26 @@
 ---
-description: Functionalities of the Plasm Testnet
+description: Funcionalidades do testnet Plasm
 ---
 
-# Core Features
+# Recursos Principais 🏡
 
-The Plasm testnet has three additional features in addition to the existing Substrate modules:
+Além de todos os módulos existentes para o Substrate, o Plasm testnet possui três recursos adicionais.
 
-## **Operator Trading**
+## **Operador de Negociação \(Operator Trading\)**
 
-This is enhanced smart contract owner management which allows tokenization of contracts and transfer of contract ownership.
+Isso se concentra no gerenciamento do proprietário do contrato. Além disso, ele pode tokenizar contratos, o que significa que permite a transferência de propriedade do contrato!
 
 {% page-ref page="operator-trading.md" %}
 
 ## **dApps Rewards**
 
-This is the reward system for dApps \(including Plasm Applications\) developers. It is a blockchain-specific monetization model for the Web3.0 and maybe even the next generation.
+Como o nome sugere, isso se concentra no sistema de recompensa para o desenvolvedor de Dapps \(incluindo Plasm Applications\). Este é um modelo de monetização específico para blockchain para a Web3.0. Ousamos dizer que é o modelo de monetização para a próxima geração.
 
 {% page-ref page="dapps-reward.md" %}
 
 ## **Multi-Lockdrop**
 
-Lockdrop is a method for distributing tokens. Participants lock tokens from other blockchains \(DOT or ETH\) for a certain duration. Native tokens are then distributed to participants and the opportunity cost that comes is taken as collateral. Repeat this multiple times to distribute the native token with value to a massive number of token holders.
+O Lockdrop é um método para distribuir tokens. Os participantes bloqueiam seus tokens de blockchains existentes \(como DOT ou ETH\) por um determinado período. Em seguida, distribuímos os tokens para os participantes bloqueados e assumimos o custo de oportunidade resultante do bloqueio de um token como garantia. Um bloqueio múltiplo é quando repetimos isso várias vezes para distribuir o token nativo com valor a um grande número de detentores de tokens.
 
 Bring your questions, we have answers here =&gt; [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

@@ -1,30 +1,30 @@
-# dApps Reward
+# dApps Reward 🍭
 
-dApps Rewards is a reward mechanism for developers or administrators of smart contracts. 50% of Plasm Network's staking reward goes to application developers who have enhanced the value of the Plasm Network. Plasm allows the assignment of a smart contract administrator, called an "operator." "Operators" can be "Nominated" by other dApps "Nominators." As shown below, the operator of the smart contract receiving many nominations can receive newly minted PLM token from the chain.
+O Dapps Rewards é um mecanismo que recompensa continuamente desenvolvedores ou administradores de contratos inteligentes. 50% da recompensa de apostas da Plasm Network é destinada a desenvolvedores de aplicativos que aprimoraram o valor da Plasm Network. A Plasm Networking  permite atribuir um administrador de contrato inteligente a um contrato inteligente, e esse administrador é chamado de "Operador". O usuário também pode fazer contratos inteligentes. Essa ação é chamada de nomeado e a pessoa que faz isso é chamada de nomeador de Dapps. Como mostrado abaixo, o operador do contrato inteligente que recebe muitos candidatos pode receber o token PLM recém-emitido da cadeia.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-195848png.png)
 
-Operator and Nominator reward algorithms, respectively. Define the following variables:
+Definiremos como distribuir essa recompensa ao Operador e Nominador, respectivamente. Defina as seguintes variáveis:
 
-* $$Rewards_{nominate}$$ : The total rewards allocated to Nominator.
-* $$Rewards_{contract}$$ : The total rewards allocated to smart contracts.
-* $$Rewards_{nominate_{i,j}}$$ : The rewards allocated to the j-th Nominate for the i-th smart contract.
-* $$Rewards_{contract_i}$$ : The rewards allocated to the operator of the i-th smart contract.
-* $$n$$ : The number of smart contract.
-* $$m_i$$ : The number of Nominate against the i-th smart contract.
-* $$stake_{i,j}$$ : The amount of PLM staked by the j-th Nominate for the i-th smart contract.
+* $$Rewards_{nominate}$$ : O total de recompensas alocadas ao Nominator.
+* $$Rewards_{contract}$$ : O total de prêmios alocados a contratos inteligentes.
+* $$Rewards_{nominate_{i,j}}$$ : As recompensas alocadas ao j-ésimo candidato ao j-th contrato inteligente.
+* $$Rewards_{contract_i}$$ : As recompensas alocadas ao operador do i-th contrato inteligente.
+* $$n$$ : O número de contrato inteligente.
+* $$m_i$$ : O número de indicados contra o i-ésimo contrato inteligente.
+* $$stake_{i,j}$$ : A quantidade de PLM apostada pelo j-th candidato para o i-th contrato inteligente.
 
-Then, $$Nominate_ {i, j}$$ gives the following reward:
+A, $$Nominate_ {i, j}$$ dá a seguinte recompensa por esta aposta.
 
 $$Rewards_{nominate_{i,j}}=Rewards_{nominate} \times \frac{\sum_{j}^{m_i}stake_{i,j}}{\sum_i^n\sum_j^{m_i}stake_{i,j}}$$
 
-The nominator can get a reward proportional to the ratio of their stake amount to the total stake amount for the smart contract nominated. The operator of $$contract_i$$ will receive the following rewards:
+O nomeador pode receber uma recompensa proporcional à proporção entre o valor da sua estaca e o valor total da estaca do contrato inteligente, independentemente do contrato inteligente selecionado. O operador de  $$contract_i$$ que recebeu a Estaca receberá a seguinte recompensa.
 
 $$Rewards_{contract_i}=Rewards_{contract}\times\frac{stake_{i,j}}{\sum_i^n\sum_j^{m_i}stake_{i,j}}$$
 
-Also, the operator can get a reward proportional to the ratio of the stake of the smart contract owned by oneself to the stake of the smart contract. This creates an incentive for the nominator to stake on smart contracts that would simply increase the value of the token. Operators can also receive semi-permanent rewards by receiving stakes on smart contracts managed by themselves. This is one solution to the difficult problem of monetizing application developers \(administrators\) on the chain.
+Por outro lado, o operador pode receber uma recompensa proporcional à proporção da participação do contrato inteligente de sua propriedade em relação à participação do contrato inteligente. Isso cria um incentivo para o nomeador apostar em contratos inteligentes que simplesmente aumentariam o valor do token. Os operadores também podem receber recompensas semi-permanentes, recebendo participações em contratos inteligentes gerenciados por eles mesmos. Esperamos que esta seja uma solução inovadora para o difícil problema de monetizar desenvolvedores de aplicativos \(administradores\) na cadeia.
 
 {% hint style="info" %}
-**The operators and nominators have to wait to receive rewards.**
+**Os operadores e nominadores precisam esperar para receber recompensas.**
 {% endhint %}
 
