@@ -2,16 +2,16 @@
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-221155png.png)
 
-[Polkadot](https://polkadot.network/) is an open-source project led by the [Web3 Foundation](https://web3.foundation/). It is a sharded protocol that connects different blockchain networks.
+[Polkadot](https://polkadot.network/) è un progetto open source gestito da [Web3 Foundation](https://web3.foundation/). È un protocollo frammentato che collega diverse reti blockchain.
 
-### Polkadot Basics
+### Nozioni di base di Polkadot
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-230056png.png)
 
-Polkadot consists of two parts: Relaychain and Parachain.
+Polkadot è composta da due parti: Relaychain e Parachain.
 
-* **Relaychain:** This is the core of Polkadot which is responsible for network security, consensus, and cross-chain interoperability.
-* **Parachain:** These are sovereign blockchains with custom tokens and optimized functionality for specific use cases. Parachain connection to Relaychain is priced on a pay-as-you-go basis or a continuous connectivity lease.
+* **Relaychain:** Questo è il nucleo di Polkadot responsabile della sicurezza delle rete, del consenso e dell'interoperabilità cross-chain \(tra le blockchain\).
+* **Parachain:** Queste sono blockchain sovrane con token personalizzati e funzionalità ottimizzata per casi d'uso specifici. La connessione di una Parachain alla Relaychain ha un prezzo basato sul principio pay-as-you-go \(paga mentre vai\), o su di un contratto di locazione a connettività continua.
 
 [**Plasm Network**](https://www.plasmnet.io/) is built on Parity Substrate making it one of the first SCALABLE smart contract Polkadot Parachains.
 
