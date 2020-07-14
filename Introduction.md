@@ -1,47 +1,32 @@
 ---
-description: "Hi everyone! Thank you for checking Plasm Network documentation \U0001F609"
+description: "Добро пожаловать в раздел документации Plasm Network, надеемся, что этот раздел будет для вас полезен и поможет лучше понять систему и ее возможности. Добро пожаловать! \U0001F609"
 ---
 
-# Welcome
+# Приветствие 💁
 
-![](.gitbook/assets/sukurnshotto-2020-05-27-200702png.png)
+![](.gitbook/assets/sukurnshotto-2020-05-27-200702-1png.png)
 
-## Welcome to the Plasm Network documentation!
+Plasm Network - это масштабируемая и совместимая с другими элементами инфраструктура для Web3.0. Поскольку Plasm Network построена на основе технологии Substrate от Parity, это может быть будущий [Парачейн](https://wiki.polkadot.network/docs/ru/glossary#%D0%BF%D0%B0%D1%80%D0%B0%D1%87%D0%B5%D0%B9%D0%BDparachain) \(Parachain – блокчейн присоединенный к основной сети Polkadot \). Также Plasm Network будет выступать в качестве масштабируемой платформы для смарт-контрактов и децентрализованных приложений. По замыслу, Polkadot и его[ релейная сеть](https://wiki.polkadot.network/docs/ru/glossary#%D1%80%D0%B5%D0%BB%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F-%D1%86%D0%B5%D0%BF%D1%8Crelay-chain) \(основная сеть Polkadot\) не поддерживает смарт-контракты. Plasm заполняет этот пробел и поэтому является важным компонентом экосистемы Polkadot. Масштабируемость, очевидно, является одним из наиболее важных требований, предъявляемых разработчиками DApp\(децентрализованных приложений\). Мы работаем над тем, чтобы разработчики могли создавать любые приложения в Plasm Network без необходимости учитывать ее масштабируемость, так как это уже учтено в архитектуре Plasm и Polkadot в целом.
 
-Plasm Network is a **scalable and interoperable infrastructure for Web3.0**. Since Plasm Network is built with [Parity’s Substrate framework](https://www.substrate.io/), it can be a future [Polkadot](https://polkadot.network/) **Parachain** that also acts as a scalable smart contract platform. The [Polkadot](https://polkadot.network/) Relaychain, by design, does not support smart contracts. This allows Plasm the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands DApp developers have. Ideally, the developers can build whatever applications on Plasm Network without having to consider its scalability.
+Работа сообщества поддерживается в соответствии с лицензией - public domain license \(лицензией общественного достояния\)
 
-The work of the community is maintained under a public domain license at  
-[https://github.com/stakedtechnologies/Plasm](https://github.com/stakedtechnologies/Plasm)
+https://github.com/stakedtechnologies/Plasm​
 
-Plasm Network is an open source project. There are a lot of opportunities to get involved. 
+Plasm Network - проект с открытым исходным кодом. Мы приглашаем всех заинтересованных лиц принять участие в развитии и использовании проекта. Ждем вас в нашем комьюнити:
 
-![](.gitbook/assets/sukurnshotto-2020-06-29-173603png.png)
+* **Tech Discussion**：[https://discord.gg/wUcQt3R](https://discord.gg/wUcQt3R)
+* **Twitter** : [https://twitter.com/Plasm\_Network](https://twitter.com/Plasm_Network)
+* **Telegram** : [https://t.me/PlasmOfficial](https://t.me/PlasmOfficial)
 
-## Want to learn more? Please visit 👇
+## **Хотите узнать больше? Пожалуйста, посетите 👇**
 
-{% page-ref page="learn/the-problems-plasm-solves.md" %}
+{% page-ref page="bu-1/plasm-networkgaku.md" %}
 
-## Want to build on Plasm Network? Please visit 👇
+## **Хотите использовать Plasm Network? Вам сюда 👇**
 
-{% page-ref page="workshop-and-tutorial/smart-contract/" %}
+{% page-ref page="ru/untitled-1.md" %}
 
-## Want to run a node? Please visit 👇
+## **Хотите запустить узел\(ноду\)? Вам сюда 👇**
 
-{% page-ref page="workshop-and-tutorial/untitled.md" %}
-
-## Contributions Area
-
-[Plasm Network](https://www.plasmnet.io/) is an open-source project anyone can join, develop, and modify.  Here are the Plasm  Network's status and contribution areas.
-
- **Current Focus  \(June\)**
-
-* [ ] Smart Contract module 
-* [ ] DApps Reward
-
-**To-Do**
-
-* [ ] 2nd Lockdrop and 3rd Lockdrop
-* [ ] SUpport Layer2 Plasma  
-* [ ] Plasm Network graphical design and marketing
-* [ ] Document translation 
+{% page-ref page="ru/validatorninaru.md" %}
 
