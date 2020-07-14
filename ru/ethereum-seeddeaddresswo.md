@@ -4,7 +4,7 @@
 
 [Plasm Network](https://www.plasmnet.io/)はSubstrateをベースとしたブロックチェーンです。Ethereumとは基盤が異なっていますが、異なる基盤のSeedから[Plasm Network](https://www.plasmnet.io/)上でのアドレスが作成できることはユーザビリティを大きく改善します。
 
-{% page-ref page="../ekoshisutemu/substratenitsuite.md" %}
+{% page-ref page="../ekoshisutemu/substrate.md" %}
 
 {% hint style="danger" %}
 **免責事項 :** Ethereumの秘密鍵が流出すると、Ethereumウォレットが危険にさらされる可能性があるので、取り扱いには注意が必要です。

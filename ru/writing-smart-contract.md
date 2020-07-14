@@ -6,7 +6,9 @@
 
 ### イントロダクション
 
-Plasm NetworkはWebAssemblyをサポートしているので、
+Plasm NetworkはWebAssemblyをサポートしているので、WebAssemblyに対応している全ての言語（Go、Rust、C など）に対応することができます。現在サポートされているのはRustベースのeDSLである ink! であり、このセクションではink!を使ったスマートコントラクトの書き方について説明します。
+
+
 
 
 

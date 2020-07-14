@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Welcome 💁](Introduction.md)
-* [イントロダクション](intorodakushon.md)
+* [イントロダクション](introduction.md)
 
 ## エコシステム
 
-* [Polkadotについて](ekoshisutemu/polkadotnitsuite.md)
-* [Substrateについて](ekoshisutemu/substratenitsuite.md)
+* [Polkadotについて](ekoshisutemu/polkadot.md)
+* [Substrateについて](ekoshisutemu/substrate.md)
 
 ## 学ぶ <a id="bu-1"></a>
 

@@ -8,7 +8,7 @@
 
 [Plasm Network](https://www.plasmnet.io/)は[Parity Technologies](https://www.parity.io/)社の開発している[Parity Substrateフレームワーク](https://substrate.dev/)を用いて実装されています。これにより[Polkadot](https://polkadot.network/)に接続をすることができます。（Polkadotに接続するブロックチェーンはSubstrateによって作成されている必要があります。）Polkadotと[Plasm  Network](https://www.plasmnet.io/)の詳細は以下よりご確認ください。
 
-{% page-ref page="ekoshisutemu/polkadotnitsuite.md" %}
+{% page-ref page="ekoshisutemu/polkadot.md" %}
 
 [Plasm Network](https://www.plasmnet.io/)はオープンソースのブロックチェーンであり、以下のドメインで最先端の実装を把握することができます。  
 [https://github.com/stakedtechnologies/Plasm](https://github.com/stakedtechnologies/Plasm)
