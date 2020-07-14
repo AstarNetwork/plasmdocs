@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Like in the previous tutorial, deploy a smart contract. In the sidebar press Staking; it should show like the following.
+Like in the previous tutorial, deploy a smart contract. In the sidebar press dAppsStaking; it should show like the following.
 
 {% page-ref page="operator-trading.md" %}
 
