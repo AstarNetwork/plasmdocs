@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](Introduction.md)
+* [Benvenuto](Introduction.md)
 * [Introduction](introduction-1.md)
 
 ## Ecosystem
