@@ -1,56 +1,51 @@
 # Table of contents
 
-* [Welcome](Introduction.md)
-* [Introduction](introduction-1.md)
+* [Welcome 💁](Introduction.md)
+* [イントロダクション](intorodakushon.md)
 
-## Ecosystem
+## エコシステム
 
-* [Polkadot](ecosystem/polkadot.md)
-* [Substrate](ecosystem/substrate.md)
-* [Community](ecosystem/community.md)
+* [Polkadotについて](ekoshisutemu/polkadotnitsuite.md)
+* [Substrateについて](ekoshisutemu/substratenitsuite.md)
 
-## Learn
+## 学ぶ <a id="bu-1"></a>
 
-* [The Problems Plasm Solves](learn/the-problems-plasm-solves.md)
-* [Layer2 and Plasma](learn/layer2-and-plasma.md)
-* [Plasma Overview](learn/plasm-overview.md)
-* [Optimistic Virtual Machine](learn/optimistic-virtual-machine.md)
-* [Plasm Structure](learn/polkadot-and-plasm.md)
-* [Core Features](learn/core-features.md)
-* [Operator Trading](learn/operator-trading.md)
-* [dApps Reward](learn/dapps-reward.md)
-* [Lockdrop](learn/lockdrop.md)
-* [Token Economics](learn/token-economy.md)
-* [Consensus](learn/consennsus.md)
-* [Plasm Mainnet](learn/plasm-mainnet.md)
-* [Chain Spec](learn/chain-spec/README.md)
-  * [Mainnet](learn/chain-spec/mainnet.md)
-  * [Testnet](learn/chain-spec/testnet.md)
-* [Plasm Network Bounties](learn/plasm-network-bounties.md)
+* [Plasm Networkが解く課題](bu-1/plasm-networkgaku.md)
+* [Plasm Networkの概要](bu-1/plasm-networkno.md)
+* [レイヤー2とPlasma](bu-1/reiy2soryshon.md)
+* [Optimistic Virtual Machine](bu-1/optimistic-virtual-machine.md)
+* [Plasm Networkの構造](bu-1/plasm-networkno-1.md)
+* [コアな特徴](bu-1/koana.md)
+* [Dapps Rewards](bu-1/dapps-reward.md)
+* [Operator Trading](bu-1/operator-trading.md)
+* [Multi-Lockdrop](bu-1/multi-lockdrop.md)
+* [Polkadotのパラチェーン戦略](bu-1/polkadotnoparachn-2.md)
+* [コンセンサス](bu-1/konsensasu.md)
+* [トークンエコノミクス](bu-1/tkunekonomikusu.md)
+* [チェーンスペック](bu-1/chnsupekku/README.md)
+  * [メインネット](bu-1/chnsupekku/meinnetto.md)
+  * [テストネット](bu-1/chnsupekku/tesutonetto.md)
+* [ロードマップ](bu-1/rdomappu.md)
 
-## Workshop & Tutorial
+## 作る
 
-* [Layer1 Smart Contract](workshop-and-tutorial/smart-contract/README.md)
-  * [Install](workshop-and-tutorial/smart-contract/install.md)
-  * [Create Your Project by Using ink!](workshop-and-tutorial/smart-contract/create-your-project-by-using-ink.md)
-  * [Build](workshop-and-tutorial/smart-contract/build.md)
-  * [Deploy Your Smart Contract on Plasm](workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm.md)
-  * [Calling Your Contract](workshop-and-tutorial/smart-contract/calling-your-contract.md)
-* [ink!](workshop-and-tutorial/ink.md)
-* [Layer2 Applications](workshop-and-tutorial/layer2-applications.md)
-* [Validator Guide](workshop-and-tutorial/untitled.md)
-* [Operator Trading](workshop-and-tutorial/operator-trading.md)
-* [dApps Reward](workshop-and-tutorial/dapps-reward.md)
-* [Lockdrop Tutorial](workshop-and-tutorial/lockdrop-tutrial.md)
-* [Unlock Tutorial](workshop-and-tutorial/unlock-tutrial.md)
-* [Importing Ethereum Seed](workshop-and-tutorial/importing-ethereum-seed.md)
-* [Real-Time Lockdrop](workshop-and-tutorial/real-time-lockdrop.md)
+* [開発の全体像](ru/no.md)
+* [スマートコントラクトを書く](ru/untitled-1.md)
+* [Validatorになる](ru/validatorninaru.md)
+* [Operator Trading Tutrial](ru/operator-trading-tutrial.md)
+* [dApps Rewards Tutrial](ru/dapps-rewards-tutrial.md)
+* [Lockdrop Tutorial](ru/lockdrop-tutorial.md)
+* [Unlock Tutorial](ru/unlock-tutorial.md)
+* [Ethereum SeedでAddressを作成](ru/ethereum-seeddeaddresswo.md)
+* [Real Time Lockdrop](ru/real-time-lockdrop.md)
 
-## Basic
+## ベーシック
 
-* [FAQ](basic/faq.md)
-* [Glossary](basic/glossary.md)
-* [Plasm Network White Paper](https://github.com/staketechnologies/plasmdocs/blob/master/wp/en.pdf)
-* [Tech Chat \(Discord\)](https://discord.com/invite/wUcQt3R)
-* [GitHub](https://github.com/staketechnologies/Plasm)
+* [よくある質問](bshikku/yokuaru.md)
+* [単語集](bshikku/untitled-1.md)
+
+---
+
+* [ホワイトペーパー](https://github.com/staketechnologies/plasmdocs/blob/master/wp/jp.pdf)
+* [テックチャネル（Discord）](https://discord.com/invite/wUcQt3R)
 
