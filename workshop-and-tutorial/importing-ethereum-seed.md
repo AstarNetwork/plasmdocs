@@ -25,7 +25,7 @@ Now prepare your Ethereum private key that you wish to import to [Plasm Network]
 
 > How to export your keys from [Metamask guide](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
 
-When you have finished exporting the keys from your Ethereum wallet, you are ready to import then to Plasm Network. Go to **Accounts** -&gt; **Add account** from the side tab.
+When you have finished exporting the keys from your Ethereum wallet, you are ready to import them to Plasm Network. Go to **Accounts** -&gt; **Add account** from the side tab.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-173619png.png)
 
