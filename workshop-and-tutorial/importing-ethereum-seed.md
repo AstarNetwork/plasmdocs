@@ -1,4 +1,4 @@
-# Importing Ethereum Seed
+# Importing Ethereum Seed 🔐
 
 This is a guide for importing your ECDSA key \(notably Ethereum wallets\) into [Plasm Network ](https://www.plasmnet.io/)to use it within the network. Any Ethereum private keys can be used within [Plasm Network](https://www.plasmnet.io/), however, this guide will be most helpful for Etherum lockdrop participants to access their tokens.
 
@@ -25,7 +25,7 @@ Now prepare your Ethereum private key that you wish to import to [Plasm Network]
 
 > How to export your keys from [Metamask guide](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
 
-When you have finished exporting the keys from your Ethereum wallet, you are ready to import them to Plasm Network. Go to **Accounts** -&gt; **Add account** from the side tab.
+When you have finished exporting the keys from your Ethereum wallet, you are ready to import then to Plasm Network. Go to **Accounts** -&gt; **Add account** from the side tab.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-173619png.png)
 
@@ -33,11 +33,11 @@ Please choose **ECDSA** type of keypair and hex-string for seed \(if you export 
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-173905png%20%281%29.png)
 
-Fill all of the fields including password as save account.
+Fill another fields including password as save account.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-173938png.png)
 
 If everything went well, you should be able to see a new wallet with the type of ECDSA being imported. Additionally, for lockdrop participants, you should see that the imported address contains the PLM that you've received from the lockdrop.
 
-Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

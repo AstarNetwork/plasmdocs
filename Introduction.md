@@ -2,7 +2,7 @@
 description: "Hi everyone! Thank you for checking Plasm Network documentation \U0001F609"
 ---
 
-# Welcome
+# Welcome 💁
 
 ![](.gitbook/assets/sukurnshotto-2020-05-27-200702png.png)
 
@@ -15,33 +15,15 @@ The work of the community is maintained under a public domain license at
 
 Plasm Network is an open source project. There are a lot of opportunities to get involved. 
 
-![](.gitbook/assets/sukurnshotto-2020-06-29-173603png.png)
-
 ## Want to learn more? Please visit 👇
 
 {% page-ref page="learn/the-problems-plasm-solves.md" %}
 
 ## Want to build on Plasm Network? Please visit 👇
 
-{% page-ref page="workshop-and-tutorial/smart-contract/" %}
+{% page-ref page="workshop-and-tutorial/smart-contract.md" %}
 
 ## Want to run a node? Please visit 👇
 
 {% page-ref page="workshop-and-tutorial/untitled.md" %}
-
-## Contributions Area
-
-[Plasm Network](https://www.plasmnet.io/) is an open-source project anyone can join, develop, and modify.  Here are the Plasm  Network's status and contribution areas.
-
- **Current Focus  \(June\)**
-
-* [ ] Smart Contract module 
-* [ ] DApps Reward
-
-**To-Do**
-
-* [ ] 2nd Lockdrop and 3rd Lockdrop
-* [ ] SUpport Layer2 Plasma  
-* [ ] Plasm Network graphical design and marketing
-* [ ] Document translation 
 

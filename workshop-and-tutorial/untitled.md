@@ -1,25 +1,25 @@
-# Validator Guide
+# Validator Guide 🔱
 
 {% hint style="info" %}
-This short guide explains how to become a Dusty Network validator step by step.
+This short guide explains the way how to become a Plasm testnet validator step by step.
 {% endhint %}
 
 * Install node **v1.0.0-dusty** using [binaries](https://github.com/staketechnologies/Plasm/releases/tag/v1.0.0-dusty) or [building from source code](https://github.com/staketechnologies/Plasm#building-from-source).
-* Launch node `plasm-node --validator --name node-name --rpc-cors all`
+* Launch node plasm-node --validator --name node-name --rpc-cors all
 * Wait for syncing up.
 
 ![](../.gitbook/assets/testnet_sync.png)
 
-* Open "[Setting](https://apps.plasmnet.io/#/settings)" and select "local node".
+* Open "[Setting](https://apps.plasmnet.io/#/settings)" and select local node.
 
 ![](../.gitbook/assets/testnet_settings.png)
 
-* Open "[Accounts](https://apps.plasmnet.io/#/accounts)" and create a new account.
+* Open "[Accounts](https://apps.plasmnet.io/#/accounts)" and create new account.
 
 ![](../.gitbook/assets/testnet_accounts.png)
 
 * Share your validator account address with **Stake Technologies** team via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSday0ckkK43TzJgKtQmJdzkudQNFDXspZAuUGi5Y5vfjkis3Q/viewform).
-* [Claim tokens](https://medium.com/stake-technologies/dusty-lockdrop-how-to-claim-def048fa353) for transactions or request them on [the Discord](https://discord.gg/Z3nC9U4) **\#faucet** channel.
+* [Claim tokens](https://medium.com/stake-technologies/dusty-lockdrop-how-to-claim-def048fa353) for transactions or request them on [Discord](https://discord.gg/Z3nC9U4) **\#faucet** channel.
 * Open Toolbox window and call `rotateKeys()` RPC call or use curl command:
 
 ```bash
@@ -29,7 +29,7 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 ![](../.gitbook/assets/testnet_rotate.png)
 
 * Save the result for the next steps.
-* Click the "Session Key" button and paste the result for the validator account.
+* Click "Session Key" button and paste the result for validator account.
 
 ## Conclusion
 
@@ -44,5 +44,5 @@ mkdir .local/share/plasm-node/chains/dusty
 cp -r .local/share/plasm-node/chains/plasm_testnet_v3/keystore .local/share/plasm-node/chains/dusty
 ```
 
-Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

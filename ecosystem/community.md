@@ -1,32 +1,34 @@
 ---
-description: Plasm Network community channels
+description: >-
+  The Plasm Network community is expanding every day. Below are the most
+  essential links to the community channels.
 ---
 
-# Community
-
-![](../.gitbook/assets/sukurnshotto-2020-06-29-174141png.png)
+# Community 🎨
 
 ## Ecosystem Tool
 
 ### Acala Network
 
-Acala is a strategic partner with Plasm Network offering a stable-coin platform built on Substrate.
+Acala is a stable coin platform on Substrate. Acala is a strategic partner.
 
-{% embed url="https://acala.network/" caption="" %}
+{% embed url="https://acala.network/" %}
 
 ### Subscan
 
-Subscan is a Substrate-based blockchain explorer where you can search Plasm Network addresses and transactions.
+Subscan is a Substrate  based blockchain explorer. Since Plasm Network is  based on Substrate, you can check your address and transactions on Subscan.
 
-{% embed url="https://plasm.subscan.io/account" caption="" %}
+{% embed url="https://plasm.subscan.io/account" %}
 
 ## Ecosystem Program
 
-Plasm Network is a participant of the **Substrate Builders Program**.
+Plasm Network is a part of **Substrate Builders Program**.
 
-{% embed url="https://www.substrate.io/builders-program/" caption="" %}
+{% embed url="https://www.substrate.io/builders-program/" %}
 
-Plasm Network is a participant of the **UC Berkeley Blockchain Xcelerator.**
+And Plasm Network is  also a part of **UC Berkeley Blockchain Xcelerator.**
 
-{% embed url="https://www.xcelerator.berkeley.edu/" caption="" %}
+{% embed url="https://www.xcelerator.berkeley.edu/" %}
+
+
 
