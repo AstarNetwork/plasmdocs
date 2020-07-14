@@ -40,7 +40,7 @@ Plasm Network è un progetto open source. Ci sono molte opportunità per essere 
 **Da fare**
 
 * [ ] 2° Lockdrop e 3° Lockdrop
-* [ ] Supporto per Plasma Layer2
+* [ ] Supporto per Plasma Layer 2
 * [ ] Progettazione grafica di Plasm Network e marketing
 * [ ] Traduzione della documentazione
 

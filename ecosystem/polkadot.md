@@ -13,57 +13,57 @@ Polkadot è composta da due parti: Relaychain e Parachain.
 * **Relaychain:** Questo è il nucleo di Polkadot responsabile della sicurezza delle rete, del consenso e dell'interoperabilità cross-chain \(tra le blockchain\).
 * **Parachain:** Queste sono blockchain sovrane con token personalizzati e funzionalità ottimizzata per casi d'uso specifici. La connessione di una Parachain alla Relaychain ha un prezzo basato sul principio pay-as-you-go \(paga mentre vai\), o su di un contratto di locazione a connettività continua.
 
-[**Plasm Network**](https://www.plasmnet.io/) is built on Parity Substrate making it one of the first SCALABLE smart contract Polkadot Parachains.
+[**Plasm Network**](https://www.plasmnet.io/) è costruita su Parity Substrate, rendendola una delle prime Polkadot Parachains per smart contract scalabili.
 
 {% page-ref page="substrate.md" %}
 
-Parachain and Relaychain in Polkadot makes the following things possible:
+Parachain e Relaychain in Polkadot rendono le seguenti cose possibili:
 
-1. **Data and tokens can be transferred among parachains seamlessly.**
-2. **Parachains can import Relaychain security.**
+1. **Dati e tokens possono essere trasferiti tra le parachain senza soluzione di continuità;**
+2. **Parachains possono importare la sicurezza della Relaychain.**
 
-Learn more about Polkadot:
+Ulteriori informazioni su Polkadot:
 
 * **Polkadot Lightpaper:** [https://polkadot.network/Polkadot-lightpaper.pdf](https://polkadot.network/Polkadot-lightpaper.pdf)
-* **Polkadot web page:** [https://polkadot.network/](https://polkadot.network/)
+* **Pagina web di Polkadot:** [https://polkadot.network/](https://polkadot.network/)
 * **Polkadot wiki:** [https://wiki.polkadot.network/](https://wiki.polkadot.network/)
 
-## Plasm Network and Polkadot
+## Plasm Network e Polkadot
 
-This section describes how the [Plasm Network ](https://www.plasmnet.io/) integrates to the Polkadot ecosystem. [Plasm Network](https://www.plasmnet.io/) aims to be the first scalable smart contract Polkadot Parachain.
+Questa sezione descrive come [Plasm Network](https://www.plasmnet.io/) si integra con l'ecosistema Polkadot. [Plasm Network](https://www.plasmnet.io/) vuole diventare la prima Polkadot Parachain per smart contract scalabili.
 
 ### Smart Contract
 
-The [Polkadot](https://polkadot.network/) Relaychain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApps knowing that they can be scaled up with ease.
+La Relaychain di [Polkadot](https://polkadot.network/) non supporta gli smart contracts. Plasm implementerà questa funzionalità rendendola anche facilmente scalabile. Gli sviluppatori sono liberi di creare una varietà di DApps sapendo che possono scalare facilmente.
 
-### Scalability
+### Scalabilità
 
-[Plasm Network](https://www.plasmnet.io/) scalability relies on layer 2 solutions such as the Optimistic Virtual Machine.
+La scalabilità di [Plasm Network](https://www.plasmnet.io/) si basa su soluzioni di livello 2 \(layer 2\), come Optimistic Virtual Machine.
 
 {% page-ref page="../learn/optimistic-virtual-machine.md" %}
 
-Scalability is the greatest challenge to all blockchains. To bring widespread adoption of blockchain technology, higher performance is necessary. Scalability is a critical issue that Plasm Network seeks to optimize.
+La scalabilità è la più grande sfida di tutte le blockchain. Per diffondere l'adozione della tecnologia blockchain, sono necessarie prestazioni più elevate. La scalabilità è un problema critico che Plasm Network cerca di ottimizzare.
 
-Two Types Of Scalability
+Esistono due tipi di scalabilità:
 
-* **Layer 1 \(horizontal\) scalability:** Do more on the layer 1 blockchain. \(e.g. sharding and Segwit\)
-* **Layer 2 \(vertical\) scalability:** Do less on layer 1 and more on layer 2 or off-chain. \(e.g. Plasma and State Channel\)
+* **Livello 1 \(layer 1\) - scalabilità orrizzontale:** più efficace sulla blockchain di livello 1 \(per esempio: sharding e Segwit\);
+* **Livello 2 \(layer 2\) - scalabilità verticale:** meno efficace sulla blockchain di livello 1, ma più efficace sulla blockchain di livello 2 o off-chain \(per esempio: Plasma e State Channel\).
 
-Polkadot uses sharding technology allowing greater scalability. [Plasm](https://www.plasmnet.io/) also incorporates layer 2 vertical capabilities.
+Polkadot utilizza la tecnologia sharding che consente una maggiore scalabilà. [Plasm](https://www.plasmnet.io/) incorpora funzionalità verticali di livello 2 \(layer 2\).
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-234905png.png)
 
-Layer 1 and layer 2 offer different yet complementary solutions.
+Il livello 1 \(layer 1\) ed il livello 2 \(layer 2\) offrono soluzioni diverse ma complementari.
 
-Additional benefits of the Plasm Network architecture include:
+Ulteriori vantaggi dell'architettura di Plasm Network sono:
 
-* **First Finality**
-* **Flexible dApps development**
-* **Significantly lower transaction\(gas\) costs**
+* **First Finality;**
+* **Sviluppo flessibile di DApps;**
+* **Costi di transazione \(gas\) significativamente più bassi.**
 
-Smart contract capability combined with layer 2 architecture makes many interesting dApps possible on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\)
+La capacità di supportare smart contract, combinata con l'architettura di livello 2, rende possibili molte DApps interessanti su [Plasm Network](https://www.plasmnet.io/) \(per esempio Gaming, IoT, Payment, DEX, e Bridge\).
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-08-00739png.png)
 
-Questions? Reach out to the [Discord Tech Channel](https://discord.gg/Z3nC9U4) where team and community members can help you find answers.
+Domande? Partecipa alle discussioni su [Discord Tech Channel](https://discord.gg/Z3nC9U4), dove i membri del team e della community sapranno aiutarti a trovare le risposte che cerchi.
 
