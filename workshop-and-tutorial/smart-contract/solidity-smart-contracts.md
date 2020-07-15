@@ -13,7 +13,7 @@ In this tutorial the [Solang compiler](https://github.com/hyperledger-labs/solan
 Or using Cargo command:
 
 ```text
-sudo apt install llvm openssl
+sudo apt install llvm openssl libxml2-dev
 cargo install --git https://github.com/hyperledger-labs/solang --tag m8
 ```
 
