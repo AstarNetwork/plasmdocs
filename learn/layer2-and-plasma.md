@@ -1,27 +1,27 @@
-# Layer2 and Plasma
+# Layer2 e Plasma
 
-## About Scalability
+## Informazioni sulla scalabilità
 
-At the time of writing, the second-biggest blockchain that acts as a dApps platform is [Ethereum](https://www.ethereum.org/), which can process around 15 transactions per second \(ref:[Ethereum Transaction Throughput](https://www.coindesk.com/information/will-ethereum-scale)\). VISA or Alipay can process around 1,700 transactions per second \(ref:[Visa Transaction Throughput](https://hackernoon.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)\) and 256,000 transactions per second respectively \(ref:[ALIPAY Transaction Throughput](https://www.barrons.com/articles/alibaba-records-25-3-billion-in-singles-day-sales-1510538618)\). Transaction speed for dApps is slow and prohibitive for bringing new users to this technology. To solve this issue, there have been several blockchain scalability solutions proposed:
+Al momento in cui scrivo, la seconda più grande blockchain che funge da piattaforma per DApps è [Ethereum](https://www.ethereum.org/), che può elaborare circa 15 transazioni al secondo \(rif:[Ethereum Transaction Throughput](https://www.coindesk.com/information/will-ethereum-scale)\). VISA o Alipay possono processare circa 1,700 transazioni al secondo \(rif:[Visa Transaction Throughput](https://hackernoon.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)\) e 256,000 transazioni al secondo rispettivamente \(rif:[ALIPAY Transaction Throughput](https://www.barrons.com/articles/alibaba-records-25-3-billion-in-singles-day-sales-1510538618)\). La velocità di transazione per le DApp è lenta e proibitiva per portare nuovi utenti in questa tecnologia. Per risolvere questo problema, sono state proposte diverse soluzioni di scalabilità per la blockchain.
 
-## Blockchain Scaling Solutions
+## Soluzioni per la scalabilità della blockchain
 
-These are some of the well-known blockchain scalability solutions:
+Queste sono alcune tra le più note soluzioni per la scalabilità della blockchain:
 
-1. [**SegWit**](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki): Fixing transaction malleability by removing the signature information and storing it outside of the base transaction block.
-2. [**State Channel**](https://l4.ventures/papers/statechannels.pdf): Combining off-chain transactions among particular users and only the final state is committed to the main blockchain.
-3. [**Sharding**](https://www.bubifans.com/ueditor/php/upload/file/20181015/1539597837236127.pdf): Allowing many more transactions to be processed in parallel at the same time by making shards.
-4. [**Plasma**](https://plasma.io/plasma.pdf): Storing transactions in separate child chains and only the root hash is stored in the main chain.
+1. [**SegWit**](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki): Correzzione della malleabilità delle transazioni rimuovendo le informazioni sulla firma e memorizzandole al di fuori del blocco di base della transazione;
+2. [**State Channel**](https://l4.ventures/papers/statechannels.pdf): Esecuzione delle transazioni in modalità off-chain tra utenti particolari, fornendo alla blockchain principale solo lo stato finale;
+3. [**Sharding**](https://www.bubifans.com/ueditor/php/upload/file/20181015/1539597837236127.pdf): Consentire a più transazioni di essere elaborate contemporaneamente in parallelo suddividendole in frammenti \(shards\);
+4. [**Plasma**](https://plasma.io/plasma.pdf): Memorizzare le transazioni in catene secondarie \(child chains\), e solamente l'hash root viene memorizzato all'interno della catena principale.
 
-Scaling solutions can be categorized as layer 1 or layer 2.
+Le soluzioni per la scalabilità possono essere classificate come livello 1 \(layer 1\) o livello 2 \(layer 2\).
 
-Layer 1 solutions exist only on layer 1 of the Ethereum mainnet. Layer 2 solutions may combine layer 1, layer 2, and off-chain solutions for greater performance and scalability.
+Le soluzioni di livello 1 esistono solamente sul livello 1 della mainnet di Ethereum. Le soluzioni di livello 2 possono combinare assieme le soluzioni di livello 1, livello 2 ed off-chain per prestazioni e scalabilità maggiori.
 
-Transaction processing needs to be done outside of the mainnet layer 1 chain as it is reaching critical performance limits\(ref:["The Ethereum-blockchain size has exceeded 1TB, and yes, it’s an issue"](https://hackernoon.com/the-ethereum-blockchain-size-has-exceeded-1tb-and-yes-its-an-issue-2b650b5f4f62)\).
+L'elaborazione delle transazioni deve essere fatta al di fuori della catena principale di livello 1, poichè sta raggiungendo limiti di prestazioni critici \(rif:["The Ethereum-blockchain size has exceeded 1TB, and yes, it’s an issue"](https://hackernoon.com/the-ethereum-blockchain-size-has-exceeded-1tb-and-yes-its-an-issue-2b650b5f4f62)\).
 
-Ultimately, **the blockchain model may evolve, where layer 1 is used as the trust layer, and layer 2 is the transaction layer.**
+Infine, **il modello di blockchain potrebbe evolversi, dove il livello 1 viene utilizzato come livello di fiducia, e il livello 2 come livello di transazione**.
 
-Plasma is a layer 2 scaling solution that is the **least** dependent on the processing performance of the main chain. Plasma is a decentralized operator managed side-chain. **Transactions can be handled in a centralized way that does not require a consensus, but participants on the side chain can only safely exit by submitting fraud proofs.** The scaling solutions used in the existing centralized system can be used as they are.
+Plasma è una soluzione per la scalabilità di livello 2 che è la **meno** dipendente dalle prestazioni di elaborazione della catena principale. Plasma è una side-chain gestita da un operatore decentralizzato. **Le transazioni possono essere gestite in modo centralizzato, il quale non richiede consenso, ma i partecipanti alla side-chain possono uscirne in sicurezza solamente presentando le opportune prove della loro legittimità**. Le soluzioni per la scalabilità utilizzate in un esistente sistema centralizzato, possono essere utilizzate così come sono.
 
-Plasma could become an indispensable technology in the future, dramatically improving processing performance for all distributed ledgers.
+Plasma potrebbe diventare una tecnologia indispensabile in futuro, migliorando notevolmente le prestazioni di elaborazione per tutti i registri distribuiti \(distributed ledgers\).
 
