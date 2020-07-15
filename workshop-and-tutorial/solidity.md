@@ -58,5 +58,6 @@ More examples are available in the Solang repository:
 
 Have fun and good luck!
 
-
+Any questions? Feel free to ask us on our [Discord tech channel](https://discord.com/invite/kH3Njpr).[  
+](https://docs.plasmnet.io/workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm)
 
