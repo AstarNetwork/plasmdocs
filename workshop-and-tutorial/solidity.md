@@ -2,13 +2,13 @@
 description: Ethereum like smart contracts on Plasm Network.
 ---
 
-# Solidity Smart Contracts
+# Solidity
 
-Plasm Network also supports solidity. Solidity is a smart contract language mainly used on Ethereum. If you have already built applications by using Solidity, we can also deploy the contracts on Plasm Network.
+Plasm Network also supports solidity. Solidity is a smart contract language mainly used on Ethereum. If you have already built applications by using Solidity, you can also deploy the contracts on Plasm Network.
 
 ## Install
 
-In this tutorial, we will use the [Solang compiler](https://github.com/hyperledger-labs/solang), a compoler for solidity language developed by Hyperledger Labs. Let's install the compiler using the original instruction below.
+In this tutorial, we will use the [Solang compiler](https://github.com/hyperledger-labs/solang), a compiler for solidity language developed by Hyperledger Labs. Let's install the compiler using the original instruction below.
 
 {% embed url="https://solang.readthedocs.io/en/latest/installing.html" %}
 
@@ -27,7 +27,7 @@ You can write any solidity contracts just like the development on Ethereum. Sinc
 
 {% embed url="https://github.com/hyperledger-labs/solang/blob/master/examples/flipper.sol" %}
 
-Let's compile it using `substrate` target that makes it compatible with Plasm Network.
+Let's compile it using `substrate` target to make it compatible with Plasm Network.
 
 ```text
 wget https://raw.githubusercontent.com/hyperledger-labs/solang/master/examples/flipper.sol
@@ -40,25 +40,23 @@ As a result, two files should be available in your current directory : `flipper.
 
 Let's deploy the compiled `flipper.wasm` and `flipper.json` using our standard [Plasm Portal UI](https://apps.plasmnet.io).
 
-![Deploy your smart contract WASM code on Dusty Network.](../../.gitbook/assets/flipper.png)
+![Deploy your smart contract WASM code on Dusty Network.](../.gitbook/assets/flipper.png)
 
 The next step is to create an instance of the uploaded smart contract WASM code.
 
-![Sent smart contract instance transaction.](../../.gitbook/assets/instance_flipper.png)
+![Sent smart contract instance transaction.](../.gitbook/assets/instance_flipper.png)
 
 After making the instance, we can interact with the smart contract using the UI portal just like an ink! smart contract described in the previous chapter.
 
-![Read data from smart contract using RPC call.](../../.gitbook/assets/call_flipper.png)
+![Read data from smart contract using RPC call.](../.gitbook/assets/call_flipper.png)
 
-![Write data into smart contract via a transaction.](../../.gitbook/assets/call_flipper2.png)
+![Write data into smart contract via a transaction.](../.gitbook/assets/call_flipper2.png)
 
 More examples are available in the Solang repository:
 
 {% embed url="https://github.com/hyperledger-labs/solang/tree/master/examples" %}
 
 Have fun and good luck!
-
-
 
 
 
