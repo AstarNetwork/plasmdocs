@@ -36,6 +36,7 @@
   * [Build](workshop-and-tutorial/smart-contract/build.md)
   * [Deploy Your Smart Contract on Plasm](workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm.md)
   * [Calling Your Contract](workshop-and-tutorial/smart-contract/calling-your-contract.md)
+  * [Solidity smart contracts](workshop-and-tutorial/smart-contract/solidity-smart-contracts.md)
 * [ink!](workshop-and-tutorial/ink.md)
 * [Layer2 Applications](workshop-and-tutorial/layer2-applications.md)
 * [Validator Guide](workshop-and-tutorial/untitled.md)
