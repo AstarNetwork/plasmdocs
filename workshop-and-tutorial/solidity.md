@@ -21,6 +21,10 @@ cargo install --git https://github.com/hyperledger-labs/solang --tag m8
 
 The `solang` binary should be available in your environment.
 
+{% hint style="info" %}
+Make sure you installed all dependencies you need. You can check them from [here](https://solang.readthedocs.io/en/latest/installing.html#installing-llvm-on-ubuntu).
+{% endhint %}
+
 ## Compile
 
 You can write any solidity contracts just like the development on Ethereum. Since this is a tutorial, we will use a `flipper` contract which is available below.
