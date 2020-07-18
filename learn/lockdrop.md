@@ -25,11 +25,11 @@ The Lockdrop Work Flow:
 3. The Plasm Team will mint `total issued amount × 15%` PlasmTokens from the genesis block.
 4. Once the lock duration that the token holder specified has passed, all ETH will be returned back to the participant.
 
-The assumption is that the Ethereum token holder's opportunity cost is proportional to the number of tokens locked and the duration of the lock. PLM is able to generate value using those opportunity costs as collateral. The final token supply is not decided. This ensures fairness to tokens issued from post-genesis lockdrops. 15% of the total tokens minted from the lockdrop will go to the Plasm team as a fee. Multiple distribution will occur to maintain healthy token supplies.
+The assumption is that the Ethereum token holder's opportunity cost is proportional to the number of tokens locked and the duration of the lock. PLM is able to generate value using those opportunity costs as collateral. The final token supply is not decided. This ensures fairness to tokens issued from post-genesis lockdrops. 15% of the total tokens minted from the lockdrop will go to the Plasm team as a fee. Multiple distributions will occur to maintain healthy token supplies.
 
 ## Multi-Lockdrop
 
-Multi-Lockdrop is a the lockdrop mechanism iterated multiple times. [Plasm Network](https://www.plasmnet.io/). [Plasm Network](https://www.plasmnet.io/)'s total token supply will not be set at genesis. Tokens will be issued every 3rd lockdrop, and additional tokens will be minted utilizing the "Staking" function, discussed later.
+Multi-Lockdrop is a lockdrop mechanism iterated multiple times. [Plasm Network](https://www.plasmnet.io/). [Plasm Network](https://www.plasmnet.io/)'s total token supply will not be set at genesis. Tokens will be issued every 3rd lockdrop, and additional tokens will be minted utilizing the "Staking" function, discussed later.
 
 {% page-ref page="dapps-reward.md" %}
 
@@ -37,7 +37,7 @@ Multiple lockdrop iterations have two advantages:
 
 It prevents uneven token distribution and discourages 'whales' if initial offering purchases are low. Rolling back the blockchain to fix this ruins the integrity of the network. In a blockchain must establish a rule before the launch, thoughtfully. We solve this with a variable token supply algorithm at genesis.
 
-Second, it allows for code results to be observed so that the team can ensure that the [Plasm Network](https://www.plasmnet.io/) can scale and be decentralized. The security and integrity of a blockchain relies on the distribution of nodes and token holders. It is not desirable to hold the security after the official launch at Stake. Repeating the lockdrop three times allows us to understand the distribution of tokens among the holders, also reducing maintenance costs for fixing issues and further risks that follow. This aligns with our goal of making [Plasm Network](https://www.plasmnet.io/) a complete public blockchain.
+Second, it allows for code results to be observed so that the team can ensure that the [Plasm Network](https://www.plasmnet.io/) can scale and be decentralized. The security and integrity of a blockchain rely on the distribution of nodes and token holders. It is not desirable to hold the security after the official launch at Stake. Repeating the lockdrop three times allows us to understand the distribution of tokens among the holders, also reducing maintenance costs for fixing issues and further risks that follow. This aligns with our goal of making [Plasm Network](https://www.plasmnet.io/) a complete public blockchain.
 
 Plasm Network will accept the following tokens for the 1st, 2nd and 3rd lockdrop.
 
@@ -60,7 +60,7 @@ Users have the option to choose the lockdrop duration from the following 4 + 1 o
 ![LockdropTable](https://user-images.githubusercontent.com/6259384/75602324-6d9b1480-5b07-11ea-9501-576eaefd155f.png)
 
 {% hint style="info" %}
-The 2 year option is only available for locking DOT tokens. The DOT lockdrops are special in that they are only allowed to lock for 2 years. More information can be found in the **Polkadot auctions Lockdrop** section.
+The 2-year option is only available for locking DOT tokens. The DOT lockdrops are special in that they are only allowed to lock for 2 years. More information can be found in the **Polkadot auctions Lockdrop** section.
 {% endhint %}
 
 The IssueRatio will be defined as follows:
