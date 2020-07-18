@@ -1,6 +1,12 @@
 # 開発の全体像
 
-PlasmではWebAssemblyで記述されたコントラクトをデプロイすることができます。ここでは、RustのEmbedded DSLとして提供されるink!を利用して、Plasm上のコントラクトを開発する手順について説明をします。
+Plasm NetworkではWebAssemblyで記述されたコントラクトをデプロイすることができます。ここでは、RustのEmbedded DSLとして提供されるink!を利用して、Plasm Network上のコントラクトを開発する手順について説明をします。
+
+{% hint style="info" %}
+Plasm Networkには現在、上記ink!に加え、Solidityで書かれたコントラクトもコンパイルしデプロイすることができます。
+{% endhint %}
+
+{% page-ref page="writing-smart-contract.md" %}
 
 ink!を利用したコントラクト開発の全体像は以下の図のようになります。
 
@@ -11,6 +17,4 @@ ink!を利用したコントラクト開発の全体像は以下の図のよう�
 ③ テスト: 記述したコントラクトが意図通りの挙動をとるかテストを行います  
 ④ コンパイル: ink!コード\(Rust\)をwasmバイナリに変換します  
 ⑤ Plasmノードに: wasmバイナリをデプロイします
-
-
 
