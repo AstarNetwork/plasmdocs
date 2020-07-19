@@ -34,6 +34,7 @@
 * [スマートコントラクトを書く](ru/writing-smart-contract.md)
 * [テスト](ru/test.md)
 * [デプロイ](ru/deploy.md)
+* [Solidity](ru/solidity.md)
 * [UI開発](ru/ui-kai-fa.md)
 * [Ethereum SeedでAddressを作成](ru/ethereum-seeddeaddresswo.md)
 
