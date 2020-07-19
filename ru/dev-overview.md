@@ -16,8 +16,10 @@ ink!/Solidiryを利用したコントラクト開発の全体像は以下の図�
 2. **ink!/Solidityコードの更新：** 開発したいコントラクトに応じてink!/Solidityコードの更新を行います
 3. **テスト：** 記述したコントラクトが意図通りの挙動をとるかテストを行います
 4. **コンパイル：**ink!コード\(Rust\)/Solidityコードをwasmバイナリに変換します
-5. **Dusty Networkにデプロイ：**Dusty Networkノードにwasmバイナリをデプロイします
-6. **Dusty Networkの動作を確認**
-7. **Plasm Networkにデプロイ：**Plasm Networkノードにwasmバイナリをデプロイします
-8. **Plasm Networkの動作確認とUI開発**
+5. **ローカルのブロックチェーンにデプロイ：**ローカルのブロックチェーンノードにwasmバイナリをデプロイします
+6. **ローカルのブロックチェーンの動作確認**
+7. **Dusty Networkにデプロイ：**Dusty Networkノードにwasmバイナリをデプロイします
+8. **Dusty Networkの動作を確認**
+9. **Plasm Networkにデプロイ：**Plasm Networkノードにwasmバイナリをデプロイします
+10. **Plasm Networkの動作確認とUI開発**
 
