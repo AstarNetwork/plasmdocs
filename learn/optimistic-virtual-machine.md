@@ -4,11 +4,11 @@ description: Plasma and beyond.
 
 # Optimistic Virtual Machine
 
-### What is Optimistic Virtual Machine?
+### Che cos'è la Optimistic Virtual Machine?
 
-The OVM \(Optimistic Virtual Machine\) is a virtual machine designed to support all layer 2 protocols. It is a possible unification of all layer 2 protocols meaning: **Plasm Network will not only be for Plasma applications but also for Lightning Network applications or any other layer 2 protocols.**
+La OVM \(Optimistic Virtual Machine\) è una macchina virtuale progettata per supportare tutti i protocolli layer 2. È una possibile unificazione di tutti i protocolli layer 2, il che significa: **Plasm Network non sarà solo per applicazioni Plasma ma anche per applicazioni Lightning Network o qualsiasi altro protocollo layer 2.**
 
-Plasm Network will house all layer 2 scaling solutions. Users can choose which solution to use and make their use case possible with minimum overhead.
+Plasm Network ospiterà tutte le soluzioni per la scalabilità di livello 2. Gli utenti possono scegliere quale soluzione utilizzare e rendere possibile il loro "use case" con il minimo sforzo.
 
 ### Learn More
 
