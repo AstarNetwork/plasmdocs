@@ -13,7 +13,7 @@
 
 * [I problemi che Plasm risolve](learn/the-problems-plasm-solves.md)
 * [Layer2 e Plasma](learn/layer2-and-plasma.md)
-* [Plasma Overview](learn/plasm-overview.md)
+* [Panoramica su Plasma](learn/plasm-overview.md)
 * [Optimistic Virtual Machine](learn/optimistic-virtual-machine.md)
 * [Struttura di Plasm](learn/polkadot-and-plasm.md)
 * [Core Features](learn/core-features.md)
