@@ -12,25 +12,25 @@ Plasm Network ospiterà tutte le soluzioni per la scalabilità di livello 2. Gli
 
 ### Per saperne di più
 
-The OVM is a powerful concept in layer 2 applications. We can express complex dispute logics by a simple OVM language and that language contains [Optimistic Game Semantics](https://plasma.group/optimistic-game-semantics.pdf) \(OGS\).
+La OVM è un concetto poderoso nelle applicazioni di livello 2. Siamo in grado di esprimere logiche di controverse complesse con un semplice linguaggio OVM e tale linguaggio contiene [Optimistic Game Semantics](https://plasma.group/optimistic-game-semantics.pdf) \(OGS\).
 
-For example, we can express Plasma checkpoint and exit claims with 2 simple definitions \(we call these "property"\) by OGS. Plasm Network separates the OVM from the smart contract and prepares it as a module so that OVM can be used more simply and conveniently.
+Ad esempio, possiamo esprimere il checkpoint di Plasma ed eliminare i reclami con 2 semplici definizioni \(che chiamiamo "proprietà"\) di OGS. Plasm Network separa OVM dallo smart contract e lo prepara come modulo in modo che OVM possa essere utilizzato in modo più semplice e conveniente.
 
 ### OVM in Plasm Network <a id="ovm-in-plasm-network"></a>
 
-The OVM and its surrounding architecture are as shown in the figure below.
+OVM e la sua architettura circostante è mostrata nella figura sotto riportata.
 
 ![ovmodule](https://user-images.githubusercontent.com/6259384/75546609-404d5880-5a6c-11ea-84d0-f063e0bc252c.png)
 
-Plasma applications \(Plapps\) can be created and run properly through the dedicated client application L1 adapter. Plapps are composed of OVM, Plasma, and contract modules in the Plasm Network.
+Le applicazioni di Plasma \(Plapps\) possono essere create ed eseguite correttamente attraverso l'adattatore di livello 1 \(L1\) dell'applicazione client dedicata. Le Plapps, in Plasm Network, sono composte da OVM, Plasma ed i moduli degli smart contract.
 
-In the case of Ethereum Plasma applications, everything provided in these modules was managed by smart contracts. This makes it difficult to predict the gas cost when running a plasma application containing complicated logic. Also, building applications that combine multiple contracts can be confusing for developers.
+Nel caso di applicazioni Plasma Ethereum, tutto ciò che viene fornito in questi moduli, viene gestito da smart contracts. Ciò rende difficile prevedere il costo del gas quando si esegue un'applicazione Plasma contenente una logica complicata. Inoltre, la creazione di applicazioni che combinano più smart contracts può creare confusione agli sviluppatori.
 
-For this reason, Plasma Network has considered a superficially concise and easy-to-understand configuration by separating the roles into three modules. The OVM Module implements a function called Universal Adjudication to initiate a dispute if the user finds a mistake in the information on layer 1. The Plasma Module supports a common implementation of some of the essential smart contracts. Only the implementations that require different logic are managed by the Contracts Module.
+Per questa ragione, Plasm Network ha considerato una configurazione supercialmente concisa e di facile comprensione, separando i ruoli in tre moduli. Il modulo OVM implementa una funzione chiamata Universal Adjudication per avviare una controversia se l'utente trova un errore nelle informazioni di livello 1. Il modulo Plasma supporta un'implementazione comune di alcuni degli smart contracts essenziali. Solo le implementazioni che richiedono una logica diversa sono gestite dal modulo Contracts.
 
-This Plasm Network logic can be combined with the Plasma Layer 2 implementation described above to build an application.
+Questa logica di Plasm Network può essere combinata con l'implementazione Plasma di livello 2 descritta sopra per creare un'applicazione.
 
-You can see the details below.
+Puoi vedere i dettagli di seguito.
 
 ## Smart Contract <a id="smart-contract"></a>
 
