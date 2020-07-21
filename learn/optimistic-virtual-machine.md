@@ -10,7 +10,7 @@ La OVM \(Optimistic Virtual Machine\) è una macchina virtuale progettata per su
 
 Plasm Network ospiterà tutte le soluzioni per la scalabilità di livello 2. Gli utenti possono scegliere quale soluzione utilizzare e rendere possibile il loro "use case" con il minimo sforzo.
 
-### Learn More
+### Per saperne di più
 
 The OVM is a powerful concept in layer 2 applications. We can express complex dispute logics by a simple OVM language and that language contains [Optimistic Game Semantics](https://plasma.group/optimistic-game-semantics.pdf) \(OGS\).
 
