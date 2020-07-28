@@ -19,7 +19,7 @@
 * [Core Features](learn/core-features.md)
 * [Operator Trading](learn/operator-trading.md)
 * [dApps Reward](learn/dapps-reward.md)
-* [1st Lockdrop](learn/lockdrop.md)
+* [Lockdrop](learn/lockdrop.md)
 * [Token Economics](learn/token-economy.md)
 * [Consensus](learn/consennsus.md)
 * [Plasm Mainnet](learn/plasm-mainnet.md)

@@ -1,4 +1,4 @@
-# 1st Lockdrop
+# Lockdrop
 
 ## Lockdrop participants can claim PLM token here 👇
 
@@ -25,7 +25,7 @@ The Lockdrop Work Flow:
 3. The Plasm Team will mint `total issued amount × 15%` PlasmTokens from the genesis block.
 4. Once the lock duration that the token holder specified has passed, all ETH will be returned back to the participant.
 
-The assumption is that the Ethereum token holder's opportunity cost is proportional to the number of tokens locked and the duration of the lock. PLM is able to generate value using those opportunity costs as collateral. The final token supply is not decided. This ensures fairness to tokens issued from post-genesis lockdrops. 15% of the total tokens minted from the lockdrop will go to the Plasm team as a fee. Multiple distributions will occur to maintain healthy token supplies.
+The assumption is that the Ethereum token holder's opportunity cost is proportional to the number of tokens locked and the duration of the lock. PLM is able to generate value using those opportunity costs as collateral. The final token supply is not decided. This ensures fairness to tokens issued from post-genesis lockdrops. 15% of the total tokens minted from the first lockdrop will go to the Plasm team as a fee. Multiple distributions will occur to maintain healthy token supplies.
 
 ## Multi-Lockdrop
 
