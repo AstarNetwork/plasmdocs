@@ -57,7 +57,7 @@ The total amount will be distributed to the lockdrop participants in accordance 
 
 Users have the option to choose the lockdrop duration from the following 4 + 1 options. The $$IssueRatio$$ will be determined by the duration of the lock after evaluating the value of the locked tokens in Dollars.
 
-![LockdropTable](https://user-images.githubusercontent.com/6259384/75602324-6d9b1480-5b07-11ea-9501-576eaefd155f.png)
+![](../.gitbook/assets/screen-shot-2020-07-30-at-13.53.49.png)
 
 {% hint style="info" %}
 The 2-year option is only available for locking DOT tokens. The DOT lockdrops are special in that they are only allowed to lock for 2 years. More information can be found in the **Polkadot auctions Lockdrop** section.
