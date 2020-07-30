@@ -56,7 +56,7 @@ O valor total será distribuído aos participantes do bloqueio, de acordo com a 
 
 Os usuários têm a opção de escolher a duração do bloqueio das seguintes opções 4 + 1. O valor será determinado pela duração do bloqueio que ocorre diretamente após a avaliação do valor dos tokens bloqueados em dólares.
 
-![LockdropTable](https://user-images.githubusercontent.com/6259384/75602324-6d9b1480-5b07-11ea-9501-576eaefd155f.png)
+![](../.gitbook/assets/screen-shot-2020-07-30-at-13.53.49.png)
 
 {% hint style="info" %}
 A opção 2 anos está disponível apenas para bloquear tokens DOT. Além disso, os bloqueios DOT são especiais, pois só podem ser bloqueados por 2 anos. Mais informações podem ser encontradas na seção Lockdrop dos leilões Polkadot
