@@ -54,7 +54,7 @@ Lockdrop を複数回に分ける理由は2つあります。
 
 ユーザ実際にはロックする期間を次の4種類（3回目のLockdropのみ5種類）から選ぶことができます。ロック期間に応じて ロックしたトークンの価値をドル換算した値に以下の**LockBonus**を掛けたものが **IssueRatio** となります。
 
-![](../.gitbook/assets/screen-shot-2020-07-30-at-13.59.50.png)
+![](../.gitbook/assets/screen-shot-2020-07-30-at-14.38.11.png)
 
 上記をもとに **IsseRatio** を以下のような式で定義されます.ここで
 
