@@ -27,6 +27,7 @@
   * [Mainnet](learn/chain-spec/mainnet.md)
   * [Testnet](learn/chain-spec/testnet.md)
 * [Plasm Network Bounties](learn/plasm-network-bounties.md)
+* [Community Rewards](learn/community-rewards.md)
 
 ## Workshop & Tutorial
 
