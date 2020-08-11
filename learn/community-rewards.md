@@ -30,7 +30,7 @@ In addition to that, you can check the community rewards page in the Staking sec
 
 [https://dusty.plasmnet.io](https://dusty.plasmnet.io/#/accounts)
 
-![Communit Rewards Page](../.gitbook/assets/screen-shot-2020-08-03-at-16.14.37.png)
+![](../.gitbook/assets/screen-shot-2020-08-11-at-10.29.40.png)
 
 ### How to get rewards
 
