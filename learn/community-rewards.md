@@ -2,6 +2,8 @@
 
 The idea behind Community Rewards is to provide incentives with community members who contribute to the Plasm Network early on. We make it happen by using the staking mechanism. In this mechanism, the early adopters can get rewards.
 
+![](../.gitbook/assets/screen-shot-2020-08-11-at-18.33.49.png)
+
 ### Overview
 
 The structure of Community Rewards is very simple.
@@ -48,40 +50,40 @@ This content includes math. You can skip this section below if you are not good 
 
 ### Rewards Calculation
 
-The target infration rate of the maximum token supply is $$I ≤ I_0 = 2.5%$$per a year. $$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators \(We assume the sufficient number of validators is 100\). Validator compensation per each Era is strictly defined as the following. 
+The target inflation rate of the maximum token supply is $$I ≤ I_0 = 2.5%$$per a year. $$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators \(We assume the sufficient number of validators is 100\). Validator compensation per each Era is strictly defined as the following. 
 
 First, we define the meaning of each variable.
 
-* $$TotalForSecurityRewards$$ is the total amount of compensation paid for the validator.
-* $$TotalForDAppsRewards$$ is the total amount of compensation paid for the dApps. 
+* $$TotalForValidatorRewards$$ is the total amount of compensation paid for the validator.
+* $$TotalForCommunityRewards$$ is the total amount of compensation paid for the community contributors. 
 * $$TotalAmountOfIssue$$ is the total number of PLM tokens issued by Plasm Network. 
 * $$I_0$$ ****is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes. 
 * $$EraDuration$$ is the length of the duration of each Era. 
-* $$NumberOfValidators$$ _****_is the actual number of validators in the Network.
-*  $$TargetsNumber$$ is 100 that is the sufficient number of validators on Plasm Network.
+* $$NumberOfValidators$$ _****_is the actual number of validators in the network.
+*  $$TargetNumber$$ is 100 that is the sufficient number of validators on Plasm Network.
 
-If $$TargetsNumber$$&lt; $$NumberOfValidators$$:
+If $$TargetNumber$$&lt; $$NumberOfValidators$$:
 
 $$
-TotalForSecurityRewards = TotalAmoutOfIssue \times I_0\% \times \frac{EraDuration}{1 year}
+TotalForValidatorRewards = TotalAmoutOfIssue \times I_0\% \times \frac{EraDuration}{1 year}
 $$
 
 Otherwise:
 
 $$
-TotalForSecurityRewards = TotalAmoutOfIssue \times I_0\% \times \frac{EraDuration}{1 year}
+TotalForValidatorRewards = TotalAmoutOfIssue \times I_0\% \times \frac{EraDuration}{1 year}
 $$
 
-On Community Rewards, the amount of tokens allocated to the dApps is equal to the total amount of tokens allocated to the validator. 
+The amount of tokens allocated to the community members \(project owners\) is equal to the total amount of tokens allocated to the validator. 
 
 $$
-TotalForDappsRewards = TotalForSecurityRewards
+TotalForCommunityRewards = TotalForValidatorRewards
 $$
 
-And the $$TotalForDAppsRewards$$ is distributed equally to operators and nominators. $$RewardsForOperators$$ is the total amount of rewards assigned for operators. $$RewardsForNominators$$ is the total amount of rewards assigned for nominators.
+And the $$TotalForCommunityRewards$$ is distributed equally to operators \(project owners\) and nominators. $$RewardsForOperators$$ is the total amount of rewards assigned for operators \(project owners\). $$RewardsForNominators$$ is the total amount of rewards assigned for nominators.
 
 $$
-RewardsForOperators = RewardsForNominators = \frac{TotalForDAppsRewards}{2}
+RewardsForOperators = RewardsForNominators = \frac{TotalForCommunityRewards}{2}
 $$
 
 The reward for each operator is given by the following formula, where $$RewardForOperators_{i}$$ is the reward for the $$i$$-th operator and $$C_{operator_i}$$is the set of contracts deployed by the $$i$$-th operator. $$TotalStake$$ represents the total amount of stake and $$Stake_{contract_j}$$ represents the amount of stake in $$contract_j$$.
@@ -91,7 +93,9 @@ RewardForOperators_{i} = \sum_{contract_j\ \in
 \ C_{operator_i}} \frac{Stake_{contract_j}}{TotalStake} \times RewardsForOperators
 $$
 
-Calculating compensation for a nominator is a bit more complicated: a nominator can only get paid on contracts that are staked 3% or more of the $$TotalStake$$. This is to prevent rampant nominating of themselves. In the following equation, let $$WeightedStake_i$$ be the sum of $$i$$-th nominator's stake amount that is weighted specifically for Community Rewards, and $$C_{nominator_i}$$ be the set of contracts nominated by the $$nominator_i$$. $$RewardForNominators_i$$ is the reward for the ith nominator. We'll get into the details of function $$f$$ in a moment.
+Calculating compensation for a nominator is a bit more complicated: a nominator can only stake on contracts that are staked 3% or more of the $$TotalStake$$. 
+
+This is to prevent participants from nominating themselves. In the following equation, let $$WeightedStake_i$$ be the sum of $$i$$-th nominator's stake amount that is weighted specifically for Community Rewards, and $$C_{nominator_i}$$ be the set of contracts nominated by the $$nominator_i$$. $$RewardForNominators_i$$ is the reward for the ith nominator. We'll get into the details of function $$f$$ in a moment.
 
 $$
 threshold = TotalStake \times \frac{3}{100}
