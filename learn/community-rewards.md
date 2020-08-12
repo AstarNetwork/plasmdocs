@@ -12,11 +12,53 @@ The structure of Community Rewards is very simple.
 
 Let's take a look at one by one.
 
-### Calculation of Rewards
+### How to deploy your contract
 
-The target maximum token supply inflation rate per year is $$I ≤ I_0 = 2.5%$$. $$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators \(here, we assume the sufficient number of validators is 100\). Validator compensation per Era is strictly defined as the following. 
+First, community members need to deploy a simple contract. The way how to deploy the contract is described on the following page. 
 
-First, we define the meaning of each variable. $$TotalForSecurityRewards$$ is the total amount of compensation paid for the validator. $$TotalForDAppsRewards$$ is the total amount of compensation paid for the dApps. $$TotalAmountOfIssue$$ is the total number of PLM tokens issued by Plasm Network. $$I_0$$ ****is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes are interested. $$EraDuration$$ is the length of duration of the Era. $$NumberOfValidators$$ _****_is the actual number of validators in the Network. $$TargetsNumber$$ is 100 that is the sufficient number of validators.
+{% page-ref page="../workshop-and-tutorial/operator-trading.md" %}
+
+After deploying the smart contract, you can check it in the Community Rewards section below.
+
+### How to nominate your contract
+
+The next step is staking. You can stake on a smart contract as usual. The details are described on the following page.
+
+{% page-ref page="../workshop-and-tutorial/dapps-reward.md" %}
+
+In addition to that, you can check the community rewards page in the Staking section where you can check the status of staking volume and the ranking.
+
+[https://dusty.plasmnet.io](https://dusty.plasmnet.io/#/accounts)
+
+![](../.gitbook/assets/screen-shot-2020-08-11-at-10.29.40.png)
+
+### How to get rewards
+
+PLM holders stake their tokens on your smart contract. By doing so, the nominator and the smart contract creator get a reward.
+
+See the link below for more information.
+
+{% page-ref page="../workshop-and-tutorial/dapps-reward.md" %}
+
+Next, we are going to learn some formulas to calculate the rewards.
+
+{% hint style="info" %}
+This content includes math. You can skip this section below if you are not good at math. 
+{% endhint %}
+
+### Rewards Calculation
+
+The target infration rate of the maximum token supply is $$I ≤ I_0 = 2.5%$$per a year. $$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators \(We assume the sufficient number of validators is 100\). Validator compensation per each Era is strictly defined as the following. 
+
+First, we define the meaning of each variable.
+
+* $$TotalForSecurityRewards$$ is the total amount of compensation paid for the validator.
+* $$TotalForDAppsRewards$$ is the total amount of compensation paid for the dApps. 
+* $$TotalAmountOfIssue$$ is the total number of PLM tokens issued by Plasm Network. 
+* $$I_0$$ ****is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes. 
+* $$EraDuration$$ is the length of the duration of each Era. 
+* $$NumberOfValidators$$ _****_is the actual number of validators in the Network.
+*  $$TargetsNumber$$ is 100 that is the sufficient number of validators on Plasm Network.
 
 If $$TargetsNumber$$&lt; $$NumberOfValidators$$:
 
@@ -74,36 +116,4 @@ The magic number, 0.197, is used to make the coefficient close to 1 when $$\frac
 $$
 0.197 \times -log_{2}(\frac{3}{100}) = 0.996602... \simeq 1
 $$
-
-### How to deploy your contract
-
-First, community members need to deploy a simple contract. The way how to deploy the contract is described on the following page. 
-
-{% page-ref page="../workshop-and-tutorial/operator-trading.md" %}
-
-After deploying the smart contract, you can check it in the Community Rewards section below.
-
-### How to nominate your contract
-
-The next step is staking. You can stake on a smart contract as usual. The details are described on the following page.
-
-{% page-ref page="../workshop-and-tutorial/dapps-reward.md" %}
-
-In addition to that, you can check the community rewards page in the Staking section where you can check the status of staking volume and the ranking.
-
-[https://dusty.plasmnet.io](https://dusty.plasmnet.io/#/accounts)
-
-![](../.gitbook/assets/screen-shot-2020-08-11-at-10.29.40.png)
-
-### How to get rewards
-
-PLM holders stake their tokens on your smart contract. By doing so, the nominator and the smart contract creator get a reward.
-
-See the link below for more information.
-
-{% page-ref page="../workshop-and-tutorial/dapps-reward.md" %}
-
-
-
-
 
