@@ -102,11 +102,11 @@ Calculating compensation for a nominator is a bit more complicated: a nominator 
 This is to prevent participants from nominating themselves. In the following equation, let $$WeightedStake_i$$ be the sum of $$i$$-th nominator's stake amount that is weighted specifically for Community Rewards, and $$C_{nominator_i}$$ be the set of contracts nominated by the $$nominator_i$$. $$RewardForNominators_i$$ is the reward for the ith nominator. We'll get into the details of function $$f$$ in a moment.
 
 $$
-threshold = TotalStake \times \frac{3}{100}
+Threshold = TotalStake \times \frac{3}{100}
 $$
 
 $$
-WeightedStake_{i} = \sum_{contract_j\ \in \ C_{nominator_i}} \left\{ \array{f(contract_j) & threshold \leq Stake_{contract_j} \cr 0 & otherwize} \right.
+WeightedStake_{i} = \sum_{contract_j\ \in \ C_{nominator_i}} \left\{ \array{f(contract_j) & Threshold \leq Stake_{contract_j} \cr 0 & otherwize} \right.
 $$
 
 $$
