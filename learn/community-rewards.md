@@ -1,3 +1,7 @@
+---
+description: 'WIP: Modify English'
+---
+
 # Community Rewards
 
 The idea behind Community Rewards is to provide incentives with community members who contribute to the Plasm Network early on. We make it happen by using the staking mechanism. In this mechanism, the early adopters can get rewards.
@@ -44,11 +48,11 @@ See the link below for more information.
 
 Next, we are going to learn some formulas to calculate the rewards.
 
+### Rewards Calculation
+
 {% hint style="info" %}
 This content includes math. You can skip this section below if you are not good at math. 
 {% endhint %}
-
-### Rewards Calculation
 
 The target inflation rate of the maximum token supply is $$I ≤ I_0 = 2.5%$$per a year. $$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators \(We assume the sufficient number of validators is 100\). Validator compensation per each Era is strictly defined as the following. 
 
