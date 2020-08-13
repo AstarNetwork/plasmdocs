@@ -14,7 +14,7 @@ Currently, we have 2 ways to install ****the Plasm Node as follows.
 
 **①Install from the latest release**
 
-{% embed url="https://github.com/staketechnologies/Plasm/releases/tag/v1.2.1-dusty" %}
+{% embed url="https://github.com/staketechnologies/Plasm/releases/tag/v1.4.0-dusty" %}
 
 **②Build from source**
 
@@ -44,8 +44,18 @@ cargo install --git https://github.com/alexcrichton/wasm-gc
 Install the Plasm node from git source:
 
 ```text
-cargo install --force —locked  --git https://github.com/staketechnologies/Plasm --tag v1.2.1-dusty plasm-cli
+cargo install --force --locked  --git https://github.com/staketechnologies/Plasm --tag v1.4.0-dusty plasm-cli
 ```
+
+> Alternatively, you can use the following commands to compile directly from the repo (unstable bleeding edge)
+> 
+> ```text
+> git clone https://github.com/staketechnologies/Plasm.git
+> cd Plasm
+> rustup override set nightly
+> cargo build --release
+> ./target/release/plasm-node
+> ```
 
 Run node on the Plasm canary network  \(Dusty Network\)
 
