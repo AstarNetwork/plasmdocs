@@ -18,7 +18,7 @@ Plasm Networkにスマートコントラクトをデプロイする前に、ロ�
 
 **②ソースからビルドする**
 
-Rustがインストールしていることを確認してください。
+Rustがインストールされていることを確認してください。
 
 ```text
 > curl https://sh.rustup.rs -sSf | sh# on Windows download and run rustup-init.exe# from https://rustup.rs instead​> rustup update nightly> rustup target add wasm32-unknown-unknown --toolchain nightly
@@ -48,7 +48,13 @@ Plasm NetworkのR&Dチェーン（準テストネット）であるDusty Network
 plasm-node
 ```
 
-開発環境でノードを動かすには以下のコマンドを実行します。最後にPlasm上のスマートコントラクト言語であるink!を書くためにink!をインストールします。
+開発環境でノードを動かすには以下のコマンドを実行します。
+
+```text
+plasm-node --dev
+```
+
+最後にPlasm上のスマートコントラクト言語であるink!を書くためにink!をインストールします。
 
 ```text
 cargo install cargo-contract --vers 0.6.1 --force

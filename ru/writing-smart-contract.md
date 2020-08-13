@@ -8,6 +8,21 @@
 
 Plasm NetworkはWebAssemblyをサポートしているので、WebAssemblyに対応している全ての言語（Go、Rust、C など）に対応することができます。現在サポートされているのはRustベースのeDSLである ink! とEthereumの開発で使用されるSolidity です。このセクションではink!を使ったスマートコントラクトの書き方について説明します。
 
+### Substrateの環境構築
+
+まずはじめに、Substrateの環境構築を行う必要があります。MacOSかLinuxディストリビューションのいずれかを使用している方は以下のコマンドでセットアップを行ってください。
+
+```text
+curl https://getsubstrate.io -sSf | bash -s -- --fast
+
+rustup target add wasm32-unknown-unknown --toolchain stable
+rustup component add rust-src --toolchain nightly
+```
+
+Windowsを利用している方は以下のページよりセットアップ方法を確認してください。
+
+{% embed url="https://substrate.dev/docs/en/knowledgebase/getting-started/windows-users" %}
+
 ### ink! の環境構築
 
 ink!でコントラクトを開発を行うためのセットアップを行います。
