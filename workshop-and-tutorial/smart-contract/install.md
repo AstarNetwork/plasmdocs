@@ -8,17 +8,17 @@ description: >-
 
 To write smart contracts on Plasm Network, you need to set up the following things on your computer.
 
-### Plasm Node
+## Plasm Node
 
-Currently, we have 2 ways to install ****the Plasm Node as follows.
+Currently, we have 2 ways to install _\*\*_the Plasm Node as follows.
 
 **①Install from the latest release**
 
-{% embed url="https://github.com/staketechnologies/Plasm/releases/tag/v1.4.0-dusty" %}
+{% embed url="https://github.com/staketechnologies/Plasm/releases/tag/v1.4.0-dusty" caption="" %}
 
 **②Build from source**
 
-Make sure you have already installed Rust 
+Make sure you have already installed Rust
 
 ```text
 > curl https://sh.rustup.rs -sSf | sh
@@ -47,8 +47,8 @@ Install the Plasm node from git source:
 cargo install --force --locked  --git https://github.com/staketechnologies/Plasm --tag v1.4.0-dusty plasm-cli
 ```
 
-> Alternatively, you can use the following commands to compile directly from the repo (unstable bleeding edge)
-> 
+> Alternatively, you can use the following commands to compile directly from the repo \(unstable bleeding edge\)
+>
 > ```text
 > git clone https://github.com/staketechnologies/Plasm.git
 > cd Plasm
@@ -57,7 +57,7 @@ cargo install --force --locked  --git https://github.com/staketechnologies/Plasm
 > ./target/release/plasm-node
 > ```
 
-Run node on the Plasm canary network  \(Dusty Network\)
+Run node on the Plasm canary network \(Dusty Network\)
 
 ```text
 plasm-node
@@ -69,14 +69,14 @@ Or run on your local development network:
 plasm-node --dev
 ```
 
-The final tool we will be installing is ink! utility. 
+The final tool we will be installing is ink! utility.
 
 ```text
 cargo install cargo-contract --vers 0.6.1 --force
 ```
 
 {% hint style="info" %}
-You can  use  "cargo contract --help" to understand commands
+You can use "cargo contract --help" to understand commands
 {% endhint %}
 
 Any questions? Feel free to ask [us](https://discord.gg/kH3Njpr).
