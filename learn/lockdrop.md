@@ -4,7 +4,7 @@
 
 [https://lockdrop.plasmnet.io/\#/lock-form](https://lockdrop.plasmnet.io/#/lock-form)
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-175215png.png)
+![](../.gitbook/assets/undraw_collecting_fjjl.png)
 
 ## Introduction
 
@@ -42,7 +42,7 @@ Second, it allows for code results to be observed so that the team can ensure th
 Plasm Network will accept the following tokens for the 1st, 2nd and 3rd lockdrop.
 
 * 1st: ETH
-* 2nd: ETH, BTC
+* 2nd: ETH, ~~BTC \(Postponed\)~~
 * 3rd: ETH, BTC, DOT
 
 ### Definitions

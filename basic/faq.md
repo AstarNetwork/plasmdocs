@@ -1,6 +1,6 @@
 # FAQ
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-180001png.png)
+![](../.gitbook/assets/undraw_questions_75e0.png)
 
 ## Lockdrop
 
@@ -10,7 +10,7 @@ A. We are planning for a total of three lockdrops and assuming nothing goes wron
 
 **Q. I'm looking to lockdrop DOTs but what do you mean by auction? How does the auction work to become a parachain in DOT ecosystem?**
 
-A. The Parachain slots for Polkadot Network is distributed via a candle auction. Simply put, people can "lock" \(or bid\) their DOTs for up to 4 periods \(6 months per period\) to a NPoS Substrate-based blockchain network. This will allow the network with the highest bids to occupy a slot during the slot duration. Plasm Network's third lockdrop will allow the participants to lock for 2 years with increased PLM return bonuses.
+A. The Parachain slots for Polkadot Network are distributed via a candle auction. Simply put, people can "lock" \(or bid\) their DOTs for up to 4 periods \(6 months per period\) to a NPoS Substrate-based blockchain network. This will allow the network with the highest bids to occupy a slot during the slot duration. Plasm Network's third lockdrop will allow the participants to lock for 2 years with increased PLM return bonuses.
 
 **Q. Hardware wallet functionality was mentioned in the last AMA, has this been confirmed for all future lockdrops?**
 
@@ -28,17 +28,17 @@ A. Oh yes! In fact, we recommend diversifying your portfolio in any investment. 
 
 **Q. How many hours do SESSION and ERA last respectively?**
 
-A. Generally an era would be expected to last a single day \(24 hours\) while a session would last about 10 minutes.
+A. Generally, an era would be expected to last a single day \(24 hours\) while a session would last about 10 minutes.
 
 **Q. ERA is 6x session?**
 
-A. Not necessarily. In case of Dusty an Era is 144x a session.
+A. Not necessarily. In the case of Dusty an Era is 144x a session.
 
-**Q. How is the distribution of the reward for the nodes that are currently validating on the mainnet? Do they get reward every ERA? Do all nodes get the same amount of reward or does it depend on the performance of the machine?**
+**Q. How is the distribution of the reward for the nodes that are currently validating on the mainnet? Do they get rewards every ERA? Do all nodes get the same amount of reward or does it depend on the performance of the machine?**
 
-A. Yes the rewards are distributed ever Era. Generally the number of rewards will be the same for all the validator nodes.
+A. Yes, the rewards are distributed ever Era. Generally, the number of rewards will be the same for all the validator nodes.
 
-**Q. Is there slashing penalty on Plasm Mainnet PoA phase?**
+**Q. Is there a slashing penalty on Plasm Mainnet PoA phase?**
 
-A. During PoA, we don't have any automated slashing mechanism, but we will manually slash/ban a malicious validator nodes if they attempt to validate malicious blocks or attempt to attack the network in any way.
+A. During PoA, we don't have any automated slashing mechanism, but we will manually slash/ban malicious validator nodes if they attempt to validate malicious blocks or attempt to attack the network in any way.
 

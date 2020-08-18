@@ -24,7 +24,7 @@ Uploading the code takes around 220 Units.
 
 ![](../../.gitbook/assets/uploaded.png)
 
-Congratulations! You uploading your first L1 Smart contract! Let's create an instance of your code using "**Deploy"** button.
+Congratulations! You uploaded your first L1 Smart contract! Let's create an instance of your code using "**Deploy"** button.
 
 ![Don&apos;t foget to set 100 unit endowment.](../../.gitbook/assets/deploy.png)
 

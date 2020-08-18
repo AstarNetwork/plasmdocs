@@ -1,6 +1,6 @@
 # Consensus
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-175510png.png)
+![](../.gitbook/assets/undraw_business_deal_cpi9-1-.png)
 
 To increase security, the [Plasm Network](https://www.plasmnet.io/) will have consensus and reward algorithm upgrades over time. Plasm will start using a Proof of Authority model run by community selected validators.
 

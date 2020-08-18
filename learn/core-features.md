@@ -8,7 +8,7 @@ The Plasm testnet has three additional features in addition to the existing Subs
 
 ## **Operator Trading**
 
-This is enhanced smart contract owner management which allows tokenization of contracts and transfer of contract ownership.
+This is enhanced smart contract owner management which allows the tokenization of contracts and transfer of contract ownership.
 
 {% page-ref page="operator-trading.md" %}
 

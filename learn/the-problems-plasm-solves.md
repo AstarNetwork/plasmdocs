@@ -2,9 +2,9 @@
 
 [Plasm Network](https://www.plasmnet.io/) is a layer1 blockchain that solves prominent issues: scalability and interoperability.
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-174733png.png)
+![](../.gitbook/assets/undraw_solution_mindset_34bi-1-.png)
 
-## Scalability
+### Scalability
 
 Blockchains do not scale by design because of the decentralized consensus mechanism. TPS \(Transaction Per Second\) is much smaller than a centralized database and there is an upper limitation of data that can be stored in every block. Therefore, users across the network may notice their transactions sit unconfirmed or pending for long periods of time, creating a poor user experience.
 
