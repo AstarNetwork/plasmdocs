@@ -1,5 +1,5 @@
 ---
-description: "Hi everyone! Thank you for checking Plasm Network documentation \U0001F609"
+description: "Hi everyone! Thank you for checking the Plasm Network documentation \U0001F609"
 ---
 
 # Welcome
