@@ -1,6 +1,6 @@
 # コンセンサス
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-175510png.png)
+![](../.gitbook/assets/undraw_business_deal_cpi9-1-.png)
 
 Plasm Network はセキュリティの維持のために段階的に合意形成アルゴリズムと報酬設計を変更します。具体的には最初はコミュニティによって選定された Validator のみで運営する Proof of Authority の形式をとります。最終的に Polkadot の リレーチェーン でも採用されている NPoS に移行します。
 

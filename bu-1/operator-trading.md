@@ -1,6 +1,6 @@
 # Operator Trading
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-175012png.png)
+![](../.gitbook/assets/undraw_crypto_portfolio_2jy5.png)
 
 Operator Trading は**コントラクトの所有者を管理する機能です。コントラクトを資産として移転することが可能になります**。Dapps Reward の仕組みにより、Operator は恒常的に利益を得ることができます。
 

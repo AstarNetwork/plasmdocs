@@ -19,7 +19,7 @@
 * **Twitter** : [https://twitter.com/Plasm\_Network](https://twitter.com/Plasm_Network)
 * **Telegram** : [https://t.me/PlasmOfficial](https://t.me/PlasmOfficial)
 
-![](.gitbook/assets/sukurnshotto-2020-06-29-173603png.png)
+![](.gitbook/assets/undraw_ideas_s70l-1-.png)
 
 ## コントリビューション
 

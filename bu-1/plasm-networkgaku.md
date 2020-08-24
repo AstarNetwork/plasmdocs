@@ -1,6 +1,6 @@
 # Plasm Networkが解く課題
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-174733png.png)
+![](../.gitbook/assets/undraw_solution_mindset_34bi-1-.png)
 
 [Plasm Network](https://www.plasmnet.io/)はブロックチェーンにおける**「処理性能（スケーラビリティ）」**と**「相互運用性（インターオペラビリティ）」**の問題を解決するためのブロックチェーンです。
 

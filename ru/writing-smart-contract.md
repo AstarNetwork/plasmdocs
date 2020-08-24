@@ -1,6 +1,6 @@
 # スマートコントラクトを書く
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-175649png.png)
+![](../.gitbook/assets/undraw_dev_focus_b9xo-1-.png)
 
 [Plasm Network](https://www.plasmnet.io/)はレイヤー2ソリューションをサポートしているレイヤー1ブロックチェーンです。このセクションではレイヤー1上にどのようにスマートコントラクトを書くのかを説明します。
 
