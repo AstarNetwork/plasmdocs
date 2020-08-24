@@ -7,6 +7,7 @@
 
 * [Polkadotについて](ekoshisutemu/polkadot.md)
 * [Substrateについて](ekoshisutemu/substrate.md)
+* [コミュニティー](ekoshisutemu/komyunit.md)
 
 ## 学ぶ <a id="bu-1"></a>
 
@@ -62,4 +63,5 @@
 
 * [ホワイトペーパー](https://github.com/staketechnologies/plasmdocs/blob/master/wp/jp.pdf)
 * [テックチャネル（Discord）](https://discord.com/invite/wUcQt3R)
+* [GitHub](https://github.com/stakedtechnologies/Plasm)
 

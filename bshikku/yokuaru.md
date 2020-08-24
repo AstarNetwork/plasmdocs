@@ -1,4 +1,4 @@
 # よくある質問
 
-To Be Added
+![](../.gitbook/assets/undraw_questions_75e0.png)
 
