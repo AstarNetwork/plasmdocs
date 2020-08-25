@@ -16,7 +16,7 @@
 
 The first lockdrop issued will be using Ethereum's opportunity cost. Examples will make the assumption that the locked token is ETH. Lockdrop is an algorithm that can be implemented on any chain that supports TimeLock. The figure below shows how the lockdrop will work on the [Plasm Network](https://www.plasmnet.io/).
 
-![](../.gitbook/assets/screen-shot-2020-08-25-at-11.56.15.png)
+![Keep in mind that you have to pay the gas fee.](../.gitbook/assets/screen-shot-2020-08-25-at-11.56.15.png)
 
 The Lockdrop Work Flow:
 
