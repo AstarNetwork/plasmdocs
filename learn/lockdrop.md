@@ -45,6 +45,8 @@ Plasm Network will accept the following tokens for the 1st, 2nd and 3rd lockdrop
 * 2nd: ETH, ~~BTC \(Postponed\)~~
 * 3rd: ETH, BTC, DOT
 
+After the 2nd and the 3rd lockdrop, [Stake Technologies](https://stake.co.jp/en/), the core development company will reserve 35% of the issued tokens for marketing, listing, grants, and so on.
+
 ### Definitions
 
 We define the amount of distributed PLM \( $$TotalPLM^{genesis}$$ \) from the first lockdrop to be as the following.
