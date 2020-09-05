@@ -10,7 +10,7 @@ Polkadotのパラチェーンとなるためには、Polkadotのパラチェー�
 
 Polkadot Auction Lockdrop は前章で説明した Lockdrop のうち、DOT を用いた Lockdrop を指します。このPlasm NetworkのLockdropはPolkadot Auction期間中に開催されます。
 
-{% page-ref page="multi-lockdrop.md" %}
+{% page-ref page="lockdrop.md" %}
 
 DOTによるLockdropは1回目、2回目、3回目のLockdrop とは独立しており、特殊な役割を持っています。DOTの保有者はPlasm Networkがスロットを獲得しパラチェーンになるためにDOTをスロットにロックします。DOT のロック期間は約2年であり、その間は Plasm Network はパラチェーンとして活動します。ロックをした対価としてPLMをよいレートで得ることができます。
 
