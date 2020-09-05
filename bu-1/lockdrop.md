@@ -4,7 +4,7 @@ description: Локдроп.
 
 # Lockdrop
 
-### Участники Lockdrop, могут получить токен PLM здесь 
+### Участники Lockdrop могут получить токен PLM здесь 
 
 [https://lockdrop.plasmnet.io/\#/lock-form](https://lockdrop.plasmnet.io/#/lock-form)
 
