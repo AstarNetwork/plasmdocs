@@ -2,28 +2,28 @@
 description: "Hi everyone! Thank you for checking Plasm Network documentation \U0001F609"
 ---
 
-# Welcome 💁
+# 欢迎 💁
 
 ![](.gitbook/assets/sukurnshotto-2020-05-27-200702png.png)
 
 ## Welcome to the Plasm Network documentation!
 
-Plasm Network is a **scalable and interoperable infrastructure for Web3.0**. Since Plasm Network is built with [Parity’s Substrate framework](https://www.substrate.io/), it can be a future [Polkadot](https://polkadot.network/) **Parachain** that also acts as a scalable smart contract platform. The [Polkadot](https://polkadot.network/) Relaychain, by design, does not support smart contracts. This allows Plasm the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands DApp developers have. Ideally, the developers can build whatever applications on Plasm Network without having to consider its scalability.
+Plasm Network是可拓展可交互式的Web3.0基础构架。使用[Parity’s Substrate framework](https://www.substrate.io/)搭建，Plasm Network未来将成为作为可拓展化智能合约平台的[Polkadot](https://polkadot.network/) **平行链**。由于[Polkadot](https://polkadot.network/)中继链并不支持智能合约，这让Plasm Network成为极具潜力的解决方案：拓展性是DApp开发者所面临的最巨大挑战；而理想情况下，未来开发者在Plasm Network上开发应用将无需再担心拓展性问题。
 
-The work of the community is maintained under a public domain license at  
+社区贡献运维地址：
 [https://github.com/stakedtechnologies/Plasm](https://github.com/stakedtechnologies/Plasm)
 
-Plasm Network is an open source project. There are a lot of opportunities to get involved. 
+Plasm Network是一个开源项目。欢迎大家参与！ 
 
-## Want to learn more? Please visit 👇
+## 希望了解更多? 请访问 👇
 
 {% page-ref page="learn/the-problems-plasm-solves.md" %}
 
-## Want to build on Plasm Network? Please visit 👇
+## 希望在Plasm Network上进行开发? 请访问 👇
 
 {% page-ref page="workshop-and-tutorial/smart-contract.md" %}
 
-## Want to run a node? Please visit 👇
+## 希望运行一个节点? 请访问 👇
 
 {% page-ref page="workshop-and-tutorial/untitled.md" %}
 
