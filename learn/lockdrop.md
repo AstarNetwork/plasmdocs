@@ -41,9 +41,9 @@ Second, it allows for code results to be observed so that the team can ensure th
 
 Plasm Network will accept the following tokens for the 1st, 2nd and 3rd lockdrop.
 
-* 1st: ETH
-* 2nd: ETH, ~~BTC \(Postponed\)~~
-* 3rd: ETH, BTC, DOT
+* 1st: ETH 16783 ETH locked
+* 2nd: ETH
+* 3rd: DOT
 
 After the 2nd and the 3rd lockdrop, [Stake Technologies](https://stake.co.jp/en/), the core development company will reserve 35% of the issued tokens for marketing, listing, grants, and so on.
 
@@ -71,7 +71,7 @@ The IssueRatio will be defined as follows:
 * $$DolalrRate_{token}$$ is the value for 1 token in Dollars
 * $$LockBonus_{days}$$ is the amount of bonus the user will receive according to the locked days
 
-$$IssueRatio = Locked_{token} \times DollarRate_{token}\times LockBonus_{days} (token \in \{ETH,BTC,DOT\})$$
+$$IssueRatio = Locked_{token} \times DollarRate_{token}\times LockBonus_{days} (token \in \{ETH,DOT\})$$
 
 The number of tokens to be awarded to the lockdrop participant is determined by the calculated IssueRatio.
 
