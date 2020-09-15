@@ -13,7 +13,7 @@ Plasm Network是可拓展可交互式的Web3.0基础构架。使用[Parity’s S
 社区贡献运维地址：
 [https://github.com/stakedtechnologies/Plasm](https://github.com/stakedtechnologies/Plasm)
 
-Plasm Network是一个开源项目。欢迎大家参与！ 
+Plasm Network是一个开源项目。欢迎大家参与!
 
 ## 希望了解更多? 请访问 👇
 
