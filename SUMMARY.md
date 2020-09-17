@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome 欢迎 💁](Introduction.md)
-* [Introduction 🐾](introduction.md)
+* [Introduction 简介 🐾](introduction.md)
 
 ## Ecosystem
 

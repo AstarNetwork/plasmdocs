@@ -1,4 +1,6 @@
-# Introduction 🐾
+# Introduction 简介 🐾
+
+Plasm Network旨在提供一个可拓展，可互操作的去中心化应用平台——将定义崭新的网络形式——Web 3.0。
 
 [Plasm Network](https://www.plasmnet.io/)'s mission is to provide a  scalable, interoperable, and decentralized application platform that defines and realizes the new form of the web: Web3.0. 
 
