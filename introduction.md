@@ -1,14 +1,12 @@
 # Introduction 简介 🐾
 
-Plasm Network旨在提供一个可拓展，可互操作的去中心化应用平台——将定义崭新的网络形式——Web 3.0。
+Plasm Network旨在提供一个可拓展，可互操作的去中心化应用平台——定义在崭新的网络形式Web 3.0之上。
 
-[Plasm Network](https://www.plasmnet.io/)'s mission is to provide a  scalable, interoperable, and decentralized application platform that defines and realizes the new form of the web: Web3.0. 
+传统的社会结构允许掌握权力的人垄断信息，历史证明，这些人会为自己的利益而改变规则。即使人们声称自己的系统是公平的，它仍然缺乏透明度，一切仍然在被称为“信任“的沙丘上构想。对于这样一个现存社会，区块链使用分散式治理来实现传统中心化网络无法达到的透明度和公平性。因为区块链是一个任何人都可以查看，验证和操作的系统，并且可以实现容错和高防篡改性。
 
-The traditional social structure allows people with authority to monopolize information, and history has proven that these people will bend the rules to their benefit. Even if people claim that their system is fair, it still lack transparency, proving that everything is still conceived upon pillars of sand that are called trust. In contrast to this, blockchain provides a system with decentralized governance that does not require a single point of failure and making a transparent and trustless system. This is possible because  blockchain is a system that allows anyone to view, prove, and host with a highly fault-tolerant consensus mechanism. 
+为了让终端用户充分利用区块链协议的优势，必须有一个为他们提供交互界面的应用程序。在区块链之上工作的应用程序称为去中心化应用程序（dApps\)。目前，有无数以智能合约和链码形式开发的dApp部署在各种区块链上开发，部署并提供给用户。然而，由于dApps的去中心化特性，其处理速度远不够快。
 
-For end-users to fully utilize the strengths of the blockchain protocol, there must be an application that provides an interface to them. Applications that work on top of blockchains are referred to as Decentralized Application \(Dapps\). Currently, there are countless Dapps developed in the form of  smart  contracts and chain codes that are deployed on a blockchain, providing utility for various people.  However, due to the decentralized nature of Dapps, the processing speed is far from fast. 
-
-To  solve this issue, some features are implemented on Plasm Network that are accessible from the links below.
+为了解决此问题，Plasm Network具有一些功能，可以从下面的链接访问它们：
 
 {% page-ref page="learn/plasm-overview.md" %}
 
