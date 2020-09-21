@@ -4,7 +4,7 @@ description: >-
   essential links to the community channels.
 ---
 
-# Community 🎨
+# Community 社区 🎨
 
 ## Ecosystem Tool
 

@@ -7,7 +7,7 @@
 
 * [Polkadot 波卡 🔴](ecosystem/polkadot.md)
 * [Substrate 🅾](ecosystem/substrate.md)
-* [Community 🎨](ecosystem/community.md)
+* [Community 社区 🎨](ecosystem/community.md)
 
 ## Learn
 
