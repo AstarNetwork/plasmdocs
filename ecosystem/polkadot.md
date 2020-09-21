@@ -1,19 +1,19 @@
-# Polkadot 🔴
+# Polkadot 波卡 🔴
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-221155png.png)
 
-[Polkadot](https://polkadot.network/) is a sharded protocol that enables blockchain networks to operate together seamlessly. It is an open-source project led by [Web3 Foundation](https://web3.foundation/). 
+[Polkado](https://polkadot.network/)是一个具有异构分片机制的公链，使各独立区块链可以互相交换信息和价值。同时它也是由Gavin Wood作为创始人&CTO的[Web3 Foundation](https://web3.foundation/)主导开发的一个开源项目。
 
-### Polkadot Basic
+### Polkadot 基础
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-230056png.png)
 
-Polkadot mainly consists of two parts: Relaychain and Prachain. 
+Polkadot主要包含两个部分: 中继链和平行链。
 
-* **Relaychain:** The heart of Polkadot, responsible for the network’s security, consensus and cross-chain interoperability.
-* **Parachain:** Sovereign blockchains that can have their own tokens and optimize their functionality for specific use cases. To connect to the Relay Chain, parachains can pay as they go or lease a slot for continuous connectivity.
+* **中继链:** Polkadot的核心, 负责网络安全，共识机制和跨链互操作性。
+* **平行链:** 可拥有自定义代币，并针对特定用例优化功能的主权区块链。需要付费使用或租用一个插槽连接到中继链。
 
-\*\*\*\*[**Plasm Network**](https://www.plasmnet.io/) **aims to be the first SCALABLE smart contract Polkadot Parachain. \(**Plasm can be a Parachain since it is built on Parity Substrate\)
+[**Plasm Network**](https://www.plasmnet.io/) **计划成为Polkadot的第一个可拓展智能合约平行链. \(**Plasm可以成为平行链因为它是使用Parity Substrate开发\)
 
 {% page-ref page="substrate.md" %}
 
