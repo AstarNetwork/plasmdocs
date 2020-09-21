@@ -17,16 +17,16 @@ Polkadot主要包含两个部分: 中继链和平行链。
 
 {% page-ref page="substrate.md" %}
 
-Through this architecture, Polkadot makes the following things possible. 
+Polkadot平行链和中继链使以下事情成为可能：
 
-1. **By connecting Parachain to the Relaychain, the data and token can be transferable among Parachains seamlessly.**
-2. **Parachain can import Relaychain's security.**
+1. **数据和代币可以在平行链之间无缝传输。**
+2. **平行链可以导入中继链的安全性。**
 
-If you are interested in Polkadot, you can learn more from the following web pages.
+如果你对Polkadot感兴趣，可以从以下网页中了解更多：
 
-* **Polkadot Lightpaper:** [https://polkadot.network/Polkadot-lightpaper.pdf](https://polkadot.network/Polkadot-lightpaper.pdf)
-* **Polkadot web page:** [https://polkadot.network/](https://polkadot.network/)
-* **Polkadot wiki:** [https://wiki.polkadot.network/](https://wiki.polkadot.network/)
+* **Polkadot 白皮书:** [https://polkadot.network/Polkadot-lightpaper.pdf](https://polkadot.network/Polkadot-lightpaper.pdf)
+* **Polkadot 网页:** [https://polkadot.network/](https://polkadot.network/)
+* **Polkadot 百科:** [https://wiki.polkadot.network/](https://wiki.polkadot.network/)
 
 ##  Plasm Network and Polkadot
 

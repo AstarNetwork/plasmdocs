@@ -1,4 +1,4 @@
-# Substrate 🅾
+# Substrate 框架 🅾
 
 Parity Substrate is a blockchain framework to build your own blockchain. You can use Substrate’s pallets to easily create what you want, or craft your own custom logic. Either way, Substrate makes building a blockchain far faster, easier, and safer than ever before.
 
