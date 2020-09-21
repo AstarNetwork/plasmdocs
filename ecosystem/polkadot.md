@@ -28,21 +28,21 @@ Polkadot平行链和中继链使以下事情成为可能：
 * **Polkadot 网页:** [https://polkadot.network/](https://polkadot.network/)
 * **Polkadot 百科:** [https://wiki.polkadot.network/](https://wiki.polkadot.network/)
 
-##  Plasm Network and Polkadot
+##  Plasm Network 和 Polkadot
 
-In this section, we will describe the roles of [Plasm Network ](https://www.plasmnet.io/)in the Polkadot ecosystem. [Plasm Network](https://www.plasmnet.io/) aims to be the first scalable smart contract Polkadot Parachain. 
+在本节中，我们将概述Plasm Network在Polkadot生态系统中的作用。Plasm Network的目标是成为Polkadot的第一个可扩展智能合约平行链。
 
-### Smart Contract
+### 智能合约
 
-The [Polkadot](https://polkadot.network/) Relaychain, by design, does not support smart contracts. This allows Plasm the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands DApp developers have. Ideally, the developers can build whatever applications on Plasm Network without having to consider its scalability.
+设计上[Polkadot](https://polkadot.network/)中继链并不支持智能合约，使得Plasm Network有机会去填补这个空缺。可拓展性无疑是dApps开发者最关键的需求。理想中，开发者们将可以在Plasm Network上开发任意应用程序而不用担心拓展性。
 
-### Scalability
+### 可拓展性
 
-[Plasm Network](https://www.plasmnet.io/) is scalable because we are implementing layer2 solutions especially Optimistic Virtual Machine.
+[Plasm Network](https://www.plasmnet.io/) 具有可拓展性因为我们采用了二层扩容方案和OVM\(Optimistic Virtual Machine\)。
 
 {% page-ref page="../learn/optimistic-virtual-machine.md" %}
 
-Scalability is one of the most crucial issues blockchain has. In order to make blockchain a social infrastructure, it needs high processing performance. Solving this scalability problem in the blockchain ecosystem is an urgent task for us.
+可拓展性是区块链所面临的最重要的问题之一。为了广泛采用区块链技术，区块链需要更更高的处理性能。可拓展性是区块链生态系统亟待解决的问题。 
 
 When we say scalability, there are 2 types: 
 
