@@ -28,7 +28,7 @@ Polkadot平行链和中继链使以下事情成为可能：
 * **Polkadot 网页:** [https://polkadot.network/](https://polkadot.network/)
 * **Polkadot 百科:** [https://wiki.polkadot.network/](https://wiki.polkadot.network/)
 
-##  Plasm Network 和 Polkadot
+## Plasm Network 和 Polkadot
 
 在本节中，我们将概述Plasm Network在Polkadot生态系统中的作用。Plasm Network的目标是成为Polkadot的第一个可扩展智能合约平行链。
 
@@ -44,26 +44,26 @@ Polkadot平行链和中继链使以下事情成为可能：
 
 可拓展性是区块链所面临的最重要的问题之一。为了广泛采用区块链技术，区块链需要更更高的处理性能。可拓展性是区块链生态系统亟待解决的问题。 
 
-When we say scalability, there are 2 types: 
+可拓展性有两种类型: 
 
-* **Layer1 \(horizontal\) scalability:** The concept of layer1 scalability is to do more on layer1 blockchain. \(e.g. sharding and Segwit\)
-* **Layer2 \(vertical\) scalability:** The concept of layer2 scalability is to do less on layer1 and to do more on layer2 or off-chain.  \(e.g. Plasma and State Channel\)
+* **第1层 \(水平\) 可拓展性:** 对第一层区块链进行更多处理 \(例如，分片机制和SegWit隔离见证\)
+* **Layer2 \(vertical\) scalability:** 对第二层区块链和链外进行更多处理  \(例如，Plasma和状态通道\)
 
-Polkadot has the layer1 scalability because it is a sharding ish architecture. [Plasm](https://www.plasmnet.io/) is also scalable because it has layer2 vertical scalabilities. 
+Polkadot第一层可拓展性是通过分片机制实现的。 另一方面，[Plasm Network](https://www.plasmnet.io/)具有第二层 \(垂直\) 可拓展性。
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-07-234905png.png)
 
-Layer1 solution and layer2 solution are completely different and they complement each other. 
+第一层扩容方案和第二层扩容方案完全不同，同时相互补充以实现更灵活的开发。
 
-In addition to that, scalability is NOT just a benefit we can get through layer2 solutions. We can get the followings as well
+此外，可拓展性并非第二层扩容方案的唯一优势，同时也可以带来：
 
-* **First Finality**
-* **Flexible DApps development**
-* **Cheaper transaction\(gas\) cost**
+* 第一最终性
+* 更灵活的dApps开发
+* 更低的交易成本
 
-Through layer1 smart contract and layer2 solutions, we are looking forward to seeing various use cases on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\) 
+通过智能合约和二层扩容方案，我们期待在[Plasm Network](https://www.plasmnet.io/)实现多种 \(例如 游戏, IoT, 支付, DEX, 和 Bridge\) 
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-08-00739png.png)
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+有疑问吗? 欢迎提问 [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 
