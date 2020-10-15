@@ -40,7 +40,7 @@
 * [Solidity](workshop-and-tutorial/solidity.md)
 * [ink!](workshop-and-tutorial/ink.md)
 * [Layer2 Applications](workshop-and-tutorial/layer2-applications.md)
-* [Validator Guide](workshop-and-tutorial/untitled.md)
+* [Validator Guide](workshop-and-tutorial/validator-guide.md)
 * [Operator Trading](workshop-and-tutorial/operator-trading.md)
 * [dApps Reward](workshop-and-tutorial/dapps-reward.md)
 * [Lockdrop Tutorial](workshop-and-tutorial/lockdrop-tutrial.md)
