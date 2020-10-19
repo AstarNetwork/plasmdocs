@@ -4,8 +4,7 @@ description: Ethereum Compatibility Layer.
 
 # EVM Smart Contracts
 
-**To Do: Make a demo video  
-To Do: Fix typo**
+![](../.gitbook/assets/what-is-ethereum-logo-big.o.png)
 
 EVM \(Ethereum Virtual Machine\) is the most popular VM for smart contracts. EVM has a rich ecosystem for developers, testers, and users. **Plasm Network fully supports EVM-based smart contracts as L1 contracts.**
 
@@ -30,7 +29,7 @@ Oct 14 15:07:56.998  INFO 🏷  Node name: skillful-war-1171
 Oct 14 15:07:56.998  INFO 👤 Role: AUTHORITY
 ```
 
-From now, the node is available on Metamask. Ta-da! Sounds good, doesn't it?
+Now, the node is available on Metamask. Ta-da! Sounds good, doesn't it?
 
 ![Plasm development node. Metamask connection settings.](../.gitbook/assets/network_connection.png)
 
