@@ -1,6 +1,12 @@
 # Validator Guide
 
 {% hint style="info" %}
+If you are using Microsoft Azure, please follow the video  👇
+{% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=wZgIqAufyCE&ab\_channel=KenzoKobayashi" caption="Kenzo Kobayashi, Plasm Network Ambassador" %}
+
+{% hint style="info" %}
 This short guide explains how to become a Dusty Network validator step by step.
 {% endhint %}
 
