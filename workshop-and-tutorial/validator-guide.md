@@ -10,7 +10,7 @@ If you are using Microsoft Azure, please follow the video  👇
 This short guide explains how to become a Dusty Network validator step by step.
 {% endhint %}
 
-* Install node **v1.6.0-dusty** using [binaries](https://github.com/staketechnologies/Plasm/releases/tag/v1.6.0-dusty) or [building from source code](https://github.com/staketechnologies/Plasm#building-from-source).
+* Install node **v1.7.0-dusty** using [binaries](https://github.com/PlasmNetwork/Plasm/releases/tag/v1.7.0-dusty) or [building from source code](https://github.com/staketechnologies/Plasm#building-from-source).
 * Launch node `plasm-node --validator --name node-name --rpc-cors all`
 * Wait for syncing up.
 
