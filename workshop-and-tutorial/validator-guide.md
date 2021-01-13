@@ -39,7 +39,7 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 
 ## Conclusion
 
-When you finish this tutorial, please wait a bit while **Stake Technologies** team approves your account as a validator. Thank you for Plasm Network contribution and let's make Plasm better together!Testnet v3 migration
+When you finish this tutorial, please wait a bit while **Stake Technologies** team approves your account as a validator. Thank you for Plasm Network contribution and let's make Plasm better together!
 
 If you have already participated in testnet V3 as a validator, you could be interested in migration. Please copy your session keys from **testnet v3 keystore** into **dusty keystore** by following commands before launch node:exit: Ctrl+↩
 
