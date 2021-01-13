@@ -1,5 +1,5 @@
 ---
-description: "Hi everyone! Thank you for checking Plasm Network documentation \U0001F609"
+description: "Hi everyone! Thank you for checking the Plasm Network documentation \U0001F609"
 ---
 
 # Welcome
@@ -13,9 +13,9 @@ Plasm Network is a **scalable and interoperable infrastructure for Web3.0**. Sin
 The work of the community is maintained under a public domain license at  
 [https://github.com/stakedtechnologies/Plasm](https://github.com/stakedtechnologies/Plasm)
 
-Plasm Network is an open source project. There are a lot of opportunities to get involved. 
+Plasm Network is an open-source project. There are a lot of opportunities to get involved. 
 
-![](.gitbook/assets/sukurnshotto-2020-06-29-173603png.png)
+![](.gitbook/assets/undraw_ideas_s70l-1-.png)
 
 ## Want to learn more? Please visit 👇
 
@@ -27,7 +27,7 @@ Plasm Network is an open source project. There are a lot of opportunities to get
 
 ## Want to run a node? Please visit 👇
 
-{% page-ref page="workshop-and-tutorial/untitled.md" %}
+{% page-ref page="workshop-and-tutorial/validator-guide.md" %}
 
 ## Contributions Area
 
@@ -44,4 +44,6 @@ Plasm Network is an open source project. There are a lot of opportunities to get
 * [ ] SUpport Layer2 Plasma  
 * [ ] Plasm Network graphical design and marketing
 * [ ] Document translation 
+
+
 

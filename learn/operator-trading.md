@@ -4,5 +4,5 @@ Operator Trading is a mechanism to buy and sell Plasma applications. This is sim
 
 {% page-ref page="../workshop-and-tutorial/operator-trading.md" %}
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-175012png.png)
+![](../.gitbook/assets/undraw_crypto_portfolio_2jy5.png)
 

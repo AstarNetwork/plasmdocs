@@ -4,7 +4,7 @@ description: Plasm Network community channels
 
 # Community
 
-![](../.gitbook/assets/sukurnshotto-2020-06-29-174141png.png)
+![](../.gitbook/assets/undraw_pizza_sharing_wxop.png)
 
 ## Ecosystem Tool
 

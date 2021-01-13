@@ -1,6 +1,6 @@
 # Introduction
 
-![](.gitbook/assets/sukurnshotto-2020-06-29-173257png.png)
+![](.gitbook/assets/undraw_group_chat_unwm.svg)
 
 [Plasm Network](https://www.plasmnet.io/)'s mission is to provide a scalable, interoperable, and decentralized application platform that defines and realizes the new form of the web: Web3.0.
 

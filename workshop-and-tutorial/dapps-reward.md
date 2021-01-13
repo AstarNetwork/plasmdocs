@@ -27,8 +27,8 @@ Click **dAppsStaking -&gt; Account** **actions**. If you have not previously sta
 
 The following screen should appear that contains four input parameters as follows:
 
-* **Stash account**: Specifies which account tokens to use
-* **Controller account**: Specifies the account that will be controlling the nomination status. For security reasons, it is recommended to have different accounts for the Stash account and Controller account, but for this demo, Bob’s account is used for both.
+* **Stash account**: Specifies which account tokens to use. This account can only be used for one pair of stash-controller accounts.
+* **Controller account**: Specifies the account that will be controlling the nomination status. For security reasons, it is recommended to have different accounts for the Stash account and Controller account, but for this demo, Bob’s account is used for both. This account can only be used for one pair of stash-controller accounts.
 * **Value bonded**: Specifies the amount of token used for staking
 * **Payment destination**: Specifies the recipient of the Rewards
 

@@ -27,6 +27,7 @@
   * [Mainnet](learn/chain-spec/mainnet.md)
   * [Testnet](learn/chain-spec/testnet.md)
 * [Plasm Network Bounties](learn/plasm-network-bounties.md)
+* [Community Rewards](learn/community-rewards.md)
 
 ## Workshop & Tutorial
 
@@ -36,9 +37,12 @@
   * [Build](workshop-and-tutorial/smart-contract/build.md)
   * [Deploy Your Smart Contract on Plasm](workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm.md)
   * [Calling Your Contract](workshop-and-tutorial/smart-contract/calling-your-contract.md)
+* [Solidity](workshop-and-tutorial/solidity.md)
+* [EVM Smart Contracts](workshop-and-tutorial/evm-smart-contracts.md)
+* [Check Smart Contract](workshop-and-tutorial/polkadot-hackathon.md)
 * [ink!](workshop-and-tutorial/ink.md)
 * [Layer2 Applications](workshop-and-tutorial/layer2-applications.md)
-* [Validator Guide](workshop-and-tutorial/untitled.md)
+* [Validator Guide](workshop-and-tutorial/validator-guide.md)
 * [Operator Trading](workshop-and-tutorial/operator-trading.md)
 * [dApps Reward](workshop-and-tutorial/dapps-reward.md)
 * [Lockdrop Tutorial](workshop-and-tutorial/lockdrop-tutrial.md)
