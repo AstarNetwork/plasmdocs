@@ -49,6 +49,7 @@
 * [Unlock Tutorial](workshop-and-tutorial/unlock-tutrial.md)
 * [Importing Ethereum Seed](workshop-and-tutorial/importing-ethereum-seed.md)
 * [Real-Time Lockdrop](workshop-and-tutorial/real-time-lockdrop.md)
+* [Metamask support](workshop-and-tutorial/metamask-signatures.md)
 
 ## Basic
 
