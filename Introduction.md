@@ -33,17 +33,3 @@ Plasm Network is an open-source project. There are a lot of opportunities to get
 
 [Plasm Network](https://www.plasmnet.io/) is an open-source project anyone can join, develop, and modify.  Here are the Plasm  Network's status and contribution areas.
 
- **Current Focus  \(June\)**
-
-* [ ] Smart Contract module 
-* [ ] DApps Reward
-
-**To-Do**
-
-* [ ] 2nd Lockdrop and 3rd Lockdrop
-* [ ] SUpport Layer2 Plasma  
-* [ ] Plasm Network graphical design and marketing
-* [ ] Document translation 
-
-
-
