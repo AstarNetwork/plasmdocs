@@ -16,13 +16,3 @@ To solve this issue, some features are implemented on Plasm Network that are acc
 
 {% page-ref page="learn/core-features.md" %}
 
-## Doc Version
-
-| Version | English |
-| :--- | :--- |
-| v.1.0.1 | Changed Operator Trading  section |
-| v1.0.2 | Added FAQ |
-| v1.0.3 | Added Graphics |
-
-
-
