@@ -10,7 +10,7 @@
 
 [Lockdrop](https://blog.edgewa.re/full-details-on-the-edgeware-lockdrop) is a new low-risk economic incentivization mechanism, using opportunity costs rather than legal tender \(or assets\) as collateral. [Plasm Network](https://www.plasmnet.io/) uses this mechanism to issue tokens with monetary value. This section explains the [Plasm Network](https://www.plasmnet.io/) token issuance mechanism. Lockdrop was first conceived by [Edgeware](https://edgewa.re/), and the implementation on the [Plasm Network](https://www.plasmnet.io/) is an expansion of this. The native token used on the [Plasm Network](https://www.plasmnet.io/) is symbol: PLM and pronounced "PLUM". PLM will only calculate from the 15th decimal place and truncate any numbers below that. For more information regarding the role of PLM, please refer to the PLM Token Economics section.
 
-{% page-ref page="token-economy.md" %}
+{% page-ref page="token-economics/token-economy.md" %}
 
 ## Lockdrop Overview
 
@@ -42,10 +42,9 @@ Second, it allows for code results to be observed so that the team can ensure th
 Plasm Network will accept the following tokens for the 1st, 2nd and 3rd lockdrop.
 
 * 1st: ETH 16783 ETH locked
-* 2nd: ETH
-* 3rd: DOT
+* 2nd: ETH 
 
-After the 2nd and the 3rd lockdrop, [Stake Technologies](https://stake.co.jp/en/), the core development company will reserve 35% of the issued tokens for marketing, listing, grants, and so on.
+After the 2nd lockdrop, [Stake Technologies](https://stake.co.jp/en/), the core development company will reserve 35% of the issued tokens for marketing, listing, grants, and so on.
 
 ### Definitions
 
@@ -57,13 +56,12 @@ $$
 
 The total amount will be distributed to the lockdrop participants in accordance with the token issue rate \(IssueRatio\). The IssueRatio is proportional to the number of locked tokens, the exchange rate in dollars $$DollarRate_{token}$$ of the locked tokens at the time of the lockdrop and the number of days multiplied by 1.0005 to the power of days $$Days * 1.0005^{Days}$$ . The value of 1.0005 is based on Polkadot's interest rate. \([reference](https://research.web3.foundation/en/latest/polkadot/Token%20Economics.html)\). Converting this into daily interest rates with compound interest gives us an approximate value of 0.05%.
 
-Users have the option to choose the lockdrop duration from the following 4 + 1 options. The $$IssueRatio$$ will be determined by the duration of the lock after evaluating the value of the locked tokens in Dollars.
+Users have the option to choose the lockdrop duration from the following 4 options. The $$IssueRatio$$ will be determined by the duration of the lock after evaluating the value of the locked tokens in Dollars.
 
-![](../.gitbook/assets/screen-shot-2020-07-30-at-14.38.11.png)
-
-{% hint style="info" %}
-The 2-year option is only available for locking DOT tokens. The DOT lockdrops are special in that they are only allowed to lock for 2 years. More information can be found in the **Polkadot auctions Lockdrop** section.
-{% endhint %}
+30 days : ×24  
+100 days : ×100  
+300 days : ×360  
+1000 days : ×1600 
 
 The IssueRatio will be defined as follows:
 
@@ -71,7 +69,7 @@ The IssueRatio will be defined as follows:
 * $$DolalrRate_{token}$$ is the value for 1 token in Dollars
 * $$LockBonus_{days}$$ is the amount of bonus the user will receive according to the locked days
 
-$$IssueRatio = Locked_{token} \times DollarRate_{token}\times LockBonus_{days} (token \in \{ETH,DOT\})$$
+$$IssueRatio = Locked_{token} \times DollarRate_{token}\times LockBonus_{days} (token \in \{ETH\})$$
 
 The number of tokens to be awarded to the lockdrop participant is determined by the calculated IssueRatio.
 
@@ -92,7 +90,7 @@ $$\alpha_1 = \frac{PLM_{i}}{IssueRatio_i} = TotalPLM^{genesis} \times \frac{17}{
 
 Define the number of PLM issues per unit $$IssueRatio$$ for the second and third times to satisfy $$α_2$$ and $$α_3$$ the following equation.
 
-$$\alpha_1:\alpha_2:\alpha_3 = 6:5:4$$
+$$\alpha_1:\alpha_2 = 6:5$$
 
 From the above, the amount of PLM distributed to the second and third times $$i$$ is as follows.
 

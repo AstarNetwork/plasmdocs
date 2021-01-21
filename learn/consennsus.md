@@ -6,7 +6,7 @@ To increase security, the [Plasm Network](https://www.plasmnet.io/) will have co
 
 The next upgrade will change reward and consensus to [collator](https://wiki.polkadot.network/docs/en/maintain-collator) which is a [Parachain](https://wiki.polkadot.network/docs/en/learn-parachains) requirement. Ultimately Plasm will move to NPoS which is used by Polkadot's Relaychain. More details about reward distribution can be found in the PLM Token Ecosystem chapter.
 
-{% page-ref page="token-economy.md" %}
+{% page-ref page="token-economics/token-economy.md" %}
 
 ## Proof of Authority
 

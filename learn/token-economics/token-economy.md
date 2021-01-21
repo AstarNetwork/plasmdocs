@@ -1,4 +1,4 @@
-# Token Economics
+# Staking, Liquidity, and Inflation Model
 
 {% hint style="warning" %}
 This includes advanced content.
@@ -136,13 +136,13 @@ The above graph is fixed at $$q = Q_{ideal}$$. Here, the upper green line is the
 
 $$Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators}=1:5:20$$
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-194739png.png)
+![](../../.gitbook/assets/sukurnshotto-2020-05-31-194739png.png)
 
 Then, although the ratio of the operator's reward is increasing, the upper green line representing the average annual interest rate for the operator's staking amount is low because $$q$$ is far from the ideal value. As a result, even if the ratio of Staking to smart contracts increases, the reward paid to Operators is not much different from the ideal state. Also, the lower green line, which represents the average annual interest rate of Staking rewards, has been reduced, giving the incentive for Staker to take validators to Stake in order to maintain balance. As an extreme example, The below figure shows a graph when $$q = 1.0$$. At this time, no one has taken Staking for the smart contract, and the reward will be as follows.
 
 $$Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators}=1:0:0$$
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-194834png.png)
+![](../../.gitbook/assets/sukurnshotto-2020-05-31-194834png.png)
 
 The green line that represents the average annual rate of reward for Staking is lower than ideal because the reward that the Operator gets is zero and $$q$$ is far from ideal. In this case, too, Staker creates an incentive to take Stakes on smart contracts to maintain balance. Note that the red line that represents the overall inflation rate and the blue line that represents the inflation rate due to the Staking reward overlap, making the latter invisible. Also, note that these graphs meet the following closings:
 
