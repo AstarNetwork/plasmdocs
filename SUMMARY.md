@@ -21,6 +21,7 @@
 * [dApps Reward](learn/dapps-reward.md)
 * [Lockdrop](learn/lockdrop.md)
 * [Token Economics](learn/token-economics/README.md)
+  * [Usages of PLM Tokens](learn/token-economics/usages-of-plm-tokens.md)
   * [Token Allocation](learn/token-economics/token-allocation.md)
   * [Polkadot Parachain Auction Strategy](learn/token-economics/polkadot-parachain-auction-strategy.md)
   * [Staking, Liquidity, and Inflation Model](learn/token-economics/token-economy.md)
