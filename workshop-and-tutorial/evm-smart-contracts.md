@@ -78,3 +78,7 @@ Oct 15 13:09:30.009 DEBUG apply_extrinsic: Updating storage for 0x66bb595bc60c8a
 
 We will make a demo and make this much more user-friendly!
 
+### Deploy contracts by using truffle
+
+
+
