@@ -1,4 +1,4 @@
-# dApps Reward
+# dApps Staking
 
 ## Preparation
 
@@ -8,9 +8,9 @@ Like in the previous tutorial, deploy a smart contract. In the sidebar press Sta
 
 ![dAppsStaking Board](../.gitbook/assets/screen-shot-2020-06-11-at-16.26.00.png)
 
-## The concept of dApps Rewards
+## The concept of dApps Staking
 
-dApps Rewards Work Flow:
+dApps Staking Work Flow:
 
 1. Select a smart contract to stake \(nominate\)   
 2. The nominator and operator will receive a reward proportional to the amount that has been staked.

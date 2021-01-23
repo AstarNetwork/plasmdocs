@@ -1,16 +1,22 @@
 ---
-description: 'Last Update:'
+description: 'Last Update: 2021/01/23'
 ---
 
-# Usages of PLM Tokens
+# About PLM Tokens
 
-In short, PLM token has 5 roles. 
+PLM \(Plum\) Token is the utility token for Plasm Network that has  the following 5 roles. 
 
-1. **DApps Staking**
-2. **Network Staking**
-3. **Transaction Fee**
-4. **Governance**
-5. **Layer2 Application**
+![](../../.gitbook/assets/screen-shot-2021-01-23-at-12.01.38.png)
+
+## **DApps Staking**
+
+DApps Staking is an original scheme that Plasm Network core team invented and only Plasm supports this feature in the Polkadot ecosystem. Plasm Network aims to be the leading DApps hub on Polkadot Network. Hence, we need incentives for DApps  developers to make smart contracts on Plasm Network. 
+
+{% page-ref page="../dapps-reward.md" %}
 
 
+
+
+
+ 
 
