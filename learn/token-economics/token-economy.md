@@ -1,3 +1,7 @@
+---
+description: 'Last Update: 2021/01/23'
+---
+
 # Staking, Liquidity, and Inflation Model
 
 {% hint style="warning" %}
