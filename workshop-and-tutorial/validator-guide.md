@@ -10,7 +10,7 @@ To become a validator, follow these steps:
 
 1. Run a node on Dusty network.
 2. Claim tokens for transactions by requesting them on [the Discord](https://discord.gg/Z3nC9U4) **\#faucet** channel.
-3. Get your rotateKey\(\) and connect this to your validator account.
+3. Get your `rotateKey()` and connect this to your validator account.
 4. Share your validator account address with **Stake Technologies** team via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSday0ckkK43TzJgKtQmJdzkudQNFDXspZAuUGi5Y5vfjkis3Q/viewform).
 5. Follow your submission in the [Dusty validator sheet](https://docs.google.com/spreadsheets/d/1AYsS6V_Ypwde5lYulhZBMAx1X2vZ1u1zDXni_ddz-6c/edit#gid=2013382367).
 
