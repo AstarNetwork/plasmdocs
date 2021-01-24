@@ -6,7 +6,7 @@ Thanks to our community we have several tutorials you can use to become a valida
 * Install Dusty on a VPS server \([Microsoft Azure](https://fiex.medium.com/plasm-node-on-azure-32ec5a204b45), [Digital Ocean](https://fiex.medium.com/become-a-plasm-network-validator-c212085cc72e), ...\)
 * Install Dusty on a [Raspberry Pi4](https://github.com/bLd75/Plasm-RPi)
 
-To become a validator follow these steps:
+To become a validator, follow these steps:
 
 1. Run a node on Dusty network.
 2. Claim tokens for transactions by requesting them on [the Discord](https://discord.gg/Z3nC9U4) **\#faucet** channel.
