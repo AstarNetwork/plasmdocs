@@ -4,19 +4,19 @@
 
 [https://lockdrop.plasmnet.io/\#/lock-form](https://lockdrop.plasmnet.io/#/lock-form)
 
-![](../.gitbook/assets/undraw_collecting_fjjl.png)
+![](../../.gitbook/assets/undraw_collecting_fjjl.png)
 
 ## Introduction
 
 [Lockdrop](https://blog.edgewa.re/full-details-on-the-edgeware-lockdrop) is a new low-risk economic incentivization mechanism, using opportunity costs rather than legal tender \(or assets\) as collateral. [Plasm Network](https://www.plasmnet.io/) uses this mechanism to issue tokens with monetary value. This section explains the [Plasm Network](https://www.plasmnet.io/) token issuance mechanism. Lockdrop was first conceived by [Edgeware](https://edgewa.re/), and the implementation on the [Plasm Network](https://www.plasmnet.io/) is an expansion of this. The native token used on the [Plasm Network](https://www.plasmnet.io/) is symbol: PLM and pronounced "PLUM". PLM will only calculate from the 15th decimal place and truncate any numbers below that. For more information regarding the role of PLM, please refer to the PLM Token Economics section.
 
-{% page-ref page="token-economics/token-economy.md" %}
+{% page-ref page="token-economy.md" %}
 
 ## Lockdrop Overview
 
 The first lockdrop issued will be using Ethereum's opportunity cost. Examples will make the assumption that the locked token is ETH. Lockdrop is an algorithm that can be implemented on any chain that supports TimeLock. The figure below shows how the lockdrop will work on the [Plasm Network](https://www.plasmnet.io/).
 
-![Keep in mind that you have to pay the gas fee.](../.gitbook/assets/screen-shot-2020-08-25-at-11.56.15.png)
+![Keep in mind that you have to pay the gas fee.](../../.gitbook/assets/screen-shot-2020-08-25-at-11.56.15.png)
 
 The Lockdrop Work Flow:
 
@@ -31,7 +31,7 @@ The assumption is that the Ethereum token holder's opportunity cost is proportio
 
 Multi-Lockdrop is a lockdrop mechanism iterated multiple times. [Plasm Network](https://www.plasmnet.io/)'s total token supply will not be set at genesis. Tokens will be issued every 3rd lockdrop, and additional tokens will be minted utilizing the "Staking" function, discussed later.
 
-{% page-ref page="dapps-reward.md" %}
+{% page-ref page="../dapps-reward.md" %}
 
 Multiple lockdrop iterations have two advantages:
 
