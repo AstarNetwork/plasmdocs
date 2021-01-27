@@ -14,17 +14,17 @@ DApps Staking is an original scheme that Plasm Network core team invented and on
 
 {% page-ref page="../dapps-reward.md" %}
 
-DApps Staking is a simple but a strong mechanism. PLM token holders can stake PLM tokens on dApps as well as network. By doing so, the staker can earn PLM token from block rewards. In addition to that, dApps developers can also get rewards based on the nomination. In general, application developers on Plasm Network receive PLM  tokens by making smart contracts or infrastructure for Plasm Network community. We intend to make it a  sustainable and decentralized  grant mechanism. 
+DApps Staking is a simple but strong mechanism. PLM token holders can stake PLM tokens on dApps as well as network. By doing so, the staker can earn PLM tokens from block rewards. In addition to that, dApps developers can also get rewards based on the nomination. In general, application developers on Plasm Network receive PLM  tokens by making smart contracts or infrastructure for Plasm Network community. We intend to make it a  sustainable and decentralized grant mechanism. 
 
-## Network  Staking
+## Network Staking
 
-PLM token holders also have an option to stake PLMs on the network. \(Plasm Network validators or collators\) By doing so, the staker receives the nomination reward and the network  becomes more decentralized.
+PLM token holders also have an option to stake PLMs on the network \(Plasm Network validators or collators\). By doing so, the staker receives the nomination reward and the network becomes more decentralized.
 
 ## Transactions
 
-Every on chain transactions take fees.
+Every on-chain transaction takes fees.
 
-##  On Chain Governance
+##  On-Chain Governance
 
  We plan to make on-chain governance and PLM token is used for facilitating the governance activities such as voting and referenda.
 
