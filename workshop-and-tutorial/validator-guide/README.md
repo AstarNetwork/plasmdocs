@@ -28,15 +28,15 @@ This short guide explains how to become a Dusty validator step by step on your l
 * Launch node `plasm-node --validator --name node-name --rpc-cors all`
 * Wait for syncing up.
 
-![](../.gitbook/assets/testnet_sync.png)
+![](../../.gitbook/assets/testnet_sync.png)
 
 * Open "[Setting](https://apps.plasmnet.io/#/settings)" and select "local node".
 
-![](../.gitbook/assets/testnet_settings.png)
+![](../../.gitbook/assets/testnet_settings.png)
 
 * Open "[Accounts](https://apps.plasmnet.io/#/accounts)" and create a new account.
 
-![](../.gitbook/assets/testnet_accounts.png)
+![](../../.gitbook/assets/testnet_accounts.png)
 
 * Share your validator account address with **Stake Technologies** team via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSday0ckkK43TzJgKtQmJdzkudQNFDXspZAuUGi5Y5vfjkis3Q/viewform).
 * Claim tokens for transactions by requesting them on [the Discord](https://discord.gg/Z3nC9U4) **\#faucet** channel.
@@ -46,7 +46,7 @@ This short guide explains how to become a Dusty validator step by step on your l
 curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
 ```
 
-![](../.gitbook/assets/testnet_rotate.png)
+![](../../.gitbook/assets/testnet_rotate.png)
 
 * Save the result for the next steps.
 * Click the "Session Key" button and paste the result for the validator account.

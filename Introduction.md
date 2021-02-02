@@ -27,7 +27,7 @@ Plasm Network is an open-source project. There are a lot of opportunities to get
 
 ## Want to run a node? Please visit 👇
 
-{% page-ref page="workshop-and-tutorial/validator-guide.md" %}
+{% page-ref page="workshop-and-tutorial/validator-guide/" %}
 
 ## Contributions Area
 
