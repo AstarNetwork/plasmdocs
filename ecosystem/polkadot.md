@@ -34,7 +34,7 @@ This section describes how the [Plasm Network ](https://www.plasmnet.io/) integr
 
 ### Smart Contract
 
-The [Polkadot](https://polkadot.network/) Relaychain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApps knowing that they can be scaled up with ease.
+The [Polkadot](https://polkadot.network/) relay chain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApps knowing that they can be scaled up with ease.
 
 ### Scalability
 
@@ -46,8 +46,8 @@ Scalability is the greatest challenge to all blockchains. To bring widespread ad
 
 Two Types Of Scalability
 
-* **Layer 1 \(horizontal\) scalability:** Do more on the layer 1 blockchain. \(e.g. sharding and Segwit\)
-* **Layer 2 \(vertical\) scalability:** Do less on layer 1 and more on layer 2 or off-chain. \(e.g. Plasma and State Channel\)
+* **Layer 1 \(horizontal\) scalability:** do more on the layer 1 blockchain. \(e.g. sharding and Segwit\)
+* **Layer 2 \(vertical\) scalability:** do less on layer 1 and more on layer 2 or off-chain. \(e.g. Plasma and State Channel\)
 
 Polkadot uses sharding technology allowing greater scalability. [Plasm](https://www.plasmnet.io/) also incorporates layer 2 vertical capabilities.
 
