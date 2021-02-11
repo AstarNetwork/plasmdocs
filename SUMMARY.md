@@ -63,4 +63,5 @@
 * [Plasm Network White Paper](https://github.com/staketechnologies/plasmdocs/blob/master/wp/en.pdf)
 * [Tech Chat \(Discord\)](https://discord.com/invite/wUcQt3R)
 * [GitHub](https://github.com/staketechnologies/Plasm)
+* [Forum](https://forum.plasmnet.io/)
 
