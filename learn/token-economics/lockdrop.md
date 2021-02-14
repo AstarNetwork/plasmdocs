@@ -1,14 +1,12 @@
 # Lockdrop
 
-## Lockdrop participants can claim PLM token here 👇
-
-[https://lockdrop.plasmnet.io/\#/lock-form](https://lockdrop.plasmnet.io/#/lock-form)
-
 ![](../../.gitbook/assets/undraw_collecting_fjjl.png)
 
 ## Introduction
 
-[Lockdrop](https://blog.edgewa.re/full-details-on-the-edgeware-lockdrop) is a new low-risk economic incentivization mechanism, using opportunity costs rather than legal tender \(or assets\) as collateral. [Plasm Network](https://www.plasmnet.io/) uses this mechanism to issue tokens with monetary value. This section explains the [Plasm Network](https://www.plasmnet.io/) token issuance mechanism. Lockdrop was first conceived by [Edgeware](https://edgewa.re/), and the implementation on the [Plasm Network](https://www.plasmnet.io/) is an expansion of this. The native token used on the [Plasm Network](https://www.plasmnet.io/) is symbol: PLM and pronounced "PLUM". PLM will only calculate from the 15th decimal place and truncate any numbers below that. For more information regarding the role of PLM, please refer to the PLM Token Economics section.
+[Lockdrop](https://blog.edgewa.re/full-details-on-the-edgeware-lockdrop) is a new low-risk economic incentivization mechanism, using opportunity costs rather than legal tender \(or assets\) as collateral. [Plasm Network](https://www.plasmnet.io/) uses this mechanism to issue tokens with monetary value. This section explains the [Plasm Network](https://www.plasmnet.io/) token issuance mechanism. Lockdrop was first conceived by [Edgeware](https://edgewa.re/), and the implementation on the [Plasm Network](https://www.plasmnet.io/) is an expansion of this. The native token used on the [Plasm Network](https://www.plasmnet.io/) is: PLM and pronounced "PLUM". PLM will only calculate from the 15th decimal place and truncate any numbers below that. For more information regarding the role of PLM, please refer to the PLM Token Economics section.
+
+**NOTE**: after redenomination, we changed from 15 to 18 decimals.
 
 {% page-ref page="token-economy.md" %}
 
@@ -39,12 +37,15 @@ It prevents uneven token distribution and discourages 'whales' if initial offeri
 
 Second, it allows for code results to be observed so that the team can ensure that the [Plasm Network](https://www.plasmnet.io/) can scale and be decentralized. The security and integrity of a blockchain rely on the distribution of nodes and token holders. It is not desirable to hold the security after the official launch at Stake. Repeating the lockdrop three times allows us to understand the distribution of tokens among the holders, also reducing maintenance costs for fixing issues and further risks that follow. This aligns with our goal of making [Plasm Network](https://www.plasmnet.io/) a complete public blockchain.
 
-Plasm Network will accept the following tokens for the 1st, 2nd and 3rd lockdrop.
+Plasm Network will accept the following tokens for the 1st, 2nd, and 3rd lockdrop.
 
-* 1st: ETH 16783 ETH locked
-* 2nd: ETH 
+* 1st: ETH 16,783 ETH locked
+* 2nd: ETH 137,253 ETH locked
+* 3rd: DOT or KSM depending on network auction
 
-After the 2nd lockdrop, [Stake Technologies](https://stake.co.jp/en/), the core development company will reserve 35% of the issued tokens for marketing, listing, grants, and so on.
+After the 2nd lockdrop, [Stake Technologies](https://stake.co.jp/en/), the core development company will reserve 35% of the issued tokens for marketing, listing, grants, and so on. You can find statistics from the first and second lockdrop on this page:
+
+{% embed url="https://hoonsubin.github.io/lockdrop-stat-page/index.html" %}
 
 ### Definitions
 

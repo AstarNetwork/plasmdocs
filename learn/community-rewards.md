@@ -1,7 +1,3 @@
----
-description: 'WIP: Modify English'
----
-
 # Community Rewards
 
 The idea behind Community Rewards is to provide incentives for community members who contribute to the Plasm Network from the early days. We make it happen by using the staking mechanism. In this mechanism, the early adopters can get rewards.
