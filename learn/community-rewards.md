@@ -4,7 +4,7 @@ description: 'WIP: Modify English'
 
 # Community Rewards
 
-The idea behind Community Rewards is to provide incentives with community members who contribute to the Plasm Network early on. We make it happen by using the staking mechanism. In this mechanism, the early adopters can get rewards.
+The idea behind Community Rewards is to provide incentives for community members who contribute to the Plasm Network from the early days. We make it happen by using the staking mechanism. In this mechanism, the early adopters can get rewards.
 
 ![](../.gitbook/assets/screen-shot-2020-08-11-at-18.33.49.png)
 
@@ -13,10 +13,10 @@ The idea behind Community Rewards is to provide incentives with community member
 The structure of Community Rewards is very simple.
 
 1. A community member creates a simple smart contract and deploys it on Plasm Network.
-2. PLM \(Testnet: PLD\) holder evaluates her performance and stakes his tokens on the smart contract.
-3. Both of them get rewards based on her performance.
+2. PLM \(Testnet: PLD\) holder evaluates this performance and stakes his tokens on the smart contract.
+3. Both of them get rewards based on the performance of the smart contract.
 
-Let's take a look at one by one.
+Let's take a closer look.
 
 ### How to deploy your contract
 
