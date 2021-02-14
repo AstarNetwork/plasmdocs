@@ -10,9 +10,9 @@ For end-users to fully utilize the blockchain protocol's strengths, there must b
 
 Some features are implemented on Plasm Network that is accessible from the links below to solve this issue.
 
-{% page-ref page="learn/plasm-overview.md" %}
+{% page-ref page="learn/layer2/plasm-overview.md" %}
 
-{% page-ref page="learn/layer2.md" %}
+{% page-ref page="learn/layer2/" %}
 
 {% page-ref page="learn/core-features.md" %}
 

@@ -22,7 +22,7 @@ Let's take a look at one by one.
 
 First, community members need to deploy a simple contract. The way how to deploy the contract is described on the following page. 
 
-{% page-ref page="../workshop-and-tutorial/operator-trading.md" %}
+{% page-ref page="../build/operator-trading.md" %}
 
 After deploying the smart contract, you can check it in the Community Rewards section below.
 
@@ -30,7 +30,7 @@ After deploying the smart contract, you can check it in the Community Rewards se
 
 The next step is staking. You can stake on a smart contract as usual. The details are described on the following page.
 
-{% page-ref page="../workshop-and-tutorial/dapps-reward.md" %}
+{% page-ref page="../build/dapps-reward.md" %}
 
 In addition to that, you can check the community rewards page in the Staking section where you can check the status of staking volume and the ranking.
 
@@ -44,7 +44,7 @@ PLM holders stake their tokens on your smart contract. By doing so, the nominato
 
 See the link below for more information.
 
-{% page-ref page="../workshop-and-tutorial/dapps-reward.md" %}
+{% page-ref page="../build/dapps-reward.md" %}
 
 Next, we are going to learn some formulas to calculate the rewards.
 

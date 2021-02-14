@@ -8,12 +8,6 @@ description: Plasm Network community channels
 
 ## Ecosystem Tool
 
-### Acala Network
-
-Acala is a strategic partner with Plasm Network offering a stable-coin platform built on Substrate.
-
-{% embed url="https://acala.network/" caption="" %}
-
 ### Subscan
 
 Subscan is a Substrate-based blockchain explorer where you can search Plasm Network addresses and transactions.

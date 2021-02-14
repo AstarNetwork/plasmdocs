@@ -25,11 +25,11 @@ Plasm Network is an open-source project. There are a lot of opportunities to get
 
 ## Want to build on Plasm Network? Please visit 👇
 
-{% page-ref page="workshop-and-tutorial/smart-contract/" %}
+{% page-ref page="build/smart-contract/" %}
 
 ## Want to run a node? Please visit 👇
 
-{% page-ref page="workshop-and-tutorial/validator-guide/" %}
+{% page-ref page="build/validator-guide/" %}
 
 ## Contributions Area
 
