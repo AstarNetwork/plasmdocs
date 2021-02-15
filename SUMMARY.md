@@ -11,8 +11,10 @@
 
 ## Learn
 
-* [Plasm Structure](learn/polkadot-and-plasm.md)
 * [The Problems Plasm Solves](learn/the-problems-plasm-solves.md)
+* [Plasm Structure](learn/polkadot-and-plasm/README.md)
+  * [Community Rewards](learn/polkadot-and-plasm/community-rewards.md)
+  * [Consensus](learn/polkadot-and-plasm/consennsus.md)
 * [Core Features](learn/core-features/README.md)
   * [dApps Staking](learn/core-features/dapps-reward.md)
   * [Operator Trading](learn/core-features/operator-trading.md)
@@ -20,19 +22,18 @@
   * [Lockdrop](learn/token-economics/lockdrop.md)
   * [About PLM Tokens](learn/token-economics/usages-of-plm-tokens.md)
   * [Token Allocation](learn/token-economics/token-allocation.md)
-  * [Kusama Parachain Auction Strategy](learn/token-economics/kusama-parachain-auction-strategy.md)
-  * [Polkadot Parachain Auction Strategy](learn/token-economics/polkadot-parachain-auction-strategy.md)
   * [Staking, Liquidity, and Inflation Model](learn/token-economics/token-economy.md)
 * [Layer 2](learn/layer2/README.md)
   * [Plasma Overview](learn/layer2/plasm-overview.md)
   * [Optimistic Virtual Machine](learn/layer2/optimistic-virtual-machine.md)
   * [ZKRollups](learn/layer2/zkrollups.md)
-* [Consensus](learn/consennsus.md)
-* [Plasm Mainnet](learn/plasm-mainnet.md)
-* [Chain Spec](learn/chain-spec/README.md)
-  * [Mainnet](learn/chain-spec/mainnet.md)
-  * [Testnet](learn/chain-spec/testnet.md)
-* [Community Rewards](learn/community-rewards.md)
+* [Plasm Network](learn/plasm-mainnet/README.md)
+  * [Chain Specifications](learn/plasm-mainnet/mainnet.md)
+  * [Polkadot Parachain Auction Strategy](learn/plasm-mainnet/polkadot-parachain-auction-strategy.md)
+* [Shiden Network](learn/shiden-network/README.md)
+  * [Kusama Parachain Auction Strategy](learn/shiden-network/kusama-parachain-auction-strategy.md)
+* [Dusty Network](learn/dusty-network/README.md)
+  * [Chain Specifications](learn/dusty-network/testnet.md)
 
 ## Build
 

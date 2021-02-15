@@ -1,4 +1,8 @@
-# Testnet
+---
+description: Testnet
+---
+
+# Chain Specifications
 
 {% hint style="info" %}
 The Plasm Testnet is a public test environment for developers and community integration's. This is where debugging should occur prior to mainnet deployment.

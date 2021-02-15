@@ -1,4 +1,8 @@
-# Plasm Mainnet
+---
+description: Polkadot parachain
+---
+
+# Plasm Network
 
 This page describes the specs of Plasm mainnet in detail. The behavior of Plasm mainnet changes as the network grows.
 

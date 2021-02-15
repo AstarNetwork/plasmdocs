@@ -1,4 +1,4 @@
-# Mainnet
+# Chain Specifications
 
 [Mainnet Geniesis Chain Spec](https://github.com/staketechnologies/Plasm/blob/v1.0.0/bin/node/cli/res/plasm.json).‌
 
