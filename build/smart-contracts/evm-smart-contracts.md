@@ -4,7 +4,7 @@ description: Ethereum Compatibility Layer.
 
 # EVM Smart Contracts
 
-![](../.gitbook/assets/what-is-ethereum-logo-big.o.png)
+![](../../.gitbook/assets/what-is-ethereum-logo-big.o.png)
 
 {% hint style="info" %}
 Here is  a quick demo on how to use  EVM.
@@ -37,15 +37,15 @@ Oct 14 15:07:56.998  INFO 👤 Role: AUTHORITY
 
 Now, the node is available on Metamask. Ta-da! Sounds good, doesn't it?
 
-![Plasm development node. Metamask connection settings.](../.gitbook/assets/network_connection.png)
+![Plasm development node. Metamask connection settings.](../../.gitbook/assets/network_connection.png)
 
 The next step is to import the developer account seed:
 
 > `0x60ed0dd24087f00faea4e2b556c74ebfa2f0e705f8169733b01530ce4c619883`
 
-![Import developer account seed.](../.gitbook/assets/import_dev_account.png)
+![Import developer account seed.](../../.gitbook/assets/import_dev_account.png)
 
-![Imported account balance.](../.gitbook/assets/account_imported.png)
+![Imported account balance.](../../.gitbook/assets/account_imported.png)
 
 Keep in mind that PLM is not ERC20! 
 
@@ -53,11 +53,11 @@ Keep in mind that PLM is not ERC20!
 
 When the account is ready and corrected, it is time to deploy some sample contracts from Remix.
 
-![Use Remix demo contract.](../.gitbook/assets/remix_demo.png)
+![Use Remix demo contract.](../../.gitbook/assets/remix_demo.png)
 
-![Change deployment environment to Metamask injected web3 instance.](../.gitbook/assets/change_env.png)
+![Change deployment environment to Metamask injected web3 instance.](../../.gitbook/assets/change_env.png)
 
-![Push &quot;deploy&quot; and approve transaction on Metamask.](../.gitbook/assets/deploy%20%281%29.png)
+![Push &quot;deploy&quot; and approve transaction on Metamask.](../../.gitbook/assets/deploy%20%281%29.png)
 
 If everything goes well in the Plasm node, you will see the following lines:
 

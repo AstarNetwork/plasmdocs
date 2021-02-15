@@ -10,27 +10,27 @@ Try out your smart contract on the local chain looks like a good idea. Let's ope
 
 First, select **Local Node** on the top left of the chain selection menu.
 
-![](../../.gitbook/assets/select_local.png)
+![](../../../.gitbook/assets/select_local.png)
 
 Click **Contracts** tab and choose **Code** -&gt; **Upload WASM**.
 
-![](../../.gitbook/assets/upload.png)
+![](../../../.gitbook/assets/upload.png)
 
 Metadata and WASM code should be filled out in the form.
 
-![](../../.gitbook/assets/filled_form.png)
+![](../../../.gitbook/assets/filled_form.png)
 
 Uploading the code takes around 220 Units.
 
-![](../../.gitbook/assets/uploaded.png)
+![](../../../.gitbook/assets/uploaded.png)
 
 Congratulations! You uploaded your first L1 Smart contract! Let's create an instance of your code using "**Deploy"** button.
 
-![Don&apos;t foget to set 100 unit endowment.](../../.gitbook/assets/deploy.png)
+![Don&apos;t foget to set 100 unit endowment.](../../../.gitbook/assets/deploy.png)
 
 The transaction fee is around 1.6 units. As the result you can see the instance of your smart contract.
 
-![](../../.gitbook/assets/instance_000.png)
+![](../../../.gitbook/assets/instance_000.png)
 
 Contract interaction will be explained in the next chapter.
 

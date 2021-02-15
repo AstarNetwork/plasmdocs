@@ -8,11 +8,11 @@ cargo +nightly contract build
 
 Then, you can see something like this: 
 
-![](../../.gitbook/assets/sukurnshotto-2020-06-21-103323png.png)
+![](../../../.gitbook/assets/sukurnshotto-2020-06-21-103323png.png)
 
 After compiling, you can find the `target` folder which contains  this  `wasm` file on your directory.
 
-![](../../.gitbook/assets/sukurnshotto-2020-06-21-103443png.png)
+![](../../../.gitbook/assets/sukurnshotto-2020-06-21-103443png.png)
 
 ### Contract Metadata
 

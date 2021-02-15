@@ -44,17 +44,17 @@ As a result, two files should be available in your current directory : `flipper.
 
 Let's deploy the compiled `flipper.wasm` and `flipper.json` using our standard [Plasm Portal UI](https://apps.plasmnet.io).
 
-![Deploy your smart contract WASM code on Dusty Network.](../.gitbook/assets/flipper.png)
+![Deploy your smart contract WASM code on Dusty Network.](../../.gitbook/assets/flipper.png)
 
 The next step is to create an instance of the uploaded smart contract WASM code.
 
-![Sent smart contract instance transaction.](../.gitbook/assets/instance_flipper.png)
+![Sent smart contract instance transaction.](../../.gitbook/assets/instance_flipper.png)
 
 After making the instance, we can interact with the smart contract using the UI portal just like an ink! smart contract described in the previous chapter.
 
-![Read data from smart contract using RPC call.](../.gitbook/assets/call_flipper.png)
+![Read data from smart contract using RPC call.](../../.gitbook/assets/call_flipper.png)
 
-![Write data into smart contract via a transaction.](../.gitbook/assets/call_flipper2.png)
+![Write data into smart contract via a transaction.](../../.gitbook/assets/call_flipper2.png)
 
 More examples are available in the Solang repository:
 
