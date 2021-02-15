@@ -16,6 +16,7 @@
   * [Lockdrop](learn/token-economics/lockdrop.md)
   * [About PLM Tokens](learn/token-economics/usages-of-plm-tokens.md)
   * [Token Allocation](learn/token-economics/token-allocation.md)
+  * [Kusama Parachain Auction Strategy](learn/token-economics/kusama-parachain-auction-strategy.md)
   * [Polkadot Parachain Auction Strategy](learn/token-economics/polkadot-parachain-auction-strategy.md)
   * [Staking, Liquidity, and Inflation Model](learn/token-economics/token-economy.md)
 * [Layer 2](learn/layer2/README.md)
