@@ -10,7 +10,7 @@ PLM is a token symbol of Plasm Network. It is pronounced as "plʌm".
 
 ## Dusty Network
 
-Dusty Network is a canary network of Plasm. It works as an R&D chain.
+Dusty Network is the testnet of Plasm. It works as an R&D chain.
 
 ## Polkadot  Network
 

@@ -1,6 +1,8 @@
 # The Problems Plasm Solves
 
-[Plasm Network](https://www.plasmnet.io/) is a layer1 blockchain that solves prominent issues: scalability and interoperability.
+Plasm Network is a scalable smart contract platform on Polkadot supporting cutting edge layer 2 solutions. It is built on Substrate and designed to be a Polkadot Parachain. Plasm Network aims to make Ethereum 2.0 on Polkadot.
+
+Plasm Network focuses on making the best smart contract platform so that dApps developers on Polkadot do not need to pay much attention to infrastructure and can focus more on their dApp. Ideally, the developers can build whatever applications on Plasm Network without having to consider its scalability. [Plasm Network](https://www.plasmnet.io/) solves prominent issues: scalability and interoperability.
 
 ![](../.gitbook/assets/undraw_solution_mindset_34bi-1-.png)
 

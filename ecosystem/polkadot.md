@@ -34,26 +34,22 @@ This section describes how the [Plasm Network ](https://www.plasmnet.io/) integr
 
 ### Smart Contract
 
-The [Polkadot](https://polkadot.network/) Relaychain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApps knowing that they can be scaled up with ease.
+The [Polkadot](https://polkadot.network/) relay chain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApps knowing that they can be scaled up with ease.
 
 ### Scalability
 
 [Plasm Network](https://www.plasmnet.io/) scalability relies on layer 2 solutions such as the Optimistic Virtual Machine.
 
-{% page-ref page="../learn/optimistic-virtual-machine.md" %}
+{% page-ref page="../learn/layer2/optimistic-virtual-machine.md" %}
 
 Scalability is the greatest challenge to all blockchains. To bring widespread adoption of blockchain technology, higher performance is necessary. Scalability is a critical issue that Plasm Network seeks to optimize.
 
 Two Types Of Scalability
 
-* **Layer 1 \(horizontal\) scalability:** Do more on the layer 1 blockchain. \(e.g. sharding and Segwit\)
-* **Layer 2 \(vertical\) scalability:** Do less on layer 1 and more on layer 2 or off-chain. \(e.g. Plasma and State Channel\)
+* **Layer 1 \(horizontal\) scalability:** do more on the layer 1 blockchain. \(e.g. sharding and Segwit\)
+* **Layer 2 \(vertical\) scalability:** do less on layer 1 and more on layer 2 or off-chain. \(e.g. Plasma and State Channel\)
 
-Polkadot uses sharding technology allowing greater scalability. [Plasm](https://www.plasmnet.io/) also incorporates layer 2 vertical capabilities.
-
-![](../.gitbook/assets/sukurnshotto-2020-06-07-234905png.png)
-
-Layer 1 and layer 2 offer different yet complementary solutions.
+Polkadot uses sharding technology allowing greater scalability. [Plasm](https://www.plasmnet.io/) also incorporates layer 2 vertical capabilities. Layer 1 and layer 2 offer different yet complementary solutions.
 
 Additional benefits of the Plasm Network architecture include:
 
@@ -65,5 +61,5 @@ Smart contract capability combined with layer 2 architecture makes many interest
 
 ![](../.gitbook/assets/sukurnshotto-2020-06-08-00739png.png)
 
-Questions? Reach out to the [Discord Tech Channel](https://discord.gg/Z3nC9U4) where team and community members can help you find answers.
+Questions? Reach out to the [Discord Tech Channel](https://discord.gg/Z3nC9U4) where the team and community members can help you find answers.
 
