@@ -14,5 +14,5 @@ Some features are implemented on Plasm Network that is accessible from the links
 
 {% page-ref page="learn/layer2/" %}
 
-{% page-ref page="learn/core-features.md" %}
+{% page-ref page="learn/core-features/" %}
 

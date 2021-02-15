@@ -12,7 +12,7 @@ PLM \(Plum\) Token is the utility token for Plasm Network that has the following
 
 DApps Staking is an original scheme that Plasm Network core team invented and only Plasm supports this feature in the Polkadot ecosystem. Plasm Network aims to be the leading DApps hub on Polkadot Network. Hence, we prepared incentives for DApps developers to make smart contracts on Plasm Network. 
 
-{% page-ref page="../dapps-reward.md" %}
+{% page-ref page="../core-features/dapps-reward.md" %}
 
 DApps Staking is a simple but strong mechanism. PLM token holders can stake PLM tokens on dApps as well as network. By doing so, the staker can earn PLM tokens from block rewards. In addition to that, dApps developers can also get rewards based on the nomination. In general, application developers on Plasm Network receive PLM  tokens by making smart contracts or infrastructure for Plasm Network community. We intend to make it a  sustainable and decentralized grant mechanism. 
 

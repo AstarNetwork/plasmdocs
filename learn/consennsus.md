@@ -20,5 +20,5 @@ Proof of Authority is a consensus-building algorithm that operates only with a v
 2. A validator verifies transactions and makes a new block [BABE](https://research.web3.foundation/en/latest/polkadot/BABE/Babe/)
 3. Validator finalizes the block that was delivered in the network [GRANDPA](https://research.web3.foundation/en/latest/polkadot/GRANDPA/)
 
-The block reward is distributed to the validator who created the block and respective Nominator. A reward is also paid to the [Plasm Network](https://www.plasmnet.io/) contributors.
+The block reward is distributed to the validator who created the block and the respective Nominator. A reward is also paid to the [Plasm Network](https://www.plasmnet.io/) contributors.
 

@@ -11,7 +11,11 @@
 
 ## Learn
 
+* [Plasm Structure](learn/polkadot-and-plasm.md)
 * [The Problems Plasm Solves](learn/the-problems-plasm-solves.md)
+* [Core Features](learn/core-features/README.md)
+  * [dApps Staking](learn/core-features/dapps-reward.md)
+  * [Operator Trading](learn/core-features/operator-trading.md)
 * [Token Economics](learn/token-economics/README.md)
   * [Lockdrop](learn/token-economics/lockdrop.md)
   * [About PLM Tokens](learn/token-economics/usages-of-plm-tokens.md)
@@ -23,10 +27,6 @@
   * [Plasma Overview](learn/layer2/plasm-overview.md)
   * [Optimistic Virtual Machine](learn/layer2/optimistic-virtual-machine.md)
   * [ZKRollups](learn/layer2/zkrollups.md)
-* [Plasm Structure](learn/polkadot-and-plasm.md)
-* [Core Features](learn/core-features.md)
-* [Operator Trading](learn/operator-trading.md)
-* [dApps Staking](learn/dapps-reward.md)
 * [Consensus](learn/consennsus.md)
 * [Plasm Mainnet](learn/plasm-mainnet.md)
 * [Chain Spec](learn/chain-spec/README.md)
