@@ -9,7 +9,7 @@ The Local Node can be easily set up by using the docker image for the Plasm node
 {% endhint %}
 
 ```text
-$ docker pull staketechnologies/plasm-node:dApps-reward
+$ docker pull staketechnologies/plasm-node:dapps-reward
 $ docker run -p 9944:9944 staketechnologies/plasm-node:dapps-reward --dev --ws-external
 ```
 
