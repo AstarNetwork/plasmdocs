@@ -8,11 +8,9 @@
 
 この問題を解決するために[Plasm Network](https://www.plasmnet.io/)にはいくつかの特徴があり以下のリンクからアクセス可能です。
 
-{% page-ref page="bu-1/plasm-networkno.md" %}
+{% page-ref page="learn/plasm-networkno.md" %}
 
-{% page-ref page="bu-1/reiy2soryshon.md" %}
+{% page-ref page="learn/layer2/" %}
 
-{% page-ref page="bu-1/koana.md" %}
-
-{% page-ref page="ekoshisutemu/polkadot.md" %}
+{% page-ref page="learn/features/" %}
 
