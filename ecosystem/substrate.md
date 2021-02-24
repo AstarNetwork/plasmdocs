@@ -1,19 +1,32 @@
-# Substrate
+---
+description: Polkadotの基盤であるSubstrateについて
+---
 
-Parity Substrate is a framework for building custom blockchains. Substrate offers blockchain templates or you can define a unique structure and logic. Substrate implements a high level of security, making blockchain development fast, easy, and secure.
+# Substrateについて
 
-Substrate features include:
+![substrate.io](../.gitbook/assets/sukurnshotto-2020-05-28-195006png.png)
 
-* **Forkless Update**
-* **Cross-Language Support with WebAssembly**
-* **Light-Client Friendly**
-* **Deterministic Finality**
-* **Seamless Integration**
+[Substrate](https://www.substrate.io/)はParity Technologies社によって開発されるブロックチェーン開発のフレームワークです。（やや強引ですが、ホームページを作るためのワードプレスと置き換えるとイメージしやすくなるかもしれません。）[Substrate](https://www.substrate.io/)を用いることで、低レイヤーのアルゴリズムやネットワーク、ストレージなどを意識せずにブロックチェーンを作成することができます。
 
-Learn more: 👇  
-Substrate : [https://www.substrate.io/](https://www.substrate.io/)
+開発を行っているParity Technologiesによれば、**「Substrateは拡張性を最大限に高め、複雑さを最小限にしたブロックチェーン開発フレームワーク」**と言われています。
 
+### Substrateの魅力的なポイント
 
+* コンセンサスアルゴリズムなどのロジックを変更しても**ハードフォーク**が起こらない
+* カスタマイズが可能でありユースケースに合わせてブロックチェーンを作成できる
+* パブリックブロックチェーンも、コンソーシアム、プライベートチェーンも作成可能であり、セキュリティレベルが選択できる
+* Lightクライアントを想定しており、モバイルやIoTと相性が良い
+* Polkadotとデフォルトで接続可能
+
+などがあります。
+
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
 
 ![](../.gitbook/assets/undraw_developer_activity_bv83-1-.png)
+
+### 参考リンク
+
+{% embed url="https://substrate.dev/" %}
+
+{% embed url="https://www.substrate.io/" %}
 

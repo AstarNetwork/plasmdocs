@@ -1,69 +1,53 @@
-# Polkadot
+# Polkadotについて
 
-![](../.gitbook/assets/sukurnshotto-2020-06-07-221155png.png)
+![](https://gblobscdn.gitbook.com/assets%2F-M8GVK5H7hOsGnYqg-7q%2F-M8O_q7qMICPSQndb4KJ%2F-M8Of9g6MJA1ujMtrrNX%2F%E3%82%BF%E3%82%99%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%88%E3%82%99.png?alt=media&token=4095b8f4-e673-4c26-ae06-72399603d6dc)
 
-[Polkadot](https://polkadot.network/) is an open-source project led by the [Web3 Foundation](https://web3.foundation/). It is a sharded protocol that connects different blockchain networks.
+​[Polkadot](https://polkadot.network/)とは[Ethereum](https://ethereum.org/ja/)の共同創業者兼CTOであるGavin Wood氏によって設立された[Web3 Foundation](https://web3.foundation/)の開発するパブリックブロックチェーンです。[Polkadot](https://polkadot.network/)に接続する異なるブロックチェーンとのインターオペラビリティ（相互運用性）を実現することができます。‌
 
-### Polkadot Basics
+### Polkadotベーシック‌ <a id="polkadotbshikku"></a>
 
-![](../.gitbook/assets/sukurnshotto-2020-06-07-230056png.png)
+[Polkadot](https://polkadot.network/)は大きく2つの特徴を保有しています。‌
 
-Polkadot consists of two parts: Relaychain and Parachain.
+1. **Polkadotに接続する異なるブロックチェーンとインターオペラビリティを有すること**
+2. **Polkadotに接続することで接続したブロックチェーンはPolkadotのセキュリティをインポートすることができること**
 
-* **Relaychain:** This is the core of Polkadot which is responsible for network security, consensus, and cross-chain interoperability.
-* **Parachain:** These are sovereign blockchains with custom tokens and optimized functionality for specific use cases. Parachain connection to Relaychain is priced on a pay-as-you-go basis or a continuous connectivity lease.
+この2つの特徴を実現するために[Polkadot](https://polkadot.network/)は以下のアーキテクチャーを持っています。‌
 
-[**Plasm Network**](https://www.plasmnet.io/) is built on Parity Substrate making it one of the first SCALABLE smart contract Polkadot Parachains.
+![](../.gitbook/assets/sukurnshotto-2020-05-28-140943png.png)
+
+**リレーチェーン**とは中心に位置する[Polkadot](https://polkadot.network/)の大本を成すブロックチェーンであり繋がっているブロックチェーン（**パラチェーン**）間でのデータorトークンのメッセージ交換、パラチェーンへのセキュリティのエクスポートを行います。また、**パラチェーン**‌とは独自のロジックを持つブロックチェーンであり、IoTや電力、金融など業界に特化したブロックチェーンやスケーラビリティ、秘匿化など性能に特化したブロックチェーンなどがあります。
+
+[Plasm Network](https://www.plasmnet.io/)はSubstrateというPolkadotのフレームワークを用いて開発されており、Polkadotの最初のスマートコントラクトのパラチェーンになることを目指しています。
 
 {% page-ref page="substrate.md" %}
-
-Parachain and Relaychain in Polkadot makes the following things possible:
-
-1. **Data and tokens can be transferred among parachains seamlessly.**
-2. **Parachains can import Relaychain security.**
-
-Learn more about Polkadot:
 
 * **Polkadot Lightpaper:** [https://polkadot.network/Polkadot-lightpaper.pdf](https://polkadot.network/Polkadot-lightpaper.pdf)
 * **Polkadot web page:** [https://polkadot.network/](https://polkadot.network/)
 * **Polkadot wiki:** [https://wiki.polkadot.network/](https://wiki.polkadot.network/)
+* **Polkadotエコシステム:** [https://forum.web3.foundation/t/teams-building-on-polkadot/67](https://forum.web3.foundation/t/teams-building-on-polkadot/67)‌
 
-## Plasm Network and Polkadot
+## PolkadotエコシステムにおけるPlasm Networkの立ち位置 <a id="polkadotekoshisutemuniokeruplasm-networknochi"></a>
 
-This section describes how the [Plasm Network ](https://www.plasmnet.io/) integrates to the Polkadot ecosystem. [Plasm Network](https://www.plasmnet.io/) aims to be the first scalable smart contract Polkadot Parachain.
+[Polkadot](https://polkadot.network/)と[Plasm Network](https://www.plasmnet.io/)は相互補助の関係性にあります。[Plasm Network](https://www.plasmnet.io/)が高いスケーラビリティーを持つことは 「Welcome」のセッションで述べましたが、これは**レイヤー2ソリューションがPlasm Network上に実装されているため**です。
 
-### Smart Contract
+一般的にブロックチェーンはその性質上スケールしません。しかし、ブロックチェーンが社会のインフラになるためには高い処理性能が必要であり、ブロックチェーンエコシステムにおいてこのスケーラビリティーの問題を解決することは急務となっています。
 
-The [Polkadot](https://polkadot.network/) Relaychain does not support smart contracts. Plasm will create this functionality also making it easily scalable. Developers are free to build a variety of dApps knowing that they can be scaled up with ease.
+このスケーラビリティの解決策は大きく分けて2つあります。
 
-### Scalability
+* 1つは**レイヤー1でできることを増やそうというスケーリングソリューション**（これにはシャーディングやSegWitなどが含まれます。）
+* もう1つは**レイヤー1でやることを減らして、レイヤー2（オフチェーン）でやることを増やそう**というスケーリングソリューションです。（これにはPlasmaやState Channelなどが含まれます。
 
-[Plasm Network](https://www.plasmnet.io/) scalability relies on layer 2 solutions such as the Optimistic Virtual Machine.
+{% page-ref page="../learn/layer2/" %}
 
-{% page-ref page="../learn/optimistic-virtual-machine.md" %}
+[Polkadot](https://polkadot.network/)はParachainごとにアプリケーションを実装するといった点でシャーディングのようなレイヤー1スケーリングソリューション**（水平的なスケーリング）**です。一方で[Plasm Network](https://www.plasmnet.io/)はレイヤー2のスケーリングソリューション**（垂直的なスケーリング）**を有しており、この2つのソリューションが相互補完することでより柔軟な開発ができるようになります。
 
-Scalability is the greatest challenge to all blockchains. To bring widespread adoption of blockchain technology, higher performance is necessary. Scalability is a critical issue that Plasm Network seeks to optimize.
+![](../.gitbook/assets/sukurnshotto-2020-05-28-193116png.png)
 
-Two Types Of Scalability
+また、**Polkadotリレーチェーン自体はスマート・コントラクトを意図的にサポートしていません。故に、アプリケーション/スマート・コントラクト開発者はPolkadotに接続されているパラチェーン上でアプリケーションを作成する必要があります。**その際に高いスケーラビリティを有するということは比較優位であり開発者が[Plasm Network](https://www.plasmnet.io/)を選ぶ大きな理由の1つになります。
 
-* **Layer 1 \(horizontal\) scalability:** Do more on the layer 1 blockchain. \(e.g. sharding and Segwit\)
-* **Layer 2 \(vertical\) scalability:** Do less on layer 1 and more on layer 2 or off-chain. \(e.g. Plasma and State Channel\)
+![](../.gitbook/assets/sukurnshotto-2020-05-28-175439png.png)
 
-Polkadot uses sharding technology allowing greater scalability. [Plasm](https://www.plasmnet.io/) also incorporates layer 2 vertical capabilities.
+[Plasm Network](https://www.plasmnet.io/)に従来のレイヤー1のスマートコントラクト及び、レイヤー2ソリューションを通して、様々なアプリケーションが構築されることを楽しみにしています。
 
-![](../.gitbook/assets/sukurnshotto-2020-06-07-234905png.png)
-
-Layer 1 and layer 2 offer different yet complementary solutions.
-
-Additional benefits of the Plasm Network architecture include:
-
-* **First Finality**
-* **Flexible dApps development**
-* **Significantly lower transaction\(gas\) costs**
-
-Smart contract capability combined with layer 2 architecture makes many interesting dApps possible on [Plasm Network](https://www.plasmnet.io/). \(e.g. Gaming, IoT, Payment, DEX, and Bridge\)
-
-![](../.gitbook/assets/sukurnshotto-2020-06-08-00739png.png)
-
-Questions? Reach out to the [Discord Tech Channel](https://discord.gg/Z3nC9U4) where team and community members can help you find answers.
+質問があれば、[Tech Chat](https://discord.gg/Cyjnrxv)の日本語チャネルでご質問ください。
 
