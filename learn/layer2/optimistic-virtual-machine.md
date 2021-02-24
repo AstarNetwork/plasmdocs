@@ -158,10 +158,6 @@ ChallengeRemoved(Hash, Hash);
 
 ## Plasma Module <a id="plasma-module"></a>
 
-Plasma Module is a module that is responsible for processing specific to Plasma. It calls the OVM Module and the specified smart contract function. The Plasma Module has one "Commitment" and "Deposit" address per application. These are each defined by `decl_child_storage`. `decl_child_storage!` is a macro that implements DB in SubTrie. This sets AccountId as the key value. This is like a contract address that implements with reference to [AccountDb](https://github.com/paritytech/substrate/blob/master/frame/contracts/src/account_db.rs) of contract module.
-
-This is modularized [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) and [CompiledPredicate](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) contracts in the Ethereum.
-
 Plasma Moduleは、Plasma特有の処理を担当するモジュールです。OVMモジュールと指定されたスマートコントラクト関数を呼び出します。Plasmaモジュールは、アプリケーションごとに1つの "Commitment "と "Deposit "アドレスを持っています。これらはそれぞれ `decl_child_storage` で定義されています。 `decl_child_storage!` は SubTrie の DB を実装したマクロです。これはAccountIdをキー値として設定しています。これはコントラクトモジュールのAccountDbを参照して実装するコントラクトアドレスのようなものです。 これはEthereumの [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) そして [CompiledPredicate](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) のコントラクトをモジュール化したものです。
 
 ### Types <a id="types"></a>
