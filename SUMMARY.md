@@ -32,6 +32,7 @@
   * [Polkadot Parachain Auction Strategy](learn/plasm-mainnet/polkadot-parachain-auction-strategy.md)
 * [Shiden Network](learn/shiden-network/README.md)
   * [Kusama Parachain Auction Strategy](learn/shiden-network/kusama-parachain-auction-strategy.md)
+  * [Shiden FAQ](learn/shiden-network/shiden-faq.md)
 * [Dusty Network](learn/dusty-network/README.md)
   * [Chain Specifications](learn/dusty-network/testnet.md)
 
