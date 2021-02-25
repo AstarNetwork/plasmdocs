@@ -64,7 +64,7 @@
 
 ## ベーシック <a id="basic"></a>
 
-* [よくある質問&回答集](basic/yokuaru.md)
+* [よくある質問&回答集](basic/faq.md)
 * [単語集](basic/untitled-1.md)
 
 ---
