@@ -24,7 +24,7 @@ Not necessarily. You need to contact your exchange to find out how to participat
 
 ### **How long will the KSM tokens be locked?**
 
-Your KSM will be locked for the full duration of the Shiden parachain lease. This is a yet-to-be-determined choice between 6, 12, 18, and 24 months. To voice your opinion on your desired lease duration for Shiden’s parachain, please indicate your choice by joining the waitlist. This survey will also provide eligibility for our introducer program.  
+Your KSM will be locked for the full duration of the Shiden parachain lease. This is a yet-to-be-determined \(6, 12, 18, and 24 months\).  
 ****
 
 ### **Will my KSM be returned after the parachain lease ends?**
