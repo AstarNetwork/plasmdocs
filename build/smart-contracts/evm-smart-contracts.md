@@ -7,10 +7,10 @@ description: Ethereum Compatibility Layer.
 ![](../../.gitbook/assets/what-is-ethereum-logo-big.o.png)
 
 {% hint style="info" %}
-Here is  a quick demo on how to use  EVM.
+Here is a quick demo on how to use EVM.
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=ZNe0fgTEDtU&ab\_channel=StakeTechnologies" %}
+{% embed url="https://youtu.be/ZNe0fgTEDtU" %}
 
 EVM \(Ethereum Virtual Machine\) is the most popular VM for smart contracts. EVM has a rich ecosystem for developers, testers, and users. **Plasm Network fully supports EVM-based smart contracts as L1 contracts.**
 
