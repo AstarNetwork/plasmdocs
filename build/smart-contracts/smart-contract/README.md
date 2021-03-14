@@ -1,4 +1,4 @@
-# Layer1 Smart Contract
+# ink! Contract in Your Local Environment
 
 ![](../../../.gitbook/assets/undraw_dev_focus_b9xo-1-.png)
 

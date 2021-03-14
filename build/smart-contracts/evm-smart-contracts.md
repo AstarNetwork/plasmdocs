@@ -2,7 +2,7 @@
 description: Ethereum Compatibility Layer.
 ---
 
-# EVM Smart Contracts
+# Ethereum Contract in Your Local Environment
 
 ![](../../.gitbook/assets/what-is-ethereum-logo-big.o.png)
 

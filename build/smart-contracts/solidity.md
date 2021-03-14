@@ -2,7 +2,7 @@
 description: Ethereum like smart contracts on Plasm Network.
 ---
 
-# Solidity
+# Solidity to WASM Compiler
 
 Plasm Network also supports solidity. Solidity is a smart contract language mainly used on Ethereum. If you have already built applications by using Solidity, you can also deploy the contracts on Plasm Network.
 
