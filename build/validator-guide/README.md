@@ -24,8 +24,8 @@ Tutorial video for running a node on Microsoft Azure  👇
 This short guide explains how to become a Dusty validator step by step on your local device.
 {% endhint %}
 
-* Install node **v1.7.0-dusty** using [binaries](https://github.com/PlasmNetwork/Plasm/releases/tag/v1.7.0-dusty) or [building from source code](https://github.com/staketechnologies/Plasm#building-from-source).
-* Launch node `plasm-node --validator --name node-name --rpc-cors all`
+* Install node **v1.9.0-dusty** using [binaries](https://github.com/PlasmNetwork/Plasm/releases/tag/v1.9.0-dusty) or [building from source code](https://github.com/staketechnologies/Plasm#building-from-source).
+* Launch node `plasm --validator --name node-name --rpc-cors all`
 * Wait for syncing up.
 
 ![](../../.gitbook/assets/testnet_sync.png)
