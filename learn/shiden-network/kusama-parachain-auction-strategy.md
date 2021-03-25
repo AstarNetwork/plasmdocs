@@ -6,7 +6,7 @@ Shiden Network is a canary network that acts as an R&D chain of Plasm Network.
 
 ### Parachain Auction
 
-TBA
+Date: TBA
 
 ## **Kusama Parachain Auction** <a id="0e35"></a>
 
