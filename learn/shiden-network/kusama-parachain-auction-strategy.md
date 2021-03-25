@@ -16,8 +16,7 @@ KSM holders can directly participate in the auction from our portal. All you nee
 
 ### KSM Lockdrop Specific
 
-* Lease period: 1 year
-* No maximum KSM, no minimum
+* Lease period: TBA
 * **SDN** is capped during the Kusama parachain auction, 30% of the total supply will be distributed.
 * The vesting period for **SDN:** 10 months with 1 month lock and 9 month vesting.
 
