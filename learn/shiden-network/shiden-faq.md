@@ -9,7 +9,7 @@ This is technically dependent on the Kusama parachain auction readiness. Join ou
 
 ### **How many SDN will I get for joining the KSM PLO?**
 
-This depends on the lease/lock period of KSM and a few other factors such as total locked KSM. The token allocation for the PLO is capped and we will distribute a total of around 30% of our token supply to those who join the PLO.  
+This depends on the lease/lock period of KSM and a few other factors such as total locked KSM. The token allocation for the PLO is capped and we will distribute a total of around 30% of our token supply to those who join the PLOs.  
 ****
 
 ### **What does it mean to unbond my KSM, and how do I do it?**
