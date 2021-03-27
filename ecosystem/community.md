@@ -35,6 +35,8 @@ Subscan is a Substrate-based blockchain explorer where you can search Plasm Netw
 * [Paralink](https://medium.com/plasm-network/paralink-oracles-on-plasm-d56e4568d777)
 * [Ankr](https://medium.com/plasm-network/one-click-plasm-testnet-node-on-ankr-1a177f988bcc)
 * [Binance Labs](https://medium.com/plasm-network/plasm-network-closes-2-4m-round-led-by-binance-labs-b186d987ceec)
+* [NFTY Labs](https://medium.com/plasm-network/plasm-network-partners-with-nftylabs-bc69c1577a5b?source=collection_home---4------0-----------------------)
+* ICON
 
 **Participating in**
 
