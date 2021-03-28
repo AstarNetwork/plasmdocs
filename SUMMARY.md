@@ -66,8 +66,12 @@
 
 * [FAQ](basic/faq.md)
 * [Glossary](basic/glossary.md)
-* [Plasm Network White Paper](https://github.com/staketechnologies/plasmdocs/blob/master/wp/en.pdf)
+
+## External Pages
+
+* [Plasm Network White Paper](https://github.com/PlasmNetwork/plasmdocs/blob/master/wp/en.pdf)
 * [Tech Chat \(Discord\)](https://discord.com/invite/wUcQt3R)
-* [GitHub](https://github.com/staketechnologies/Plasm)
+* [GitHub](https://github.com/PlasmNetwork/Plasm)
+* [Plasm Crate Documentation](https://crates.plasmnet.io)
 * [Forum](https://forum.plasmnet.io/)
 
