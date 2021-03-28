@@ -29,7 +29,7 @@ Your KSM will be locked for the full duration of the Shiden parachain lease. Thi
 
 ### **Will my KSM be returned after the parachain lease ends?**
 
-Yes, your KSM will be unlocked but you need to claim them back.  
+Yes, more information will be released in our strategy.  
 ****
 
 ### **When will I receive my Shiden tokens?**
