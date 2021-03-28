@@ -67,7 +67,7 @@
 * [FAQ](basic/faq.md)
 * [Glossary](basic/glossary.md)
 
-## External Pages
+## External Links
 
 * [Plasm Network White Paper](https://github.com/PlasmNetwork/plasmdocs/blob/master/wp/en.pdf)
 * [Tech Chat \(Discord\)](https://discord.com/invite/wUcQt3R)
