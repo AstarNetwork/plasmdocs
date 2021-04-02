@@ -29,8 +29,6 @@ Plasm Network is an open-source project. There are a lot of opportunities to get
 
 ## Want to run a node? Please visit 👇
 
-{% page-ref page="build/validator-guide/" %}
-
 ## Contributions Area
 
 [Plasm Network](https://www.plasmnet.io/) is an open-source project anyone can join, develop, and modify. Here are the Plasm  Network's status and contribution areas.
