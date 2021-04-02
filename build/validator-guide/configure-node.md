@@ -41,7 +41,7 @@ On UI chose Add Account.
 From a pop-up save the mnemonics and click Next.
 
 {% hint style="info" %}
-The most important part of this form is your mnemonic seed! Write this down, take a screenshot, … just don’t lose it!!!
+The most important part of this form is your mnemonic seed! Write this down, take a screenshot, … just don’t lose it!
 {% endhint %}
 
 Then chose name of the account like GAVIN-VALIDATOR and password. Click on ‘**Next**’ and ‘**Save**’. Store your \*.json file somewhere on your computer, cloud or similar. In case you lose your mnemonic seed you can always restore your account with this file.
@@ -60,7 +60,7 @@ Follow your submission in the [Dusty validator sheet](https://docs.google.com/sp
 
 1. On UI Click on ‘**Developer**’ — ‘**Extrinsics**’ — ‘**Session**’ — ‘**setKeys**\(keys, proof\)’
 2. Use your validator account
-3. Copy the long key you printed in step _"3. Get your Session key"_  and paste into the `keys` field. 
+3. Copy the long key you printed in step _"3. Get your Session key"_  and paste it into the `keys` field. 
 4. In the `proof` field leave 0x00.
 5. Click Submit Transaction
 
@@ -71,5 +71,5 @@ Follow your submission in the [Dusty validator sheet](https://docs.google.com/sp
 3. Click on plus sign on the right side
 4. You should see your key entered in step '_8. Set Your Key'_
 
-**Congratulations!!! Your Validator node is up and running!!!**
+**Congratulations! Your Validator node is up and running!**
 
