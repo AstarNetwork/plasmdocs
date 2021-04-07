@@ -58,9 +58,10 @@
   * [Importing Ethereum Seed](build/lockdrop/importing-ethereum-seed.md)
   * [Unlock Tutorial](build/lockdrop/unlock-tutrial.md)
   * [Real-Time Lockdrop](build/lockdrop/real-time-lockdrop.md)
+* [API](build/api.md)
 * [Layer2 Applications](build/layer2-applications.md)
-* [ink!](build/ink.md)
 * [Operator Trading](build/operator-trading.md)
+* [ink!](build/ink.md)
 * [dApps Staking](build/dapps-reward.md)
 * [Metamask support](build/metamask-signatures.md)
 
