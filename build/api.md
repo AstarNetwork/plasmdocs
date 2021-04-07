@@ -10,7 +10,7 @@ Separated from the API you will also find the [Substrate metadata](https://polka
 
 ## Installation
 
- Yes, it really is as simple as installing from npm, so we are not going to waste too much time with the bare basics, just install the necessary APIs via
+Follow these steps to use Polkadot API on Plasm Network. Yes, it really is as simple as installing from npm, so we are not going to waste too much time with the bare basics, just install the necessary APIs via:
 
 ```text
 npm i @polkadot/api
