@@ -47,7 +47,7 @@
     * [Calling Your Contract](build/smart-contracts/smart-contract/calling-your-contract.md)
   * [Ethereum Contract in Your Local Environment](build/smart-contracts/evm-smart-contracts.md)
   * [Ethereum Contract on Dusty Network](build/smart-contracts/ethereum-contract-on-dusty-network.md)
-  * [EVM Precompiled Contracts](build/smart-contracts/the-evm-precompiles.md)
+  * [EVM Precompiled Contracts](build/smart-contracts/evm-precompiles.md)
   * [Check Smart Contract](build/smart-contracts/polkadot-hackathon.md)
   * [Solidity to WASM Compiler](build/smart-contracts/solidity.md)
 * [Validator Guide](build/validator-guide/README.md)
