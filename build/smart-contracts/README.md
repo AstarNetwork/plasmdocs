@@ -12,7 +12,11 @@ Here are the contents in this section.
 
 {% page-ref page="evm-precompiles.md" %}
 
+{% page-ref page="evm-precompiles.md" %}
+
 {% page-ref page="polkadot-hackathon.md" %}
 
 {% page-ref page="solidity.md" %}
+
+
 
