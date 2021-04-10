@@ -60,19 +60,3 @@ Now the fun starts! Let's install all software:
 
 {% page-ref page="launch-and-active-services.md" %}
 
-
-
-
-
-
-
-1. Configuration 
-2. Setting services 
-3. Test Alert Manager 
-4. Run Grafana dashboard 
-5. Conclusion
-
-Let's get to work! 
-
-
-
