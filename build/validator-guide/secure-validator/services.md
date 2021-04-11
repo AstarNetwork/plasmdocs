@@ -19,17 +19,18 @@ sudo nano /etc/systemd/system/plasm.service
 
 ```text
 [Unit]
-Description=Plasm Validator
+  Description=Plasm Validator
 
 [Service]
-User=plasm
-Group=plasm
-ExecStart=/usr/local/bin/plasm \
+  User=plasm
+  Group=plasm
+  ExecStart=/usr/local/bin/plasm \
   --validator \
   --rpc-cors all \
-  --name <Your Validator Name> \ 
-Restart=always
-RestartSec=60
+  --name <Your Validator Name> \
+  --base-path /var/lib/plasm
+  Restart=always
+  RestartSec=120
 
 [Install]
 WantedBy=multi-user.target

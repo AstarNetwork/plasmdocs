@@ -48,9 +48,16 @@ tar -xf plasm-1.9.0-ubuntu-x86_64.tar.gz
 The following part is different from the other guide. We will create a dedicated user for the node and moved the `plasm` folder to `/usr/local/bin/`
 
 ```text
-sudo useradd --shell /usr/sbin/nologin plasm
+sudo useradd --no-create-home --shell /usr/sbin/nologin plasm
 sudo cp ./plasm /usr/local/bin
 sudo chown plasm:plasm /usr/local/bin/plasm
+```
+
+Create a **dedicated directory for the chain storage data**:
+
+```text
+sudo mkdir /var/lib/plasm
+sudo chown plasm:plasm /var/lib/plasm
 ```
 
 ### Start node
