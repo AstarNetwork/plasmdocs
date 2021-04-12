@@ -51,7 +51,7 @@
   * [Check Smart Contract](build/smart-contracts/polkadot-hackathon.md)
   * [Solidity to WASM Compiler](build/smart-contracts/solidity.md)
   * [Examples](build/smart-contracts/examples/README.md)
-    * [Remix - Create an asset](build/smart-contracts/examples/remix-create-an-asset.md)
+    * [Remix - Create an Asset](build/smart-contracts/examples/remix-create-an-asset.md)
 * [Validator Guide](build/validator-guide/README.md)
   * [Setup Server](build/validator-guide/setup-server.md)
   * [Install Node](build/validator-guide/install-node.md)

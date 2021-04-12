@@ -2,7 +2,7 @@
 description: 'Remix is a Solidity IDE that''s used to write, compile and debug Solidity code.'
 ---
 
-# Remix - Create an asset
+# Remix - Create an Asset
 
 ## Create an asset
 
