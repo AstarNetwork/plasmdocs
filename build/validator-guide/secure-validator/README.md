@@ -36,7 +36,7 @@ As a future validator, it's very important that you know what you are doing. I d
 
 **The final setup will look like this:**
 
-![&#xA9; bLd Nodes](../../../.gitbook/assets/image%20%2816%29.png)
+![](../../../.gitbook/assets/image%20%2831%29.png)
 
 ## Walkthrough
 
