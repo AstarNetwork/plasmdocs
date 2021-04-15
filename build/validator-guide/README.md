@@ -16,5 +16,9 @@ To run a validator node follow these steps:
 
 {% page-ref page="configure-node.md" %}
 
-If you are already a validator you need to keep your node live and updated in order to prevent slashing of your staked funds. 
+If you are already a validator you need to keep your node live and updated in order to prevent slashing of your staked funds. Please try to create a very secure validator by following this guide:
+
+{% page-ref page="secure-validator/" %}
+
+
 
