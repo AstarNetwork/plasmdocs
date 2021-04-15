@@ -62,6 +62,14 @@ More examples are available in the Solang repository:
 
 Have fun and good luck!
 
+## Windows setup
+
+Here you will find a tutorial:
+
+{% embed url="https://medium.com/plasm-network/compile-smart-contracts-written-in-solidity-for-plasm-network-on-windows-1ed18993f82e" %}
+
+
+
 Any questions? Feel free to ask us on our [Discord tech channel](https://discord.com/invite/kH3Njpr).[  
 ](https://docs.plasmnet.io/workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm)
 
