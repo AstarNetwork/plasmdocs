@@ -2,7 +2,7 @@
 
 This guide is a step-by-step guide to deploy a WebAssembly \(WASM\) smart contract. As a result, the output is highly optimized, which saves you gas costs.
 
-### Setup
+## Setup
 
 ### Substrate Prerequisites <a id="substrate-prerequisites"></a>
 
@@ -17,7 +17,7 @@ rustup target add wasm32-unknown-unknown --toolchain stable
 
 As a pre-requisite for the tool, you need to install the [binaryen](https://github.com/WebAssembly/binaryen) package, which is used to optimize the WebAssembly bytecode of the contract. Many package managers have it available nowadays ‒ e.g., it's a package for [Debian/Ubuntu](https://tracker.debian.org/pkg/binaryen), [Homebrew](https://formulae.brew.sh/formula/binaryen), and [Arch Linux](https://archlinux.org/packages/community/x86_64/binaryen/).
 
-After you've installed the package execute:
+After you've installed the package, execute:
 
 ```text
 cargo install cargo-contract --vers ^0.11 --force --lockedCopy to clipboardErrorCopied
@@ -27,7 +27,7 @@ You can then use `cargo contract --help` to start exploring the commands made av
 
 ![Installation of cargo-contract](../../../.gitbook/assets/image%20%2837%29.png)
 
-### Create an ink! contract
+## Create an ink! contract
 
 We are going to use ink! CLI to generate the files we need for a WASM smart contract project. Make sure you are in your working directory and then run:
 
@@ -63,7 +63,7 @@ code .
 
 ![ERC20 WASM code in Visual Studio Code](../../../.gitbook/assets/image%20%2834%29.png)
 
-### Testing your contract <a id="testing-your-contract"></a>
+## Testing your contract
 
 ![](../../../.gitbook/assets/image%20%2833%29.png)
 
@@ -336,7 +336,7 @@ If you look closely at the constructors and messages, you will also notice a `se
 
 The Canvas UI uses this file to generate a friendly interface for deploying and interacting with your contract. :\)
 
-### Deploy your contract 
+## Deploy your contract 
 
 Let's deploy the contract now on Plasm/Shiden or Dusty, our testnet.  
 In this guide, I will use our testnet, 'Dusty'. To deploy your contract go to '**Developer - Contracts**'. Click on '**Upload and deploy code**'.
@@ -354,7 +354,7 @@ In my case, I had to enter my total supply and that's it. Deploy and contract is
 That's it! Great work.  
 Now you can send your asset around and play around.
 
-### Support
+## Support
 
 Come join our developers community for all kinds of support.
 
