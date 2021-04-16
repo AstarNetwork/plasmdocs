@@ -4,7 +4,7 @@
 
 To communicate with Smart contracts. We use "messages".
 
-![](../../../.gitbook/assets/messages.png)
+![](../../../../.gitbook/assets/messages.png)
 
 It's possible to pass two kinds of messages:
 
@@ -13,13 +13,13 @@ It's possible to pass two kinds of messages:
 
 Let's try to read our smart contract value by `get()` message call.
 
-![This smart contract was deployed with enabled state flag.](../../../.gitbook/assets/get_interaction.png)
+![This smart contract was deployed with enabled state flag.](../../../../.gitbook/assets/get_interaction.png)
 
 Second, let's change a smart contract state by sending a "message", send `flip()` message that flips smart contract boolean flag.
 
-![Flip call is a transaction.](../../../.gitbook/assets/flip.png)
+![Flip call is a transaction.](../../../../.gitbook/assets/flip.png)
 
-![New contract flag value reached.](../../../.gitbook/assets/get_new.png)
+![New contract flag value reached.](../../../../.gitbook/assets/get_new.png)
 
 Using these two kinds of messages, your DApp can easily write and read the smart contract data. Have fun!
 

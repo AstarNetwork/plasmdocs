@@ -25,7 +25,7 @@ Plasm Network is an open-source project. There are a lot of opportunities to get
 
 ## Want to build on Plasm Network? Please visit 👇
 
-{% page-ref page="build/smart-contracts/smart-contract/" %}
+{% page-ref page="build/smart-contracts/wasm/smart-contract/" %}
 
 ## Want to run a node? Please visit 👇
 

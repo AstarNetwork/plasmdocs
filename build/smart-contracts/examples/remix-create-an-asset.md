@@ -76,7 +76,7 @@ Compiled? Yes! Let's deploy our contract to Dusty.
 
 * Make sure you are connected to our Dusty testnet and have some PLD in your wallet. If you don't know how to do this, please check the guide about deploying smart contracts on Dusty.
 
-{% page-ref page="../ethereum-contract-on-dusty-network.md" %}
+{% page-ref page="../ethereum-virtual-machine/ethereum-contract-on-dusty-network.md" %}
 
 We are ready to 'Deploy' our contract. As you can see in the screenshot below you need to insert your 'initialSupply' before hitting 'Deploy'.
 
