@@ -39,7 +39,6 @@
 ## Build
 
 * [Smart Contracts](build/smart-contracts/README.md)
-  * [Untitled](build/smart-contracts/untitled.md)
   * [ink! Contract in Your Local Environment](build/smart-contracts/smart-contract/README.md)
     * [Install](build/smart-contracts/smart-contract/install.md)
     * [Create Your Project by Using ink!](build/smart-contracts/smart-contract/create-your-project-by-using-ink.md)
