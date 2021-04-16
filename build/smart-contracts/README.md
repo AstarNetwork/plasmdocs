@@ -18,5 +18,7 @@ Here are the contents in this section.
 
 {% page-ref page="solidity.md" %}
 
+{% page-ref page="examples/" %}
+
 
 
