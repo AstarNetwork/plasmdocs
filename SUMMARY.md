@@ -44,6 +44,7 @@
     * [Ethereum Contract on Dusty Network](build/smart-contracts/ethereum-virtual-machine/ethereum-contract-on-dusty-network.md)
     * [EVM Precompiled Contracts](build/smart-contracts/ethereum-virtual-machine/evm-precompiles.md)
   * [WASM](build/smart-contracts/wasm/README.md)
+    * [Redspot by Patract Labs](build/smart-contracts/wasm/redspot-by-patract-labs.md)
     * [Solidity to WASM Compiler](build/smart-contracts/wasm/solidity.md)
     * [ink! Contract in Your Local Environment](build/smart-contracts/wasm/smart-contract/README.md)
       * [Install](build/smart-contracts/wasm/smart-contract/install.md)
