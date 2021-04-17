@@ -28,10 +28,11 @@ rustup target add wasm32-unknown-unknown --toolchain nightly
 rustup component add rust-src --toolchain nightly
 ```
 
-And let's  install cargo-contract provided by Parity Technologies. 
+And let's install `cargo-contract` provided by Patract  and `wasm-opt`
 
 ```text
-cargo install cargo-contract --force
+cargo install cargo-contract --git https://github.com/patractlabs/cargo-contract --branch=v0.10.0 --force
+npm i wasm-opt
 ```
 
 ## Create a Redspot Project
@@ -56,5 +57,5 @@ Before compiling, install `npm` dependencies first.
 npm install
 ```
 
-Work In Progress
+
 
