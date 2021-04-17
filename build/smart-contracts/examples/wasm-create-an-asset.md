@@ -35,7 +35,7 @@ We are going to use ink! CLI to generate the files we need for a WASM smart cont
 cargo contract new erc20
 ```
 
-This command will create a new project folder named `flipper` which we will explore:
+This command will create a new project folder named `erc20` which we will explore:
 
 ```text
 cd erc20
