@@ -10,12 +10,6 @@ Note that the past status is also listed here. Each detailed spec is annotated a
 
 ## Previous Works
 
-### Version
-
-* authoring\_version: 1
-* spec\_version: 1
-* impl\_version: 1
-
 ### Core Modules
 
 * **System** - core substrate functionality
@@ -28,31 +22,46 @@ Note that the past status is also listed here. Each detailed spec is annotated a
 * **RandomnessCollectiveFlip** - source of random numbers
 * **Contracts** - smart contract support
 * **Sudo** - superuser actions
+* **EVM**  - Ethereum Virtual Machine support
 
 ### Plasm Network Original modules
 
-* Operator - smart contract operator support
-* PlasmValidator - authority manager for Plasm network
-* PlasmRewards - this module split block rewards between dApps operators and validators
+* **Operator** - smart contract operator support
+* **PlasmValidator** - authority manager for Plasm network
+* **PlasmRewards** - this module split block rewards between dApps operators and validators
+* **DApps Staking** - Basic income for dApps developers
+* **OVM** - Optimistic Virtual Machine support
+* **Plasma** - Plasma supports
+
+Learn more from [here](https://github.com/PlasmNetwork/Plasm/blob/dusty/bin/node/runtime/Cargo.toml).
 
 ## Road Map
 
-### 2020 Q2
+The below is the milestone for Plasm Network as a public blockchain. The milestone in this context refers to the rough timeline and the journey that Plasm Network will have to take in order to become a fully public DAO, which is our vision. The items and their date described here are not strict nor completely dependent like a waterfall framework. The purpose of this milestone is to understand what are the requirements for Plasm Network to become a DAO and how far we are until achieving that goal.
 
-* [dAppsStaking](https://github.com/staketechnologies/plasmdocs/tree/6321fe1f19becdbf1e329e0732b98b5d41274bc9/PlasmNetwork/dAppsRewards.md) module will be available
+### 2021 May and June
 
-### 2020 Q3
+* Complete staking functionalities \(both PoS and DApps Staking\)
+* Launch Shiden Network as a Kusama Parachain & Plasm Network  Portal 
+* Start Shiden Grant Program
+* Start Plasm Grit Acceleration Program
 
-* [Ovm + Plasma](https://github.com/staketechnologies/plasmdocs/tree/6321fe1f19becdbf1e329e0732b98b5d41274bc9/TechnicalChapter/OVM.md) module will be available
-* [Real time Lockdrop](https://github.com/staketechnologies/plasmdocs/tree/6321fe1f19becdbf1e329e0732b98b5d41274bc9/PlasmNetwork/RealtimeLockdrop.md) module will be available
+### 2021 July and August
 
-### 2020 Q4
+* Rebranding  
+* Complete L2 implementation with  OVM and ZK Rollups
 
-* First L2 application will be released
-* L2 interoperability between ETH
-* Migrate to NPoS from PoA
+### 2021 September and October
 
-### 2020
+* Redenomination
+* Launch Plasm Network as a Polkadot Parachain
+* Enable transaction
+* Start Plasm Grant Program
 
-* Plasm Network joins Polkadot as a Parachain
+### 2022
+
+* Implement and enable treasury and democracy modules
+* Make Plasm team into a full DAO
+
+  If you would like to learn more,  please join our [Discord](https://discord.gg/Z3nC9U4).
 
