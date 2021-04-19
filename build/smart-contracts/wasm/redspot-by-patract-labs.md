@@ -12,12 +12,12 @@ description: >-
 [Redspot ](https://docs.patract.io/en/redspot/introduction.html)is a contract integration builder that allows developers to simplify the process of testing and interacting with contracts by projecting the development of contracts such as ink! This tool is developed by [Patract Labs](https://patract.io/products). Kudos!
 
 {% hint style="info" %}
-Please lear more from [here](https://docs.patract.io/en/redspot/introduction.html).
+Please learn more from [here](https://docs.patract.io/en/redspot/introduction.html).
 {% endhint %}
 
 ## Set Up
 
-First of all, let's install [Node.js](https://nodejs.org/). The version have to be version &gt;= 12.0. You can check your version by using following command. `$ node --version`
+First of all, let's install [Node.js](https://nodejs.org/). The version has to be version &gt;= 12.0. You can check your version by using the following command. `$ node --version`
 
 Second, ink! contract requires a WASM compile environment. Let's install toolchain.
 
