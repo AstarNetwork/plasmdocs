@@ -42,14 +42,14 @@ The below is the milestone for Plasm Network as a public blockchain. The milesto
 ### 2021 May and June
 
 * Complete staking functionalities \(both PoS and DApps Staking\)
-* Launch Shiden Network as a Kusama Parachain & Plasm Network  Portal 
+* Launch Shiden Network as a Kusama Parachain & Plasm Network Portal 
 * Start Shiden Grant Program
 * Start Plasm Grit Acceleration Program
 
 ### 2021 July and August
 
 * Rebranding  
-* Complete L2 implementation with  OVM and ZK Rollups
+* Complete L2 implementation with OVM and ZK Rollups
 
 ### 2021 September and October
 
