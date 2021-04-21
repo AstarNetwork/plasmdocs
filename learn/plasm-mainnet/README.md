@@ -53,7 +53,7 @@ The below is the milestone for Plasm Network as a public blockchain. The milesto
 
 ### 2021 September and October
 
-* Redenomination
+* PLM Redenomination
 * Launch Plasm Network as a Polkadot Parachain
 * Enable transaction
 * Start Plasm Grant Program
