@@ -2,7 +2,7 @@
 description: 'Updated: 04/22 by Mario'
 ---
 
-# Common questions for EVM smart contract deployment on Dusty
+# FAQ for EVM smart contract deployment on Dusty
 
 * **Is there a step by step guide on how to deploy smart contract on Dusty?**
   * yes, please follow [this tutorial](https://docs.plasmnet.io/build/smart-contracts/ethereum-virtual-machine/ethereum-contract-on-dusty-network) in our documentation
