@@ -5,15 +5,15 @@ description: 'Updated: 04/22 by Mario'
 # FAQ for EVM smart contract deployment on Dusty
 
 * **Is there a step by step guide on how to deploy smart contract on Dusty?**
-  * yes, please follow [this tutorial](https://docs.plasmnet.io/build/smart-contracts/ethereum-virtual-machine/ethereum-contract-on-dusty-network) in our documentation
+  * yes, please follow [this tutorial ](ethereum-contract-on-dusty-network.md)in our documentation
 * **Can I use** [**Remix**](http://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.1+commit.df193b15.js) **for smart contract deployment on Dusty?**
   * yes of course.
 * **Can I use** [**Hardhat**](https://hardhat.org/) **for smart contract deployment on Dusty?**
-  * yes, please follow tutorial in our documentation
+  * yes, please follow [this tutorial](using-hardhat.md) in our documentation
 * **Can I use Truffle for smart contract deployment on Dusty?**
   * unfortunately at the moment you can’t use Truffle
   * when Shiden network is launched as Kusama parachain, you will be able to use Truffle
-  * please use [Remix](http://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.1+commit.df193b15.js) until then
+  * please use [Remix](http://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.1+commit.df193b15.js) and [Hardhat](https://hardhat.org/) until then
 * **What is the name of the native token on Dusty**
   * PLD
 * **How do I connect to Dusty testnet**
