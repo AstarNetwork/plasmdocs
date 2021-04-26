@@ -66,7 +66,7 @@ Then, you will see
 
 After running the command, choose: _`Create an empty hardhat.config.js`_. Now, let’s configure the file.
 
-### **Hardhat configuration file**
+## **Hardhat configuration file**
 
 We need to modify our Hardhat configuration file so we can compile and deploy contracts into the Plasm ecosystem.
 
