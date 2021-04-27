@@ -76,9 +76,5 @@ Oct 15 13:09:30.009 DEBUG apply_extrinsic: Updating storage for 0x66bb595bc60c8a
 
  `0x66bb595bc60c8af0a306aa86edf96a88d3a59e9a` is the contract instance address!
 
-We will make a demo and make this much more user-friendly!
-
-### Deploy contracts by using truffle
-
 
 
