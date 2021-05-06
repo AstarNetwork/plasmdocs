@@ -28,7 +28,14 @@ const { ApiPromise, WsProvider, Keyring } = require('@polkadot/api');
 const plasmDefinitions = require('@plasm/types/interfaces/definitions');
 
 async function main() {
-  const types = Object.values(plasmDefinitions).reduce((res, { types }) => ({ ...res, ...types }), {});
+  const types = Object.values(plasmDefinitions).reduce((res, { types }) => ({ ...res, ...types }), {
+    SmartContract: {
+      _enum: {
+        Wasm: 'AccountId',
+        Evm: 'H160'
+      }
+    },    
+  });
   const wsProvider = new WsProvider('wss://rpc.dusty.plasmnet.io');
   //const wsProvider = new WsProvider('wss://rpc.polkadot.io');
 
@@ -50,7 +57,7 @@ async function main() {
     typesAlias: { voting: { Tally: 'VotingTally' } },
   });
 
-  const [chain, nodeName, nodeVersion] = await Promise.all([
+    const [chain, nodeName, nodeVersion] = await Promise.all([
     api.rpc.system.chain(),
     api.rpc.system.name(),
     api.rpc.system.version()
@@ -61,7 +68,6 @@ async function main() {
     console.log(`Chain is at #${header.number}`);
   });
 }
-
 main().catch(console.error);
 ```
 
