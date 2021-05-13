@@ -10,6 +10,8 @@ Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and *
 
 {% page-ref page="shiden-parachain-auction-strategy.md" %}
 
+{% page-ref page="kusama-parachain-auction-step-by-step-guide.md" %}
+
 First of all, the following figure shows the timeline.
 
 ![](../../.gitbook/assets/9f850028b62217a3d21d482ff3d65c94d0d036e9_2_1380x374.png)
@@ -20,7 +22,7 @@ First of all, the following figure shows the timeline.
 
 **Step3 Launch:** After winning Parachain auction, we will launch Shiden/Plasm  Network as a Parachain.
 
-**Reference**: 
+### **Reference**: 
 
 {% embed url="https://kusama.network/auctions" %}
 

@@ -1,2 +1,2 @@
-# How to Make a Kusama/Polkadot Address
+# How to Create a Kusama/Polkadot Address
 
