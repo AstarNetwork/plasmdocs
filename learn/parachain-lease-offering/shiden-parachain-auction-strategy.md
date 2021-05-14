@@ -22,7 +22,7 @@ The PLO consists of “Crowdloan” and “Auction”. We are going to conduct o
 
 ![](../../.gitbook/assets/bef51b5a291e1d5287d08baaf1f239db508b20b6_2_1380x770.png)
 
-We use 15% of the total supply \(6,750,000 SDN\) and bid for 1-8 slots \(7days×6weeks×8slots=336 days\). Shiden is a community-driven project and is proud of distributing 65% for the community members in total.
+We use 15% of the total supply \(6,750,000 SDN\) and bid for 1-8 periods \(7days×6weeks×8periods=336 days\). Shiden is a community-driven project and is proud of distributing 65% for the community members in total.
 
 After locking KSM tokens, slot auction participants will receive SDN tokens **automatically**. The receiving  tokens will be calculated by the following formula.
 
