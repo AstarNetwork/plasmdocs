@@ -8,3 +8,9 @@ ink! Tutorial👇
 
 {% embed url="https://substrate.dev/substrate-contracts-workshop/\#/1/introduction" %}
 
+{% page-ref page="smart-contracts/wasm/" %}
+
+
+
+
+
