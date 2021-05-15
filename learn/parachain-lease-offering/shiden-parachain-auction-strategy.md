@@ -22,15 +22,19 @@ The PLO consists of “Crowdloan” and “Auction”. We are going to conduct o
 
 ![](../../.gitbook/assets/bef51b5a291e1d5287d08baaf1f239db508b20b6_2_1380x770.png)
 
-We use 15% of the total supply \(6,750,000 SDN\) and bid for 1-8 periods \(7days×6weeks×8periods=336 days\). Shiden is a community-driven project and is proud of distributing 65% for the community members in total.
+We use 15% of the total supply \(6,750,000 SDN\) and bid for 1-8 periods \(7days×6weeks×8periods=336 days\). Shiden is a community-driven project and we are proud of distributing 65% for the community members in total.
 
-After locking KSM tokens, slot auction participants will receive SDN tokens **automatically**. The receiving  tokens will be calculated by the following formula.
+After locking KSM tokens, slot auction participants will receive SDN tokens **automatically**. The receiving tokens will be calculated by the following formula. Keep in mind that the SDN tokens will be delivered 1month after winning the auction under the 9 months vesting \(Token will be distributed at once. The token cannot be sent to another address while it is being vested. However, you can stake the token on Shiden's collators\).
 
-\[To Do: Add the formula\]  
+\[Formula comes here\]  
   
 Tokens will be locked for **one** month and have **nine** months of vesting. During the vesting period, token holders can stake SDN tokens to the network so that they can earn staking rewards. 
 
 In addition to  that, we introduce a new incentive scheme and recommend joining our crowdloan as early as we start the campaign. The earlier you participate, the higher the bonus rate you can get.
 
 \[Graphic comes here\]
+
+### Advanced Information
+
+Shiden Network is a fork of Plasm Network. [We use \#3,000,000 block \(2021-05-05 04:43:30 +UTC\) ](https://plasm.subscan.io/block/3000000) for the snapshot. \(Some parameters are adjusted.\)   
 
