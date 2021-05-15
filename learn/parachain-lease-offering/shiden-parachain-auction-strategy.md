@@ -24,17 +24,35 @@ The PLO consists of “Crowdloan” and “Auction”. We are going to conduct o
 
 We use 15% of the total supply \(6,750,000 SDN\) and bid for 1-8 periods \(7days×6weeks×8periods=336 days\). Shiden is a community-driven project and we are proud of distributing 65% for the community members in total.
 
-After locking KSM tokens, slot auction participants will receive SDN tokens **automatically**. The receiving tokens will be calculated by the following formula. Keep in mind that the SDN tokens will be delivered 1month after winning the auction under the 9 months vesting \(Token will be distributed at once. The token cannot be sent to another address while it is being vested. However, you can stake the token on Shiden's collators\).
-
-\[Formula comes here\]  
+After locking KSM tokens, slot auction participants will receive SDN tokens **automatically**. The receiving tokens will be calculated by the formula in the advanced information section below.   
   
-Tokens will be locked for **one** month and have **nine** months of vesting. During the vesting period, token holders can stake SDN tokens to the network so that they can earn staking rewards. 
+Tokens will be locked for **one** month and have **nine** months of vesting. During the vesting period, token holders can stake SDN tokens to the network so that they can earn staking rewards. \(Keep in mind that the SDN tokens will be delivered 1month after winning the auction under the 9 months vesting. Token will be distributed at once.\)
 
-In addition to  that, we introduce a new incentive scheme and recommend joining our crowdloan as early as we start the campaign. The earlier you participate, the higher the bonus rate you can get.
+In addition to  that, we introduce a new incentive scheme and recommend joining our crowdloan as early as we start the campaign in stead of joining the later auctions. The earlier you participate, the higher the bonus rate you can get.
 
-\[Graphic comes here\]
+![](../../.gitbook/assets/screen-shot-2021-05-15-at-19.51.55.png)
+
+{% hint style="success" %}
+**💡Important  Insight💡：Only crowdloan has an additional bonus. If you join our auction directly, you won't be able to receive the bonus.** 
+{% endhint %}
+
+Though the graphic above includes several auctions, we don't join the N th auction if Shiden Networks wins the N-1 th auction.  
 
 ### Advanced Information
 
 Shiden Network is a fork of Plasm Network. [We use \#3,000,000 block \(2021-05-05 04:43:30 +UTC\) ](https://plasm.subscan.io/block/3000000) for the snapshot. \(Some parameters are adjusted.\)   
+
+The number of SDN tokens you can get is calculated  by the following formula.
+
+`C_i` : Bonus obtained by contributing to the Crowdloan before the start of the i th auction.  
+`KSM_i,j` : KSMs in the j th contribution before the start of the i th auction  
+`SDN_i,j` : SDNs that can be obtained from the j th contribution before the start of the i th auction.  
+`n` : The number of Kusama Parachain auctions held before Shiden Network won the auction.  
+`m_i`: Number of contributions before the i th auction
+
+$$
+SDN_{a,b} = \frac{KSM_{a,b}C_a}{\sum_{i=0}^{n}{\sum_{j=0}^{m_i}KSM_{i,j}C_i}}\times6,750,000
+$$
+
+The number of tokens you are going to receive is slightly different since we have an additional bonus for waitlist registrants.
 
