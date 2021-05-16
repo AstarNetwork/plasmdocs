@@ -1,5 +1,5 @@
 # ERC721
-Example contract for https://docs.plasmnet.io
+Example contract for https://docs.plasmnet.io/build/smart-contracts/examples/wasm-create-an-nft
 
 ## NFT
 This is an ERC721 Token implementation.
