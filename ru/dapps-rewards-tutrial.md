@@ -19,7 +19,7 @@ Dapps Rewards の大まかな流れはざっくりと以下のようになって
 1. スマートコントラクトを選んで Staking する。\(これを Nominate といいます。\)
 2. Staking 量に応じて Nominate した人\(以下、ノミネータ\)と Nominate されたスマートコントラクトのオペレータは報酬が与えられます。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-30-160230png.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-30-160230png%20%281%29%20%281%29.png)
 
 では、実際にやってみてましょう。
 

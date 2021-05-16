@@ -105,5 +105,5 @@ $$IssueRatio=Locked_{token} × DollarRate_{token} ​ × LockBonus_{days}​ (to
 На следующем рисунке показан пример изменения распределения токенов для нескольких локдропов. DollarRate зафиксирован.  
 
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
