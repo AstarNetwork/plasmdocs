@@ -10,7 +10,7 @@ Plasm Network also supports solidity. Solidity is a smart contract language main
 
 In this tutorial, we will use the [Solang compiler](https://github.com/hyperledger-labs/solang), a compiler for solidity language developed by Hyperledger Labs. Let's install the compiler using the original instruction below.
 
-{% embed url="https://solang.readthedocs.io/en/latest/installing.html" %}
+{% embed url="https://solang.readthedocs.io/en/latest/installing.html" caption="" %}
 
 Or using the following cargo command:
 
@@ -29,7 +29,7 @@ Make sure you installed all dependencies you need. You can check them from [here
 
 You can write any solidity contracts just like the development on Ethereum. Since this is a tutorial, we will use a `flipper` contract which is available below.
 
-{% embed url="https://github.com/hyperledger-labs/solang/blob/master/examples/flipper.sol" %}
+{% embed url="https://github.com/hyperledger-labs/solang/blob/master/examples/flipper.sol" caption="" %}
 
 Let's compile it using `substrate` target to make it compatible with Plasm Network.
 
@@ -58,10 +58,10 @@ After making the instance, we can interact with the smart contract using the UI 
 
 More examples are available in the Solang repository:
 
-{% embed url="https://github.com/hyperledger-labs/solang/tree/master/examples" %}
+{% embed url="https://github.com/hyperledger-labs/solang/tree/master/examples" caption="" %}
 
 Have fun and good luck!
 
-Any questions? Feel free to ask us on our [Discord tech channel](https://discord.com/invite/kH3Njpr).[  
+Any questions? Feel free to ask us on our [Discord tech channel](https://discord.com/invite/kH3Njpr).[    
 ](https://docs.plasmnet.io/workshop-and-tutorial/smart-contract/deploy-your-smart-contract-on-plasm)
 

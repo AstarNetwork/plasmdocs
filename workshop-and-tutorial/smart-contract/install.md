@@ -10,7 +10,7 @@ To write smart contracts on Plasm Network, you need to set up the following thin
 
 ## Plasm Node
 
-Currently, we have 2 ways to install _\*\*_the Plasm Node as follows.
+Currently, we have 2 ways to install \_\*\*\_the Plasm Node as follows.
 
 **①Install from the latest release**
 

@@ -13,7 +13,5 @@ Substrate features include:
 Learn more: 👇  
 Substrate : [https://www.substrate.io/](https://www.substrate.io/)
 
-
-
 ![](../.gitbook/assets/undraw_developer_activity_bv83-1-.png)
 

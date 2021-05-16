@@ -2,11 +2,11 @@
 
 Before deploying your smart contract on the Plasm Mainnet, you are recommended deploying the contract on your local development chain, and after that on the [Dusty Network](https://medium.com/stake-technologies/the-dusty-plasm-93df289b3a5).
 
-### Development Network
+## Development Network
 
 Try out your smart contract on the local chain looks like a good idea. Let's open Plasm Network Portal UI.
 
-{% embed url="https://apps.plasmnet.io" %}
+{% embed url="https://apps.plasmnet.io" caption="" %}
 
 First, select **Local Node** on the top left of the chain selection menu.
 

@@ -61,7 +61,7 @@ In case of Dusty
 * Era = 1 day
 * Session = 10 minutes
 
-Actually, we need to wait until the era \(E + 2\), but we can fast-forward the era by using ForceNewEra on your local node. 
+Actually, we need to wait until the era \(E + 2\), but we can fast-forward the era by using ForceNewEra on your local node.
 
 First, go to the sidebar and choose Extrinsics. Then with your root user \(Alice in this case\) to issue the following transaction two times. Sudo\(forceNewEra\(\)\).
 
@@ -73,7 +73,7 @@ Now, you can claim rewards with "Claim for Nominator" tab and "Claim for Operato
 
 To claim rewards for nominators, select nominator address and latest era, and push "Claim" button. You can use "Claim for Operator" tab for the same way.
 
-![](../.gitbook/assets/screen-shot-2020-06-11-at-22.58.13.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-22.58.13%20%281%29%20%281%29.png)
 
 ### Summary <a id="summary"></a>
 

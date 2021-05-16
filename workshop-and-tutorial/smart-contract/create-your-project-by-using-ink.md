@@ -6,7 +6,7 @@ Let's make a folder we need for your project. We are going to use the ink! CLI.
 cargo contract new myproj
 ```
 
- This command creates a new folder named `myproj` 
+This command creates a new folder named `myproj`
 
 ```text
 cd myproj
@@ -14,7 +14,7 @@ cd myproj
 
 Now you could install the simplest ink! smart contract! When you are making your own smart contract, feel free to edit files, and make your own smart contract.
 
-### Test
+## Test
 
 Off-chain test environment is provided by ink!. We can quickly test your codes.
 

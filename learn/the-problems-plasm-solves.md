@@ -4,7 +4,7 @@
 
 ![](../.gitbook/assets/undraw_solution_mindset_34bi-1-.png)
 
-### Scalability
+## Scalability
 
 Blockchains do not scale by design because of the decentralized consensus mechanism. TPS \(Transaction Per Second\) is much smaller than a centralized database and there is an upper limitation of data that can be stored in every block. Therefore, users across the network may notice their transactions sit unconfirmed or pending for long periods of time, creating a poor user experience.
 
@@ -14,7 +14,7 @@ Scalability on the [Plasm Network](https://www.plasmnet.io/) is addressing the f
 * Cheaper transaction cost
 * Faster finality
 
-### Interoperability
+## Interoperability
 
 Many different blockchains exist but few have interoperability as a feature. To move "value" from Bitcoin to Ethereum, we need a centralized exchange. Polkadot is a sharded protocol that enables blockchain networks to operate together seamlessly.
 

@@ -8,7 +8,7 @@ The first step is to extract the correct Plasm address of a deployed contract. T
 
 ![Contract address deployed on Dusty network.](../.gitbook/assets/hackathon01.png)
 
-The address should be alphabetical and correctly imported into [Address Book](https://apps.plasmnet.io/#/addresses). 
+The address should be alphabetical and correctly imported into [Address Book](https://apps.plasmnet.io/#/addresses).
 
 {% hint style="info" %}
 Please connect to Dusty or Plasm's portal
@@ -18,7 +18,7 @@ Please connect to Dusty or Plasm's portal
 
 ![The contract address has positive balance.](../.gitbook/assets/hackathon03.png)
 
-If you can see a positive balance, this means that your contract was successfully deployed. 
+If you can see a positive balance, this means that your contract was successfully deployed.
 
 The second step is to check whether the deployed contract is really a smart contract or not.
 

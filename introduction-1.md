@@ -24,5 +24,3 @@ To solve this issue, some features are implemented on Plasm Network that are acc
 | v1.0.2 | Added FAQ |
 | v1.0.3 | Added Graphics |
 
-
-

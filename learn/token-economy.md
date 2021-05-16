@@ -69,7 +69,7 @@ PLM tokens use the same NPoS as Polkadot. This nominator and validator can opera
 * $$i_{staking}$$ is the average annual interest earned by the nominator through Staking. This can be determined by dividing inflation by the Staking ratio. In other words, $$i_{staking} = \frac{I_{Staking}}{x}$$.
 * $$I_{operators}$$ is the inflation rate due to the rewards that the Operator can get. This is t times the ratio \(1-q\) of Staking to Operator in I_{Staking}._ 
 
-$$Staking_{validators}:Staking_{contracts} = Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}$$ 
+$$Staking_{validators}:Staking_{contracts} = Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}$$
 
 $$Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}:Rewards_{operators} = y:1:t$$
 

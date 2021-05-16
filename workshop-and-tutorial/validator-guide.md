@@ -1,7 +1,7 @@
 # Validator Guide
 
 {% hint style="info" %}
-If you are using Microsoft Azure, please follow the video  👇
+If you are using Microsoft Azure, please follow the video 👇
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=wZgIqAufyCE&ab\_channel=KenzoKobayashi" caption="Kenzo Kobayashi, Plasm Network Ambassador" %}
@@ -22,7 +22,7 @@ This short guide explains how to become a Dusty Network validator step by step.
 
 * Open "[Accounts](https://apps.plasmnet.io/#/accounts)" and create a new account.
 
-![](../.gitbook/assets/testnet_accounts.png)
+![](../.gitbook/assets/testnet_accounts%20%281%29.png)
 
 * Share your validator account address with **Stake Technologies** team via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSday0ckkK43TzJgKtQmJdzkudQNFDXspZAuUGi5Y5vfjkis3Q/viewform).
 * [Claim tokens](https://medium.com/stake-technologies/dusty-lockdrop-how-to-claim-def048fa353) for transactions or request them on [the Discord](https://discord.gg/Z3nC9U4) **\#faucet** channel.

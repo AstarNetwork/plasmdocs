@@ -4,7 +4,7 @@ description: "Hi everyone! Thank you for checking the Plasm Network documentatio
 
 # Welcome
 
-![](.gitbook/assets/sukurnshotto-2020-05-27-200702png.png)
+![](.gitbook/assets/sukurnshotto-2020-05-27-200702-1png.png)
 
 ## Welcome to the Plasm Network documentation!
 
@@ -13,7 +13,7 @@ Plasm Network is a **scalable and interoperable infrastructure for Web3.0**. Sin
 The work of the community is maintained under a public domain license at  
 [https://github.com/stakedtechnologies/Plasm](https://github.com/stakedtechnologies/Plasm)
 
-Plasm Network is an open-source project. There are a lot of opportunities to get involved. 
+Plasm Network is an open-source project. There are a lot of opportunities to get involved.
 
 ![](.gitbook/assets/undraw_ideas_s70l-1-.png)
 
@@ -31,9 +31,9 @@ Plasm Network is an open-source project. There are a lot of opportunities to get
 
 ## Contributions Area
 
-[Plasm Network](https://www.plasmnet.io/) is an open-source project anyone can join, develop, and modify.  Here are the Plasm  Network's status and contribution areas.
+[Plasm Network](https://www.plasmnet.io/) is an open-source project anyone can join, develop, and modify. Here are the Plasm Network's status and contribution areas.
 
- **Current Focus  \(June\)**
+**Current Focus \(June\)**
 
 * [ ] Smart Contract module 
 * [ ] DApps Reward
@@ -44,6 +44,4 @@ Plasm Network is an open-source project. There are a lot of opportunities to get
 * [ ] SUpport Layer2 Plasma  
 * [ ] Plasm Network graphical design and marketing
 * [ ] Document translation 
-
-
 

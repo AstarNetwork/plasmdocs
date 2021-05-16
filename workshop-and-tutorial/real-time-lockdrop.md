@@ -80,11 +80,11 @@ Plasm Network team has deployed the Lockdrop smart contract on Ethereum Ropsten 
 
 Let's send a transaction to the lockdrop smart contract using Etherscan and Metamask!
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174357png.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174357png%20%282%29%20%281%29.png)
 
 After locking your ETH, you can make a claim on your local chain.
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174402png%20%281%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174402png%20%282%29%20%281%29.png)
 
 You can use a test data below:
 
@@ -99,7 +99,7 @@ You can use a test data below:
 
 And here is the results available on chain:
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174413png.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174413png%20%282%29%20%282%29.png)
 
 Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

@@ -7,10 +7,10 @@ description: Ethereum Compatibility Layer.
 ![](../.gitbook/assets/what-is-ethereum-logo-big.o.png)
 
 {% hint style="info" %}
-Here is  a quick demo on how to use  EVM.
+Here is a quick demo on how to use EVM.
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=ZNe0fgTEDtU&ab\_channel=StakeTechnologies" %}
+{% embed url="https://www.youtube.com/watch?v=ZNe0fgTEDtU&ab\_channel=StakeTechnologies" caption="" %}
 
 EVM \(Ethereum Virtual Machine\) is the most popular VM for smart contracts. EVM has a rich ecosystem for developers, testers, and users. **Plasm Network fully supports EVM-based smart contracts as L1 contracts.**
 
@@ -20,7 +20,7 @@ In this article, you will deploy a smart contract on the Plasm local development
 
 ### Install a Plasm Node
 
-To use a  local development environment, a Plasm node is necessary. Please install the latest Plasm node from here: [https://github.com/staketechnologies/Plasm/tree/dusty](https://github.com/staketechnologies/Plasm/tree/dusty) \([build instruction](https://github.com/staketechnologies/Plasm/tree/dusty#building-from-source)\).
+To use a local development environment, a Plasm node is necessary. Please install the latest Plasm node from here: [https://github.com/staketechnologies/Plasm/tree/dusty](https://github.com/staketechnologies/Plasm/tree/dusty) \([build instruction](https://github.com/staketechnologies/Plasm/tree/dusty#building-from-source)\).
 
 The next step is to launch a node in the development environment.
 
@@ -47,7 +47,7 @@ The next step is to import the developer account seed:
 
 ![Imported account balance.](../.gitbook/assets/account_imported.png)
 
-Keep in mind that PLM is not ERC20! 
+Keep in mind that PLM is not ERC20!
 
 ### Deploy contracts by using Remix
 
@@ -74,7 +74,7 @@ Oct 15 13:09:30.009 DEBUG apply_extrinsic: Updating storage for 0x66bb595bc60c8a
 01]    {ext}
 ```
 
- `0x66bb595bc60c8af0a306aa86edf96a88d3a59e9a` is the contract instance address!
+`0x66bb595bc60c8af0a306aa86edf96a88d3a59e9a` is the contract instance address!
 
 We will make a demo and make this much more user-friendly!
 

@@ -93,7 +93,7 @@ First, click the Operator tab on the left side.
 
 Doing that will display the following modal. Choosing an Operator from here will display a list of all the contracts that the account owns, you’ll have to choose which contract you wish to change ownership of. After that, we choose the new Operator who will have ownership of the selected Contract. For this example, ALICE will transfer BOB the ownership for SAMPLE.WASM contract.
 
-![ALICE&apos;s contract list](../.gitbook/assets/screen-shot-2020-06-11-at-16.19.46%20%281%29.png)
+![ALICE&apos;s contract list](../.gitbook/assets/screen-shot-2020-06-11-at-16.19.46%20%282%29.png)
 
 Press Change Operator -&gt; Sign and Submit, after a few moments you can see from the following image that the Operator of the Contract has changed from ALICE to BOB.
 
