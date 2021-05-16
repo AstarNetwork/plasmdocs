@@ -19,7 +19,7 @@ dApps Rewards の大まかな流れはざっくりと以下のようになって
 1. スマートコントラクトを選んで Staking する。\(これを Nominate といいます。\)
 2. Staking 量に応じて Nominate した人\(以下、ノミネータ\)と Nominate されたスマートコントラクトのオペレータは報酬が与えられます。
 
-![](../.gitbook/assets/sukurnshotto-2020-05-30-160230png.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-30-160230png%20%281%29%20%281%29.png)
 
 では、実際にやってみてましょう。
 
@@ -81,7 +81,7 @@ Local Node を使った場合、この Era を強制的に動かすことで待�
 
 すると、以下のモーダルが表示されます。Nominatorのアドレスと最新のEraを選択して**Claim**ボタンを押すことで報酬を受け取ることができます。
 
-![](../.gitbook/assets/screen-shot-2020-06-11-at-22.58.13.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-22.58.13%20%281%29.png)
 
 また、Operatorの場合も同様の操作で報酬を受け取ることができます。
 
