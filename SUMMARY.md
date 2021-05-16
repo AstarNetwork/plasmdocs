@@ -11,6 +11,7 @@
 
 ## Learn
 
+* [Shiden Network 平行链竞拍策略](learn/shiden-network-ping-hang-lian-jing-pai-ce-lve.md)
 * [The Problems Plasm Solves 🌾](learn/the-problems-plasm-solves.md)
 * [Layer2 and Plasma ⚡](learn/layer2-and-plasma.md)
 * [Overview Plasma机制简述 🔮](learn/plasm-overview.md)
