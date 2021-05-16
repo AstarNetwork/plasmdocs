@@ -36,7 +36,7 @@ This time, let’s try locking a token with an introducer’s address. The addre
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-191025png.png)
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-191057png%20%281%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-191057png%20%282%29.png)
 
 Furthermore, if you try to input an address that is not affiliated with the program or your own public address, the client will not accept the input.
 
