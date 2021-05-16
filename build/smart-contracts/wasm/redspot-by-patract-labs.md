@@ -15,7 +15,7 @@ description: >-
 Please learn more from [here](https://docs.patract.io/en/redspot/introduction.html).
 {% endhint %}
 
-## Set Up
+## Installation
 
 First of all, let's install [Node.js](https://nodejs.org/). The version has to be version &gt;= 12.0. You can check your version by using the following command. `$ node --version`
 

@@ -64,6 +64,7 @@
   * [Examples](build/smart-contracts/examples/README.md)
     * [Remix - Create an Asset](build/smart-contracts/examples/remix-create-an-asset.md)
     * [WASM - Create an Asset](build/smart-contracts/examples/wasm-create-an-asset.md)
+    * [WASM - Create an NFT](build/smart-contracts/examples/wasm-create-an-nft.md)
 * [Validator Guide](build/validator-guide/README.md)
   * [Setup Server](build/validator-guide/setup-server.md)
   * [Install Node](build/validator-guide/install-node.md)
