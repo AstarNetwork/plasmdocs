@@ -32,7 +32,7 @@ Shiden Network 是 Kusama 平行链候选者之一。平行链通过拍卖来租
 
 ### 深度信息 <a id="advanced-information"></a>
 
-‌Shiden Network 是 Plasm Network 的克隆。我们对[前 3,000,000 个区块 \(2021-05-05 04:43:30 +UTC\)](https://plasm.subscan.io/block/3000000)进行快照（部分参数有进行调整）。
+‌Shiden Network 是 Plasm Network 的 fork。我们对[前 3,000,000 个区块 \(2021-05-05 04:43:30 +UTC\)](https://plasm.subscan.io/block/3000000)进行快照（部分参数有进行调整）。
 
 在 Kusama PLO 中，用户获得的 SDN 代币将使用如下公式计算。
 
