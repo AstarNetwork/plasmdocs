@@ -100,7 +100,7 @@ Currency Symbol: PLD
   
 **Developer account \(private key\):** 0x60ed0dd24087f00faea4e2b556c74ebfa2f0e705f8169733b01530ce4c619883
 
-![](../../../.gitbook/assets/screen-shot-2021-04-26-at-15.54.50.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-26-at-15.54.50%20%281%29.png)
 
 Next, let's create a `private.json`, where we store the private key. Never reveal your private key. The private.json looks like this:
 

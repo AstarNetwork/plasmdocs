@@ -30,7 +30,7 @@ Tokens will be locked for **one** month and have **nine** months of vesting. Dur
 
 In addition to  that, we introduce a new incentive scheme and recommend joining our crowdloan as early as we start the campaign in stead of joining the later auctions. The earlier you participate, the higher the bonus rate you can get.
 
-![](../../.gitbook/assets/screen-shot-2021-05-15-at-19.51.55.png)
+![](../../.gitbook/assets/screen-shot-2021-05-18-at-16.31.53.png)
 
 {% hint style="success" %}
 **💡Important  Insight💡：Only crowdloan has an additional bonus. If you join our auction directly, you won't be able to receive the bonus.** 

@@ -73,7 +73,7 @@ main().catch(console.error);
 
 When you run this script you will see the following:
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 ## Support
 
