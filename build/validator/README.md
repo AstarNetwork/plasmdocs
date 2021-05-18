@@ -36,7 +36,7 @@ Plasm Testnetのバリデータになるためのチュートリアルをいく�
 
 *  "[Accounts](https://apps.plasmnet.io/#/accounts)" を開き、新しいアカウントをつくる
 
-![](../../.gitbook/assets/testnet_accounts.png)
+![](../../.gitbook/assets/testnet_accounts%20%281%29.png)
 
 *  [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSday0ckkK43TzJgKtQmJdzkudQNFDXspZAuUGi5Y5vfjkis3Q/viewform).からあなたのバリデータアカウントアドレスを**Stake Technologies** チームに共有する
 * [Discord](https://discord.gg/Z3nC9U4) の**\#faucet** チャンネルで、トークン受け取りを申請する
