@@ -38,6 +38,10 @@ In addition to  that, we introduce a new incentive scheme and recommend joining 
 
 Though the graphic above includes several auctions, we don't join the N th auction if Shiden Networks wins the N-1 th auction.  
 
+{% hint style="danger" %}
+**We will officially start the crowdloan campaign once Web3 Foundation announces the date of the auction.**
+{% endhint %}
+
 ### Advanced Information
 
 Shiden Network is a fork of Plasm Network. [We use \#3,000,000 block \(2021-05-05 04:43:30 +UTC\) ](https://plasm.subscan.io/block/3000000) for the snapshot. \(Some parameters are adjusted.\)   
