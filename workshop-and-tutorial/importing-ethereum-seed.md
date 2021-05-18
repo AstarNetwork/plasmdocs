@@ -31,7 +31,7 @@ When you have finished exporting the keys from your Ethereum wallet, you are rea
 
 Please choose **ECDSA** type of keypair and hex-string for seed \(if you export Metamask key by [guide](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)\).
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-173905png%20%281%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-173905png%20%282%29%20%281%29.png)
 
 Fill all of the fields including password. And please don't forget to add 0x in the "seed" section.
 
