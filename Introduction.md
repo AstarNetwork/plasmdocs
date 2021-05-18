@@ -4,7 +4,7 @@ description: "Hi everyone! Thank you for checking Plasm Network documentation \U
 
 # Welcome 欢迎 💁
 
-![](.gitbook/assets/sukurnshotto-2020-05-27-200702-1png%20%282%29.png)
+![](.gitbook/assets/sukurnshotto-2020-05-27-200702-1png%20%282%29%20%282%29.png)
 
 ## Welcome to the Plasm Network documentation!
 
