@@ -18,7 +18,7 @@ Este pequeno guia explica como se tornar um validador Plasm testnet passo a pass
 
 * Abra “[Accounts](https://apps.plasmnet.io/#/accounts)” e crie uma nova conta.
 
-![](../.gitbook/assets/testnet_accounts.png)
+![](../.gitbook/assets/testnet_accounts%20%281%29.png)
 
 * Compartilhe o endereço da sua conta de validador com a equipe da Stake Technologies por meio do [Formulário do Google.](https://docs.google.com/forms/d/e/1FAIpQLSday0ckkK43TzJgKtQmJdzkudQNFDXspZAuUGi5Y5vfjkis3Q/viewform)
 * [Reivindique tokens](https://medium.com/stake-technologies/dusty-lockdrop-how-to-claim-def048fa353) para transações ou solicite-os no canal [Discord](https://discord.gg/Z3nC9U4) \#faucet.

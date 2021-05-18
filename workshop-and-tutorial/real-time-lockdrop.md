@@ -71,7 +71,7 @@ cargo build --release
 
 Após o lançamento, seu nó de autoridade começa a buscar e enviar o preço atual em dólares do BTC e ETH para sua cadeia. Ao abrir o [explorer](https://apps.plasmnet.io/#/explorer), você pode ver os extrínsecos da taxa do dólar em cada módulo importado. Essa taxa em dólar é usada no Pallet de substrato do Lockdrop para verificar o preço durante os períodos do Lockdrop.
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%283%29%20%283%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%283%29%20%283%29%20%283%29.png)
 
 ## **Solicitação de lockdrop**
 
@@ -81,12 +81,12 @@ A equipe da Plasm Network implantou o contrato inteligente da Lockdrop na rede E
 
 Vamos enviar uma transação para o contrato inteligente de bloqueio usando Etherscan e Metamask!
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174357png%20%282%29%20%282%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174357png%20%282%29%20%283%29%20%282%29.png)
 
 Depois de bloquear o seu ETH, você pode fazer uma reclamação na sua rede local.  
 
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174402png%20%282%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174402png%20%282%29%20%283%29.png)
 
 Você pode usar os dados de teste abaixo:
 
@@ -97,11 +97,11 @@ Você pode usar os dados de teste abaixo:
 100000000000000000
 ```
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174408png%20%282%29%20%281%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174408png%20%282%29%20%282%29%20%281%29.png)
 
 E aqui estão os resultados disponíveis na cadeia:
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-174413png%20%282%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-174413png%20%282%29%20%283%29.png)
 
 Alguma pergunta? Não hesite em perguntar-nos no [Discord Tech Channel](https://discord.com/invite/Z3nC9U4).
 

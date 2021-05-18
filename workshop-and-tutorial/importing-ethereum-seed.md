@@ -37,7 +37,7 @@ Quando você terminar de exportar as chaves da sua carteira Ethereum, estará pr
 
 Por favor, escolha o tipo de par de chaves e a sequência hexadecimal ECDSA para a semente \(se você exportar a chave Metamask pelo [guia](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)\).
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-173905png%20%282%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-173905png%20%282%29%20%282%29.png)
 
 Preencha outros campos, incluindo a senha, como salvar conta.
 

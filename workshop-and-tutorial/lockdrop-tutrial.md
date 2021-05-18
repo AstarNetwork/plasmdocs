@@ -41,7 +41,7 @@ Desta vez, vamos tentar bloquear um token com o endereço de um apresentador. O 
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-191025png.png)
 
-![](../.gitbook/assets/sukurnshotto-2020-05-31-191057png%20%282%29.png)
+![](../.gitbook/assets/sukurnshotto-2020-05-31-191057png%20%282%29%20%282%29.png)
 
 Além disso, se você tentar inserir um endereço que não seja afiliado ao programa ou seu próprio endereço público, o cliente não aceitará a entrada.
 
