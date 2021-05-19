@@ -26,7 +26,17 @@ The PLO consists of “Crowdloan” and “Auction”. We are going to conduct o
 
 {% page-ref page="auction.md" %}
 
-\[insert the graph\]
+![](../../.gitbook/assets/screen-shot-2021-05-19-at-13.52.39.png)
+
+We use 22% of the total supply \(9,900,000 SDN\) and bid for 1-8 periods \(7days×6weeks×8periods=336 days\). Shiden is a community-driven project and we are proud of distributing 65% for the community members in total.
+
+{% hint style="info" %}
+20% of the total supply will be distributed under the rule written below. 2% out of 22% is used for bonus \(will be announced\).‌
+{% endhint %}
+
+After locking KSM tokens, slot auction participants will receive SDN tokens **automatically**. The receiving tokens will be calculated by the formula in the advanced information section below. Tokens will be locked for **one** month and have **ten** months of vesting. During the vesting period, token holders can stake SDN tokens to the network so that they can earn staking rewards. \(Keep in mind that the SDN tokens will be delivered 1month after winning the auction under the ten months vesting. Token will be distributed at once.\)  
+‌  
+In addition to that, we introduce a new incentive scheme and recommend joining our crowdloan as early as we start the campaign in stead of joining the later auctions. The earlier you participate, the higher the bonus rate you can get.
 
 ![](../../.gitbook/assets/screen-shot-2021-05-19-at-14.54.28.png)
 
