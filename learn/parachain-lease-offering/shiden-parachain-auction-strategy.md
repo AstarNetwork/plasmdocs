@@ -28,7 +28,7 @@ The PLO consists of “Crowdloan” and “Auction”. We are going to conduct o
 
 \[insert the graph\]
 
-![](../../.gitbook/assets/screen-shot-2021-05-18-at-16.31.53.png)
+![](../../.gitbook/assets/screen-shot-2021-05-19-at-14.54.28.png)
 
 {% hint style="success" %}
 **💡Important  Insight💡：Only crowdloan has an additional bonus. If you join our auction directly, you won't be able to receive the bonus.** 
