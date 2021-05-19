@@ -2,7 +2,7 @@
 description: 'Draft Last Update: 2021/01/21. Final Version: 2021/02/28'
 ---
 
-# Token Allocation
+# PLM Token Allocation
 
 ![](../../.gitbook/assets/screen-shot-2021-03-28-at-1.09.20.png)
 

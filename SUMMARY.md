@@ -31,7 +31,7 @@
 * [Token Economics](learn/token-economics/README.md)
   * [Lockdrop](learn/token-economics/lockdrop.md)
   * [About PLM Tokens](learn/token-economics/usages-of-plm-tokens.md)
-  * [Token Allocation](learn/token-economics/token-allocation.md)
+  * [PLM Token Allocation](learn/token-economics/token-allocation.md)
   * [Staking, Liquidity, and Inflation Model](learn/token-economics/token-economy.md)
 * [Plasm Network](learn/plasm-mainnet/README.md)
   * [Chain Specifications](learn/plasm-mainnet/mainnet.md)
