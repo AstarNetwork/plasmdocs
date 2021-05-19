@@ -38,7 +38,13 @@ After locking KSM tokens, slot auction participants will receive SDN tokens **au
 ‌  
 In addition to that, we introduce a new incentive scheme and recommend joining our crowdloan as early as we start the campaign in stead of joining the later auctions. The earlier you participate, the higher the bonus rate you can get.
 
-![](../../.gitbook/assets/screen-shot-2021-05-19-at-14.54.28.png)
+![](../../.gitbook/assets/screen-shot-2021-05-20-at-1.07.22.png)
+
+**6 \(Highest Bonus Rate\)** **:** The crowdloan participants who join our crowdloan from the beginning of our crowdloan to the auction day2 get this bonus rate.
+
+**5 \(Second Highest Bonus Rate\) :** The crowdloan participants who join our crowdloan from the auction day3 to the beginning of the 2nd auction get this bonus rate.
+
+**4 \(Third Highest Bonus Rate\):** The crowdloan participants who join our crowdloan from the 2nd auction to the beginning of the 3rd auction get this bonus rate.
 
 {% hint style="success" %}
 **💡Important  Insight💡：Only crowdloan has an additional bonus. If you join our auction directly, you won't be able to receive the bonus.** 
