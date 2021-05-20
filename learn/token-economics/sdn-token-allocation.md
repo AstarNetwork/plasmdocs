@@ -2,7 +2,7 @@
 
 Shiden Network is a fork of Plasm Network and  acts as a smart contract Kusama Parachain. The token economics of Shiden Network is slightly different from Plasm Network because Kusama is different from Polkadot.
 
-![](../../.gitbook/assets/screen-shot-2021-05-19-at-14.15.09.png)
+![](../../.gitbook/assets/screen-shot-2021-05-21-at-8.35.34.png)
 
 |  | % | Details |
 | :--- | :--- | :--- |
