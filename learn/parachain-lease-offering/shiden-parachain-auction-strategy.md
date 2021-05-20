@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page is not a final version. The information can be updated before the
-  auction.
+description: 'Last change:  We increased the number of tokens for PLO.'
 ---
 
 # Shiden Parachain Auction Strategy
@@ -26,9 +24,9 @@ The PLO consists of “Crowdloan” and “Auction”. We are going to conduct o
 
 {% page-ref page="auction.md" %}
 
-![](../../.gitbook/assets/screen-shot-2021-05-19-at-13.52.39.png)
+![](../../.gitbook/assets/screen-shot-2021-05-20-at-23.43.54.png)
 
-We use 22% of the total supply \(9,900,000 SDN\) and bid for 0-7 periods \(7days×6weeks×8periods=336 days\). Shiden is a community-driven project and we are proud of distributing 65% for the community members in total. If we lose the first auction, we are going to bid the second slot.
+We use 22% of the total supply \(15,400,000 SDN\) and bid for 0-7 periods \(7days×6weeks×8periods=336 days\). Shiden is a community-driven project and we are proud of distributing 65% for the community members in total. If we lose the first auction, we are going to bid the second slot.
 
 {% hint style="info" %}
 20% of the total supply will be distributed under the rule written below. 2% out of 22% is used for bonus \(will be announced\).‌
@@ -69,7 +67,7 @@ The number of SDN tokens you can get is calculated  by the following formula.
 `m_i`: Number of contributions before the i th auction
 
 $$
-SDN_{a,b} = \frac{KSM_{a,b}C_a}{\sum_{i=0}^{n}{\sum_{j=0}^{m_i}KSM_{i,j}C_i}}\times9,900,000
+SDN_{a,b} = \frac{KSM_{a,b}C_a}{\sum_{i=0}^{n}{\sum_{j=0}^{m_i}KSM_{i,j}C_i}}\times15,400,000
 $$
 
 The number of tokens you are going to receive is slightly different since we have an additional bonus for waitlist registrants.
