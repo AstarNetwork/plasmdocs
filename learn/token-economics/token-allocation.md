@@ -10,7 +10,7 @@ description: 'Draft Last Update: 2021/01/21. Final Version: 2021/02/28'
 
 | Title | % | Detail |
 | :--- | :--- | :--- |
-| Lockdrop \#1 and \#2 | 30 | We have done 2 lockdrops with ETH. More than 150,000 ETH had been locked on our smart contract in 2 months. We issued tokens based on the opportunity cost. **Our lockdrop is NOT an ICO or an investment but a sort of staking.**  |
+| Lockdrop \#1 and \#2 Campaign  Participants | 30 | We have done 2 lockdrops with ETH. More than 150,000 ETH had been locked on our smart contract in 2 months. We issued tokens based on the opportunity cost and operation costs. **Our lockdrop is NOT an ICO or an investment but a sort of staking.**  |
 | Parachain Auctions | 30 | To become a Polkadot Parachain, we collect DOTs from the community and issue PLMs as a reward . 30% is prepared for the crowdloans for Parachain Lease Offering.  |
 | Parachain Auction Reserve | 5 | Funds to be used for future parachain Lease Offerings. \(Additional funds\) |
 | Protocol Development | 10 | Funds to be used for protocol developments and a grant program \(TBA\) |
