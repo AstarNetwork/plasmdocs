@@ -1,6 +1,6 @@
 # Deploy Your Smart Contract on Plasm
 
-Before deploying your smart contract on the Plasm Mainnet, you are recommended deploying the contract on your local development chain, and after that on the [Dusty Network](https://medium.com/stake-technologies/the-dusty-plasm-93df289b3a5).
+Before deploying your smart contract on the Plasm Mainnet, you are recommended to deploy the contract on your local development chain, and after that on the [Dusty Network](https://medium.com/stake-technologies/the-dusty-plasm-93df289b3a5).
 
 ### Development Network
 

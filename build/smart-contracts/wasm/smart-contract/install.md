@@ -10,13 +10,24 @@ To write smart contracts on Plasm Network, you need to set up the following thin
 
 ## Plasm Node
 
-Currently, we have 2 ways to install _\*\*_the Plasm Node as follows.
+### Install a Plasm Node
 
-**①Install from the latest release**
+To use a  local development environment, a Plasm node is necessary. Please install the latest Plasm node from here: [https://github.com/staketechnologies/Plasm/tree/dusty](https://github.com/staketechnologies/Plasm/tree/dusty) \([build instruction](https://github.com/staketechnologies/Plasm/tree/dusty#building-from-source)\).
 
-{% embed url="https://github.com/staketechnologies/Plasm/releases/tag/v1.4.0-dusty" caption="" %}
+The next step is to launch a node in the development environment.
 
-**②Build from source**
+```text
+plasm-node --dev -l evm=debug
+Oct 14 15:07:56.998  WARN Running in --dev mode, RPC CORS has been disabled.    
+Oct 14 15:07:56.998  INFO Plasm Node                                                                                           
+Oct 14 15:07:56.998  INFO ✌️  version 1.6.0-1dc78cce-x86_64-linux-gnu    
+Oct 14 15:07:56.998  INFO ❤️  by Stake Technologies <devops@stake.co.jp>, 2019-2020    
+Oct 14 15:07:56.998  INFO 📋 Chain specification: Development     
+Oct 14 15:07:56.998  INFO 🏷  Node name: skillful-war-1171    
+Oct 14 15:07:56.998  INFO 👤 Role: AUTHORITY
+```
+
+### **Build from source**
 
 Make sure you have already installed Rust
 
@@ -35,44 +46,22 @@ You will also need to install the following dependencies:
 * Mac: `brew install cmake git llvm`
 * Windows: Download and install the Pre Build Windows binaries of LLVM from [http://releases.llvm.org/download.html](http://releases.llvm.org/download.html)
 
-Install additional build tools:
-
-```text
-cargo install --git https://github.com/alexcrichton/wasm-gc
-```
-
-Install the Plasm node from git source:
-
-```text
-cargo install --force --locked  --git https://github.com/staketechnologies/Plasm --tag v1.4.0-dusty plasm-cli
-```
-
-> Alternatively, you can use the following commands to compile directly from the repo \(unstable bleeding edge\)
->
-> ```text
-> git clone https://github.com/staketechnologies/Plasm.git
-> cd Plasm
-> rustup override set nightly
-> cargo build --release
-> ./target/release/plasm-node
-> ```
-
 Run node on the Plasm canary network \(Dusty Network\)
 
 ```text
-plasm-node
+plasm
 ```
 
 Or run on your local development network:
 
 ```text
-plasm-node --dev
+plasm --dev
 ```
 
 The final tool we will be installing is ink! utility.
 
 ```text
-cargo install cargo-contract --vers 0.6.1 --force
+cargo install cargo-contract --vers ^0.11 --force --locked
 ```
 
 {% hint style="info" %}
