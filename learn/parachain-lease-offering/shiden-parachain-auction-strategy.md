@@ -8,17 +8,17 @@ description: 'Last change:  We increased the number of tokens for PLO.'
 
 ![https://shiden.plasmnet.io/](../../.gitbook/assets/screen-shot-2021-05-14-at-20.25.32.png)
 
-Shiden Network is a multi-chain decentralized application layer on Kusama Network. Kusama Relaychain does not support smart contract functionality by design - Kusama Network needs a smart contract layer. This is where Shiden Network comes in. Shiden supports Ethereum Virtual Machine, WebAssembly, and Layer2 solutions from day one. The platform supports various applications like DeFi, NFTs, and more.
+Shiden Network is a multi-chain decentralized application layer on Kusama Network. Kusama Relaychain does not support smart contract functionality by design - the protocol needs a smart contract layer. This is where Shiden Network comes in. Shiden supports Ethereum Virtual Machine, WebAssembly, and Layer2 solutions from day one. The platform supports various applications like DeFi, NFTs, and more.
 
 ## Kusama Parachain Lease Offering Strategy
 
-Shiden Network is one of the Kusama Parachain candidates \(2021-05-14\). Parachains connect to the Relaychain by leasing a slot via permissionless auction. In other words, we need to win the slot auction to lease a Parachain slot. After the start of the lease period, we deploy our mainnet on the acquired slot.
+Shiden Network is one of the Kusama Parachain candidates \(2021-05-14\). Parachains connect to the Relaychain by leasing a slot via permissionless auction. In other words, Shiden needs to win a slot auction to lease a Parachain slot. After the start of the lease period, Shiden will deploy its mainnet on the acquired slot.
 
-To collect KSM tokens as fast as possible, **we choose to crowdfund our slot lease using Kusama’s crowdloan mechanism, allowing KSM holders to contribute by locking up their own KSM tokens for 11 months.** We will reward their contributions by providing SDN tokens.
+To collect KSM tokens as fast as possible, **Shiden team has chosen to crowdfund its slot lease using Kusama’s crowdloan mechanism, allowing KSM holders to contribute by locking up their own KSM tokens for 11 months.** The network will reward their contributions by providing SDN tokens.
 
-The PLO consists of “Crowdloan” and “Auction”. We are going to conduct our crowdloan before the auction. We highly encourage KSM holders to join our crowdloan as soon as possible if they participate in the PLO. The collected KSM  will be used for the Parachain auctions. 
+The PLO consists of both a “Crowdloan” and an “Auction”. Shiden Network will conduct its crowdloan before the auction. The team highly encourages KSM holders to join the crowdloan as soon as possible if they would like to participate in the PLO. The collected KSM  will be used for the Parachain auctions. 
 
-**After 11 months, KSM tokens will be returned.** Hence, this is neither an ICO nor a direct investment. This is a “staking”.
+**After 11 months, KSM tokens will be returned. Hence, this is neither an ICO nor a direct investment. This is more similar to “staking” with a lockup.** 
 
 {% page-ref page="crowdloan.md" %}
 
@@ -26,23 +26,23 @@ The PLO consists of “Crowdloan” and “Auction”. We are going to conduct o
 
 ![](../../.gitbook/assets/screen-shot-2021-05-20-at-23.43.54.png)
 
-We use 22% of the total supply \(15,400,000 SDN\) and bid for 0-7 periods \(7days×6weeks×8periods=336 days\). Shiden is a community-driven project and we are proud of distributing 65% for the community members in total. If we lose the first auction, we are going to bid the second slot.
+The network will use 22% of the total supply \(15,400,000 SDN\) and bid for 0-7 periods \(7days×6weeks×8periods=336 days\). Shiden is a community-driven project and the team is proud to distribute 65% for the community members in total. If Shiden loses the first auction, the network will bid for the second slot.
 
 {% hint style="info" %}
 20% of the total supply will be distributed under the rule written below. 2% out of 22% is used for bonus \(will be announced\).‌
 {% endhint %}
 
-After locking KSM tokens, slot auction participants will receive SDN tokens **automatically**. The receiving tokens will be calculated by the formula in the advanced information section below. Tokens will be locked for **one** month and have **ten** months of vesting. During the vesting period, token holders can stake SDN tokens to the network so that they can earn staking rewards. \(Keep in mind that the SDN tokens will be delivered 1month after winning the auction under the ten months vesting. Token will be distributed at once.\)  
-‌  
-In addition to that, we introduce a new incentive scheme and recommend joining our crowdloan as early as we start the campaign in stead of joining the later auctions. The earlier you participate, the higher the bonus rate you can get.
+After locking KSM tokens, slot auction participants will receive SDN tokens automatically. The receiving tokens will be calculated by the formula in the advanced information section below. Tokens will be locked for one month and have ten months of vesting. During the vesting period, token holders can stake SDN tokens to the network, allowing them to earn staking rewards. \(Keep in mind that the SDN tokens will be delivered 1month after winning the auction under the ten months vesting. Token will be distributed at once.\)‌
+
+In addition to that, Shiden has introduced a new incentive scheme rewarding early participation. The earlier participants contribute , the higher the bonus rate they can get.
 
 ![](../../.gitbook/assets/screen-shot-2021-05-20-at-1.07.22.png)
 
-**6 \(Highest Bonus Rate\)** **:** The crowdloan participants who join our crowdloan from the beginning of our crowdloan to the auction day2 get this bonus rate.
+**6 \(Highest Bonus Rate\) :** The crowdloan participants who join the crowdloan from the beginning to the auction day2 get this bonus rate.
 
-**5 \(Second Highest Bonus Rate\) :** The crowdloan participants who join our crowdloan from the auction day3 to the beginning of the 2nd auction get this bonus rate.
+**5 \(Second Highest Bonus Rate\) :** The crowdloan participants who join the crowdloan from the auction day3 to the beginning of the 2nd auction get this bonus rate.
 
-**4 \(Third Highest Bonus Rate\):** The crowdloan participants who join our crowdloan from the 2nd auction to the beginning of the 3rd auction get this bonus rate.
+**4 \(Third Highest Bonus Rate\):** The crowdloan participants who join the crowdloan from the 2nd auction to the beginning of the 3rd auction get this bonus rate.
 
 {% hint style="success" %}
 **💡Important  Insight💡：Only crowdloan has an additional bonus. If you join our auction directly, you won't be able to receive the bonus.** 
@@ -56,9 +56,9 @@ Though the graphic above includes several auctions, we don't join the N th aucti
 
 ### Advanced Information
 
-Shiden Network is a fork of Plasm Network. [We use \#3,000,000 block \(2021-05-05 04:43:30 +UTC\) ](https://plasm.subscan.io/block/3000000) for the snapshot. \(Some parameters are adjusted.\)  Since we chose the block \#3,000,000, [the total supply is finalized](https://forum.plasmnet.io/t/finalizing-shidens-parameters-for-the-launch/1198%20). 
+Shiden Network is a fork of Plasm Network. [We use \#3,000,000 block \(2021-05-05 04:43:30 +UTC\) ](https://plasm.subscan.io/block/3000000) for the snapshot. \(Some parameters are adjusted.\)  Since the team has chose the block \#3,000,000, [the total supply is finalized](https://forum.plasmnet.io/t/finalizing-shidens-parameters-for-the-launch/1198%20). 
 
-The number of SDN tokens you can get is calculated  by the following formula.
+The number of SDN tokens participants can get is calculated  by the following formula.
 
 `C_i` : Bonus obtained by contributing to the Crowdloan before the start of the i th auction.  
 `KSM_i,j` : KSMs in the j th contribution before the start of the i th auction  
