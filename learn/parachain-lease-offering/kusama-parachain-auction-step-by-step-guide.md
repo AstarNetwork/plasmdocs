@@ -2,16 +2,27 @@
 description: For KSM holders who are joining our crowdloan and auction.
 ---
 
-# Kusama Parachain Auction Step by Step Guide
+# Joining from Polkadot.js
 
-In this section, we are going to walk you through how to join our crowdloan and auction. Currently, you have 2  ways to join.
+In this section, we are going to walk you through how to join our crowdloan and auction from Polkadot.js
 
-* Polkadot.js
-* Centralized Exchanges
+{% hint style="info" %}
+Please check out the [complete list of wallets exchanges for plasm ecosystem](https://forum.plasmnet.io/t/complete-list-of-wallets-exchanges-for-plasm-ecosystem/1215)
+{% endhint %}
 
-## Polkadot.js
+## What is Polkadot.js?
 
-## Centralized Exchanges  
+[Polkadot.js ](https://polkadot.js.org/)is a browser wallet for Polkadot ecosystem maintained by Parity Technologies and community developers. Currently, Polkadot.js is one of the main browser wallets in the ecosystem like Metamask. 
 
-At this moment, Houbi, OKEx and Kraken are supporting Kusama Parachain Auction.
+## How to Use Polkadot.js?
+
+First of all, let's install the extension from [here](https://polkadot.js.org/extension/).
+
+![](../../.gitbook/assets/screen-shot-2021-05-28-at-15.53.07.png)
+
+Click "Download" and import the extension. The second step is make a Polkadot/Kusama address.
+
+
+
+##  
 
