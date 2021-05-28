@@ -46,7 +46,7 @@
 
 ## Build
 
-* [Polkadot.js](build/kusama-parachain-auction-step-by-step-guide.md)
+* [Polkadot.js](build/polkdotjs.md)
 * [Smart Contracts](build/smart-contracts/README.md)
   * [Ethereum Virtual Machine](build/smart-contracts/ethereum-virtual-machine/README.md)
     * [Ethereum Contract in Your Local Environment](build/smart-contracts/ethereum-virtual-machine/evm-smart-contracts.md)
