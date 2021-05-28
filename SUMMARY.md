@@ -28,7 +28,6 @@
   * [Auction](learn/parachain-lease-offering/auction.md)
   * [Shiden Parachain Auction Strategy](learn/parachain-lease-offering/shiden-parachain-auction-strategy.md)
   * [Joining  from Exchanges](learn/parachain-lease-offering/joining-from-exchanges.md)
-  * [Joining from Polkadot.js](learn/parachain-lease-offering/kusama-parachain-auction-step-by-step-guide.md)
   * [Joining from Fearless](learn/parachain-lease-offering/joining-from-fearless.md)
 * [Token Economics](learn/token-economics/README.md)
   * [Lockdrop](learn/token-economics/lockdrop.md)
@@ -47,6 +46,7 @@
 
 ## Build
 
+* [Polkadot.js](build/kusama-parachain-auction-step-by-step-guide.md)
 * [Smart Contracts](build/smart-contracts/README.md)
   * [Ethereum Virtual Machine](build/smart-contracts/ethereum-virtual-machine/README.md)
     * [Ethereum Contract in Your Local Environment](build/smart-contracts/ethereum-virtual-machine/evm-smart-contracts.md)

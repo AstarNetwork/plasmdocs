@@ -10,7 +10,7 @@ Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and *
 
 {% page-ref page="shiden-parachain-auction-strategy.md" %}
 
-{% page-ref page="kusama-parachain-auction-step-by-step-guide.md" %}
+{% page-ref page="../../build/kusama-parachain-auction-step-by-step-guide.md" %}
 
 First of all, the following figure shows the timeline.
 
