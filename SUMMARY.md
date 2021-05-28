@@ -27,6 +27,7 @@
   * [Crowdloan](learn/parachain-lease-offering/crowdloan.md)
   * [Auction](learn/parachain-lease-offering/auction.md)
   * [Shiden Parachain Auction Strategy](learn/parachain-lease-offering/shiden-parachain-auction-strategy.md)
+  * [Joining from Polkadot.js](learn/parachain-lease-offering/joining-from-polkadot.js.md)
   * [Joining  from Exchanges](learn/parachain-lease-offering/joining-from-exchanges.md)
   * [Joining from Fearless](learn/parachain-lease-offering/joining-from-fearless.md)
 * [Token Economics](learn/token-economics/README.md)
