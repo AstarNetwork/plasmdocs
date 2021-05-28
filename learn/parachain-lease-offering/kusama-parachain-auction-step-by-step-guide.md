@@ -20,9 +20,9 @@ First of all, let's install the extension from [here](https://polkadot.js.org/ex
 
 ![](../../.gitbook/assets/screen-shot-2021-05-28-at-15.53.07.png)
 
-Click "Download" and import the extension. The second step is make a Polkadot/Kusama address.
+Click "Download" and import the extension. The second step is make a Polkadot/Kusama address. Please visit [https://polkadot.js.org/apps/](https://polkadot.js.org/apps/) to interact with Polkadot, Kusama, and  Plasm.
 
-
+![](../../.gitbook/assets/screen-shot-2021-05-28-at-15.59.17.png)
 
 ##  
 
