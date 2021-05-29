@@ -54,6 +54,12 @@ Though the graphic above includes several auctions, we don't join the N th aucti
 **We will officially start the crowdloan campaign once Web3 Foundation announces the date of the auction.**
 {% endhint %}
 
+### Example
+
+1. If you lock 1KSM for Shiden Network, you are going to receive X SDN after winning the auction. Let's assume **600,000 KSM \(About $300M\)** are locked during the PLO. In this case, **X is 25.6 SDN** \(15,400,000 SDN / 600,000 KSM\).  
+2. However, since Shiden's crowdeloan has a bonus rate, you can get around  **30.8 SDN** \(6/5 × 25.6 SDN\)  if you join the crowdloan before the day3 of the auction. On the other hand, if you join our crowdloan later, your SDN will be less than **25.6 SDN**.
+3. The insight we can get here is that the earlier you join the crowdloan, you can receive more SDN. 
+
 ### Advanced Information
 
 Shiden Network is a fork of Plasm Network. [We use \#3,000,000 block \(2021-05-05 04:43:30 +UTC\) ](https://plasm.subscan.io/block/3000000) for the snapshot. \(Some parameters are adjusted.\)  Since the team has chose the block \#3,000,000, [the total supply is finalized](https://forum.plasmnet.io/t/finalizing-shidens-parameters-for-the-launch/1198%20). 
