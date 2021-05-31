@@ -27,11 +27,3 @@ Review information such as potential reward in SDN tokens, fees for the operatio
 
 Press continue and review once again the details on the confirmation screen. Once that is done, tap: **Confirm** and that’s it!
 
-  
-  
-
-
-
-
-
-
