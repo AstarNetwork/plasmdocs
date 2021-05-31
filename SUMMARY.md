@@ -30,6 +30,7 @@
   * [Joining from Polkadot.js](learn/parachain-lease-offering/joining-from-polkadot.js.md)
   * [Joining  from Exchanges](learn/parachain-lease-offering/joining-from-exchanges.md)
   * [Joining from Fearless Wallet](learn/parachain-lease-offering/joining-from-fearless.md)
+  * [Joining from MathWallet](learn/parachain-lease-offering/joining-from-mathwallet.md)
 * [Token Economics](learn/token-economics/README.md)
   * [Lockdrop](learn/token-economics/lockdrop.md)
   * [About PLM Tokens](learn/token-economics/usages-of-plm-tokens.md)
