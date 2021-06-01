@@ -19,11 +19,29 @@ sudo apt install llvm openssl libxml2-dev
 cargo install --git https://github.com/hyperledger-labs/solang --tag m8
 ```
 
-The `solang` binary should be available in your environment.
+{% hint style="warning" %}
+M1 chip macs may need to do build llvm from source:
 
-{% hint style="info" %}
-Make sure you installed all dependencies you need. You can check them from [here](https://solang.readthedocs.io/en/latest/installing.html#installing-llvm-on-ubuntu).
+read more on the issue [here](https://github.com/hyperledger-labs/solang/issues/421)
+
+```
+git clone git://github.com/solana-labs/llvm-project
+cd llvm-project
+
+// install cmake, ninja, and any other dependencies //
+
+cmake -G Ninja -DLLVM_ENABLE_ASSERTIONS=On '-DLLVM_ENABLE_PROJECTS=clang;lld'  \
+        -DLLVM_ENABLE_TERMINFO=Off -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=installdir -B build llvm
+        
+cmake --build build --target install
+
+//mac users do:
+export PATH=installdir/bin:$PATH
+```
 {% endhint %}
+
+The `solang` binary should be available in your environment.
 
 ## Compile
 

@@ -6,7 +6,9 @@ Before deploying your smart contract on the Plasm Mainnet, you are recommended t
 
 Try out your smart contract on the local chain looks like a good idea. Let's open Plasm Network Portal UI.
 
-{% embed url="https://apps.plasmnet.io" %}
+{% embed url="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.dusty.plasmnet.io%2F\#/explorer" %}
+
+
 
 First, select **Local Node** on the top left of the chain selection menu.
 
