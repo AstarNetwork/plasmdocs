@@ -31,6 +31,7 @@
   * [Joining  from Exchanges](learn/parachain-lease-offering/joining-from-exchanges.md)
   * [Joining from Fearless Wallet](learn/parachain-lease-offering/joining-from-fearless.md)
   * [Joining from Math Wallet](learn/parachain-lease-offering/joining-from-mathwallet.md)
+  * [Joining from AToken Wallet](learn/parachain-lease-offering/joining-from-atoken-wallet.md)
 * [Token Economics](learn/token-economics/README.md)
   * [Lockdrop](learn/token-economics/lockdrop.md)
   * [About PLM Tokens](learn/token-economics/usages-of-plm-tokens.md)
