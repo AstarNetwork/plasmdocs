@@ -22,7 +22,7 @@
   * [Plasma Overview](learn/layer2/plasm-overview.md)
   * [Optimistic Virtual Machine](learn/layer2/optimistic-virtual-machine.md)
   * [ZKRollups](learn/layer2/zkrollups.md)
-* [Parachain Lease Offering](learn/parachain-lease-offering/README.md)
+* [Kusama Parachain Lease Offering](learn/parachain-lease-offering/README.md)
   * [How to Create a Kusama/Polkadot Address](learn/parachain-lease-offering/how-to-make-a-kusama-polkadot-address.md)
   * [Crowdloan](learn/parachain-lease-offering/crowdloan.md)
   * [Auction](learn/parachain-lease-offering/auction.md)

@@ -1,4 +1,4 @@
-# Parachain Lease Offering
+# Kusama Parachain Lease Offering
 
 Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and **Parachain Crowdloans**. In this section, we are going to explain how to make a Kusama/Polkadot address, crowdloan, and auction.
 
@@ -10,7 +10,13 @@ Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and *
 
 {% page-ref page="shiden-parachain-auction-strategy.md" %}
 
-{% page-ref page="../../build/polkdotjs.md" %}
+{% page-ref page="joining-from-polkadot.js.md" %}
+
+{% page-ref page="joining-from-exchanges.md" %}
+
+{% page-ref page="joining-from-fearless.md" %}
+
+{% page-ref page="joining-from-mathwallet.md" %}
 
 First of all, the following figure shows the timeline.
 
