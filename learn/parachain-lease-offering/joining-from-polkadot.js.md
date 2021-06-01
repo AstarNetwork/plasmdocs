@@ -30,5 +30,15 @@ Once you open the above page, you can see "Parathread",  "Auction", and  "Crowdl
 **As we have described in the Shiden Parachain Auction Strategy section, only crowdloan participants can get the bonus rate. And, the earlier you join our crowdloan, the more SDN tokens you can get.**
 {% endhint %}
 
-To Do: Add crowdloan and auction page
+## Step2 Join Our Crowdloan
+
+![](../../.gitbook/assets/screen-shot-2021-06-01-at-11.18.59.png)
+
+Shiden's ParaID  \(Parachain ID\) is 2,007. Once the auction is started, you can see Shiden on this page. To join our crowdloan or auction,  click "Auction" or "Crowdloan" emphasized below.
+
+![](../../.gitbook/assets/screen-shot-2021-06-01-at-11.26.35.png)
+
+{% hint style="danger" %}
+**"Crowdloan" and "Auction" are two different things. Shiden starts its crowdloan 7 days before the auction. From the user's point of view, there are two options: join the auction or join the crowdloan.  In the case of Shiden, only crowdloan participants can receive additional bonus.**
+{% endhint %}
 
