@@ -22,7 +22,7 @@ cargo install --git https://github.com/hyperledger-labs/solang --tag m8
 {% hint style="warning" %}
 M1 chip macs may need to do build llvm from source:
 
-read more on the issue [here](https://github.com/hyperledger-labs/solang/issues/421)
+See an example `installdir` or read more on the issue [here](https://github.com/hyperledger-labs/solang/issues/421)
 
 ```
 git clone git://github.com/solana-labs/llvm-project
