@@ -60,7 +60,11 @@ As a result, two files should be available in your current directory : `flipper.
 
 ## Deploy
 
-Let's deploy the compiled `flipper.wasm` and `flipper.json` using our standard [Plasm Portal UI](https://apps.plasmnet.io).
+Let's deploy the compiled `flipper.wasm` and `flipper.json` using our standard [Plasm Portal UI](https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer).
+
+{% hint style="info" %}
+Choose between ipfs or hosted apps wallet [here](https://polkadot.js.org/).
+{% endhint %}
 
 ![Deploy your smart contract WASM code on Dusty Network.](../../../.gitbook/assets/flipper.png)
 
