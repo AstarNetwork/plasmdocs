@@ -12,7 +12,7 @@ description: >-
 [Redspot ](https://docs.patract.io/en/redspot/introduction.html)is a contract integration builder that allows developers to simplify the process of testing and interacting with contracts by projecting the development of contracts such as ink! This tool is developed by [Patract Labs](https://patract.io/products). Kudos!
 
 {% hint style="info" %}
-Please learn more from [here](https://docs.patract.io/en/redspot/introduction.html).
+Checkout their tutorial [here.](https://docs.patract.io/en/redspot/tutorial.html#prepare-a-blockchain-node-that-can-run-contracts)
 {% endhint %}
 
 ## Installation
@@ -51,11 +51,23 @@ npx redspot-new erc20
 
 ## Compile the Contract
 
-Before compiling, install `npm` dependencies first.
+Before compiling, install `yarn` dependencies first \(you can do `npm install` instead but yarn is recommended\).
 
 ```text
-npm install
+yarn
 ```
+
+Then running the command `npx redspot compile .` in the erc20 root directory will compile the contract.
+
+After the compilation is complete, you can find the compiled product in the artifacts directory.
+
+##  Run the plasm node
+
+To use a  local development environment, a Plasm node is necessary. Please install the latest Plasm node from [here](https://github.com/PlasmNetwork/Plasm/tree/dusty#building-from-source).
+
+Then, run the local node via `plasm` in your terminal of choice
+
+
 
 
 

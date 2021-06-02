@@ -19,6 +19,14 @@ As a next step, write your Solidity or Vyper contract and compile it. To deploy 
 ![Click the tab and select Custom RPC](../../../.gitbook/assets/screen-shot-2021-03-14-at-15.31.14.png)
 
 Click the tab  and select "Custom RPC"
+
+then enter the following values:
+
+**RPC server Dusty:**  
+Network Name: Dusty  
+New RPC URL: https://rpc.dusty.plasmnet.io:8545  
+Chain ID: 80  
+Currency Symbol: PLD
 {% endtab %}
 
 {% tab title="Second Tab" %}

@@ -21,6 +21,10 @@ Hardhat can directly interact with Plasm ecosystem Ethereum API so it can be use
 
 Hardhat and Truffle are both development environments for building on Ethereum and have similar functionality so it's totally up to you to decide which you want to use. Hardhat is the newer kid on the block and tends to be a bit cleaner/easier to use, they also have lots of plugins to make it more customizable. 
 
+## **Follow Along**
+
+**follow along the tutorial by typing everything out or clone our repo** [**here**](https://github.com/PlasmNetwork/Hardhat-tutorial/tree/main)**!**
+
 ## **Installation**
 
 We need to install Node.js and npm package manager. You can download directly from [Node.js](https://nodejs.org/en/download/) or in your terminal. You can verify that everything is installed correctly by querying the version for each package:
