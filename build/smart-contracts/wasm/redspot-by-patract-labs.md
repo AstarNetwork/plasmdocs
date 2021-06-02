@@ -67,7 +67,19 @@ To use a  local development environment, a Plasm node is necessary. Please insta
 
 Then, run the local node via `plasm` in your terminal of choice
 
+## Deploy
 
+Now you can run the deploy.ts file, adding `-no-compile` to prevent duplicate compilation:
+
+```text
+npx redspot run ./scripts/deploy.ts --no-compile
+```
+
+After a successful contract deployment, you will get a message like this.
+
+```text
+Deploy successfully. the contract address: 5CqB5Mh9UdVbTE1Gt5PJfWSiCHydJaJsA31HjKGti1Z2fn78
+```
 
 
 
