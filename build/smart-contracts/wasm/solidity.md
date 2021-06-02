@@ -15,7 +15,11 @@ In this tutorial, we will use the [Solang compiler](https://github.com/hyperledg
 Or using the following cargo command:
 
 ```text
+// linux users
 sudo apt install llvm openssl libxml2-dev
+
+// mac users
+brew install llvm openssl libxml2-dev
 cargo install --git https://github.com/hyperledger-labs/solang --tag m8
 ```
 
