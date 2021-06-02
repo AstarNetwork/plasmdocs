@@ -62,12 +62,24 @@ solang flipper.sol
 
 As a result, two files should be available in your current directory : `flipper.wasm` \(optimized WASM binary\) and `flipper.json` \(smart contract metadata\).
 
+{% hint style="info" %}
+If you are having trouble generating the code download it [here.](https://github.com/PlasmNetwork/tutorials/tree/main/solang-wasm)
+{% endhint %}
+
 ## Deploy
 
-Let's deploy the compiled `flipper.wasm` and `flipper.json` using our standard [Plasm Portal UI](https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer).
+Let's deploy the compiled `flipper.wasm` and `flipper.json` using our standard [Plasm Portal UI](https://cloudflare-ipfs.com/ipns/dotapps.io/?rpc=wss%3A%2F%2Frpc.dusty.plasmnet.io%2F#/accounts).
 
 {% hint style="info" %}
 Choose between ipfs or hosted apps wallet [here](https://polkadot.js.org/).
+
+Additionally you can swap between various polkadot chains including plasm, dusty, and kusama on the application depending on where you want to deploy.
+{% endhint %}
+
+![](../../../.gitbook/assets/screen-shot-2021-06-02-at-4.11.29-pm.png)
+
+{% hint style="info" %}
+select the top left corner of the site to open this tab, select the chain you want to switch to and press switch in the upper right corner.
 {% endhint %}
 
 ![Deploy your smart contract WASM code on Dusty Network.](../../../.gitbook/assets/flipper.png)
