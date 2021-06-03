@@ -3,7 +3,7 @@
 In this section, I am going to walk through how to deploy Ethereum smart contracts on Dusty Network. 
 
 {% hint style="info" %}
-Check out our demo below first
+Check out our demo below
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=5C8l9XWCWoI&t=67s" %}
