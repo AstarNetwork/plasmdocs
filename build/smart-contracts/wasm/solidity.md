@@ -6,9 +6,9 @@ description: Ethereum like smart contracts on Plasm Network.
 
 {% hint style="info" %}
 Here is a quick demo:
-
-[https://youtu.be/VLQt37ob6a8](https://youtu.be/VLQt37ob6a8)
 {% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=VLQt37ob6a8" %}
 
 Plasm Network also supports solidity. Solidity is a smart contract language mainly used on Ethereum. If you have already built applications by using Solidity, you can also deploy the contracts on Plasm Network.
 
@@ -74,7 +74,7 @@ If you are having trouble generating the code download it [here.](https://github
 
 ## Deploy
 
-Let's deploy the compiled `flipper.wasm` and `flipper.json` using our standard [Plasm Portal UI](https://cloudflare-ipfs.com/ipns/dotapps.io/?rpc=wss%3A%2F%2Frpc.dusty.plasmnet.io%2F#/accounts).
+Let's deploy the compiled `flipper.contract` \( this was `flipper.wasm` and `flipper.json` in previous versions\) using our standard [Plasm Portal UI](https://cloudflare-ipfs.com/ipns/dotapps.io/?rpc=wss%3A%2F%2Frpc.dusty.plasmnet.io%2F#/accounts).
 
 {% hint style="info" %}
 Choose between ipfs or hosted apps wallet [here](https://polkadot.js.org/).
