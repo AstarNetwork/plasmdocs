@@ -15,7 +15,7 @@ First of all, let's open [Remix](https://remix.ethereum.org/) and create a new f
 As a next step, write your Solidity or Vyper contract and compile it. To deploy your contract on Dusty Network, you need to set up your Metamask.  
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Select Network" %}
 ![Click the tab and select Custom RPC](../../../.gitbook/assets/screen-shot-2021-03-14-at-15.31.14.png)
 
 Click the tab  and select "Custom RPC"
@@ -29,7 +29,7 @@ Chain ID: 80
 Currency Symbol: PLD
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Configure Dusty Settings" %}
 ![](../../../.gitbook/assets/screen-shot-2021-03-14-at-15.29.59.png)
 
 Fill out the blanks as follows
