@@ -23,7 +23,9 @@ Hardhat and Truffle are both development environments for building on Ethereum a
 
 ## **Follow Along**
 
-**follow along the tutorial by typing everything out or clone our repo** [**here**](https://github.com/PlasmNetwork/Hardhat-tutorial/tree/main)**!**
+**follow along the tutorial by typing everything out or clone our repo** [**here**](https://github.com/PlasmNetwork/Hardhat-tutorial/tree/main) **and view the demo below!**
+
+{% embed url="https://youtu.be/HdV5uNcm-hQ" %}
 
 ## **Installation**
 
