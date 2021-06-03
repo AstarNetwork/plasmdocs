@@ -179,8 +179,12 @@ npx hardhat run --network dusty scripts/deploy.js
 ```
 
 {% hint style="info" %}
-To deploy to a local node, replace dusty with local in the run command and make sure the local network is configured in your `hardhat.config.js` file.
+The RPC connection can be unstable, so if it doesn't connect try deploying to a local node. Replace `dusty` with `local` and  set the `url` field to [http://localhost:9933](http://localhost:9933) in `hardhat.config.js.`
+
+Then [install the plasm node](https://github.com/PlasmNetwork/Plasm#building-from-source) if you haven't already and run with `plasm`
 {% endhint %}
+
+\`\`
 
 After a few seconds, the contract is deployed, and you should see the address in the terminal.
 
