@@ -1,38 +1,30 @@
 # Deploy Your Smart Contract on Plasm
 
-Before deploying your smart contract on the Plasm Mainnet, you are recommended to deploy the contract on your local development chain, and after that on the [Dusty Network](https://medium.com/stake-technologies/the-dusty-plasm-93df289b3a5).
+It is highly recommended to deploy your smart contract on your local development chain, and subsequently on the [Dusty Network](https://medium.com/stake-technologies/the-dusty-plasm-93df289b3a5) for testing purposes prior to deploying it on the Plasm Mainnet.
 
-### Development Network
+### Local Development Network
 
-Try out your smart contract on the local chain looks like a good idea. Let's open Plasm Network Portal UI.
+#### Connecting to the network
+
+First, let's open the Plasm Network Portal UI.
 
 {% embed url="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.dusty.plasmnet.io%2F\#/explorer" %}
 
+Next, click on the dropdown arrow on the top left corner of the page. Scroll all the way to the bottom and select the **DEVELOPMENT** sub category. Choose **Local Node** and click on the **Switch** button to change networks.
 
+![](../../../../.gitbook/assets/0.gif)
 
-First, select **Local Node** on the top left of the chain selection menu.
+#### Deploying the smart contract
 
-![](../../../../.gitbook/assets/select_local.png)
+Under the **Developer** tab, select **Contracts** then click on the **Upload & deploy code** button. Look for your **metadata.json** and **my\_contract.wasm** files. 
 
-Click **Contracts** tab and choose **Code** -&gt; **Upload WASM**.
+![](../../../../.gitbook/assets/1%20%281%29.gif)
 
-![](../../../../.gitbook/assets/upload.png)
+After selecting these files, click on the **Next** button. The pop up will update and prompt you for a value to use for **endowment**. Input **7500** for endowment and click on the **Deploy** button. Finally, click on the **Sign and Submit** button to deploy your contract.
 
-Metadata and WASM code should be filled out in the form.
+![](../../../../.gitbook/assets/2.gif)
 
-![](../../../../.gitbook/assets/filled_form.png)
-
-Uploading the code takes around 220 Units.
-
-![](../../../../.gitbook/assets/uploaded.png)
-
-Congratulations! You uploaded your first L1 Smart contract! Let's create an instance of your code using "**Deploy"** button.
-
-![Don&apos;t foget to set 100 unit endowment.](../../../../.gitbook/assets/deploy.png)
-
-The transaction fee is around 1.6 units. As the result you can see the instance of your smart contract.
-
-![](../../../../.gitbook/assets/instance_000.png)
+Congratulations! You deployed your first L1 Smart Contract!
 
 Contract interaction will be explained in the next chapter.
 
