@@ -12,7 +12,7 @@ Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and *
 
 {% page-ref page="joining-from-polkadot.js.md" %}
 
-{% page-ref page="joining-from-exchanges.md" %}
+{% page-ref page="joining-from-exchanges/" %}
 
 {% page-ref page="joining-from-fearless.md" %}
 
