@@ -8,5 +8,5 @@ First of all, please visit [https://www.okex.com/](https://www.okex.com/) and op
 
 
 
-Then, join Shiden's crowdloan by clicking "Vote".
+Then, join Shiden's crowdloan by clicking "Vote", and enter the amount of KSMs that you want to contribute.
 
