@@ -12,11 +12,13 @@
 
 最后，创建新地址：点击上方“Accounts“ —&gt; 选择“Add account“ —&gt; 谨慎保存助记词 —&gt; 设定账户名称和密码 —&gt; 确认信息并创建账户
 
+![](../../../.gitbook/assets/polkadotjs3%20%281%29.gif)
+
 ## 第二步: 复制 Kusama 地址，并通过中心化交易所提币提取到新地址 <a id="step-1-access-to-polkadot-js-kusama-page"></a>
 
 点击账户标志，自动复制账户地址
 
-
+![](../../../.gitbook/assets/polkadotjs4.gif)
 
 将新地址粘贴到中心化交易所（如币安、火币）的提币地址中，并确认提取。
 
