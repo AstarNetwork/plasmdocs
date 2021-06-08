@@ -1,34 +1,34 @@
 # Create Your Project by Using ink!
 
-Let's make a folder we need for your project. We are going to use the ink! CLI.
+Let's make a folder for your project. We are going to use the ink! CLI to help us with this.
 
 ```text
-cargo contract new myproj
+cargo contract new my_contract
 ```
 
- This command creates a new folder named `myproj` 
+ This command creates a new folder named `my_contract` . 
 
 ```text
-cd myproj
+cd my_contract
 ```
 
-Now you could install the simplest ink! smart contract! When you are making your own smart contract, feel free to edit files, and make your own smart contract.
+This folder contains a `Cargo.toml` file and a `lib.rs` file. The `lib.rs` file is an example of a very simple ink! smart contract. When writing your own smart contracts, feel free to edit the files accordingly.
 
 ### Test
 
-Off-chain test environment is provided by ink!. We can quickly test your codes.
+An off-chain test environment is provided by ink! to quickly test our code. First, let's build the files.
 
 ```text
 cargo +nightly build
 ```
 
-Then,
+Then to run the test,
 
 ```text
 cargo +nightly test
 ```
 
-You could see a successful test completion.
+You should see the output of 2 successful tests in your command line.
 
 Any questions? Feel free to ask [us](https://discord.gg/kH3Njpr).
 

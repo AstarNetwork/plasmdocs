@@ -24,9 +24,7 @@ After selecting these files, click on the **Next** button. The pop up will updat
 
 ![](../../../../.gitbook/assets/2.gif)
 
-Congratulations! You deployed your first L1 Smart Contract!
-
-Contract interaction will be explained in the next chapter.
+Congratulations, you deployed your first L1 Smart Contract! Let's learn how to interact with our newly deployed contract next!
 
 Any questions? Feel free to ask [us](https://discord.gg/kH3Njpr).
 

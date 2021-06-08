@@ -8,7 +8,11 @@ The guides you find here in this section will give you some guidance in creating
 
 {% page-ref page="remix-create-an-asset.md" %}
 
-
-
 ### WASM
+
+{% page-ref page="wasm-create-an-asset.md" %}
+
+{% page-ref page="wasm-create-an-nft.md" %}
+
+
 

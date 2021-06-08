@@ -2,24 +2,22 @@
 
 ## Smart contract messages
 
-To communicate with Smart contracts. We use "messages".
+We use "messages" to communicate with smart contracts. There are 2 types of messages:
 
-![](../../../../.gitbook/assets/messages.png)
+* messages that change a smart contract's state should be sent as transactions
+* messages that don't change a state can be made by using RPC calls
 
-It's possible to pass two kinds of messages:
+![](../../../../.gitbook/assets/image%20%2868%29.png)
 
-* messages that change a smart contract's state should be sent as transactions;
-* messages that don't change a state could be called by using RPC calls.
+The Plasm Network Portal UI helps us to make RPC message calls automatically so you don't have to manually call them. You can see what is stored in the `value`variable in the smart contract is `false`. This is the intended behaviour as defined by our smart contract logic. 
 
-Let's try to read our smart contract value by `get()` message call.
+![](../../../../.gitbook/assets/image%20%2867%29.png)
 
-![This smart contract was deployed with enabled state flag.](../../../../.gitbook/assets/get_interaction.png)
+Next, let's change the smart contract state by sending a transaction that calls the `flip()` function. 
 
-Second, let's change a smart contract state by sending a "message", send `flip()` message that flips smart contract boolean flag.
+![](../../../../.gitbook/assets/0%20%281%29.gif)
 
-![Flip call is a transaction.](../../../../.gitbook/assets/flip.png)
-
-![New contract flag value reached.](../../../../.gitbook/assets/get_new.png)
+As expected, the value that was stored in the smart contract changed from `false`to `true` after the `flip()` transaction is successfully mined.
 
 Using these two kinds of messages, your DApp can easily write and read the smart contract data. Have fun!
 
