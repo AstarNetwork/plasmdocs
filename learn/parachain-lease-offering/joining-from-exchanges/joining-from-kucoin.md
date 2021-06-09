@@ -20,7 +20,7 @@ Here is the Kusama Parachain slots auction Guide on website：
 
  4. Input the stake volume and click “Stake Now”. \(Please make sure deposit/transfer at least **0.1 KSM** to your Pool-X account\)
 
-![](../../../.gitbook/assets/02%20%283%29.png)
+![](../../../.gitbook/assets/02%20%284%29.png)
 
 Then go back to the Bidding page, users can check the **Leased KSM** of each Polkadots project.
 
