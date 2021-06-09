@@ -29,6 +29,7 @@
   * [Shiden Parachain Auction Strategy](learn/parachain-lease-offering/shiden-parachain-auction-strategy.md)
   * [Joining from Polkadot.js](learn/parachain-lease-offering/joining-from-polkadot.js.md)
   * [Joining from Exchanges](learn/parachain-lease-offering/joining-from-exchanges/README.md)
+    * [Joining from KuCoin](learn/parachain-lease-offering/joining-from-exchanges/joining-from-kucoin.md)
     * [Joining from OKEx](learn/parachain-lease-offering/joining-from-exchanges/joining-from-okex.md)
   * [Joining from Fearless Wallet](learn/parachain-lease-offering/joining-from-fearless.md)
   * [Joining from Math Wallet](learn/parachain-lease-offering/joining-from-mathwallet.md)
