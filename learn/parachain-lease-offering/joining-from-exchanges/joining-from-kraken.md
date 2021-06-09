@@ -9,7 +9,7 @@ _Note: parachain auctions on Kraken are not available to residents of the US, Ca
 ## How to Participate in Parachain Auctions
 
 Learn how to participate in parachain auctions on Kraken:  
-First you need to '[Sign up](https://www.kraken.com/en-gb/sign-up)' for a Kraken account
+First you need to '[Sign up](https://www.kraken.com/en-gb/sign-up)' for a Kraken account. KYC is required on Kraken.
 
 ![](../../../.gitbook/assets/image%20%2879%29.png)
 
