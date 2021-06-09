@@ -20,7 +20,11 @@ In this article, you will deploy a smart contract on the Plasm local development
 
 ### Install a Plasm Node
 
-To use a  local development environment, a Plasm node is necessary. Please install the latest Plasm node from here: [https://github.com/staketechnologies/Plasm/tree/dusty](https://github.com/staketechnologies/Plasm/tree/dusty) \([build instruction](https://github.com/staketechnologies/Plasm/tree/dusty#building-from-source)\).
+To use a  local development environment, a Plasm node is necessary. Please install the latest Plasm node from here: [https://github.com/staketechnologies/Plasm/tree/dusty](https://github.com/staketechnologies/Plasm/tree/dusty) \([build instruction](https://github.com/staketechnologies/Plasm/tree/dusty#building-from-source)\). Checkout the repo if this doesn't work:
+
+```text
+cargo +nightly install --locked --force --git https://github.com/staketechnologies/Plasm
+```
 
 The next step is to launch a node in the development environment.
 
