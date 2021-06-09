@@ -8,6 +8,8 @@ description: >-
 
 ![](.gitbook/assets/sukurnshotto-2020-05-27-200702-1png%20%282%29%20%282%29.png)
 
+If you are looking to learn about Shiden Network, please go [here.](https://docs.plasmnet.io/learn/shiden-network)
+
 ### What is Plasm?
 
 Plasm Network is a **scalable and interoperable infrastructure for Web3.0**. Since Plasm Network is built with [Parity’s Substrate framework](https://www.substrate.io/), it can be a future [Polkadot](https://polkadot.network/) **parachain** that also acts as a scalable smart contract platform. The [Polkadot](https://polkadot.network/) Relaychain, by design, does not support smart contracts. This allows Plasm the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands DApp developers have. Ideally, the developers can build whatever applications on Plasm Network without having to consider its scalability.

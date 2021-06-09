@@ -1,6 +1,16 @@
+---
+description: >-
+  Shiden Network is a canary network of Plasm on Kusama instead of Polkadot that
+  acts as an R&D chain of Plasm Network.
+---
+
 # Shiden Network
 
-## **What is Shiden Network?** <a id="fab4"></a>
+**Kusama Parachain Lease offering, which includes Crowdloans and Parachain slot auctions:** [**here**](https://docs.plasmnet.io/learn/parachain-lease-offering)\*\*\*\*
 
-Shiden Network is a canary network that acts as an R&D chain of Plasm Network. 
+**Kusama Parachain Auction Strategy: next page**
+
+**Learn more on the website** [**here**](https://shiden.plasmnet.io/)\*\*\*\*
+
+
 
