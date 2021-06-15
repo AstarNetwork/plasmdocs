@@ -46,5 +46,11 @@ Shiden's ParaID  \(Parachain ID\) is 2,007. Once the auction is started, you can
 
 When you are on the page "Crowdloan", you will find Shiden in the list of ongoing. Just click on "Contribute" and follow the steps on your screen. "Sign & Submit" and you are done.
 
+![](../../.gitbook/assets/1_xq-h-vml0owof4ibcqqsua.png)
 
+![](../../.gitbook/assets/1_alwavfor_ymoguqaeju6qa.png)
+
+Shiden Token will be distributed once we win the auction and KSM token will be returned after expiring the lease period.
+
+We noticed a Ledger’s problem on Chrome. You can solve it by adding Ledger directly to Polkadot.js.
 
