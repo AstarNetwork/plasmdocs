@@ -10,7 +10,9 @@ description: >-
 
 If you are looking to learn about Shiden Network, please go [here.](https://docs.plasmnet.io/learn/shiden-network)
 
-If you have any questions, please [checkout the forum](https://forum.plasmnet.io/), [telegram](https://t.me/PlasmOfficial), or discord!
+If you have any questions, please [checkout the forum](https://forum.plasmnet.io/), [telegram](https://t.me/PlasmOfficial), or [discord](https://discord.com/invite/wUcQt3R)!
+
+If you need PLD \(dusty native tokens\) for development, go to the \#faucet channel on discord or use [this!](https://plasm-faucet-frontend.vercel.app/)
 
 ### What is Plasm?
 
