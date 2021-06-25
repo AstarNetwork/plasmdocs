@@ -4,6 +4,8 @@ description: Functionalities of the Plasm Testnet
 
 # Core Features
 
+Test your understanding of the Core Features and earn an NFT [here!](https://gitcoin.co/quests/560/astarplasm-network-core-features)
+
 The Plasm Network has three additional features in addition to the existing Substrate modules:
 
 ## **Operator Trading**
