@@ -10,7 +10,7 @@ For end-users to fully utilize the blockchain protocol's strengths, there must b
 
 Some features are implemented on Plasm Network that is accessible from the links below to solve this issue.
 
-Test your understanding and earn on NFT here! [https://gitcoin.co/quests/559/astarplasm-network-deeper-dive](https://gitcoin.co/quests/559/astarplasm-network-deeper-dive)
+Test your understanding and earn an NFT here! [https://gitcoin.co/quests/559/astarplasm-network-deeper-dive](https://gitcoin.co/quests/559/astarplasm-network-deeper-dive)
 
 {% page-ref page="learn/layer2/plasm-overview.md" %}
 
