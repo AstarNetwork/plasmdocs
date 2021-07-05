@@ -27,7 +27,7 @@ Astar Network is an open-source project. There are a lot of opportunities to get
 
 ## Want to learn more? Please visit 👇
 
-{% page-ref page="learn/the-problems-plasm-solves.md" %}
+{% page-ref page="learn/the-problems-astar-solves.md" %}
 
 ## Want to build on Astar Network? Please visit 👇
 

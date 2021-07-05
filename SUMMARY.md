@@ -12,10 +12,10 @@
 
 ## Learn
 
-* [The Problems Plasm Solves](learn/the-problems-plasm-solves.md)
-* [Plasm Structure](learn/polkadot-and-plasm/README.md)
-  * [Community Rewards](learn/polkadot-and-plasm/community-rewards.md)
-  * [Consensus](learn/polkadot-and-plasm/consennsus.md)
+* [The Problems Astar Solves](learn/the-problems-astar-solves.md)
+* [Astar Structure](learn/polkadot-and-astar/README.md)
+  * [Community Rewards](learn/polkadot-and-astar/community-rewards.md)
+  * [Consensus](learn/polkadot-and-astar/consennsus.md)
 * [Core Features](learn/core-features/README.md)
   * [dApps Staking](learn/core-features/dapps-reward.md)
   * [Operator Trading](learn/core-features/operator-trading.md)
@@ -42,9 +42,9 @@
   * [PLM Token Allocation](learn/token-economics/token-allocation.md)
   * [SDN Token Allocation](learn/token-economics/sdn-token-allocation.md)
   * [Staking, Liquidity, and Inflation Model](learn/token-economics/token-economy.md)
-* [Plasm Network](learn/plasm-mainnet/README.md)
-  * [Chain Specifications](learn/plasm-mainnet/mainnet.md)
-  * [Polkadot Parachain Auction Strategy](learn/plasm-mainnet/polkadot-parachain-auction-strategy.md)
+* [Astar Network](learn/astar-mainnet/README.md)
+  * [Chain Specifications](learn/astar-mainnet/mainnet.md)
+  * [Polkadot Parachain Auction Strategy](learn/astar-mainnet/polkadot-parachain-auction-strategy.md)
 * [Shiden Network](learn/shiden-network/README.md)
   * [Kusama Parachain Auction Strategy](learn/shiden-network/kusama-parachain-auction-strategy.md)
   * [Shiden FAQ](learn/shiden-network/shiden-faq.md)
@@ -107,7 +107,7 @@
 
 ## External Links
 
-* [Plasm Network White Paper](https://github.com/PlasmNetwork/plasmdocs/blob/master/wp/en.pdf)
+* [Astar \(formerly Plasm\) Network White Paper](https://github.com/PlasmNetwork/plasmdocs/blob/master/wp/en.pdf)
 * [Tech Chat \(Discord\)](https://discord.com/invite/wUcQt3R)
 * [GitHub](https://github.com/PlasmNetwork/Plasm)
 * [Plasm Crate Documentation](https://crates.plasmnet.io)
