@@ -77,7 +77,7 @@ The number of SDN tokens participants can get is calculated  by the following fo
 `m_i`: Number of contributions before the i th auction
 
 $$
-SDN_{a,b} = \frac{KSM_{a,b}C_a}{\sum_{i=0}^{n}{\sum_{j=0}^{m_i}KSM_{i,j}C_i}}\times15,400,000
+SDN_{a,b} = \frac{KSM_{a,b}C_a}{\sum_{i=0}^{n}{\sum_{j=0}^{m_i}KSM_{i,j}C_i}}\times14,000,000
 $$
 
 The number of tokens you are going to receive is slightly different since we have an additional bonus for waitlist registrants.
