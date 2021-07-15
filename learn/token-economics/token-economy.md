@@ -8,16 +8,16 @@ description: 'Last Update: 2021/01/23'
 This includes advanced content.
 {% endhint %}
 
-[Plasm Network](https://www.plasmnet.io/)'s token ecosystem is built into Polkadot. Therefore, this document includes the same formula and values as Polkadot. The token name of Plasm Network is PLM pronounced "PLUM".
+[Astar Network](https://astar.network)'s token ecosystem is built into Polkadot. Therefore, this document includes the same formula and values as Polkadot.
 
-PLM has four main roles:
+Astar tokens has four main roles:
 
 1. Staking for consensus, rewards for validators and nominators
-2. Transaction fee used to prevent harmful behaviors
+2. Transaction fees used to prevent harmful behaviors
 3. Block rewards for dApps operators; sustainable reward designed for applications
-4. Good / bad voting, dApps operators
+4. Good/bad voting, dApps operators
 
-PLM is intended to be used as a liquidity token. Tokens are issued through multiple Lockdrops to prevent zero-value collateral and increase the number of token holders. PLM tokens are expected to be operated at the ratio of $$1:1 = Staking:Liquidity$$.
+Astar tokens are intended to be used as a liquidity token. Tokens are issued through multiple Lockdrops to prevent zero-value collateral and increase the number of token holders. Astar tokens are expected to be operated at the ratio of $$1:1 = Staking:Liquidity$$.
 
 $$
 1:1 = Staking: Liquidity
@@ -25,7 +25,7 @@ $$
 
 ## Inflation Model
 
-In the previous chapter, we defined the algorithm that determines the issue amount and distribution method when issuing new Plasm Network tokens. The Plasm Network is structured that the new token issuance fee is shared with dApps Rewards and a reward for securing the chain. The consensus algorithm of the Plasm Network is expected to be NPoS. Thereby, there are two types of Staking actions: Staking \(NPoS\) for Validator and Staking \(dApps Rewards\) for smart contracts. Both rewards from each staking are equally proportional to the amount of staking. Users who stake on validators / smart contracts are collectively called nominators. The ideal ratio of Staking for validators and Staking for smart contracts is:
+In the previous chapter, we defined the algorithm that determines the issue amount and distribution method when issuing new Astar Network tokens. The Astar Network is structured that the new token issuance fee is shared with dApps Rewards and a reward for securing the chain. The consensus algorithm of the Astar Network is expected to be NPoS. Thereby, there are two types of Staking actions: Staking \(NPoS\) for Validator and Staking \(dApps Rewards\) for smart contracts. Both rewards from each staking are equally proportional to the amount of staking. Users who stake on validators / smart contracts are collectively called nominators. The ideal ratio of Staking for validators and Staking for smart contracts is:
 
 $$Staking_{validators}$$ represents the action of staking on validators.
 
@@ -58,7 +58,7 @@ $$
 Staking_{validators}:Staking_{contracts}=Rewards_{stakers_{validators}}:Rewards_{stakers_{contracts}}
 $$
 
-PLM tokens use the same NPoS as Polkadot. This nominator and validator can operate the token at a certain annual interest rate for Staking. Also, token rewards will be paid to the PLM dApps operator's Nominator and Operator as well. Plasm Network's inflation model is defined as follows: First, follow the Polkadot inflation model and define the following variables:
+Astar tokens use the same NPoS as Polkadot. This nominator and validator can operate the token at a certain annual interest rate for Staking. Also, token rewards will be paid to the Astar dApps operator's Nominator and Operator as well. Astar Network's inflation model is defined as follows: First, follow the Polkadot inflation model and define the following variables:
 
 * $$x$$ is the total amount of staking divided by the total amount of tokens issued.
 * $$X_{ideal}$$ is the ideal value of $$x$$. $$Staking: Liquidity = 1: 1$$, so $$X_ideal = 0.5$$.
@@ -113,10 +113,10 @@ $$
 \end{aligned}
 $$
 
-* represents the average \(based on the amount staken\) interest rate of the operator's reward. From the auxiliary formula, $$i_{operators}=\frac{I_{operators}}{x(1-q)}$$.
+* represents the average \(based on the amount staked\) interest rate of the operator's reward. From the auxiliary formula, $$i_{operators}=\frac{I_{operators}}{x(1-q)}$$.
 * $$I$$ is the overall inflation rate. This is $$I = I_{Staking} + I_{operators}$$, which is the sum of the reward for Staking and the inflation rate due to the reward for Operator.
 
-$$I_{Staking}$$ is follows the below formula.
+$$I_{Staking}$$ is followed the below formula.
 
 $$I_{Staking} = \begin{cases} I_0 + x(i_{ideal} - \frac{I_0}{X_{ideal}})\cdot2^{-|q-Q_{ideal}|/g} & (0 \lt x \le X_{ideal}) \\ I_0 + (i_{ideal} \cdot X_{ideal} - I_0) \cdot 2^{(X_{ideal}-x)/d-|q-Q_{ideal}|/g} & (X_{ideal} \lt x \le 1) \end{cases}$$
 
@@ -156,7 +156,7 @@ The green line that represents the average annual rate of reward for Staking is 
 * $$I_0$$ is the lower limit of the inflation rate.
 * Always satisfy $$Rewards_{staking}: Rewards_{operator} = 5 + 1: 4 = 6: 4 = 3: 2$$ when $$q$$ is the ideal value. In other words, when $$q$$ is the ideal value, it satisfies $$I_{staking}: I_{operator} = 3: 2$$.
 
-By adding the above-inflation model, we will adjust the incentives of Plasm users and encourage the actions expected of Plasm Network.
+By adding the above-inflation model, we will adjust the incentives of Astar users and encourage the actions expected of Astar Network.
 
 Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

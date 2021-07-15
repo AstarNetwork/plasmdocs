@@ -1,3 +1,9 @@
+---
+description: >-
+  The lockdrops happened when Astar Network was named Plasm Network. We will not
+  rebrand this page because this happened in the past.
+---
+
 # Lockdrop
 
 ![](../../.gitbook/assets/undraw_collecting_fjjl.png)
