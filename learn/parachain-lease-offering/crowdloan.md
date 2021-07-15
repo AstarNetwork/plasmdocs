@@ -1,6 +1,6 @@
 # Crowdloan
 
-Kusama and Polkadot allow Parachains to source tokens for their Parachain bids in a decentralized crowdloan. Shiden Network and Plasm Network conduct a crowdloan campaign to secure Parachainn slots. 
+Kusama and Polkadot allow Parachains to source tokens for their Parachain bids in a decentralized crowdloan. Shiden Network and Astar Network conduct a crowdloan campaign to secure Parachainn slots. 
 
 ## Kusama Network
 
@@ -11,7 +11,7 @@ Kusama is a scalable network of specialized blockchains built using Substrate an
 The crowdloan mechanism allows people to contribute by agreeing to lock up their own KSM until the end of the lease. SDN token \(the native token of Shiden Network\) is distributed based on the amount a user lock and when he/she locks. 
 
 **Step1: Creating a crowdloan campaign**  
-Stake Technologies ****sets a maximum of total allowed contributions and a campaign end date and invites our community to participate. We incentivise people to join the crowdloan instead  of the auction.
+Stake Technologies ****sets a maximum of the total allowed contributions and a campaign end date and invites our community to participate. We incentivize people to join the crowdloan instead of the auction.
 
 **Step2: Initiate a transaction**  
 Crowdloan contributors initiate a special transaction allocating transferable KSM to the campaign’s index. Keep in mind that this transaction is different from a normal transaction. Contributors **should NOT send KSM to an external account**.
@@ -23,7 +23,7 @@ KSM contributions can be submitted throughout the duration of the crowdloan camp
 If Shiden Network wins an auction, the chain is automatically deployed at the start of the lease, and the full amount of KSM contributed to the campaign index will remain locked for the duration of the lease.
 
 **Step5: Returning KSM**  
-Crowdloaned KSM will be returned to contributor’s control at the end of the lease period. Contributors don't need to  withdraw KSM tokens. KSM will be returned automatically.
+Crowdloaned KSM will be returned to the contributor’s control at the end of the lease period. Contributors don't need to withdraw KSM tokens. KSM will be returned automatically.
 
 The details is described 👇
 

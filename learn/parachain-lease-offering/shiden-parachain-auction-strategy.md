@@ -6,7 +6,7 @@ description: 'Last change:  We increased the number of tokens for PLO.'
 
 ## Shiden Network
 
-![https://shiden.plasmnet.io/](../../.gitbook/assets/screen-shot-2021-05-14-at-20.25.32.png)
+![https://shiden.astar.network/](../../.gitbook/assets/screen-shot-2021-05-14-at-20.25.32.png)
 
 Shiden Network is a multi-chain decentralized application layer on Kusama Network. Kusama Relaychain does not support smart contract functionality by design - the protocol needs a smart contract layer. This is where Shiden Network comes in. Shiden supports Ethereum Virtual Machine, WebAssembly, and Layer2 solutions from day one. The platform supports various applications like DeFi, NFTs, and more.
 
@@ -57,18 +57,14 @@ Though the graphic above includes several auctions, we don't join the N th aucti
 ### Example
 
 1. If you lock 1KSM for Shiden Network, you are going to receive X SDN after winning the auction. Let's assume **600,000 KSM \(About $300M\)** are locked during the PLO. In this case, **X is 25.6 SDN** \(15,400,000 SDN / 600,000 KSM\).  
-2. However, since Shiden's crowdeloan has a bonus rate, you can get around  **30.8 SDN** \(6/5 × 25.6 SDN\)  if you join the crowdloan before the day3 of the auction. On the other hand, if you join our crowdloan later, your SDN will be less than **25.6 SDN**.
+2. However, since Shiden's crowdloan has a bonus rate, you can get around  **30.8 SDN** \(6/5 × 25.6 SDN\)  if you join the crowdloan before day 3 of the auction. On the other hand, if you join our crowdloan later, your SDN will be less than **25.6 SDN**.
 3. The insight we can get here is that the earlier you join the crowdloan, you can receive more SDN. 
-
-Here is another example from our forum!
-
-{% embed url="https://forum.plasmnet.io/t/faq-how-to-estimate-how-many-sdn-you-will-receive-from-crowdloan/1225" %}
 
 ### Advanced Information
 
-Shiden Network is a fork of Plasm Network. [We use \#3,000,000 block \(2021-05-05 04:43:30 +UTC\) ](https://plasm.subscan.io/block/3000000) for the snapshot. \(Some parameters are adjusted.\)  Since the team has chose the block \#3,000,000, [the total supply is finalized](https://forum.plasmnet.io/t/finalizing-shidens-parameters-for-the-launch/1198%20). 
+Shiden Network is a fork of Plasm Network. [We use \#3,000,000 block \(2021-05-05 04:43:30 +UTC\) ](https://plasm.subscan.io/block/3000000) for the snapshot. \(Some parameters are adjusted.\)  Since the team has chosen block \#3,000,000, [the total supply is finalized](https://forum.plasmnet.io/t/finalizing-shidens-parameters-for-the-launch/1198%20). 
 
-The number of SDN tokens participants can get is calculated  by the following formula.
+The number of SDN tokens participants can get is calculated by the following formula.
 
 `C_i` : Bonus obtained by contributing to the Crowdloan before the start of the i th auction.  
 `KSM_i,j` : KSMs in the j th contribution before the start of the i th auction  
