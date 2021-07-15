@@ -4,9 +4,7 @@ description: Functionalities of the Plasm Testnet
 
 # Core Features
 
-Test your understanding of the Core Features and earn an NFT [here!](https://gitcoin.co/quests/560/astarplasm-network-core-features)
-
-The Plasm Network has three additional features in addition to the existing Substrate modules:
+The Astar Network has three additional features in addition to the existing Substrate modules:
 
 ## **Operator Trading**
 
@@ -16,7 +14,7 @@ This is enhanced smart contract owner management which allows the tokenization o
 
 ## **dApps Rewards**
 
-This is the reward system for dApps \(including Plasm Applications\) developers. It is a blockchain-specific monetization model for the Web3.0 and maybe even the next generation.
+This is the reward system for dApps \(including Astar Applications\) developers. It is a blockchain-specific monetization model for Web3.0 and maybe even the next generation.
 
 {% page-ref page="dapps-reward.md" %}
 

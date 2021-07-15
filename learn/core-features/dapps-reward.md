@@ -1,6 +1,6 @@
 # dApps Staking
 
-dApps Staking is a reward mechanism for developers or administrators of smart contracts. 50% of Plasm Network's staking reward goes to application developers who have enhanced the value of the Plasm Network. Plasm allows the assignment of a smart contract administrator, called an "operator." "Operators" can be "Nominated" by other dApps "Nominators." As shown below, the operator of the smart contract receiving many nominations can receive newly minted PLM token from the chain.
+dApps Staking is a reward mechanism for developers or administrators of smart contracts. 50% of Astar Network's staking reward goes to application developers who have enhanced the value of the Astar Network. Astar allows the assignment of a smart contract administrator, called an "operator." "Operators" can be "Nominated" by other dApps "Nominators." As shown below, the operator of the smart contract receiving many nominations can receive newly minted tokens from the chain.
 
 ![](../../.gitbook/assets/sukurnshotto-2020-05-31-195848png.png)
 
@@ -12,7 +12,7 @@ Operator and Nominator reward algorithms, respectively. Define the following var
 * $$Rewards_{contract_i}$$ : The rewards allocated to the operator of the i-th smart contract.
 * $$n$$ : The number of smart contract.
 * $$m_i$$ : The number of Nominate against the i-th smart contract.
-* $$stake_{i,j}$$ : The amount of PLM staked by the j-th Nominate for the i-th smart contract.
+* $$stake_{i,j}$$ : The amount of tokens staked by the j-th Nominate for the i-th smart contract.
 
 Then, $$Nominate_ {i, j}$$ gives the following reward:
 

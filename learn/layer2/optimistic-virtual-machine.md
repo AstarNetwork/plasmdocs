@@ -6,43 +6,39 @@ description: Plasma and beyond.
 
 ### What is Optimistic Virtual Machine?
 
-The OVM \(Optimistic Virtual Machine\) is a virtual machine designed to support all layer 2 protocols. It is a possible unification of all layer 2 protocols meaning: **Plasm Network will not only be for Plasma applications but also for Lightning Network applications or any other layer 2 protocols.**
+The OVM \(Optimistic Virtual Machine\) is a virtual machine designed to support all layer 2 protocols. It is a possible unification of all layer 2 protocols meaning: **Astar Network will not only be for Plasma applications but also for Lightning Network applications or any other layer 2 protocols.**
 
-Plasm Network will house all layer 2 scaling solutions. Users can choose which solution to use and make their use case possible with minimum overhead.
+Astar Network will house all layer 2 scaling solutions. Users can choose which solution to use and make their use case possible with minimum overhead.
 
 ### Learn More
 
 The OVM is a powerful concept in layer 2 applications. We can express complex dispute logics by a simple OVM language and that language contains [Optimistic Game Semantics](https://plasma.group/optimistic-game-semantics.pdf) \(OGS\).
 
-For example, we can express Plasma checkpoint and exit claims with 2 simple definitions \(we call these "property"\) by OGS. Plasm Network separates the OVM from the smart contract and prepares it as a module so that OVM can be used more simply and conveniently.
+For example, we can express Plasma checkpoint and exit claims with 2 simple definitions \(we call these "property"\) by OGS. Astar Network separates the OVM from the smart contract and prepares it as a module so that OVM can be used more simply and conveniently.
 
-### OVM in Plasm Network <a id="ovm-in-plasm-network"></a>
+### OVM in Astar Network <a id="ovm-in-plasm-network"></a>
 
-The OVM and its surrounding architecture are as shown in the figure below.
+The OVM and its surrounding architecture are shown in the figure below.
 
 ![ovmodule](https://user-images.githubusercontent.com/6259384/75546609-404d5880-5a6c-11ea-84d0-f063e0bc252c.png)
 
-Plasma applications \(Plapps\) can be created and run properly through the dedicated client application L1 adapter. Plapps are composed of OVM, Plasma, and contract modules in the Plasm Network.
+Plasma applications \(Plapps\) can be created and run properly through the dedicated client application L1 adapter. Plapps are composed of OVM, Plasma, and contract modules in the Astar Network.
 
 In the case of Ethereum Plasma applications, everything provided in these modules was managed by smart contracts. This makes it difficult to predict the gas cost when running a plasma application containing complicated logic. Also, building applications that combine multiple contracts can be confusing for developers.
 
 For this reason, Plasma Network has considered a superficially concise and easy-to-understand configuration by separating the roles into three modules. The OVM Module implements a function called Universal Adjudication to initiate a dispute if the user finds a mistake in the information on layer 1. The Plasma Module supports a common implementation of some of the essential smart contracts. Only the implementations that require different logic are managed by the Contracts Module.
 
-This Plasm Network logic can be combined with the Plasma Layer 2 implementation described above to build an application.
+This Astar Network logic can be combined with the Plasma Layer 2 implementation described above to build an application.
 
 You can see the details below.
 
 ## Smart Contract <a id="smart-contract"></a>
 
-Smart contracts in Plasm Network's layer 2 applications require **ERC20 Contracts** and **Payout Contracts**. Each layer 2 application developers must implement their own smart contract.
+Smart contracts in Astar Network's layer 2 applications require **ERC20 Contracts** and **Payout Contracts**. Each layer 2 application developer must implement their own smart contract.
 
 ### ERC20 Contract <a id="erc20-contract"></a>
 
-ERC20 Contract is a contract that expresses tokens handled by layer 2 application. Refer to this specification for [ERC20](https://eips.ethereum.org/EIPS/eip-20). PLM wrapped Contracts are the default ERC20 Contract.
-
-#### wPLM contract <a id="wplm--contract"></a>
-
-wPLM contract is a wrapped contract of PLM token. This is an ERC20 token issued by depositing the PLM token, the basic token of Plasm Network with the contract. In other words, it has the same value as PLM, like [wETH](https://weth.io/jp/).
+ERC20 Contract is a contract that expresses tokens handled by layer 2 application. Refer to this specification for [ERC20](https://eips.ethereum.org/EIPS/eip-20).
 
 ### Payout Contract <a id="payout-contract"></a>
 
@@ -61,7 +57,7 @@ function finalizeExit(
 
 #### Ownership payout contract <a id="ownership-payout-contract"></a>
 
-Ownership payout contract is a contract that the token owner can withdraw. Specifically, When the Exit is determined to be true in the Challenge Game, the owner represented by that State Object \(in this case, OwnershipPredicate\) can withdraw the token. The Ownership Payout contract is expressed in the Ethereum contract like [this](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/plasma/OwnershipPayout.sol).
+An ownership payout contract is a contract that the token owner can withdraw. Specifically, When the Exit is determined to be true in the Challenge Game, the owner represented by that State Object \(in this case, OwnershipPredicate\) can withdraw the token. The Ownership Payout contract is expressed in the Ethereum contract like [this](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/plasma/OwnershipPayout.sol).
 
 ## Modules <a id="modules"></a>
 
@@ -73,7 +69,7 @@ It can be divided into OVM Modules, which perform general OVM processing, and Pl
 
 ## OVM Module <a id="ovm-module"></a>
 
-OVM Module describes the processing commonly performed in OVM. Specifically, the execution logic of predicate is included in this module. In addition, the smart contract is executed by using the truth of predicate as a trigger. This module is a modularized version of [Universal Adjudication contract](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol) in the Ethereum Smart contract.
+OVM Module describes the processing commonly performed in OVM. Specifically, the execution logic of the predicate is included in this module. In addition, the smart contract is executed by using the truth of the predicate as a trigger. This module is a modularized version of [Universal Adjudication contract](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/UniversalAdjudicationContract.sol) in the Ethereum Smart contract.
 
 ### Types <a id="types"></a>
 
@@ -170,9 +166,9 @@ ChallengeRemoved(Hash, Hash);
 
 ## Plasma Module <a id="plasma-module"></a>
 
-Plasma Module is a module that is responsible for processing specific to Plasma. It calls the OVM Module and the specified smart contract function. The Plasma Module has one "Commitment" and "Deposit" address per application. These are each defined by `decl_child_storage`. `decl_child_storage!` is a macro that implements DB in SubTrie. This sets AccountId as the key value. This is like a contract address that implements with reference to [AccountDb](https://github.com/paritytech/substrate/blob/master/frame/contracts/src/account_db.rs) of contract module.
+Plasma Module is a module that is responsible for processing specific to Plasma. It calls the OVM Module and the specified smart contract function. The Plasma Module has one "Commitment" and "Deposit" address per application. These are each defined by `decl_child_storage`. `decl_child_storage!` is a macro that implements DB in SubTrie. This sets AccountId as the key value. This is like a contract address that implements with reference to [AccountDb](https://github.com/paritytech/substrate/blob/master/frame/contracts/src/account_db.rs) of the contract module.
 
-This is modularized [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) and [CompiledPredicate](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) contracts in the Ethereum.
+This is modularized [Commitment](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/CommitmentContract.sol), [Deposit](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/DepositContract.sol) and [CompiledPredicate](https://github.com/cryptoeconomicslab/ovm-contracts/blob/master/contracts/Predicate/CompiledPredicate.sol) contracts in Ethereum.
 
 ### Types <a id="types"></a>
 
@@ -287,7 +283,7 @@ BlockSubmitted(AccountId, BlockNumber, Hash);
 
 ### Deposit <a id="deposit"></a>
 
-Deposit allows depositing ERC20 tokens from layer 1 to layer 2. Child storage of Deposit is generated for each layer 2 application. This can be used like accessing smart contracts.
+The deposit allows depositing ERC20 tokens from layer 1 to layer 2. Child storage of Deposit is generated for each layer 2 application. This can be used like accessing smart contracts.
 
 #### Storage <a id="storage"></a>
 
@@ -339,7 +335,7 @@ DepositedRangeRemoved(Range);
 
 ### Compiled Predicate <a id="compiled-predicate"></a>
 
-The role of `CompiledPredicate` is optimizing claim size by compiling complex proposition to one simple predicate. The Plasma Module has a method for running layer 2 applications via Predicate. `PayoutContract` withdrawal processing that exists for each layer 2 application can only be called via Compiled Predicate. This allows for transactions on layer 2 to be as secure as layer 1.
+The role of `CompiledPredicate` is optimizing claim size by compiling complex propositions to one simple predicate. The Plasma Module has a method for running layer 2 applications via Predicate. `PayoutContract` withdrawal processing that exists for each layer 2 application can only be called via Compiled Predicate. This allows for transactions on layer 2 to be as secure as layer 1.
 
 #### Storage <a id="storage"></a>
 

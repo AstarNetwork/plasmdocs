@@ -10,13 +10,13 @@ Plasma is a framework to make a side chain and connect it to the main chain \(e.
 
 Blockchains are slow and expensive by design. Blockchains can't be an infrastructure of the world without high scalability. Plasma intends on making blockchains fast and cheap without sacrificing safety and decentralization.
 
-## In the Plasm Network
+## In the Astar Network
 
 Plasma is a popular blockchain scaling solution. ​​Plasma manages and processes transactions in a Merkle tree outside the chain at high speed, and engraves only the Merkle root on the blockchain. The actor responsible for performing the off-chain processing and submitting the hash to the blockchain is called an Aggregator in Plasma.
 
 ![](../../.gitbook/assets/sukurnshotto-2020-05-31-183650png.png)
 
-Plasm Network supports "Plasma" which is based on Plasma-Cash. It has one NFT state, not a transaction, at the leaves of the Merkle tree. Rules for performing state transition can be defined by Optimistic Virtual Machine \(OVM\) are described later.
+Astar Network supports "Plasma" which is based on Plasma-Cash. It has one NFT state, not a transaction, at the leaves of the Merkle tree. Rules for performing state transition can be defined by Optimistic Virtual Machine \(OVM\) are described later.
 
 {% page-ref page="optimistic-virtual-machine.md" %}
 
