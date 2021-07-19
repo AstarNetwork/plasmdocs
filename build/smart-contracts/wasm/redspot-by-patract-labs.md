@@ -81,5 +81,5 @@ After a successful contract deployment, you will get a message like this.
 Deploy successfully. the contract address: 5CqB5Mh9UdVbTE1Gt5PJfWSiCHydJaJsA31HjKGti1Z2fn78
 ```
 
-
+If you are having issues, clone the repo [here](https://github.com/PlasmNetwork/tutorials/tree/main/erc20) and follow the directions there to deploy. Currently the contracts deployed via Redspot is not intractable on the main net. Read [here](https://github.com/patractlabs/redspot/issues/117) for more on this issue.
 
