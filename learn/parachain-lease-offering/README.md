@@ -1,4 +1,4 @@
-# Kusama PLO
+# Kusama Parachain Lease Offering
 
 Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and **Parachain Crowdloans**. In this section, we are going to explain how to make a Kusama/Polkadot address, crowdloan, and auction.
 

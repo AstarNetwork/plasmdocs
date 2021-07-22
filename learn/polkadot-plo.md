@@ -1,4 +1,4 @@
-# Polkadot PLO
+# Polkadot Parachain Lease Offering
 
 ## WIP
 
