@@ -4,15 +4,7 @@ description: Plasm Network community channels
 
 # Community
 
-![](../.gitbook/assets/partners.png)
-
-## Ecosystem Tool
-
-### Subscan
-
-Subscan is a Substrate-based blockchain explorer where you can search Plasm Network addresses and transactions.
-
-{% embed url="https://plasm.subscan.io/account" caption="" %}
+![](../.gitbook/assets/screenshot-2021-07-22-at-3.21.49-pm.png)
 
 ## Collaborations
 
@@ -21,11 +13,9 @@ Subscan is a Substrate-based blockchain explorer where you can search Plasm Netw
 * [Acala Network](https://acala.network/)
 * [Chainlink](https://chain.link/)
 * [Microsoft](https://startups.microsoft.com/en-us/)
-* [Reef.finance](https://www.reef.ps/en)
 * [Cryptoeconomics Lab](https://www.cryptoeconomicslab.com/)
 * [Interlay](https://www.interlay.io/)
 * [Phala Network](https://phala.network/)
-* [PAID Network](https://medium.com/stake-technologies/defi-legal-system-on-plasm-network-plasm-and-paid-partnership-announcement-34e9ff07f2bd)
 * [Crust Network](https://www.reddit.com/r/CrustNetwork/comments/isj6qe/plasm_and_crust_network_announce_technical/)
 * [Satsudora HP and DataGateway PoC](https://stake.co.jp/en/news/20201020english/)
 * [Cere Network](https://www.cere.network/#/)
@@ -37,6 +27,7 @@ Subscan is a Substrate-based blockchain explorer where you can search Plasm Netw
 * [Binance Labs](https://medium.com/plasm-network/plasm-network-closes-2-4m-round-led-by-binance-labs-b186d987ceec)
 * [NFTY Labs](https://medium.com/plasm-network/plasm-network-partners-with-nftylabs-bc69c1577a5b?source=collection_home---4------0-----------------------)
 * ICON
+* [Coinversation](http://coinversation.io/)
 
 **Participating in**
 
