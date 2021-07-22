@@ -5,20 +5,17 @@ description: Testnet
 # Chain Specifications
 
 {% hint style="info" %}
-The Plasm Testnet is a public test environment for developers and community integration's. This is where debugging should occur prior to mainnet deployment.
+The Astar Testnet is a public test environment for developers and community integrations. This is where debugging should occur prior to mainnet deployment.
 {% endhint %}
 
 ### Versioning <a id="versioning"></a>
 
-* spec-name: plasm-testnet
-* impl-name: plasm-testnet-node
-
 Version naming notation:
 
-* Authoring version: Equals testnet generation spec. Testnet generation will not change authoring interface.
+* Authoring version: Equals testnet generation spec. Testnet generation will not change the authoring interface.
 * Spec/Impl Versions: High number = testnet generation; low number = testnet runtime upgrades. Example: 10 for Testnet v1 genesis, 21 for Testnet v2 Patch 1.
 
-Testnet generation my not be backwards compatible with old networks. A periodic blockchain wipe is suggested for compatibility and to keep testnet resources available for other users.
+Testnet generation may not be backward compatible with old networks. A periodic blockchain wipe is suggested for compatibility and to keep testnet resources available for other users.
 
 **Testnet generation life cycle is estimated to be between two weeks and two months**
 
@@ -29,19 +26,19 @@ Testnet upgrade types fall into one of two categories:
 * Major upgrade
 * Minor runtime patch
 
-Runtime patches have a minor impact and end users should not notice any changes. These patches are non breakable features and minor network maintenance patches.
+Runtime patches have a minor impact and end-users should not notice any changes. These patches are nonbreakable features and minor network maintenance patches.
 
 Major upgrades occur when the testnet is completely rebuilt including major upgrades and changes from the previous version. These upgrades increase the version number. These upgrades can include breaking changes or entire blockchain wipes to optimize user resources.
 
-## Dusty Plasm <a id="dusty-plasm"></a>
+## Dusty Astar <a id="dusty-plasm"></a>
 
-The Plasm `canary` network is a `beta` Mainnet. **Dusty** observe and debug mainnet code for approximately two weeks.
+The Astar`canary` network is a `beta` Mainnet. **Dusty** observe and debug the mainnet code for approximately two weeks.
 
 ### Incentives <a id="incentives"></a>
 
-Dusty network participation is incentivized, paying rewards in PLD \(network native token\) to PoA validators and dApps operator nominators.
+Dusty network participation is incentivized, paying rewards in PLD \(network native token\) to PoA validators and dApps operator nominators. Soon this will be upgraded to NPoS.
 
-> When Plasm Network token stake technology is implemented, **0.5%** of the total Plasm token supply will be airdropped to Dusty token holders.
+> When Astar Network token stake technology is implemented, **0.5%** of the total Astar token supply will be airdropped to Dusty token holders.
 
 Planned features:
 
@@ -74,6 +71,8 @@ Planned features:
 * PlasmValidator - authority manager for Plasm network
 * PlasmRewards - reward router between dApps operators and validators
 * PlasmLockdrop - multi-lockdrop token distribution
+
+## Previous version <a id="plasm-testnet-v3"></a>
 
 ## Plasm Testnet v3 <a id="plasm-testnet-v3"></a>
 
