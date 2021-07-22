@@ -38,6 +38,7 @@
   * [Joining from AToken Wallet](learn/parachain-lease-offering/joining-from-atoken-wallet.md)
 * [Polkadot PLO](learn/polkadot-plo.md)
 * [Token Economics](learn/token-economics/README.md)
+  * [Untitled](learn/token-economics/untitled.md)
   * [Lockdrop](learn/token-economics/lockdrop.md)
   * [About Astar Tokens](learn/token-economics/usages-of-astar-tokens.md)
   * [Astar Token Allocation](learn/token-economics/token-allocation.md)
