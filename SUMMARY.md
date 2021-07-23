@@ -86,7 +86,7 @@
 * [Lockdrop](build/lockdrop/README.md)
   * [Lockdrop Tutorial](build/lockdrop/lockdrop-tutrial.md)
   * [Importing Ethereum Seed](build/lockdrop/importing-ethereum-seed.md)
-  * [Unlock Tutorial](build/lockdrop/unlock-tutrial.md)
+  * [Unlock Tutorial](build/lockdrop/unlock-tutorial.md)
   * [Real-Time Lockdrop](build/lockdrop/real-time-lockdrop.md)
 * [API](build/api.md)
 * [Layer2 Applications](build/layer2-applications.md)
