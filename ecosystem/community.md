@@ -4,7 +4,7 @@ description: Plasm Network community channels
 
 # Community
 
-![](../.gitbook/assets/screenshot-2021-07-22-at-3.21.49-pm.png)
+![](../.gitbook/assets/screenshot-2021-07-27-at-10.40.34-am.png)
 
 ## Collaborations
 
@@ -28,6 +28,8 @@ description: Plasm Network community channels
 * [NFTY Labs](https://medium.com/plasm-network/plasm-network-partners-with-nftylabs-bc69c1577a5b?source=collection_home---4------0-----------------------)
 * ICON
 * [Coinversation](http://coinversation.io/)
+* [Pinknode](https://medium.com/astar-network/pinknode-creates-the-gateway-to-the-astar-ecosystem-b87a13799aeb?source=social.tw&_branch_match_id=943307005423698839)
+* [Subscan](https://medium.com/astar-network/subscan-joins-astar-builders-program-a6d9018debfb)
 
 **Participating in**
 
