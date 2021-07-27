@@ -39,6 +39,8 @@ Astar Network is an open-source project. There are a lot of opportunities to get
 
 ## Want to run a node? Please visit 👇
 
+{% page-ref page="build/validator-guide/" %}
+
 ## Contributions Area
 
 [Astar Network](https://astar.network) is an open-source project anyone can join, develop, and modify. Here are the Astar Network's status and contribution areas.
