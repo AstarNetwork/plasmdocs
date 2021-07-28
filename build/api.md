@@ -8,6 +8,19 @@ A complete overview on using the API in your projects, from installation all the
 
 Separated from the API you will also find the [Substrate metadata](https://polkadot.js.org/docs/substrate) section in the documentation that has an overview of the RPC, extrinsics, events, and errors available on a typical Substrate node.
 
+There are a number of organisations that maintain free RPC WebSocket endpoints for the Astar community.
+
+Shiden:
+- Stake Technologies: `wss://rpc.shiden.plasmnet.io`
+- OnFinality: `wss://shiden.api.onfinality.io/public-ws`
+
+Plasm:
+- Stake Technologies: `wss://rpc.plasmnet.io/`
+- Patract Elara: `wss://plasm.elara.patract.io`
+
+Dusty:
+- Stake Technologies: `wss://rpc.dusty.plasmnet.io/`
+
 ## Installation
 
 Follow these steps to use Polkadot API on Plasm Network. Yes, it really is as simple as installing from npm, so we are not going to waste too much time with the bare basics, just install the necessary APIs via:
@@ -36,8 +49,9 @@ async function main() {
       }
     },    
   });
+  
+  // Other public RPC endpoints listed above
   const wsProvider = new WsProvider('wss://rpc.dusty.plasmnet.io');
-  //const wsProvider = new WsProvider('wss://rpc.polkadot.io');
 
   const api = await ApiPromise.create({
     provider: wsProvider,
