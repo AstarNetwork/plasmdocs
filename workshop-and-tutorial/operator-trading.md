@@ -95,7 +95,7 @@ Agora chegou a hora de mudarmos de operador! Primeiro, clique na guia Operator\(
 
 Isso exibirá o seguinte modal. A escolha de um operador a partir daqui exibirá uma lista de todos os contratos que a conta possui. Você deverá escolher em qual contrato deseja alterar a propriedade. Depois disso, escolhemos o novo Operador que terá a propriedade do Contrato selecionado. Neste exemplo, o ALICE transferirá a BOB a propriedade do contrato SAMPLE.WASM.
 
-![ALICE&apos;s contract list](../.gitbook/assets/screen-shot-2020-06-11-at-16.19.46%20%282%29%20%281%29.png)
+![ALICE&apos;s contract list](../.gitbook/assets/screen-shot-2020-06-11-at-16.19.46%20%282%29%20%282%29%20%281%29.png)
 
 Pressione Change Operator\(Alterar Operador\) -&gt; Sign\(Assinar\) e Submit\(Enviar\), depois de alguns momentos, podemos ver na imagem a seguir que o Operador do Contrato mudou de ALICE para BOB.  
 
