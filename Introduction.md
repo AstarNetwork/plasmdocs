@@ -4,7 +4,7 @@ description: "Ciao a tutti! Grazie per aver consultato la documentazione di Plas
 
 # Benvenuto
 
-![](.gitbook/assets/sukurnshotto-2020-05-27-200702-1png%20%282%29%20%282%29.png)
+![](.gitbook/assets/sukurnshotto-2020-05-27-200702-1png%20%282%29%20%282%29%20%282%29.png)
 
 ## Benvenuti nella documentazione di Plasm Network!
 

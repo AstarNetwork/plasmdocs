@@ -73,7 +73,7 @@ Now, you can claim rewards with "Claim for Nominator" tab and "Claim for Operato
 
 To claim rewards for nominators, select nominator address and latest era, and push "Claim" button. You can use "Claim for Operator" tab for the same way.
 
-![](../.gitbook/assets/screen-shot-2020-06-11-at-22.58.13%20%281%29%20%282%29.png)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-22.58.13%20%281%29%20%282%29%20%282%29.png)
 
 ### Summary <a id="summary"></a>
 
