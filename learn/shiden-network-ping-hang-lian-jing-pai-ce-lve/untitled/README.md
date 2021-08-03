@@ -12,17 +12,17 @@ b. 或在 Polkadot.js 网页钱包中创建新地址，并将中心化交易所�
 
 首先，请通过 [https://polkadot.js.org/apps/\#/explorer](https://polkadot.js.org/apps/#/explorer) 链接访问 Polkadot.js。 
 
-![](../../../.gitbook/assets/image%20%2870%29.png)
+![](../../../.gitbook/assets/image%20%2869%29%20%281%29.png)
 
 然后，切换到 Kusama 网络页面：点击左上角“Polkadot“旁小三角 —&gt; 在侧边栏中选择“Kusama” —&gt; 点击“Switch"。
 
-![](../../../.gitbook/assets/polkadotjs1%20%281%29.gif)
+![](../../../.gitbook/assets/polkadotjs1%20%282%29%20%281%29.gif)
 
 ## 第二步: 进入 Kusama 众贷 \(Crowdloan\) 页面 <a id="step-1-access-to-polkadot-js-kusama-page"></a>
 
 进入 Kusama 众贷页面：在上方工具栏中点击“Network“ —&gt; 选中“Parachains“ —&gt; 点击“Crowdloan“
 
-![](../../../.gitbook/assets/polkadotjs2%20%281%29.gif)
+![](../../../.gitbook/assets/polkadotjs2%20%281%29%20%281%29.gif)
 
 ## 第三步: 选择 Shiden Network 加入众贷！ <a id="step-1-access-to-polkadot-js-kusama-page"></a>
 
