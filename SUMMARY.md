@@ -46,6 +46,10 @@
 * [Dusty Network](learn/dusty-network/README.md)
   * [Chain Specifications](learn/dusty-network/testnet.md)
 
+## Integration
+
+* [On-Chain Identity](integration/on-chain-identity.md)
+
 ## Build
 
 * [Polkadot.js](build/polkdotjs.md)
