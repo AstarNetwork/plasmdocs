@@ -70,7 +70,7 @@ cargo build --release
 
 After the launch, your authority node starts to fetch and send the current USD price of BTC and ETH into your chain. By opening [explorer](https://apps.plasmnet.io/#/explorer), you can see the dollar rate extrinsics in each imported module. This dollar rate is used in Lockdrop Substrate Pallet for checking the price during the Lockdrop periods.
 
-![](../../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%283%29%20%283%29%20%283%29.png)
+![](../../.gitbook/assets/sukurnshotto-2020-05-31-174351png%20%283%29%20%283%29%20%283%29%20%283%29.png)
 
 ## Lockdrop Request
 
@@ -80,11 +80,11 @@ Plasm Network team has deployed the Lockdrop smart contract on Ethereum Ropsten 
 
 Let's send a transaction to the lockdrop smart contract using Etherscan and Metamask!
 
-![](../../.gitbook/assets/sukurnshotto-2020-05-31-174357png%20%282%29%20%283%29%20%282%29.png)
+![](../../.gitbook/assets/sukurnshotto-2020-05-31-174357png%20%282%29%20%283%29%20%283%29%20%282%29.png)
 
 After locking your ETH, you can make a claim on your local chain.
 
-![](../../.gitbook/assets/sukurnshotto-2020-05-31-174402png%20%282%29%20%283%29.png)
+![](../../.gitbook/assets/sukurnshotto-2020-05-31-174402png%20%282%29%20%283%29%20%283%29.png)
 
 You can use a test data below:
 
@@ -95,11 +95,11 @@ You can use a test data below:
 100000000000000000
 ```
 
-![](../../.gitbook/assets/sukurnshotto-2020-05-31-174408png%20%282%29%20%282%29%20%281%29.png)
+![](../../.gitbook/assets/sukurnshotto-2020-05-31-174408png%20%282%29%20%282%29%20%282%29%20%281%29.png)
 
 And here is the results available on chain:
 
-![](../../.gitbook/assets/sukurnshotto-2020-05-31-174413png%20%282%29%20%283%29.png)
+![](../../.gitbook/assets/sukurnshotto-2020-05-31-174413png%20%282%29%20%283%29%20%283%29.png)
 
 Any questions? Feel free to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

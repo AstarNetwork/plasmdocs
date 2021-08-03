@@ -30,6 +30,7 @@ description: Plasm Network community channels
 * [Coinversation](http://coinversation.io/)
 * [Pinknode](https://medium.com/astar-network/pinknode-creates-the-gateway-to-the-astar-ecosystem-b87a13799aeb?source=social.tw&_branch_match_id=943307005423698839)
 * [Subscan](https://medium.com/astar-network/subscan-joins-astar-builders-program-a6d9018debfb)
+* [OnFinality](https://medium.com/astar-network/onfinality-astars-infrastructure-partner-8ff653ffaf1)
 
 **Participating in**
 

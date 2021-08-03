@@ -11,15 +11,18 @@ Separated from the API you will also find the [Substrate metadata](https://polka
 There are a number of organisations that maintain free RPC WebSocket endpoints for the Astar community.
 
 Shiden:
-- Stake Technologies: `wss://rpc.shiden.plasmnet.io`
-- OnFinality: `wss://shiden.api.onfinality.io/public-ws`
+
+* Stake Technologies: `wss://rpc.shiden.plasmnet.io`
+* OnFinality: `wss://shiden.api.onfinality.io/public-ws`
 
 Plasm:
-- Stake Technologies: `wss://rpc.plasmnet.io/`
-- Patract Elara: `wss://plasm.elara.patract.io`
+
+* Stake Technologies: `wss://rpc.plasmnet.io/`
+* Patract Elara: `wss://plasm.elara.patract.io`
 
 Dusty:
-- Stake Technologies: `wss://rpc.dusty.plasmnet.io/`
+
+* Stake Technologies: `wss://rpc.dusty.plasmnet.io/`
 
 ## Installation
 
@@ -49,7 +52,7 @@ async function main() {
       }
     },    
   });
-  
+
   // Other public RPC endpoints listed above
   const wsProvider = new WsProvider('wss://rpc.dusty.plasmnet.io');
 

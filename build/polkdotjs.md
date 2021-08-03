@@ -36,7 +36,7 @@ Open the Polkadot.js extension and click "+"
 
 Then you can see the following options.
 
-![](../.gitbook/assets/screen-shot-2021-05-28-at-23.51.41%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2021-05-28-at-23.51.41%20%281%29%20%281%29.png)
 
 **Create new account:** You can make a new account from 12 seed phases.   
 **Derive from an account:** You can make a new account from your existing account. The same seed phases are used to make another account.  
