@@ -10,6 +10,7 @@
 * [Polkadot](ecosystem/polkadot.md)
 * [Substrate](ecosystem/substrate.md)
 * [Community](ecosystem/community.md)
+* [Builders Program](ecosystem/builders-program.md)
 
 ## Learn
 
