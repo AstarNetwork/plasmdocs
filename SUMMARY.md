@@ -18,6 +18,7 @@
   * [Consensus](learn/polkadot-and-astar/consennsus.md)
 * [Core Features](learn/core-features/README.md)
   * [dApps Staking](learn/core-features/dapps-reward.md)
+  * [X-VM \(Cross Virtual Machine\)](learn/core-features/x-vm-cross-virtual-machine.md)
   * [Operator Trading](learn/core-features/operator-trading.md)
 * [Layer 2](learn/layer2/README.md)
   * [Plasma Overview](learn/layer2/plasm-overview.md)
