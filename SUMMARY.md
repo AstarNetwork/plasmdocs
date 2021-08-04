@@ -51,6 +51,7 @@
 ## Integration
 
 * [On-Chain Identity](integration/on-chain-identity.md)
+* [Metamask support](integration/metamask-signatures.md)
 
 ## Build
 
@@ -99,7 +100,6 @@
 * [Operator Trading](build/operator-trading.md)
 * [ink!](build/ink.md)
 * [dApps Staking](build/dapps-reward.md)
-* [Metamask support](build/metamask-signatures.md)
 
 ## Basic
 
