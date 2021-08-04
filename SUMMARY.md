@@ -2,6 +2,7 @@
 
 * [Welcome](Introduction.md)
 * [Introduction](introduction-1.md)
+* [Our Journey](our-journey.md)
 * [Astar \(formerly Plasm\)](astar-formerly-plasm.md)
 
 ## Ecosystem
