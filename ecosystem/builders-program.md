@@ -8,6 +8,8 @@ description: Builders Program for Astar (formerly Plasm) and Shiden Network
 
 The Astar / Shiden Network Builders Program was created to help further the development, growth, and adoption of our ecosystem by supporting teams who are building on it. The program is operated by Stake Technologies with guidance from Parity Technologies under the [Builders for Builders initiative](https://www.parity.io/substrate-builders-program-update-builders-for-builders/).
 
+![](../.gitbook/assets/landscape.png)
+
 ## Who and what are we looking for?
 
 We are always focused on the community and on product development so we have designed the program in a similar fashion - we are interested in **high-quality teams** that are building **infrastructure/integrations to help our developers** and **applications that the community wants**. This can be broadly split into 2 different tracks, the infrastructure track, and the application track.
