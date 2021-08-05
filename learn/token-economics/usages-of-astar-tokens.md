@@ -2,7 +2,7 @@
 description: 'Last Update: 2021/01/23'
 ---
 
-# About Astar Tokens
+# About Astar and Shiden Tokens
 
 Astar Token is the utility token for Astar Network that has the following 5 roles. 
 

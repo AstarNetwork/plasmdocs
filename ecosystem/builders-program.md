@@ -2,7 +2,7 @@
 description: Builders Program for Astar (formerly Plasm) and Shiden Network
 ---
 
-# Builders Program
+# Builders Program and Grants
 
 ## Introduction
 

@@ -10,7 +10,7 @@
 * [Polkadot](ecosystem/polkadot.md)
 * [Substrate](ecosystem/substrate.md)
 * [Community](ecosystem/community.md)
-* [Builders Program](ecosystem/builders-program.md)
+* [Builders Program and Grants](ecosystem/builders-program.md)
 
 ## Learn
 
@@ -42,7 +42,7 @@
 * [Polkadot Parachain Lease Offering](learn/polkadot-plo.md)
 * [Token Economics](learn/token-economics/README.md)
   * [Lockdrop](learn/token-economics/lockdrop.md)
-  * [About Astar Tokens](learn/token-economics/usages-of-astar-tokens.md)
+  * [About Astar and Shiden Tokens](learn/token-economics/usages-of-astar-tokens.md)
   * [Astar Token Allocation](learn/token-economics/token-allocation.md)
   * [SDN Token Allocation](learn/token-economics/sdn-token-allocation.md)
   * [Staking, Liquidity, and Inflation Model](learn/token-economics/token-economy.md)
