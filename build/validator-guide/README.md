@@ -1,4 +1,4 @@
-# Validator Guide
+# Dusty Validator Guide
 
 Currently, Plasm has 2 networks, [Dusty Network](https://telemetry.polkadot.io/#list/Dusty), and [Plasm Network](https://telemetry.polkadot.io/#list/Plasm). 
 
