@@ -1,2 +1,0 @@
-# Shiden Collator Guide
-
