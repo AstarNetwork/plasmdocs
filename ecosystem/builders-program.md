@@ -2,7 +2,7 @@
 description: Builders Program for Astar (formerly Plasm) and Shiden Network
 ---
 
-# Builders Program and Grants
+# Builders & Grants Program
 
 ## Introduction
 
@@ -80,7 +80,7 @@ Aside from the Builders Program, there are 4 more compelling reasons why you wou
 
 ## How to apply?
 
-* Fill in our application [form](https://forms.gle/BuAutDw7dwaJ9aWw6)
+* Fill in our application [form](https://share.hsforms.com/16d-UU2MuQtmKNeuH82-znwc2ryh)
 * You will receive an email for an introduction meeting. The meeting is to introduce ourselves and explain more about the program.
 * After your application is approved you will be informed of the next steps.
 
