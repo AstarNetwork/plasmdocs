@@ -116,6 +116,5 @@
 * [Astar \(formerly Plasm\) Network White Paper](https://github.com/PlasmNetwork/plasmdocs/blob/master/wp/en.pdf)
 * [Tech Chat \(Discord\)](https://discord.com/invite/wUcQt3R)
 * [GitHub](https://github.com/PlasmNetwork/Plasm)
-* [Plasm Crate Documentation](https://crates.plasmnet.io)
-* [Forum](https://forum.plasmnet.io/)
+* [Forum](https://forum.astar.network)
 
