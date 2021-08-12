@@ -6,7 +6,7 @@ description: 'Last Update: 2021/01/23'
 
 Astar Token is the utility token for Astar Network that has the following 5 roles. 
 
-![](../../.gitbook/assets/screen-shot-2021-01-23-at-12.01.38.png)
+![](../../.gitbook/assets/screenshot-2021-08-12-at-2.34.20-pm.png)
 
 ## **dApps Staking**
 
@@ -16,7 +16,7 @@ DApps Staking is an original scheme that Astar Network core team invented and on
 
 dApps Staking is a simple but strong mechanism. Astar token holders can stake Astar tokens on dApps as well as on the network. By doing so, the staker can earn Astar tokens from block rewards. In addition to that, dApps developers can also get rewards based on the nomination. In general, application developers on Astar Network receive Astar tokens by making smart contracts or infrastructure for Astar Network community. We intend to make it a  sustainable and decentralized grant mechanism. 
 
-## Network Staking
+## NPoS Staking
 
 Astar token holders also have an option to stake Astar's on the network \(Astar Network validators or collators\). By doing so, the staker receives the nomination reward and the network becomes more decentralized.
 
