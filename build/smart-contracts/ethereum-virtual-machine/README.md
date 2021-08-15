@@ -6,7 +6,7 @@
 
 {% page-ref page="ethereum-contract-on-dusty-network.md" %}
 
-{% page-ref page="using-hardhat.md" %}
+{% page-ref page="../../../integration/using-hardhat.md" %}
 
 {% page-ref page="evm-precompiles.md" %}
 

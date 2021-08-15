@@ -53,6 +53,7 @@
 
 * [On-Chain Identity](integration/on-chain-identity.md)
 * [Metamask support](integration/metamask-signatures.md)
+* [Using Hardhat](integration/using-hardhat.md)
 
 ## Build
 
@@ -61,7 +62,6 @@
   * [Ethereum Virtual Machine](build/smart-contracts/ethereum-virtual-machine/README.md)
     * [Ethereum Contract in Your Local Environment](build/smart-contracts/ethereum-virtual-machine/evm-smart-contracts.md)
     * [Ethereum Contract on Dusty Network](build/smart-contracts/ethereum-virtual-machine/ethereum-contract-on-dusty-network.md)
-    * [Using Hardhat](build/smart-contracts/ethereum-virtual-machine/using-hardhat.md)
     * [EVM Precompiled Contracts](build/smart-contracts/ethereum-virtual-machine/evm-precompiles.md)
     * [FAQ for EVM smart contract deployment on Dusty](build/smart-contracts/ethereum-virtual-machine/common-questions-for-evm-smart-contract-deployment-on-dusty.md)
   * [WASM](build/smart-contracts/wasm/README.md)
