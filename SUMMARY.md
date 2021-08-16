@@ -54,6 +54,7 @@
 * [On-Chain Identity](integration/on-chain-identity.md)
 * [Metamask support](integration/metamask-signatures.md)
 * [Using Hardhat](integration/using-hardhat.md)
+* [Mainnet RPC and Node](integration/mainnet-rpc-and-node.md)
 
 ## Build
 
