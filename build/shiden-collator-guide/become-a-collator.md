@@ -1,2 +1,2 @@
-# Become a collator
+# Build a collator
 
