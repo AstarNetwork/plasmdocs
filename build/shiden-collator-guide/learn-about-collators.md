@@ -76,7 +76,7 @@ Shiden will provide a basic configuration for reference, which guarantees that a
 
 ## How to deploy your node  
 
-{% page-ref page="become-a-collator.md" %}
+{% page-ref page="become-a-collator/" %}
 
 ## Collator election mechanism
 
