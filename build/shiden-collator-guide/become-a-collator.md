@@ -1,10 +1,6 @@
----
-description: >-
-  At this moment, Shiden is an Aura PoS network. To run a collator, please join
-  our discord and tag @coreteam. Discord: https://discord.gg/sTbJMSg
----
-
 # Build a Collator
+
+At this moment, Shiden is an Aura PoS network. To run a collator, please join our discord and tag @coreteam. Discord: [https://discord.gg/sTbJMSg](https://discord.gg/sTbJMSg)
 
 ## Build from Source
 
