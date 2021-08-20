@@ -59,7 +59,7 @@ Start Collator using `screen` or `nohup`:
 
 ```text
 cd /target/release/
-./astar-collator --validator --name NODENAME --rpc-cors all
+./astar-collator --validator --name NODENAME --rpc-cors all --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --execution wasm
 ```
 
 Get session key:
