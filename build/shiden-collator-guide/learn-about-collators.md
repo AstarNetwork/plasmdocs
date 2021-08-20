@@ -74,7 +74,7 @@ Shiden will provide a basic configuration for reference, which guarantees that a
 * Memory: 8-16 GB
 * Hard Disk: 250 GB
 
-## How to deploy your node  
+## How to deploy your node 
 
 {% page-ref page="become-a-collator.md" %}
 
@@ -104,9 +104,5 @@ Our first intention was to activate NPoS to Shiden Network. After internal testi
 
 Users can nominate smart contracts through dApp staking and earn the same staking rewards as they would on validators. By staking on smart contracts you not only get staking rewards but you support your favorite project that is building in our ecosystem. 
 
-It’s still possible to stake on collators in our network but this is possible with our partners who builds their own nominated system for their collator.  
-  
-  
-  
-
+It’s still possible to stake on collators in our network but this is possible with our partners who build their own nominated system for their collator.
 
