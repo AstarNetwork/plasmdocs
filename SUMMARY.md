@@ -31,6 +31,7 @@
   * [Crowdloan](learn/parachain-lease-offering/crowdloan.md)
   * [Auction](learn/parachain-lease-offering/auction.md)
   * [Shiden Parachain Auction Strategy](learn/parachain-lease-offering/shiden-parachain-auction-strategy.md)
+  * [Unlock vested tokens](learn/parachain-lease-offering/unlock-vested-tokens.md)
   * [Joining from Polkadot.js](learn/parachain-lease-offering/joining-from-polkadot.js.md)
   * [Joining from Exchanges](learn/parachain-lease-offering/joining-from-exchanges/README.md)
     * [Joining from Kraken](learn/parachain-lease-offering/joining-from-exchanges/joining-from-kraken.md)
