@@ -72,6 +72,8 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 
 ## Build with Docker or use binaries
 
+### Docker
+
 You can download the docker [here](https://hub.docker.com/layers/staketechnologies/astar-collator/shiden/images/sha256-0a816762ae34767aff8dea62c905b5ca89e8f7a9c0d6f046c20514fa8474c329?context=explore).
 
 ### Binaries
