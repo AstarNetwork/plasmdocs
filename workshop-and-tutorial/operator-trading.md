@@ -1,4 +1,4 @@
-# Negociação do operador 💱
+# Negociação do operador ��
 
 ## **Preparação**
 

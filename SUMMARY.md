@@ -32,7 +32,7 @@
 
 * [Smart Contract](workshop-and-tutorial/smart-contract.md)
 * [Guia do validador 🔱](workshop-and-tutorial/untitled.md)
-* [Negociação do operador 💱](workshop-and-tutorial/operator-trading.md)
+* [Negociação do operador ��](workshop-and-tutorial/operator-trading.md)
 * [dApps Reward 🍦](workshop-and-tutorial/dapps-reward.md)
 * [Lockdrop Tutorial 🔒](workshop-and-tutorial/lockdrop-tutrial.md)
 * [Unlock Tutorial 🔓](workshop-and-tutorial/unlock-tutrial.md)
