@@ -83,3 +83,9 @@ wget https://github.com/PlasmNetwork/Plasm/releases/download/shiden-6/astar-coll
 tar -xf astar-collator-2.3-ubuntu-x86_64.tar.gz
 ```
 
+## Kusama Relay Chain snapshot
+
+If you run your collator it not only needs to sync the Shiden Network chain but also the complete relay chain from Kusama. This can take up to 3-4 days. You can also use a snapshot of Kusama. You can download this [here](https://ksm-rocksdb.polkashots.io/) and will save a lot of time.
+
+**NOTE**: know what you are doing!
+
