@@ -52,6 +52,11 @@ To become a collator for Shiden, you need to know these settings:
 * Slots: 200 active collators
 * Estimated annual percentage yield: 11%
 
+{% hint style="info" %}
+We have a whitelist program for those who have supported our mainnet Plasm or Dusty from the beginning. If you think you are eligible, you can apply in this [form](https://share.hsforms.com/1b6cX8RaTS5Wr2yCeYkcUNgc2ryh).   
+**NOTE**: [On-Chain identity](../../integration/on-chain-identity.md) is required.
+{% endhint %}
+
 ### System requirements
 
 A collator usually deploys its nodes on cloud servers. You can choose your preferred VPS service provider and operating system. We recommend Ubuntu 20.04 and Azure.
