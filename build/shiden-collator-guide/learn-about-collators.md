@@ -65,19 +65,12 @@ A collator usually deploys its nodes on cloud servers. You can choose your prefe
 
 Shiden will provide a basic configuration for reference, which guarantees that all blocks can process in time. If the hardware is inferior to that, there is a chance it will be malfunctioning.
 
-**Basic configuration:**
-
-* System: Linux or macOS, Ubuntu 20.04 is recommended
-* CPU: at least two cores, Intel Core
-* Memory: at least 8 GB
-* Hard disk: at least 120 GB, regularly evaluated
-
 **Recommended configuration:**
 
 * System: Linux or macOS, Ubuntu 20.04
 * CPU: 4 cores, Intel Core
 * Memory: 8-16 GB
-* Hard Disk: 250 GB
+* Hard Disk: 150 GB
 
 ## How to deploy your node 
 
