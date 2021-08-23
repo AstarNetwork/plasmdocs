@@ -54,7 +54,7 @@ To become a collator for Shiden, you need to know these settings:
 
 ### System requirements
 
-A collator usually deploys its nodes on cloud servers. You can choose your preferred VPS service provider and operating system. We recommend Ubuntu 18.04 and Azure.
+A collator usually deploys its nodes on cloud servers. You can choose your preferred VPS service provider and operating system. We recommend Ubuntu 20.04 and Azure.
 
 **Hardware requirements:**
 
@@ -62,14 +62,14 @@ Shiden will provide a basic configuration for reference, which guarantees that a
 
 **Basic configuration:**
 
-* System: Linux or macOS, Ubuntu 20 is recommended
+* System: Linux or macOS, Ubuntu 20.04 is recommended
 * CPU: at least two cores, Intel Core
 * Memory: at least 8 GB
 * Hard disk: at least 120 GB, regularly evaluated
 
 **Recommended configuration:**
 
-* System: Linux or macOS, Ubuntu 20
+* System: Linux or macOS, Ubuntu 20.04
 * CPU: 4 cores, Intel Core
 * Memory: 8-16 GB
 * Hard Disk: 250 GB
