@@ -1,4 +1,4 @@
-# Bware Labs Integration
+# Using Bware Labs
 
 ![](../.gitbook/assets/bwarelabs.png)
 

@@ -56,13 +56,15 @@
 * [Metamask support](integration/metamask-signatures.md)
 * [Using Hardhat](integration/using-hardhat.md)
 * [Mainnet RPC and Node](integration/mainnet-rpc-and-node.md)
-* [Bware Labs Integration](integration/bware-labs.md)
+* [Using Bware Labs](integration/bware-labs.md)
+* [Using Redspot by Patract Lab](integration/using-redspot-by-patract-lab.md)
 
 ## Build
 
 * [Polkadot.js](build/polkdotjs.md)
 * [Smart Contracts](build/smart-contracts/README.md)
   * [Ethereum Virtual Machine](build/smart-contracts/ethereum-virtual-machine/README.md)
+    * [Untitled](build/smart-contracts/ethereum-virtual-machine/untitled.md)
     * [Ethereum Contract in Your Local Environment](build/smart-contracts/ethereum-virtual-machine/evm-smart-contracts.md)
     * [Ethereum Contract on Dusty Network](build/smart-contracts/ethereum-virtual-machine/ethereum-contract-on-dusty-network.md)
     * [EVM Precompiled Contracts](build/smart-contracts/ethereum-virtual-machine/evm-precompiles.md)
