@@ -56,7 +56,7 @@
 * [Metamask support](integration/metamask-signatures.md)
 * [Using Hardhat](integration/using-hardhat.md)
 * [Mainnet RPC and Node](integration/mainnet-rpc-and-node.md)
-* [Bware Labsn Integration](integration/bware-labs.md)
+* [Bware Labs Integration](integration/bware-labs.md)
 
 ## Build
 

@@ -1,4 +1,4 @@
-# Bware Labsn Integration
+# Bware Labs Integration
 
 ![](../.gitbook/assets/bwarelabs.png)
 
