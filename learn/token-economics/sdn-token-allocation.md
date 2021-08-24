@@ -2,8 +2,6 @@
 
 Shiden Network is a fork of Plasm Network and acts as a smart contract Kusama Parachain. The token economics of Shiden Network is slightly different from Plasm Network because Kusama is different from Polkadot.
 
-![](../../.gitbook/assets/screen-shot-2021-05-21-at-8.35.34.png)
-
 |  | % | Details |
 | :--- | :--- | :--- |
 | Users \(\#3,000,000\) | 30 | We have done 2 lockdrops with ETH. More than 150,000 ETH had been locked on our smart contract in 2 months. We issued tokens based on the opportunity cost and operation costs. **Our lockdrop is NOT an ICO or investment but a sort of staking. We forked Plasm at block number \#3,000,000. Users who have PLM at that moment can claim SDN.** |
@@ -12,7 +10,7 @@ Shiden Network is a fork of Plasm Network and acts as a smart contract Kusama Pa
 | Protocol Development | 10 | Funds to be used for protocol developments and a grant program \(TBA\) |
 | On Chain DAO | 5 | Funds for the on-chain treasury that our community decides how to use.  |
 | Marketing | 5 | Funds to be used for marketing purposes. |
-| Institutional Investors | 10 | Token will be transferred once  Plasm/Shiden Network becomes a Parachain.  |
+| Ecosystem Growth | 10 | Funds to be used for ecosystem growth program |
 | Team | 5 | Incentive pool for employees.  |
 
 To make the difference understandable, I would like to write the difference below.
