@@ -1,6 +1,6 @@
 # SDN Token Allocation
 
-Shiden Network is a fork of Plasm Network and acts as a smart contract Kusama Parachain. The token economics of Shiden Network is slightly different from Plasm Network because Kusama is different from Polkadot.
+Shiden Network is a fork of Plasm Network and acts as a smart contract Kusama Parachain. The token economics of Shiden Network is slightly different from Plasm Network because Kusama is different from Polkadot. The initial token supply is 70 million with 10% inflation every year.
 
 |  | % | Details |
 | :--- | :--- | :--- |
