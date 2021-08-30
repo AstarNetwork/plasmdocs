@@ -39,7 +39,7 @@ Download everything from our Github and use the Shiden branch:
 ```text
 git clone https://github.com/PlasmNetwork/Astar.git
 cd Astar
-git checkout production/shiden
+git checkout development/shiden
 ```
 
 Make sure you have the latest commits in place:
