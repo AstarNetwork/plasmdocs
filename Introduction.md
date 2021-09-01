@@ -9,8 +9,8 @@ description: >-
 
 ![](.gitbook/assets/landscape.png)
 
-If you are looking to learn about Shiden Network, please go [here.](https://docs.astar.network/learn/shiden-network)  
-Looking for support? Please [checkout the forum](https://forum.plasmnet.io/), [Telegram](https://t.me/PlasmOfficial), or [Discord](https://discord.com/invite/wUcQt3R)!
+If you are looking to learn about Shiden Network, please go [here.](https://shiden.astar.network)  
+Looking for support? Please [checkout the forum](https://forum.astar.network), [Telegram](https://t.me/PlasmOfficial), or [Discord](https://discord.com/invite/wUcQt3R)!
 
 If you need PLD \(dusty native tokens\) for development, go to the \#faucet channel on discord or use [this!](https://plasm-faucet-frontend.vercel.app/)
 
