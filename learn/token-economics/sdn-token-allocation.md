@@ -4,7 +4,7 @@ Shiden Network is a fork of Plasm Network and acts as a smart contract Kusama Pa
 
 |  | % | Details |
 | :--- | :--- | :--- |
-| Users \(\#3,000,000\) | 30 | We have done 2 lockdrops with ETH. More than 150,000 ETH had been locked on our smart contract in 2 months. We issued tokens based on the opportunity cost and operation costs. **Our lockdrop is NOT an ICO or investment but a sort of staking. We forked Plasm at block number \#3,000,000. Users who have PLM at that moment can claim SDN.** |
+| Users \(\#3,000,000\) | 30 | We have done 2 lockdrops with ETH. More than 150,000 ETH had been locked on our smart contract in 2 months. We issued tokens based on the opportunity cost and operation costs. **Our lockdrop is NOT an ICO or investment but a sort of staking. We forked Plasm at block number \#3,000,000.** |
 | Parachain Auctions | 30 | To become a Polkadot Parachain, we collect KSMs from the community and issue SDNs as a reward. **30% is prepared for the crowdloans for Parachain Lease Offering. We are going to use 22% for the first auction and 8% for the second auction.** |
 | Parachain Auction Reserve | 5 | Funds to be used for future parachain Lease Offerings. \(Additional funds\) |
 | Protocol Development | 10 | Funds to be used for protocol developments and a grant program \(TBA\) |
