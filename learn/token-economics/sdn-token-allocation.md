@@ -13,7 +13,7 @@ Shiden Network is a fork of Plasm Network and acts as a smart contract Kusama Pa
 | Ecosystem Growth | 10 | Funds to be used for ecosystem growth program |
 | Team | 5 | Incentive pool for employees.  |
 
-**※ Our core team manages the assets and all assets shall be used in 3 years except for on-chain governance. On-chain governance will be activated after we enter into DAO. Hence, all assets transfers are verifiable on block explorers, the team can't manipulate the market.** 
+**※ Our core team manages the assets and all assets shall be used in 3 years except for on-chain governance. On-chain governance will be activated after we enter into DAO. Since all assets transfers are verifiable on block explorers, the team can't manipulate the market.** 
 
 To make the difference understandable, I would like to write the difference below.
 
