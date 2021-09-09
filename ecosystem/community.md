@@ -4,7 +4,7 @@ description: Plasm Network community channels
 
 # Community
 
-![](../.gitbook/assets/screenshot-2021-07-27-at-10.40.34-am.png)
+![](../.gitbook/assets/screenshot-2021-09-10-at-12.22.48-am.png)
 
 ## Collaborations
 
