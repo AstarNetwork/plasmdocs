@@ -53,8 +53,8 @@ To become a collator for Shiden, you need to know these settings:
 * Estimated annual percentage yield: 11%
 
 {% hint style="info" %}
-We have a whitelist program for those who have supported our mainnet Plasm or Dusty from the beginning. If you think you are eligible, you can apply in this [form](https://share.hsforms.com/1b6cX8RaTS5Wr2yCeYkcUNgc2ryh).   
-**NOTE**: [On-Chain identity](../../integration/on-chain-identity.md) is required.
+Set your collator with:   
+**Extrinsics - CollatorSelection - Registrer as candidate**
 {% endhint %}
 
 ### System requirements
