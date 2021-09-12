@@ -82,6 +82,19 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 </table>
 {% endtab %}
 
+{% tab title="Shibuya" %}
+The documentation corresponding contains details for the RPC - HTTP, WSS endpoints. 
+
+|  |  |
+| :--- | :--- |
+| **Network name** | Shibuya Network \(parachain testnet\) |
+| **Parent chain** | Tokyo |
+| **chainID** | 2000 |
+| **RPC** | https://rpc.shibuya.astar.network:8545 |
+| **WebSocket** | wss://rpc.shibuya.astar.network |
+| **Block explorer** | not  yet available |
+{% endtab %}
+
 {% tab title="Dusty Network" %}
 The documentation corresponding contains details for the RPC - HTTP, WSS endpoints. 
 
