@@ -64,7 +64,6 @@
 * [Polkadot.js](build/polkdotjs.md)
 * [Smart Contracts](build/smart-contracts/README.md)
   * [Ethereum Virtual Machine](build/smart-contracts/ethereum-virtual-machine/README.md)
-    * [Untitled](build/smart-contracts/ethereum-virtual-machine/untitled.md)
     * [Ethereum Contract in Your Local Environment](build/smart-contracts/ethereum-virtual-machine/evm-smart-contracts.md)
     * [Ethereum Contract on Dusty Network](build/smart-contracts/ethereum-virtual-machine/ethereum-contract-on-dusty-network.md)
     * [EVM Precompiled Contracts](build/smart-contracts/ethereum-virtual-machine/evm-precompiles.md)

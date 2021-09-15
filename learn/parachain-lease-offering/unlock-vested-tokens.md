@@ -13,10 +13,6 @@ As you know, at the end of the crowdloan your tokens got locked for one month an
 ## How vesting works
 
 {% hint style="info" %}
-**NOTE**: transactions are still disabled at this point, so it's not possible to transfer tokens to another wallet!
-{% endhint %}
-
-{% hint style="info" %}
 This tutorial is built for users who joined the crowdloan through polkadot.js.org or can export their wallets to this website. If you received your tokens on CEX you need to ask their support on how vesting will work on their platform.
 {% endhint %}
 
