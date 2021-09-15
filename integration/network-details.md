@@ -35,9 +35,24 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
       <td style="text-align:left">Kusama</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>chainID</b>
+      <td style="text-align:left"><b>parachainID</b>
       </td>
       <td style="text-align:left">2007</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>EVM RPC</b>
+      </td>
+      <td style="text-align:left">https://rpc.shiden.astar.network:8545</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>ChianID</b>
+      </td>
+      <td style="text-align:left">336</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Symbol</b>
+      </td>
+      <td style="text-align:left">SDN</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>RPC</b>
