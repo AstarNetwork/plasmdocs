@@ -68,7 +68,7 @@ You can see that I now converted my SS58 address into a H160 address. With this 
 
 ![MetaMask](../../.gitbook/assets/image%20%2884%29.png)
 
-In this example, I'm sending 10 SBY \(testnet tokens\) to my converted SS58 address. Click on 'Next' and confirm your transactions. 
+In this example, I'm sending 10 SBY \(testnet tokens\) to my converted SS58 address. Click on 'Next' and confirm your transaction. 
 
 ![Transaction completed](../../.gitbook/assets/image%20%2883%29.png)
 
