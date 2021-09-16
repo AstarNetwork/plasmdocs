@@ -54,7 +54,8 @@
 
 * [Network details](integration/network-details.md)
 * [On-Chain Identity](integration/on-chain-identity.md)
-* [Metamask support](integration/metamask-signatures.md)
+* [Metamask support](integration/metamask-signatures/README.md)
+  * [Sending tokens](integration/metamask-signatures/sending-tokens.md)
 * [Using Hardhat](integration/using-hardhat.md)
 * [Using Bware Labs](integration/bware-labs.md)
 * [Using Redspot by Patract Lab](integration/using-redspot-by-patract-lab.md)
