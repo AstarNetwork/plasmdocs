@@ -103,11 +103,13 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 |  |  |
 | :--- | :--- |
 | **Network name** | Shibuya Network \(parachain testnet\) |
-| **Parent chain** | Tokyo |
-| **chainID** | 2000 |
+| **Parent chain** | Tokyo \(own relay chain\) |
+| **parachainID** | 2000 |
 | **RPC** | https://rpc.shibuya.astar.network:8545 |
+| **chainID** | 81 |
+| **Symbol** | SBY |
 | **WebSocket** | wss://rpc.shibuya.astar.network |
-| **Block explorer** | not  yet available |
+| **Block explorer** | https://shibuya.subscan.io |
 {% endtab %}
 
 {% tab title="Dusty Network" %}
