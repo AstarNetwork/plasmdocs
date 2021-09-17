@@ -1,4 +1,4 @@
-# Network details
+# Network Details
 
 ## Shiden
 

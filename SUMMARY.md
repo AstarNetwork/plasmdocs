@@ -52,10 +52,10 @@
 
 ## Integration
 
-* [Network details](integration/network-details.md)
+* [Network Details](integration/network-details.md)
 * [On-Chain Identity](integration/on-chain-identity.md)
-* [Metamask support](integration/metamask/README.md)
-  * [Sending tokens](integration/metamask/sending-tokens.md)
+* [Metamask Support](integration/metamask/README.md)
+  * [Sending Tokens](integration/metamask/sending-tokens.md)
 * [Using Hardhat](integration/using-hardhat.md)
 * [Using Bware Labs](integration/bware-labs.md)
 * [Using Redspot by Patract Lab](integration/using-redspot-by-patract-lab.md)

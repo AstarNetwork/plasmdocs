@@ -2,7 +2,7 @@
 description: The guide of using Metamask on substrate-based chains.
 ---
 
-# Metamask support
+# Metamask Support
 
 Substrate does not allow the users to sign custom transactions with arbitrary data using Metamask or any other Ethereum wallet to use the standard API calls. For example, JSON-RPC API defines the `eth_sign` call which is used for signing arbitrary data. However, this call requires a standard [prefix](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-personal.html#sign) to all data by `\0x19Ethereum Signed Message` due to security concerns. This is done to prevent users from unknowingly sign transactions, and by design, it is impossible to sign binary data, like Substrate Extrinsic.
 
