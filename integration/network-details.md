@@ -100,16 +100,63 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 {% tab title="Shibuya" %}
 The documentation corresponding contains details for the RPC - HTTP, WSS endpoints. 
 
-|  |  |
-| :--- | :--- |
-| **Network name** | Shibuya Network \(parachain testnet\) |
-| **Parent chain** | Tokyo \(own relay chain\) |
-| **parachainID** | 2000 |
-| **RPC** | https://rpc.shibuya.astar.network:8545 |
-| **chainID** | 81 |
-| **Symbol** | SBY |
-| **WebSocket** | wss://rpc.shibuya.astar.network |
-| **Block explorer** | https://shibuya.subscan.io |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>Network name</b>
+      </td>
+      <td style="text-align:left">Shibuya Network (parachain testnet)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Parent chain</b>
+      </td>
+      <td style="text-align:left">Tokyo (own relay chain)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>parachainID</b>
+      </td>
+      <td style="text-align:left">2000</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>RPC</b>
+      </td>
+      <td style="text-align:left">https://rpc.shibuya.astar.network:8545</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>chainID</b>
+      </td>
+      <td style="text-align:left">81</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Symbol</b>
+      </td>
+      <td style="text-align:left">SBY</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>WebSocket</b>
+      </td>
+      <td style="text-align:left">
+        <p>wss://rpc.shibuya.astar.network</p>
+        <p></p>
+        <p>Public end-points (thanks to Euskoin):</p>
+        <p>wss://shibuya.eusko.in
+          <br />wss://shibuya1.eusko.in
+          <br />wss://shibuya2.eusko.in</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Block explorer</b>
+      </td>
+      <td style="text-align:left">https://shibuya.subscan.io</td>
+    </tr>
+  </tbody>
+</table>
 {% endtab %}
 
 {% tab title="Dusty Network" %}
