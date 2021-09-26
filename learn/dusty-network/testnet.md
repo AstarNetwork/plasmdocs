@@ -34,12 +34,6 @@ Major upgrades occur when the testnet is completely rebuilt including major upgr
 
 The Astar`canary` network is a `beta` Mainnet. **Dusty** observe and debug the mainnet code for approximately two weeks.
 
-### Incentives <a id="incentives"></a>
-
-Dusty network participation is incentivized, paying rewards in PLD \(network native token\) to PoA validators and dApps operator nominators. Soon this will be upgraded to NPoS.
-
-> When Astar Network token stake technology is implemented, **0.5%** of the total Astar token supply will be airdropped to Dusty token holders.
-
 Planned features:
 
 * Multi-lockdrop
