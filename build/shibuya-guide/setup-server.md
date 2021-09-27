@@ -9,9 +9,9 @@ There are multiple ways to setup server where you will run your validator node. 
 Build your server and use the following recommendations:
 
 ```text
-vCPU: 2
-RAM: 8 Gig
-Disk space: between 50-100 Gig
+vCPU: 4
+RAM: 16 Gig
+Disk space: between 60-120 Gig
 ```
 
 ## 1. Setup Azure Server

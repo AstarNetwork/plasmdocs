@@ -39,7 +39,7 @@ Astar Network is an open-source project. There are a lot of opportunities to get
 
 ## Want to run a node? Please visit 👇
 
-{% page-ref page="build/validator-guide/" %}
+{% page-ref page="build/shibuya-guide/" %}
 
 ## Contributions Area
 

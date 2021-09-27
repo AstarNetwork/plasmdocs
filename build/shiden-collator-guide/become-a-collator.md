@@ -10,7 +10,7 @@ Before building your collator, make sure you understand the role of collators in
 
 {% page-ref page="learn-about-collators.md" %}
 
-{% page-ref page="../validator-guide/" %}
+{% page-ref page="../shibuya-guide/" %}
 
 ### Building Shiden collator
 
