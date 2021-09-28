@@ -12,5 +12,11 @@ Shibuya is the Shiden’s parachain testnet with EVM functionalities which is th
 
 ### Faucet:
 
-{% page-ref page="./" %}
+{% page-ref page="../testnet-faucet.md" %}
+
+### Build a Collator:
+
+{% page-ref page="shibuya-node.md" %}
+
+
 
