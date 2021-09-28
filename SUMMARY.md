@@ -62,6 +62,7 @@
 ## Build
 
 * [Polkadot.js](build/polkdotjs.md)
+* [Testnet Faucet](build/testnet-faucet.md)
 * [Smart Contracts](build/smart-contracts/README.md)
   * [Ethereum Virtual Machine](build/smart-contracts/ethereum-virtual-machine/README.md)
     * [Ethereum Contract in Your Local Environment](build/smart-contracts/ethereum-virtual-machine/evm-smart-contracts.md)
