@@ -2,7 +2,7 @@
 description: Thanks Hoon Kim for making the faucet.
 ---
 
-# Testnet Faucet
+# Shibuya Faucet
 
 Shibuya is a testnet of both Shiden and Astar. We have created a faucet Discord bot that provides **SBY** \(Testnet Token\). 
 

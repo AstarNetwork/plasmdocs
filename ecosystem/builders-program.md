@@ -28,9 +28,7 @@ The application track is geared primarily towards building dApps in the Astar ec
 
 ## Workflow
 
-![Workflow Builders Program](../.gitbook/assets/image%20%2880%29.png)
-
-
+![](../.gitbook/assets/schermafbeelding-2021-09-28-om-12.49.25.png)
 
 ## Why should I apply for your Builders Program?
 
