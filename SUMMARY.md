@@ -53,6 +53,7 @@
 * [Network Details](integration/network-details.md)
 * [On-Chain Identity](integration/on-chain-identity.md)
 * [Metamask Support](integration/metamask/README.md)
+  * [Adding Networks](integration/metamask/adding-networks.md)
   * [Sending Tokens](integration/metamask/sending-tokens.md)
 * [Using Hardhat](integration/using-hardhat.md)
 * [Using Bware Labs](integration/bware-labs.md)
