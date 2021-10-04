@@ -2,7 +2,7 @@
 description: 'Final Version: 2021/02/28'
 ---
 
-# Astar Token Allocation
+# $ASTR Allocation
 
 ![](../../.gitbook/assets/screen-shot-2021-05-21-at-8.37.07.png)
 

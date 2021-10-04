@@ -44,8 +44,8 @@
 * [Token Economics](learn/token-economics/README.md)
   * [Lockdrop](learn/token-economics/lockdrop.md)
   * [About Astar and Shiden Tokens](learn/token-economics/usages-of-astar-tokens.md)
-  * [Astar Token Allocation](learn/token-economics/token-allocation.md)
-  * [SDN Token Allocation](learn/token-economics/sdn-token-allocation.md)
+  * [$ASTR Allocation](learn/token-economics/token-allocation.md)
+  * [$SDN Token Allocation](learn/token-economics/sdn-token-allocation.md)
   * [Staking, Liquidity, and Inflation Model](learn/token-economics/token-economy.md)
 
 ## Integration
