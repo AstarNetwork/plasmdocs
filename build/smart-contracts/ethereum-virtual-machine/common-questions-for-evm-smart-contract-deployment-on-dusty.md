@@ -22,6 +22,7 @@ description: 'Updated: 04/22 by Mario'
   * New RPC URL: [https://rpc.dusty.plasmnet.io:8545](https://rpc.dusty.plasmnet.io:8545/)
   * Chain ID: 80
   * Currency Symbol: PLD
+  * or check this [guide](https://docs.astar.network/integration/metamask/adding-networks) 
 * **How can I get test tokens \(PLD\)?**
   1. copy your metamask address \(a1\)
   2. swap to polkadot address [here](http://polkatools.hoonkim.me/index.html) \(a1 -&gt; a2\)
