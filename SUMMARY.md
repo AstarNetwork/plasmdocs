@@ -84,7 +84,7 @@
     * [Ethereum Contract in Your Local Environment](build/smart-contracts/ethereum-virtual-machine/evm-smart-contracts.md)
     * [Ethereum Contract on Dusty Network](build/smart-contracts/ethereum-virtual-machine/ethereum-contract-on-dusty-network.md)
     * [EVM Precompiled Contracts](build/smart-contracts/ethereum-virtual-machine/evm-precompiles.md)
-    * [FAQ for EVM smart contract deployment on Dusty](build/smart-contracts/ethereum-virtual-machine/common-questions-for-evm-smart-contract-deployment-on-dusty.md)
+    * [FAQ for EVM smart contract deployment](build/smart-contracts/ethereum-virtual-machine/common-questions-for-evm-smart-contract-deployment-on-dusty.md)
   * [WASM](build/smart-contracts/wasm/README.md)
     * [Redspot by Patract Labs](build/smart-contracts/wasm/redspot-by-patract-labs.md)
     * [Solidity to WASM Compiler](build/smart-contracts/wasm/solidity.md)
@@ -121,4 +121,8 @@
 * [Tech Chat \(Discord\)](https://discord.com/invite/wUcQt3R)
 * [GitHub](https://github.com/PlasmNetwork/Plasm)
 * [Forum](https://forum.astar.network)
+
+---
+
+* [Ethereum Bridge](ethereum-bridge.md)
 
