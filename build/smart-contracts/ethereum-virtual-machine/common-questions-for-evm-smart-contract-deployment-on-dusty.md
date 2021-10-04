@@ -35,4 +35,6 @@ description: 'Updated: 04/22 by Mario'
   * No. Polkadot \(Substrate framework\) uses 256 bit address while Metamask uses 160 bit address
 * **Can I interact with EVM contracts by using existing Dusty/Substrate account \(non-ecdsa\)?**
   * Any Substrate account could call EVM in Substrate, address will be mapped into EVM compatible representation
+* **I was able to deploy contracts in other networks, but contracts deployed in this network shows "out of gas" error with the error code of 0. How do I fix it?**
+  * Contract size limit may differ in the network, it is recommended to lower optimizer runs of the same smart contract for adjusting compatible size for the network. Please try testnet to tune it.
 
