@@ -109,6 +109,13 @@
 * [Operator Trading](build/operator-trading.md)
 * [ink!](build/ink.md)
 * [dApps Staking](build/dapps-reward.md)
+* [Tutorial](build/tutorial/README.md)
+  * [Develop and Deploy your first smart contract on Aster/Shiden EVM](build/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/README.md)
+    * [Aster/Shiden Network Family](build/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/aster-shiden-network-family.md)
+    * [Running local network](build/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/running-local-network.md)
+    * [Configure Metamask](build/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/configure-metamask.md)
+    * [Deploy Contract on Local Network](build/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-local-network.md)
+    * [Deploy Contract on Shibuya and Shiden](build/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-shibuya-and-shiden.md)
 
 ## Basic
 
