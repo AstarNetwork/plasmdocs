@@ -20,5 +20,3 @@ We, of course, offer a local network to allow you to check your smart contract r
 If you want to know the network details, please check out [this page](../../integration/network-details.md).
 {% endhint %}
 
-
-
