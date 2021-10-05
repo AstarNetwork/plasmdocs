@@ -112,13 +112,12 @@
 
 ## Tutorial
 
-* [Tutorial](tutorial/tutorial/README.md)
-  * [Develop and Deploy your first smart contract on Aster/Shiden EVM](tutorial/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/README.md)
-    * [Aster/Shiden Network Family](tutorial/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/aster-shiden-network-family.md)
-    * [Running local network](tutorial/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/running-local-network.md)
-    * [Configure Metamask](tutorial/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/configure-metamask.md)
-    * [Deploy Contract on Local Network](tutorial/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-local-network.md)
-    * [Deploy Contract on Shibuya and Shiden](tutorial/tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-shibuya-and-shiden.md)
+* [Develop and Deploy your first smart contract on Aster/Shiden EVM](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/README.md)
+  * [Aster/Shiden Network Family](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/aster-shiden-network-family.md)
+  * [Running local network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/running-local-network.md)
+  * [Configure Metamask](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/configure-metamask.md)
+  * [Deploy Contract on Local Network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-local-network.md)
+  * [Deploy Contract on Shibuya and Shiden](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-shibuya-and-shiden.md)
 
 ## Basic
 

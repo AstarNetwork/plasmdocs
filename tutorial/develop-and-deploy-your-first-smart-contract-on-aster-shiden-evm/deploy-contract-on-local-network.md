@@ -22,14 +22,14 @@ This contract issues ERC20 token whose name is TestToken, ticker is TST, and tot
 
 Go to Deploy and Run Transactions tab. You should switch the environment to Injected Web3. Please make sure that you can see Custom \(4369\) network under the environment field. If you cannot see that, please switch the network on Metamask. Now you screen should be like as follows:
 
-![](../../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%2895%29.png)
 
 ## Deploy Contract on Local Network
 
 Now press the Deploy button on Remix! You can see popup-window of Metamask and press Confirm button.  
 ...Congratulations🎉 Your contract has successfully been deployed on your Shiden local network now! As the evidence, you can see EVM events on the explorer.
 
-![](../../../.gitbook/assets/image%20%2897%29.png)
+![](../../.gitbook/assets/image%20%2897%29.png)
 
 ## See your token on Metamask
 
@@ -37,5 +37,5 @@ This token can be added to Metamask because this contract is fully compatible to
 
 Now you can see your ERC20 token, which is deployed on Shiden local network, on your Metamask. You can, of course, send this token to the Ethereum addresses. 
 
-![](../../../.gitbook/assets/image%20%28101%29.png)
+![](../../.gitbook/assets/image%20%28101%29.png)
 

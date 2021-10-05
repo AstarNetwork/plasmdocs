@@ -54,7 +54,7 @@ You can see the full list of the command option from the help subcommand:
 
 When you succeed to run the local network, you can see the following messages on your terminal:
 
-![](../../../.gitbook/assets/image%20%2899%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 OK! Let's visualize your local network now!
 
@@ -65,11 +65,11 @@ Access the following URL:
 
 Then you can see the following screen:
 
-![](../../../.gitbook/assets/image%20%28103%29.png)
+![](../../.gitbook/assets/image%20%28103%29.png)
 
 This visualizes your local network. In this local network, some native tokens are already issued and allocated to some accounts. Let's go to the [Account page](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/accounts) from Accounts Tab. 
 
-![](../../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
 You can see that ALICE and BOB have around 1,000 tokens. In the following section, you can deploy your smart contract and interact with it by paying the transaction fee using these tokens.
 
