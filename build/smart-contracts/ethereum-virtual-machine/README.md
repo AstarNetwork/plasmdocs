@@ -8,7 +8,7 @@
 
 {% page-ref page="evm-precompiles.md" %}
 
-{% page-ref page="common-questions-for-evm-smart-contract-deployment-on-dusty.md" %}
+{% page-ref page="common-questions-for-evm-smart-contract-deployment.md" %}
 
 
 
