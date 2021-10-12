@@ -3,7 +3,7 @@
 * [Welcome](Introduction.md)
 * [Introduction](introduction-1.md)
 * [Our Journey](our-journey.md)
-* [Astar \(formerly Plasm\)](astar-formerly-plasm.md)
+* [Astar (formerly Plasm)](astar-formerly-plasm.md)
 
 ## Ecosystem
 
@@ -20,7 +20,7 @@
   * [Consensus](learn/polkadot-and-astar/consennsus.md)
 * [Core Features](learn/core-features/README.md)
   * [dApps Staking](learn/core-features/dapps-reward.md)
-  * [X-VM \(Cross Virtual Machine\)](learn/core-features/x-vm-cross-virtual-machine.md)
+  * [X-VM (Cross Virtual Machine)](learn/core-features/x-vm-cross-virtual-machine.md)
   * [Operator Trading](learn/core-features/operator-trading.md)
 * [Layer 2](learn/layer2/README.md)
   * [Plasma Overview](learn/layer2/plasm-overview.md)
@@ -51,6 +51,8 @@
 ## Integration
 
 * [Network Details](integration/network-details.md)
+* [dApp Staking](integration/dapp-staking.md)
+* [Anyswap Bridge](integration/anyswap-bridge.md)
 * [On-Chain Identity](integration/on-chain-identity.md)
 * [Metamask Support](integration/metamask/README.md)
   * [Adding Networks](integration/metamask/adding-networks.md)
@@ -126,12 +128,11 @@
 
 ## External Links
 
-* [Astar \(formerly Plasm\) Network White Paper](https://github.com/PlasmNetwork/plasmdocs/blob/master/wp/en.pdf)
-* [Tech Chat \(Discord\)](https://discord.com/invite/wUcQt3R)
+* [Astar (formerly Plasm) Network White Paper](https://github.com/PlasmNetwork/plasmdocs/blob/master/wp/en.pdf)
+* [Tech Chat (Discord)](https://discord.com/invite/wUcQt3R)
 * [GitHub](https://github.com/PlasmNetwork/Plasm)
 * [Forum](https://forum.astar.network)
 
----
+***
 
 * [Ethereum Bridge](ethereum-bridge.md)
-

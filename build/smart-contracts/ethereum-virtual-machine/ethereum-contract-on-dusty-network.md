@@ -8,7 +8,7 @@ Check out our demo below
 
 {% embed url="https://www.youtube.com/watch?v=5C8l9XWCWoI&t=67s" %}
 
-First of all, let's open [Remix](https://remix.ethereum.org/) and create a new file. 
+First of all, let's open [Remix](https://remix.ethereum.org) and create a new file. 
 
 ![](../../../.gitbook/assets/screen-shot-2021-03-14-at-15.23.26.png)
 
@@ -22,10 +22,10 @@ Click the tab  and select "Custom RPC"
 
 then enter the following values:
 
-**RPC server Dusty:**  
-Network Name: Dusty  
-New RPC URL: https://rpc.dusty.plasmnet.io:8545  
-Chain ID: 80  
+**RPC server Dusty:**\
+****Network Name: Dusty\
+New RPC URL: https://rpc.dusty.plasmnet.io:8545\
+Chain ID: 80\
 Currency Symbol: PLD
 {% endtab %}
 
@@ -49,7 +49,7 @@ Currently, you don't have any PLDs and all you can see on Metamask is your Ether
 
 But no worries. Hoon Kim, our core developer made a [converter from Ethereum address to Plasm address](https://hoonsubin.github.io/evm-substrate-address-converter/index.html).
 
-Once you put your Ethereum address, you can see your Dusty Network address. \(In my case, it is `"5GE3BSRDERKkdGEnbkbBjH8iV3WroPgWM15AKQzuTAWprnSK"`\)
+Once you put your Ethereum address, you can see your Dusty Network address. (In my case, it is `"5GE3BSRDERKkdGEnbkbBjH8iV3WroPgWM15AKQzuTAWprnSK"`)
 
 ![](../../../.gitbook/assets/screen-shot-2021-03-14-at-17.38.50.png)
 
@@ -60,4 +60,3 @@ The last thing is to deploy your contract on the network. Select "Injected Web3"
 ![](../../../.gitbook/assets/screen-shot-2021-03-14-at-17.46.04.png)
 
 Once Metamask is launched and you press "Confirm", you can deploy the contract to the network. 
-

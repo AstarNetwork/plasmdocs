@@ -2,11 +2,11 @@
 description: FAQ about rebranding Plasm Network to Astar Network
 ---
 
-# Astar \(formerly Plasm\)
+# Astar (formerly Plasm)
 
-## **Plasm rebrands to Astar Network in pursuit of becoming a Polkadot-native dApp Hub.** <a id="ca4e"></a>
+## **Plasm rebrands to Astar Network in pursuit of becoming a Polkadot-native dApp Hub.** <a href="ca4e" id="ca4e"></a>
 
- Welcome to our next chapter. Today, we are thrilled to announce a rebrand to our new name, [Astar Network](https://astar.network/). ****
+ Welcome to our next chapter. Today, we are thrilled to announce a rebrand to our new name, [Astar Network](https://astar.network).** **
 
 ### From Plasm to Astar Network
 
@@ -37,4 +37,3 @@ No, Shiden will keep the name Shiden Network. A Multi Chain dApps Hub on Kusama!
 ### Why do you hard-fork Plasm?
 
 Technically speaking, when the Polkadot auctions start on Polkadot, we have to restart the network to adjust to the specification of Polkadot. When we launched our mainnet Plasm this information was not yet available. 
-

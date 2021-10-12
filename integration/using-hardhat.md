@@ -6,15 +6,15 @@ description: 'Last update:  2021/04/26'
 
 ![https://hardhat.org/](../.gitbook/assets/screen-shot-2021-04-26-at-15.12.59.png)
 
-## **What’s** [**Hardhat**](https://hardhat.org/)**?**
+## **What’s **[**Hardhat**](https://hardhat.org)**?**
 
 > Hardhat is a development environment to compile, deploy, test, and debug your dApps. It helps developers manage and automate the recurring tasks that are inherent to the process of building smart contracts and dApps, as well as easily introducing more functionality around this workflow. This means compiling, running, and testing smart contracts at the very core.
 >
-> Hardhat comes built-in with Hardhat Network, a local Ethereum network designed for development. It functionality focuses around Solidity debugging, featuring stack traces, console.log\(\), and explicit error messages when transactions fail.   
->   
-> __Learn more from [here](https://hardhat.org/).
+> Hardhat comes built-in with Hardhat Network, a local Ethereum network designed for development. It functionality focuses around Solidity debugging, featuring stack traces, console.log(), and explicit error messages when transactions fail._ _\
+> __\
+> __Learn more from [here](https://hardhat.org).
 
-Hardhat can directly interact with Plasm ecosystem Ethereum API so it can be used to deploy smart contracts into our ecosystem.  
+Hardhat can directly interact with Plasm ecosystem Ethereum API so it can be used to deploy smart contracts into our ecosystem.\
 ****
 
 ## **Hardhat vs Truffle**
@@ -23,7 +23,7 @@ Hardhat and Truffle are both development environments for building on Ethereum a
 
 ## **Follow Along**
 
-**follow along the tutorial by typing everything out or clone our repo** [**here**](https://github.com/PlasmNetwork/Hardhat-tutorial/tree/main) **and view the demo below!**
+**follow along the tutorial by typing everything out or clone our repo **[**here**](https://github.com/PlasmNetwork/Hardhat-tutorial/tree/main)** and view the demo below!**
 
 {% embed url="https://youtu.be/HdV5uNcm-hQ" %}
 
@@ -31,7 +31,7 @@ Hardhat and Truffle are both development environments for building on Ethereum a
 
 We need to install Node.js and npm package manager. You can download directly from [Node.js](https://nodejs.org/en/download/) or in your terminal. You can verify that everything is installed correctly by querying the version for each package:
 
-```text
+```
 node -v
 npm -v
 ```
@@ -39,19 +39,19 @@ npm -v
 Make sure you have MetaMask ready:
 
 * Have MetaMask installed and [connected to Dusty](https://docs.plasmnet.io/build/smart-contracts/ethereum-virtual-machine/ethereum-contract-on-dusty-network)
-* Make sure that your account has PLD \(test tokens\)
+* Make sure that your account has PLD (test tokens)
 
 ## **Quick Start**
 
 To start a new project, create a directory for it and change to that directory:
 
-```text
+```
 mkdir test && cd test
 ```
 
 Initialize the project by running:
 
-```text
+```
 npm init -y
 ```
 
@@ -61,7 +61,7 @@ You will notice a newly created package.json, which will continue to grow as you
 
 To get started with Hardhat, you have to install it in our newly created project directory:
 
-```text
+```
 npm install hardhat
 npx hardhat //create your Hardhat project
 ```
@@ -82,7 +82,7 @@ If you have not yet done so, connect your MetaMask Account to our ecosystem. We 
 
 First, we need to install the [ethers plugin](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html), this allows you to interact with the blockchain in a simple way. We can install ethers plugin by running:
 
-```text
+```
 npm install @nomiclabs/hardhat-ethers ethers
 ```
 
@@ -92,25 +92,25 @@ npm install @nomiclabs/hardhat-ethers ethers
 
  Then, please open the `hardhat.config.js` file to assign the Solidity version and RPC server. In my case I use Visual Studio Code.
 
-**RPC server Dusty:**  
-Network Name: Dusty  
-New RPC URL: https://rpc.dusty.plasmnet.io:8545  
-Chain ID: 80  
-Currency Symbol: PLD  
-  
-**Localhost:**  
-Network name: Dusty Local  
-New RPC URL: http://localhost:9933  
-Chain ID: 80  
-Currency Symbol: PLD  
-  
-**Developer account \(private key\):** 0x60ed0dd24087f00faea4e2b556c74ebfa2f0e705f8169733b01530ce4c619883
+**RPC server Dusty:**\
+****Network Name: Dusty\
+New RPC URL: https://rpc.dusty.plasmnet.io:8545\
+Chain ID: 80\
+Currency Symbol: PLD\
+\
+**Localhost:**\
+****Network name: Dusty Local\
+New RPC URL: http://localhost:9933\
+Chain ID: 80\
+Currency Symbol: PLD\
+\
+**Developer account (private key): **0x60ed0dd24087f00faea4e2b556c74ebfa2f0e705f8169733b01530ce4c619883
 
-![](../.gitbook/assets/screen-shot-2021-04-26-at-15.54.50%20%281%29.png)
+![](<../.gitbook/assets/screen-shot-2021-04-26-at-15.54.50 (1).png>)
 
 Next, let's create a `private.json`, where we store the private key. Never reveal your private key. The private.json looks like this:
 
-```text
+```
 {
     "privateKey": "YOUR-PRIVATE-KEY-HERE"
 }
@@ -122,7 +122,7 @@ Next, let's create a `private.json`, where we store the private key. Never revea
 
 We will create a simple ‘Hello World’ smart contract in this introduction. We will store our contract in the contracts directory. 
 
-```text
+```
 mkdir contracts && cd contracts
 ```
 
@@ -136,15 +136,15 @@ This is a super simple smart contract that stores a message upon creation and ca
 
 ## **Compiling Solidity**
 
-Our contract, `HelloWorld.sol`, uses Solidity 0.8.1. Make sure the Hardhat configuration file \(`hardhat.config.js`\) is correctly set up with this solidity version. When everything meets the criteria, we can compile the contract by running:
+Our contract, `HelloWorld.sol`, uses Solidity 0.8.1. Make sure the Hardhat configuration file (`hardhat.config.js`) is correctly set up with this solidity version. When everything meets the criteria, we can compile the contract by running:
 
-```text
+```
 npx hardhat compile
 ```
 
 If you don’t have the correct compiler installed, Hardhat will install this for you before compiling the contract. When the contract is compiled your directory will look like this:
 
-![](https://lh3.googleusercontent.com/YQHrHoDZIbbTCx4ow-X0zKP7Qaj3AwuI8qLoEaOTgSEeZKYYTM_p5Y8A16QMagrmu0mUCiGuav1fDjbw6RU9kKjTIIkPZnpuEjmHLKM6didaAGH33AaDY80TU_-l9MN2bkIXbzEj)
+![](https://lh3.googleusercontent.com/YQHrHoDZIbbTCx4ow-X0zKP7Qaj3AwuI8qLoEaOTgSEeZKYYTM_p5Y8A16QMagrmu0mUCiGuav1fDjbw6RU9kKjTIIkPZnpuEjmHLKM6didaAGH33AaDY80TU\_-l9MN2bkIXbzEj)
 
 ## **Deploy Your Contract**
 
@@ -152,7 +152,7 @@ Now that our contract is written and our configuration file is good to go, it’
 
 Create a scripts folder and navigate to the folder.
 
-```text
+```
 mkdir scripts && cd scripts
 ```
 
@@ -162,13 +162,13 @@ Create a new file called `deploy.js` , adding the following contents to it:
 
 Hardhat does an amazing job of explaining what each of these lines of code does in their[ Contracts tutorial](https://hardhat.org/tutorial/testing-contracts.html#writing-tests), we’ve adopted their explanations here.
 
-```text
+```
 const HelloWorld = await ethers.getContractFactory("HelloWorld");
 ```
 
 A `ContractFactory` in `ethers.js` is an abstraction used to deploy new smart contracts, so HelloWorld here is a factory for instances of our `hello world` contract. When using the `hardhat-ethers` plugin ContractFactory and Contract instances are connected to the first signer by default.
 
-```text
+```
 const hello_world = await HelloWorld.deploy();
 ```
 
@@ -176,7 +176,7 @@ Calling `deploy( )`on a `ContractFactory` will start the deployment, and return 
 
 We can now deploy the `HelloWorld` contract to Dusty:
 
-```text
+```
 npx hardhat run --network dusty scripts/deploy.js
 ```
 
@@ -186,12 +186,10 @@ The RPC connection can be unstable, so if it doesn't connect try deploying to a 
 Then [install the plasm node](https://github.com/PlasmNetwork/Plasm#building-from-source) if you haven't already and run with `plasm`
 {% endhint %}
 
-\`\`
+``
 
 After a few seconds, the contract is deployed, and you should see the address in the terminal.
 
 ![](../.gitbook/assets/screen-shot-2021-04-26-at-16.09.26.png)
 
-Congratulations, your contract is live on Dusty! Visit our example page to see how we deploy an asset with Hardhat and interact with this contract.  
-
-
+Congratulations, your contract is live on Dusty! Visit our example page to see how we deploy an asset with Hardhat and interact with this contract.\

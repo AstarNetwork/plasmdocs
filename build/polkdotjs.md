@@ -12,7 +12,7 @@ Please check out the [complete list of wallets exchanges for plasm ecosystem](ht
 
 ## What is Polkadot.js?
 
-[Polkadot.js ](https://polkadot.js.org/)is a browser wallet for Polkadot ecosystem maintained by Parity Technologies and community developers. Currently, Polkadot.js is one of the main browser wallets in the ecosystem like Metamask. 
+[Polkadot.js ](https://polkadot.js.org)is a browser wallet for Polkadot ecosystem maintained by Parity Technologies and community developers. Currently, Polkadot.js is one of the main browser wallets in the ecosystem like Metamask. 
 
 ## How to Use Polkadot.js?
 
@@ -36,12 +36,12 @@ Open the Polkadot.js extension and click "+"
 
 Then you can see the following options.
 
-![](../.gitbook/assets/screen-shot-2021-05-28-at-23.51.41%20%281%29%20%281%29.png)
+![](<../.gitbook/assets/screen-shot-2021-05-28-at-23.51.41 (1) (1).png>)
 
-**Create new account:** You can make a new account from 12 seed phases.   
-**Derive from an account:** You can make a new account from your existing account. The same seed phases are used to make another account.  
-**Import account from pre-existing seed:** If you are using other wallets such as Polkawallet and Fearless wallet, you can  import your account to Polkadot.js by using the pre-existing seed phases.  
-**Restore account from backup JSON file:** Another way to restore an account is to use a JSON backup file. 
+**Create new account: **You can make a new account from 12 seed phases. \
+**Derive from an account:** You can make a new account from your existing account. The same seed phases are used to make another account.\
+**Import account from pre-existing seed:** If you are using other wallets such as Polkawallet and Fearless wallet, you can  import your account to Polkadot.js by using the pre-existing seed phases.\
+**Restore account from backup JSON file: **Another way to restore an account is to use a JSON backup file. 
 
 As a next step, click "Create new account" and check the seed phases.
 
@@ -67,5 +67,4 @@ Once you can create an account, the account is automatically reflected on the ap
 
 ![](../.gitbook/assets/screen-shot-2021-05-29-at-0.27.15.png)
 
-As you can see above, there is a button to create an account on the app \(+ Add account\). We recommend users using Polkadot.js to create your account instead of making it on the app.
-
+As you can see above, there is a button to create an account on the app (+ Add account). We recommend users using Polkadot.js to create your account instead of making it on the app.

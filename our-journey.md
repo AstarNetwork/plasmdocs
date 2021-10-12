@@ -4,9 +4,9 @@ We started making Plasm Network back in 2019. Since then, we have delivered many
 
 Before the upcoming Parachain auctions on Kusama and Polkadot, I think it is a good time to look back on our journey and announce the next steps.
 
-## Technical Achievements — Grant <a id="1b8e"></a>
+## Technical Achievements — Grant <a href="1b8e" id="1b8e"></a>
 
-![](https://miro.medium.com/max/1400/1*14AUA3Xlswi-ZONQaRj_bA.png)
+![](https://miro.medium.com/max/1400/1\*14AUA3Xlswi-ZONQaRj_bA.png)
 
 One of the achievements we are proud of is that we have delivered 4 Web3 Foundation grants out of 7 total grants that we received. Receiving a grant and delivering a grant are two different things. Delivering a grant is much more challenging than receiving it. 
 
@@ -16,28 +16,30 @@ In the coming months, we believe many Ethereum projects will use Rollups since E
 
 As a reference, I have listed up our grants in order.
 
-* Plasma module on Substrate \(delivered\)
-* ink! playground grant \(delivered\)
-* Optimistic Virtual Machine grant \(In progress\)
-* ECDSA implementation grant \(delivered\)
-* ECDSA for hardware wallet grant \(delivered\)
-* ZK Rollups and Plonk grant \(In progress\)
+* Plasma module on Substrate (delivered)
+* ink! playground grant (delivered)
+* Optimistic Virtual Machine grant (In progress)
+* ECDSA implementation grant (delivered)
+* ECDSA for hardware wallet grant (delivered)
+* ZK Rollups and Plonk grant (In progress)
 
-## Technical Achievements in 2021 — Parachain <a id="7321"></a>
+## Technical Achievements in 2021 — Parachain <a href="7321" id="7321"></a>
 
-![](https://miro.medium.com/max/1400/1*L2ucyP_Gq_sqhraq1jAPQg.png)
+![](https://miro.medium.com/max/1400/1\*L2ucyP_Gq_sqhraq1jAPQg.png)
 
 Astar Network is a Polkadot Parachain candidate that acts as a dApps hub that supports multi virtual machines and layer 2 scaling solutions. In preparation for Astar Network becoming a parachain on Polkadot, we have made the following technical achievements on Rococo, the parachain testnet:
 
-* Became the first Polkadot testnet Parachain \(Jan 13th\)
-* Deployed the first WASM smart contracts on Polkadot testnet. \(Jan 31st\)
+* Became the first Polkadot testnet Parachain (Jan 13th)
+* Deployed the first WASM smart contracts on Polkadot testnet. (Jan 31st)
 * Completed the first-ever cross-chain message transaction on Polkadot testnet with Acala’s testnet parachain.
 * Ethereum Virtual Machine support added to the Plasm Network testnet parachain on Rococo.
 * Shiden became a Kusama parachain.
 
-## Ecosystem Achievements <a id="00f3"></a>
+## Ecosystem Achievements <a href="00f3" id="00f3"></a>
 
-{% page-ref page="ecosystem/community.md" %}
+{% content-ref url="ecosystem/community.md" %}
+[community.md](ecosystem/community.md)
+{% endcontent-ref %}
 
 Lastly, I would like to talk about our ecosystem updates.
 
@@ -50,7 +52,7 @@ Lastly, I would like to talk about our ecosystem updates.
 * Became a sponsor of the UC Berkeley Xcelerator Program
 * [Raised $10M led by Fenbushi and Huobi](https://medium.com/astar-network/plasm-shidens-stake-technologies-closes-10m-strategic-fundraise-to-build-multi-chain-dapp-hub-8fe799473f51)
 
-## Next Steps <a id="a19d"></a>
+## Next Steps <a href="a19d" id="a19d"></a>
 
 * Polkadot Parachain Auction participation
 * Complete Optimistic Virtual Machine implementation
@@ -59,6 +61,4 @@ Lastly, I would like to talk about our ecosystem updates.
 
 It has been an incredible journey, but we are still in the early stage of the Web3.0 movement. Together with our ecosystem members, we will do our best to build Web3.0.
 
-Let’s make the future of Web3.0 today!  
-
-
+Let’s make the future of Web3.0 today!\

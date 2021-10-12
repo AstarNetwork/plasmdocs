@@ -88,36 +88,36 @@ groups:
           description: "CPU load is > 80%\n  VALUE = {{ $value }}\n  LABELS: {{ $labels }}"
 ```
 
-The criteria for **triggering an alert** are set in the `expr:` part. To create your own alerts, you’re going to have to learn and test the different variables provided to Prometheus by the services we are setting up. There is \(almost\) an infinite number of possibilities to **personalize your alerts**.
+The criteria for **triggering an alert** are set in the `expr:` part. To create your own alerts, you’re going to have to learn and test the different variables provided to Prometheus by the services we are setting up. There is (almost) an infinite number of possibilities to **personalize your alerts**.
 
 As this part can be time-consuming to learn and build, you can find a summary [list of alerts we like to use](https://pastebin.com/96wbiQN8).  Feel free to share your Alert file with the community. You should also have a look at [alerts provided by Parity](https://github.com/paritytech/substrate/tree/master/.maintain/monitoring/alerting-rules).
 
 Then, check the **rules file**:
 
-```text
+```
 promtool check rules /etc/prometheus/rules.yml
 ```
 
 And finally, check the **Prometheus config file**:
 
-```text
+```
 promtool check config /etc/prometheus/prometheus.yml
 ```
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](<../../../.gitbook/assets/image (24).png>)
 
-### Process exporter <a id="786a"></a>
+### Process exporter <a href="786a" id="786a"></a>
 
-**Process exporter** needs a little **config file** to be told which processes they should take into account:
+**Process exporter** needs a little** config file** to be told which processes they should take into account:
 
-```text
+```
 sudo touch /etc/process-exporter/config.yml
 sudo nano /etc/process-exporter/config.yml
 ```
 
 Add the following code to the file and save:
 
-```text
+```
 process_names: 
   - name: "{{.Comm}}" 
     cmdline: 
@@ -130,7 +130,7 @@ To allow AlertManager to send an email to you, you will need to generate somethi
 
 You should see something like the below:
 
-![Copy and save it somewhere](../../../.gitbook/assets/image%20%2813%29.png)
+![Copy and save it somewhere](<../../../.gitbook/assets/image (13).png>)
 
 ### Alert Manager
 
@@ -138,14 +138,14 @@ You should see something like the below:
 
 Let’s create the file:
 
-```text
+```
 sudo touch /etc/alertmanager/alertmanager.yml
 sudo nano /etc/alertmanager/alertmanager.yml
 ```
 
 And add the **Gmail configuration** to it and save the file:
 
-```text
+```
 global:
  resolve_timeout: 1m
 
@@ -167,4 +167,3 @@ receivers:
  With the above configuration, alerts will be sent using the email you set above. Remember to change `YOUR_EMAIL` to your email and paste the app password you just saved earlier to the `YOUR_APP_PASSWORD`.
 
 We will test the Alert Manager later in the guide.
-

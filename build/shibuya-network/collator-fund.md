@@ -25,5 +25,5 @@ Transparency is built strongly in Astar’s vision and culture. That’s why thi
    2. Node name on Telemetry.
    3. [Subscan](https://shibuya.subscan.io) link of your account.
    4. Email address to send important updates for your node.
+   5. Shiden wallet address to payout your rewards.
 4. By joining the community growth program you also will be rewarded for having your collator set in our testnet. Rewards are based on block production and uptime.
-

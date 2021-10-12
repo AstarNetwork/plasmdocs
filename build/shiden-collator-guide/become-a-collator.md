@@ -8,15 +8,19 @@ At this moment, Shiden is an Aura PoS network. To run a collator, please join ou
 
 Before building your collator, make sure you understand the role of collators in the Shiden Network and you have experience with running a node. If you don't have the experience you can learn by launching a node for our testnet Dusty.
 
-{% page-ref page="learn-about-collators.md" %}
+{% content-ref url="learn-about-collators.md" %}
+[learn-about-collators.md](learn-about-collators.md)
+{% endcontent-ref %}
 
-{% page-ref page="../shibuya-network/shibuya-node.md" %}
+{% content-ref url="../shibuya-network/shibuya-node.md" %}
+[shibuya-node.md](../shibuya-network/shibuya-node.md)
+{% endcontent-ref %}
 
 ### Building Shiden collator
 
 Make sure your server is ready to build a Shiden collator:
 
-```text
+```
 ## Install Rust
 ##
 curl https://sh.rustup.rs -sSf | sh
@@ -36,7 +40,7 @@ sudo apt install clang
 
 Download everything from our Github and use the Shiden branch:
 
-```text
+```
 git clone https://github.com/PlasmNetwork/Astar.git
 cd Astar
 git checkout development/shiden
@@ -44,27 +48,27 @@ git checkout development/shiden
 
 Make sure you have the latest commits in place:
 
-```text
+```
 git checkout
 git pull
 ```
 
 Build your node from source:
 
-```text
+```
 cargo build --release
 ```
 
-Start Collator using `screen` or `nohup`:
+Start Collator using `screen `or `nohup`:
 
-```text
+```
 cd /target/release/
 ./astar-collator --validator --name NODENAME --rpc-cors all --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --execution wasm
 ```
 
 Get session key:
 
-```text
+```
 curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
 ```
 
@@ -80,14 +84,13 @@ You can download the docker [here](https://hub.docker.com/layers/staketechnologi
 
 You can download the latest binary from [here](https://github.com/PlasmNetwork/Astar/releases/tag/shiden-6).
 
-```text
+```
 wget https://github.com/PlasmNetwork/Plasm/releases/download/shiden-6/astar-collator-2.3-ubuntu-x86_64.tar.gz
 tar -xf astar-collator-2.3-ubuntu-x86_64.tar.gz
 ```
 
 ## Kusama Relay Chain snapshot
 
-If you run your collator it not only needs to sync the Shiden Network chain but also the complete relay chain from Kusama. This can take up to 3-4 days. You can also use a snapshot of Kusama. You can download this [here](https://ksm-rocksdb.polkashots.io/) and will save a lot of time.
+If you run your collator it not only needs to sync the Shiden Network chain but also the complete relay chain from Kusama. This can take up to 3-4 days. You can also use a snapshot of Kusama. You can download this [here](https://ksm-rocksdb.polkashots.io) and will save a lot of time.
 
 **NOTE**: know what you are doing!
-

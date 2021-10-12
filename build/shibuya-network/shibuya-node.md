@@ -8,7 +8,7 @@ Currently, Astar has 2 networks, [Shibuya Network](https://polkadot.js.org/apps/
 
 Shibuya Network is our parachain testnet. In case you want to run a collator and want to deploy it in our testnet. Join our[ Discord](https://discord.gg/Z3nC9U4) to find out the latest news and support.  
 
-### Building a collator \(validator\):
+### Building a collator (validator):
 
 This documentation is based on:
 
@@ -17,14 +17,14 @@ This documentation is based on:
 A tutorial was made by one of our community members during the Shibuya onboarding challenge.
 
 {% hint style="info" %}
-Make sure you always use the latest binary! This document is built with the `shiden-14` release. Please check if there is a new version, if yes, download that one! The old versions will not be accepted in the collator set! 
+Make sure you always use the latest binary! This document is built with the `shiden-14 `release. Please check if there is a new version, if yes, download that one! The old versions will not be accepted in the collator set! 
 
 Always check here: [https://github.com/PlasmNetwork/Astar/releases](https://github.com/PlasmNetwork/Astar/releases)
 {% endhint %}
 
 1\) Install tools and download binary:
 
-```text
+```
 sudo -s
 apt update
 apt upgrade -y
@@ -37,31 +37,31 @@ chmod +x /usr/bin/astar-collator
 
 Let's check the version:
 
-```text
+```
 # /usr/bin/astar-collator -V
 ```
 
 You should see output like this:
 
-```text
+```
 astar-collator 2.5.0-4791291-x86_64-linux-gnu
 ```
 
 2\) Set your node name to whatever you want:
 
-```text
+```
 export NODENAME="My_Shibuya_Node"
 ```
 
 3\) Create an unprivileged user to run a node from:
 
-```text
+```
 useradd -mU shibuya
 ```
 
 4\) Create a systemd service for your collator node:
 
-```text
+```
 cat > /etc/systemd/system/shibuya-node.service << EOF
 [Unit]
 Description=Shibuya Collator Node
@@ -84,7 +84,7 @@ EOF
 
 5\) Enable and start a node as service and:
 
-```text
+```
 systemctl enable shibuya-node
 systemctl start shibuya-node
 systemctl status shibuya-node
@@ -92,7 +92,7 @@ systemctl status shibuya-node
 
 You should see output like this:
 
-```text
+```
 ● shibuya-node.service - Shibuya Collator Node
      Loaded: loaded (/etc/systemd/system/shibuya-node.service; enabled; vendor preset: enabled)
      Active: active (running) since Sat 2021-09-11 16:09:13 UTC; 7min ago
@@ -115,15 +115,14 @@ You should see output like this:
 2021-09-11 15:28:46 [Parachain] 💤 Idle (42 peers), best: #24529 (0x0282…b13b), finalized #20167 (0x8a1f…5994), ⬇ 0.3kiB/s ⬆ 0.3kiB/s    
 ```
 
-If your node is up and running, you **should see** its NODENAME \(the name you configured\) on the [Telemetry page](https://telemetry.polkadot.io/#/0xddb89973361a170839f80f152d2e9e38a376a5a7eccefcade763f46a8e567019).
+If your node is up and running, you **should see** its NODENAME (the name you configured) on the [Telemetry page](https://telemetry.polkadot.io/#/0xddb89973361a170839f80f152d2e9e38a376a5a7eccefcade763f46a8e567019).
 
 6\) Now you have to wait till your node is fully synchronized. This can some time. _Note, you must wait until both **Parachain** and **Relaychain** are synchronized._
 
 You can periodically check the current synchronization status:
 
-```text
+```
 journalctl -u shibuya-node -o cat -n 20
 ```
 
-7\) When your node is in sync, you are ready to be onboard. But you need some SDY tokens to set up on-chain identity \(10 SBY\) and much more to become an active collator \(32000 SBY\).
-
+7\) When your node is in sync, you are ready to be onboard. But you need some SDY tokens to set up on-chain identity (10 SBY) and much more to become an active collator (32000 SBY).

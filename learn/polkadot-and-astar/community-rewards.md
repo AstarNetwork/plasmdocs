@@ -9,7 +9,7 @@ The idea behind Community Rewards is to provide incentives for community members
 The structure of Community Rewards is very simple.
 
 1. A community member creates a simple smart contract and deploys it on Astar Network.
-2. PLM \(Testnet: PLD\) holder evaluates this performance and stakes his tokens on the smart contract.
+2. PLM (Testnet: PLD) holder evaluates this performance and stakes his tokens on the smart contract.
 3. Both of them get rewards based on the performance of the smart contract.
 
 Let's take a closer look.
@@ -18,7 +18,9 @@ Let's take a closer look.
 
 First, community members need to deploy a simple contract. The way how to deploy the contract is described on the following page. 
 
-{% page-ref page="../../build/operator-trading.md" %}
+{% content-ref url="../../build/operator-trading.md" %}
+[operator-trading.md](../../build/operator-trading.md)
+{% endcontent-ref %}
 
 After deploying the smart contract, you can check it in the Community Rewards section below.
 
@@ -26,7 +28,9 @@ After deploying the smart contract, you can check it in the Community Rewards se
 
 The next step is staking. You can stake on a smart contract as usual. The details are described on the following page.
 
-{% page-ref page="../../build/dapps-reward.md" %}
+{% content-ref url="../../build/dapps-reward.md" %}
+[dapps-reward.md](../../build/dapps-reward.md)
+{% endcontent-ref %}
 
 In addition to that, you can check the community rewards page in the Staking section where you can check the status of staking volume and the ranking.
 
@@ -36,7 +40,9 @@ PLM holders stake their tokens on your smart contract. By doing so, the nominato
 
 See the link below for more information.
 
-{% page-ref page="../../build/dapps-reward.md" %}
+{% content-ref url="../../build/dapps-reward.md" %}
+[dapps-reward.md](../../build/dapps-reward.md)
+{% endcontent-ref %}
 
 Next, we are going to learn some formulas to calculate the rewards.
 
@@ -46,19 +52,19 @@ Next, we are going to learn some formulas to calculate the rewards.
 This content includes math. You can skip this section below if you are not good at math. 
 {% endhint %}
 
-The target inflation rate of the maximum token supply is $$I ≤ I_0 = 2.5%$$per a year. $$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators \(We assume the sufficient number of validators is 100\). Validator compensation per each Era is strictly defined as the following. 
+The target inflation rate of the maximum token supply is $$I ≤ I_0 = 2.5%$$per a year. $$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators (We assume the sufficient number of validators is 100). Validator compensation per each Era is strictly defined as the following. 
 
 First, we define the meaning of each variable.
 
 * $$TotalForValidatorRewards$$ is the total amount of compensation paid for the validator.
 * $$TotalForCommunityRewards$$ is the total amount of compensation paid for the community contributors. 
 * $$TotalAmountOfIssue$$ is the total number of PLM tokens issued by Astar Network. 
-* $$I_0$$ ****is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes. 
+* $$I_0$$** **is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes. 
 * $$EraDuration$$ is the length of the duration of each Era. 
-* $$NumberOfValidators$$ _****_is the actual number of validators in the network.
+* $$NumberOfValidators$$_** **_is the actual number of validators in the network.
 *  $$TargetNumber$$ is 100 that is a sufficient number of validators on Astar Network.
 
-If $$TargetNumber$$&lt; $$NumberOfValidators$$:
+If $$TargetNumber$$< $$NumberOfValidators$$:
 
 $$
 TotalForValidatorRewards = TotalAmoutOfIssue \times I_0\% \times \frac{EraDuration}{1 year}
@@ -70,13 +76,13 @@ $$
 TotalForValidatorRewards = TotalAmoutOfIssue \times I_0\% \times \frac{EraDuration}{1 year}
 $$
 
-The amount of tokens allocated to the community members \(project owners\) is equal to the total amount of tokens allocated to the validator. 
+The amount of tokens allocated to the community members (project owners) is equal to the total amount of tokens allocated to the validator. 
 
 $$
 TotalForCommunityRewards = TotalForValidatorRewards
 $$
 
-And the $$TotalForCommunityRewards$$ is distributed equally to operators \(project owners\) and nominators. $$RewardsForOperators$$ is the total amount of rewards assigned for operators \(project owners\). $$RewardsForNominators$$ is the total amount of rewards assigned for nominators.
+And the $$TotalForCommunityRewards$$ is distributed equally to operators (project owners) and nominators. $$RewardsForOperators$$ is the total amount of rewards assigned for operators (project owners). $$RewardsForNominators$$ is the total amount of rewards assigned for nominators.
 
 $$
 RewardsForOperators = RewardsForNominators = \frac{TotalForCommunityRewards}{2}
@@ -111,9 +117,8 @@ $$
 f(contract_j) = 0.197 \times -log_{2}(\frac{Stake_{contract_j}}{TotalStake})  \times Stake_{nominator_i}
 $$
 
-The magic number, 0.197, is used to make the coefficient close to 1 when $$\frac{Stake_{contract_j}}{TotalStake}$$ is 3% \(the smallest allowable fraction\).
+The magic number, 0.197, is used to make the coefficient close to 1 when $$\frac{Stake_{contract_j}}{TotalStake}$$ is 3% (the smallest allowable fraction).
 
 $$
 0.197 \times -log_{2}(\frac{3}{100}) = 0.996602... \simeq 1
 $$
-
