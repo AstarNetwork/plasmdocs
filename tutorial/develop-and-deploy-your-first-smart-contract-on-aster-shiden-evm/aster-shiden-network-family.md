@@ -1,6 +1,6 @@
 # Astar/Shiden Network Family
 
-Before starting the development, it's important to understand Astar/Shiden Network family. You should change the network based on what you want to do. Currently, we have 3 networks available, Shiden, Shibuya, and Local network. All networks support standard Substrate RPC and EVM RPC. 
+Before starting the development, it's important to understand Astar/Shiden Network family. You should change the network based on what you want to do. Currently, we have 3 networks available, Shiden, Shibuya, and Local network. All networks support own standard Substrate RPC and EVM RPC. 
 
 ## Astar and Shiden
 
