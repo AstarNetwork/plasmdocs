@@ -9,7 +9,7 @@ You can get the binary in one of the following ways:
 1. Download the latest binary from Github
 2. Build from source
 
-If you want to download the binary, go to the [Release page of Aster Github repository.](https://github.com/PlasmNetwork/Astar/releases) You can find the pre-built binaries for MacOS and Ubuntu as well as Docker images.  If you want to build from source, [this readme](https://github.com/PlasmNetwork/Astar#building-from-source) helps you a lot!
+If you want to download the binary, go to the [Release page of Astar Github repository](https://github.com/PlasmNetwork/Astar/releases). You can find the pre-built binaries for MacOS and Ubuntu as well as Docker images.  If you want to build from source, [this readme](https://github.com/PlasmNetwork/Astar#building-from-source) helps you a lot!
 
 After you get the binary, you can rename the binary file to `shiden` and add execution permission to the binary by running the following command:
 
@@ -28,7 +28,7 @@ Then you can execute the binary!  To check whether you can run the node, let's 
 
 You are already ready to run the local network. Simply run the following command:
 
-```text
+```
 ./shiden --port 30333 --ws-port 9944 --rpc-port 9933 --rpc-cors all --alice --dev
 ```
 
@@ -54,24 +54,23 @@ You can see the full list of the command option from the help subcommand:
 
 When you succeed to run the local network, you can see the following messages on your terminal:
 
-![](../../.gitbook/assets/image%20%2899%29.png)
+![](<../../.gitbook/assets/image (99).png>)
 
 OK! Let's visualize your local network now!
 
 ## Access your local network via Explorer
 
-Access the following URL:  
-[https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944\#/explorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer)
+Access the following URL:\
+[https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer)
 
 Then you can see the following screen:
 
-![](../../.gitbook/assets/image%20%28103%29.png)
+![](<../../.gitbook/assets/image (103).png>)
 
 This visualizes your local network. In this local network, some native tokens are already issued and allocated to some accounts. Let's go to the [Account page](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/accounts) from Accounts Tab. 
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](<../../.gitbook/assets/image (98).png>)
 
 You can see that ALICE and BOB have around 1,000 tokens. In the following section, you can deploy your smart contract and interact with it by paying the transaction fee using these tokens.
 
 In the Polkadot explorer, it's possible to interact with Substrate RPC only. So how can you do interact with Ethereum RPC? You can use Metamask for that!
-

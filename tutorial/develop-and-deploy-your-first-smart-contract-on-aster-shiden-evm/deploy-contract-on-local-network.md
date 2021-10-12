@@ -1,10 +1,10 @@
 # Deploy Contract on Local Network
 
-Finally, it's time to deploy your first smart contract on Aster/Shiden local network! In this tutorial, you can deploy your basic ERC20 token via Remix.
+Finally, it's time to deploy your first smart contract on Astar/Shiden local network! In this tutorial, you can deploy your basic ERC20 token via Remix.
 
 ## Preparation of Solidity contract on Remix
 
-Go to [Remix](https://remix.ethereum.org/) and create new file. Then copy and paste the following solidity contract code to your Remix editor.
+Go to [Remix](https://remix.ethereum.org) and create new file. Then copy and paste the following solidity contract code to your Remix editor.
 
 ```javascript
 pragma solidity ^0.8.0;
@@ -20,16 +20,16 @@ contract TestToken is ERC20 {
 
 This contract issues an ERC20 token whose name is TestToken, the ticker is TST, and total supply is 1000 with 18 decimals. You can compile this contract from Solidity Compiler tab on Remix and get ready to deploy this contract.
 
-Go to Deploy and Run Transactions tab. You should switch the environment to Injected Web3. Please make sure that you can see the Custom \(4369\) network under the environment field. If you cannot see that, please switch the network on Metamask. Now your screen should be like as follows:
+Go to Deploy and Run Transactions tab. You should switch the environment to Injected Web3. Please make sure that you can see the Custom (4369) network under the environment field. If you cannot see that, please switch the network on Metamask. Now your screen should be like as follows:
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](<../../.gitbook/assets/image (95).png>)
 
 ## Deploy Contract on Local Network
 
-Now press the Deploy button on Remix! You can see the popup window of Metamask and press Confirm button.  
+Now press the Deploy button on Remix! You can see the popup window of Metamask and press Confirm button.\
 ...Congratulations🎉 Your contract has successfully been deployed on your Shiden local network now! As evidence, you can see EVM events on the explorer.
 
-![](../../.gitbook/assets/image%20%2897%29.png)
+![](<../../.gitbook/assets/image (97).png>)
 
 ## See your token on Metamask
 
@@ -37,5 +37,4 @@ This token can be added to Metamask because this contract is fully compatible wi
 
 Now you can see your ERC20 token, which is deployed on Shiden local network, on your Metamask. You can, of course, send this token to the Ethereum addresses. 
 
-![](../../.gitbook/assets/image%20%28101%29.png)
-
+![](<../../.gitbook/assets/image (101).png>)
