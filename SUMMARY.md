@@ -51,7 +51,6 @@
 ## Integration
 
 * [Network Details](integration/network-details.md)
-* [dApp Staking](integration/dapp-staking.md)
 * [Anyswap Bridge](integration/anyswap-bridge.md)
 * [On-Chain Identity](integration/on-chain-identity.md)
 * [Metamask Support](integration/metamask/README.md)
@@ -65,6 +64,7 @@
 
 * [Polkadot.js](build/polkdotjs.md)
 * [Shibuya Faucet](build/testnet-faucet.md)
+* [DApp Staking](build/dapp-staking.md)
 * [Shibuya Collator Guide](build/shibuya-network/README.md)
   * [Collator Requirements](build/shibuya-network/setup-server.md)
   * [Build a Collator](build/shibuya-network/shibuya-node.md)
