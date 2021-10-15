@@ -1,4 +1,4 @@
-# dApp Staking
+# DApp Staking
 
 ## Overview
 
@@ -9,7 +9,7 @@
 
 We must also not forget the nominators. 10% reward is quite substantial and can serve as an alternative to staking to validators or lending on other DeFi platforms.
 
-![](<../.gitbook/assets/image (107).png>)
+![](<../../.gitbook/assets/image (107).png>)
 
 ## Parameters
 
@@ -36,7 +36,7 @@ Make sure you are connected to the correct network.
 **Shiden **Network: mainnet on Kusama
 {% endhint %}
 
-![](<../.gitbook/assets/03 (1).PNG>)
+![](<../../.gitbook/assets/03 (1).PNG>)
 
 ### Step 2
 
@@ -44,7 +44,7 @@ Look for your favorite project. You can click on the name to see more informatio
 
 To add your staking amount, just click on '**Stake**' in the box of your favorite project.
 
-![](<../.gitbook/assets/04 (1).PNG>)
+![](<../../.gitbook/assets/04 (1).PNG>)
 
 ### Step 3
 

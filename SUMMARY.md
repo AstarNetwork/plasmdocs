@@ -64,7 +64,8 @@
 
 * [Polkadot.js](build/polkdotjs.md)
 * [Shibuya Faucet](build/testnet-faucet.md)
-* [DApp Staking](build/dapp-staking.md)
+* [DApp Staking](build/dapp-staking/README.md)
+  * [Register dApp](build/dapp-staking/register-dapp.md)
 * [Shibuya Collator Guide](build/shibuya-network/README.md)
   * [Collator Requirements](build/shibuya-network/setup-server.md)
   * [Build a Collator](build/shibuya-network/shibuya-node.md)
