@@ -59,6 +59,7 @@
 * [Using Hardhat](integration/using-hardhat.md)
 * [Using Bware Labs](integration/bware-labs.md)
 * [Using Redspot by Patract Lab](integration/using-redspot-by-patract-lab.md)
+* [Bware Labs Endpoints](integration/bware-labs-endpoints.md)
 
 ## Build
 
