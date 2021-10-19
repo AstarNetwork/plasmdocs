@@ -9,11 +9,11 @@
 
 We must also not forget the nominators. 10% reward is quite substantial and can serve as an alternative to staking to validators or lending on other DeFi platforms.
 
-![](<../../.gitbook/assets/image (107).png>)
+![](<../../.gitbook/assets/image (107) (1).png>)
 
 ## Parameters
 
-During the first phase, there will be some limitations so we can keep monitoring our nodes and dApps who are using our dApp staking mechanism. Please take the following parameters into consideration: 
+During the first phase, there will be some limitations so we can keep monitoring our nodes and dApps who are using our dApp staking mechanism. Please take the following parameters into consideration:&#x20;
 
 * **dApp staking is only for whitelisted projects** who joined our builder's program first.
 * To register a dApp for dApp staking you need to have 100 SDN tokens.
