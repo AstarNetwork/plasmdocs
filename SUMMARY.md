@@ -45,6 +45,7 @@
   * [Auction](learn/polkadot-plo/auction.md)
   * [Astar Parachain Auction Strategy](learn/polkadot-plo/astar-parachain-auction-strategy.md)
   * [Bonus Scheme](learn/polkadot-plo/bonus-scheme.md)
+  * [Joining from Equilibrium](learn/polkadot-plo/joining-from-equilibrium.md)
   * [FAQ](learn/polkadot-plo/faq.md)
 * [Token Economics](learn/token-economics/README.md)
   * [Lockdrop](learn/token-economics/lockdrop.md)
