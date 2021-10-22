@@ -118,7 +118,6 @@
 * [Layer2 Applications](build/layer2-applications.md)
 * [Operator Trading](build/operator-trading.md)
 * [ink!](build/ink.md)
-* [dApps Staking](build/dapps-reward.md)
 
 ## Tutorial
 

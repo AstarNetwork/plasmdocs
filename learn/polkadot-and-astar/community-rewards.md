@@ -16,7 +16,7 @@ Let's take a closer look.
 
 ### How to deploy your contract
 
-First, community members need to deploy a simple contract. The way how to deploy the contract is described on the following page. 
+First, community members need to deploy a simple contract. The way how to deploy the contract is described on the following page.&#x20;
 
 {% content-ref url="../../build/operator-trading.md" %}
 [operator-trading.md](../../build/operator-trading.md)
@@ -28,8 +28,8 @@ After deploying the smart contract, you can check it in the Community Rewards se
 
 The next step is staking. You can stake on a smart contract as usual. The details are described on the following page.
 
-{% content-ref url="../../build/dapps-reward.md" %}
-[dapps-reward.md](../../build/dapps-reward.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 In addition to that, you can check the community rewards page in the Staking section where you can check the status of staking volume and the ranking.
@@ -40,8 +40,8 @@ PLM holders stake their tokens on your smart contract. By doing so, the nominato
 
 See the link below for more information.
 
-{% content-ref url="../../build/dapps-reward.md" %}
-[dapps-reward.md](../../build/dapps-reward.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Next, we are going to learn some formulas to calculate the rewards.
@@ -49,20 +49,20 @@ Next, we are going to learn some formulas to calculate the rewards.
 ### Rewards Calculation
 
 {% hint style="info" %}
-This content includes math. You can skip this section below if you are not good at math. 
+This content includes math. You can skip this section below if you are not good at math.&#x20;
 {% endhint %}
 
-The target inflation rate of the maximum token supply is $$I ≤ I_0 = 2.5%$$per a year. $$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators (We assume the sufficient number of validators is 100). Validator compensation per each Era is strictly defined as the following. 
+The target inflation rate of the maximum token supply is $$I ≤ I_0 = 2.5%$$per a year. $$I_0$$ is the minimum token supply that should be paid to the block validators to ensure a sufficient number of validators (We assume the sufficient number of validators is 100). Validator compensation per each Era is strictly defined as the following.&#x20;
 
 First, we define the meaning of each variable.
 
 * $$TotalForValidatorRewards$$ is the total amount of compensation paid for the validator.
-* $$TotalForCommunityRewards$$ is the total amount of compensation paid for the community contributors. 
-* $$TotalAmountOfIssue$$ is the total number of PLM tokens issued by Astar Network. 
-* $$I_0$$** **is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes. 
-* $$EraDuration$$ is the length of the duration of each Era. 
+* $$TotalForCommunityRewards$$ is the total amount of compensation paid for the community contributors.&#x20;
+* $$TotalAmountOfIssue$$ is the total number of PLM tokens issued by Astar Network.&#x20;
+* $$I_0$$** **is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes.&#x20;
+* $$EraDuration$$ is the length of the duration of each Era.&#x20;
 * $$NumberOfValidators$$_** **_is the actual number of validators in the network.
-*  $$TargetNumber$$ is 100 that is a sufficient number of validators on Astar Network.
+* &#x20;$$TargetNumber$$ is 100 that is a sufficient number of validators on Astar Network.
 
 If $$TargetNumber$$< $$NumberOfValidators$$:
 
@@ -76,7 +76,7 @@ $$
 TotalForValidatorRewards = TotalAmoutOfIssue \times I_0\% \times \frac{EraDuration}{1 year}
 $$
 
-The amount of tokens allocated to the community members (project owners) is equal to the total amount of tokens allocated to the validator. 
+The amount of tokens allocated to the community members (project owners) is equal to the total amount of tokens allocated to the validator.&#x20;
 
 $$
 TotalForCommunityRewards = TotalForValidatorRewards
@@ -95,7 +95,7 @@ RewardForOperators_{i} = \sum_{contract_j\ \in
 \ C_{operator_i}} \frac{Stake_{contract_j}}{TotalStake} \times RewardsForOperators
 $$
 
-Calculating compensation for a nominator is a bit more complicated: a nominator can only stake on contracts that are staked 3% or more of the $$TotalStake$$. 
+Calculating compensation for a nominator is a bit more complicated: a nominator can only stake on contracts that are staked 3% or more of the $$TotalStake$$.&#x20;
 
 This is to prevent participants from nominating themselves. In the following equation, let $$WeightedStake_i$$ be the sum of $$i$$-th nominator's stake amount that is weighted specifically for Community Rewards, and $$C_{nominator_i}$$ be the set of contracts nominated by the $$nominator_i$$. $$RewardForNominators_i$$ is the reward for the ith nominator. We'll get into the details of function $$f$$ in a moment.
 
