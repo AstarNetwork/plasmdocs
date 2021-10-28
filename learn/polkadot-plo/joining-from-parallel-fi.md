@@ -6,5 +6,3 @@ Astar is the Polkadot-native dApp hub supporting Ethereum, WebAssembly, dApp Sta
 
 {% embed url="https://crowdloan.parallel.fi/#/auction/dot" %}
 
-![](https://lh5.googleusercontent.com/RCiKApXWR4GQJxT2DPPzdq09q5mtcRzmTZeHRCdILdFQrekfzrcYXCljBnQJ7AyAyuLd-5CkpZekQKXOB15MVBNqBGwm-lWlywSVJ-oGSNkDPfXu\_2KWukaXHBTMF8QzG7VpTEwI)
-
