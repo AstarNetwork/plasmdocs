@@ -36,24 +36,24 @@ More information about the exact fixed number for each DOT will be provided in t
 
 **NOTE: this bonus scheme will be activated as soon the crowdloan campaign starts! Follow our **[**socials**](https://www.twitter.com/AstarNetwork)** or **[**newsletter**](https://share.hsforms.com/1Bnt1-pCIR5mnSSYpSIxicQc2ryh)** to receive more information about the launch date.**
 
-Astar has created 4 bonus levels! Everyone who is eligible can apply for one or all bonuses levels. In this section, all levels are explained with their requirements. In total there is 5% of the total supply reserved for this bonus scheme.
+Astar has created **3 bonus levels**! Everyone who is eligible can apply for one or all bonuses levels. In this section, all levels are explained with their requirements. In total there is **5% of the total supply reserved for this bonus scheme**.
 
-* Referral
-* Early Bird
-* Lockdrop Participant
-* SDN Lockdrop
+* **Referral**: share to earn more
+* **Early Bird**: join during the 1st week
+* **Early Adaptors**: Lockdrop & Crowdloan participants
+
+> _All bonuses are distributed before we enable token transactions and under vesting._
 
 ## Referral <a href="eb9e" id="eb9e"></a>
 
-You get **10%** **in ASTR based on the DOT staked by your friends**.\
-**For example:** if your friends contributed 10 DOT, you will get 1 ASTR bonus from the reward pool!
+**For every 1 DOT, your friend contributed, you get 0.1 ASTR!**\
+Your friends who contribute via your referral get a **1% bonus** on their staked amount.
 
 **Requirements**:
 
-* Your address for referral is only valid if you joined the Astar Crowdloan Event with that address and a minimum of 5 DOT.
-* Your friend needs to add your Polkadot address in the referral field.
-* For every 5 DOT invested by your friend, you will receive 0.5 ASTR tokens. The more your referrals invest in our crowdloan, the more bonus you can accumulate.
-* Bonus is distributed before we enable token transactions.
+* Your address for referral is only valid if you joined the Astar Crowdloan Event with that address.
+* Your friend needs to add your **Polkadot address** in the referral field.
+* The more your friends lock into our crowdloan, the more bonus you accumulate.
 
 ## Early Birds <a href="4048" id="4048"></a>
 
@@ -62,33 +62,24 @@ Get a **20%** bonus on your stake if you join before the end of auction 1.
 **Requirements**:
 
 * Join the Astar Crowdloan Event before the end of the first auction, November 18th, 2021.
-* The minimum stake amount in the Astar Crowdloan Event is 5 DOT.
-* Bonus is distributed before we enable token transactions.
 
-## Lockdrop Participants <a href="7ce6" id="7ce6"></a>
+## **Early Adoptors** <a href="7ce6" id="7ce6"></a>
 
-Get a 5% bonus on your stake.
+\
+**Lockdrop & Crowdloan Participants**
 
-**Requirements**:
+* Get a 10% bonus on your Astar Crowdloan contribution
+
+**Plasm Lockdrop participants**
 
 * You need to have joined the ETH lockdrops during 2020 to be eligible for this bonus.
 * Join the Astar Crowdloan Event with the same wallet you hold PLM tokens.
-* The minimum stake amount in the Astar Crowdloan Event is 5 DOT.
-* Bonus is distributed before we enable token transactions.
 
-## SDN Lockdrop <a href="7203" id="7203"></a>
+**Shiden Crowdloan participants**
 
-Those who have been following us from the beginning have an experience with lockdrops. The method is very simple: lock your SDN and get ASTR tokens. What is the reward? You get 1 ASTR per 100 SDN you lock through our Crowdloan one-pager.
+* You need to have joined the Shiden Crowdloan with your own address (CEX participants are not eligible).
+* You need to still hold the amount of SDN you have received **on your address **used for the Shiden crowdloan. [Based on this proposal](https://forum.astar.network/t/astar-crowdloan-whitelist-proposal/1288/).\
+  **Note**: If you moved SDN after distribution, you can still send those back to your address to be eligible.
 
-**NOTE: SDN lockdrop will be activated in the first week of November! **Get your SDN ready to be eligible for this bonus.
+This Bonus pool includes bonuses distributed from CEX. The unused amount of the 5% bonus (after deducting bonus in CEX) goes to the treasury or further incentives in the next auctions during the first crowdloan.
 
-**Requirements**:
-
-* Lock SDN through our Crowdloan page (activated during the first week of November)
-* No minimum amount but tokens need to be transferrable.
-* Your SDN will be locked for 6 months!
-* Your lock has to be activated before the first Auction on November 11th, 2021, starts.
-* Join the Astar Crowdloan Event with the same wallet you lock SDN tokens for this lockdrop.
-* Bonus can be claimed after the locking period.
-
-The unused amount of the 5% bonus goes to the treasury or further incentives in the next auctions during the first crowdloan.
