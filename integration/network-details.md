@@ -16,7 +16,7 @@ API and free RPC WebSocket endpoints for the Astar community.👇
 
 {% tabs %}
 {% tab title="Shiden Network" %}
-The documentation corresponding contains details for the RPC - HTTP, WSS endpoints. 
+The documentation corresponding contains details for the RPC - HTTP, WSS endpoints.&#x20;
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -28,11 +28,11 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Symbol**         | SDN                                                                                                                                                                                                                                                                                                                                                                                       |
 | **RPC**            | <p>OnFinality: https://shiden.api.onfinality.io/public</p><p></p><p>Public RPCs may have traffic or rate-limits depending on usage. You can sign up for a dedicated free RPC URL at the following:</p><ul><li><a href="https://app.bwarelabs.com">Bware Labs</a></li><li><a href="https://onfinality.io">OnFinality</a></li></ul>                                                         |
 | **WebSocket**      | <p>Stake Technologies: wss://rpc.shiden.plasmnet.io</p><p>OnFinality: wss://shiden.api.onfinality.io/public-ws</p><p></p><p>Public RPCs may have traffic or rate-limits depending on usage. You can sign up for a dedicated free RPC URL at the following:</p><ul><li><a href="https://app.bwarelabs.com">Bware Labs</a></li><li><a href="https://onfinality.io">OnFinality</a></li></ul> |
-| **Block explorer** | [https://shiden.subscan.io](https://shiden.subscan.io)                                                                                                                                                                                                                                                                                                                                    |
+| **Block explorer** | <p>Substrate: <a href="https://shiden.subscan.io">https://shiden.subscan.io</a></p><p>EVM: <a href="https://blockscout.com/shiden/">https://blockscout.com/shiden/</a></p>                                                                                                                                                                                                                |
 {% endtab %}
 
 {% tab title="Shibuya" %}
-The documentation corresponding contains details for the RPC - HTTP, WSS endpoints. 
+The documentation corresponding contains details for the RPC - HTTP, WSS endpoints.&#x20;
 
 |                    |                                                                                                                                                                                 |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 {% endtab %}
 
 {% tab title="Dusty Network" %}
-The documentation corresponding contains details for the RPC - HTTP, WSS endpoints. 
+The documentation corresponding contains details for the RPC - HTTP, WSS endpoints.&#x20;
 
 |                    |                                                                                                                                                                                                                                                                        |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
