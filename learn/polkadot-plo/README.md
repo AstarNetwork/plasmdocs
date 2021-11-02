@@ -27,3 +27,23 @@
 {% endcontent-ref %}
 
 ### How to join Astar Crowdloan event:
+
+{% content-ref url="joining-from-crowdloan-page.md" %}
+[joining-from-crowdloan-page.md](joining-from-crowdloan-page.md)
+{% endcontent-ref %}
+
+{% content-ref url="joining-from-exchanges.md" %}
+[joining-from-exchanges.md](joining-from-exchanges.md)
+{% endcontent-ref %}
+
+{% content-ref url="joining-from-wallets.md" %}
+[joining-from-wallets.md](joining-from-wallets.md)
+{% endcontent-ref %}
+
+{% content-ref url="joining-from-equilibrium.md" %}
+[joining-from-equilibrium.md](joining-from-equilibrium.md)
+{% endcontent-ref %}
+
+{% content-ref url="joining-from-parallel-fi.md" %}
+[joining-from-parallel-fi.md](joining-from-parallel-fi.md)
+{% endcontent-ref %}
