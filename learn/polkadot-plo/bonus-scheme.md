@@ -46,7 +46,7 @@ Astar has created **3 bonus levels**! Everyone who is eligible can apply for one
 
 ## Referral <a href="eb9e" id="eb9e"></a>
 
-**For every 1 DOT, your friend contributed, you get 0.1 ASTR!**\
+**For every 1 DOT, your friend contributed, you get 10 ASTR!**\
 Your friends who contribute via your referral get a **1% bonus** on their staked amount.
 
 **Requirements**:
