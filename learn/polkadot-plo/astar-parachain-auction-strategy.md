@@ -18,7 +18,7 @@ The total amount for the first parachain auction is **20% of the total supply**.
 
 20% is divided in:
 
-* Crowdloan + auctions = 15% or 1,000,500,000 ASTR
+* Crowdloan + auctions = 15% or 1,050,000,000 ASTR
 * Bonus pool = 5% or 350,000,000 ASTR
 
 To bid in an auction, Astar agrees to lock up (or bond) DOT tokens for the duration of the lease. While bonded for a lease, the DOT cannot be used for other activities like staking or transfers. DOT tokens will be collected through crowdloan.
