@@ -2,17 +2,25 @@
 
 ## Introduction
 
-The guides you find here in this section will give you some guidance in creating and deploying smart contracts in Plasm Ecosystem. 
+The guides you find here in this section will give you some guidance in creating and deploying smart contracts in Plasm Ecosystem.&#x20;
 
 ### Remix
 
-{% page-ref page="remix-create-an-asset.md" %}
+{% content-ref url="remix-create-an-asset.md" %}
+[remix-create-an-asset.md](remix-create-an-asset.md)
+{% endcontent-ref %}
 
 ### WASM
 
-{% page-ref page="wasm-create-an-asset.md" %}
+{% content-ref url="wasm-create-an-asset.md" %}
+[wasm-create-an-asset.md](wasm-create-an-asset.md)
+{% endcontent-ref %}
 
-{% page-ref page="wasm-create-an-nft.md" %}
+{% content-ref url="wasm-create-an-nft.md" %}
+[wasm-create-an-nft.md](wasm-create-an-nft.md)
+{% endcontent-ref %}
 
-
+{% content-ref url="wasm-implement-psp22-with-openbrush.md" %}
+[wasm-implement-psp22-with-openbrush.md](wasm-implement-psp22-with-openbrush.md)
+{% endcontent-ref %}
 
