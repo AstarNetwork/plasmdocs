@@ -8,7 +8,7 @@ How to register your dApp in our dApp store. First, you have to make sure that y
 * Create/import your developer's wallet in the Polkadot JS extension.
 {% endhint %}
 
-When you meet the requirements, please get in touch with Maarten or Shun to whitelist your developer's account. 
+When you meet the requirements, please get in touch with Maarten or Shun to whitelist your developer's account.&#x20;
 
 ### Step 1
 
@@ -23,10 +23,10 @@ Template contract:
 
 ### Step 2
 
-Go to our portal and click on `+ Register dApp`:
+Go to our [portal](https://portal.astar.network/#/store/discover-dapps) and click on `+ Register dApp`:
 
 {% embed url="https://portal.astar.network/#/store/discover-dapps" %}
 
-Provide all the information in the pop-up window and press register. Keep in mind that your account needs to be whitelisted, and you have 100 SDN in the wallet that is registering the dApp. 
+Provide all the information in the pop-up window and press register. Keep in mind that your account needs to be whitelisted, and you have 100 SDN in the wallet that is registering the dApp.&#x20;
 
 When your dApp is deployed, we would appreciate it that you shared this with your community. We have created a template that you can use to write the article. You can find it [here](https://docs.google.com/document/d/1xa1g3q1MYC8NkdrtEhr3KRgTMWVXd8rLKa5YLpkdVuw/edit?usp=sharing).
