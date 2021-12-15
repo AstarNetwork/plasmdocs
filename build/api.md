@@ -4,33 +4,25 @@
 
 The API provides application developers the ability to query a node and interact with the Polkadot or Substrate chains using Javascript. Here you will find documentation and examples to get you started.
 
-A complete overview on using the API in your projects, from installation all the way through to making it do magic. Have things working and want tips? Have a look at the complete library: [https://polkadot.js.org/docs/](https://polkadot.js.org/docs/)
+A complete overview of using the API in your projects, from installation all the way through to making it do magic. Have things working and want tips? Have a look at the complete library: [https://polkadot.js.org/docs/](https://polkadot.js.org/docs/)
 
 Separated from the API you will also find the [Substrate metadata](https://polkadot.js.org/docs/substrate) section in the documentation that has an overview of the RPC, extrinsics, events, and errors available on a typical Substrate node.
 
-There are a number of organisations that maintain free RPC WebSocket endpoints for the Astar community.
+There are a number of organizations that maintain free RPC WebSocket endpoints for the Astar community.
 
-Shiden:
+See:
 
-* Stake Technologies: `wss://rpc.shiden.plasmnet.io`
-* OnFinality: `wss://shiden.api.onfinality.io/public-ws`
-
-Plasm:
-
-* Stake Technologies: `wss://rpc.plasmnet.io/`
-* Patract Elara: `wss://plasm.elara.patract.io`
-
-Dusty:
-
-* Stake Technologies: `wss://rpc.dusty.plasmnet.io/`
+{% content-ref url="../integration/network-details.md" %}
+[network-details.md](../integration/network-details.md)
+{% endcontent-ref %}
 
 ## Installation
 
 Follow these steps to use Polkadot API on Plasm Network. Yes, it really is as simple as installing from npm, so we are not going to waste too much time with the bare basics, just install the necessary APIs via:
 
-```text
+```
 npm i @polkadot/api
-npm i @plasm/types
+npm i @astar/types
 ```
 
 ## Example
@@ -39,7 +31,7 @@ This example shows how to subscribe to new blocks. It will listen to our testnet
 
 NOTE: The example runs until you stop it with CTRL+C
 
-```text
+```
 const { ApiPromise, WsProvider, Keyring } = require('@polkadot/api');
 const plasmDefinitions = require('@plasm/types/interfaces/definitions');
 
@@ -90,9 +82,8 @@ main().catch(console.error);
 
 When you run this script you will see the following:
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](<../.gitbook/assets/image (12).png>)
 
 ## Support
 
 Please join our developer's hub on [Discord](https://discord.com/invite/wUcQt3R).
-
