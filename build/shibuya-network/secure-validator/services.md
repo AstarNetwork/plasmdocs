@@ -10,16 +10,16 @@ Creating those services will allow a fully **automated process** that you will n
 Please set all the services provided here.
 {% endhint %}
 
-### Plasm/Shiden node
+### Astar/Shiden node
 
-```text
-sudo touch /etc/systemd/system/plasm.service
-sudo nano /etc/systemd/system/plasm.service
+```
+sudo touch /etc/systemd/system/astar.service
+sudo nano /etc/systemd/system/astar.service
 ```
 
-```text
+```
 [Unit]
-  Description=Plasm Validator
+  Description=Astar Validator
 
 [Service]
   User=plasm
@@ -37,17 +37,17 @@ WantedBy=multi-user.target
 ```
 
 {% hint style="info" %}
-Do not forget to change the &lt;Your Validator Name&gt;
+Do not forget to change the \<Your Validator Name>
 {% endhint %}
 
-### Prometheus <a id="15f3"></a>
+### Prometheus <a href="#15f3" id="15f3"></a>
 
-```text
+```
 sudo touch /etc/systemd/system/prometheus.service
 sudo nano /etc/systemd/system/prometheus.service
 ```
 
-```text
+```
 [Unit]
   Description=Prometheus Monitoring
   Wants=network-online.target
@@ -68,14 +68,14 @@ sudo nano /etc/systemd/system/prometheus.service
   WantedBy=multi-user.target
 ```
 
-### Node exporter <a id="0405"></a>
+### Node exporter <a href="#0405" id="0405"></a>
 
-```text
+```
 sudo touch /etc/systemd/system/node_exporter.service
 sudo nano /etc/systemd/system/node_exporter.service
 ```
 
-```text
+```
 [Unit]
   Description=Node Exporter
   Wants=network-online.target
@@ -91,14 +91,14 @@ sudo nano /etc/systemd/system/node_exporter.service
   WantedBy=multi-user.target
 ```
 
-### Process exporter <a id="e7e1"></a>
+### Process exporter <a href="#e7e1" id="e7e1"></a>
 
-```text
+```
 sudo touch /etc/systemd/system/process-exporter.service
 sudo nano /etc/systemd/system/process-exporter.service
 ```
 
-```text
+```
 [Unit]
   Description=Process Exporter
   Wants=network-online.target
@@ -115,14 +115,14 @@ sudo nano /etc/systemd/system/process-exporter.service
 WantedBy=multi-user.target
 ```
 
-### Alert manager <a id="2773"></a>
+### Alert manager <a href="#2773" id="2773"></a>
 
-```text
+```
 sudo touch /etc/systemd/system/alertmanager.service
 sudo nano /etc/systemd/system/alertmanager.service
 ```
 
-```text
+```
 [Unit]
   Description=AlertManager Server Service
   Wants=network-online.target
@@ -151,6 +151,4 @@ WantedBy=multi-user.target
 Now it's getting exciting! We are going to fire up everything. In case of any errors in a file, go back some steps and check if you haven't missed anything.
 
 If you really don't know what's wrong. Join our Discord, where we provide you with support.
-
-
 

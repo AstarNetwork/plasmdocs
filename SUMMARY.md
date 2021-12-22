@@ -85,7 +85,7 @@
     * [Create Your Environnement](build/shibuya-network/secure-validator/create-your-environnement.md)
     * [Secure Your SSH Connection](build/shibuya-network/secure-validator/secure-your-ssh-connection.md)
     * [SSH Tunneling](build/shibuya-network/secure-validator/ssh-tunneling.md)
-    * [Plasm/Shiden node](build/shibuya-network/secure-validator/plasm-shiden-node.md)
+    * [Astar/Shiden node](build/shibuya-network/secure-validator/plasm-shiden-node.md)
     * [Installation Node Monitoring](build/shibuya-network/secure-validator/installation-node-monitoring.md)
     * [Configuration](build/shibuya-network/secure-validator/configuration.md)
     * [Services](build/shibuya-network/secure-validator/services.md)

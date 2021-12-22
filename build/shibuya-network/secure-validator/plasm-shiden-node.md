@@ -1,4 +1,4 @@
-# Plasm/Shiden node
+# Astar/Shiden node
 
 ## Let's get started
 
@@ -20,7 +20,7 @@ To install and run your validator you can use the `nohup`command or use `screen`
 
 Screen or GNU Screen is a terminal multiplexer. In other words, it means that you can start a screen session and then open any number of windows (virtual terminals) inside that session. Processes running in `screen` will continue to run when their window is not visible even if you get disconnected.
 
-To start a screen session, simply type `screen` in your console. This is already installed on Azure so no need to install the software. You will see a lot of text, just hit the _spacebar_ twice. 
+To start a screen session, simply type `screen` in your console. This is already installed on Azure so no need to install the software. You will see a lot of text, just hit the _spacebar_ twice.&#x20;
 
 ```
 screen
@@ -31,7 +31,7 @@ This will open a screen session, create a new window, and start a shell in that 
 ### Download node
 
 This part is based on the [following guide](https://medium.com/plasm-network/become-a-plasm-network-validator-c212085cc72e) and modified for this guide.\
-The easiest way to install a Plasm node is to download the binaries. You can find them here: 
+The easiest way to install a Plasm node is to download the binaries. You can find them here:&#x20;
 
 {% embed url="https://github.com/staketechnologies/Plasm/releases" %}
 
@@ -70,11 +70,11 @@ cd /usr/local/bin
 ```
 
 {% hint style="info" %}
- Typ in the place of **YOURNAME**, how you would like to call your node.
+&#x20;Typ in the place of **YOURNAME**, how you would like to call your node.
 {% endhint %}
 
-Check on [https://telemetry.polkadot.io/#/Dusty](https://telemetry.polkadot.io/#/Dusty) to see your node syncing.\
-Let's detach ourselves from this session so we can continue with the other steps. 
+Check on [https://telemetry.polkadot.io/](https://telemetry.polkadot.io/#/Dusty) to see your node syncing.\
+Let's detach ourselves from this session so we can continue with the other steps.&#x20;
 
 `ctrl+a+d`
 

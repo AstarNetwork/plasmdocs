@@ -1,6 +1,6 @@
 # Launch and Active Services
 
-##  Launch and Active Services
+## &#x20;Launch and Active Services
 
 Launch a **daemon reload** to take the services into account in `systemd`:
 
@@ -42,7 +42,7 @@ sudo systemctl enable alertmanager.service
 sudo systemctl enable grafana-server
 ```
 
-## Test Alert manager <a href="ac61" id="ac61"></a>
+## Test Alert manager <a href="#ac61" id="ac61"></a>
 
 Run this command to fire an alert:
 
@@ -52,11 +52,11 @@ curl -H "Content-Type: application/json" -d '[{"labels":{"alertname":"Test"}}]' 
 
 Check your inbox, you have a surprise:
 
-![](https://miro.medium.com/max/630/1\*ZwXa8SNzmoBsAwz_UqnJmw.png)
+![](https://miro.medium.com/max/630/1\*ZwXa8SNzmoBsAwz\_UqnJmw.png)
 
 You will always receive a **Firing** alert first, then a **Resolved** notification to indicate the alert isn’t active anymore.
 
-## Run Grafana dashboard <a href="acc1" id="acc1"></a>
+## Run Grafana dashboard <a href="#acc1" id="acc1"></a>
 
 Now is the time to get the most visual part: the **monitoring dashboard**.
 
@@ -72,9 +72,9 @@ Enter the default user `admin` and password `admin` then change the password.
 
 ![](https://miro.medium.com/max/1500/0\*qTsBUdvIdSXnFR5I.png)
 
-### Add data Sources <a href="e6fc" id="e6fc"></a>
+### Add data Sources <a href="#e6fc" id="e6fc"></a>
 
-Open the _Settings _menu:
+Open the _Settings_ menu:
 
 ![](https://miro.medium.com/max/250/0\*PWZ6IrqONqj-XGDh.png)
 
@@ -93,7 +93,7 @@ Select Prometheus:
 Just fill the URL with http://localhost:9090 and click _Save & Test_.\
 Then add a new data source and search for Alert Manager
 
-![](https://miro.medium.com/max/975/1\*59LLXEyWtwee93s7C1N_lw.png)
+![](https://miro.medium.com/max/975/1\*59LLXEyWtwee93s7C1N\_lw.png)
 
 Fill the URL with http://localhost:9093 and click _Save & Test_.
 
@@ -103,17 +103,17 @@ Now you have your 2 data sources set like that:
 
 ![](https://miro.medium.com/max/968/1\*iB3W7iHf8erWBxRLKDLXsQ.png)
 
-### Import the dashboard <a href="7c3d" id="7c3d"></a>
+### Import the dashboard <a href="#7c3d" id="7c3d"></a>
 
-Open the _New _menu:
+Open the _New_ menu:
 
 ![](https://miro.medium.com/max/206/1\*whppeAr3TPlXUf6dO7t5IQ.png)
 
 Click on _Import_:
 
-![](https://miro.medium.com/max/658/1\*Z_hztNvh-WsW7jHOgS0S2w.png)
+![](https://miro.medium.com/max/658/1\*Z\_hztNvh-WsW7jHOgS0S2w.png)
 
-Select our favorite [dashboard 13840](https://grafana.com/grafana/dashboards/13840), we recommend using this dashboard because it's created by one of our Ambassadors and we don't want to fork this.  All credits goes to him.
+Select our favorite [dashboard 13840](https://grafana.com/grafana/dashboards/13840), we recommend using this dashboard because it's created by one of our Ambassadors and we don't want to fork this.  All credits go to him.
 
 ![](https://miro.medium.com/max/690/1\*\_3TVS7AmImGV41\_-qUBIog.png)
 

@@ -1,6 +1,6 @@
 # Installation Node Monitoring
 
-In this chapter, we will walk you through the setup of local monitoring for your validator node. 
+In this chapter, we will walk you through the setup of local monitoring for your validator node.&#x20;
 
 ## Installation
 
@@ -20,16 +20,16 @@ Installation of these packages goes in 7 steps:
 
 ```python
 #download files
-wget https://github.com/prometheus/prometheus/releases/download/v2.26.0/prometheus-2.26.0.linux-amd64.tar.gz
+wget https://github.com/prometheus/prometheus/releases/download/v2.32.0/prometheus-2.32.0.linux-amd64.tar.gz
 
 #extract
 tar xvf prometheus-*.tar.gz
 
 #move the files to /usr/lib/bin
-sudo cp ./prometheus-2.26.0.linux-amd64/prometheus /usr/local/bin/
-sudo cp ./prometheus-2.26.0.linux-amd64/promtool /usr/local/bin/
-sudo cp -r ./prometheus-2.26.0.linux-amd64/consoles /etc/prometheus
-sudo cp -r ./prometheus-2.26.0.linux-amd64/console_libraries /etc/prometheus
+sudo cp ./prometheus-2.32.0.linux-amd64/prometheus /usr/local/bin/
+sudo cp ./prometheus-2.32.0.linux-amd64/promtool /usr/local/bin/
+sudo cp -r ./prometheus-2.32.0.linux-amd64/consoles /etc/prometheus
+sudo cp -r ./prometheus-2.32.0.linux-amd64/console_libraries /etc/prometheus
 
 #create dedicated users
 sudo useradd --no-create-home --shell /usr/sbin/nologin prometheus
@@ -51,13 +51,13 @@ rm -rf ./prometheus*
 
 ```python
 #download files
-wget https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
 
 #extract
 tar xvf node_exporter-*.tar.gz
 
 #move the files to /usr/lib/bin
-sudo cp ./node_exporter-1.1.2.linux-amd64/node_exporter /usr/local/bin/
+sudo cp ./node_exporter-1.3.1.linux-amd64/node_exporter /usr/local/bin/
 
 #create dedicated users
 sudo useradd --no-create-home --shell /usr/sbin/nologin node_exporter
@@ -73,13 +73,13 @@ rm -rf ./node_exporter*
 
 ```python
 #download files
-wget https://github.com/ncabatoff/process-exporter/releases/download/v0.7.5/process-exporter-0.7.5.linux-amd64.tar.gz
+wget https://github.com/ncabatoff/process-exporter/releases/download/v0.7.10/process-exporter-0.7.10.linux-amd64.tar.gz
 
 #extract
 tar xvf process-exporter-*.tar.gz
 
 #move the files to /usr/lib/bin
-sudo cp ./process-exporter-0.7.5.linux-amd64/process-exporter /usr/local/bin/
+sudo cp ./process-exporter-0.7.10.linux-amd64/process-exporter /usr/local/bin/
 
 #create dedicated users
 sudo useradd --no-create-home --shell /usr/sbin/nologin process-exporter
@@ -99,14 +99,14 @@ rm -rf ./process-exporter*
 
 ```python
 #download files
-wget https://github.com/prometheus/alertmanager/releases/download/v0.21.0/alertmanager-0.21.0.linux-amd64.tar.gz
+wget https://github.com/prometheus/alertmanager/releases/download/v0.23.0/alertmanager-0.23.0.linux-amd64.tar.gz
 
 #extract
 tar xvf alertmanager-*.tar.gz
 
 #move the files to /usr/lib/bin
-sudo cp ./alertmanager-0.21.0.linux-amd64/alertmanager /usr/local/bin/
-sudo cp ./alertmanager-0.21.0.linux-amd64/amtool /usr/local/bin/
+sudo cp ./alertmanager-0.23.0.linux-amd64/alertmanager /usr/local/bin/
+sudo cp ./alertmanager-0.23.0.linux-amd64/amtool /usr/local/bin/
 
 #create dedicated users
 sudo useradd --no-create-home --shell /usr/sbin/nologin alertmanager
@@ -129,10 +129,21 @@ rm -rf ./alertmanager*
 
 ```python
 #download files
-wget https://dl.grafana.com/oss/release/grafana_7.5.3_amd64.deb
+wget https://dl.grafana.com/oss/release/grafana_8.3.3_amd64.deb
 
 #extract
 sudo dpkg -i grafana*.deb
+
+#if it fail with the error 'Package libfontconfig is not installed'
+sudo apt-get install libfontconfig
+
+#when you get the error 'libfontconfig1 : Depends: fontconfig-config (>= 2.11.0-6.3+deb8u1) but it is not going to be installed'
+#enter the following to force the install
+sudo apt-get -f install
+
+# now try again installing Grafana
+sudo dpkg -i grafana*.deb
+
 sudo grafana-cli plugins install camptocamp-prometheus-alertmanager-datasource
 sudo systemctl restart grafana-server
 
@@ -140,6 +151,5 @@ sudo systemctl restart grafana-server
 rm -rf ./grafana*
 ```
 
-Hope you are still with us?  
-If yes, congrats. You should have a certificate :-\).
-
+Hope you are still with us?\
+If yes, congrats. You should have a certificate :-).
