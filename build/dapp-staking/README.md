@@ -17,8 +17,8 @@ During the first phase, there will be some limitations so we can keep monitoring
 
 * **dApp staking is only for whitelisted projects** who joined our builder's program first.
 * To register a dApp for dApp staking you need to have 100 SDN tokens.
-* Each dApp can have a **max **of **512 nominators**.
-* The **minimum **amount to stake is **100 SDN**.
+* Each dApp can have a **max** of **512 nominators**.
+* The **minimum** amount to stake is **100 SDN**.
 * A claim needs to be done within 15 days or the unclaimed rewards go to the treasury. A claim can be done by the contract owner or any staker in the dApp. **One claim will claim for everyone**!
 * Currently, there is no slash nor bonding period during this phase.
 
@@ -31,9 +31,9 @@ Go to our portal: [https://portal.astar.network/](https://portal.astar.network) 
 {% hint style="info" %}
 Make sure you are connected to the correct network.
 
-**Shibuya **Network: testnet
+**Shibuya** Network: testnet
 
-**Shiden **Network: mainnet on Kusama
+**Shiden** Network: mainnet on Kusama
 {% endhint %}
 
 ![](<../../.gitbook/assets/03 (1).PNG>)

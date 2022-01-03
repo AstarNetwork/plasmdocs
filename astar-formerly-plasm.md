@@ -4,15 +4,15 @@ description: FAQ about rebranding Plasm Network to Astar Network
 
 # Astar (formerly Plasm)
 
-## **Plasm rebrands to Astar Network in pursuit of becoming a Polkadot-native dApp Hub.** <a href="ca4e" id="ca4e"></a>
+## **Plasm rebrands to Astar Network in pursuit of becoming a Polkadot-native dApp Hub.** <a href="#ca4e" id="ca4e"></a>
 
- Welcome to our next chapter. Today, we are thrilled to announce a rebrand to our new name, [Astar Network](https://astar.network).** **
+&#x20;Welcome to our next chapter. Today, we are thrilled to announce a rebrand to our new name, [Astar Network](https://astar.network). ****&#x20;
 
 ### From Plasm to Astar Network
 
 We have been developing Plasm for more than 2 years. Initially, our focus was solely to implement Layer 2 technology in Polkadot, but our vision has expanded. Layer 2 is now just one element in our innovative development pipeline. Currently, our platform is a dApp hub that supports Etherem Virtual Machine, WebAssembly, and layer2 solutions.
 
- We will use this new brand name for our Polkadot Parachain, and the network will be deployed once we win the Polkadot Parachain auction. 
+&#x20;We will use this new brand name for our Polkadot Parachain, and the network will be deployed once we win the Polkadot Parachain auction.&#x20;
 
 ## **FAQ**
 
@@ -30,10 +30,10 @@ Stake Technologies, the company behind Astar ecosystem, will not support Plasm a
 
 ### Will Shiden also get a rebrand?
 
-No, Shiden will keep the name Shiden Network. A Multi Chain dApps Hub on Kusama! 
+No, Shiden will keep the name Shiden Network. A Multi Chain dApps Hub on Kusama!&#x20;
 
 {% embed url="https://shiden.astar.network" %}
 
 ### Why do you hard-fork Plasm?
 
-Technically speaking, when the Polkadot auctions start on Polkadot, we have to restart the network to adjust to the specification of Polkadot. When we launched our mainnet Plasm this information was not yet available. 
+Technically speaking, when the Polkadot auctions start on Polkadot, we have to restart the network to adjust to the specification of Polkadot. When we launched our mainnet Plasm this information was not yet available.&#x20;

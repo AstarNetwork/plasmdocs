@@ -6,11 +6,11 @@ description: 'Last update:  2021/04/26'
 
 ![https://hardhat.org/](../.gitbook/assets/screen-shot-2021-04-26-at-15.12.59.png)
 
-## **What’s **[**Hardhat**](https://hardhat.org)**?**
+## **What’s** [**Hardhat**](https://hardhat.org)**?**
 
 > Hardhat is a development environment to compile, deploy, test, and debug your dApps. It helps developers manage and automate the recurring tasks that are inherent to the process of building smart contracts and dApps, as well as easily introducing more functionality around this workflow. This means compiling, running, and testing smart contracts at the very core.
 >
-> Hardhat comes built-in with Hardhat Network, a local Ethereum network designed for development. It functionality focuses around Solidity debugging, featuring stack traces, console.log(), and explicit error messages when transactions fail._ _\
+> Hardhat comes built-in with Hardhat Network, a local Ethereum network designed for development. It functionality focuses around Solidity debugging, featuring stack traces, console.log(), and explicit error messages when transactions fail. __ \
 > __\
 > __Learn more from [here](https://hardhat.org).
 
@@ -19,11 +19,11 @@ Hardhat can directly interact with Plasm ecosystem Ethereum API so it can be use
 
 ## **Hardhat vs Truffle**
 
-Hardhat and Truffle are both development environments for building on Ethereum and have similar functionality so it's totally up to you to decide which you want to use. Hardhat is the newer kid on the block and tends to be a bit cleaner/easier to use, they also have lots of plugins to make it more customizable. 
+Hardhat and Truffle are both development environments for building on Ethereum and have similar functionality so it's totally up to you to decide which you want to use. Hardhat is the newer kid on the block and tends to be a bit cleaner/easier to use, they also have lots of plugins to make it more customizable.&#x20;
 
 ## **Follow Along**
 
-**follow along the tutorial by typing everything out or clone our repo **[**here**](https://github.com/PlasmNetwork/Hardhat-tutorial/tree/main)** and view the demo below!**
+**follow along the tutorial by typing everything out or clone our repo** [**here**](https://github.com/PlasmNetwork/Hardhat-tutorial/tree/main) **and view the demo below!**
 
 {% embed url="https://youtu.be/HdV5uNcm-hQ" %}
 
@@ -90,7 +90,7 @@ npm install @nomiclabs/hardhat-ethers ethers
 **Alert: Never save or commit your private keys inside your repositories. Be careful!**
 {% endhint %}
 
- Then, please open the `hardhat.config.js` file to assign the Solidity version and RPC server. In my case I use Visual Studio Code.
+&#x20;Then, please open the `hardhat.config.js` file to assign the Solidity version and RPC server. In my case I use Visual Studio Code.
 
 **RPC server Dusty:**\
 ****Network Name: Dusty\
@@ -104,7 +104,7 @@ New RPC URL: http://localhost:9933\
 Chain ID: 80\
 Currency Symbol: PLD\
 \
-**Developer account (private key): **0x60ed0dd24087f00faea4e2b556c74ebfa2f0e705f8169733b01530ce4c619883
+**Developer account (private key):** 0x60ed0dd24087f00faea4e2b556c74ebfa2f0e705f8169733b01530ce4c619883
 
 ![](<../.gitbook/assets/screen-shot-2021-04-26-at-15.54.50 (1).png>)
 
@@ -120,7 +120,7 @@ Next, let's create a `private.json`, where we store the private key. Never revea
 
 ## **Smart Contract Example**
 
-We will create a simple ‘Hello World’ smart contract in this introduction. We will store our contract in the contracts directory. 
+We will create a simple ‘Hello World’ smart contract in this introduction. We will store our contract in the contracts directory.&#x20;
 
 ```
 mkdir contracts && cd contracts
@@ -144,7 +144,7 @@ npx hardhat compile
 
 If you don’t have the correct compiler installed, Hardhat will install this for you before compiling the contract. When the contract is compiled your directory will look like this:
 
-![](https://lh3.googleusercontent.com/YQHrHoDZIbbTCx4ow-X0zKP7Qaj3AwuI8qLoEaOTgSEeZKYYTM_p5Y8A16QMagrmu0mUCiGuav1fDjbw6RU9kKjTIIkPZnpuEjmHLKM6didaAGH33AaDY80TU\_-l9MN2bkIXbzEj)
+![](https://lh3.googleusercontent.com/YQHrHoDZIbbTCx4ow-X0zKP7Qaj3AwuI8qLoEaOTgSEeZKYYTM\_p5Y8A16QMagrmu0mUCiGuav1fDjbw6RU9kKjTIIkPZnpuEjmHLKM6didaAGH33AaDY80TU\_-l9MN2bkIXbzEj)
 
 ## **Deploy Your Contract**
 

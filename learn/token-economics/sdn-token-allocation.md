@@ -13,13 +13,13 @@ Shiden Network is a fork of Plasm Network and acts as a smart contract Kusama Pa
 | Ecosystem Growth          | 10 | Funds to be used for ecosystem growth program                                                                                                                                                                                                                                                   |
 | Team                      | 5  | Incentive pool for employees.                                                                                                                                                                                                                                                                   |
 
-**※ Our core team manages the assets and all assets shall be used in 3 years except for on-chain governance. On-chain governance will be activated after we enter into DAO. Since all assets transfers are verifiable on block explorers, the team can't manipulate the market. **
+**※ Our core team manages the assets and all assets shall be used in 3 years except for on-chain governance. On-chain governance will be activated after we enter into DAO. Since all assets transfers are verifiable on block explorers, the team can't manipulate the market.**&#x20;
 
 To make the difference understandable, I would like to write the difference below.
 
-###  Parachain Auctions
+### &#x20;Parachain Auctions
 
-We reserve 30% for the Kusama Parachain auctions. In the case of Shiden Network, we will use 22% for the first auction and 8% for the second auction. As you can see above, we still have 5% buffer (Parachain Auction Reserve).  Shiden Network is a community-driven layer1 blockchain. 
+We reserve 30% for the Kusama Parachain auctions. In the case of Shiden Network, we will use 22% for the first auction and 8% for the second auction. As you can see above, we still have 5% buffer (Parachain Auction Reserve).  Shiden Network is a community-driven layer1 blockchain.&#x20;
 
 {% content-ref url="../parachain-lease-offering/shiden-parachain-auction-strategy.md" %}
 [shiden-parachain-auction-strategy.md](../parachain-lease-offering/shiden-parachain-auction-strategy.md)
@@ -27,4 +27,4 @@ We reserve 30% for the Kusama Parachain auctions. In the case of Shiden Network,
 
 ### Real Community Driven Blockchain
 
-1 year after the genesis block, more than 50% of SDN tokens will be owned by community members. 
+1 year after the genesis block, more than 50% of SDN tokens will be owned by community members.&#x20;

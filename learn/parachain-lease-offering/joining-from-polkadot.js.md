@@ -12,7 +12,7 @@ If you don't have a Polkadot.js account, please make one!
 
 ## Step1: Access to Polkadot.js Kusama Page!
 
-First of all, please visit [https://polkadot.js.org/apps/#/explorer](https://polkadot.js.org/apps/#/explorer) and open the Kusama Network page. 
+First of all, please visit [https://polkadot.js.org/apps/#/explorer](https://polkadot.js.org/apps/#/explorer) and open the Kusama Network page.&#x20;
 
 ![](../../.gitbook/assets/screen-shot-2021-05-29-at-0.35.30.png)
 
@@ -20,7 +20,7 @@ To join our crowdloan or auction, please click **"Network"** → **"Parachains"*
 
 ![](../../.gitbook/assets/screen-shot-2021-05-29-at-0.36.48.png)
 
-Once you open the above page, you can see "Parathread",  "Auction", and  "Crowdloan" on the  top. To become a Parachain, Shiden Network is registered as a Parathread** (Our Parachain ID is 2007)** first and conduct a crowdloan and auction. 
+Once you open the above page, you can see "Parathread",  "Auction", and  "Crowdloan" on the  top. To become a Parachain, Shiden Network is registered as a Parathread **(Our Parachain ID is 2007)** first and conduct a crowdloan and auction.&#x20;
 
 {% content-ref url="auction.md" %}
 [auction.md](auction.md)
@@ -56,7 +56,7 @@ When you are on the page "Crowdloan", you will find Shiden in the list of ongoin
 
 ![](../../.gitbook/assets/1\_xq-h-vml0owof4ibcqqsua.png)
 
-![](../../.gitbook/assets/1\_alwavfor_ymoguqaeju6qa.png)
+![](../../.gitbook/assets/1\_alwavfor\_ymoguqaeju6qa.png)
 
 Shiden Token will be distributed once we win the auction and KSM token will be returned after expiring the lease period.
 

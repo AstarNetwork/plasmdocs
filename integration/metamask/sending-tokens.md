@@ -9,13 +9,13 @@ description: from/to MetaMask <> Polkadot.js.org
 Now that EVM is enabled, more and more developers are deploying their dApps in our ecosystem. One frequently asked question is: "How can I transfer my tokens from MetaMask to[ polkadot.js.org](https://polkadot.js.org/apps/)". In this tutorial, we will explain how to do this.
 
 **Q: Why would you need to do this?**\
-**A: **It's not possible to transfer SDN tokens from MetaMask to an exchange. This is because MetaMask is using an address format of H160 and SDN uses SS58 format. Meaning, you have to transfer your tokens first to an SS58 address before sending them to an exchange.
+**A:** It's not possible to transfer SDN tokens from MetaMask to an exchange. This is because MetaMask is using an address format of H160 and SDN uses SS58 format. Meaning, you have to transfer your tokens first to an SS58 address before sending them to an exchange.
 
 **Q: Can I import my wallet with SDN in MetaMask?**\
-**A: **No, you first need to create or import an H160 wallet on MetaMask before sending SDN to that address.
+**A:** No, you first need to create or import an H160 wallet on MetaMask before sending SDN to that address.
 
 **Q: Why can't you just make it compatible?**\
-**A: **Astar ecosystem does not only support EVM but also will support WASM and other L1 ecosystems on Astar. Converting everything into H160 will make it a lot more difficult in the future. In the end, we are not just making a copy of Ethereum.
+**A:** Astar ecosystem does not only support EVM but also will support WASM and other L1 ecosystems on Astar. Converting everything into H160 will make it a lot more difficult in the future. In the end, we are not just making a copy of Ethereum.
 
 ## The difference
 

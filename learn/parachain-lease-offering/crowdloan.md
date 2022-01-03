@@ -1,6 +1,6 @@
 # Crowdloan
 
-Kusama and Polkadot allow Parachains to source tokens for their Parachain bids in a decentralized crowdloan. Shiden Network and Astar Network conduct a crowdloan campaign to secure Parachainn slots. 
+Kusama and Polkadot allow Parachains to source tokens for their Parachain bids in a decentralized crowdloan. Shiden Network and Astar Network conduct a crowdloan campaign to secure Parachainn slots.&#x20;
 
 ## Kusama Network
 
@@ -8,10 +8,10 @@ Kusama is a scalable network of specialized blockchains built using Substrate an
 
 ### Crowdloan Mechanism
 
-The crowdloan mechanism allows people to contribute by agreeing to lock up their own KSM until the end of the lease. SDN token (the native token of Shiden Network) is distributed based on the amount a user lock and when he/she locks. 
+The crowdloan mechanism allows people to contribute by agreeing to lock up their own KSM until the end of the lease. SDN token (the native token of Shiden Network) is distributed based on the amount a user lock and when he/she locks.&#x20;
 
 **Step1: Creating a crowdloan campaign**\
-****Stake Technologies** **sets a maximum of the total allowed contributions and a campaign end date and invites our community to participate. We incentivize people to join the crowdloan instead of the auction.
+****Stake Technologies **** sets a maximum of the total allowed contributions and a campaign end date and invites our community to participate. We incentivize people to join the crowdloan instead of the auction.
 
 **Step2: Initiate a transaction**\
 ****Crowdloan contributors initiate a special transaction allocating transferable KSM to the campaign’s index. Keep in mind that this transaction is different from a normal transaction. Contributors **should NOT send KSM to an external account**.

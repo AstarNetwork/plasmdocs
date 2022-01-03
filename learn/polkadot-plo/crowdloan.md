@@ -9,7 +9,7 @@ Almost exactly five years after the vision of a heterogeneous multichain framewo
 The crowdloan mechanism allows people to contribute by agreeing to lock up their own DOT until the end of the lease. ASTR token (the native token of Astar Network) is distributed based on the amount of DOT he/she locks.&#x20;
 
 **Step1: Creating a crowdloan campaign**\
-****Stake Technologies** **sets a maximum of the total allowed contributions and a campaign end date and invites our community to participate. We incentivize people to join the crowdloan event.
+****Stake Technologies **** sets a maximum of the total allowed contributions and a campaign end date and invites our community to participate. We incentivize people to join the crowdloan event.
 
 **Step2: Initiate a transaction**\
 ****Crowdloan contributors initiate a special transaction allocating transferable DOT to the campaign’s index. Keep in mind that this transaction is different from a normal transaction. Contributors **should NOT send DOT to an external account**.

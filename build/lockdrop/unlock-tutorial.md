@@ -4,13 +4,13 @@
 
 Recently, a lot of our users had problems connecting to Ethereum to unlock their second lockdrop. One of the main issues is syncing to Ethereum. The wheel keeps spinning:
 
-![](https://lh4.googleusercontent.com/CtuDWNC_LZtW0Wn8ixe6h7ZYr2AA0\_-gsa4rB2M_UFX3g05t7PlktqQeTdwZqxGNbuaMcFoXtfmRv_W3s2fqMJ32bySzhjTwavlGKAwQ8LPNGkbWFFpYm4g2YS\_1meeV3T23K_sA)
+![](https://lh4.googleusercontent.com/CtuDWNC\_LZtW0Wn8ixe6h7ZYr2AA0\_-gsa4rB2M\_UFX3g05t7PlktqQeTdwZqxGNbuaMcFoXtfmRv\_W3s2fqMJ32bySzhjTwavlGKAwQ8LPNGkbWFFpYm4g2YS\_1meeV3T23K\_sA)
 
 Our WebSocket sometimes gets blocked and in this case, it’s not possible to sync. This issue can be resolved by using a VPN extension in your browser. This tutorial is created for the Chrome browser.
 
 ### **Step 1**
 
-Go to the following website and click on the ‘Second lockdrop - ETH Lock’:** **[**https://lockdrop.astar.network**](https://lockdrop.astar.network)****\
+Go to the following website and click on the ‘Second lockdrop - ETH Lock’: **** [**https://lockdrop.astar.network**](https://lockdrop.astar.network)****\
 ****Log in with your MetaMask account! NOTE: connect with the wallet you used to join the lockdrop.
 
 ![](https://lh4.googleusercontent.com/bRSD2XYQGx5SophDHo6j1zuC7F3bxuRWBGRgq58I5EYn2ZxbiID8gebvSVYY8TZ3A-UOoWbWmYtcReRJC8DzyuV\_6HkbYXoy3Gxh9hQayEgDQOEF20wTXfrkALMc4UQ3e95jz1OI)
@@ -19,7 +19,7 @@ Go to the following website and click on the ‘Second lockdrop - ETH Lock’:**
 
 If your browser does not sync with Ethereum, you need to install a browser extension to use a VPN connection. I used [VeePN](https://chrome.google.com/webstore/search/veepn?hl=en&\_category=extensions). It’s a free VPN for Chrome.
 
-![](https://lh3.googleusercontent.com/g97TZIYwotEwKT2aXIszR2VZpaLBpLiHtm-jgBH8pjqMGOzH8gqYYjM-JIg3Ki6aHwWcuQQ2lVWD1AbW3bPehGTaRsj6scfZQ6X2klJiUFYpTE7wAxPFlqWjLWj_sp4z0CVLlUgH)
+![](https://lh3.googleusercontent.com/g97TZIYwotEwKT2aXIszR2VZpaLBpLiHtm-jgBH8pjqMGOzH8gqYYjM-JIg3Ki6aHwWcuQQ2lVWD1AbW3bPehGTaRsj6scfZQ6X2klJiUFYpTE7wAxPFlqWjLWj\_sp4z0CVLlUgH)
 
 You only need to install the VeePN extension, and you can see it between all your other extensions listed.
 
@@ -28,7 +28,7 @@ You only need to install the VeePN extension, and you can see it between all you
 Open the extension. Select a country you want to use to connect to the lockdrop page. Finally, click on the ON button.\
 ****
 
-![](https://lh3.googleusercontent.com/nFZEPZyeIAB4iHZwdw5K7NQhtjPeI3HAqqW5qdYm5ZUuQm1mrF9OF-FVO4s6BCX_EURN9535Ncf0Khc050WGZagSCdQnBRra_UySVEwCIHNwqnF0svs_tvKsWs8eIOF_lfP81Plb)
+![](https://lh3.googleusercontent.com/nFZEPZyeIAB4iHZwdw5K7NQhtjPeI3HAqqW5qdYm5ZUuQm1mrF9OF-FVO4s6BCX\_EURN9535Ncf0Khc050WGZagSCdQnBRra\_UySVEwCIHNwqnF0svs\_tvKsWs8eIOF\_lfP81Plb)
 
 ### **Step 4**
 

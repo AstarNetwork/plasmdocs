@@ -58,6 +58,10 @@
   * [$SDN Token Allocation](learn/token-economics/sdn-token-allocation.md)
   * [Staking, Liquidity, and Inflation Model](learn/token-economics/token-economy.md)
 
+## Utility
+
+* [Staking on dApps](utility/staking-on-dapps.md)
+
 ## Integration
 
 * [Network Details](integration/network-details.md)
@@ -145,7 +149,3 @@
 * [Tech Chat (Discord)](https://discord.com/invite/wUcQt3R)
 * [GitHub](https://github.com/PlasmNetwork/Plasm)
 * [Forum](https://forum.astar.network)
-
-***
-
-* [Ethereum Bridge](ethereum-bridge.md)

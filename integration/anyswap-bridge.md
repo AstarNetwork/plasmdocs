@@ -38,12 +38,12 @@ More contracts will be added in the future. If you want to list your token in th
 In this tutorial I will show you how to bridge USDT from Ethereum to Shiden. By doing so, you will add liquidity to our network. We can't thank you enough for helping us.
 
 {% hint style="info" %}
-**Reminder: **
+**Reminder:**&#x20;
 
 * Crosschain fee is 0.00 %, minimum crosschain Fee is 0.00 USDT, maximum crosschain fee is 0.00 USDT
 * Minimum crosschain amount is 40 USDT
 * Maximum crosschain amount is 5.000.000 USDT
-*  Estimated time of crosschain arrival is 10-30 min 
+* &#x20;Estimated time of crosschain arrival is 10-30 min&#x20;
 * Crosschain amount larger than 1.000.000 USDT could take up to 12 hours
 {% endhint %}
 
@@ -63,7 +63,7 @@ Click on '**Swap**' to start with the transfer. You will receive a popup where y
 
 ### Step 3
 
-In your top-right corner, you will see that your transaction is pending. This can take up to 15-30 minutes. 
+In your top-right corner, you will see that your transaction is pending. This can take up to 15-30 minutes.&#x20;
 
 ![](../.gitbook/assets/03.PNG)
 
@@ -73,7 +73,7 @@ In your top-right corner, you will see that your transaction is pending. This ca
 
 ### Step 4
 
-Add the token contract in your MetaMask. Click below in the screen of MetaMask on '**import tokens**', add the contract you find above in this tutorial and that's it. 
+Add the token contract in your MetaMask. Click below in the screen of MetaMask on '**import tokens**', add the contract you find above in this tutorial and that's it.&#x20;
 
 ![](../.gitbook/assets/05.PNG)
 

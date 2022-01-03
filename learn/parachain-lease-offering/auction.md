@@ -1,9 +1,9 @@
 # Auction
 
-Parachain slot auctions follow a modified [candle auction](https://wiki.polkadot.network/docs/en/learn-auction#mechanics-of-a-candle-auction) format. 
+Parachain slot auctions follow a modified [candle auction](https://wiki.polkadot.network/docs/en/learn-auction#mechanics-of-a-candle-auction) format.&#x20;
 
 {% hint style="info" %}
-**If you would like to know more about candle auctions, please visit **[**the official Polkadot wiki**](https://wiki.polkadot.network/docs/en/learn-auction#mechanics-of-a-candle-auction)**. **
+**If you would like to know more about candle auctions, please visit** [**the official Polkadot wiki**](https://wiki.polkadot.network/docs/en/learn-auction#mechanics-of-a-candle-auction)**.**&#x20;
 {% endhint %}
 
 Generally speaking, the exact endpoint of an auction is determined. However, the Polkadot  Parachain auctions don't have the exact endpoint. The endpoint is randomly chosen after the auction and the winning Parachain at the specific point wins the auction. Hence, the best strategy is to encourage contributors to lock KSM as early as possible.
@@ -18,8 +18,8 @@ KSM: The lease periods are 1-8 (each lease period is 6 weeks)\
 DOT: The lease periods are 1-4 (each lease period is 4 months)
 {% endhint %}
 
-** Step2: Open bidding **\
-****Open bidding and accept KSM/DOT tokens from our community for the duration of the auction. 
+&#x20;**Step2: Open bidding** \
+****Open bidding and accept KSM/DOT tokens from our community for the duration of the auction.&#x20;
 
 **Step3: The endpoint was randomly chosen**\
 ****At the end of the auction, the precise moment of the auction’s close is randomly determined by a verifiable random function.

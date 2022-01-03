@@ -1,6 +1,6 @@
 # SSH Tunneling
 
-**Grafana** runs an **HTTP **server on your local node so basically, we shouldn’t access it directly from the outside.
+**Grafana** runs an **HTTP** server on your local node so basically, we shouldn’t access it directly from the outside.
 
 **SSH tunneling** is considered to be a safe way to make traffic transit from your node to your local computer (or even phone). The principle is to make the SSH client listen to a specific port on your local machine, **encrypt traffic through SSH** protocol, and forward it to the target port on your node.
 
@@ -10,7 +10,7 @@ Of course, you could also configure Grafana to run an HTTPS server but we do not
 
 Once we have finished installing Grafana on our node, we will access it through this address on our local machine: `http://localhost:2022`
 
- As PuTTy is a very popular client usable on many OS and used in this guide, here is where you can configure local port forwarding. If you want to [use OpenSSL please follow this guide](https://bldstackingnode.medium.com/monitoring-substrate-node-polkadot-kusama-parachains-validator-guide-922734ea4cdb#3351).
+&#x20;As PuTTy is a very popular client usable on many OS and used in this guide, here is where you can configure local port forwarding. If you want to [use OpenSSL please follow this guide](https://bldstackingnode.medium.com/monitoring-substrate-node-polkadot-kusama-parachains-validator-guide-922734ea4cdb#3351).
 
 ![](../../../.gitbook/assets/01.png)
 

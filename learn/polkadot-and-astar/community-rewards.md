@@ -59,9 +59,9 @@ First, we define the meaning of each variable.
 * $$TotalForValidatorRewards$$ is the total amount of compensation paid for the validator.
 * $$TotalForCommunityRewards$$ is the total amount of compensation paid for the community contributors.&#x20;
 * $$TotalAmountOfIssue$$ is the total number of PLM tokens issued by Astar Network.&#x20;
-* $$I_0$$** **is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes.&#x20;
+* $$I_0$$ **** is the minimum token supply that should be paid to the validators to ensure a sufficient number of nodes.&#x20;
 * $$EraDuration$$ is the length of the duration of each Era.&#x20;
-* $$NumberOfValidators$$_** **_is the actual number of validators in the network.
+* $$NumberOfValidators$$ _****_ is the actual number of validators in the network.
 * &#x20;$$TargetNumber$$ is 100 that is a sufficient number of validators on Astar Network.
 
 If $$TargetNumber$$< $$NumberOfValidators$$:

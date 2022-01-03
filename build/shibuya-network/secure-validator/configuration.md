@@ -106,9 +106,9 @@ promtool check config /etc/prometheus/prometheus.yml
 
 ![](<../../../.gitbook/assets/image (24).png>)
 
-### Process exporter <a href="786a" id="786a"></a>
+### Process exporter <a href="#786a" id="786a"></a>
 
-**Process exporter** needs a little** config file** to be told which processes they should take into account:
+**Process exporter** needs a little **config file** to be told which processes they should take into account:
 
 ```
 sudo touch /etc/process-exporter/config.yml
@@ -134,7 +134,7 @@ You should see something like the below:
 
 ### Alert Manager
 
- There is a configuration file named `alertmanager.yml` inside the directory that you just extracted in the previous command, but that is not of our use. We will create our `alertmanager.yml` file under `/etc/alertmanager` with the following config.
+&#x20;There is a configuration file named `alertmanager.yml` inside the directory that you just extracted in the previous command, but that is not of our use. We will create our `alertmanager.yml` file under `/etc/alertmanager` with the following config.
 
 Let’s create the file:
 
@@ -164,6 +164,6 @@ receivers:
     send_resolved: true
 ```
 
- With the above configuration, alerts will be sent using the email you set above. Remember to change `YOUR_EMAIL` to your email and paste the app password you just saved earlier to the `YOUR_APP_PASSWORD`.
+&#x20;With the above configuration, alerts will be sent using the email you set above. Remember to change `YOUR_EMAIL` to your email and paste the app password you just saved earlier to the `YOUR_APP_PASSWORD`.
 
 We will test the Alert Manager later in the guide.

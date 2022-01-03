@@ -16,9 +16,9 @@ Shiden Network is one of the Kusama Parachain candidates (2021-05-14). Parachain
 
 To collect KSM tokens as fast as possible, **Shiden team has chosen to crowdfund its slot lease using Kusama’s crowdloan mechanism, allowing KSM holders to contribute by locking up their own KSM tokens for 11 months.** The network will reward their contributions by providing SDN tokens.
 
-The PLO consists of both a “Crowdloan” and an “Auction”. Shiden Network will conduct its crowdloan before the auction. The team highly encourages KSM holders to join the crowdloan as soon as possible if they would like to participate in the PLO. The collected KSM  will be used for the Parachain auctions. 
+The PLO consists of both a “Crowdloan” and an “Auction”. Shiden Network will conduct its crowdloan before the auction. The team highly encourages KSM holders to join the crowdloan as soon as possible if they would like to participate in the PLO. The collected KSM  will be used for the Parachain auctions.&#x20;
 
-**After 11 months, KSM tokens will be returned. Hence, this is neither an ICO nor a direct investment. This is more similar to “staking” with a lockup. **
+**After 11 months, KSM tokens will be returned. Hence, this is neither an ICO nor a direct investment. This is more similar to “staking” with a lockup.**&#x20;
 
 {% content-ref url="crowdloan.md" %}
 [crowdloan.md](crowdloan.md)
@@ -42,17 +42,17 @@ In addition to that, Shiden has introduced a new incentive scheme rewarding earl
 
 ![](../../.gitbook/assets/screen-shot-2021-05-20-at-1.07.22.png)
 
-**6 (Highest Bonus Rate) : **The crowdloan participants who join the crowdloan from the beginning to the auction day2 get this bonus rate.
+**6 (Highest Bonus Rate) :** The crowdloan participants who join the crowdloan from the beginning to the auction day2 get this bonus rate.
 
-**5 (Second Highest Bonus Rate) : **The crowdloan participants who join the crowdloan from the auction day3 to the beginning of the 2nd auction get this bonus rate.
+**5 (Second Highest Bonus Rate) :** The crowdloan participants who join the crowdloan from the auction day3 to the beginning of the 2nd auction get this bonus rate.
 
-**4 (Third Highest Bonus Rate): **The crowdloan participants who join the crowdloan from the 2nd auction to the beginning of the 3rd auction get this bonus rate.
+**4 (Third Highest Bonus Rate):** The crowdloan participants who join the crowdloan from the 2nd auction to the beginning of the 3rd auction get this bonus rate.
 
 {% hint style="success" %}
-**💡Important  Insight💡：Only crowdloan has an additional bonus. If you join our auction directly, you won't be able to receive the bonus. **
+**💡Important  Insight💡：Only crowdloan has an additional bonus. If you join our auction directly, you won't be able to receive the bonus.**&#x20;
 {% endhint %}
 
-Though the graphic above includes several auctions, we don't join the N th auction if Shiden Networks wins the N-1 th auction.  
+Though the graphic above includes several auctions, we don't join the N th auction if Shiden Networks wins the N-1 th auction. &#x20;
 
 {% hint style="danger" %}
 **We will officially start the crowdloan campaign once Web3 Foundation announces the date of the auction.**
@@ -60,17 +60,17 @@ Though the graphic above includes several auctions, we don't join the N th aucti
 
 ### Example
 
-1. If you lock 1KSM for Shiden Network, you are going to receive X SDN after winning the auction. Let's assume **600,000 KSM (About $300M)** are locked during the PLO. In this case, **X is 25.6 SDN** (15,400,000 SDN / 600,000 KSM).  
+1. If you lock 1KSM for Shiden Network, you are going to receive X SDN after winning the auction. Let's assume **600,000 KSM (About $300M)** are locked during the PLO. In this case, **X is 25.6 SDN** (15,400,000 SDN / 600,000 KSM). &#x20;
 2. However, since Shiden's crowdloan has a bonus rate, you can get around  **30.8 SDN** (6/5 × 25.6 SDN)  if you join the crowdloan before day 3 of the auction. On the other hand, if you join our crowdloan later, your SDN will be less than **25.6 SDN**.
-3. The insight we can get here is that the earlier you join the crowdloan, you can receive more SDN. 
+3. The insight we can get here is that the earlier you join the crowdloan, you can receive more SDN.&#x20;
 
 ### Advanced Information
 
-Shiden Network is a fork of Plasm Network. [We use #3,000,000 block (2021-05-05 04:43:30 +UTC) ](https://plasm.subscan.io/block/3000000) for the snapshot. (Some parameters are adjusted.)  Since the team has chosen block #3,000,000, [the total supply is finalized](https://forum.plasmnet.io/t/finalizing-shidens-parameters-for-the-launch/1198). 
+Shiden Network is a fork of Plasm Network. [We use #3,000,000 block (2021-05-05 04:43:30 +UTC) ](https://plasm.subscan.io/block/3000000) for the snapshot. (Some parameters are adjusted.)  Since the team has chosen block #3,000,000, [the total supply is finalized](https://forum.plasmnet.io/t/finalizing-shidens-parameters-for-the-launch/1198).&#x20;
 
 The number of SDN tokens participants can get is calculated by the following formula.
 
-`C_i `: Bonus obtained by contributing to the Crowdloan before the start of the i th auction.\
+`C_i` : Bonus obtained by contributing to the Crowdloan before the start of the i th auction.\
 `KSM_i,j` : KSMs in the j th contribution before the start of the i th auction\
 `SDN_i,j` : SDNs that can be obtained from the j th contribution before the start of the i th auction.\
 `n` : The number of Kusama Parachain auctions held before Shiden Network won the auction.\

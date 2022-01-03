@@ -16,7 +16,7 @@ Next, click on the dropdown arrow on the top left corner of the page. Scroll all
 
 #### Deploying the smart contract
 
-Under the **Developer** tab, select **Contracts **then click on the **Upload & deploy code** button. Look for your **metadata.json** and **my_contract.wasm** files. 
+Under the **Developer** tab, select **Contracts** then click on the **Upload & deploy code** button. Look for your **metadata.json** and **my\_contract.wasm** files.&#x20;
 
 ![](<../../../../.gitbook/assets/1 (1).gif>)
 

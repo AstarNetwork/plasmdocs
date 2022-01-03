@@ -4,13 +4,13 @@ description: Thanks Hoon Kim for making the faucet.
 
 # Shibuya Faucet
 
-Shibuya is a testnet of both Shiden and Astar. We have created a faucet Discord bot that provides **SBY** (Testnet Token). 
+Shibuya is a testnet of both Shiden and Astar. We have created a faucet Discord bot that provides **SBY** (Testnet Token).&#x20;
 
 ### Join Our Discord
 
 {% embed url="https://discord.gg/kvRRnvBbQn" %}
 
-Once you join the Discord server, you will be able to see the **#shibuya-faucet **channel.
+Once you join the Discord server, you will be able to see the **#shibuya-faucet** channel.
 
 ![](../.gitbook/assets/screenshot-2021-09-28-at-6.09.52-pm.png)
 
@@ -20,11 +20,11 @@ In the **#shibuya-faucet** channel, please type `/drip`. Then, you can see the f
 
 ![](../.gitbook/assets/screenshot-2021-09-28-at-6.32.11-pm.png)
 
- and **Shibuya**.
+&#x20;and **Shibuya**.
 
 ![](../.gitbook/assets/screenshot-2021-09-28-at-6.34.17-pm.png)
 
-Lastly, please click **address **and** **paste your Shibuya address. 
+Lastly, please click **address** and **** paste your Shibuya address.&#x20;
 
 ![](../.gitbook/assets/screenshot-2021-09-28-at-6.36.41-pm.png)
 
