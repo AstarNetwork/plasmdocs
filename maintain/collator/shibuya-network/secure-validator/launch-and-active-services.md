@@ -30,7 +30,7 @@ systemctl status grafana-server
 
 A service working fine should look like this:
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../../.gitbook/assets/image (19).png>)
 
 When everything is okay, activate the services!
 

@@ -12,7 +12,7 @@ sudo apt upgrade
 sudo apt install -y adduser libfontconfig1
 ```
 
-![](<../../../.gitbook/assets/image (21).png>)
+![](<../../../../.gitbook/assets/image (21).png>)
 
 To install and run your validator you can use the `nohup`command or use `screen`. I prefer using `screen` and will use this in the guide.
 

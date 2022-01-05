@@ -31,18 +31,18 @@ For the users who are selected to join the Azure Validator Program, please follo
 1. First, you need to go to [https://portal.azure.com/](https://portal.azure.com/#home) and login with your credentials. This should take you to the _Default Directory_.
 2. Create your virtual machine
 
-![](https://miro.medium.com/max/1418/1*so7BR5fvwBcSqsNO4-oXYg.png)
+![](https://miro.medium.com/max/1418/1\*so7BR5fvwBcSqsNO4-oXYg.png)
 
-![](https://miro.medium.com/max/1489/1*x7vxcDNI5nijJcFKEFCzjg.png)
+![](https://miro.medium.com/max/1489/1\*x7vxcDNI5nijJcFKEFCzjg.png)
 
-![](https://miro.medium.com/max/768/1*9ltiplbqkLyfR7Wjyd4BFw.png)
+![](https://miro.medium.com/max/768/1\*9ltiplbqkLyfR7Wjyd4BFw.png)
 
 * Resource group: ...
-* Virtual machine name: &lt;YOURNAME&gt;
+* Virtual machine name: \<YOURNAME>
 * Region: Choose a region
 * Image: Ubuntu Server 18.04 LTS — Gen1
 
-![](../../../.gitbook/assets/01a.png)
+![](../../../../.gitbook/assets/01a.png)
 
 * Size: See our recommendations
 
@@ -50,23 +50,23 @@ For the users who are selected to join the Azure Validator Program, please follo
 Later in the tutorial, we will add ECDH SSH key security over Curve25519 with SHA2 and change the SSH port.
 {% endhint %}
 
-![](../../../.gitbook/assets/02a.png)
+![](../../../../.gitbook/assets/02a.png)
 
-**Next**: 
+**Next**:&#x20;
 
-* Networking \(no changes\)
-* Management \(no changes\)
-* Advanced \(no changes\)
-* Tags \(no changes\)
+* Networking (no changes)
+* Management (no changes)
+* Advanced (no changes)
+* Tags (no changes)
 * Preview + Create
 
-![](../../../.gitbook/assets/image%20%2814%29.png)
+![](<../../../../.gitbook/assets/image (14).png>)
 
 ### Resize disk space
 
 Now that our server is created we have to finetune our setup. First, stop your server!
 
-![](../../../.gitbook/assets/05.png)
+![](../../../../.gitbook/assets/05.png)
 
 The default disk size at the moment is 30 GiB, this is not enough for our validator. You need to increase the size to 128 GiB:
 
@@ -80,4 +80,3 @@ Not possible to resize? Did you stop your server?
 {% endhint %}
 
 * Start your virtual machine
-

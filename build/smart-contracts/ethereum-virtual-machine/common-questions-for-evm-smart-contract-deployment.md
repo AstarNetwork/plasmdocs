@@ -33,7 +33,7 @@ description: 'Updated: 04/22 by Mario'
 
 *   **How can I get test tokens (SBY)?**
 
-    * Use our faucet. Follow this [tutorial](../../../integration/testnet-faucet.md).
+    * Use our faucet. Follow this [tutorial](../../testnet-faucet.md).
 
     ****
 * **Is there a block explorer?**

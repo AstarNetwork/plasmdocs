@@ -4,7 +4,9 @@ There are multiple ways to set up a server where you can run your collator node.
 
 We recommend you first read the documentation about running collators.
 
-{% page-ref page="../shiden-collator-guide/learn-about-collators.md" %}
+{% content-ref url="../learn-about-collators.md" %}
+[learn-about-collators.md](../learn-about-collators.md)
+{% endcontent-ref %}
 
 **Recommended configuration:**
 
@@ -12,7 +14,6 @@ We recommend you first read the documentation about running collators.
 * CPU: 4 cores, Intel Core
 * Memory: 8-16 GB
 * Hard Disk: SSD +80 GB
-* Location: Europe
 
 {% hint style="info" %}
 **NOTE**: Shibuya is the perfect network to test out your knowledge about running nodes in the Astar ecosystem. To join the collator set on Shibuya you need to apply for a 32k SBY fund.
@@ -24,8 +25,6 @@ The requirement to get the fund:
 * Node is fully synced with the Relay Chain and Shibuya network.
 * **Uptime of 14 days!**
 {% endhint %}
-
-
 
 
 

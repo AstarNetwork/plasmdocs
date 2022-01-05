@@ -1,7 +1,3 @@
----
-description: Thanks Hoon Kim for making the faucet.
----
-
 # Faucet
 
 ## Shiden

@@ -16,7 +16,7 @@ Follow this guide step-by-step, try to understand every step explained in this g
 Be very careful to never close your actual session until you’ve tested the connection with your new key. You could lose access to your SSH connection.
 {% endhint %}
 
-Connect to your server using [PuTTy](https://www.chiark.greenend.org.uk/\~sgtatham/putty/latest.html). 
+Connect to your server using [PuTTy](https://www.chiark.greenend.org.uk/\~sgtatham/putty/latest.html).&#x20;
 
 1. Open PuTTY
 2. Typ in the field of ‘**Host Name**’ the IP of your server on Azure
@@ -109,9 +109,9 @@ sudo usermod -a -G ssh-user <username>
 
 Before continuing, it is very important to open the newly configured SSH port in your firewall (4321 in our example). Go to the Azure portal and add this port:
 
-![](../../../.gitbook/assets/08.png)
+![](../../../../.gitbook/assets/08.png)
 
-![](../../../.gitbook/assets/07.png)
+![](../../../../.gitbook/assets/07.png)
 
 For the first tests, you should let port 22 open. Once you successfully connected to the new port, you can safely close port 22.
 
@@ -123,11 +123,11 @@ This guide is build around Azure and PuTTy, in case you want to use OpenSSH foll
 
 Open PUTTYGen GUI:
 
-![](https://miro.medium.com/max/479/1\*Zuxcp4UllMr_z8\_tBdYQnA.png)
+![](https://miro.medium.com/max/479/1\*Zuxcp4UllMr\_z8\_tBdYQnA.png)
 
 Select the `Ed25519`key type and click on _Generate_:
 
-![](https://miro.medium.com/max/479/1\*\_8xQPCJI5-CAdO_E-S8Xwg.png)
+![](https://miro.medium.com/max/479/1\*\_8xQPCJI5-CAdO\_E-S8Xwg.png)
 
 Enter a strong passphrase and save both private and public key in a secure folder. Copy the public key from the text box.
 
@@ -139,7 +139,7 @@ sudo nano ~/.ssh/authorized_keys
 
 Paste the public key and save.
 
-### Verify <a href="0f49" id="0f49"></a>
+### Verify <a href="#0f49" id="0f49"></a>
 
 Let’s restart the `ssh` service without killing the current session:
 
@@ -147,7 +147,7 @@ Let’s restart the `ssh` service without killing the current session:
 sudo kill -SIGHUP $(pgrep -f 'sshd -D')
 ```
 
-**Attention**: you should not send a complete restart of `sshd `for the moment, this would close your open session and potentially lose access to your server if something is set wrong.
+**Attention**: you should not send a complete restart of `sshd` for the moment, this would close your open session and potentially lose access to your server if something is set wrong.
 
 Check that the `sshd` service is still running correctly:
 
@@ -155,20 +155,20 @@ Check that the `sshd` service is still running correctly:
 systemctl status sshd
 ```
 
-### Connect <a href="3255" id="3255"></a>
+### Connect <a href="#3255" id="3255"></a>
 
 Let’s load the private key in the Putty `Auth` section:
 
-![](<../../../.gitbook/assets/image (15).png>)
+![](<../../../../.gitbook/assets/image (15).png>)
 
 Don’t forget to use your custom port, then connect:
 
-![](<../../../.gitbook/assets/image (17).png>)
+![](<../../../../.gitbook/assets/image (17).png>)
 
-Congratulation, y**our SSH connection is secure**! 
+Congratulation, y**our SSH connection is secure**!&#x20;
 
 {% hint style="info" %}
 Don’t forget to remove port 22 from `sshd_config` file and firewall, and check that no other key is allowed in `authorized_keys` file.
 {% endhint %}
 
-![](../../../.gitbook/assets/09.png)
+![](../../../../.gitbook/assets/09.png)

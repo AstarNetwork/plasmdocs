@@ -47,7 +47,7 @@
 ## Integration
 
 * [Network Details](integration/network-details.md)
-* [Faucet](integration/testnet-faucet.md)
+* [Faucet](build/testnet-faucet.md)
 * [Anyswap Bridge](integration/anyswap-bridge.md)
 * [On-Chain Identity](integration/on-chain-identity.md)
 * [Metamask Support](integration/metamask/README.md)
@@ -62,22 +62,6 @@
 
 * [DApp Staking](build/dapp-staking/README.md)
   * [Register dApp](build/dapp-staking/register-dapp.md)
-* [Shibuya Collator Guide](build/shibuya-network/README.md)
-  * [Collator Requirements](build/shibuya-network/setup-server.md)
-  * [Build a Collator](build/shibuya-network/shibuya-node.md)
-  * [Collator Fund](build/shibuya-network/collator-fund.md)
-  * [Secure Collator Setup](build/shibuya-network/secure-validator/README.md)
-    * [Create Your Environnement](build/shibuya-network/secure-validator/create-your-environnement.md)
-    * [Secure Your SSH Connection](build/shibuya-network/secure-validator/secure-your-ssh-connection.md)
-    * [SSH Tunneling](build/shibuya-network/secure-validator/ssh-tunneling.md)
-    * [Astar/Shiden node](build/shibuya-network/secure-validator/plasm-shiden-node.md)
-    * [Installation Node Monitoring](build/shibuya-network/secure-validator/installation-node-monitoring.md)
-    * [Configuration](build/shibuya-network/secure-validator/configuration.md)
-    * [Services](build/shibuya-network/secure-validator/services.md)
-    * [Launch and Active Services](build/shibuya-network/secure-validator/launch-and-active-services.md)
-* [Shiden Collator Guide](build/shiden-collator-guide/README.md)
-  * [Learn about collators](build/shiden-collator-guide/learn-about-collators.md)
-  * [Build a Collator](build/shiden-collator-guide/become-a-collator.md)
 * [Smart Contracts](build/smart-contracts/README.md)
   * [Ethereum Virtual Machine](build/smart-contracts/ethereum-virtual-machine/README.md)
     * [Ethereum Contract in Your Local Environment](build/smart-contracts/ethereum-virtual-machine/evm-smart-contracts.md)
@@ -104,6 +88,25 @@
   * [Importing Ethereum Seed](build/lockdrop/importing-ethereum-seed.md)
   * [Unlock Tutorial](build/lockdrop/unlock-tutorial.md)
 * [API](build/api.md)
+
+## Maintain
+
+* [Collator](maintain/collator/README.md)
+  * [Learn about collators](maintain/collator/learn-about-collators.md)
+  * [Shibuya collator guide](maintain/collator/shibuya-network/README.md)
+    * [Collator Requirements](maintain/collator/shibuya-network/setup-server.md)
+    * [Build a Collator](maintain/collator/shibuya-network/shibuya-node.md)
+    * [Collator Fund](maintain/collator/shibuya-network/collator-fund.md)
+    * [Secure Collator Setup](maintain/collator/shibuya-network/secure-validator/README.md)
+      * [Create Your Environnement](maintain/collator/shibuya-network/secure-validator/create-your-environnement.md)
+      * [Secure Your SSH Connection](maintain/collator/shibuya-network/secure-validator/secure-your-ssh-connection.md)
+      * [SSH Tunneling](maintain/collator/shibuya-network/secure-validator/ssh-tunneling.md)
+      * [Astar/Shiden node](maintain/collator/shibuya-network/secure-validator/plasm-shiden-node.md)
+      * [Installation Node Monitoring](maintain/collator/shibuya-network/secure-validator/installation-node-monitoring.md)
+      * [Configuration](maintain/collator/shibuya-network/secure-validator/configuration.md)
+      * [Services](maintain/collator/shibuya-network/secure-validator/services.md)
+      * [Launch and Active Services](maintain/collator/shibuya-network/secure-validator/launch-and-active-services.md)
+  * [Mainnet collator guide](maintain/collator/shiden-collator-guide.md)
 
 ## Tutorial
 

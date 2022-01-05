@@ -24,7 +24,7 @@ Collators are a key element of [XCMP (Cross-Chain Message Passing)](https://wiki
 
 Aura PoS consist out of 2 pallets:
 
-* [Aura pallet](https://crates.parity.io/pallet_aura/index.html)
+* [Aura pallet](https://crates.parity.io/pallet\_aura/index.html)
 * PoS pallet
 
 The first phase in making PoS will be by deploying the Aura pallet. Aura PoA Collator Phase - permissioned block authoring and collator session key setup for Astar ecosystem. After extended testing, we have deployed the PoS pallet and switched to Aura PoS. We have enabled permissionless collator staking, network inflation, and rewards.
@@ -36,7 +36,7 @@ The first phase in making PoS will be by deploying the Aura pallet. Aura PoA Col
 * **Reward**: a fixed amount will be created at each block 2.66 tokens for the first 2,628,000 blocks (block time of 12 seconds) and divided like the following scheme\
 
 
-![](https://lh3.googleusercontent.com/z-BcHXcOdD9Yy7q5Q93lNsdaGo53uaLX4lVpJdapDiOUcPOjzFC5l2R9wX_meTHkTYA1RFXHBh8MAnxFfieEbvsB9DWiBkYDsvw7Y65tHk8XzUTnNqczNhrzXftAIdPAe19q6-GT)
+![](https://lh3.googleusercontent.com/z-BcHXcOdD9Yy7q5Q93lNsdaGo53uaLX4lVpJdapDiOUcPOjzFC5l2R9wX\_meTHkTYA1RFXHBh8MAnxFfieEbvsB9DWiBkYDsvw7Y65tHk8XzUTnNqczNhrzXftAIdPAe19q6-GT)
 
 A collator (block producer) gets a reward for each block it’s produced. The reward is around 0.266 SDN for each block.
 
@@ -48,14 +48,31 @@ To become a collator on one of our networks, you need to know these settings:
 
 **Collator staking parameters/limit:**
 
-* Bond: 32,000 tokens
-* Bond duration: 7 days
-* Slots: 200 active collators
-* Estimated annual percentage yield: 11%
+{% tabs %}
+{% tab title="Astar" %}
+**To become a permissionless collator on Astar**
+
+* Bond: 3,200,000 ASTR tokens
+* Meet hardware requirements
+
+If your node stops producing blocks for 1 session, your node will be kicked out of the active set.
+{% endtab %}
+
+{% tab title="Shiden" %}
+**To become a permissionless collator on Shiden**
+
+* Bond: 32,000 SDN tokens
+* Meet hardware requirements
+
+If your node stops producing blocks for 1 session, your node will be kicked out of the active set.
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Set your collator with: \
 **Extrinsics - CollatorSelection - Register as candidate**
+
+Onboarding takes `n+1` session.
 {% endhint %}
 
 ### System requirements
@@ -68,31 +85,34 @@ Here you can find the basic configuration for reference, which guarantees that a
 
 **Recommended configuration:**
 
+{% hint style="info" %}
+Make sure you only use your server for running the collator!
+{% endhint %}
+
 * System: Linux or macOS, Ubuntu 20.04
-* CPU: 4 cores, Intel Core
-* Memory: 8-16 GB
-* Hard Disk: 150 GB
-* Location: Europe
+* CPU: 8 cores, Intel Core
+* Memory: 816 GB
+* Hard Disk: 250 GB SSD&#x20;
 
 ## How to deploy your node
 
-#### Shibuya network (testnet):
+#### Shibuya network:
 
-{% content-ref url="../shibuya-network/shibuya-node.md" %}
-[shibuya-node.md](../shibuya-network/shibuya-node.md)
+{% content-ref url="shibuya-network/shibuya-node.md" %}
+[shibuya-node.md](shibuya-network/shibuya-node.md)
 {% endcontent-ref %}
 
 #### Shiden network:
 
-{% content-ref url="become-a-collator.md" %}
-[become-a-collator.md](become-a-collator.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Collator election mechanism
 
 ### Election process
 
-When your node fits the parameters and checks all the boxes to become a collator, you will be added to the chain. After register for a collator and bonded 32k tokens. **Note: if your collator doesn’t produce blocks during one session (1h) it will be kicked as collator.**
+When your node fits the parameters and checks all the boxes to become a collator, you will be added to the chain. After registering for a collator and bonded the tokens. **Note: if your collator doesn’t produce blocks during one session (1h) it will be kicked as collator.**
 
 ## Collator reward distribution mechanism
 
@@ -111,6 +131,6 @@ Our first intention was to activate NPoS to Shiden Network. After internal testi
 
 ### How can users get staking rewards?
 
-Users can nominate smart contracts through dApp staking and earn the same staking rewards as they would on validators. By staking on smart contracts you not only get staking rewards but you support your favorite project that is building in our ecosystem. 
+Users can nominate smart contracts through dApp staking and earn the same staking rewards as they would on validators. By staking on smart contracts you not only get staking rewards but you support your favorite project that is building in our ecosystem.&#x20;
 
 It’s still possible to stake on collators in our network but this is possible with our partners who build their own nominated system for their collator.
