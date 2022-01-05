@@ -4,6 +4,11 @@ description: 'Last change:  We increased the number of tokens for PLO.'
 
 # Shiden Parachain Auction Strategy
 
+{% hint style="info" %}
+**Please note that the parachain auction for Shiden is finished!**\
+**Thanks for all your support.**
+{% endhint %}
+
 ## Shiden Network
 
 ![https://shiden.astar.network/](../../.gitbook/assets/screen-shot-2021-05-14-at-20.25.32.png)

@@ -23,5 +23,3 @@ The crowdloan mechanism allows people to contribute by agreeing to lock up their
 **Step5: Returning DOT**\
 ****Crowdloaned DOT will be returned to the contributor’s control at the end of the lease period. Contributors don't need to withdraw DOT tokens. DOT will be returned automatically.
 
-## Astar Crowdloan Event
-

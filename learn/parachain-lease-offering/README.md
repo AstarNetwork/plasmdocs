@@ -18,20 +18,20 @@ Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and *
 [shiden-parachain-auction-strategy.md](shiden-parachain-auction-strategy.md)
 {% endcontent-ref %}
 
-{% content-ref url="joining-from-polkadot.js.md" %}
-[joining-from-polkadot.js.md](joining-from-polkadot.js.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="joining-from-exchanges/" %}
-[joining-from-exchanges](joining-from-exchanges/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="joining-from-fearless.md" %}
-[joining-from-fearless.md](joining-from-fearless.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="joining-from-mathwallet.md" %}
-[joining-from-mathwallet.md](joining-from-mathwallet.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 First of all, the following figure shows the timeline.

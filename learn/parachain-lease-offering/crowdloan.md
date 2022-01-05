@@ -35,6 +35,3 @@ The details is described 👇
 
 {% embed url="https://kusama.network/" %}
 
-## Polkadot Network
-
-Will be announced.

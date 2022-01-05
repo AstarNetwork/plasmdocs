@@ -1,2 +1,0 @@
-# Joining from AToken Wallet
-

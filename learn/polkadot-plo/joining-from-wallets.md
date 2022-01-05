@@ -1,3 +1,0 @@
-# Joining from wallets
-
-WIP
