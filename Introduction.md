@@ -1,8 +1,7 @@
 ---
 description: >-
-  Welcome to the Astar (formerly Plasm) Network documentation! This
-  documentation will be your central source for guides and developments in the
-  Astar ecosystem.
+  Welcome to the Astar Network documentation! This documentation will be your
+  central source for guides and developments in the Astar ecosystem.
 ---
 
 # Welcome
@@ -10,9 +9,7 @@ description: >-
 ![](.gitbook/assets/landscape.png)
 
 If you are looking to learn about Shiden Network, please go [here.](https://shiden.astar.network)\
-Looking for support? Please [checkout the forum](https://forum.astar.network), [Telegram](https://t.me/PlasmOfficial), or [Discord](https://discord.com/invite/wUcQt3R)!
-
-If you need PLD (dusty native tokens) for development, go to the #faucet channel on discord or use [this!](https://plasm-faucet-frontend.vercel.app)
+Looking for support? Please [check out the forum](https://forum.astar.network), or [Discord](https://discord.com/invite/wUcQt3R)!
 
 ### What is Astar?
 
@@ -28,24 +25,6 @@ Astar Network is an open-source project. There are a lot of opportunities to get
 
 
 ![](.gitbook/assets/undraw\_ideas\_s70l-1-.png)
-
-## Want to learn more? Please visit 👇
-
-{% content-ref url="learn/the-problems-astar-solves.md" %}
-[the-problems-astar-solves.md](learn/the-problems-astar-solves.md)
-{% endcontent-ref %}
-
-## Want to build on Astar Network? Please visit 👇
-
-{% content-ref url="build/smart-contracts/wasm/smart-contract/" %}
-[smart-contract](build/smart-contracts/wasm/smart-contract/)
-{% endcontent-ref %}
-
-## Want to run a node? Please visit 👇
-
-{% content-ref url="build/shibuya-network/shibuya-node.md" %}
-[shibuya-node.md](build/shibuya-network/shibuya-node.md)
-{% endcontent-ref %}
 
 ## Contributions Area
 
