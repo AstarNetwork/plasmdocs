@@ -4,19 +4,23 @@ Shibuya is the Shiden’s parachain testnet with EVM functionalities which is th
 
 ### Chain Specifications:
 
-{% page-ref page="../../integration/network-details.md" %}
+{% content-ref url="../../integration/network-details.md" %}
+[network-details.md](../../integration/network-details.md)
+{% endcontent-ref %}
 
 ### Connect:
 
-{% embed url="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.shibuya.astar.network\#/accounts" %}
+{% embed url="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.shibuya.astar.network#/accounts" %}
 
 ### Faucet:
 
-{% page-ref page="../testnet-faucet.md" %}
+{% content-ref url="../../integration/testnet-faucet.md" %}
+[testnet-faucet.md](../../integration/testnet-faucet.md)
+{% endcontent-ref %}
 
 ### Build a Collator:
 
-{% page-ref page="shibuya-node.md" %}
-
-
+{% content-ref url="shibuya-node.md" %}
+[shibuya-node.md](shibuya-node.md)
+{% endcontent-ref %}
 

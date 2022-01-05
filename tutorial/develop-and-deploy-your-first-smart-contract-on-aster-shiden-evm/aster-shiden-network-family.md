@@ -1,6 +1,6 @@
 # Astar/Shiden Network Family
 
-Before starting the development, it's important to understand Astar/Shiden Network family. You should change the network based on what you want to do. Currently, we have 3 networks available, Shiden, Shibuya, and Local network. All networks support own standard Substrate RPC and EVM RPC. 
+Before starting the development, it's important to understand Astar/Shiden Network family. You should change the network based on what you want to do. Currently, we have 3 networks available, Shiden, Shibuya, and Local network. All networks support own standard Substrate RPC and EVM RPC.&#x20;
 
 ## Astar and Shiden
 
@@ -10,7 +10,7 @@ Please note that Shiden has its real economic value. So you need to pay in SDN, 
 
 ## Shibuya
 
-Shibuya is the test network of Shiden and is connected to our own Relaychain. So Shibuya behaves almost the same as Shiden. Any new features are tested on Shibuya first and then deployed on Shiden. SBY, the native token of Shibuya, has no economic value and is available through our [faucet](../../build/testnet-faucet.md). So we recommend testing your smart contract on Shibuya before deploying it on Shiden to check whether your smart contract works well or not.
+Shibuya is the test network of Shiden and is connected to our own Relaychain. So Shibuya behaves almost the same as Shiden. Any new features are tested on Shibuya first and then deployed on Shiden. SBY, the native token of Shibuya, has no economic value and is available through our [faucet](../../integration/testnet-faucet.md). So we recommend testing your smart contract on Shibuya before deploying it on Shiden to check whether your smart contract works well or not.
 
 ## Local Network
 

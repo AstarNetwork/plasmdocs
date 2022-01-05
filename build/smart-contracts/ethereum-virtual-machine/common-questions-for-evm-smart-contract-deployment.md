@@ -9,12 +9,12 @@ description: 'Updated: 04/22 by Mario'
     * Yes, please follow [this tutorial ](../../../tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/)in our documentation.
 
 
-*   **Can I use **[**Remix**](http://remix.ethereum.org/#optimize=false\&runs=200\&evmVersion=null\&version=soljson-v0.8.1+commit.df193b15.js)** for smart contract deployment?**
+*   **Can I use** [**Remix**](http://remix.ethereum.org/#optimize=false\&runs=200\&evmVersion=null\&version=soljson-v0.8.1+commit.df193b15.js) **for smart contract deployment?**
 
     * Yes of course.
 
 
-*   **Can I use **[**Hardhat**](https://hardhat.org)** for smart contract deployment?**
+*   **Can I use** [**Hardhat**](https://hardhat.org) **for smart contract deployment?**
 
     * Yes, please follow [this tutorial](../../../integration/using-hardhat.md) in our documentation as example.
 
@@ -33,7 +33,7 @@ description: 'Updated: 04/22 by Mario'
 
 *   **How can I get test tokens (SBY)?**
 
-    * Use our faucet. Follow this [tutorial](../../testnet-faucet.md).
+    * Use our faucet. Follow this [tutorial](../../../integration/testnet-faucet.md).
 
     ****
 * **Is there a block explorer?**

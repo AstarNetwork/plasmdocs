@@ -2,7 +2,17 @@
 description: Thanks Hoon Kim for making the faucet.
 ---
 
-# Shibuya Faucet
+# Faucet
+
+## Shiden
+
+Visit our portal: [https://portal.astar.network/#/balance/wallet](https://portal.astar.network/#/balance/wallet)
+
+Connect to the Shiden chain and click on the 'Faucet' button.&#x20;
+
+![SDN faucet](<../.gitbook/assets/image (110).png>)
+
+## Shibuya
 
 Shibuya is a testnet of both Shiden and Astar. We have created a faucet Discord bot that provides **SBY** (Testnet Token).&#x20;
 

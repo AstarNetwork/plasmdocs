@@ -47,6 +47,7 @@
 ## Integration
 
 * [Network Details](integration/network-details.md)
+* [Faucet](integration/testnet-faucet.md)
 * [Anyswap Bridge](integration/anyswap-bridge.md)
 * [On-Chain Identity](integration/on-chain-identity.md)
 * [Metamask Support](integration/metamask/README.md)
@@ -59,8 +60,6 @@
 
 ## Build
 
-* [Polkadot.js](build/polkdotjs.md)
-* [Shibuya Faucet](build/testnet-faucet.md)
 * [DApp Staking](build/dapp-staking/README.md)
   * [Register dApp](build/dapp-staking/register-dapp.md)
 * [Shibuya Collator Guide](build/shibuya-network/README.md)
@@ -102,14 +101,9 @@
     * [WASM - Create an Asset](build/smart-contracts/examples/wasm-create-an-asset.md)
     * [WASM - Implement PSP22 with OpenBrush](build/smart-contracts/examples/wasm-implement-psp22-with-openbrush.md)
 * [Lockdrop](build/lockdrop/README.md)
-  * [Lockdrop Tutorial](build/lockdrop/lockdrop-tutrial.md)
   * [Importing Ethereum Seed](build/lockdrop/importing-ethereum-seed.md)
   * [Unlock Tutorial](build/lockdrop/unlock-tutorial.md)
-  * [Real-Time Lockdrop](build/lockdrop/real-time-lockdrop.md)
 * [API](build/api.md)
-* [Layer2 Applications](build/layer2-applications.md)
-* [Operator Trading](build/operator-trading.md)
-* [ink!](build/ink.md)
 
 ## Tutorial
 
