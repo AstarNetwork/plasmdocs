@@ -107,6 +107,9 @@
       * [Services](maintain/collator/shibuya-network/secure-validator/services.md)
       * [Launch and Active Services](maintain/collator/shibuya-network/secure-validator/launch-and-active-services.md)
   * [Mainnet collator guide](maintain/collator/shiden-collator-guide.md)
+* [Node](maintain/node/README.md)
+  * [Binary](maintain/node/binary.md)
+  * [Docker](maintain/node/docker.md)
 
 ## Tutorial
 
