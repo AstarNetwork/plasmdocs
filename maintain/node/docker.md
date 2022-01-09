@@ -124,7 +124,7 @@ astar-collator --name NAME --chain shibuya --parachain-id 1000 --base-path /data
 If one wants to finish the process without explanation, here is the one-line script for you. if you face an error upon execution, the descriptions below will help you to find where it needs to be adjusted. This script supposes that the running computer has `docker` and `ngrok`installed.
 
 {% tabs %}
-{% tab title="Astar" %}
+{% tab title="Shiden use only!" %}
 ```
 sudo curl -s https://raw.githubusercontent.com/AstarNetwork/Astar/rpc-script/scripts/rpc.sh > rpc.sh \
 && sudo bash ./rpc.sh \
@@ -148,12 +148,12 @@ Replace `NAME` with your node name.
 sudo docker pull staketechnologies/astar-collator
 
 # command to run RPC node - do not forget to change **NAME** to whatever you like
-docker run -m 5G --name Shiden -p 30334:30334 -p 30333:30333 -p 9933:9933 -p 9944:9944 \\
+docker run -m 5G --name Shiden -p 30334:30334 -p 30333:30333 -p 9933:9933 -p 9944:9944 \
 -v "/var/lib/astar/shiden-db:/data" \\
--u $(id -u ${USER}):$(id -g ${USER}) -d --network=host staketechnologies/astar-collator \\
-astar-collator --name NAME --chain astar --parachain-id 2006 --base-path /data --port 30333 --rpc-port 9933 --unsafe-rpc-external --unsafe-ws-external --pruning archive \\
---state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \\
--l evm=debug,ethereum=debug,rpc=debug \\
+-u $(id -u ${USER}):$(id -g ${USER}) -d --network=host staketechnologies/astar-collator \
+astar-collator --name NAME --chain astar --parachain-id 2006 --base-path /data --port 30333 --rpc-port 9933 --rpc-cors=all --unsafe-rpc-external --unsafe-ws-external --pruning archive \
+--state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
+-l evm=debug,ethereum=debug,rpc=debug \
 ```
 {% endtab %}
 
@@ -163,12 +163,12 @@ astar-collator --name NAME --chain astar --parachain-id 2006 --base-path /data -
 sudo docker pull staketechnologies/astar-collator
 
 # command to run RPC node - do not forget to change **NAME** to whatever you like
-docker run -m 5G --name Shiden -p 30334:30334 -p 30333:30333 -p 9933:9933 -p 9944:9944 \\
--v "/var/lib/astar/shiden-db:/data" \\
--u $(id -u ${USER}):$(id -g ${USER}) -d --network=host staketechnologies/astar-collator \\
-astar-collator --name NAME --base-path /data --port 30333 --rpc-port 9933 --unsafe-rpc-external --unsafe-ws-external --pruning archive \\
---state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \\
--l evm=debug,ethereum=debug,rpc=debug \\
+docker run -m 5G --name Shiden -p 30334:30334 -p 30333:30333 -p 9933:9933 -p 9944:9944 \
+-v "/var/lib/astar/shiden-db:/data" \
+-u $(id -u ${USER}):$(id -g ${USER}) -d --network=host staketechnologies/astar-collator \
+astar-collator --name NAME --base-path /data --port 30333 --rpc-port 9933 --rpc-cors=all --unsafe-rpc-external --unsafe-ws-external --pruning archive \
+--state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
+-l evm=debug,ethereum=debug,rpc=debug \
 ```
 {% endtab %}
 
@@ -178,12 +178,12 @@ astar-collator --name NAME --base-path /data --port 30333 --rpc-port 9933 --unsa
 sudo docker pull staketechnologies/astar-collator
 
 # command to run RPC node - do not forget to change **NAME** to whatever you like
-docker run -m 5G --name Shiden -p 30334:30334 -p 30333:30333 -p 9933:9933 -p 9944:9944 \\
--v "/var/lib/astar/shiden-db:/data" \\
--u $(id -u ${USER}):$(id -g ${USER}) -d --network=host staketechnologies/astar-collator \\
-astar-collator --name NAM --chain shibuya --parachain-id 1000 --base-path /data --port 30333 --rpc-port 9933 --unsafe-rpc-external --unsafe-ws-external --pruning archive \\
---state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \\
--l evm=debug,ethereum=debug,rpc=debug \\
+docker run -m 5G --name Shiden -p 30334:30334 -p 30333:30333 -p 9933:9933 -p 9944:9944 \
+-v "/var/lib/astar/shiden-db:/data" \
+-u $(id -u ${USER}):$(id -g ${USER}) -d --network=host staketechnologies/astar-collator \
+astar-collator --name NAME --chain shibuya --parachain-id 1000 --base-path /data --port 30333 --rpc-port 9933 --rpc-cors=all --unsafe-rpc-external --unsafe-ws-external --pruning archive \
+--state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
+-l evm=debug,ethereum=debug,rpc=debug \
 ```
 {% endtab %}
 {% endtabs %}
