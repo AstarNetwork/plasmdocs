@@ -9,7 +9,7 @@
 
 We must also not forget the nominators. 10% reward is quite substantial and can serve as an alternative to staking to validators or lending on other DeFi platforms.
 
-![](<../../.gitbook/assets/image (107) (1).png>)
+![](<../../.gitbook/assets/image (107) (1) (1).png>)
 
 ## Parameters
 
