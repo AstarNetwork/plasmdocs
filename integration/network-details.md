@@ -15,6 +15,10 @@ API and free RPC WebSocket endpoints for the Astar community.👇
 {% endcontent-ref %}
 
 {% tabs %}
+{% tab title="Astar Network" %}
+Info will be available when the mainnet is launched. Shiden is live!
+{% endtab %}
+
 {% tab title="Shiden Network" %}
 The documentation corresponding contains details for the RPC - HTTP, WSS endpoints.&#x20;
 
@@ -44,19 +48,6 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Symbol**         | SBY                                                                                                                                                                             |
 | **WebSocket**      | <p>wss://rpc.shibuya.astar.network</p><p></p><p>Public end-points (thanks to Euskoin):</p><p>wss://shibuya.eusko.in <br>wss://shibuya1.eusko.in <br>wss://shibuya2.eusko.in</p> |
 | **Block explorer** | https://shibuya.subscan.io                                                                                                                                                      |
-{% endtab %}
-
-{% tab title="Dusty Network" %}
-The documentation corresponding contains details for the RPC - HTTP, WSS endpoints.&#x20;
-
-|                    |                                                                                                                                                                                                                                                                        |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Network name**   | Dusty Network                                                                                                                                                                                                                                                          |
-| **Parent chain**   | Standalone                                                                                                                                                                                                                                                             |
-| **chainID**        | /                                                                                                                                                                                                                                                                      |
-| **RPC**            | <p>https://rpc.dusty.plasmnet.io</p><p></p><p>Public RPCs may have traffic or rate-limits depending on usage. You can sign up for a dedicated free RPC URL at the following:</p><ul><li><a href="https://app.bwarelabs.com">Bware Labs</a></li></ul>                   |
-| **WebSocket**      | <p>Stake Technologies: wss://rpc.dusty.plasmnet.io</p><p></p><p>Public RPCs may have traffic or rate-limits depending on usage. You can sign up for a dedicated free RPC URL at the following:</p><ul><li><a href="https://app.bwarelabs.com">Bware Labs</a></li></ul> |
-| **Block explorer** |                                                                                                                                                                                                                                                                        |
 {% endtab %}
 {% endtabs %}
 
