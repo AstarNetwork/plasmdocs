@@ -22,13 +22,16 @@ sudo nano /etc/systemd/system/astar.service
   Description=Astar Validator
 
 [Service]
-  User=plasm
-  Group=plasm
-  ExecStart=/usr/local/bin/plasm \
+  User=astar
+  Group=astar
+  ExecStart=/usr/local/bin/astar \
   --validator \
   --rpc-cors all \
   --name <Your Validator Name> \
-  --base-path /var/lib/plasm
+  --base-path /var/lib/astar
+  --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'
+  --execution wasm 
+  --state-cache-size 1
   Restart=always
   RestartSec=120
 
@@ -38,6 +41,12 @@ WantedBy=multi-user.target
 
 {% hint style="info" %}
 Do not forget to change the \<Your Validator Name>
+
+If needed add:
+
+\--chain CHAIN
+
+\--parachain-id ID
 {% endhint %}
 
 ### Prometheus <a href="#15f3" id="15f3"></a>

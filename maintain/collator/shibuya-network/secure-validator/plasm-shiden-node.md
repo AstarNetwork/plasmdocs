@@ -33,31 +33,31 @@ This will open a screen session, create a new window, and start a shell in that 
 This part is based on the [following guide](https://medium.com/plasm-network/become-a-plasm-network-validator-c212085cc72e) and modified for this guide.\
 The easiest way to install a Plasm node is to download the binaries. You can find them here:&#x20;
 
-{% embed url="https://github.com/staketechnologies/Plasm/releases" %}
+{% embed url="https://github.com/AstarNetwork/Astar" %}
 
 Get the file and extract:
 
 ```
-wget https://github.com/staketechnologies/Plasm/releases/download/v1.9.0-dusty/plasm-1.9.0-ubuntu-x86_64.tar.gz
+wget LINK
 ```
 
 ```
-tar -xf plasm-1.9.0-ubuntu-x86_64.tar.gz
+tar -xf RELEASE-ubuntu-x86_64.tar.gz
 ```
 
 The following part is different from the other guide. We will create a dedicated user for the node and moved the `plasm` folder to `/usr/local/bin/`
 
 ```
-sudo useradd --no-create-home --shell /usr/sbin/nologin plasm
-sudo cp ./plasm /usr/local/bin
-sudo chown plasm:plasm /usr/local/bin/plasm
+sudo useradd --no-create-home --shell /usr/sbin/nologin astar
+sudo cp ./astar-collator /usr/local/bin
+sudo chown astar:astar /usr/local/bin/astar-collator
 ```
 
 Create a **dedicated directory for the chain storage data**:
 
 ```
-sudo mkdir /var/lib/plasm
-sudo chown plasm:plasm /var/lib/plasm
+sudo mkdir /var/lib/astar
+sudo chown astar:astar /var/lib/astar
 ```
 
 ### Start node
