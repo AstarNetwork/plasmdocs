@@ -66,11 +66,13 @@ Let's first go to our new `plasm` directory and start the node.
 
 ```
 cd /usr/local/bin
-./plasm --validator --name YOURNAME --rpc-cors all
+./astar-collator --validator --name YOURNAME --rpc-cors all --base-path /var/lib/astar --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --execution wasm --state-cache-size 1 
 ```
 
 {% hint style="info" %}
 &#x20;Typ in the place of **YOURNAME**, how you would like to call your node.
+
+Don't forget `--chain astar --parachain-id 2006` or `--chain shibuya --parachain-id 1000` if needed.
 {% endhint %}
 
 Check on [https://telemetry.polkadot.io/](https://telemetry.polkadot.io/#/Dusty) to see your node syncing.\
