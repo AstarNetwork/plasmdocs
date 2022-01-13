@@ -28,9 +28,9 @@ sudo nano /etc/systemd/system/astar.service
   --validator \
   --rpc-cors all \
   --name <Your Validator Name> \
-  --base-path /var/lib/astar
-  --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'
-  --execution wasm 
+  --base-path /var/lib/astar \
+  --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
+  --execution wasm\
   --state-cache-size 1
   Restart=always
   RestartSec=120
