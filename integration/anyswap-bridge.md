@@ -21,8 +21,6 @@ SDN market overview
 
 `USDT:`[0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73](https://astar.subscan.io/account/0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73)
 
-`DAI: 0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73`
-
 `ETH: 0x765277eebeca2e31912c9946eae1021199b39c61`
 
 `WBTC: 0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b`
