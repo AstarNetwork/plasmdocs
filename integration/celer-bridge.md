@@ -1,0 +1,47 @@
+---
+description: >-
+  A guide on how to transfer assets from Ethereum & Binance smart chain to the
+  Astar ecosystem.
+---
+
+# Celer Bridge
+
+## Product Page
+
+{% embed url="https://cbridge.celer.network/#/transfer" %}
+
+## Overview
+
+A guide on how to transfer assets from Ethereum & Binance to the Astar ecosystem.&#x20;
+
+{% embed url="https://www.coingecko.com/en/coins/astar" %}
+
+## Contracts
+
+Token contract adresses on Astar:
+
+`USDT: 0x3795C36e7D12A8c252A20C5a7B455f7c57b60283`
+
+`USDC: 0x6a2d262D56735DbA19Dd70682B39F6bE9a931D98`
+
+`DAI: 0x6De33698e9e9b787e09d3Bd7771ef63557E148bb`
+
+`WETH: 0x81ECac0D6Be0550A00FF064a4f9dd2400585FE9c`
+
+`BNB: 0x7f27352D5F83Db87a5A3E00f4B07Cc2138D8ee52`
+
+`BUSD: 0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E`
+
+## How to transfer ASTR from Exchanges
+
+First of all, visit [our portal](https://portal.astar.network/#/balance/wallet) with Polkadot.js. If you haven't installed Polkadot.js, please visit 👇 and install Polkadot.js extention.&#x20;
+
+{% embed url="https://polkadot.js.org/extension" %}
+
+![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.50.13 PM.png>)
+
+Then, please click your **Native address.** Once you click **** ?, you can see the below comment.&#x20;
+
+![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.54.51 PM.png>)
+
+This is the address that you should use to withdraw ASTR tokens from exchanges.&#x20;

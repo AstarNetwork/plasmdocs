@@ -7,6 +7,10 @@ description: >-
 
 # Anyswap Bridge
 
+## Product Page
+
+{% embed url="https://anyswap.exchange/#/bridge" %}
+
 ## Overview
 
 A guide on how to transfer assets from Ethereum & Binance to the Astar ecosystem. Make sure you have ASTR to pay for the fees before bridging. You can buy ASTR on exchanges.
@@ -29,9 +33,19 @@ More contracts will be added in the future. If you want to list your token in th
 
 ## How to transfer ASTR from Exchanges
 
+First of all, visit [our portal](https://portal.astar.network/#/balance/wallet) with Polkadot.js. If you haven't installed Polkadot.js, please visit 👇 and install Polkadot.js extention.&#x20;
+
+![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.50.13 PM (1).png>)
+
+Then, please click your **Native address.** Once you click **** ?, you can see the below comment.&#x20;
+
+![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.54.51 PM.png>)
+
+This is the address that you should use to withdraw ASTR tokens from exchanges.&#x20;
+
 ## How to bridge
 
-In this tutorial I will show you how to bridge USDT from Ethereum to Astar. By doing so, you will add liquidity to our network. We can't thank you enough for helping us.
+In this tutorial, I will show you how to bridge USDT from Ethereum to Astar. By doing so, you will add liquidity to our network. We can't thank you enough for helping us.
 
 {% hint style="info" %}
 **Reminder:**&#x20;

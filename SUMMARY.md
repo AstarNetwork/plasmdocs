@@ -49,6 +49,7 @@
 * [Network Details](integration/network-details.md)
 * [Faucet](build/testnet-faucet.md)
 * [Anyswap Bridge](integration/anyswap-bridge.md)
+* [Celer Bridge](integration/celer-bridge.md)
 * [On-Chain Identity](integration/on-chain-identity.md)
 * [Metamask Support](integration/metamask/README.md)
   * [Adding Networks](integration/metamask/adding-networks.md)
