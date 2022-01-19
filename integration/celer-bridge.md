@@ -45,3 +45,11 @@ Then, please click your **Native address.** Once you click **** ?, you can see t
 ![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.54.51 PM.png>)
 
 This is the address that you should use to withdraw ASTR tokens from exchanges.&#x20;
+
+## How to bridge
+
+In this tutorial, I will show you how to bridge USDC from Ethereum to Astar. By doing so, you will add liquidity to our network. We can't thank you enough for helping us.
+
+{% hint style="info" %}
+****
+{% endhint %}
