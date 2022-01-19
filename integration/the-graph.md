@@ -161,4 +161,4 @@ sudo docker-compose up
 
 When everything is set up you will see the log like this:
 
-![](<../.gitbook/assets/image (108).png>)
+![](<../.gitbook/assets/image (108) (1).png>)

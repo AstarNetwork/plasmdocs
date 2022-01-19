@@ -28,7 +28,7 @@ Connect to your MetaMask. This is to prevent users from spamming the network. Yo
 
 Now you can create your API endpoint. Click on **'API Endpoints**' and select Shiden Network.
 
-![You can select endpoint for Shibuya or Shiden.](<../../.gitbook/assets/image (108) (1).png>)
+![You can select endpoint for Shibuya or Shiden.](<../../.gitbook/assets/image (108) (1) (1).png>)
 
 Name your endpoint and choose the correct network. Shiden Mainnet on Kusama or our one for our testnet Shibuya. Sign the message and wait for your endpoint to be created.
 

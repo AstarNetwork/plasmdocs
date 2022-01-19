@@ -29,8 +29,8 @@ It's easy to configure your Metamask to interact with Astar/Shiden network famil
 
 If you want to know more about Metamask Support, please take a look following page:
 
-{% content-ref url="../../integration/metamask/" %}
-[metamask](../../integration/metamask/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Get your local token on Metamask
@@ -38,8 +38,8 @@ If you want to know more about Metamask Support, please take a look following pa
 Currently, you see that you have no tokens on Metamask. So let's transfer some local token to the account on Metamask. \
 But before proceeding, you must study the address format of Substrate and EVM. Substrate uses SS58 format and Metamask(EVM) uses H160 format. This means you need to convert H160 address to SS58 address to receive local tokens. You can learn more details on the following page:
 
-{% content-ref url="../../integration/metamask/sending-tokens.md" %}
-[sending-tokens.md](../../integration/metamask/sending-tokens.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 You can convert your H160 address to SS58 address on the following page:\
