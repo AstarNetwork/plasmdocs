@@ -118,6 +118,7 @@
 
 ## Tutorial
 
+* [How to Transfer ASTR/SDN from Exchanges](tutorial/how-to-transfer-astr-sdn-from-exchanges.md)
 * [Develop and Deploy your first smart contract on Astar/Shiden EVM](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/README.md)
   * [Astar/Shiden Network Family](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/aster-shiden-network-family.md)
   * [Running local network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/running-local-network.md)

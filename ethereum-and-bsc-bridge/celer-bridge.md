@@ -42,7 +42,7 @@ First of all, visit [our portal](https://portal.astar.network/#/balance/wallet) 
 
 Then, please click your **Native address.** Once you click **** ?, you can see the below comment.&#x20;
 
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.54.51 PM.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.54.51 PM (1).png>)
 
 This is the address that you should use to withdraw ASTR tokens from exchanges.&#x20;
 
