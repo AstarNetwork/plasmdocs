@@ -5,6 +5,13 @@
 * [Our Journey](our-journey.md)
 * [Astar (formerly Plasm)](astar-formerly-plasm.md)
 
+## Stake2Earn Festival
+
+* [Overview](stake2earn-festival/overview.md)
+* [How to create an Astar wallet](stake2earn-festival/how-to-make-a-kusama-polkadot-address.md)
+* [Transfer ASTR from exchanges to your wallet](stake2earn-festival/transfer-astr-from-exchanges-to-your-wallet.md)
+* [How to Stake](stake2earn-festival/how-to-stake.md)
+
 ## Ecosystem
 
 * [Polkadot](ecosystem/polkadot.md)
@@ -28,7 +35,6 @@
   * [Shiden Parachain Auction Strategy](learn/parachain-lease-offering/shiden-parachain-auction-strategy.md)
   * [Unlock vested tokens](learn/parachain-lease-offering/unlock-vested-tokens.md)
 * [Polkadot Parachain Lease Offering](learn/polkadot-plo/README.md)
-  * [How to Create a Polkadot Address](learn/polkadot-plo/how-to-make-a-kusama-polkadot-address.md)
   * [Crowdloan](learn/polkadot-plo/crowdloan.md)
   * [Auction](learn/polkadot-plo/auction.md)
   * [Astar Parachain Auction Strategy](learn/polkadot-plo/astar-parachain-auction-strategy.md)
@@ -115,8 +121,8 @@
 
 ## Tutorial
 
-* [How to send ASTR/SDN from exchanges to our portal](tutorial/how-to-send-astr-sdn-from-exchanges-to-our-portal.md)
-* [How to send ASTR/SDN from Polkadot.js to MetaMask](tutorial/how-to-send-astr-sdn-from-polkadot.js-to-metamask.md)
+* [How to send ASTR/SDN from exchanges to our portal](tutorial/how-to-transfer-astr-sdn-from-exchanges.md)
+* [How to send ASTR/SDN from Polkadot.js to MetaMask](tutorial/how-to-transfer-astr-sdn-from-polkadot.js-to-metamask.md)
 * [Develop and Deploy your first smart contract on Astar/Shiden EVM](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/README.md)
   * [Astar/Shiden Network Family](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/aster-shiden-network-family.md)
   * [Running local network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/running-local-network.md)

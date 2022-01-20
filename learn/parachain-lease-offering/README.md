@@ -2,8 +2,8 @@
 
 Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and **Parachain Crowdloans**. In this section, we are going to explain how to make a Kusama/Polkadot address, crowdloan, and auction.
 
-{% content-ref url="../polkadot-plo/how-to-make-a-kusama-polkadot-address.md" %}
-[how-to-make-a-kusama-polkadot-address.md](../polkadot-plo/how-to-make-a-kusama-polkadot-address.md)
+{% content-ref url="../../stake2earn-festival/how-to-make-a-kusama-polkadot-address.md" %}
+[how-to-make-a-kusama-polkadot-address.md](../../stake2earn-festival/how-to-make-a-kusama-polkadot-address.md)
 {% endcontent-ref %}
 
 {% content-ref url="crowdloan.md" %}
