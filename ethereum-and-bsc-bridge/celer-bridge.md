@@ -50,6 +50,18 @@ This is the address that you should use to withdraw ASTR tokens from exchanges.&
 
 In this tutorial, I will show you how to bridge USDC from Ethereum to Astar. By doing so, you will add liquidity to our network. We can't thank you enough for helping us.
 
-{% hint style="info" %}
-****
-{% endhint %}
+Please visit cBridge [https://cbridge.celer.network/#/transfer](https://cbridge.celer.network/#/transfer) and then input a currency you would like to transfer.&#x20;
+
+![](<../.gitbook/assets/Screenshot 2022-01-22 at 10.20.17 AM.png>)
+
+![](<../.gitbook/assets/Screenshot 2022-01-22 at 10.20.22 AM.png>)
+
+After the trasnaction, you can see
+
+![](<../.gitbook/assets/Screenshot 2022-01-22 at 10.33.53 AM.png>)
+
+and check out your Metamask!&#x20;
+
+## Support
+
+In case you have any problems. Join our community and our Ambassadors will support you. Please remember that we will never DM you first! If you get approached by someone pretending to be part of the team, do not trust them.
