@@ -18,7 +18,7 @@ Looking for support? Please [check out the forum](https://forum.astar.network), 
 Astar Network is a **scalable and interoperable infrastructure for Web3.0**. Since Astar Network is built with [Parity’s Substrate framework](https://www.substrate.io), it can be a future [Polkadot](https://polkadot.network) **parachain** that also acts as a scalable smart contract platform. The [Polkadot](https://polkadot.network) Relaychain, by design, does not support smart contracts. This allows Astar the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands dApp developers have. Ideally, the developers can build whatever applications on Astar Network without having to consider its scalability.
 
 The work of the community is maintained under a public domain license at\
-[https://github.com/PlasmNetwork](https://github.com/PlasmNetwork)
+[https://github.com/AstarNetwork/](https://github.com/AstarNetwork/)
 
 Astar Network is an open-source project. There are a lot of opportunities to get involved in our ecosystem.&#x20;
 
