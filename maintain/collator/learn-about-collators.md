@@ -91,7 +91,7 @@ Make sure you only use your server for running the collator!
 
 * System: Linux or macOS, Ubuntu 20.04
 * CPU: 8 cores, Intel Core
-* Memory: 816 GB
+* Memory: 16 GB
 * Hard Disk: 250 GB SSD&#x20;
 
 ## How to deploy your node
