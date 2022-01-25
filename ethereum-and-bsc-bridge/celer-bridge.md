@@ -32,6 +32,8 @@ Token contract adresses on Astar:
 
 `BUSD: 0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E`
 
+`WSDN: 0x75364D4F779d0Bd0facD9a218c67f87dD9Aff3b4`
+
 ## How to transfer ASTR from Exchanges
 
 First of all, visit [our portal](https://portal.astar.network/#/balance/wallet) with Polkadot.js. If you haven't installed Polkadot.js, please visit 👇 and install Polkadot.js extention.&#x20;
@@ -56,7 +58,7 @@ Please visit cBridge [https://cbridge.celer.network/#/transfer](https://cbridge.
 
 ![](<../.gitbook/assets/Screenshot 2022-01-22 at 10.20.22 AM.png>)
 
-After the trasnaction, you can see
+After the transaction, you can see
 
 ![](<../.gitbook/assets/Screenshot 2022-01-22 at 10.33.53 AM.png>)
 
