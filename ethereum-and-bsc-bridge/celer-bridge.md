@@ -34,6 +34,12 @@ Token contract adresses on Astar:
 
 `WSDN: 0x75364D4F779d0Bd0facD9a218c67f87dD9Aff3b4`
 
+`MATIC: 0xdd90E5E87A2081Dcf0391920868eBc2FFB81a1aF`
+
+`AAVE: 0xfcDe4A87b8b6FA58326BB462882f1778158B02F1`
+
+`CRV: 0x7756a83563f0f56937A6FdF668E7D9F387c0D199`
+
 ## How to transfer ASTR from Exchanges
 
 First of all, visit [our portal](https://portal.astar.network/#/balance/wallet) with Polkadot.js. If you haven't installed Polkadot.js, please visit 👇 and install Polkadot.js extention.&#x20;
