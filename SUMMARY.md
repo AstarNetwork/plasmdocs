@@ -48,7 +48,8 @@
 
 ## Utility
 
-* [Staking on dApps](utility/staking-on-dapps.md)
+* [Staking on dApps](utility/staking-on-dapps/README.md)
+  * [Unbond your stake](utility/staking-on-dapps/unbond-your-stake.md)
 
 ## Ethereum and BSC Bridge
 
