@@ -40,3 +40,9 @@ Check your **Chunks**
 
 What's a Chunk? A chunk is the number of different ERA's you want to unbond your tokens. Chunks do not equal the amount of unbonding on dApps you requested but the amount of different ERA's you unbonded your tokens.
 
+### Step 4
+
+Withdraw your 'Chunks'. When your unbond period is over, you need to withdraw your funds by clicking on the withdraw button. Sign the transaction and your tokens will be made transferrable in your wallet.
+
+![](<../../.gitbook/assets/Schermafbeelding 2022-02-02 om 10.36.12.png>)
+
