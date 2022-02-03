@@ -6,7 +6,7 @@ Running a node on one of Astar’s chains allows you to connect to the network, 
 
 ### Installation Instructions
 
-A node can be spun up quickly using [Docker](https://docs.docker.com/get-docker/). When connecting to Shiden on Kusama or Astar on Polkadot, it will take a few days to completely sync the relay chain. If you want to move faster you can use Kusama or Polkadot snapshots.
+A node can be spun up quickly using [Docker](https://docs.docker.com/get-docker/). When connecting to Shiden on Kusama or Astar on Polkadot, it will take a few days to completely sync the relay chain. If you want to move faster you can use Kusama or Polkadot snapshots. ([How to install Docker on Ubuntu](https://linuxize.com/post/how-to-install-and-use-docker-on-ubuntu-20-04/))
 
 Create a local directory to store the chain data:
 
@@ -135,7 +135,7 @@ sudo curl -s https://raw.githubusercontent.com/AstarNetwork/Astar/rpc-script/scr
 
 ### Running RPC node
 
-Run this docker command first to spin up our full node and for integration partners to access the data. Start from running an archive node but add the flag
+Run this docker command first to spin up our full node and for integration partners to access the data like The Graph / Chainlink. Start from running an archive node but add the flag
 
 &#x20;`-l evm=debug,ethereum=debug,rpc=debug`
 
@@ -165,7 +165,7 @@ sudo docker pull staketechnologies/astar-collator
 # command to run RPC node - do not forget to change **NAME** to whatever you like
 docker run -m 5G --name Shiden -p 30334:30334 -p 30333:30333 -p 9933:9933 -p 9944:9944 \
 -v "/var/lib/astar/shiden-db:/data" \
--u $(id -u ${USER}):$(id -g ${USER}) -d --network=host staketechnologies/astar-collator \
+-u $(id -u ${USER}):$(id -g ${USER}) -d staketechnologies/astar-collator \
 astar-collator --name NAME --base-path /data --port 30333 --rpc-port 9933 --rpc-cors=all --unsafe-rpc-external --unsafe-ws-external --pruning archive \
 --state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
 -l evm=debug,ethereum=debug,rpc=debug \
@@ -259,16 +259,13 @@ cd /var/lib/astar/shiden-db/polkadot/chains/ksmcc3
 sudo mkdir /var/lib/astar/shiden-db/polkadot/chains/ksmcc3 && cd /var/lib/astar/shiden-db/polkadot/chains/ksmcc3
 
 # download the latest snapshot
-wget <https://ksm-rocksdb.polkashots.io/snapshot> -O kusama.RocksDb.7z
+wget https://ksm-rocksdb.polkashots.io/snapshot -O kusama.RocksDb.tar.lz4
 
-# install 7z if not installed
-sudo apt install p7zip-full
+# extract snapshot (this can take some time) - make sure you have permission in the directory
+sudo lz4 -c -d kusama.RocksDb.tar.lz4 | tar -x -C /var/lib/astar/shiden-db/polkadot/chains/ksmcc3
 
-# extract snapshot (this can take some time)
-7z x kusama.RocksDb.7z
-
-# remove 7z file
-rm -v kusama.RocksDb.7z
+# remove file
+rm -v kusama.RocksDb.tar.lz4
 ```
 
 ## How to update your node
