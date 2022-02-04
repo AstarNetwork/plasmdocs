@@ -119,6 +119,7 @@
 * [Node](maintain/node/README.md)
   * [Binary](maintain/node/binary.md)
   * [Docker](maintain/node/docker.md)
+* [Snapshots](maintain/snapshots.md)
 
 ## Tutorial
 
