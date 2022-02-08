@@ -9,7 +9,7 @@ First some background information. The address format used in Substrate-based ch
 * An Astar Native address or SS58 address
 * An Astar EVM address or H160 address
 
-![Wallet view in our portal](<../.gitbook/assets/image (114).png>)
+![Wallet view in our portal](<../.gitbook/assets/image (114) (1).png>)
 
 To participate in the Stake2Earn Festival we will interact with our Astar native address. Using this address requires another extension then MetaMask. We recommend using the Polkadot JS extension if you are new to the ecosystem.
 
@@ -33,7 +33,7 @@ Through our portal, you can connect to different networks in the Astar ecosystem
 
 The Polkadot{.js} plugin provides a reasonable balance of security and usability. It provides a separate local mechanism to generate your address and interact with the Astar portal. We recommend users who are new to our ecosystem and want to create an Astar native address use this wallet. If you don't have the Polkadot JS extension you will receive a popup in our portal when you try to connect your wallet.
 
-![Popup when you don't have the extension installed](<../.gitbook/assets/image (113).png>)
+![Popup when you don't have the extension installed](<../.gitbook/assets/image (113) (1).png>)
 
 ### Install the Browser Plugin
 
@@ -73,11 +73,11 @@ After clicking on "Add the account with the generated seed", your account is cre
 
 Return to our [portal](https://portal.astar.network) and refresh the page. You will get a popup that Polkadot JS needs to be authorized to be used on our portal. Give the extension permission to do so!
 
-![](<../.gitbook/assets/image (110).png>)
+![](<../.gitbook/assets/image (110) (1).png>)
 
 When you have given the extension permission, let's connect the wallet. A popup will show with all possible extensions. We just create a new account with Polkadot JS, so let's select this extension.
 
-![Extension popup](<../.gitbook/assets/image (112).png>)
+![Extension popup](<../.gitbook/assets/image (112) (1).png>)
 
 Once you have clicked on Polkadot JS, you can select your newly created account. Select your account and press confirm.
 

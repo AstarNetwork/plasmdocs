@@ -125,6 +125,7 @@
 
 * [How to send ASTR/SDN from exchanges to our portal](tutorial/how-to-transfer-astr-sdn-from-exchanges.md)
 * [How to send ASTR/SDN from Polkadot.js to MetaMask](tutorial/how-to-transfer-astr-sdn-from-polkadot.js-to-metamask.md)
+* [How to send ASTR/SDN from MetaMask to Polkadot.js](tutorial/how-to-send-astr-sdn-from-metamask-to-polkadot.js.md)
 * [Develop and Deploy your first smart contract on Astar/Shiden EVM](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/README.md)
   * [Astar/Shiden Network Family](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/aster-shiden-network-family.md)
   * [Running local network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/running-local-network.md)

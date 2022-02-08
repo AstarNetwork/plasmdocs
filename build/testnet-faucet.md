@@ -6,7 +6,7 @@ Visit our portal: [https://portal.astar.network/#/balance/wallet](https://portal
 
 Connect to the Shiden chain and click on the 'Faucet' button.&#x20;
 
-![SDN faucet](<../.gitbook/assets/image (110) (1) (1).png>)
+![SDN faucet](<../.gitbook/assets/image (110) (1) (1) (1).png>)
 
 ## Shibuya
 

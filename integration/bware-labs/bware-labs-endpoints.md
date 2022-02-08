@@ -22,7 +22,7 @@ Launch their app on:
 
 Connect to your MetaMask. This is to prevent users from spamming the network. You only need to connect to create an account in their app.
 
-![](<../../.gitbook/assets/image (110) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (110) (1) (1) (1) (1).png>)
 
 ### **Step 3**
 
@@ -32,7 +32,7 @@ Now you can create your API endpoint. Click on **'API Endpoints**' and select Sh
 
 Name your endpoint and choose the correct network. Shiden Mainnet on Kusama or our one for our testnet Shibuya. Sign the message and wait for your endpoint to be created.
 
-![](<../../.gitbook/assets/image (113) (1).png>)
+![](<../../.gitbook/assets/image (113) (1) (1).png>)
 
 ### Step 4
 
@@ -44,5 +44,5 @@ How to add your endpoint to MetaMask:
 2. Click on Custom RPC
 3. Add all the information (see screenshot)
 
-![MetaMask - Custom RPC](<../../.gitbook/assets/image (109) (1) (1).png>)
+![MetaMask - Custom RPC](<../../.gitbook/assets/image (109) (1) (1) (1).png>)
 
