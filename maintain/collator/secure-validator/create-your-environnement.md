@@ -1,6 +1,6 @@
 # Create Your Environnement
 
-Stake Technologies, one of the core companies behind Plasm Network, has been selected for [Microsoft for Startup](https://startups.microsoft.com/en-us/) program. Together with Microsoft, we are going to start **Shiden Azure Validator Program** by using Microsoft Azure when Shiden becomes a Kusama Parachain. Therefore, this setup will be based on Azure but is also possible with other providers.
+This setup is based on Azure cloud provider service but is also possible with other providers.
 
 ### System requirements
 
@@ -10,23 +10,24 @@ A validator usually deploys nodes on cloud servers. You can choose your preferre
 
 We will provide a basic configuration for reference, which guarantees that all blocks can process in time. If the hardware is inferior to that, there will be malfunctions.
 
-#### Basic configuration:
+#### Basic testnet configuration:
 
-* System: Linux or MacOS, Ubuntu 18.04 is recommended
-* CPU: at least 2 cores, Intel Core
+* System: Linux (macOS possible)
+* CPU: at least 2 cores
 * Memory: at least 8 GB
-* Hard disk: at least 80 GB, regularly evaluated
+* Hard disk: at least 80 GB (storage space will increase with time)
 
-#### Recommended configuration:
+#### Mainnet minimum configuration:
 
-* System: Linux or MacOS, Ubuntu18.04
-* CPU: 4 cores, Intel Core
-* Memory: 8 GB
-* Hard Disk: 250 GB
+* System: Linux (macOS possible)
+* Bare Metal server dedicated to the collator node
+* CPU: 8 physical cores
+* Memory: 16 GB
+* Hard Disk: 250 GB SSD NVMe (storage space will increase with time)
 
 ### Installation
 
-For the users who are selected to join the Azure Validator Program, please follow these instructions. This the modified version of [pathrock](https://pathrock-70243.medium.com/plasm-azure-validator-program-758205408117) guide.
+This part is the modified version of [pathrock](https://pathrock-70243.medium.com/plasm-azure-validator-program-758205408117) guide using Azure.
 
 1. First, you need to go to [https://portal.azure.com/](https://portal.azure.com/#home) and login with your credentials. This should take you to the _Default Directory_.
 2. Create your virtual machine
@@ -40,9 +41,9 @@ For the users who are selected to join the Azure Validator Program, please follo
 * Resource group: ...
 * Virtual machine name: \<YOURNAME>
 * Region: Choose a region
-* Image: Ubuntu Server 18.04 LTS — Gen1
+* Image: Ubuntu Server 20.04 LTS
 
-![](../../../../.gitbook/assets/01a.png)
+![](../../../.gitbook/assets/01a.png)
 
 * Size: See our recommendations
 
@@ -50,7 +51,7 @@ For the users who are selected to join the Azure Validator Program, please follo
 Later in the tutorial, we will add ECDH SSH key security over Curve25519 with SHA2 and change the SSH port.
 {% endhint %}
 
-![](../../../../.gitbook/assets/02a.png)
+![](../../../.gitbook/assets/02a.png)
 
 **Next**:&#x20;
 
@@ -60,20 +61,20 @@ Later in the tutorial, we will add ECDH SSH key security over Curve25519 with SH
 * Tags (no changes)
 * Preview + Create
 
-![](<../../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (14).png>)
 
 ### Resize disk space
 
 Now that our server is created we have to finetune our setup. First, stop your server!
 
-![](../../../../.gitbook/assets/05.png)
+![](../../../.gitbook/assets/05.png)
 
 The default disk size at the moment is 30 GiB, this is not enough for our validator. You need to increase the size to 128 GiB:
 
 * In the menu left, click on _Disks_
 * Click on the disk name
 * In the menu left, click on _Size + performance_
-* Choose 128 GiB and click on resize
+* Choose 128 GiB minimum and click on resize
 
 {% hint style="info" %}
 Not possible to resize? Did you stop your server?

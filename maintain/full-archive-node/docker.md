@@ -241,7 +241,7 @@ checkBlocks();
 
 If the node is exposed, it should display the block height of the network.
 
-![](<../../.gitbook/assets/image (111) (1) (1).png>)
+![](<../../.gitbook/assets/image (111) (1) (1) (1).png>)
 
 ## Using Relaychain Snapshot
 

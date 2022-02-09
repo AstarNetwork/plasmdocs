@@ -8,7 +8,7 @@ Please visit [our portal](https://portal.astar.network/#/balance/wallet) and sel
 **Astar Network**: Polkadot parachain\
 **Shiden Network**: Kusama parachain
 
-![](<../.gitbook/assets/image (111) (1).png>)
+![](<../.gitbook/assets/image (111) (1) (1).png>)
 
 When you have chosen your network, you can connect your wallet. The moment you select MetaMask it will automatically switch to our network.&#x20;
 

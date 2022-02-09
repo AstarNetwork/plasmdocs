@@ -6,7 +6,7 @@ Parachains connect to Polkadot by leasing a slot on the Relay Chain for up to 96
 
 ## How Auctions Work
 
-![](<../../.gitbook/assets/image (111) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (111) (1) (1) (1) (1).png>)
 
 ### Bonding
 

@@ -19,7 +19,7 @@ Please visit [our portal](https://portal.astar.network/#/balance/wallet) and sel
 
 When you have chosen your network, you can connect your wallet. The moment you select MetaMask it will automatically switch to our network.&#x20;
 
-![](<../.gitbook/assets/image (111).png>)
+![](<../.gitbook/assets/image (111) (1).png>)
 
 You can also manually add Astar/Shiden Network to Metamask
 
@@ -33,7 +33,7 @@ Once you are connected, you will be able to see your token balance.
 
 Click "Transfer" and paste the ASTR/SDN native Polkadot.js address.
 
-![](<../.gitbook/assets/image (119).png>)
+![](<../.gitbook/assets/image (119) (1).png>)
 
 Click "Confirm" and sign the transaction on Metamask.
 
@@ -41,7 +41,7 @@ Click "Confirm" and sign the transaction on Metamask.
 
 Disconnect Metamask from the portal and connect the Polkadot.js wallet that you sent the ASTR/SDN tokens to.
 
-![](<../.gitbook/assets/image (113).png>)
+![](<../.gitbook/assets/image (113) (1).png>)
 
 You will be able to see the "EVM Deposit" balance.&#x20;
 

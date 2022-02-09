@@ -16,7 +16,7 @@ description: 'Updated: 04/22 by Mario'
 
 *   **Can I use** [**Hardhat**](https://hardhat.org) **for smart contract deployment?**
 
-    * Yes, please follow [this tutorial](../../../integration/using-hardhat.md) in our documentation as example.
+    * Yes, please follow [this tutorial](using-hardhat.md) in our documentation as example.
 
 
 *   **What is the name of the native tokens in the Astar ecosystem?**

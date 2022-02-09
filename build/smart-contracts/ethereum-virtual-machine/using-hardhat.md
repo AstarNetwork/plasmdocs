@@ -4,7 +4,7 @@ description: 'Last update:  2021/04/26'
 
 # Using Hardhat
 
-![https://hardhat.org/](../.gitbook/assets/screen-shot-2021-04-26-at-15.12.59.png)
+![https://hardhat.org/](../../../.gitbook/assets/screen-shot-2021-04-26-at-15.12.59.png)
 
 ## **What’s** [**Hardhat**](https://hardhat.org)**?**
 
@@ -57,7 +57,7 @@ npm init -y
 
 You will notice a newly created package.json, which will continue to grow as you install project dependencies.
 
-![](../.gitbook/assets/screen-shot-2021-04-26-at-15.31.51.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-26-at-15.31.51.png)
 
 To get started with Hardhat, you have to install it in our newly created project directory:
 
@@ -68,7 +68,7 @@ npx hardhat //create your Hardhat project
 
 Then, you will see
 
-![](../.gitbook/assets/screen-shot-2021-04-26-at-15.39.19.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-26-at-15.39.19.png)
 
 After running the command, choose: _`Create an empty hardhat.config.js`_. Now, let’s configure the file.
 
@@ -78,7 +78,7 @@ We need to modify our Hardhat configuration file so we can compile and deploy co
 
 If you have not yet done so, connect your MetaMask Account to our ecosystem. We will use the private key of the account created to deploy the contract. If you don’t know the private key, you can export it from MetaMask.
 
-![](../.gitbook/assets/screen-shot-2021-04-26-at-15.42.46.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-26-at-15.42.46.png)
 
 First, we need to install the [ethers plugin](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html), this allows you to interact with the blockchain in a simple way. We can install ethers plugin by running:
 
@@ -106,7 +106,7 @@ Currency Symbol: PLD\
 \
 **Developer account (private key):** 0x60ed0dd24087f00faea4e2b556c74ebfa2f0e705f8169733b01530ce4c619883
 
-![](<../.gitbook/assets/screen-shot-2021-04-26-at-15.54.50 (1).png>)
+![](<../../../.gitbook/assets/screen-shot-2021-04-26-at-15.54.50 (1).png>)
 
 Next, let's create a `private.json`, where we store the private key. Never reveal your private key. The private.json looks like this:
 
@@ -116,7 +116,7 @@ Next, let's create a `private.json`, where we store the private key. Never revea
 }
 ```
 
-![](../.gitbook/assets/screen-shot-2021-04-26-at-15.56.08.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-26-at-15.56.08.png)
 
 ## **Smart Contract Example**
 
@@ -130,7 +130,7 @@ Navigate to the “contracts” folder and create a new file called `HelloWorld.
 
 Below is a sample Hello World smart contract from the[ Ethereum Foundation](https://ethereum.org/en/) that we will be using for this tutorial. Copy and paste the contents below into your `HelloWorld.sol`file, and be sure to read the comments to understand what this contract does:
 
-![](../.gitbook/assets/screen-shot-2021-04-26-at-15.59.55.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-26-at-15.59.55.png)
 
 This is a super simple smart contract that stores a message upon creation and can be updated by calling the update function.
 
@@ -158,7 +158,7 @@ mkdir scripts && cd scripts
 
 Create a new file called `deploy.js` , adding the following contents to it:
 
-![](../.gitbook/assets/screen-shot-2021-04-26-at-16.04.32.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-26-at-16.04.32.png)
 
 Hardhat does an amazing job of explaining what each of these lines of code does in their[ Contracts tutorial](https://hardhat.org/tutorial/testing-contracts.html#writing-tests), we’ve adopted their explanations here.
 
@@ -190,6 +190,6 @@ Then [install the plasm node](https://github.com/PlasmNetwork/Plasm#building-fro
 
 After a few seconds, the contract is deployed, and you should see the address in the terminal.
 
-![](../.gitbook/assets/screen-shot-2021-04-26-at-16.09.26.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-26-at-16.09.26.png)
 
 Congratulations, your contract is live on Dusty! Visit our example page to see how we deploy an asset with Hardhat and interact with this contract.\

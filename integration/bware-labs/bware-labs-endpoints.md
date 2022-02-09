@@ -32,7 +32,7 @@ Now you can create your API endpoint. Click on **'API Endpoints**' and select Sh
 
 Name your endpoint and choose the correct network. Shiden Mainnet on Kusama or our one for our testnet Shibuya. Sign the message and wait for your endpoint to be created.
 
-![](<../../.gitbook/assets/image (113) (1) (1).png>)
+![](<../../.gitbook/assets/image (113) (1) (1) (1).png>)
 
 ### Step 4
 

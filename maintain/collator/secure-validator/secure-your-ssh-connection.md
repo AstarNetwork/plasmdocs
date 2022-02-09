@@ -6,13 +6,17 @@ In this part, we are going to build a **secure SSH connection with strong SSH ke
 
 We will use the [`curve25519-sha256`](https://git.libssh.org/projects/libssh.git/tree/doc/curve25519-sha256@libssh.org.txt) protocol (**ECDH over Curve25519 with SHA2**) for our keys here as this is considered the most secure nowadays.
 
-## Configuration
+{% hint style="info" %}
+This part is a modified version of [bLd's guide](https://medium.com/bld-nodes/securing-ssh-access-to-your-server-cc1324b9adf6) using only **Putty** client to access server. If you are using Linux or MacOS, you can refer directly to the original guide to use **Open SSH**.
+{% endhint %}
+
+Configuration
 
 {% hint style="info" %}
 Follow this guide step-by-step, try to understand every step explained in this guide.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Be very careful to never close your actual session until you’ve tested the connection with your new key. You could lose access to your SSH connection.
 {% endhint %}
 
@@ -109,9 +113,9 @@ sudo usermod -a -G ssh-user <username>
 
 Before continuing, it is very important to open the newly configured SSH port in your firewall (4321 in our example). Go to the Azure portal and add this port:
 
-![](../../../../.gitbook/assets/08.png)
+![](../../../.gitbook/assets/08.png)
 
-![](../../../../.gitbook/assets/07.png)
+![](../../../.gitbook/assets/07.png)
 
 For the first tests, you should let port 22 open. Once you successfully connected to the new port, you can safely close port 22.
 
@@ -159,11 +163,11 @@ systemctl status sshd
 
 Let’s load the private key in the Putty `Auth` section:
 
-![](<../../../../.gitbook/assets/image (15).png>)
+![](<../../../.gitbook/assets/image (15).png>)
 
 Don’t forget to use your custom port, then connect:
 
-![](<../../../../.gitbook/assets/image (17).png>)
+![](<../../../.gitbook/assets/image (17).png>)
 
 Congratulation, y**our SSH connection is secure**!&#x20;
 
@@ -171,4 +175,4 @@ Congratulation, y**our SSH connection is secure**!&#x20;
 Don’t forget to remove port 22 from `sshd_config` file and firewall, and check that no other key is allowed in `authorized_keys` file.
 {% endhint %}
 
-![](../../../../.gitbook/assets/09.png)
+![](../../../.gitbook/assets/09.png)

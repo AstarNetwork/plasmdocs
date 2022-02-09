@@ -1,6 +1,6 @@
 # Network Details
 
-## Shiden
+
 
 RPC: Shiden fully supports standard Substrate RPC methods that are Remote Calls available by default and allow you to interact with the actual node, query, and submit👇\
 [https://polkadot.js.org/docs/substrate/rpc/](https://polkadot.js.org/docs/substrate/rpc/)

@@ -1,14 +1,22 @@
 # Ethereum Virtual Machine
 
-{% page-ref page="evm-smart-contracts.md" %}
+{% content-ref url="evm-smart-contracts.md" %}
+[evm-smart-contracts.md](evm-smart-contracts.md)
+{% endcontent-ref %}
 
-{% page-ref page="ethereum-contract-on-dusty-network.md" %}
+{% content-ref url="ethereum-contract-on-dusty-network.md" %}
+[ethereum-contract-on-dusty-network.md](ethereum-contract-on-dusty-network.md)
+{% endcontent-ref %}
 
-{% page-ref page="../../../integration/using-hardhat.md" %}
+{% content-ref url="using-hardhat.md" %}
+[using-hardhat.md](using-hardhat.md)
+{% endcontent-ref %}
 
-{% page-ref page="evm-precompiles.md" %}
+{% content-ref url="evm-precompiles.md" %}
+[evm-precompiles.md](evm-precompiles.md)
+{% endcontent-ref %}
 
-{% page-ref page="common-questions-for-evm-smart-contract-deployment.md" %}
-
-
+{% content-ref url="common-questions-for-evm-smart-contract-deployment.md" %}
+[common-questions-for-evm-smart-contract-deployment.md](common-questions-for-evm-smart-contract-deployment.md)
+{% endcontent-ref %}
 

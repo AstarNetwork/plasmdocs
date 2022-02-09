@@ -77,35 +77,36 @@ Onboarding takes `n+1` session.
 
 ### System requirements
 
-A collator usually deploys its nodes on cloud servers. You can choose your preferred VPS service provider and operating system. You need to run Ubuntu 20.04 or higher and we recommend using Azure.
+A collator usually deploys its nodes on cloud servers. You can choose your preferred operating system, we highly recommend Linux.
 
-**Hardware requirements:**
+**Hardware requirements**
 
-Here you can find the basic configuration for reference, which guarantees that all blocks can process in time. If the hardware is inferior to that, there is a chance it will be malfunctioning.
-
-**Recommended configuration:**
+Here you can find the basic configuration for reference, which guarantees that all blocks can process in time. If the hardware is inferior to that, there is a chance it will be malfunctioning and you will be automatically kicked out from the active set.
 
 {% hint style="info" %}
-Make sure you only use your server for running the collator!
+Make sure your server is only dedicated to the collator node
 {% endhint %}
 
-* System: Linux or macOS, Ubuntu 20.04
-* CPU: 8 cores, Intel Core
+**Minimum recommended configuration for a mainnet collator**
+
+* System: Linux (macOS possible)
+* Bare Metal server dedicated to the collator node
+* CPU: 8 physical cores
 * Memory: 16 GB
-* Hard Disk: 250 GB SSD&#x20;
+* Hard Disk: 250 GB SSD NVMe (storage space will increase with time)
 
 ## How to deploy your node
 
-#### Shibuya network:
+#### Shibuya network
 
-{% content-ref url="shibuya-network/shibuya-node.md" %}
-[shibuya-node.md](shibuya-network/shibuya-node.md)
+{% content-ref url="shibuya-network/" %}
+[shibuya-network](shibuya-network/)
 {% endcontent-ref %}
 
-#### Shiden network:
+#### Shiden and Astar network
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="shiden-collator-guide/" %}
+[shiden-collator-guide](shiden-collator-guide/)
 {% endcontent-ref %}
 
 ## Collator election mechanism
