@@ -33,7 +33,7 @@ Once you are connected, you will be able to see your token balance.
 
 Click "Transfer" and paste the ASTR/SDN native Polkadot.js address.
 
-![](<../.gitbook/assets/image (119) (1).png>)
+![](<../.gitbook/assets/image (119) (1) (1).png>)
 
 Click "Confirm" and sign the transaction on Metamask.
 

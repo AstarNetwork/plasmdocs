@@ -58,7 +58,7 @@ Go to the Polkadot.js portal: **Accounts**
 
 Open the 3 dots next to your collators address: **Set on-chain Identity**
 
-![](<../../../.gitbook/assets/image (119).png>)
+![](<../../../.gitbook/assets/image (119) (1).png>)
 
 Enter all fields you want to set.
 
