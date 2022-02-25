@@ -20,16 +20,16 @@ Installation of these packages goes in 7 steps:
 
 ```python
 #download files
-wget https://github.com/prometheus/prometheus/releases/download/v2.32.0/prometheus-2.32.0.linux-amd64.tar.gz
+wget https://github.com/prometheus/prometheus/releases/download/v2.33.4/prometheus-2.33.4.linux-amd64.tar.gz
 
 #extract
 tar xvf prometheus-*.tar.gz
 
 #move the files to /usr/lib/bin
-sudo cp ./prometheus-2.32.0.linux-amd64/prometheus /usr/local/bin/
-sudo cp ./prometheus-2.32.0.linux-amd64/promtool /usr/local/bin/
-sudo cp -r ./prometheus-2.32.0.linux-amd64/consoles /etc/prometheus
-sudo cp -r ./prometheus-2.32.0.linux-amd64/console_libraries /etc/prometheus
+sudo cp ./prometheus-2.33.4.linux-amd64/prometheus /usr/local/bin/
+sudo cp ./prometheus-2.33.4.linux-amd64/promtool /usr/local/bin/
+sudo cp -r ./prometheus-2.33.4.linux-amd64/consoles /etc/prometheus
+sudo cp -r ./prometheus-2.33.4.linux-amd64/console_libraries /etc/prometheus
 
 #create dedicated users
 sudo useradd --no-create-home --shell /usr/sbin/nologin prometheus
@@ -128,21 +128,9 @@ rm -rf ./alertmanager*
 ### Grafana
 
 ```python
-#download files
-wget https://dl.grafana.com/oss/release/grafana_8.3.3_amd64.deb
-
-#extract
-sudo dpkg -i grafana*.deb
-
-#if it fail with the error 'Package libfontconfig is not installed'
-sudo apt-get install libfontconfig
-
-#when you get the error 'libfontconfig1 : Depends: fontconfig-config (>= 2.11.0-6.3+deb8u1) but it is not going to be installed'
-#enter the following to force the install
-sudo apt-get -f install
-
-# now try again installing Grafana
-sudo dpkg -i grafana*.deb
+sudo apt-get install -y adduser libfontconfig1
+wget https://dl.grafana.com/oss/release/grafana_8.4.2_amd64.deb
+sudo dpkg -i grafana_8.4.2_amd64.deb
 
 sudo grafana-cli plugins install camptocamp-prometheus-alertmanager-datasource
 sudo systemctl restart grafana-server
