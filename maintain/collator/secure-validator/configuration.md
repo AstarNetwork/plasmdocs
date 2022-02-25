@@ -84,7 +84,7 @@ groups:
         labels:
           severity: warning
         annotations:
-          summary: Host high CPU load (instance Plasm Node)
+          summary: Host high CPU load (instance Astar Node)
           description: "CPU load is > 80%\n  VALUE = {{ $value }}\n  LABELS: {{ $labels }}"
 ```
 
@@ -104,7 +104,7 @@ And finally, check the **Prometheus config file**:
 promtool check config /etc/prometheus/prometheus.yml
 ```
 
-![](<../../../../.gitbook/assets/image (24).png>)
+![](<../../../.gitbook/assets/image (24).png>)
 
 ### Process exporter <a href="#786a" id="786a"></a>
 
@@ -130,7 +130,7 @@ To allow AlertManager to send an email to you, you will need to generate somethi
 
 You should see something like the below:
 
-![Copy and save it somewhere](<../../../../.gitbook/assets/image (13).png>)
+![Copy and save it somewhere](<../../../.gitbook/assets/image (13).png>)
 
 ### Alert Manager
 
