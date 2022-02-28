@@ -4,21 +4,35 @@
 
 Here are the contents in this section.
 
-{% page-ref page="wasm/smart-contract/" %}
+{% content-ref url="wasm/smart-contract/" %}
+[smart-contract](wasm/smart-contract/)
+{% endcontent-ref %}
 
-{% page-ref page="ethereum-virtual-machine/evm-smart-contracts.md" %}
+{% content-ref url="ethereum-virtual-machine/evm-smart-contracts.md" %}
+[evm-smart-contracts.md](ethereum-virtual-machine/evm-smart-contracts.md)
+{% endcontent-ref %}
 
-{% page-ref page="ethereum-virtual-machine/ethereum-contract-on-dusty-network.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="ethereum-virtual-machine/evm-precompiles.md" %}
+{% content-ref url="ethereum-virtual-machine/evm-precompiles.md" %}
+[evm-precompiles.md](ethereum-virtual-machine/evm-precompiles.md)
+{% endcontent-ref %}
 
-{% page-ref page="ethereum-virtual-machine/evm-precompiles.md" %}
+{% content-ref url="ethereum-virtual-machine/evm-precompiles.md" %}
+[evm-precompiles.md](ethereum-virtual-machine/evm-precompiles.md)
+{% endcontent-ref %}
 
-{% page-ref page="polkadot-hackathon.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="wasm/solidity.md" %}
+{% content-ref url="wasm/solidity.md" %}
+[solidity.md](wasm/solidity.md)
+{% endcontent-ref %}
 
-{% page-ref page="examples/" %}
-
-
+{% content-ref url="examples/" %}
+[examples](examples/)
+{% endcontent-ref %}
 

@@ -4,8 +4,8 @@
 [evm-smart-contracts.md](evm-smart-contracts.md)
 {% endcontent-ref %}
 
-{% content-ref url="ethereum-contract-on-dusty-network.md" %}
-[ethereum-contract-on-dusty-network.md](ethereum-contract-on-dusty-network.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="using-hardhat.md" %}

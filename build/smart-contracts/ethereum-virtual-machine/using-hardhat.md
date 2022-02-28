@@ -21,12 +21,6 @@ Hardhat can directly interact with Plasm ecosystem Ethereum API so it can be use
 
 Hardhat and Truffle are both development environments for building on Ethereum and have similar functionality so it's totally up to you to decide which you want to use. Hardhat is the newer kid on the block and tends to be a bit cleaner/easier to use, they also have lots of plugins to make it more customizable.&#x20;
 
-## **Follow Along**
-
-**follow along the tutorial by typing everything out or clone our repo** [**here**](https://github.com/PlasmNetwork/Hardhat-tutorial/tree/main) **and view the demo below!**
-
-{% embed url="https://youtu.be/HdV5uNcm-hQ" %}
-
 ## **Installation**
 
 We need to install Node.js and npm package manager. You can download directly from [Node.js](https://nodejs.org/en/download/) or in your terminal. You can verify that everything is installed correctly by querying the version for each package:
@@ -92,18 +86,6 @@ npm install @nomiclabs/hardhat-ethers ethers
 
 &#x20;Then, please open the `hardhat.config.js` file to assign the Solidity version and RPC server. In my case I use Visual Studio Code.
 
-**RPC server Dusty:**\
-****Network Name: Dusty\
-New RPC URL: https://rpc.dusty.plasmnet.io:8545\
-Chain ID: 80\
-Currency Symbol: PLD\
-\
-**Localhost:**\
-****Network name: Dusty Local\
-New RPC URL: http://localhost:9933\
-Chain ID: 80\
-Currency Symbol: PLD\
-\
 **Developer account (private key):** 0x60ed0dd24087f00faea4e2b556c74ebfa2f0e705f8169733b01530ce4c619883
 
 ![](<../../../.gitbook/assets/screen-shot-2021-04-26-at-15.54.50 (1).png>)
