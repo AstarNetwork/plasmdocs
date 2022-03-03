@@ -11,11 +11,11 @@ First some background information. The address format used in Substrate-based ch
 
 ![Wallet view in our portal](<../.gitbook/assets/image (114) (1).png>)
 
-To participate in the Stake2Earn Festival we will interact with our Astar native address. Using this address requires another extension than MetaMask. We recommend using the Polkadot JS extension if you are new to the ecosystem.
+To participate in the Stake2Earn Festival we will interact with our Astar native address. Using this address requires another extension then MetaMask. We recommend using the Polkadot JS extension if you are new to the ecosystem.
 
 ## Astar portal
 
-The Astar portal is the place to be for doing everything in our ecosystem. The Astar developers created a one-stop-place for everyone who wants to interact with our ecosystem. Click on the link below to go to our portal:
+The Astar portal is the place to be for doing anything in our ecosystem. The Astar developers created a one-stop-place for everyone who wants to interact in our ecosystem. Click on the link below to go to our portal:
 
 {% embed url="https://portal.astar.network" %}
 Link to Astar portal
