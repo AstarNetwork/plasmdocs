@@ -3,8 +3,8 @@
 How to register your dApp in our dApp store. First, you have to make sure that you meet the requirements:
 
 {% hint style="info" %}
-* **dApp staking is only for whitelisted projects** which joined our builder's program. In a later phase, this will be open to everyone through on-chain governance.
-* To register a dApp, you need to have 100 SDN tokens + gas fee in your developer's wallet.
+* **dApp staking is for all live projects in our ecosystem**. Just apply to [this forum](https://share.hsforms.com/1UFPFJXq6S1SN-j1lyMrNIgc2ryh) to be added to our dApp staking portal.
+* To register a dApp, you need to have 100 SDN/ASTR tokens + gas fee in your developer's wallet.
 * Create/import your developer's wallet in the Polkadot JS extension.
 {% endhint %}
 
