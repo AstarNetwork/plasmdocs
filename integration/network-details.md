@@ -49,16 +49,16 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 {% tab title="Shibuya" %}
 The documentation corresponding contains details for the RPC - HTTP, WSS endpoints.&#x20;
 
-|                    |                                                                                                                                                                                 |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Network name**   | Shibuya Network (parachain testnet)                                                                                                                                             |
-| **Parent chain**   | Tokyo (own relay chain)                                                                                                                                                         |
-| **parachainID**    | 2000                                                                                                                                                                            |
-| **RPC**            | https://rpc.shibuya.astar.network:8545                                                                                                                                          |
-| **chainID**        | 81                                                                                                                                                                              |
-| **Symbol**         | SBY                                                                                                                                                                             |
-| **WebSocket**      | <p>wss://rpc.shibuya.astar.network</p><p></p><p>Public end-points (thanks to Euskoin):</p><p>wss://shibuya.eusko.in <br>wss://shibuya1.eusko.in <br>wss://shibuya2.eusko.in</p> |
-| **Block explorer** | https://shibuya.subscan.io                                                                                                                                                      |
+|                    |                                        |
+| ------------------ | -------------------------------------- |
+| **Network name**   | Shibuya Network (parachain testnet)    |
+| **Parent chain**   | Tokyo (own relay chain)                |
+| **parachainID**    | 1000                                   |
+| **RPC**            | https://rpc.shibuya.astar.network:8545 |
+| **chainID**        | 81                                     |
+| **Symbol**         | SBY                                    |
+| **WebSocket**      | wss://rpc.shibuya.astar.network        |
+| **Block explorer** | https://shibuya.subscan.io             |
 {% endtab %}
 {% endtabs %}
 
