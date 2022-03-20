@@ -14,6 +14,18 @@ API and free RPC WebSocket endpoints for the Astar community.👇
 [api.md](../build/api.md)
 {% endcontent-ref %}
 
+{% hint style="info" %}
+Using a public endpoint for your project is your own responsibility! **We recommend building your own RPC server, endpoints to make sure you have full control over them.**
+
+Astar is not responsible for your project downtime in case of public endpoint issues.
+{% endhint %}
+
+{% content-ref url="../maintain/full-archive-node/" %}
+[full-archive-node](../maintain/full-archive-node/)
+{% endcontent-ref %}
+
+
+
 {% tabs %}
 {% tab title="Astar Network" %}
 The documentation corresponding contains details for the RPC - HTTP, WSS endpoints.&#x20;
