@@ -15,7 +15,7 @@ API and free RPC WebSocket endpoints for the Astar community.👇
 {% endcontent-ref %}
 
 {% hint style="info" %}
-Using a public endpoint for your project is your own responsibility! **We recommend building your own RPC server, endpoints to make sure you have full control over them.**
+Building a dApp on Astar? **We recommend building your own endpoints or using our infra partners to make sure you have full control over them.**
 
 Astar is not responsible for your project downtime in case of public endpoint issues.
 {% endhint %}
@@ -23,8 +23,6 @@ Astar is not responsible for your project downtime in case of public endpoint is
 {% content-ref url="../maintain/full-archive-node/" %}
 [full-archive-node](../maintain/full-archive-node/)
 {% endcontent-ref %}
-
-
 
 {% tabs %}
 {% tab title="Astar Network" %}
