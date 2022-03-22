@@ -3,24 +3,27 @@
 ## Overview
 
 **What is dApp staking:**\
-****Instead of staking to validators, users can choose to nominate their Astar/Shiden tokens on the project. These users are also known as nominators. At every block, half of your block rewards are used for dApp staking. This reward is further divided into a 4:1 ratio between operators (developers) and nominators.
+****Instead of staking to validators, users can choose to nominate their Astar/Shiden tokens on the project. These users are also known as nominators. At every block, half of your block rewards are used for dApp staking. This reward is further divided between operators (developers) and nominators (stakers).
 
-40% of block rewards is a huge incentive for dApp developers to build in the Astar ecosystem. In other blockchains like Ethereum, dApp developers need to apply for grant programs, issuance of tokens, fundraising etc. to earn some money. In the Astar ecosystem, as long as your dApp has been nominated, you will receive some basic income. As your dApp grows in popularity, more members of the community will nominate you and this means that you will receive a greater percentage of the block reward!
+dApp staking will give a huge incentive to dApp developers to build in the Astar ecosystem. In other blockchains like Ethereum, dApp developers need to apply for grant programs, issuance of tokens, fundraising etc. to earn some money. In the Astar ecosystem, as long as your dApp has been nominated, you will receive basic income. As your dApp grows in popularity, more members of the community will nominate you and this means that you will receive a greater percentage of the block reward!
 
-We must also not forget the nominators. 10% reward is quite substantial and can serve as an alternative to staking to validators or lending on other DeFi platforms.
-
-![](<../../.gitbook/assets/image (107) (1) (1).png>)
+We must also not forget the nominators. They always will receive the highest APR to serve as an alternative to staking to validators or lending on other DeFi platforms.
 
 ## Parameters
 
-During the first phase, there will be some limitations so we can keep monitoring our nodes and dApps who are using our dApp staking mechanism. Please take the following parameters into consideration:&#x20;
+Currently, there will be some limitations so we can keep monitoring our nodes and dApps who are using our dApp staking mechanism. **Are you a product owner and want to list your dApp in our staking mechanism to earn rewards? Read more here:**
 
-* **dApp staking is only for whitelisted projects** who joined our builder's program first.
+{% content-ref url="requirements.md" %}
+[requirements.md](requirements.md)
+{% endcontent-ref %}
+
+Please take the following parameters into consideration:&#x20;
+
 * To register a dApp for dApp staking you need to have 100 SDN tokens.
-* Each dApp can have a **max** of **512 nominators**.
-* The **minimum** amount to stake is **100 SDN**.
-* A claim needs to be done within 15 days or the unclaimed rewards go to the treasury. A claim can be done by the contract owner or any staker in the dApp. **One claim will claim for everyone**!
-* Currently, there is no slash nor bonding period during this phase.
+* Each dApp can have a **max** of **1024 nominators**.
+* The **minimum** amount to stake is **50 SDN**.
+* **The claim will claim all your rewards for staked on dApps**!
+* There is a bonding period for 5 days on Shiden.
 
 ## How to stake
 

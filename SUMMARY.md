@@ -72,6 +72,7 @@
 ## Build
 
 * [DApp Staking](build/dapp-staking/README.md)
+  * [Requirements](build/dapp-staking/requirements.md)
   * [Register dApp](build/dapp-staking/register-dapp.md)
 * [Smart Contracts](build/smart-contracts/README.md)
   * [Ethereum Virtual Machine](build/smart-contracts/ethereum-virtual-machine/README.md)
