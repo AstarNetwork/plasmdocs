@@ -56,8 +56,8 @@
 
 ## Ethereum and BSC Bridge
 
-* [Anyswap Bridge](ethereum-and-bsc-bridge/anyswap-bridge.md)
 * [Celer Bridge](ethereum-and-bsc-bridge/celer-bridge.md)
+* [Anyswap Bridge](ethereum-and-bsc-bridge/anyswap-bridge.md)
 
 ## Integration
 
