@@ -11,7 +11,7 @@ We must also not forget the nominators. They always will receive the highest APR
 
 ## Parameters
 
-Currently, there will be some limitations so we can keep monitoring our nodes and dApps who are using our dApp staking mechanism. **Are you a product owner and want to list your dApp in our staking mechanism to earn rewards? Read more here:**
+**Are you a product owner and want to list your dApp in our staking mechanism to earn rewards? Read more here:**
 
 {% content-ref url="requirements.md" %}
 [requirements.md](requirements.md)
