@@ -1,10 +1,3 @@
----
-description: >-
-  Since Commonwealth Labs and Webb Technologies joined as core companies behind
-  the protocol. The token economics will be fully determined by the Polkadot
-  auction.
----
-
 # $ASTR Allocation
 
 **Total token supply:** 7,000,000,000

@@ -58,11 +58,11 @@ Go to the Polkadot.js portal: **Accounts**
 
 Open the 3 dots next to your collators address: **Set on-chain Identity**
 
-![](<../../../.gitbook/assets/image (119) (1).png>)
+![](<../../../.gitbook/assets/image (119) (1) (1).png>)
 
 Enter all fields you want to set.
 
-![](<../../../.gitbook/assets/image (117).png>)
+![](<../../../.gitbook/assets/image (117) (1).png>)
 
 Send the transaction.
 
@@ -82,7 +82,7 @@ Go to the Shibuya Polkadot.js portal: _**Developper > Extrinsic**_
 
 Select your **collator account** and extrinsic type: _**CollatorSelection / registerAsCandidate**_
 
-![](<../../../.gitbook/assets/image (116).png>)
+![](<../../../.gitbook/assets/image (116) (1).png>)
 
 Submit the transaction.
 
@@ -94,4 +94,4 @@ Onboarding takes place at `n+1` session
 
 Once your collator is active, you will see your name inside **Network** tab every time you produce a block:
 
-![](<../../../.gitbook/assets/image (113).png>)
+![](<../../../.gitbook/assets/image (113) (1).png>)

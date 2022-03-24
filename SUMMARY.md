@@ -121,6 +121,7 @@
 
 ## Tutorial
 
+* [How to send USDC from Polygon to Astar Network](tutorial/how-to-send-usdc-from-polygon-to-astar-network.md)
 * [How to send ASTR/SDN from exchanges to our portal](tutorial/how-to-transfer-astr-sdn-from-exchanges.md)
 * [How to send ASTR/SDN from Polkadot.js to MetaMask](tutorial/how-to-transfer-astr-sdn-from-polkadot.js-to-metamask.md)
 * [How to send ASTR/SDN from MetaMask to Polkadot.js](tutorial/how-to-send-astr-sdn-from-metamask-to-polkadot.js.md)

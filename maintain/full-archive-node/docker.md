@@ -212,7 +212,7 @@ ngrok http 9933
 
 After running the command, the terminal shows a screen like this.
 
-![Ngrok view](<../../.gitbook/assets/image (114) (1) (1).png>)
+![Ngrok view](<../../.gitbook/assets/image (114) (1) (1) (1).png>)
 
 Ngrok default setting has an expiring session for 2 hours. To have persistent RPC exposure, sign up to their service, and set up auth token with the command:
 

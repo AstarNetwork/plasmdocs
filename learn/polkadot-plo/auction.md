@@ -32,4 +32,4 @@ Each slot on the Relay Chain can be leased for a maximum duration of 96 weeks. W
 
 Each auction has an ending period that begins approximately 1 day and 18 hours after the start of the auction and lasts until the end of the 1-week bidding period. The auction’s endpoint can be any time within the ending period and is automatically and randomly chosen by the VRF at the close of the 1-week bidding period.
 
-![](<../../.gitbook/assets/image (112) (1) (1).png>)
+![](<../../.gitbook/assets/image (112) (1) (1) (1).png>)
