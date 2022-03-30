@@ -56,7 +56,8 @@
 
 ## Ethereum and BSC Bridge
 
-* [Celer Bridge](ethereum-and-bsc-bridge/celer-bridge.md)
+* [Celer Bridge](ethereum-and-bsc-bridge/celer-bridge/README.md)
+  * [How to send USDC from Polygon to Astar Network](ethereum-and-bsc-bridge/celer-bridge/how-to-send-usdc-from-polygon-to-astar-network.md)
 * [Anyswap Bridge](ethereum-and-bsc-bridge/anyswap-bridge.md)
 
 ## Integration
@@ -121,7 +122,6 @@
 
 ## Tutorial
 
-* [How to send USDC from Polygon to Astar Network](tutorial/how-to-send-usdc-from-polygon-to-astar-network.md)
 * [How to send ASTR/SDN from exchanges to our portal](tutorial/how-to-transfer-astr-sdn-from-exchanges.md)
 * [How to send ASTR/SDN from Polkadot.js to MetaMask](tutorial/how-to-transfer-astr-sdn-from-polkadot.js-to-metamask.md)
 * [How to send ASTR/SDN from MetaMask to Polkadot.js](tutorial/how-to-send-astr-sdn-from-metamask-to-polkadot.js.md)

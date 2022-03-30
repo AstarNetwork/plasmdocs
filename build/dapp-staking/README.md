@@ -3,7 +3,7 @@
 ## Overview
 
 **What is dApp staking:**\
-****Instead of staking to validators, users can choose to nominate their Astar/Shiden tokens on the project. These users are also known as nominators. At every block, half of your block rewards are used for dApp staking. This reward is further divided between operators (developers) and nominators (stakers).
+****Instead of staking to validators, users can choose to nominate their Astar/Shiden tokens on the project. These users are also known as nominators. At every block, a big part of the block rewards are used for dApp staking. This reward is further divided between operators (developers) and nominators (stakers).
 
 dApp staking will give a huge incentive to dApp developers to build in the Astar ecosystem. In other blockchains like Ethereum, dApp developers need to apply for grant programs, issuance of tokens, fundraising etc. to earn some money. In the Astar ecosystem, as long as your dApp has been nominated, you will receive basic income. As your dApp grows in popularity, more members of the community will nominate you and this means that you will receive a greater percentage of the block reward!
 
