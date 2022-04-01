@@ -29,7 +29,7 @@ You can also manually add Astar/Shiden Network to Metamask
 
 Once you are connected, you will be able to see your token balance.
 
-![](<../.gitbook/assets/image (112) (1).png>)
+![](<../.gitbook/assets/image (112) (2).png>)
 
 Click "Transfer" and paste the ASTR/SDN native Polkadot.js address.
 

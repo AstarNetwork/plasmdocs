@@ -30,7 +30,7 @@ You will be prompted to switch your wallet to Polygon if it's not already connec
 
 ![](<../../.gitbook/assets/image (115).png>)
 
-![](<../../.gitbook/assets/image (119).png>)
+![](<../../.gitbook/assets/image (119) (1).png>)
 
 Enter the amount you want to send under "Send". You should see the estimated amount you will receive under "Receive (estimated)".
 
@@ -38,7 +38,7 @@ Enter the amount you want to send under "Send". You should see the estimated amo
 
 You can adjust the Slippage Tolerance of the transfer. Your transfer may fail with a very low Slippage Tolerance. It’s usually between 0.1% and 0.5%.
 
-![](<../../.gitbook/assets/image (112).png>)
+![](<../../.gitbook/assets/image (112) (1).png>)
 
 Note that there will be a difference between the amount you send and the amount you receive, which is determined by the Bridge Rate and fees. For the exact definition of each item in the transaction, check the tooltips next to each of the terms.
 

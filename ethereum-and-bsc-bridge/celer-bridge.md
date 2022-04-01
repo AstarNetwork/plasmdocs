@@ -46,11 +46,11 @@ First of all, visit [our portal](https://portal.astar.network/#/balance/wallet) 
 
 {% embed url="https://polkadot.js.org/extension" %}
 
-![](<../../.gitbook/assets/Screenshot 2022-01-19 at 3.50.13 PM.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.50.13 PM.png>)
 
 Then, please click your **Native address.** Once you click **** ?, you can see the below comment.&#x20;
 
-![](<../../.gitbook/assets/Screenshot 2022-01-19 at 3.54.51 PM (1).png>)
+![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.54.51 PM (1).png>)
 
 This is the address that you should use to withdraw ASTR tokens from exchanges.&#x20;
 
@@ -60,13 +60,13 @@ In this tutorial, I will show you how to bridge USDC from Ethereum to Astar. By 
 
 Please visit cBridge [https://cbridge.celer.network/#/transfer](https://cbridge.celer.network/#/transfer) and then input a currency you would like to transfer.&#x20;
 
-![](<../../.gitbook/assets/Screenshot 2022-01-22 at 10.20.17 AM.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-22 at 10.20.17 AM.png>)
 
-![](<../../.gitbook/assets/Screenshot 2022-01-22 at 10.20.22 AM.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-22 at 10.20.22 AM.png>)
 
 After the transaction, you can see
 
-![](<../../.gitbook/assets/Screenshot 2022-01-22 at 10.33.53 AM.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-22 at 10.33.53 AM.png>)
 
 and check out your Metamask!&#x20;
 
