@@ -53,6 +53,7 @@
 * [Lockdrop](utility/lockdrop/README.md)
   * [Importing Ethereum Seed](utility/lockdrop/importing-ethereum-seed.md)
   * [Unlock Tutorial](utility/lockdrop/unlock-tutorial.md)
+* [On-Chain Identity](utility/on-chain-identity.md)
 
 ## Ethereum and BSC Bridge
 
@@ -64,12 +65,11 @@
 
 * [Network Details](integration/network-details.md)
 * [Faucet](build/testnet-faucet.md)
-* [On-Chain Identity](integration/on-chain-identity.md)
+* [Dappradar](integration/dappradar.md)
 * [Using Bware Labs](integration/bware-labs/README.md)
   * [Bware Labs Endpoints](integration/bware-labs/bware-labs-endpoints.md)
 * [Using Redspot by Patract Lab](integration/using-redspot-by-patract-lab.md)
-* [The Graph](integration/the-graph.md)
-* [Dappradar](integration/dappradar.md)
+* [Using The Graph](integration/using-the-graph.md)
 
 ## Build
 
