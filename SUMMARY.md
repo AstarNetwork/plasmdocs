@@ -69,6 +69,7 @@
   * [Bware Labs Endpoints](integration/bware-labs/bware-labs-endpoints.md)
 * [Using Redspot by Patract Lab](integration/using-redspot-by-patract-lab.md)
 * [The Graph](integration/the-graph.md)
+* [Dappradar](integration/dappradar.md)
 
 ## Build
 
