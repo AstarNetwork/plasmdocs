@@ -82,6 +82,7 @@
     * [EVM Precompiled Contracts](build/smart-contracts/ethereum-virtual-machine/evm-precompiles.md)
     * [Using Hardhat](build/smart-contracts/ethereum-virtual-machine/using-hardhat.md)
     * [FAQ for EVM smart contract deployment](build/smart-contracts/ethereum-virtual-machine/common-questions-for-evm-smart-contract-deployment.md)
+    * [AstarBase](build/smart-contracts/ethereum-virtual-machine/astarbase.md)
   * [WASM](build/smart-contracts/wasm/README.md)
     * [Redspot by Patract Labs](build/smart-contracts/wasm/redspot-by-patract-labs.md)
     * [Solidity to WASM Compiler](build/smart-contracts/wasm/solidity.md)
