@@ -4,8 +4,8 @@
 [evm-smart-contracts.md](evm-smart-contracts.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="astarbase.md" %}
+[astarbase.md](astarbase.md)
 {% endcontent-ref %}
 
 {% content-ref url="using-hardhat.md" %}
@@ -19,4 +19,3 @@
 {% content-ref url="common-questions-for-evm-smart-contract-deployment.md" %}
 [common-questions-for-evm-smart-contract-deployment.md](common-questions-for-evm-smart-contract-deployment.md)
 {% endcontent-ref %}
-
