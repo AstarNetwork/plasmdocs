@@ -133,7 +133,7 @@ cd /usr/local/bin
 {% tab title="Shibuya" %}
 ```
 cd /usr/local/bin
-./astar-collator --validator --chain shibuya --parachain-id 1000 --parachain-id 2006 --name ${COLLATOR_NAME} --rpc-cors all --base-path /var/lib/astar --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --execution wasm --state-cache-size 1
+./astar-collator --validator --chain shibuya --parachain-id 1000 --name ${COLLATOR_NAME} --rpc-cors all --base-path /var/lib/astar --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --execution wasm --state-cache-size 1
 ```
 {% endtab %}
 {% endtabs %}
