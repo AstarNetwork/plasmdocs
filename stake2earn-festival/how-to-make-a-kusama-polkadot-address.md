@@ -9,7 +9,7 @@ First some background information. The address format used in Substrate-based ch
 * An Astar Native address or SS58 address
 * An Astar EVM address or H160 address
 
-![Wallet view in our portal](<../.gitbook/assets/image (114) (1) (1).png>)
+![Wallet view in our portal](<../.gitbook/assets/image (114) (1) (1) (1).png>)
 
 To participate in the Stake2Earn Festival we will interact with our Astar native address. Using this address requires another extension then MetaMask. We recommend using the Polkadot JS extension if you are new to the ecosystem.
 
@@ -27,13 +27,13 @@ Through our portal, you can connect to different networks in the Astar ecosystem
 * **Shiden Network**: parachain on Kusama.
 * **Shibuya**: parachain testnet
 
-![Network selector in the Astar portal](<../.gitbook/assets/image (118) (1) (1).png>)
+![Network selector in the Astar portal](<../.gitbook/assets/image (118) (1) (1) (1).png>)
 
 ## Recommend: Polkadot{.js} Browser Plugin
 
 The Polkadot{.js} plugin provides a reasonable balance of security and usability. It provides a separate local mechanism to generate your address and interact with the Astar portal. We recommend users who are new to our ecosystem and want to create an Astar native address use this wallet. If you don't have the Polkadot JS extension you will receive a popup in our portal when you try to connect your wallet.
 
-![Popup when you don't have the extension installed](<../.gitbook/assets/image (113) (1) (1) (1).png>)
+![Popup when you don't have the extension installed](<../.gitbook/assets/image (113) (1) (1) (1) (1).png>)
 
 ### Install the Browser Plugin
 
@@ -41,7 +41,7 @@ The browser plugin is available for both [Google Chrome](https://chrome.google.c
 
 ![ Polkadot{.js} extension](<../.gitbook/assets/image (42).png>)
 
-![ Polkadot{.js} logo](<../.gitbook/assets/image (116) (1) (1).png>)
+![ Polkadot{.js} logo](<../.gitbook/assets/image (116) (1) (1) (1).png>)
 
 ### Create Account
 
@@ -81,7 +81,7 @@ When you have given the extension permission, let's connect the wallet. A popup 
 
 Once you have clicked on Polkadot JS, you can select your newly created account. Select your account and press confirm.
 
-![Wallet selector](<../.gitbook/assets/image (117) (1) (1).png>)
+![Wallet selector](<../.gitbook/assets/image (117) (1) (1) (1).png>)
 
 You have now successfully connected an Astar wallet to our portal. Note that you can use this wallet on all parachains in the Dotsama ecosystem.
 

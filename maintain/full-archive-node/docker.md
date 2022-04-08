@@ -192,7 +192,7 @@ astar-collator --name NAME --chain shibuya --parachain-id 1000 --base-path /data
 
 If the RPC node is successfully running the node should be registered in telemetry. You will be able to see an RPC node syncing to the latest block with the **NAME** specified in the command.
 
-![Shiden Telemetry](<../../.gitbook/assets/image (107).png>)
+![Shiden Telemetry](<../../.gitbook/assets/image (107) (1).png>)
 
 During the syncing process, you will see messages from both the relay chain and the parachain in your logs. These messages display a target block (live network state) and the best block (local node synced state).
 
@@ -212,7 +212,7 @@ ngrok http 9933
 
 After running the command, the terminal shows a screen like this.
 
-![Ngrok view](<../../.gitbook/assets/image (114) (1) (1) (1).png>)
+![Ngrok view](<../../.gitbook/assets/image (114) (1) (1) (1) (1).png>)
 
 Ngrok default setting has an expiring session for 2 hours. To have persistent RPC exposure, sign up to their service, and set up auth token with the command:
 
@@ -241,7 +241,7 @@ checkBlocks();
 
 If the node is exposed, it should display the block height of the network.
 
-![](<../../.gitbook/assets/image (111) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (111) (1) (1) (1) (1).png>)
 
 ## Using Relaychain Snapshot
 

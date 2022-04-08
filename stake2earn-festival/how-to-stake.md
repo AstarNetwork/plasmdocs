@@ -36,7 +36,7 @@ You are ready to earn staking rewards! Every day you will receive your staking r
 
 &#x20;
 
-![](<../.gitbook/assets/image (115) (1) (1).png>)
+![](<../.gitbook/assets/image (115) (1) (1) (1).png>)
 
 ## How to unstake
 

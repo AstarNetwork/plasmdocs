@@ -9,45 +9,34 @@ description: >-
 
 ## <mark style="color:red;">**WARNING - WHEN YOU ARE ON EVM MODE, DO NOT SEND TOKENS FROM METAMASK TO EXCHANGES!!**</mark>
 
-### Step1: Connect Metamask  and Transfer
+### Step 1: Connect The Portal To Metamask
 
-Please visit [our portal](https://portal.astar.network/#/balance/wallet) and select the network you want to use.\
-**Astar Network**: Polkadot parachain\
-**Shiden Network**: Kusama parachain
+* Go to the [Portal](https://portal.astar.network).
+* Connect Metamask.
+* Select the desired network.
 
-![](<../.gitbook/assets/image (109).png>)
+![Select Metamask](<../.gitbook/assets/image (107).png>)
 
-When you have chosen your network, you can connect your wallet. The moment you select MetaMask it will automatically switch to our network.&#x20;
+![Clcik on the network tab and select the Astar or Shiden.](<../.gitbook/assets/image (122).png>)
 
-![](<../.gitbook/assets/image (111) (1).png>)
 
-You can also manually add Astar/Shiden Network to Metamask
 
-![](<../.gitbook/assets/image (115) (1).png>)
+* Once you are connected, you will be able to see your token balance.
 
-![](<../.gitbook/assets/image (114) (1).png>)
+![Token balances are displayed](<../.gitbook/assets/image (124).png>)
 
-Once you are connected, you will be able to see your token balance.
+* Click "Transfer", paste the ASTR/SDN native Polkadot.js address and click "Confirm"
 
-![](<../.gitbook/assets/image (112) (2).png>)
-
-Click "Transfer" and paste the ASTR/SDN native Polkadot.js address.
-
-![](<../.gitbook/assets/image (119) (1) (1) (1).png>)
-
-Click "Confirm" and sign the transaction on Metamask.
+![Do not send tokens from Metamask to exchanges.](<../.gitbook/assets/image (116).png>)
 
 ### Step 2: Withdraw EVM Deposit
 
-Disconnect Metamask from the portal and connect the Polkadot.js wallet that you sent the ASTR/SDN tokens to.
+* Disconnect Metamask from the portal and connect the Polkadot.js wallet that you sent the ASTR/SDN tokens to.
+* You will be able to see the "EVM Deposit" balance.&#x20;
 
-![](<../.gitbook/assets/image (113) (1) (1).png>)
+![](<../.gitbook/assets/image (114).png>)
 
-You will be able to see the "EVM Deposit" balance.&#x20;
-
-![](<../.gitbook/assets/image (110) (1).png>)
-
-Click on "Withdraw EVM Deposit" and sign the transaction on Polkadot.js. You need gas to perform this transaction. If you do not have any gas, click on "Faucet".
+* Click on "Withdraw EVM Deposit" and sign the transaction on Polkadot.js. You need gas to perform this transaction. If you do not have any gas, click on "Faucet".
 
 
 

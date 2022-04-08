@@ -2,47 +2,42 @@
 
 In this tutorial, we explain how to transfer ASTR/SDN from Polkadot.js to Metamask. Astar is Ethereum compatible layer1 blockchain. You are able to manage your ASTR/SDN on your MetaMask.&#x20;
 
-### Step1: Connect Metamask Automatically
+### Step1: Connect Polkadot.js Wallet
 
 Please visit [our portal](https://portal.astar.network/#/balance/wallet) and select the network you want to use.\
 **Astar Network**: Polkadot parachain\
 **Shiden Network**: Kusama parachain
 
-![](<../.gitbook/assets/image (111) (1) (1).png>)
+![](<../.gitbook/assets/image (127).png>)
 
-When you have chosen your network, you can connect your wallet. The moment you select MetaMask it will automatically switch to our network.&#x20;
+### Step 2: Transfer
 
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 4.40.41 PM (1).png>)
+* Click transfer.
+* Paste your Metamask address on the Destination Address.
+* Enter the amount of ASTR/SDN you want to send.
+* Click confirm.
+* Done.
 
-Please make sure you add Astar Network to Metamask
+![Transferring tokens to Metamask](<../.gitbook/assets/image (126).png>)
 
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 5.10.25 PM.png>)
+### Step 3: Connect The Portal To Metamask
 
-Once you add our mainnet network to MetaMask, you will be able to see your MetaMask address on our portal.
+* On the top right corner of the portal, click on the wallet tab.
 
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 5.14.34 PM.png>)
+![](<../.gitbook/assets/image (109).png>)
 
-You can also add Metamask manually. Please refer to our network details.
+* Click "Change", select Metamask from the dropdown menu a click "Connect".
 
-{% embed url="https://docs.astar.network/integration/network-details" %}
+![Switching wallet](<../.gitbook/assets/image (120).png>)
 
-### Step2: Transfer ASTR/SDN from Polkadot.js to Metamask
+* Metamask will automaticall add Astar/Shiden network RPC and please sign the transaction.
 
-The default Astar address is Polkadot native. Therefore, you need to transfer ASTR from Polkadot native address to Ethereum address. First, please log out the portal and log in with your Polkadot.js account.&#x20;
+![Sign the request](<../.gitbook/assets/image (111).png>)
 
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 5.23.39 PM.png>)
+* You are now connected to Metamask and you will be able to see your token balance.&#x20;
+* You can also see the token balance on Metamask interface.
 
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 4.40.41 PM (1).png>)
-
-Once you log in, you will be able to see your address and your ASTR/SDN on the portal. Please click **transfer** and fill out your Ethereum address.
-
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 5.26.25 PM (1).png>)
-
-That's it! You can now see your ASTR/SDN in your MetaMask wallet.
-
-
-
-## Support
+### Support
 
 In case you have any problems. Join our community and our Ambassadors will support you. Please remember that we will never DM you first! If you get approached by someone pretending to be part of the team, do not trust them.
 

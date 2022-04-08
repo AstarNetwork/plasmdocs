@@ -1,4 +1,4 @@
-# The Graph
+# Using The Graph
 
 ## Overview
 
@@ -70,7 +70,7 @@ sudo bash ./setup.sh
 
 After running the command, the tail end of the command should show similar logs as below:
 
-![](<../.gitbook/assets/image (109) (1) (1).png>)
+![](<../.gitbook/assets/image (109) (1) (1) (1).png>)
 
 Once everything is set up, you need to modify the "Ethereum environment" inside the `docker-compose.yml` file, so that The Graph node points to the endpoint of the RPC that you are connecting with. Note that the `setup.sh` file detects RPC's Host IP and writes its value, so you'll need to modify it accordingly.
 

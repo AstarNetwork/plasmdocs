@@ -10,15 +10,13 @@ Astar supports both Polkadot native virtual machine and Ethereum virtual machine
 
 Please go to the[ Astar portal](https://portal.astar.network/#/balance/wallet) and connect your Polkadot.js. If you haven't installed Polkadot.js, please do install from [here](https://polkadot.js.org/extension/).
 
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 4.40.41 PM.png>)
+![Select Native Wallet](<../.gitbook/assets/image (121).png>)
 
 Once you connect to the Astar portal, you will be able to see your address and amount.
 
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 4.43.00 PM.png>)
+![Copy Native Address](<../.gitbook/assets/image (131).png>)
 
 Make sure to copy your **Native** address. This is your address that you should use when you withdraw ASTR/SDN from exchanges.
-
-![](<../.gitbook/assets/Screenshot 2022-01-19 at 3.54.51 PM.png>)
 
 ## Support
 

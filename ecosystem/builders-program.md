@@ -30,7 +30,7 @@ The application track is geared primarily towards building dApps in the Astar ec
 
 Apply to the form by [clicking here](https://share.hsforms.com/1UFPFJXq6S1SN-j1lyMrNIgc2ryh).
 
-![](<../.gitbook/assets/image (120) (1).png>)
+![](<../.gitbook/assets/image (120) (1) (1).png>)
 
 ## Why should I apply for your Builders Program?
 
