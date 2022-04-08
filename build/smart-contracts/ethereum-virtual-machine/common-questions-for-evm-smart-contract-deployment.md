@@ -26,7 +26,7 @@ description: 'Updated: 04/22 by Mario'
     * ASTR (Astar Network)
 
 
-*   **How do I connect to our networks?**
+*   **How do I connect to our networks, RPCs, Network name, Chain ID?**
 
     * Go to this [page](../../../integration/network-details.md).
 
@@ -36,11 +36,9 @@ description: 'Updated: 04/22 by Mario'
     * Use our faucet. Follow this [tutorial](../../testnet-faucet.md).
 
     ****
-* **Is there a block explorer?**
-  * Shibuya: https://shibuya.subscan.io
-  * Shiden: https://shiden.subscan.io
-  * Astar: https://astar.subscan.io
-  *   EVM explorer is being developed by Blockscout and Subscan.
+*   **Is there a block explorer?**
+
+    * yes, Go to this [page](../../../integration/network-details.md).
 
 
 *   **Is it possible to import Substrate (Polkadot) address to Metamask?**

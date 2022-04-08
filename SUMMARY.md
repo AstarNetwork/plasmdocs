@@ -138,8 +138,8 @@
 
 ## Basic
 
-* [FAQ](basic/faq.md)
 * [Glossary](basic/glossary.md)
+* [FAQ](basic/faq.md)
 
 ## External Links
 
