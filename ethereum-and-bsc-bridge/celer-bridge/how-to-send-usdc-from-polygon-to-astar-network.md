@@ -2,6 +2,12 @@
 
 In this tutorial, we will guide you through the process for making a cross-chain USDC transfer from Polygon to Astar.
 
+## **Go to cBridge**
+
+Visit our bridge from cBridge:
+
+{% embed url="https://cbridge.celer.network/#/transfer" %}
+
 ## **Connect Your Wallet**
 
 Before you explore the different features offered by cBridge, you will need to connect your wallet.
