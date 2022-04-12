@@ -4,6 +4,10 @@
 
 Are you interested to join dApp staking on Shiden or Astar? Read carefully to see if you meet the requirements:
 
+{% hint style="info" %}
+Astar is aiming to become a DAO in a couple of years. While moving towards becoming a DAO our dApp staking onboarding also includes passing our council. The process is to create your proposal to join dApp staking also on our [forum](https://forum.astar.network/c/builders-program/proposals/16) after meeting the requirements below.
+{% endhint %}
+
 ## Astar Network
 
 ⏹️ Your dApp is **launched and live on Astar Network**
