@@ -20,6 +20,15 @@ You don’t have any dApp but you are providing infrastructure services to the A
 * You have a proven record in our ecosystem.
 * You have docs about how to use your tools in our documentation and in yours. You can add instructions in our documentation by creating a PR in our Github.
 
+**What about other projects who can't meet the above requirements?**
+
+You can't add your project to DefilLama because it's not generating any TVL, also DappRadar is not an option because there is no use of smart contracts? These are the current steps to follow:
+
+* Ambassador KYC, this is done with an AMA with Ambassador with video on.
+* Create a proposal on our forum and pass the council voting.
+* Active on Discord, post updates in our dedicated announcement channels.
+* Use the tooling we provide to track metrics later down your developments.
+
 ## Shiden Network
 
 ⏹️ Your dApp is **launched and live on Shiden Network**.
