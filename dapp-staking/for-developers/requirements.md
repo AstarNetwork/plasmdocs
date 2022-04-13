@@ -8,10 +8,6 @@ Are you interested to join dApp staking on Shiden or Astar? Read carefully to se
 Astar is aiming to become a DAO in a couple of years. While moving towards becoming a DAO our dApp staking onboarding also includes passing our council. The process is to create your proposal to join dApp staking also on our [forum](https://forum.astar.network/c/builders-program/proposals/16) after meeting the requirements below.
 {% endhint %}
 
-{% hint style="info" %}
-Astar is aiming to become a DAO in a couple of years. While moving towards becoming a DAO our dApp staking onboarding also includes passing our council. The process is to create your proposal to join dApp staking also on our [forum](https://forum.astar.network/c/builders-program/proposals/16) after meeting the requirements below.
-{% endhint %}
-
 ## Astar Network
 
 ⏹️ Your dApp is **launched and live on Astar Network**
@@ -30,20 +26,12 @@ You don’t have any dApp but you are providing infrastructure services to the A
 
 **What about other projects who can't meet the above requirements?**
 
-**What about other projects who can't meet the above requirements?**
-
-You can't add your project to DefilLama because it's not generating any TVL, also DappRadar is not an option because there is no use of smart contracts? These are the current steps to follow:
-
 You can't add your project to DefilLama because it's not generating any TVL, also DappRadar is not an option because there is no use of smart contracts? These are the current steps to follow:
 
 * Ambassador KYC, this is done with an AMA with Ambassador with video on.
 * Create a proposal on our forum and pass the council voting.
 * Active on Discord, post updates in our dedicated announcement channels.
 * Use the tooling we provide to track metrics later down your development.
-* Ambassador KYC, this is done with an AMA with Ambassador with video on.
-* Create a proposal on our forum and pass the council voting.
-* Active on Discord, post updates in our dedicated announcement channels.
-* Use the tooling we provide to track metrics later down your developments.
 
 ## Shiden Network
 
