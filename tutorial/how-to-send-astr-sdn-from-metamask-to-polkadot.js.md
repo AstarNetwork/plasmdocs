@@ -17,7 +17,7 @@ description: >-
 
 ![Select Metamask](<../.gitbook/assets/image (107).png>)
 
-![Clcik on the network tab and select the Astar or Shiden.](<../.gitbook/assets/image (122).png>)
+![Clcik on the network tab and select the Astar or Shiden.](<../.gitbook/assets/image (122) (1).png>)
 
 
 

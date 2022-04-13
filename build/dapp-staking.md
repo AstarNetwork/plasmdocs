@@ -13,8 +13,8 @@ We must also not forget the nominators. They always will receive the highest APR
 
 **Are you a product owner and want to list your dApp in our staking mechanism to earn rewards? Read more here:**
 
-{% content-ref url="requirements.md" %}
-[requirements.md](requirements.md)
+{% content-ref url="../dapp-staking/for-developers/requirements.md" %}
+[requirements.md](../dapp-staking/for-developers/requirements.md)
 {% endcontent-ref %}
 
 Please take the following parameters into consideration:&#x20;
@@ -39,7 +39,7 @@ Make sure you are connected to the correct network.
 **Shiden** Network: mainnet on Kusama
 {% endhint %}
 
-![](<../../.gitbook/assets/03 (1).PNG>)
+![](<../.gitbook/assets/03 (1).PNG>)
 
 ### Step 2
 
@@ -47,7 +47,7 @@ Look for your favorite project. You can click on the name to see more informatio
 
 To add your staking amount, just click on '**Stake**' in the box of your favorite project.
 
-![](<../../.gitbook/assets/04 (1).PNG>)
+![](<../.gitbook/assets/04 (1).PNG>)
 
 ### Step 3
 

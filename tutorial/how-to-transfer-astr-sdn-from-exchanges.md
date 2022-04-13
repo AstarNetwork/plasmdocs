@@ -14,7 +14,7 @@ Please go to the[ Astar portal](https://portal.astar.network/#/balance/wallet) a
 
 Once you connect to the Astar portal, you will be able to see your address and amount.
 
-![Copy Native Address](<../.gitbook/assets/image (131).png>)
+![Copy Native Address](<../.gitbook/assets/image (131) (1).png>)
 
 Make sure to copy your **Native** address. This is your address that you should use when you withdraw ASTR/SDN from exchanges.
 

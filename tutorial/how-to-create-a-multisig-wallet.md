@@ -2,7 +2,7 @@
 description: This tutorial serves as a guide to create a multisig substrate wallet.
 ---
 
-# How To Create A Multisig Wallet
+# How to create a Multisig wallet
 
 ### Step 1
 
@@ -23,7 +23,7 @@ description: This tutorial serves as a guide to create a multisig substrate wall
 * Give the multisig wallet a name.
 * Click "Create".
 
-![](<../.gitbook/assets/image (131) (1).png>)
+![](<../.gitbook/assets/image (131) (1) (1).png>)
 
 
 

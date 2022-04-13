@@ -5,13 +5,6 @@
 * [Our Journey](our-journey.md)
 * [Astar (formerly Plasm)](astar-formerly-plasm.md)
 
-## Stake2Earn Festival
-
-* [Overview](stake2earn-festival/overview.md)
-* [How to create an Astar wallet](stake2earn-festival/how-to-make-a-kusama-polkadot-address.md)
-* [Transfer ASTR from exchanges to your wallet](stake2earn-festival/transfer-astr-from-exchanges-to-your-wallet.md)
-* [How to Stake](stake2earn-festival/how-to-stake.md)
-
 ## Ecosystem
 
 * [Polkadot](ecosystem/polkadot.md)
@@ -46,14 +39,15 @@
   * [$SDN Allocation](learn/token-economics/sdn-token-allocation.md)
   * [Staking, Liquidity, and Inflation Model](learn/token-economics/token-economy.md)
 
-## Utility
+## DApp staking
 
-* [Staking on dApps](utility/staking-on-dapps/README.md)
-  * [Unbond your stake](utility/staking-on-dapps/unbond-your-stake.md)
-* [Lockdrop](utility/lockdrop/README.md)
-  * [Importing Ethereum Seed](utility/lockdrop/importing-ethereum-seed.md)
-  * [Unlock Tutorial](utility/lockdrop/unlock-tutorial.md)
-* [On-Chain Identity](utility/on-chain-identity.md)
+* [Introduction](dapp-staking/introduction.md)
+* [For Stakers](dapp-staking/for-stakers/README.md)
+  * [Staking on dApps](dapp-staking/for-stakers/staking-on-dapps.md)
+  * [Unbond your stake](dapp-staking/for-stakers/unbond-your-stake.md)
+* [For Developers](dapp-staking/for-developers/README.md)
+  * [Requirements](dapp-staking/for-developers/requirements.md)
+  * [Register dApp](dapp-staking/for-developers/register-dapp.md)
 
 ## Ethereum and BSC Bridge
 
@@ -73,9 +67,7 @@
 
 ## Build
 
-* [DApp Staking](build/dapp-staking/README.md)
-  * [Requirements](build/dapp-staking/requirements.md)
-  * [Register dApp](build/dapp-staking/register-dapp.md)
+* [DApp Staking](build/dapp-staking.md)
 * [Smart Contracts](build/smart-contracts/README.md)
   * [Ethereum Virtual Machine](build/smart-contracts/ethereum-virtual-machine/README.md)
     * [Ethereum Contract in Your Local Environment](build/smart-contracts/ethereum-virtual-machine/evm-smart-contracts.md)
@@ -124,17 +116,20 @@
 
 ## Tutorial
 
+* [How to create an Astar wallet](tutorial/how-to-make-a-kusama-polkadot-address.md)
+* [How to create a Multisig wallet](tutorial/how-to-create-a-multisig-wallet.md)
+* [How to set On-Chain Identity](tutorial/on-chain-identity.md)
 * [How to send ASTR/SDN from exchanges to our portal](tutorial/how-to-transfer-astr-sdn-from-exchanges.md)
 * [How to send ASTR/SDN from Polkadot.js to MetaMask](tutorial/how-to-transfer-astr-sdn-from-polkadot.js-to-metamask.md)
 * [How to send ASTR/SDN from MetaMask to Polkadot.js](tutorial/how-to-send-astr-sdn-from-metamask-to-polkadot.js.md)
 * [How to buy ASTR on a DEX](tutorial/how-to-buy-astr-on-a-dex.md)
-* [How To Create A Multisig Wallet](tutorial/how-to-create-a-multisig-wallet.md)
 * [Develop and Deploy your first smart contract on Astar/Shiden EVM](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/README.md)
   * [Astar/Shiden Network Family](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/aster-shiden-network-family.md)
   * [Running local network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/running-local-network.md)
   * [Configure Metamask](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/configure-metamask.md)
   * [Deploy Contract on Local Network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-local-network.md)
   * [Deploy Contract on Shibuya and Shiden](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-shibuya-and-shiden.md)
+* [How to unlock my Lockdrop investment](tutorial/unlock-tutorial.md)
 
 ## Basic
 

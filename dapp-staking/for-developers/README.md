@@ -1,0 +1,14 @@
+# For Developers
+
+## Overview
+
+**Are you a product owner and want to list your dApp in our staking mechanism to earn rewards? You have to make sure you meet the requirements. Read more about those by clicking on the link below.**
+
+{% content-ref url="requirements.md" %}
+[requirements.md](requirements.md)
+{% endcontent-ref %}
+
+Please take the following parameters into consideration:&#x20;
+
+* To register a dApp for dApp staking you need to have 100 SDN tokens or 1000 ASTR tokens depending on the network you would like to join as a project.
+* **You need to claim to receive your rewards, we recommend claiming for your staking rewards once a week.**&#x20;
