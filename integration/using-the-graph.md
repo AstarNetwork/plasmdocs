@@ -53,7 +53,7 @@ sudo curl -s <https://raw.githubusercontent.com/AstarNetwork/Astar/rpc-script/sc
 
 ## Running Graph node
 
-After successfully running an [RPC node](../maintain/full-archive-node/docker.md), The Graph node needs to be installed and configured for Shiden to connect to a separate computer. If you are running a self-signed RPC node, you need to set up an extra environment variable for allowance.
+After successfully running an [RPC node](../maintain/archive-node/docker.md), The Graph node needs to be installed and configured for Shiden to connect to a separate computer. If you are running a self-signed RPC node, you need to set up an extra environment variable for allowance.
 
 The first step is to clone the [Graph Node repository](https://github.com/graphprotocol/graph-node/):
 

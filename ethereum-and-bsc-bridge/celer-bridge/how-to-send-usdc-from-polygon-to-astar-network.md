@@ -36,7 +36,7 @@ You will be prompted to switch your wallet to Polygon if it's not already connec
 
 ![](<../../.gitbook/assets/image (115) (1).png>)
 
-![](<../../.gitbook/assets/image (119) (1) (1).png>)
+![](<../../.gitbook/assets/image (119) (1) (1) (1).png>)
 
 Enter the amount you want to send under "Send". You should see the estimated amount you will receive under "Receive (estimated)".
 
@@ -52,7 +52,7 @@ Note that there will be a difference between the amount you send and the amount 
 
 Review your transfer details and click "Transfer". You will receive a popup to confirm transfer.
 
-![](<../../.gitbook/assets/image (121) (1).png>)
+![](<../../.gitbook/assets/image (121) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (127) (1).png>)
 
@@ -78,7 +78,7 @@ It takes some extra time for the funds to arrive at your wallet on the destinati
 
 Alternatively, you can also view your transaction status via the Polygon Explorer, which can be accessed via a link in your transaction history.
 
-![](<../../.gitbook/assets/image (128).png>)
+![](<../../.gitbook/assets/image (128) (1).png>)
 
 In cases where your transfer fails due to insufficient liquidity on the destination chain or an unfavorable slippage tolerance, you will receive a popup explaining the reason for the failure. You can click "Request Refund" in the transfer history.
 

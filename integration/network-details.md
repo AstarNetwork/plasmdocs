@@ -27,8 +27,8 @@ Use one of our infra partners:
 * [OnFinality](https://www.onfinality.io)
 {% endhint %}
 
-{% content-ref url="../maintain/full-archive-node/" %}
-[full-archive-node](../maintain/full-archive-node/)
+{% content-ref url="../maintain/archive-node/" %}
+[archive-node](../maintain/archive-node/)
 {% endcontent-ref %}
 
 {% tabs %}

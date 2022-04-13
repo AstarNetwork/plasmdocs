@@ -69,54 +69,6 @@ sudo chown -R $(id -u):$(id -g) /var/lib/astar/shibuya-db
 * [Docker](https://docs.docker.com/get-docker/): Containerization platform for software solutions
 * [Ngrok](https://ngrok.com): Ngrok is a tunnel service to securely expose your RPC service in the local computer. `auth-toke`n is required for a dedicated connection.
 
-## Run a Full node
-
-Replace `NAME` with your node name.
-
-{% tabs %}
-{% tab title="Astar" %}
-```
-# get container
-sudo docker pull staketechnologies/astar-collator
-
-# command to run full node - do not forget to change NAME to whatever you like
-docker run -m 5G --name Shiden -p 30333:30333 \
--v "/var/lib/astar/shiden-db:/data" \
--u $(id -u ${USER}):$(id -g ${USER}) -d staketechnologies/astar-collator \
-astar-collator --name NAME --chain astar --parachain-id 2006 --base-path /data --port 30333 --rpc-cors all --pruning archive \
---state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'
-```
-{% endtab %}
-
-{% tab title="Shiden" %}
-```
-# get container
-sudo docker pull staketechnologies/astar-collator
-
-# command to run full node - do not forget to change NAME to whatever you like
-docker run -m 5G --name Shiden -p 30333:30333 \
--v "/var/lib/astar/shiden-db:/data" \
--u $(id -u ${USER}):$(id -g ${USER}) -d staketechnologies/astar-collator \
-astar-collator --name NAME --base-path /data --port 30333 --rpc-cors all --pruning archive \
---state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'
-```
-{% endtab %}
-
-{% tab title="Shibuya" %}
-```
-# get container
-sudo docker pull staketechnologies/astar-collator
-
-# command to run full node - do not forget to change NAME to whatever you like
-docker run -m 5G --name Shiden -p 30333:30333 \
--v "/var/lib/astar/shibuya-db:/data" \
--u $(id -u ${USER}):$(id -g ${USER}) -d staketechnologies/astar-collator \
-astar-collator --name NAME --chain shibuya --parachain-id 1000 --base-path /data --port 30333 --rpc-cors all --pruning archive \
---state-cache-size 1 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'
-```
-{% endtab %}
-{% endtabs %}
-
 ## Run an RPC node
 
 ### One-line startup script
