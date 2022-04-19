@@ -113,6 +113,7 @@
   * [Binary](maintain/archive-node/binary.md)
   * [Docker](maintain/archive-node/docker.md)
   * [Nginx server](maintain/archive-node/nginx-server.md)
+* [Node commands](maintain/node-commands.md)
 * [Snapshots](maintain/snapshots.md)
 
 ## Tutorial

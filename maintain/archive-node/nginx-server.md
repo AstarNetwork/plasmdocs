@@ -3,30 +3,13 @@
 To access your archive node from outside, you need to install a server and setup a certificate.\
 In this guide, we will use Nginx as a server.
 
-### Update the node
+### Firewall
 
-First, you have to add extra commands to the node in order to let it expose the WS or RPC service.
+Your server will communicate through HTTP ports, you need to enable ports 80 (http) and 443 (https) in your firewall.
 
-#### Web Socket
-
-Add the following command to the node:
-
-{% tabs %}
-{% tab title="Web Socket" %}
-```
---ws-external
-```
-{% endtab %}
-
-{% tab title="RPC" %}
-```
---rpc-external
---rpc-methods Unsafe
-```
-{% endtab %}
-{% endtabs %}
-
-Then restart the node.
+{% hint style="info" %}
+At the end of the configuration, you can close port 80 since only port 443 will be used to access the node.
+{% endhint %}
 
 ### Domain name
 

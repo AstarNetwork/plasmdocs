@@ -74,9 +74,6 @@ Get the file and extract:
 
 ```
 wget $(curl -s https://api.github.com/repos/AstarNetwork/Astar/releases/latest | grep "tag_name" | awk '{print "https://github.com/PlasmNetwork/Plasm/releases/download/" substr($2, 2, length($2)-3) "/astar-collator-" substr($2, 3, length($2)-4) "-ubuntu-x86_64.tar.gz"}')
-```
-
-```
 tar -xvf astar-collator*.tar.gz
 ```
 
@@ -84,19 +81,11 @@ tar -xvf astar-collator*.tar.gz
 
 You can find here the [Astar Docker hub](https://hub.docker.com/r/staketechnologies/astar-collator).
 
-Pull the latest Docker version
-
-```
-docker pull staketechnologies/astar-collator:latest
-```
+{% hint style="info" %}
+Docker documentation is not detailed for collators because we don't recommend to run a collator from a container. If you do have good reasons to do so, you can refer to our [Docker archive node guide](../../archive-node/docker.md) and adapt with the commands below.
+{% endhint %}
 
 ## Start node
-
-{% hint style="warning" %}
-The following steps are suitable for **binary** usage (built from source or downloaded).&#x20;
-
-In case you want to run a Docker container, you will have to adapt those.
-{% endhint %}
 
 Create a dedicated user for the node and move the **node binary**:
 
@@ -119,7 +108,7 @@ Let's first go to our binary directory and start the node manually:
 {% tab title="Astar" %}
 ```
 cd /usr/local/bin
-./astar-collator --validator --chain astar --parachain-id 2006 --name ${COLLATOR_NAME} --rpc-cors all --base-path /var/lib/astar --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --execution wasm --state-cache-size 1
+./astar-collator --validator --chain astar --name ${COLLATOR_NAME} --rpc-cors all --base-path /var/lib/astar --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --execution wasm --state-cache-size 1
 ```
 {% endtab %}
 
@@ -185,7 +174,6 @@ ExecStart=/usr/local/bin/astar-collator \
   --rpc-cors all \
   --name ${COLLATOR_NAME} \
   --chain astar \
-  --parachain-id 2006 \
   --base-path /var/lib/astar \
   --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
   --execution wasm\
@@ -277,14 +265,6 @@ Enable the service:
 sudo systemctl enable astar.service
 ```
 
-## Relay Chain snapshot
-
-If you run your collator it not only needs to sync the **mainnet** chain but also the complete relay chain from **Kusama / Polkadot**. This can take up to 3-4 days. You can also use a snapshot of Kusama/Polkadot. You can download this [here](https://polkashots.io) and will save a lot of time.
-
-{% hint style="danger" %}
-**NOTE**: know what you are doing when using snapshots!
-{% endhint %}
-
 ## Finalizing
 
 To finalize your collator you need to:
@@ -300,6 +280,65 @@ All these steps can be found here:
 {% content-ref url="../shibuya-network/" %}
 [shibuya-network](../shibuya-network/)
 {% endcontent-ref %}
+
+{% content-ref url="../shiden-collator-guide/" %}
+[shiden-collator-guide](../shiden-collator-guide/)
+{% endcontent-ref %}
+
+## Extra operations
+
+### Get node logs
+
+To get the last 100 lines from the node logs, use the following command:
+
+```
+journalctl -fu astar-collator -n100
+```
+
+### Upgrade node
+
+When an upgrade is necessary, node operators are be notified in our [Discord](https://discord.gg/Z3nC9U4) and Element group.
+
+Download the [latest release](https://github.com/AstarNetwork/Astar/releases/latest) from Github:
+
+```
+wget $(curl -s https://api.github.com/repos/AstarNetwork/Astar/releases/latest | grep "tag_name" | awk '{print "https://github.com/PlasmNetwork/Plasm/releases/download/" substr($2, 2, length($2)-3) "/astar-collator-" substr($2, 3, length($2)-4) "-ubuntu-x86_64.tar.gz"}')
+tar -xvf astar-collator*.tar.gz
+```
+
+Move the new release binary and restart the service:
+
+```
+sudo mv ./astar-collator /usr/local/bin
+sudo chmod +x /usr/local/bin/astar-collator
+sudo systemctl restart astar.service
+```
+
+### Purge node
+
+{% hint style="danger" %}
+Do **never purge chain data of an active collator**, it not produce blocks anymore during all the sync process and harm the chain block production rate.
+
+Instead, switch to your backup node and purge only once the backup is **actively collating**.
+{% endhint %}
+
+To start a node from scratch without any chain data, just wipe the chain data directory:
+
+```
+sudo systemctl stop astar.service
+sudo rm -R /var/lib/astar/chains/astar/db*
+sudo systemctl start astar.service
+```
+
+### Relay Chain snapshot
+
+If you run your collator it not only needs to sync the **mainnet** chain but also the complete relay chain from **Kusama / Polkadot**. This can take up to 3-4 days. You can also use a snapshot of Kusama/Polkadot. You can download this [here](https://polkashots.io) and will save a lot of time.
+
+{% hint style="warning" %}
+**NOTE**: know what you are doing when using snapshots!
+{% endhint %}
+
+
 
 {% content-ref url="../shiden-collator-guide/" %}
 [shiden-collator-guide](../shiden-collator-guide/)
