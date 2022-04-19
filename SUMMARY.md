@@ -48,6 +48,7 @@
 * [For Developers](dapp-staking/for-developers/README.md)
   * [Requirements](dapp-staking/for-developers/requirements.md)
   * [Register dApp](dapp-staking/for-developers/register-dapp.md)
+  * [AstarBase](dapp-staking/for-developers/astarbase.md)
 
 ## Ethereum and BSC Bridge
 
