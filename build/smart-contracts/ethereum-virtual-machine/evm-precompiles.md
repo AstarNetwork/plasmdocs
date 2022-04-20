@@ -6,43 +6,67 @@ description: >-
 
 # EVM Precompiled Contracts
 
-Precompiles in Solidity is a native way to speed up general but expensive functions and interacts with something outside the VM. For example, ECRecover precompiled smart contracts definitely boost public key recovery functions because of execution almost on the hardware level. From another side, the Plasm Network includes dispatch precompiled smart contracts, that permit Solidity developers to interact with other Plasm runtime modules.
+## Precompiles
 
-### The ECRecover precompile
+A precompile means a common functionality for smart contracts which has been compiled, so that Ethereum nodes can run this efficiently. From a contract's perspective, this is just a single command like an opcode. The Frontier EVM used in Astar provides several useful precompiled contracts. These contracts are implemented in our ecosystem as a native implementation. The precompiled contracts `0x01` through `0x08` are the same as those in Ethereum (see list below). Astar additionally implements precompiled contracts start from `0x5001`, and support new Astar features.
 
-The ECRecover is a standard Solidity precompiled smart contract available at the address `0x01`. It is used in most contracts to improve ECDSA performance during recovering signature signer account.
+### Ethereum Native Precompiles[​](https://astarnetwork.github.io/astar-docs/docs/EVM/precompiles#ethereum-native-precompiles) <a href="#ethereum-native-precompiles" id="ethereum-native-precompiles"></a>
 
-### The Dispatch precompile
+| Precompile   | Address                                    |
+| ------------ | ------------------------------------------ |
+| ECRecover    | 0x0000000000000000000000000000000000000001 |
+| Sha256       | 0x0000000000000000000000000000000000000002 |
+| Ripemd160    | 0x0000000000000000000000000000000000000003 |
+| Identity     | 0x0000000000000000000000000000000000000004 |
+| Modexp       | 0x0000000000000000000000000000000000000005 |
+| Bn128Add     | 0x0000000000000000000000000000000000000006 |
+| Bn128Mul     | 0x0000000000000000000000000000000000000007 |
+| Bn128Pairing | 0x0000000000000000000000000000000000000008 |
 
-On standard Plasm Parachain runtime `Dispatch` smart-contract available at the address:
+### Astar Specific Precompiles[​](https://astarnetwork.github.io/astar-docs/docs/EVM/precompiles#astar-specific-precompiles) <a href="#astar-specific-precompiles" id="astar-specific-precompiles"></a>
 
-* `0x0000000000000000000000000000000000000006`
+| Precompile   | Address                                    |
+| ------------ | ------------------------------------------ |
+| DappsStaking | 0x0000000000000000000000000000000000005001 |
+| Sr25519      | 0x0000000000000000000000000000000000005002 |
 
-Internally, this contract just decodes input data as `Call` structure
+The interface descriptions for these precompiles can be found in the `precompiles` folder: [astar-frame repo](https://github.com/AstarNetwork/astar-frame/).
 
-```text
-let call = T::Call::decode(&mut &input[..]).map_err(|_| ExitError::Other("decode failed".into()))?;
+The Addresses can be checked in the [Astar repo](https://github.com/AstarNetwork/Astar/tree/master/runtime) for each runtime in `precompile.rs` files.
+
+## DappsStaking Precompile[​](https://astarnetwork.github.io/astar-docs/docs/EVM/precompiles#dappsstaking-precompile) <a href="#dappsstaking-precompile" id="dappsstaking-precompile"></a>
+
+DappsStaking Precompile enables EVM smart contract to access `pallet-dapps-staking` functionality. Example use of this precompile from Contract A:
+
+```
+import "./DappsStaking.sol";contract A {    DappsStaking public constant DAPPS_STAKING = DappsStaking(0x0000000000000000000000000000000000005001);    /// @notice Check current era    function checkCurrentEra() public view {        uint256 currentEra = DAPPS_STAKING.read_current_era();    }}
 ```
 
-and then executes it as a transaction from smart contract origin.
+Example use: check `current era` and `total staked amount` in the `pallet-dapps-staking` for Shiden Network. For this example, we will use Remix.
 
-```text
-let origin = T::AddressMapping::into_account_id(context.caller);
-match call.dispatch(Some(origin).into()) {
-...
+1. Copy `DappsStaking.sol` from [astar-frame repo](https://github.com/AstarNetwork/astar-frame/) and create new contract in Remix:&#x20;
+2. Compile the dAppStaking contract:&#x20;
+3. The precompile does not need to be deployed since it is already on the network, but you need to tell Remix where to find it. After you connect your EVM wallet to Shiden Network (same applies for Astar Network and for Shibuya Testnet) follow these steps:
+
+```
+Go to Deploy tab
+Use injected Web3 environment. It should point to Shiden Mainnet with `ChainId 336`
+Make sure you have the selected dAppStaking contract
+Provide the address of the precompiled contract `0x0000000000000000000000000000000000005001`
+The dAppStaking contract will appear under Deployed contracts
 ```
 
-That  means each EVM smart contract could call any available method of runtime using Solidity standard `call()` function to the precompiled contract address.
+![](https://i.imgur.com/6Wgg9rf.jpg)
 
-### Solidity SCALE codec
+![](https://i.imgur.com/mr0TcLq.png)
 
-The difficulty for Solidity developers is that the [SCALE](https://substrate.dev/docs/en/knowledgebase/advanced/codec) codec isn't available for Solidity. As a  result, they should encode call parameters manually that could be complex and expensive.
+![](https://i.imgur.com/6RnQlkb.jpg)
 
-But for calling standard or trivial methods it's not a big problem. For example, call `Balances::transfer()` for `5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty` and `42` looks like:
+1. Interact with the contract.
 
-```text
-0x0400008eaf04151687736326c9fea17e25fc5287613693c912909cb226aa4794f26a48a8
+```
+Check the current era 
+Use the current era as input to check total staked amount on the network
 ```
 
-Where `0x04` is a module index, following `0x00` is a method index in the module and next is address and balance parameters. If your contract should constantly transfer the same amount to the same destination, then a constant call string could be used.
-
+![](https://user-images.githubusercontent.com/34627453/159696985-19f67e95-807e-4c20-b74c-c9f4944ada32.jpg)
