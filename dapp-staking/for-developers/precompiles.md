@@ -2,7 +2,7 @@
 
 ## Precompiles
 
-A precompile means a common functionality for smart contracts which has been compiled, so that Ethereum nodes can run this efficiently. From a contract's perspective, this is just a single command like an opcode. The Frontier EVM used in Astar provides several useful precompiled contracts. These contracts are implemented in our ecosystem as a native implementation. The precompiled contracts `0x01` through `0x08` are the same as those in Ethereum (see list below). Astar additionally implements precompiled contracts start from `0x5001`, and support new Astar features.
+A precompile means a common functionality for smart contracts which has been compiled, so that Ethereum nodes can run this efficiently. From a contract's perspective, this is just a single command like an opcode. The Frontier EVM used in Astar provides several useful precompiled contracts. These contracts are implemented in our ecosystem as a native implementation. The precompiled contracts `0x01` through `0x09` are the same as those in Ethereum (see list below). Astar additionally implements precompiled contracts start from `0x5001`, and support new Astar features.
 
 ### Ethereum Native Precompiles[​](https://astarnetwork.github.io/astar-docs/docs/EVM/precompiles#ethereum-native-precompiles) <a href="#ethereum-native-precompiles" id="ethereum-native-precompiles"></a>
 
@@ -16,6 +16,8 @@ A precompile means a common functionality for smart contracts which has been com
 | Bn128Add     | 0x0000000000000000000000000000000000000006 |
 | Bn128Mul     | 0x0000000000000000000000000000000000000007 |
 | Bn128Pairing | 0x0000000000000000000000000000000000000008 |
+| Blake2F      | 0x0000000000000000000000000000000000000009 |
+
 
 ### Astar Specific Precompiles[​](https://astarnetwork.github.io/astar-docs/docs/EVM/precompiles#astar-specific-precompiles) <a href="#astar-specific-precompiles" id="astar-specific-precompiles"></a>
 
@@ -23,6 +25,7 @@ A precompile means a common functionality for smart contracts which has been com
 | ------------ | ------------------------------------------ |
 | DappsStaking | 0x0000000000000000000000000000000000005001 |
 | Sr25519      | 0x0000000000000000000000000000000000005002 |
+| Ecdsa        | 0x0000000000000000000000000000000000005003 |
 
 The interface descriptions for these precompiles can be found in the `precompiles` folder: [astar-frame repo](https://github.com/AstarNetwork/astar-frame/).
 
@@ -39,22 +42,26 @@ import "./DappsStaking.sol";contract A {    DappsStaking public constant DAPPS_S
 Example use: check `current era` and `total staked amount` in the `pallet-dapps-staking` for Shiden Network. For this example, we will use Remix.
 
 1. Copy `DappsStaking.sol` from [astar-frame repo](https://github.com/AstarNetwork/astar-frame/) and create new contract in Remix:&#x20;
-2. Compile the dAppStaking contract:&#x20;
-3. The precompile does not need to be deployed since it is already on the network, but you need to tell Remix where to find it. After you connect your EVM wallet to Shiden Network (same applies for Astar Network and for Shibuya Testnet) follow these steps:
-
-```
-Go to Deploy tab
-Use injected Web3 environment. It should point to Shiden Mainnet with `ChainId 336`
-Make sure you have the selected dAppStaking contract
-Provide the address of the precompiled contract `0x0000000000000000000000000000000000005001`
-The dAppStaking contract will appear under Deployed contracts
-```
-
-![](https://i.imgur.com/6Wgg9rf.jpg)
-
 ![](https://i.imgur.com/mr0TcLq.png)
 
+3. Compile the dAppStaking contract:&#x20;
+![](https://i.imgur.com/6Wgg9rf.jpg)
+
+5. The precompile does not need to be deployed since it is already on the network, but you need to tell Remix where to find it. After you connect your EVM wallet to Shiden Network (same applies for Astar Network and for Shibuya Testnet) follow these steps:
+
+
+- Go to Deploy tab
+- Use injected Web3 environment. It should point to Shiden Mainnet with `ChainId 336`
+- Make sure you have the selected dAppStaking contract
+- Provide the address of the precompiled contract `0x0000000000000000000000000000000000005001`
+- The dAppStaking contract will appear under Deployed contracts
+
 ![](https://i.imgur.com/6RnQlkb.jpg)
+
+
+
+
+
 
 1. Interact with the contract.
 
