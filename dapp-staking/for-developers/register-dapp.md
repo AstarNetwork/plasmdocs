@@ -10,10 +10,10 @@ How to register your dApp in our dApp staking mechanism. First, you have to make
 
 ### Step 1
 
-Deploy a smart contract in our ecosystem. Deploy on Shiden if you want to join Shiden dApp staking, deploy on Astar for joining Astar dApp staking. You have two options for a smart contract:
+Deploy a smart contract in our ecosystem and verify the contract in our explorer. Deploy on Shiden if you want to join Shiden dApp staking, deploy on Astar for joining Astar dApp staking. You have two options for a smart contract:
 
-1. Use your smart contract.
-2. Deploy our `helloworld.sol` contract and provide all the information in the header of the contract.
+1. Use one of your own smart contracts and verify that in our explorer.
+2. The second option is only for those who don't deal with smart contracts. Deploy our `helloworld.sol` contract and provide all the information in the header of the contract.
 
 Template contract:
 
