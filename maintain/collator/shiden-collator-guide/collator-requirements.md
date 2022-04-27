@@ -26,5 +26,6 @@ Make sure you only use your server for running the collator!
 If you never operated a collator node, we strongly encourage you to spin up a **Shibuya collator** node to start before thinking about mainnet.
 {% endhint %}
 
-
-
+{% hint style="danger" %}
+From April 2022, a [slashing mechanism](../learn-about-collators.md) of 1% is implemented. Make sure you know very well how to run and monitor your collator to avoid financial loss!
+{% endhint %}

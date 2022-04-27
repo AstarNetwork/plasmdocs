@@ -110,6 +110,7 @@
     * [Configuration](maintain/collator/secure-validator/configuration.md)
     * [Services](maintain/collator/secure-validator/services.md)
     * [Launch and Active Services](maintain/collator/secure-validator/launch-and-active-services.md)
+* [Maintenance operations](maintain/maintenance-operations.md)
 * [Archive Node](maintain/archive-node/README.md)
   * [Binary](maintain/archive-node/binary.md)
   * [Docker](maintain/archive-node/docker.md)

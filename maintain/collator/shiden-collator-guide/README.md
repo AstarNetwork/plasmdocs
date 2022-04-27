@@ -15,7 +15,11 @@ We also have a program to become a **whitelisted collator** for most supportive 
 * Operators who have maintained a Dusty and [Shibuya collator node](../shibuya-network/) for a long time can get whitelisted on Shiden.
 * Operators who have maintained a Shiden collator node for a long time can get whitelisted on Astar.
 
-If you never operated a collator node, we strongly encourage you to spin up a **Shibuya collator** node to start before thinking about mainnet. You can join the _#collator-lounge_ our[ Discord](https://discord.gg/Z3nC9U4) to find out the latest news and support. &#x20;
+If you never operated a collator node, we strongly encourage you to spin up a **Shibuya collator** node to start before thinking about mainnet. You can join the _#collator-lounge_ our[ Discord](https://discord.gg/Z3nC9U4) to find out the latest news and support.&#x20;
+
+{% hint style="danger" %}
+From April 2022, a [slashing mechanism](../learn-about-collators.md) of 1% is implemented. Make sure you know very well how to run and monitor your collator to avoid financial loss!
+{% endhint %}
 
 {% content-ref url="../learn-about-collators.md" %}
 [learn-about-collators.md](../learn-about-collators.md)

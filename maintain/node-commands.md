@@ -23,13 +23,15 @@ User=astar
 Group=astar
 
 ExecStart=/usr/local/bin/astar-collator \
-  --validator \
+  --collator \
   --rpc-cors all \
   --name ${COLLATOR_NAME} \
   --chain astar \
+  --parachain-id 2006 \
   --base-path /var/lib/astar \
   --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
-  --execution wasm\
+  --execution wasm \
+  --pool-limit 65536 \
   --state-cache-size 1
 
 Restart=always
@@ -50,13 +52,15 @@ User=astar
 Group=astar
 
 ExecStart=/usr/local/bin/astar-collator \
-  --validator \
+  --collator \
   --rpc-cors all \
   --name ${COLLATOR_NAME} \
   --chain shiden \
+  --parachain-id 2007 \
   --base-path /var/lib/astar \
   --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
-  --execution wasm\
+  --execution wasm \
+  --pool-limit 65536 \
   --state-cache-size 1
 
 Restart=always
@@ -76,15 +80,16 @@ Description=Shibuya Collator
 User=astar
 Group=astar
 
-ExecStart=/usr/local/bin/astar \
-  --validator \
+ExecStart=/usr/local/bin/astar-collator \
+  --collator \
   --rpc-cors all \
   --name ${COLLATOR_NAME} \
   --chain shibuya \
   --parachain-id 1000 \
   --base-path /var/lib/astar \
   --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
-  --execution wasm\
+  --execution wasm \
+  --pool-limit 65536 \
   --state-cache-size 1
 
 Restart=always
@@ -111,7 +116,9 @@ astar-collator \
 --collator \
 --name ${COLLATOR_NAME} \
 --chain astar \
+--parachain-id 2006 \
 --execution wasm \
+--pool-limit 65536 \
 --base-path /data \
 --rpc-cors=all \
 --state-cache-size 1
@@ -130,7 +137,9 @@ astar-collator \
 --collator \
 --name ${COLLATOR_NAME} \
 --chain shiden \
+--parachain-id 2007 \
 --execution wasm \
+--pool-limit 65536 \
 --base-path /data \
 --rpc-cors=all \
 --state-cache-size 1
@@ -151,6 +160,7 @@ astar-collator \
 --chain shibuya \
 --parachain-id 1000 \
 --execution wasm \
+--pool-limit 65536 \
 --base-path /data \
 --rpc-cors=all \
 --state-cache-size 1
@@ -175,10 +185,12 @@ Group=astar
 ExecStart=/usr/local/bin/astar-collator \
   --pruning archive \
   --rpc-cors all \
-  --name ${COLLATOR_NAME} \
+  --name ${NODE_NAME} \
   --chain astar \
+  --parachain-id 2006 \
   --base-path /var/lib/astar \
-  --execution wasm\
+  --execution Native \
+  --pool-limit 65536 \
   --unsafe-rpc-external \
   --ws-external \
   --state-cache-size 1
@@ -203,10 +215,12 @@ Group=astar
 ExecStart=/usr/local/bin/astar-collator \
   --pruning archive \
   --rpc-cors all \
-  --name ${COLLATOR_NAME} \
+  --name ${NODE_NAME} \
   --chain shiden \
+  --parachain-id 2007 \
   --base-path /var/lib/astar \
-  --execution wasm\
+  --execution Native \
+  --pool-limit 65536 \
   --unsafe-rpc-external \
   --ws-external \
   --state-cache-size 1
@@ -231,11 +245,12 @@ Group=astar
 ExecStart=/usr/local/bin/astar-collator \
   --pruning archive \
   --rpc-cors all \
-  --name ${COLLATOR_NAME} \
+  --name ${NODE_NAME} \
   --chain shibuya \
   --parachain-id 1000 \
   --base-path /var/lib/astar \
-  --execution wasm\
+  --execution Native \
+  --pool-limit 65536 \
   --unsafe-rpc-external \
   --ws-external \
   --state-cache-size 1
@@ -266,9 +281,11 @@ docker run -d \
 staketechnologies/astar-collator:latest \
 astar-collator \
 --pruning archive \
---name ${COLLATOR_NAME} \
+--name ${NODE_NAME} \
 --chain astar \
---execution wasm \
+--parachain-id 2006 \
+--execution Native \
+--pool-limit 65536 \
 --base-path /data \
 --rpc-cors=all \
 --unsafe-rpc-external \
@@ -289,9 +306,11 @@ docker run -d \
 staketechnologies/astar-collator:latest \
 astar-collator \
 --pruning archive \
---name ${COLLATOR_NAME} \
+--name ${NODE_NAME} \
 --chain shiden \
---execution wasm \
+--parachain-id 2007 \
+--execution Native \
+--pool-limit 65536 \
 --base-path /data \
 --rpc-cors=all \
 --unsafe-rpc-external \
@@ -313,9 +332,10 @@ staketechnologies/astar-collator:latest \
 astar-collator \
 --parachain-id 1000 \
 --pruning archive \
---name ${COLLATOR_NAME} \
+--name ${NODE_NAME} \
 --chain shibuya \
---execution wasm \
+--execution Native \
+--pool-limit 65536 \
 --base-path /data \
 --rpc-cors=all \
 --unsafe-rpc-external \

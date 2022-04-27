@@ -12,7 +12,14 @@ Based on network affordability and security considerations, collator seats will 
 Collators maintain our ecosystem by collecting transactions from users and producing state transition proofs for Relay Chain validators. In other words, collators maintain the network by aggregating parachain transactions into parachain block candidates and producing state transition proofs for validators based on those blocks. \
 
 
-Unlike validators, collator nodes do not secure the network. If a parachain block is invalid, it will get rejected by validators. Therefore the assumption that having more collators is better or more secure is not correct. On the contrary, too many collators may slow down the network. The only nefarious power collators have transaction censorship. To prevent censorship, a parachain only needs to ensure some neutral collators - but not necessarily a majority. Theoretically, the censorship problem is solved by having just one honest collator. (reference: [https://wiki.polkadot.network/docs/learn-collator](https://wiki.polkadot.network/docs/learn-collator))\
+Unlike validators, collator nodes do not secure the network. If a parachain block is invalid, it will get rejected by validators. Therefore the assumption that having more collators is better or more secure is not correct. On the contrary, too many collators may slow down the network. The only nefarious power collators have transaction censorship. To prevent censorship, a parachain only needs to ensure some neutral collators - but not necessarily a majority. Theoretically, the censorship problem is solved by having just one honest collator. (reference: [https://wiki.polkadot.network/docs/learn-collator](https://wiki.polkadot.network/docs/learn-collator)).
+
+Performance of the network depends directly of collators:
+
+* A block will not be produced when it is affected to a collator who is offline. It will take 12 extra seconds to attribute this block to the next collator.
+* The block filling percentage (ie amount of data included in a block) depends directly on the collator hardware performance. A collator with weak hardware will only fill a small % of the block.
+
+To ensure optimal performance of the network, a [slashing mechanism](learn-about-collators.md#slash-mechanism) is implemented.\
 
 
 **XCMP**
@@ -121,7 +128,9 @@ At every block you produced as a collator, rewards will automatically be transfe
 
 ## Slash mechanism
 
-At this stage, there is no slash mechanism in place on Shiden Network but if a collator doesn’t produce blocks in one session it will be kicked as a collator in the network.
+Starting April 2022, a slashing mechanism is implemented on Astar and Shiden network: a collator who doesn't produce any block during one session (1 hour) will get slashed by 1% of his total stake and kick out from active collator set.
+
+This slashing aims to ensure the best block rate for the network and prevent malicious actors to harm it without financial consequences.
 
 ## FAQ
 

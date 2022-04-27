@@ -33,9 +33,10 @@ docker run -d \
 staketechnologies/astar-collator:latest \
 astar-collator \
 --pruning archive \
---name ${COLLATOR_NAME} \
+--name ${NODE_NAME} \
 --chain astar \
---execution wasm \
+--execution Native \
+--pool-limit 65536 \
 --base-path /data \
 --rpc-cors=all \
 --unsafe-rpc-external \
@@ -56,9 +57,10 @@ docker run -d \
 staketechnologies/astar-collator:latest \
 astar-collator \
 --pruning archive \
---name ${COLLATOR_NAME} \
+--name ${NODE_NAME} \
 --chain shiden \
---execution wasm \
+--execution Native \
+--pool-limit 65536 \
 --base-path /data \
 --rpc-cors=all \
 --unsafe-rpc-external \
@@ -80,9 +82,10 @@ staketechnologies/astar-collator:latest \
 astar-collator \
 --parachain-id 1000 \
 --pruning archive \
---name ${COLLATOR_NAME} \
+--name ${NODE_NAME} \
 --chain shibuya \
---execution wasm \
+--execution Native \
+--pool-limit 65536 \
 --base-path /data \
 --rpc-cors=all \
 --unsafe-rpc-external \
@@ -91,6 +94,12 @@ astar-collator \
 ```
 {% endtab %}
 {% endtabs %}
+
+
+
+{% hint style="info" %}
+Do not forget to change **${NODE\_NAME}**
+{% endhint %}
 
 You can test the node health through RPC port with this command:
 
@@ -200,9 +209,3 @@ If you run your collator it not only needs to sync the **mainnet** chain but als
 {% hint style="warning" %}
 **NOTE**: know what you are doing when using snapshots!
 {% endhint %}
-
-
-
-
-
-![](<../../.gitbook/assets/image (119).png>)

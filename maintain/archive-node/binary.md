@@ -62,10 +62,12 @@ Group=astar
 ExecStart=/usr/local/bin/astar-collator \
   --pruning archive \
   --rpc-cors all \
-  --name ${COLLATOR_NAME} \
+  --name ${NODE_NAME} \
   --chain astar \
+  --parachain-id 2006 \
   --base-path /var/lib/astar \
-  --execution wasm\
+  --execution Native \
+  --pool-limit 65536 \
   --unsafe-rpc-external \
   --ws-external \
   --state-cache-size 1
@@ -90,10 +92,12 @@ Group=astar
 ExecStart=/usr/local/bin/astar-collator \
   --pruning archive \
   --rpc-cors all \
-  --name ${COLLATOR_NAME} \
+  --name ${NODE_NAME} \
   --chain shiden \
+  --parachain-id 2007 \
   --base-path /var/lib/astar \
-  --execution wasm\
+  --execution Native \
+  --pool-limit 65536 \
   --unsafe-rpc-external \
   --ws-external \
   --state-cache-size 1
@@ -118,11 +122,12 @@ Group=astar
 ExecStart=/usr/local/bin/astar-collator \
   --pruning archive \
   --rpc-cors all \
-  --name ${COLLATOR_NAME} \
+  --name ${NODE_NAME} \
   --chain shibuya \
   --parachain-id 1000 \
   --base-path /var/lib/astar \
-  --execution wasm\
+  --execution Native \
+  --pool-limit 65536 \
   --unsafe-rpc-external \
   --ws-external \
   --state-cache-size 1
@@ -137,7 +142,7 @@ WantedBy=multi-user.target
 {% endtabs %}
 
 {% hint style="info" %}
-Do not forget to change **${COLLATOR\_NAME}**
+Do not forget to change **${NODE\_NAME}**
 {% endhint %}
 
 Start the service:
@@ -216,6 +221,16 @@ sudo systemctl restart astar.service
 To start a node from scratch without any chain data, just wipe the chain data directory:
 
 ```
-sudo rm -R /var/lib/astar/*
+sudo systemctl stop astar.service
+sudo rm -R /var/lib/astar/chains/astar/db*
+sudo systemctl start astar.service
 ```
+
+### Relay Chain snapshot
+
+If you run your collator it not only needs to sync the **mainnet** chain but also the complete relay chain from **Kusama / Polkadot**. This can take up to 3-4 days. You can also use a snapshot of Kusama/Polkadot. You can download this [here](https://polkashots.io) and will save a lot of time.
+
+{% hint style="warning" %}
+**NOTE**: know what you are doing when using snapshots!
+{% endhint %}
 

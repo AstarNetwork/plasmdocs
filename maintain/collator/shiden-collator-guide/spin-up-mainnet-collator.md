@@ -95,3 +95,11 @@ Onboarding takes place at `n+1` session
 Once your collator is active, you will see your name inside **Network** tab every time you produce a block:
 
 ![](<../../../.gitbook/assets/image (113) (1) (1).png>)
+
+### Maintenance
+
+Maintaining a collator means it has to stay up and up-to-date all the time, have a look at [Maintenance operations](../../maintenance-operations.md) page to get familiar with those.
+
+{% content-ref url="../../maintenance-operations.md" %}
+[maintenance-operations.md](../../maintenance-operations.md)
+{% endcontent-ref %}
