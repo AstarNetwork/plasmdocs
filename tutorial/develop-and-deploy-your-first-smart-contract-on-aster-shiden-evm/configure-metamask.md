@@ -35,19 +35,7 @@ If you want to know more about Metamask Support, please take a look following pa
 
 ## Get your local token on Metamask
 
-Currently, you see that you have no tokens on Metamask. So let's transfer some local token to the account on Metamask. \
-But before proceeding, you must study the address format of Substrate and EVM. Substrate uses SS58 format and Metamask(EVM) uses H160 format. This means you need to convert H160 address to SS58 address to receive local tokens. You can learn more details on the following page:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-You can convert your H160 address to SS58 address on the following page:\
-[https://polkatools.hoonkim.me/index.html](https://polkatools.hoonkim.me/index.html)\
-Just enter your address in the 'Input address' field, switch on EVM and you will get your SS58 address. In my case, SS58 and H160 address was as follows:
-
-* SS58: W6FALw8rEThak16wwtPoRBYJMuA5hHmoM6mhKzfzTzfg3xR
-* H160: 0x2C49dD5611A6427E9C621350218651F505D2F011
+Need updating...
 
 OK, now you are ready to receive some local tokens on your Metamask! Go to account page on the explorer and click the send button of Alice. In the screen shown, you can input your SS58 address in `send to address` field and designate the amount to send. Then click the `Make Transfer` button.
 
