@@ -98,8 +98,8 @@ Once your collator is active, you will see your name inside **Network** tab ever
 
 ### Maintenance
 
-Maintaining a collator means it has to stay up and up-to-date all the time, have a look at [Maintenance operations](../../maintenance-operations.md) page to get familiar with those.
+Maintaining a collator means it has to stay up and up-to-date all the time, have a look at [Maintenance operations](../../node-maintenance.md) page to get familiar with those.
 
-{% content-ref url="../../maintenance-operations.md" %}
-[maintenance-operations.md](../../maintenance-operations.md)
+{% content-ref url="../../node-maintenance.md" %}
+[node-maintenance.md](../../node-maintenance.md)
 {% endcontent-ref %}

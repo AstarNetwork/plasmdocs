@@ -1,5 +1,5 @@
 # dApps Staking
 
-{% content-ref url="../../build/dapp-staking.md" %}
-[dapp-staking.md](../../build/dapp-staking.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
