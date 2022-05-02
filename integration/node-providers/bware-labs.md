@@ -28,7 +28,7 @@ Launch their app on:
 
 Connect to your MetaMask. This is to prevent users from spamming the network. You only need to connect to create and sign to their app.
 
-![](<../../.gitbook/assets/image (120).png>)
+![](<../../.gitbook/assets/image (120) (1).png>)
 
 ### **Step 3**
 

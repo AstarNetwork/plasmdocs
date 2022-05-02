@@ -22,7 +22,7 @@ Select MetaMask, and you should now see your wallet address and your current cha
 
 ![](<../../.gitbook/assets/image (110).png>)
 
-![](<../../.gitbook/assets/image (120) (1) (1).png>)
+![](<../../.gitbook/assets/image (120) (1) (1) (1).png>)
 
 ## **Transfer Tokens Across Chains**
 
