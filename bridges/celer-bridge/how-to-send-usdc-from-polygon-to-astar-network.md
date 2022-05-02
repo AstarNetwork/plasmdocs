@@ -52,7 +52,7 @@ Note that there will be a difference between the amount you send and the amount 
 
 Review your transfer details and click "Transfer". You will receive a popup to confirm transfer.
 
-![](<../../.gitbook/assets/image (121) (1) (1).png>)
+![](<../../.gitbook/assets/image (121) (1) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (127) (1).png>)
 
@@ -74,7 +74,7 @@ You can also check the transaction status in “Pending” in the top right corn
 
 It takes some extra time for the funds to arrive at your wallet on the destination chain. On MetaMask, you can switch to the destination chain, which in our case is Astar, to check if you have received the funds.
 
-![](<../../.gitbook/assets/image (122) (1) (1).png>)
+![](<../../.gitbook/assets/image (122) (1) (1) (1).png>)
 
 Alternatively, you can also view your transaction status via the Polygon Explorer, which can be accessed via a link in your transaction history.
 
