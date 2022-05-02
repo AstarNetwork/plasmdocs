@@ -1,4 +1,4 @@
-# Dappradar
+# DappRadar
 
 ## Introduction to DappRadar
 
@@ -6,7 +6,7 @@
 
 Astar/ Shiden are [now live on DappRadar](https://dappradar.com/blog/shiden-network-dapps-now-on-dappradar). DappRadar maintains homepages for the top [Astar Dapps](https://dappradar.com/rankings/protocol/astar) and [Shiden Dapps](https://dappradar.com/rankings/protocol/shiden).&#x20;
 
-![Untitled](../.gitbook/assets/Dappradar1.png)
+![Untitled](../../.gitbook/assets/Dappradar1.png)
 
 You can [submit your project](https://dappradar.com/dashboard/submit-dapp) to DappRadar by providing background on your project including a short and a full description, website URL, and logo. Only a subset of the fields are required, but you are encouraged to complete as many as possible.
 
@@ -29,25 +29,25 @@ At a minimum, you must include the following information to submit your project/
 
 First, you'll need to [create a DappRadar account](https://auth.dappradar.com/email-register) and verify your email. Once ready with the required content, you can head to the [Submit a DApp Page](https://dappradar.com/dashboard/submit-dapp) where you can take the following steps:
 
-![](../.gitbook/assets/Dappradar2.png)
+![](../../.gitbook/assets/Dappradar2.png)
 
-![Untitled](../.gitbook/assets/Dappradar3.png)
+![Untitled](../../.gitbook/assets/Dappradar3.png)
 
 * Enter your project’s name
 * Upload your DApp's logo (250 by 250 pixel PNG or JPG, 150KB max)
 * Select the relevant category for your DApp
 * Include the URL for your DApp
 
-![Untitled](../.gitbook/assets/Dappradar4.png)
+![Untitled](../../.gitbook/assets/Dappradar4.png)
 
 * Write a short description (160 characters or less)
 * Specify the protocols your DApp is deployed to. You can select multiple protocols here, such as Astar and Shiden
 * After selecting at least one protocol, you'll be prompted to enter your DApp's contract address(es) for each protocol. Please try to fill all the contract address(es) on your Dapp for better accuracy of the data.
 * Write a full description for your DApp
 
-![Untitled](../.gitbook/assets/Dappradar5.png)
+![Untitled](../../.gitbook/assets/Dappradar5.png)
 
-![Untitled](../.gitbook/assets/Dappradar6.png)
+![Untitled](../../.gitbook/assets/Dappradar6.png)
 
 * Optionally, provide social / media links. (The metric will be showen on the Dapp page, so we highly recommend you to do so.)
 * It is also optional but it is recommended that you provide screenshots of your DApp. You also have the option of providing a YouTube URL to a demo of your DApp

@@ -1,6 +1,8 @@
-# Using Bware Labs
+# Bware Labs
 
 ![](../../.gitbook/assets/bwarelabs.png)
+
+## Overview
 
 The goal of Bware Labs is to build a decentralized platform where full node owners and endpoint users such as developers and organizations can collaborate in a secure and trustful manner.
 
@@ -20,12 +22,42 @@ Therefore, Bware Labs wants to provide a solution for bringing together node pro
 
 Bware Labs has an extensive record of deploying and maintaining validators on different ecosystems. Besides having this record, they also have a lot of blockchain experience and are a perfect match for our first phase of Collators on Shiden Network.
 
-{% content-ref url="bware-labs-endpoints.md" %}
-[bware-labs-endpoints.md](bware-labs-endpoints.md)
-{% endcontent-ref %}
-
 Developers who want to use end-points for their dApps can rely on the services of Bware Labs. You can find excellent tutorials in their extended documentation.
 
 {% embed url="https://docs.bwarelabs.com/using-bware-labs-endpoint-in-metamask" %}
 
 {% embed url="https://docs.bwarelabs.com/bware-labs-platform-tutorial/bware-labs-platform-tutorial" %}
+
+## Instructions
+
+### Step 1
+
+Launch their app on:
+
+{% embed url="https://app.bwarelabs.com" %}
+
+### Step 2
+
+Connect to your MetaMask. This is to prevent users from spamming the network. You only need to connect to create an account in their app.
+
+![](<../../.gitbook/assets/image (110) (1) (1) (1) (1) (1).png>)
+
+### **Step 3**
+
+Now you can create your API endpoint. Click on **'API Endpoints**' and select Shiden Network.
+
+![You can select endpoint for Shibuya or Shiden.](<../../.gitbook/assets/image (108) (1) (1).png>)
+
+Name your endpoint and choose the correct network. Shiden Mainnet on Kusama or our one for our testnet Shibuya. Sign the message and wait for your endpoint to be created.
+
+![](<../../.gitbook/assets/image (113) (1) (1) (1) (1) (1).png>)
+
+### Step 4
+
+After your endpoint is created, you can use the RPC Endpoint to connect to Shiden Network through MetaMask or the WSS Endpoint to be used for other applications. Those endpoints are only for you to be used.
+
+How to add your endpoint to MetaMask:
+
+1. Open MetaMask
+2. Click on Custom RPC
+3. Add all the information

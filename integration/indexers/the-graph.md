@@ -1,4 +1,4 @@
-# Using The Graph
+# The Graph
 
 ## Overview
 
@@ -53,7 +53,7 @@ sudo curl -s <https://raw.githubusercontent.com/AstarNetwork/Astar/rpc-script/sc
 
 ## Running Graph node
 
-After successfully running an [RPC node](../maintain/archive-node/docker.md), The Graph node needs to be installed and configured for Shiden to connect to a separate computer. If you are running a self-signed RPC node, you need to set up an extra environment variable for allowance.
+After successfully running an [RPC node](../../maintain/archive-node/docker.md), The Graph node needs to be installed and configured for Shiden to connect to a separate computer. If you are running a self-signed RPC node, you need to set up an extra environment variable for allowance.
 
 The first step is to clone the [Graph Node repository](https://github.com/graphprotocol/graph-node/):
 
@@ -70,7 +70,7 @@ sudo bash ./setup.sh
 
 After running the command, the tail end of the command should show similar logs as below:
 
-![](<../.gitbook/assets/image (109) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (109) (1) (1) (1).png>)
 
 Once everything is set up, you need to modify the "Ethereum environment" inside the `docker-compose.yml` file, so that The Graph node points to the endpoint of the RPC that you are connecting with. Note that the `setup.sh` file detects RPC's Host IP and writes its value, so you'll need to modify it accordingly.
 
@@ -161,4 +161,4 @@ sudo docker-compose up
 
 When everything is set up you will see the log like this:
 
-![](<../.gitbook/assets/image (108) (1).png>)
+![](<../../.gitbook/assets/image (108) (1).png>)

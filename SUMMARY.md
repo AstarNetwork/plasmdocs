@@ -2,8 +2,6 @@
 
 * [Welcome](Introduction.md)
 * [Introduction](introduction-1.md)
-* [Our Journey](our-journey.md)
-* [Astar (formerly Plasm)](astar-formerly-plasm.md)
 
 ## Ecosystem
 
@@ -15,9 +13,6 @@
 ## Learn
 
 * [The Problems Astar Solves](learn/the-problems-astar-solves.md)
-* [Core Features](learn/core-features/README.md)
-  * [dApps Staking](learn/core-features/dapps-reward.md)
-  * [X-VM (Cross Virtual Machine)](learn/core-features/x-vm-cross-virtual-machine.md)
 * [Layer 2](learn/layer2/README.md)
   * [Plasma Overview](learn/layer2/plasm-overview.md)
   * [Optimistic Virtual Machine](learn/layer2/optimistic-virtual-machine.md)
@@ -51,21 +46,29 @@
   * [AstarBase](dapp-staking/for-developers/astarbase.md)
   * [Precompiles](dapp-staking/for-developers/precompiles.md)
 
-## Ethereum and BSC Bridge
+## Bridges
 
-* [Celer Bridge](ethereum-and-bsc-bridge/celer-bridge.md)
-  * [How to send USDC from Polygon to Astar Network](ethereum-and-bsc-bridge/celer-bridge/how-to-send-usdc-from-polygon-to-astar-network.md)
-* [Anyswap Bridge](ethereum-and-bsc-bridge/anyswap-bridge.md)
+* [Celer Bridge](bridges/celer-bridge/README.md)
+  * [How to send USDC from Polygon to Astar Network](bridges/celer-bridge/how-to-send-usdc-from-polygon-to-astar-network.md)
+* [Anyswap Bridge](bridges/anyswap-bridge.md)
 
 ## Integration
 
 * [Network Details](integration/network-details.md)
 * [Faucet](build/testnet-faucet.md)
-* [Dappradar](integration/dappradar.md)
-* [Using Bware Labs](integration/bware-labs/README.md)
-  * [Bware Labs Endpoints](integration/bware-labs/bware-labs-endpoints.md)
-* [Using Redspot by Patract Lab](integration/using-redspot-by-patract-lab.md)
-* [Using The Graph](integration/using-the-graph.md)
+* [DApp listing](integration/dapp-listing/README.md)
+  * [DefilLama](integration/dapp-listing/defillama.md)
+  * [DappRadar](integration/dapp-listing/dappradar.md)
+* [Node providers](integration/node-providers/README.md)
+  * [OnFinality](integration/node-providers/onfinality.md)
+  * [Bware Labs](integration/node-providers/bware-labs.md)
+* [Indexers](integration/indexers/README.md)
+  * [SubSquid](integration/indexers/subsquid.md)
+  * [SubQuery](integration/indexers/subquery.md)
+  * [The Graph](integration/indexers/the-graph.md)
+* [Oracles](integration/oracles/README.md)
+  * [DIA](integration/oracles/dia.md)
+  * [Band Protocol](integration/oracles/band-protocol.md)
 
 ## Build
 
@@ -134,11 +137,6 @@
   * [Deploy Contract on Local Network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-local-network.md)
   * [Deploy Contract on Shibuya and Shiden](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-shibuya-and-shiden.md)
 * [How to unlock my Lockdrop investment](tutorial/unlock-tutorial.md)
-
-## Basic
-
-* [Glossary](basic/glossary.md)
-* [FAQ](basic/faq.md)
 
 ## External Links
 
