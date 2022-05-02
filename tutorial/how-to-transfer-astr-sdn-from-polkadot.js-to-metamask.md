@@ -32,7 +32,7 @@ Please visit [our portal](https://portal.astar.network/#/balance/wallet) and sel
 
 * Metamask will automaticall add Astar/Shiden network RPC and please sign the transaction.
 
-![Sign the request](<../.gitbook/assets/image (111).png>)
+![Sign the request](<../.gitbook/assets/image (111) (1).png>)
 
 * You are now connected to Metamask and you will be able to see your token balance.&#x20;
 * You can also see the token balance on Metamask interface.

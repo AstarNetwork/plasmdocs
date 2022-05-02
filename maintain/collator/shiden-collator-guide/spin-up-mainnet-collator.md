@@ -46,7 +46,7 @@ Select your **collator account** and extrinsic type: _**session / setKeys**_
 
 Enter the **session keys** and set proof to `0x00`
 
-![](<../../../.gitbook/assets/image (111) (1).png>)
+![](<../../../.gitbook/assets/image (111) (1) (1).png>)
 
 Submit the transaction.
 
