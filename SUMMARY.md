@@ -61,7 +61,7 @@
   * [DappRadar](integration/dapp-listing/dappradar.md)
 * [Node providers](integration/node-providers/README.md)
   * [OnFinality](integration/node-providers/onfinality.md)
-  * [Bware Labs](integration/node-providers/bware-labs.md)
+  * [Blast (BwareLabs)](integration/node-providers/bware-labs.md)
 * [Indexers](integration/indexers/README.md)
   * [SubSquid](integration/indexers/subsquid.md)
   * [SubQuery](integration/indexers/subquery.md)

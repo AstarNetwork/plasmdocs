@@ -82,7 +82,7 @@ Go to the Shibuya Polkadot.js portal: _**Developper > Extrinsic**_
 
 Select your **collator account** and extrinsic type: _**CollatorSelection / registerAsCandidate**_
 
-![](<../../../.gitbook/assets/image (116) (1) (1).png>)
+![](<../../../.gitbook/assets/image (116) (1) (1) (1).png>)
 
 Submit the transaction.
 

@@ -287,7 +287,7 @@ docker-compose pull && docker-compose up
 
 After you run `docker-compose` , SubQuery supports graphiQL playground to explore indexed data. You can explore the data by sending graphQL queries at `http://localhost:3000`
 
-![](<../../.gitbook/assets/image (121).png>)
+![](<../../.gitbook/assets/image (121) (1).png>)
 
 ### Glossary
 

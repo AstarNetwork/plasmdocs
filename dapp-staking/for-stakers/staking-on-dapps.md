@@ -6,7 +6,7 @@
 
 Go to our portal: [https://portal.astar.network/](https://portal.astar.network) and click on '**Staking**'.
 
-![](<../../.gitbook/assets/image (123).png>)
+![](<../../.gitbook/assets/image (123) (1).png>)
 
 {% hint style="info" %}
 Make sure you are connected to the correct network.

@@ -41,7 +41,7 @@ The browser plugin is available for both [Google Chrome](https://chrome.google.c
 
 ![ Polkadot{.js} extension](<../.gitbook/assets/image (42).png>)
 
-![ Polkadot{.js} logo](<../.gitbook/assets/image (116) (1) (1) (1).png>)
+![ Polkadot{.js} logo](<../.gitbook/assets/image (116) (1) (1) (1) (1).png>)
 
 ### Create Account
 

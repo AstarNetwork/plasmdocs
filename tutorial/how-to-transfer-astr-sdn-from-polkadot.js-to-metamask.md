@@ -28,7 +28,7 @@ Please visit [our portal](https://portal.astar.network/#/balance/wallet) and sel
 
 * Click "Change", select Metamask from the dropdown menu a click "Connect".
 
-![Switching wallet](<../.gitbook/assets/image (120).png>)
+![Switching wallet](<../.gitbook/assets/image (120) (1).png>)
 
 * Metamask will automaticall add Astar/Shiden network RPC and please sign the transaction.
 

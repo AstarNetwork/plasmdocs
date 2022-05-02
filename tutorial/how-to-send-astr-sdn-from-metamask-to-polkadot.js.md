@@ -15,7 +15,7 @@ description: >-
 * Connect Metamask.
 * Select the desired network.
 
-![Select Metamask](<../.gitbook/assets/image (107).png>)
+![Select Metamask](<../.gitbook/assets/image (107) (1).png>)
 
 ![Clcik on the network tab and select the Astar or Shiden.](<../.gitbook/assets/image (122) (1) (1).png>)
 
@@ -23,11 +23,11 @@ description: >-
 
 * Once you are connected, you will be able to see your token balance.
 
-![Token balances are displayed](<../.gitbook/assets/image (124).png>)
+![Token balances are displayed](<../.gitbook/assets/image (124) (1).png>)
 
 * Click "Transfer", paste the ASTR/SDN native Polkadot.js address and click "Confirm"
 
-![Do not send tokens from Metamask to exchanges.](<../.gitbook/assets/image (116).png>)
+![Do not send tokens from Metamask to exchanges.](<../.gitbook/assets/image (116) (1).png>)
 
 ### Step 2: Withdraw EVM Deposit
 

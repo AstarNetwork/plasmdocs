@@ -14,15 +14,15 @@ Before you explore the different features offered by cBridge, you will need to c
 
 Click "Connect Wallet", and you will be prompted to select a wallet. (cBridge currently only supports MetaMask on desktop browsers, with more types of wallets supported on mobile).
 
-![](<../../.gitbook/assets/image (125) (1).png>)
+![](<../../.gitbook/assets/image (125) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (124) (1).png>)
+![](<../../.gitbook/assets/image (124) (1) (1).png>)
 
 Select MetaMask, and you should now see your wallet address and your current chain in the top right corner of the page.
 
 ![](<../../.gitbook/assets/image (110).png>)
 
-![](<../../.gitbook/assets/image (120) (1).png>)
+![](<../../.gitbook/assets/image (120) (1) (1).png>)
 
 ## **Transfer Tokens Across Chains**
 
@@ -48,11 +48,11 @@ You can adjust the Slippage Tolerance of the transfer. Your transfer may fail wi
 
 Note that there will be a difference between the amount you send and the amount you receive, which is determined by the Bridge Rate and fees. For the exact definition of each item in the transaction, check the tooltips next to each of the terms.
 
-![](<../../.gitbook/assets/image (123) (1) (1).png>)
+![](<../../.gitbook/assets/image (123) (1) (1) (1).png>)
 
 Review your transfer details and click "Transfer". You will receive a popup to confirm transfer.
 
-![](<../../.gitbook/assets/image (121) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (121) (1) (1) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (127) (1).png>)
 

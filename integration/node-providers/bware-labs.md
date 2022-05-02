@@ -1,32 +1,20 @@
-# Bware Labs
+# Blast (BwareLabs)
 
-![](../../.gitbook/assets/bwarelabs.png)
+![](<../../.gitbook/assets/image (124).png>)
 
 ## Overview
 
-The goal of Bware Labs is to build a decentralized platform where full node owners and endpoint users such as developers and organizations can collaborate in a secure and trustful manner.
+Blast is Bware Labs' API provider platform that aims to solve Web 3 infrastructure issues related to reliability and latency, by employing geographically distributed third-party nodes.
 
-As a user of Bware Labs, you will be able to obtain endpoints, allowing you to interact with multiple blockchain networks, from the MVP release of their Decentralized Blockchain API platform. Endpoints for Dusty, Shiden, and Astar can be obtained just by performing a few simple clicks within a user-friendly interface. You will be required to connect your Metamask wallet to log in and will be asked to sign every operation via the same wallet.
+Blast offers a multi-region architecture that, along with a series of clustering and geo-location mechanisms, ensures optimal routing of user requests to the closest point of presence relative to where a call is generated from. Moreover, using third party-nodes scattered all over the world Blast ensures the decentralization of the underlying blockchain infrastructures thus reducing down-time and increasing reliability.
 
-The Bware Labs Decentralized Blockchain API platform can be accessed at app.bwarelabs.com
+### API Usage
 
-![End-points for Dusty](../../.gitbook/assets/1\_stoie4xne5w\_agoi2ry3fq.png)
+Blast offers a standardized Blockchain API service that covers all infrastructure aspects of Web 3 development. For each supported blockchain, users are able to generate a dedicated endpoint that will allow them access to the majority of RPC methods required for dApp development and/or blockchain interaction. In the following sections of this documentation, you can find detailed steps for how to connect and generate your endpoints, as well as RPC and WSS usage examples together with platform limitations and payment conditions
 
-![Demo Creating end-point for Dusty](../../.gitbook/assets/1\_fphi5vlr3g8hoqxtd1-l1a.gif)
+Users joining the platform will be able to use the APIs for free within certain limits with the option to upgrade to one of our standard paid subscription plans or to contact us in order to create a customized plan suitable to their needs.
 
-Bware Labs is a new startup founded to address what they see as a gap in the current interactions between DeFi platforms, exchanges, and wallet providers. On the one hand, the currently available commercial solutions to obtain an endpoint are costly and centralized. On the other hand, the option of creating and maintaining your virtual machine is technically challenging and time-consuming.
-
-Therefore, Bware Labs wants to provide a solution for bringing together node providers and end-users in a decentralized, user-friendly platform. This brings about new opportunities for dApps developers, wallet providers, centralized and decentralized exchanges, and even business intelligence for blockchain organizations and analytics companies building in the Astar ecosystem.
-
-![Architecture Bware Labs](../../.gitbook/assets/1\_ctzyeangucyzjw4whykxbw.png)
-
-Bware Labs has an extensive record of deploying and maintaining validators on different ecosystems. Besides having this record, they also have a lot of blockchain experience and are a perfect match for our first phase of Collators on Shiden Network.
-
-Developers who want to use end-points for their dApps can rely on the services of Bware Labs. You can find excellent tutorials in their extended documentation.
-
-{% embed url="https://docs.bwarelabs.com/using-bware-labs-endpoint-in-metamask" %}
-
-{% embed url="https://docs.bwarelabs.com/bware-labs-platform-tutorial/bware-labs-platform-tutorial" %}
+{% embed url="https://docs.blastapi.io/apis-documentation/astar" %}
 
 ## Instructions
 
@@ -34,27 +22,27 @@ Developers who want to use end-points for their dApps can rely on the services o
 
 Launch their app on:
 
-{% embed url="https://app.bwarelabs.com" %}
+{% embed url="https://blastapi.io/login" %}
 
 ### Step 2
 
-Connect to your MetaMask. This is to prevent users from spamming the network. You only need to connect to create an account in their app.
+Connect to your MetaMask. This is to prevent users from spamming the network. You only need to connect to create and sign to their app.
 
-![](<../../.gitbook/assets/image (110) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (120).png>)
 
 ### **Step 3**
 
-Now you can create your API endpoint. Click on **'API Endpoints**' and select Shiden Network.
+Now you can create your API endpoint. Click on **'Add project**' to create the environment.
 
-![You can select endpoint for Shibuya or Shiden.](<../../.gitbook/assets/image (108) (1) (1).png>)
+![](<../../.gitbook/assets/image (107).png>)
 
-Name your endpoint and choose the correct network. Shiden Mainnet on Kusama or our one for our testnet Shibuya. Sign the message and wait for your endpoint to be created.
+Select your network and activate the Endpoints:
 
-![](<../../.gitbook/assets/image (113) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (116).png>)
 
 ### Step 4
 
-After your endpoint is created, you can use the RPC Endpoint to connect to Shiden Network through MetaMask or the WSS Endpoint to be used for other applications. Those endpoints are only for you to be used.
+After your endpoint is created, you can use the RPC Endpoint to connect to our mainnet through MetaMask or the WSS Endpoint to be used for other applications. Those endpoints are only for you to be used.
 
 How to add your endpoint to MetaMask:
 
