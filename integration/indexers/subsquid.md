@@ -4,7 +4,7 @@
 
 [Subsquid](https://subsquid.io) is a query node framework for Substrate-based blockchains. In very simple terms, Subsquid can be thought of as an ETL (Extract, Transform, and Load) tool, with a GraphQL server included. It enables comprehensive filtering, pagination, and even full-text search capabilities
 
-Subsquid has native and full support for both the Ethereum Virtual Machine and Substrate data. This allows developers to extract on-chain data from any of the Moonbeam networks and process EVM logs as well as Substrate entities (events, extrinsics and storage items) in one single project and serve the resulting data with one single GraphQL endpoint. With Subsquid, filtering by EVM topic, contract address, and block range are all possible.
+Subsquid has native and full support for both the Ethereum Virtual Machine and Substrate data. This allows developers to extract on-chain data from any of the Astar networks and process EVM logs as well as Substrate entities (events, extrinsics and storage items) in one single project and serve the resulting data with one single GraphQL endpoint. With Subsquid, filtering by EVM topic, contract address, and block range are all possible.
 
 This guide will explain how to create a Subsquid project (also known as a *"Squid"*) that indexes ERC-721 token transfers on the Astar network. As such, you'll be looking at the `Transfer` EVM event topics. This guide can be adapted for Shiden network and other type of tokens as well.
 
@@ -235,7 +235,7 @@ The "handler" function takes in a `Context` of the correct type (`EvmLogHandlerC
 !!! note
     For the event handler, it is also possible to bind an "arrow function" to the processor.
 
-### Configure Processor and Attach Handler {: #create-processor-and-attach-handler }
+### Configure Processor and Attach Handler
 
 The `src/processor.ts` file is where the template project instantiates the `SubstrateEvmProcessor` class, configures it for execution, and attaches the handler functions(s).
 
