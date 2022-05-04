@@ -1,4 +1,4 @@
-# On-Chain Identity
+# How to set On-Chain Identity
 
 ## Overview
 
@@ -13,7 +13,7 @@ We provide a registrar service in the Astar and Shiden networks that only charge
 
 Go to [the Accounts](https://polkadot.js.org/apps/#/accounts) page in Polkadot-JS Apps, make sure you are connected to the chain you want to set your identity. The easiest way to add the built-in fields is to click the vertical three dots next to one's account and select "Set on-chain identity".
 
-![Set on-chain identity in account menu](<../.gitbook/assets/image (11).png>)
+![Set on-chain identity in account menu](<../../.gitbook/assets/image (11).png>)
 
 A popup will appear, offering the default fields. Following fields are mandatory to have to be approved as Collator:
 
@@ -22,7 +22,7 @@ A popup will appear, offering the default fields. Following fields are mandatory
 * Twitter
 * Element (formerly known as Riot)
 
-![Required fields for on-chain identity](<../.gitbook/assets/image (56).png>)
+![Required fields for on-chain identity](<../../.gitbook/assets/image (56).png>)
 
 ### **Invoke transaction to set identity**
 
@@ -32,7 +32,7 @@ Once you have filled in the information you would like to store on-chain, click 
 
 Go to [Developer->Extrinics](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.polkadot.io#/extrinsics) and select your account to submit the identity **** `requestJudgement(reg_index, max_fee)` transaction. This will request the registrar to validate the information you set on-chain earlier.
 
-![Request Judgement](<../.gitbook/assets/image (64).png>)
+![Request Judgement](<../../.gitbook/assets/image (64).png>)
 
 The `reg_index` is the position of the registrar. For Astar and Shiden, use **0**. Maarten, VP of Growth, is set as registrar for Astar ecosystem.
 
@@ -96,7 +96,7 @@ To clear an identity:
 2. Click the three dots corresponding to the account you want to clear and select 'Set on-chain identity'.
 3. Select 'Clear Identity', and sign and submit the transaction.
 
-![](<../.gitbook/assets/image (72).png>)
+![](<../../.gitbook/assets/image (72).png>)
 
 {% hint style="info" %}
 Killing: The Council can kill an identity that it deems erroneous. This results in a slash of the deposit.

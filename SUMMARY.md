@@ -69,6 +69,8 @@
 * [Oracles](integration/oracles/README.md)
   * [DIA](integration/oracles/dia.md)
   * [Band Protocol](integration/oracles/band-protocol.md)
+* [Wallets](integration/wallets/README.md)
+  * [Integrate SubWallet](integration/wallets/integrate-subwallet.md)
 
 ## Build
 
@@ -121,26 +123,31 @@
 * [Node Commands](maintain/node-commands.md)
 * [Node Maintenance](maintain/node-maintenance.md)
 
-## Tutorial
+## User Guides <a href="#tutorial" id="tutorial"></a>
 
-* [How to create an Astar wallet](tutorial/how-to-make-a-kusama-polkadot-address.md)
-* [How to create a Multisig wallet](tutorial/how-to-create-a-multisig-wallet.md)
-* [How to set On-Chain Identity](tutorial/on-chain-identity.md)
-* [How to send ASTR/SDN from exchanges to our portal](tutorial/how-to-transfer-astr-sdn-from-exchanges.md)
-* [How to send ASTR/SDN from Polkadot.js to MetaMask](tutorial/how-to-transfer-astr-sdn-from-polkadot.js-to-metamask.md)
-* [How to send ASTR/SDN from MetaMask to Polkadot.js](tutorial/how-to-send-astr-sdn-from-metamask-to-polkadot.js.md)
-* [How to buy ASTR on a DEX](tutorial/how-to-buy-astr-on-a-dex.md)
+* [How To](tutorial/how-to/README.md)
+  * [How to create an Astar wallet](tutorial/how-to/how-to-make-a-kusama-polkadot-address.md)
+  * [How to create a Multisig wallet](tutorial/how-to/how-to-create-a-multisig-wallet.md)
+  * [How to set On-Chain Identity](tutorial/how-to/on-chain-identity.md)
+  * [How to send ASTR/SDN from exchanges to our portal](tutorial/how-to/how-to-send-astr-sdn-from-exchanges-to-our-portal.md)
+  * [How to send ASTR/SDN from Polkadot.js to MetaMask](tutorial/how-to/how-to-send-astr-sdn-from-polkadot.js-to-metamask.md)
+  * [How to send ASTR/SDN from MetaMask to Polkadot.js](tutorial/how-to/how-to-send-astr-sdn-from-metamask-to-polkadot.js.md)
+  * [How to buy ASTR on a DEX](tutorial/how-to/how-to-buy-astr-on-a-dex.md)
+  * [How to unlock my Lockdrop investment](tutorial/how-to/unlock-tutorial.md)
+* [Wallets](tutorial/wallets/README.md)
+  * [SubWallet](tutorial/wallets/subwallet/README.md)
+    * [Astar Portal](tutorial/wallets/subwallet/astar-portal.md)
+    * [Shiden Portal](tutorial/wallets/subwallet/shiden-portal.md)
 * [Develop and Deploy your first smart contract on Astar/Shiden EVM](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/README.md)
   * [Astar/Shiden Network Family](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/aster-shiden-network-family.md)
   * [Running local network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/running-local-network.md)
   * [Configure Metamask](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/configure-metamask.md)
   * [Deploy Contract on Local Network](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-local-network.md)
   * [Deploy Contract on Shibuya and Shiden](tutorial/develop-and-deploy-your-first-smart-contract-on-aster-shiden-evm/deploy-contract-on-shibuya-and-shiden.md)
-* [How to unlock my Lockdrop investment](tutorial/unlock-tutorial.md)
 
 ## External Links
 
-* [Astar (formerly Plasm) Network White Paper](https://github.com/PlasmNetwork/plasmdocs/blob/master/wp/en.pdf)
-* [Tech Chat (Discord)](https://discord.com/invite/wUcQt3R)
+* [Astar Network Whitepaper (old)](https://github.com/PlasmNetwork/plasmdocs/blob/master/wp/en.pdf)
+* [Discord](https://discord.com/invite/wUcQt3R)
 * [GitHub](https://github.com/PlasmNetwork/Plasm)
 * [Forum](https://forum.astar.network)

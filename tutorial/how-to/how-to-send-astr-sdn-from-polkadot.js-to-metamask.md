@@ -8,7 +8,7 @@ Please visit [our portal](https://portal.astar.network/#/balance/wallet) and sel
 **Astar Network**: Polkadot parachain\
 **Shiden Network**: Kusama parachain
 
-![](<../.gitbook/assets/image (127).png>)
+![](<../../.gitbook/assets/image (127) (1).png>)
 
 ### Step 2: Transfer
 
@@ -18,21 +18,21 @@ Please visit [our portal](https://portal.astar.network/#/balance/wallet) and sel
 * Click confirm.
 * Done.
 
-![Transferring tokens to Metamask](<../.gitbook/assets/image (126).png>)
+![Transferring tokens to Metamask](<../../.gitbook/assets/image (126) (1).png>)
 
 ### Step 3: Connect The Portal To Metamask
 
 * On the top right corner of the portal, click on the wallet tab.
 
-![](<../.gitbook/assets/image (109).png>)
+![](<../../.gitbook/assets/image (109).png>)
 
 * Click "Change", select Metamask from the dropdown menu a click "Connect".
 
-![Switching wallet](<../.gitbook/assets/image (120) (1) (1).png>)
+![Switching wallet](<../../.gitbook/assets/image (120) (1) (1).png>)
 
 * Metamask will automaticall add Astar/Shiden network RPC and please sign the transaction.
 
-![Sign the request](<../.gitbook/assets/image (111) (1).png>)
+![Sign the request](<../../.gitbook/assets/image (111) (1).png>)
 
 * You are now connected to Metamask and you will be able to see your token balance.&#x20;
 * You can also see the token balance on Metamask interface.

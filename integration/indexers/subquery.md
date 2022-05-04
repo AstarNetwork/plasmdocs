@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](<../../.gitbook/assets/image (122).png>)
+![](<../../.gitbook/assets/image (122) (1).png>)
 
 ### What is SubQuery?
 
@@ -287,7 +287,7 @@ docker-compose pull && docker-compose up
 
 After you run `docker-compose` , SubQuery supports graphiQL playground to explore indexed data. You can explore the data by sending graphQL queries at `http://localhost:3000`
 
-![](<../../.gitbook/assets/image (121) (1).png>)
+![](<../../.gitbook/assets/image (121) (1) (1).png>)
 
 ### Glossary
 

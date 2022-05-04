@@ -33,7 +33,7 @@ To buy ASTR, you need to have other assets which you can use to swap. One way to
 5. Click “Transfer” and you will have USDT on Astar Network.
 6. You will have to pay the bridge fee and you will also receive some ASTR tokens for gas fees which you need when interacting on Astar Network.
 
-![](<../.gitbook/assets/image (119) (2).png>)
+![](<../../.gitbook/assets/image (119) (2).png>)
 
 ### Step 3: Swap On Arthswap <a href="#0da0" id="0da0"></a>
 
