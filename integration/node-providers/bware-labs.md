@@ -1,6 +1,6 @@
 # Blast (BwareLabs)
 
-![](<../../.gitbook/assets/image (124) (1).png>)
+![](<../../.gitbook/assets/image (124).png>)
 
 ## Overview
 

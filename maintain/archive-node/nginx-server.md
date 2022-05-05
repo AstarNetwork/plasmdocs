@@ -15,7 +15,7 @@ At the end of the configuration, you can close port 80 since only port 443 will 
 
 In this guide, we consider that you already have a **domain name** and you have control over the **DNS**. In this case, you need to add an **A record** with the sub domain you will use and the IP address of your node into you DNS provider console.
 
-![Example of DNS A Record](<../../.gitbook/assets/image (121) (1) (1) (1).png>)
+![Example of DNS A Record](<../../.gitbook/assets/image (121) (1) (1).png>)
 
 {% hint style="info" %}
 If you don't have a domain name, you will have to generate a **self-signed certificate** and access your node through the raw ip address of your server.
@@ -145,7 +145,7 @@ This is it, your arcive node is set and available from outside.
 
 If you set a **WS endpoint**, you can explore the chain from the [Polkadot.js](https://polkadot.js.org/apps) portal using the format wss://${SUB\_DOMAIN}
 
-![](<../../.gitbook/assets/image (132) (1).png>)
+![](<../../.gitbook/assets/image (132).png>)
 
 If you set a **RPC endpoint**, you can it through https://${SUB\_DOMAIN}
 

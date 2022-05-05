@@ -20,7 +20,7 @@ Moving towards dApp Staking v2 the first new implementation is the unbonding per
 
 If you have staked on one of the dApps, you can now click on **Unbond** to make your tokens transferable.
 
-![](<../../.gitbook/assets/image (122) (1) (1).png>)
+![](<../../.gitbook/assets/image (122) (1).png>)
 
 ### Step 2
 

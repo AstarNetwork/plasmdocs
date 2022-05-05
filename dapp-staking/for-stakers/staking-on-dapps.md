@@ -6,7 +6,7 @@
 
 Go to our portal: [https://portal.astar.network/](https://portal.astar.network) and click on '**Staking**'.
 
-![](<../../.gitbook/assets/image (123) (1) (1).png>)
+![](<../../.gitbook/assets/image (123) (1).png>)
 
 {% hint style="info" %}
 Make sure you are connected to the correct network.
@@ -18,7 +18,7 @@ Make sure you are connected to the correct network.
 **Astar Network:** mainnet for Polkadot
 {% endhint %}
 
-![Select the network you want to stake on](<../../.gitbook/assets/image (131) (1).png>)
+![Select the network you want to stake on](<../../.gitbook/assets/image (131).png>)
 
 ### Step 2
 

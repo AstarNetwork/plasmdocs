@@ -2,8 +2,8 @@
 
 ### What you need to know:
 
-{% content-ref url="../../tutorial/how-to/how-to-make-a-kusama-polkadot-address.md" %}
-[how-to-make-a-kusama-polkadot-address.md](../../tutorial/how-to/how-to-make-a-kusama-polkadot-address.md)
+{% content-ref url="../../tutorial/how-to-make-a-kusama-polkadot-address.md" %}
+[how-to-make-a-kusama-polkadot-address.md](../../tutorial/how-to-make-a-kusama-polkadot-address.md)
 {% endcontent-ref %}
 
 {% content-ref url="crowdloan.md" %}
