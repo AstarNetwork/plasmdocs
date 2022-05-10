@@ -106,24 +106,25 @@ There is no absolute protection against bots, but at least their usage might be 
 
 
 
+
+
 ### ECDSA address registration
 
-[ECDSA](https://en.wikipedia.org/wiki/Elliptic\_Curve\_Digital\_Signature\_Algorithm) address require manual generation of public key by user as ECDSA public key cannot be extracted from ss58 address.
-
-Never share you seed phrase or private keys with anyone.
+[ECDSA](https://en.wikipedia.org/wiki/Elliptic\_Curve\_Digital\_Signature\_Algorithm) address requires a manual generation of a public key by a user as ECDSA public key cannot be extracted from the ss58 address. Never share your seed phrase or private keys with anyone.
 
 For generating ECDSA address public key here are the steps:
 
-
-
 * Install [subkey](https://docs.substrate.io/v3/tools/subkey/) tool.
-* Go to command line and run:
-* `curl https://getsubstrate.io -sSf | bash -s -- --fast`
-* `Install subkey from cargo.`
-* `cargo install --force subkey --git https://github.com/paritytech/substrate --version 2.0.1 --locked`
-* Inspect your seed phrase with ecdsa schema.
-* `subkey inspect --scheme ecdsa "Your 12 words mnemonic seed phrase"`
-* `You will get following output:`
+* Go to command line and run: `curl https://getsubstrate.io -sSf | bash -s -- --fast`
+* Install subkey from cargo:
+
+`cargo install --force subkey --git https://github.com/paritytech/substrate --version 2.0.1 --locked`
+
+* Inspect your seed phrase with ECDSA schema.
+
+`subkey inspect --scheme ecdsa "Your 12 words mnemonic seed phrase"`
+
+You will get following output:
 
 ```
 > subkey inspect --scheme ecdsa "caution juice atom organ advance problem want pledge someone senior holiday very" 
@@ -135,5 +136,5 @@ Public key (SS58): KWCjsULBCExp8BTVhVjVjWrqMYxSi4a1CRyU2tyzNiAs4mLk8
 SS58 Address: 5Fb19AznKQqtHLf82PfMXKwWPqAWPB9g7fW6AhP8BVJ8Soqo`
 ```
 
-* You will be asked to input public key during astar pass registration.
-* Paste the Public key (hex) value in input field.
+* You will be asked to input a public key during Astar pass registration.
+* Paste the Public key (hex) value in the input field

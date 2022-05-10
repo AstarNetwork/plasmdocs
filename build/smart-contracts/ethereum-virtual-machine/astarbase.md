@@ -17,7 +17,7 @@ The goals of AstarBase product is:
 
 AstarBase is an on-chain EVM database. AstarBase contains a mapping of users's EVM and Native ss58 address. Such mapping on it's own does not bring any benefit to the projects since anyone can register this address pair. What brings the value is the call `checkStakerStatus()` which checks if the ss58 address of the pair is an active staker. The AstarBase contracts are available on each of Shibuya/Shiden/Astar Networks. The deploy addresses can be found in the [AstarBase github repository](https://github.com/AstarNetwork/astarbase/blob/main/contract/contracts/info.md).
 
-There are 2 interface functions that can be used.
+There are 3 interface functions that can be used.
 
 * `isRegistered()` checks if the given address was registered in Astarbase
 
@@ -34,6 +34,16 @@ There are 2 interface functions that can be used.
         external view
         returns (uint128);
 ```
+
+* `checkStakerStatusOnContract()` Checks if pair of addresses (ss58, evm) is an active staker in dApps-staking on the specified contract and returns staked amount
+
+```
+    function checkStakerStatusOnContract(address evmAddress, address stakingContract)
+        external view
+        returns (uint128);
+```
+
+The interface file `IAstarBase.sol` can be found in the [ERC20 example](https://github.com/AstarNetwork/astarbase/tree/main/contract/example).
 
 ### Use from Client side
 
@@ -68,15 +78,15 @@ The following is an example usage of the Astarbase from the client side.
 The following is an example usage when EVM contract wants to check staker status for `H160` address
 
 ```
-import "./AstarBase_flat.sol"
+import "./IAstarBase.sol"
 contract A {
-    // Deployed on Shiden
-    AstarBase public ASTARBASE = AstarBase(0x20044438CfaF684e251d1FfC70f999291D49e9a7);
+    // Deployed on Shibuya
+    AstarBase public ASTARBASE = AstarBase(0xF183f51D3E8dfb2513c15B046F848D4a68bd3F5D);
     ...
     
     function stakedAmount(address user) private view returns (uint128) {
 
-        // The returned value from checkStakerStatus() call is the staked amount,
+        // The returned value from checkStakerStatus() call is the staked amount
         return ASTARBASE.checkStakerStatus(user);
     }
 }
@@ -90,16 +100,16 @@ In the [minting-dapp Github repository](https://github.com/AstarNetwork/minting-
 
 A new project coming to Astar ecosystem would like to attract users by ERC20 token airdrop. But they want users who are active participants in the ecosystem and not one-time users who will disappear once the airdrop is claimed. AstarBase can be used to allow airdrop claim only to registered users.
 
-1. if ASTARBASE.checkStakerStatus(user) > 0 ;
+`if ASTARBASE.checkStakerStatus(user) > 0;`
 
 ### Example use case: Rewards for stakers
 
 A project is using dApps-staking as basic income but would also like to reward stakers who are staking on them. Since those stakes use their native Astar address (s58) for staking and this project is based on EVM, there was no way to give EVM based rewards. Astarbase gives the possibility to reward such users if they are registered in AstarBase
 
-1. Collect all stakers' addresses from the client side
-2. Verify the Astarbase mapping for ss58->evmAddress
-3. Allow reward claiming to evmAddress for verified stakers
+`if ASTARBASE.checkStakerStatusOnContract(address evmAddress, address stakingContract) > 0;`
+
+See the [example ERC20 contract](https://github.com/AstarNetwork/astarbase/tree/main/contract/example) on the Github which allows minting only for the specified contract stakers.
 
 ### Example use case: Bot protection
 
-There is no absolute protection against bots, but at least their usage might be financially questionable. The reason is the minimum staked amount for the dApps-staking and the unbound period. By using AstarBase you force bots to use active stakers' address in case they want to reap your project's rewards.
+There is no absolute protection against bots, but at least their usage might be financially questionable. The registered accounts which are also stakers will need to have the minimum staked amount for the dApps-staking and there is also unbound period. This will limit the bots creating unlimited number of addresses to claim the rewards or buy your NFTs. By using AstarBase you force bots to use active stakers' address in case they want to reap your project's rewards.
