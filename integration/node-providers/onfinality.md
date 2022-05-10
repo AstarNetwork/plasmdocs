@@ -1,6 +1,6 @@
 # OnFinality
 
-![](<../../.gitbook/assets/image (125).png>)
+![](<../../.gitbook/assets/image (125) (1).png>)
 
 ## Overview
 
@@ -19,5 +19,5 @@ To create a custom OnFinality endpoint, go to [OnFinality](https://onfinality.io
 2. Select the network from the dropdown
 3. Your custom API endpoint will be generated automatically
 
-![OnFinality Dashboard](<../../.gitbook/assets/image (121).png>)
+![OnFinality Dashboard](<../../.gitbook/assets/image (121) (1).png>)
 

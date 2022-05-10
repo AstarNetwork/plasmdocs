@@ -115,13 +115,13 @@
     * [Configuration](maintain/collator/secure-validator/configuration.md)
     * [Services](maintain/collator/secure-validator/services.md)
     * [Launch and Active Services](maintain/collator/secure-validator/launch-and-active-services.md)
+  * [Node Maintenance](maintain/collator/node-maintenance.md)
 * [Archive Node](maintain/archive-node/README.md)
   * [Binary](maintain/archive-node/binary.md)
   * [Docker](maintain/archive-node/docker.md)
   * [Nginx server](maintain/archive-node/nginx-server.md)
 * [Snapshots](maintain/snapshots.md)
 * [Node Commands](maintain/node-commands.md)
-* [Node Maintenance](maintain/node-maintenance.md)
 
 ## User Guides <a href="#tutorial" id="tutorial"></a>
 

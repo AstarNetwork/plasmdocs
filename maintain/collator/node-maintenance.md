@@ -1,4 +1,4 @@
-# Maintenance operations
+# Node Maintenance
 
 ## Backup
 
@@ -6,16 +6,33 @@ Maintaining a backup node always sync for a collator is vital to make sure you a
 
 The collator session keys are stored into `/var/lib/astar/chains/${NETWORK}/keystore`.
 
-Make sure you save the content of this directory locally:
+Make sure you save the content of this directory in  a **backup directory** on your **local machine**:
 
 ```
-rsync --rsync-path="sudo rsync" -r ${NODE_IP}:/var/lib/astar/chains/${NETWORK}/keystore .
+rsync --rsync-path="sudo rsync" -r ${MAIN_SERVER_IP}:/var/lib/astar/chains/${NETWORK}/keystore .
 ```
 
-In case of an incident on the main collator, copy the keys you previously saved into the `keystore` folder of the backup and restart the node to take keys into account:
+#### In case of an incident on the main collator
+
+On the **main collator server**, stop and disable the collator service, and delete session keys:
 
 ```
-rsync --rsync-path="sudo rsync" -r ./keystore ${NODE_IP}:/var/lib/astar/chains/${NETWORK}
+sudo systemctl stop ${NETWORK}.service
+sudo systemctl disable ${NETWORK}.service
+sudo rm -R /var/lib/astar/chains/${NETWORK}/keystore/*
+```
+
+On your **local machine**, from your **backup directory**, copy the keys into the `keystore` folder of the backup server:
+
+```
+rsync --rsync-path="sudo rsync" -r ./keystore ${BACKUP_SERVER_IP}:/var/lib/astar/chains/${NETWORK}
+```
+
+On the **backup collator server**, update permission of the `keystore` folder and restart the collator service:
+
+```
+sudo chown -R polkadot:polkadot /var/lib/astar/
+sudo systemctl restart ${NETWORK}.service1
 ```
 
 ## Get node logs
@@ -42,7 +59,7 @@ Move the new release binary and restart the service:
 ```
 sudo mv ./astar-collator /usr/local/bin
 sudo chmod +x /usr/local/bin/astar-collator
-sudo systemctl restart astar.service
+sudo systemctl restart ${NETWORK}.service
 ```
 
 ## Purge node
@@ -56,9 +73,9 @@ Instead, switch to your backup node and purge only once the backup is **actively
 To start a node from scratch without any chain data, just wipe the chain data directory:
 
 ```
-sudo systemctl stop astar.service
-sudo rm -R /var/lib/astar/chains/astar/db*
-sudo systemctl start astar.service
+sudo systemctl stop ${NETWORK}.service
+sudo rm -R /var/lib/astar/chains/${NETWORK}/db/*
+sudo systemctl start ${NETWORK}.service
 ```
 
 ## Relay Chain snapshot

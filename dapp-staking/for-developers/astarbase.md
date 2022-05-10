@@ -103,3 +103,37 @@ A project is using dApps-staking as basic income but would also like to reward s
 ### Example use case: Bot protection
 
 There is no absolute protection against bots, but at least their usage might be financially questionable. The reason is the minimum staked amount for the dApps-staking and the unbound period. By using AstarBase you force bots to use active stakers' addresses in case they want to reap your project's rewards.
+
+
+
+### ECDSA address registration
+
+[ECDSA](https://en.wikipedia.org/wiki/Elliptic\_Curve\_Digital\_Signature\_Algorithm) address require manual generation of public key by user as ECDSA public key cannot be extracted from ss58 address.
+
+Never share you seed phrase or private keys with anyone.
+
+For generating ECDSA address public key here are the steps:
+
+
+
+* Install [subkey](https://docs.substrate.io/v3/tools/subkey/) tool.
+* Go to command line and run:
+* `curl https://getsubstrate.io -sSf | bash -s -- --fast`
+* `Install subkey from cargo.`
+* `cargo install --force subkey --git https://github.com/paritytech/substrate --version 2.0.1 --locked`
+* Inspect your seed phrase with ecdsa schema.
+* `subkey inspect --scheme ecdsa "Your 12 words mnemonic seed phrase"`
+* `You will get following output:`
+
+```
+> subkey inspect --scheme ecdsa "caution juice atom organ advance problem want pledge someone senior holiday very" 
+Secret phrase: caution juice atom organ advance problem want pledge someone senior holiday very 
+Network ID: substrate Secret seed: 0xc8fa03532fb22ee1f7f6908b9c02b4e72483f0dbd66e4cd456b8f34c6230b849 
+Public key (hex): 0x03b2217d2c348df72c4789947291e2e63ba7798baebaa937f40fd5d68f022dd4b4 
+Account ID: 0x9bd03f5c43588e0e8110463dde4122bce1279d683de87e95975f7c717f00d617 
+Public key (SS58): KWCjsULBCExp8BTVhVjVjWrqMYxSi4a1CRyU2tyzNiAs4mLk8 
+SS58 Address: 5Fb19AznKQqtHLf82PfMXKwWPqAWPB9g7fW6AhP8BVJ8Soqo`
+```
+
+* You will be asked to input public key during astar pass registration.
+* Paste the Public key (hex) value in input field.
