@@ -6,7 +6,7 @@
 
 **Step 1**: Log into [Astar Portal](https://portal.astar.network/#/assets). The extension automatically opens a pop-up to allow you to connect to Astar Network. Choose as many accounts as you like then click **Connect**.
 
-![](<../../../.gitbook/assets/image (134).png>)
+![](<../../../.gitbook/assets/image (134) (1).png>)
 
 **Step 2**: On the top right corner, select **Connect** and choose **SubWallet**. Select your desired account and hit **Connect**.
 
@@ -52,7 +52,7 @@
 
 ![](<../../../.gitbook/assets/image (133).png>)
 
-![](<../../../.gitbook/assets/image (137).png>)
+![](<../../../.gitbook/assets/image (137) (1).png>)
 
 **Step 2**: Enter your password and click **Approve**. The transfer is reflected in your account balance on Astar Portal.&#x20;
 

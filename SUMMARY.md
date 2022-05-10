@@ -57,7 +57,7 @@
 * [Network Details](integration/network-details.md)
 * [Faucet](build/testnet-faucet.md)
 * [DApp listing](integration/dapp-listing/README.md)
-  * [DefilLama](integration/dapp-listing/defillama.md)
+  * [DefiLlama](integration/dapp-listing/defillama.md)
   * [DappRadar](integration/dapp-listing/dappradar.md)
 * [Node providers](integration/node-providers/README.md)
   * [OnFinality](integration/node-providers/onfinality.md)
