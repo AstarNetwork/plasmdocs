@@ -4,33 +4,8 @@
 
 It's easy to configure your Metamask to interact with Astar/Shiden network family. Open Metamask, click network tab, and click the Custom RPC. In the screen shown, please enter the necessary information as follows:
 
-{% tabs %}
-{% tab title="Local" %}
-* Network Name:  Shiden Local
-* New RPC URL: [http://localhost:9933](http://localhost:9933)
-* Chain ID: 4369
-* Currency Symbol: ASTL
-{% endtab %}
-
-{% tab title="Shibuya" %}
-* Network Name:  Shibuya
-* New RPC URL: [https://rpc.shibuya.astar.network:8545](https://rpc.shibuya.astar.network:8545)
-* Chain ID: 81
-* Currency Symbol: SBY
-{% endtab %}
-
-{% tab title="Shiden" %}
-* Network Name:  Shiden
-* New RPC URL: [https://rpc.shiden.astar.network:8545](https://rpc.shiden.astar.network:8545)
-* Chain ID: 336
-* Currency Symbol: SDN
-{% endtab %}
-{% endtabs %}
-
-If you want to know more about Metamask Support, please take a look following page:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../integration/network-details.md" %}
+[network-details.md](../../integration/network-details.md)
 {% endcontent-ref %}
 
 ## Get your local token on Metamask
