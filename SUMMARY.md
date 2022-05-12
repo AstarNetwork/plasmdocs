@@ -44,7 +44,7 @@
   * [Requirements](dapp-staking/for-developers/requirements.md)
   * [Register dApp](dapp-staking/for-developers/register-dapp.md)
   * [AstarBase](dapp-staking/for-developers/astarbase.md)
-  * [Precompiles](dapp-staking/for-developers/precompiles.md)
+  * [Integrate dApp Staking](dapp-staking/for-developers/integrate-dapp-staking.md)
 
 ## Bridges
 
