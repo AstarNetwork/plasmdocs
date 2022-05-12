@@ -2,8 +2,8 @@
 
 Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and **Parachain Crowdloans**. In this section, we are going to explain how to make a Kusama/Polkadot address, crowdloan, and auction.
 
-{% content-ref url="../../tutorial/how-to/how-to-make-a-kusama-polkadot-address.md" %}
-[how-to-make-a-kusama-polkadot-address.md](../../tutorial/how-to/how-to-make-a-kusama-polkadot-address.md)
+{% content-ref url="../../../tutorial/how-to/how-to-make-a-kusama-polkadot-address.md" %}
+[how-to-make-a-kusama-polkadot-address.md](../../../tutorial/how-to/how-to-make-a-kusama-polkadot-address.md)
 {% endcontent-ref %}
 
 {% content-ref url="crowdloan.md" %}
@@ -36,7 +36,7 @@ Parachain Lease Offering a.k.a PLO consists of **Parachain Slots Auction** and *
 
 First of all, the following figure shows the timeline.
 
-![](../../.gitbook/assets/9f850028b62217a3d21d482ff3d65c94d0d036e9\_2\_1380x374.png)
+![](../../../.gitbook/assets/9f850028b62217a3d21d482ff3d65c94d0d036e9\_2\_1380x374.png)
 
 **Step1 Crowdloan:** A crowdloan campaign is started before the first auction. Crowdloan mechanism allows people to contribute by agreeing to lock up their own KSM until the end of the lease. We reward their contributors after winning the auction. Crowdloan participants can get more rewards than auction participants.
 

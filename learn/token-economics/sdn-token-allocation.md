@@ -1,4 +1,4 @@
-# $SDN Token Allocation
+# $SDN Allocation
 
 Shiden Network is a fork of Plasm Network and acts as a smart contract Kusama Parachain. The token economics of Shiden Network is slightly different from Plasm Network because Kusama is different from Polkadot. The initial token supply is 70 million with 10% inflation every year.
 
@@ -21,8 +21,8 @@ To make the difference understandable, I would like to write the difference belo
 
 We reserve 30% for the Kusama Parachain auctions. In the case of Shiden Network, we will use 22% for the first auction and 8% for the second auction. As you can see above, we still have 5% buffer (Parachain Auction Reserve).  Shiden Network is a community-driven layer1 blockchain.&#x20;
 
-{% content-ref url="../parachain-lease-offering/shiden-parachain-auction-strategy.md" %}
-[shiden-parachain-auction-strategy.md](../parachain-lease-offering/shiden-parachain-auction-strategy.md)
+{% content-ref url="../crowdloan/parachain-lease-offering/shiden-parachain-auction-strategy.md" %}
+[shiden-parachain-auction-strategy.md](../crowdloan/parachain-lease-offering/shiden-parachain-auction-strategy.md)
 {% endcontent-ref %}
 
 ### Real Community Driven Blockchain

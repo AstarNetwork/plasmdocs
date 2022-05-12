@@ -11,7 +11,7 @@ description: 'Last change:  We increased the number of tokens for PLO.'
 
 ## Shiden Network
 
-![https://shiden.astar.network/](../../.gitbook/assets/screen-shot-2021-05-14-at-20.25.32.png)
+![https://shiden.astar.network/](../../../.gitbook/assets/screen-shot-2021-05-14-at-20.25.32.png)
 
 Shiden Network is a multi-chain decentralized application layer on Kusama Network. Kusama Relaychain does not support smart contract functionality by design - the protocol needs a smart contract layer. This is where Shiden Network comes in. Shiden supports Ethereum Virtual Machine, WebAssembly, and Layer2 solutions from day one. The platform supports various applications like DeFi, NFTs, and more.
 
@@ -33,7 +33,7 @@ The PLO consists of both a “Crowdloan” and an “Auction”. Shiden Network 
 [auction.md](auction.md)
 {% endcontent-ref %}
 
-![](../../.gitbook/assets/screen-shot-2021-05-20-at-23.43.54.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-20-at-23.43.54.png)
 
 The network will use 22% of the total supply (15,400,000 SDN) and bid for 0-7 periods (7days×6weeks×8periods=336 days). Shiden is a community-driven project and the team is proud to distribute 65% for the community members in total. If Shiden loses the first auction, the network will bid for the second slot.
 
@@ -45,7 +45,7 @@ After locking KSM tokens, slot auction participants will receive SDN tokens auto
 
 In addition to that, Shiden has introduced a new incentive scheme rewarding early participation. The earlier participants contribute , the higher the bonus rate they can get.
 
-![](../../.gitbook/assets/screen-shot-2021-05-20-at-1.07.22.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-20-at-1.07.22.png)
 
 **6 (Highest Bonus Rate) :** The crowdloan participants who join the crowdloan from the beginning to the auction day2 get this bonus rate.
 
