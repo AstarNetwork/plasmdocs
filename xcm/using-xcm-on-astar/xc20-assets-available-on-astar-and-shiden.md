@@ -14,4 +14,4 @@ Currently, this is a list of managed XC20 assets:
 
 | Asset  | Symbol | Decimal | Smart Contract (EVM only)                    |
 | ------ | ------ | ------- | -------------------------------------------- |
-| Kusama | DOT    | 10      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
+| Kusama | DOT    | 12      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
