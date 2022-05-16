@@ -14,7 +14,7 @@ description: 'Updated: 04/22 by Mario'
     * Yes of course.
 
 
-*   **Can I use** [**Hardhat**](https://hardhat.org) **for smart contract deployment?**
+*   **Can I use** [**Hardhat**](https://hardhat.org/) **for smart contract deployment?**
 
     * Yes, please follow [this tutorial](using-hardhat.md) in our documentation as example.
 

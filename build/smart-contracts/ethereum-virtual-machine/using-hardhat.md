@@ -6,13 +6,13 @@ description: 'Last update:  2021/04/26'
 
 ![https://hardhat.org/](../../../.gitbook/assets/screen-shot-2021-04-26-at-15.12.59.png)
 
-## **What’s** [**Hardhat**](https://hardhat.org)**?**
+## **What’s** [**Hardhat**](https://hardhat.org/)**?**
 
 > Hardhat is a development environment to compile, deploy, test, and debug your dApps. It helps developers manage and automate the recurring tasks that are inherent to the process of building smart contracts and dApps, as well as easily introducing more functionality around this workflow. This means compiling, running, and testing smart contracts at the very core.
 >
 > Hardhat comes built-in with Hardhat Network, a local Ethereum network designed for development. It functionality focuses around Solidity debugging, featuring stack traces, console.log(), and explicit error messages when transactions fail. __ \
 > __\
-> __Learn more from [here](https://hardhat.org).
+> __Learn more from [here](https://hardhat.org/).
 
 Hardhat can directly interact with Plasm ecosystem Ethereum API so it can be used to deploy smart contracts into our ecosystem.\
 ****

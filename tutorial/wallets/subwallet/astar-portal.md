@@ -24,7 +24,7 @@
 
 **Step 2**: Choose the recipient address from the drop-down menu or key in the address manually. You can either enter the amount you want to send or choose **Transfer the full account balance, reap the sender** to transfer all of your balance. Hit **Make Transfer**. Key in your password. If you do not wish to tip the block author, choose **Do not include a tip for the block author**. Then click on **Sign and Submit**.
 
-![](<../../../.gitbook/assets/image (136).png>)  ![](<../../../.gitbook/assets/image (121).png>)
+![](<../../../.gitbook/assets/image (136) (1).png>)  ![](<../../../.gitbook/assets/image (121).png>)
 
 **Step 3**: After your transfer has been processed successfully, click on **View Your Transaction** to view it on SubScan. You can also view your account balance on Astar Portal.
 

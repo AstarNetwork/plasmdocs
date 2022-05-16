@@ -13,7 +13,7 @@ Go Metamask extension -> Settings -> Network -> Add Network
 
 Use this Custom RPC\
 Network: Astar\
-RPC: [https://rpc.astar.network:8545](https://rpc.astar.network:8545)\
+RPC: [https://rpc.astar.network:8545](https://rpc.astar.network:8545/)\
 Chain ID: 592\
 Symbol: ASTR\
 Explorer: [https://blockscout.com/astar](https://blockscout.com/astar)

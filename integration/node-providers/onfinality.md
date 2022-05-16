@@ -13,7 +13,7 @@ OnFinality provides an API service for the Astar ecosystem and is now live on al
 
 ## Instructions
 
-To create a custom OnFinality endpoint, go to [OnFinality](https://onfinality.io) and sign up, or if you already have signed up you can go ahead and log in. From the OnFinality **Dashboard**, you can:
+To create a custom OnFinality endpoint, go to [OnFinality](https://onfinality.io/) and sign up, or if you already have signed up you can go ahead and log in. From the OnFinality **Dashboard**, you can:
 
 1. Click on **API Service**
 2. Select the network from the dropdown

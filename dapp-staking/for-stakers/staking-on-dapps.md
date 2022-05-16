@@ -4,7 +4,7 @@
 
 ### Step 1
 
-Go to our portal: [https://portal.astar.network/](https://portal.astar.network) and click on '**Staking**'.
+Go to our portal: [https://portal.astar.network/](https://portal.astar.network/) and click on '**Staking**'.
 
 ![](<../../.gitbook/assets/image (123) (1) (1).png>)
 

@@ -2,7 +2,7 @@
 
 ## Introduction to DappRadar
 
-[DappRadar](https://dappradar.com) was started in 2018 with the goal of delivering high quality, accurate insights on decentralized applications to a global audience and rapidly became the go-to, trusted industry source. Since then, DappRadar has become a defacto standard for DApp discovery with more than ten thousand applications listed over twenty protocols. In their own words, _“Across the globe consumers are discovering dapps and managing their NFT/DeFi portfolios with_ [_**DappRadar**_](https://dappradar.com) _. We’re visited by over 500,000 users_ every month, our data powers leading industry partners and our quarterly reports are the trusted authority on multichain dapp market insight.”\*
+[DappRadar](https://dappradar.com/) was started in 2018 with the goal of delivering high quality, accurate insights on decentralized applications to a global audience and rapidly became the go-to, trusted industry source. Since then, DappRadar has become a defacto standard for DApp discovery with more than ten thousand applications listed over twenty protocols. In their own words, _“Across the globe consumers are discovering dapps and managing their NFT/DeFi portfolios with_ [_**DappRadar**_](https://dappradar.com/) _. We’re visited by over 500,000 users_ every month, our data powers leading industry partners and our quarterly reports are the trusted authority on multichain dapp market insight.”\*
 
 Astar/ Shiden are [now live on DappRadar](https://dappradar.com/blog/shiden-network-dapps-now-on-dappradar). DappRadar maintains homepages for the top [Astar Dapps](https://dappradar.com/rankings/protocol/astar) and [Shiden Dapps](https://dappradar.com/rankings/protocol/shiden).&#x20;
 

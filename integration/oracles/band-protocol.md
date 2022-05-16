@@ -4,7 +4,7 @@
 
 ## Overview
 
-[Band Protocol](https://bandprotocol.com) is a cross-chain data oracle aggregating and connecting real-world data and APIs to smart contracts.
+[Band Protocol](https://bandprotocol.com/) is a cross-chain data oracle aggregating and connecting real-world data and APIs to smart contracts.
 
 ### Why do blockchains need oracles?
 

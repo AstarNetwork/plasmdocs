@@ -16,7 +16,7 @@ Before you setup SubQuery for your platform, you need:
 
 * [Docker](https://docs.docker.com/get-docker/) : Containerization platform for software solutions
 * [Docker-compose](https://docs.docker.com/compose/install/) : Used to automate interactions between docker containers
-* [GraphQL](https://graphql.org): Simple knowledge on how to propose entity and query it is required
+* [GraphQL](https://graphql.org/): Simple knowledge on how to propose entity and query it is required
 
 ### Getting started
 

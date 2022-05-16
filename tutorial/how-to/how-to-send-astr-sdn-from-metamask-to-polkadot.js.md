@@ -11,7 +11,7 @@ description: >-
 
 ### Step 1: Connect The Portal To Metamask
 
-* Go to the [Portal](https://portal.astar.network).
+* Go to the [Portal](https://portal.astar.network/).
 * Connect Metamask.
 * Select the desired network.
 

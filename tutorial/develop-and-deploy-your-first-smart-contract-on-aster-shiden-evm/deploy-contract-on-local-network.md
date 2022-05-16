@@ -4,7 +4,7 @@ Finally, it's time to deploy your first smart contract on Astar/Shiden local net
 
 ## Preparation of Solidity contract on Remix
 
-Go to [Remix](https://remix.ethereum.org) and create new file. Then copy and paste the following solidity contract code to your Remix editor.
+Go to [Remix](https://remix.ethereum.org/) and create new file. Then copy and paste the following solidity contract code to your Remix editor.
 
 ```javascript
 pragma solidity ^0.8.0;
@@ -33,8 +33,8 @@ Now press the Deploy button on Remix! You can see the popup window of Metamask a
 
 ## See your token on Metamask
 
-This token can be added to Metamask because this contract is fully compatible with ERC20. You can find the ERC20 contract address on Remix or Explorer. In my case, the contract address is `0x666E76D2d8A0A97D79E1570dd87Cc983464d575e`. Now open Metamask, click Add Token button and input your contract address on Token Contract Address field. You can see that the Token Symbol and Token Decimal fields are automatically filled. At last, click the Next and Add Tokens button. 
+This token can be added to Metamask because this contract is fully compatible with ERC20. You can find the ERC20 contract address on Remix or Explorer. In my case, the contract address is `0x666E76D2d8A0A97D79E1570dd87Cc983464d575e`. Now open Metamask, click Add Token button and input your contract address on Token Contract Address field. You can see that the Token Symbol and Token Decimal fields are automatically filled. At last, click the Next and Add Tokens button.&#x20;
 
-Now you can see your ERC20 token, which is deployed on Shiden local network, on your Metamask. You can, of course, send this token to the Ethereum addresses. 
+Now you can see your ERC20 token, which is deployed on Shiden local network, on your Metamask. You can, of course, send this token to the Ethereum addresses.&#x20;
 
 ![](<../../.gitbook/assets/image (101).png>)

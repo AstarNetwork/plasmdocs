@@ -11,7 +11,7 @@ description: This tutorial serves as a guide to create a multisig substrate wall
 * Click +Add Contact and add all the contact addresses that you want to include in the multisig wallet.
 * For example; Bob, Charlie and Dave.
 
-![](<../../.gitbook/assets/image (119) (1) (1).png>)
+![](<../../.gitbook/assets/image (119) (1) (1) (1).png>)
 
 
 

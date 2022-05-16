@@ -6,5 +6,5 @@ Building a dApp on Astar? **We recommend building your own endpoints or using ou
 
 Use one of our infra partners:
 
-* [BwareLabs](https://app.bwarelabs.com)
-* [OnFinality](https://www.onfinality.io)
+* [BwareLabs](https://app.bwarelabs.com/)
+* [OnFinality](https://www.onfinality.io/)

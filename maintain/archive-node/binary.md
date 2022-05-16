@@ -179,7 +179,7 @@ It all depends about what you plan to do with your archive node.
 * If you run your dapp on the same server than the node (recommended for testing purpose only), you can access it directly with the `localhost` address.
 * If you run the node locally for testing purpose, you can for example switch network into [Polkadot.js portal](https://polkadot.js.org/apps) and explore the chain:
 
-![Switch to local node](<../../.gitbook/assets/image (119).png>)
+![Switch to local node](<../../.gitbook/assets/image (119) (1).png>)
 
 ## Extra operations
 
@@ -228,7 +228,7 @@ sudo systemctl start astar.service
 
 ### Relay Chain snapshot
 
-If you run your collator it not only needs to sync the **mainnet** chain but also the complete relay chain from **Kusama / Polkadot**. This can take up to 3-4 days. You can also use a snapshot of Kusama/Polkadot. You can download this [here](https://polkashots.io) and will save a lot of time.
+If you run your collator it not only needs to sync the **mainnet** chain but also the complete relay chain from **Kusama / Polkadot**. This can take up to 3-4 days. You can also use a snapshot of Kusama/Polkadot. You can download this [here](https://polkashots.io/) and will save a lot of time.
 
 {% hint style="warning" %}
 **NOTE**: know what you are doing when using snapshots!

@@ -36,7 +36,7 @@ You will be prompted to switch your wallet to Polygon if it's not already connec
 
 ![](<../../.gitbook/assets/image (115) (1).png>)
 
-![](<../../.gitbook/assets/image (119) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (119) (1) (1) (1) (1).png>)
 
 Enter the amount you want to send under "Send". You should see the estimated amount you will receive under "Receive (estimated)".
 

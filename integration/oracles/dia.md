@@ -24,7 +24,7 @@ Here, we provide an overview of the deployed oracle contracts on each supported 
 DIA Development Oracle contracts are smart contracts that provide a selected range of asset prices for live testing on our Mainnet and Testnet. The contracts are upgraded and exchanged on a rolling basis and are not maintained indefinitely.
 
 \
-DIA Development Oracle contracts are not intended to be integrated into a dApp. DIA deploys dedicated contracts for dApps. Please request a dedicated oracle by contacting the team on their  [Discord](https://discord.com/invite/zFmXtPFgQj) or the [DIA DAO Forum](https://dao.diadata.org).
+DIA Development Oracle contracts are not intended to be integrated into a dApp. DIA deploys dedicated contracts for dApps. Please request a dedicated oracle by contacting the team on their  [Discord](https://discord.com/invite/zFmXtPFgQj) or the [DIA DAO Forum](https://dao.diadata.org/).
 
 ### Deployed contracts
 
@@ -57,7 +57,7 @@ The oracle contains information about crypto assets. You can access a price quot
 3. The response of the call contains four values:
    1. The current asset price in USD with a fix-comma notation of five decimals.
    2. The current circulating supply.
-   3. The [UNIX timestamp](https://www.unixtimestamp.com) of the last oracle update.
+   3. The [UNIX timestamp](https://www.unixtimestamp.com/) of the last oracle update.
    4. The short name of the asset, e.g., `BTC` for Bitcoin.
 
 As of now, the following list of quotations is available in this development oracle:
