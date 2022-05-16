@@ -6,12 +6,12 @@ Currently, this is a list of managed XC20 assets:
 
 ### Astar:
 
-| Asset | Symbol | Decimal | Smart Contract (EVM only)                    |
-| ----- | ------ | ------- | -------------------------------------------- |
-| DOT   | DOT    | 12      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
+| Asset    | Symbol | Decimal | Smart Contract (EVM only)                    |
+| -------- | ------ | ------- | -------------------------------------------- |
+| Polkadot | DOT    | 12      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
 
 ### Shiden:
 
-| Asset | Symbol | Decimal | Smart Contract (EVM only)                    |
-| ----- | ------ | ------- | -------------------------------------------- |
-| KSM   | DOT    | 12      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
+| Asset  | Symbol | Decimal | Smart Contract (EVM only)                    |
+| ------ | ------ | ------- | -------------------------------------------- |
+| Kusama | DOT    | 12      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
