@@ -8,10 +8,10 @@ Currently, this is a list of managed XC20 assets:
 
 | Asset    | Symbol | Decimal | Smart Contract (EVM only)                    |
 | -------- | ------ | ------- | -------------------------------------------- |
-| Polkadot | DOT    | 12      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
+| Polkadot | DOT    | 10      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
 
 ### Shiden:
 
 | Asset  | Symbol | Decimal | Smart Contract (EVM only)                    |
 | ------ | ------ | ------- | -------------------------------------------- |
-| Kusama | DOT    | 12      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
+| Kusama | DOT    | 10      | `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` |
