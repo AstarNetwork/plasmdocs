@@ -6,7 +6,7 @@ description: How to use XCM with Smart Contracts
 
 So far we’ve successfully transferred assets from Kusama to Shiden and we’ve shown we can access those assets the same as any other via MetaMask. Now we take it one step further and demonstrate how to use these assets from the Smart Contracts.
 
-Here is the example staking contract we’ll be using for the demonstration:
+Here is the example staking contract we’ll be using for the demonstration (for DOT, you replace `ksm` by `dot`):
 
 ```solidity
 // SPDX-License-Identifier: MIT
