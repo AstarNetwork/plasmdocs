@@ -22,13 +22,26 @@ A precompile means a common functionality for smart contracts which has been com
 | Bn128Add     | 0x0000000000000000000000000000000000000006 |
 | Bn128Mul     | 0x0000000000000000000000000000000000000007 |
 | Bn128Pairing | 0x0000000000000000000000000000000000000008 |
+| Blake2F      | 0x0000000000000000000000000000000000000009 |
+
+### Non-Ethereum Precompiles <a href="#ethereum-native-precompiles" id="ethereum-native-precompiles"></a>
+
+| Precompile         | Address                                    |
+| ------------------ | ------------------------------------------ |
+| Sha3FIPS256        | 0x0000000000000000000000000000000000001000 |
+| Dispatch           | 0x0000000000000000000000000000000000001001 |
+| ECRecoverPublicKey | 0x0000000000000000000000000000000000001002 |
+| Ed25519Verify      | 0x0000000000000000000000000000000000001003 |
+
+
 
 ### Astar Specific Precompiles[​](https://astarnetwork.github.io/astar-docs/docs/EVM/precompiles#astar-specific-precompiles) <a href="#astar-specific-precompiles" id="astar-specific-precompiles"></a>
 
-| Precompile   | Address                                    |
-| ------------ | ------------------------------------------ |
-| DappsStaking | 0x0000000000000000000000000000000000005001 |
-| Sr25519      | 0x0000000000000000000000000000000000005002 |
+| Precompile     | Address                                    |
+| -------------- | ------------------------------------------ |
+| DappsStaking   | 0x0000000000000000000000000000000000005001 |
+| Sr25519        | 0x0000000000000000000000000000000000005002 |
+| SubstrateEcdsa | 0x0000000000000000000000000000000000005003 |
 
 The interface descriptions for these precompiles can be found in the `precompiles` folder: [astar-frame repo](https://github.com/AstarNetwork/astar-frame/).
 
@@ -39,14 +52,25 @@ The Addresses can be checked in the [Astar repo](https://github.com/AstarNetwork
 DappsStaking Precompile enables EVM smart contract to access `pallet-dapps-staking` functionality. Example use of this precompile from Contract A:
 
 ```
-import "./DappsStaking.sol";contract A {    DappsStaking public constant DAPPS_STAKING = DappsStaking(0x0000000000000000000000000000000000005001);    /// @notice Check current era    function checkCurrentEra() public view {        uint256 currentEra = DAPPS_STAKING.read_current_era();    }}
+import "./DappsStaking.sol";contract A {    
+DappsStaking public constant DAPPS_STAKING = DappsStaking(0x0000000000000000000000000000000000005001);    
+/// @notice Check current era    
+function checkCurrentEra() public view {        
+    uint256 currentEra = DAPPS_STAKING.read_current_era();    
+}}
 ```
 
 Example use: check `current era` and `total staked amount` in the `pallet-dapps-staking` for Shiden Network. For this example, we will use Remix.
 
 1. Copy `DappsStaking.sol` from [astar-frame repo](https://github.com/AstarNetwork/astar-frame/) and create new contract in Remix:&#x20;
-2. Compile the dAppStaking contract:&#x20;
-3. The precompile does not need to be deployed since it is already on the network, but you need to tell Remix where to find it. After you connect your EVM wallet to Shiden Network (same applies for Astar Network and for Shibuya Testnet) follow these steps:
+
+![](https://i.imgur.com/mr0TcLq.png)
+
+2\. Compile the dAppStaking contract:&#x20;
+
+![](https://i.imgur.com/6Wgg9rf.jpg)
+
+3\. The precompile does not need to be deployed since it is already on the network, but you need to tell Remix where to find it. After you connect your EVM wallet to Shiden Network (same applies for Astar Network and for Shibuya Testnet) follow these steps:
 
 ```
 Go to Deploy tab
@@ -56,13 +80,9 @@ Provide the address of the precompiled contract `0x00000000000000000000000000000
 The dAppStaking contract will appear under Deployed contracts
 ```
 
-![](https://i.imgur.com/6Wgg9rf.jpg)
-
-![](https://i.imgur.com/mr0TcLq.png)
-
 ![](https://i.imgur.com/6RnQlkb.jpg)
 
-1. Interact with the contract.
+4\. Interact with the contract.
 
 ```
 Check the current era 
