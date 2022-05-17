@@ -82,6 +82,7 @@
   * [Band Protocol](integration/oracles/band-protocol.md)
 * [Wallets](integration/wallets/README.md)
   * [Integrate SubWallet](integration/wallets/integrate-subwallet.md)
+* [Gas Price API](integration/gas-price-api.md)
 
 ## Build
 
