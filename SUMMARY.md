@@ -104,8 +104,8 @@
     * [Polkadot Standards Proposals](build/smart-contracts/wasm/polkadot-standards-proposals.md)
   * [Examples](build/smart-contracts/examples/README.md)
     * [WASM - Implement PSP22 with OpenBrush](build/smart-contracts/examples/wasm-implement-psp22-with-openbrush.md)
-* [API](build/api.md)
-* [Gas Price API](build/gas-price-api.md)
+* [API](build/api/README.md)
+  * [Gas Price API](build/api/gas-price-api.md)
 
 ## Maintain
 

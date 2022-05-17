@@ -10,8 +10,8 @@ Link of deposit processing logic document - the doc describing how to get transa
 
 API and free RPC WebSocket endpoints for the Astar community.👇
 
-{% content-ref url="../build/api.md" %}
-[api.md](../build/api.md)
+{% content-ref url="../build/api/" %}
+[api](../build/api/)
 {% endcontent-ref %}
 
 {% hint style="info" %}

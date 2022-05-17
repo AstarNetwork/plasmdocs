@@ -12,8 +12,8 @@ There are a number of organizations that maintain free RPC WebSocket endpoints f
 
 See:
 
-{% content-ref url="../integration/network-details.md" %}
-[network-details.md](../integration/network-details.md)
+{% content-ref url="../../integration/network-details.md" %}
+[network-details.md](../../integration/network-details.md)
 {% endcontent-ref %}
 
 ## Installation
@@ -82,7 +82,7 @@ main().catch(console.error);
 
 When you run this script you will see the following:
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12).png>)
 
 ## Support
 
