@@ -15,7 +15,7 @@ The goals of AstarBase product is:
 
 ### Interface
 
-AstarBase is an on-chain EVM database. AstarBase contains a mapping of users's EVM and Native ss58 address. Such mapping on it's own does not bring any benefit to the projects since anyone can register this address pair. What brings the value is the call `checkStakerStatus()` which checks if the ss58 address of the pair is an active staker. The AstarBase contracts are available on each of Shibuya/Shiden/Astar Networks. The deploy addresses can be found in the [AstarBase github repository](https://github.com/AstarNetwork/astarbase/blob/main/contract/contracts/info.md).
+AstarBase is an on-chain EVM database. AstarBase contains a mapping of users's EVM and Native ss58 address. Such mapping on it's own does not bring any benefit to the projects since anyone can register this address pair. What brings the value is the call `checkStakerStatus()` which checks if the ss58 address of the pair is an active staker. The AstarBase contracts are available on each of Shibuya/Shiden/Astar Networks. The deploy addresses can be found in the [AstarBase github repository](https://github.com/AstarNetwork/astarbase/blob/main/contract/deployment-info.md).
 
 There are 3 interface functions that can be used.
 
@@ -47,7 +47,7 @@ The interface file `IAstarBase.sol` can be found in the [ERC20 example](https://
 
 ### Use from Client side
 
-The `abi` for the contract can be found in [AstarBase Github repository](https://github.com/AstarNetwork/astarbase/blob/main/public/config/register\_abi.json).\
+The `abi` for the contract can be found in [AstarBase Github repository](https://github.com/AstarNetwork/astarbase/tree/main/public/config).\
 The following is an example usage of the Astarbase from the client side.
 
 ```
