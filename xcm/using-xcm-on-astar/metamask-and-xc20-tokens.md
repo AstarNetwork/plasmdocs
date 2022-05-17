@@ -12,54 +12,6 @@ First, let’s approach this at a high level, and then move on to a more technic
 * **SS58:** `Zag6jpFEU93xsEfczHbJucBUJAHMZFVsk4b3amvV5oXbJoo` (with prefix 5 for Shiden/Astar)
 * **public key:** `0xa1363005871407f62f4b7e5752a7bc2934447699c08f4caf1b8c393287c0f502`
 
-So our payload for `reserve_transfer_asset` will look something like this:
-
-```
-    // the target parachain connected to the current relaychain
-    const dest = {
-        V1: {
-            interior: {
-                X1: {
-                    Parachain: 2007,
-                },
-            },
-            parents: 0,
-        },
-    };
-    // the account ID within the destination parachain
-    const beneficiary = {
-        V1: {
-            interior: {
-                X1: {
-                    AccountId32: {
-                        network: 'Any',
-                        id: '0x6c65500b73e2cec702f06dcd5299b31e4d0b6cf7728937b7d5edac79611292f2',
-                    },
-                },
-            },
-            parents: 0,
-        },
-    };
-    // amount of fungible tokens to be transferred
-    const assets = {
-        V1: [
-            {
-                fun: {
-                    Fungible: amount,
-                },
-                id: {
-                    Concrete: {
-                        interior: 'Here',
-                        parents: 0,
-                    },
-                },
-            },
-        ],
-    };
-```
-
-Signing this transaction will send the KSM token from Kusama to the specified EVM address in Shiden Network. Now that we know who to receive the tokens, how can we actually see and use them within EVM? Because the XCM asset (KSM in this case) is managed within the Assets pallet, it will be accessible through the XC20 interface, which is essentially an ERC20 with a unique contract address.
-
 To obtain the asset address for EVM, we need to get the token asset ID that we wish to use. In our case, we will be using KSM, which has the asset ID of `340282366920938463463374607431768211455`. Now we need to convert the ID to hex and prefix it with `0xffffffff`. The resulting address will be `0xffffffffFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`. We can directly load this address with the ERC20 interface and use it within our Solidity smart contract or use it within MetaMask.
 
 ![Importing tokens in Metamask](../../.gitbook/assets/100\_metamask\_asset\_import.png)
