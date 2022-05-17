@@ -82,7 +82,6 @@
   * [Band Protocol](integration/oracles/band-protocol.md)
 * [Wallets](integration/wallets/README.md)
   * [Integrate SubWallet](integration/wallets/integrate-subwallet.md)
-* [Gas Price API](integration/gas-price-api.md)
 
 ## Build
 
@@ -106,6 +105,7 @@
   * [Examples](build/smart-contracts/examples/README.md)
     * [WASM - Implement PSP22 with OpenBrush](build/smart-contracts/examples/wasm-implement-psp22-with-openbrush.md)
 * [API](build/api.md)
+* [Gas Price API](build/gas-price-api.md)
 
 ## Maintain
 

@@ -249,4 +249,6 @@ Now once you finish the XCM transaction, you can list all the assets with the fo
 
 Now, you should be able to transfer the asset from the relaychain to the parachain, and check if it was successful by listing all the assets within the asset pallet that the current account holds.
 
+Please note that the gas amount will be deduced from the transferred amount. Transferred amount should be adjusted with gas fee estimate. Please refer to [Gas Price API](../../build/gas-price-api.md) if needed for specific use case.      &#x20;
+
 You can find the full project that deals with similar functionality from [this repository](https://github.com/AstarNetwork/astar-xcm-tools).
