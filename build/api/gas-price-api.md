@@ -53,7 +53,7 @@ With EIP1559 transactions gas fee are divided in two parts: base fee and priorit
 
 The Base Fee, which is determined by the network itself. And is same for a block. Priority Fee, which is optional, determined by the user, is a tip to validators, and incentivizes them to prioritize your transaction.
 
-EIP-1559's purpose is essentially to make gas fees more transparent and predictable for users. Previously, to have your transaction processed, you essentially had to 'bid' with a high enough total fee to make sure the miner was incentivizas e to pick up your transaction reasonably soon. This meant the market price was constantly moving according to demand.
+EIP-1559's purpose is essentially to make gas fees more transparent and predictable for users. Previously, to have your transaction processed, you essentially had to 'bid' with a high enough total fee to make sure the miner was incentivized to pick up your transaction reasonably soon. This meant the market price was constantly moving according to demand.
 
 * priorityFeePerGas: The variable part of the gas fee. Determined by the user.
 * baseFeePerGas: The fixed part of the gas fee. Determined by the network.

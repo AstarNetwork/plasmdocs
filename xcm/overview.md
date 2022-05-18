@@ -13,7 +13,7 @@ Cross-Consensus Protocols specify how to pass and act on XCM messages. Polkadot 
 
 * Vertical Message Passing (VMP)
 * Cross-Chain Message Passing (XCMP)
-  * Currently, only XCMP-lite (HRMP) supported
+  * Currently, only XCMP-lite (HRMP) is supported
 
 #### External References
 
