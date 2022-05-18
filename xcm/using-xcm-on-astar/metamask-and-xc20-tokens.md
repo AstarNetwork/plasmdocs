@@ -7,7 +7,7 @@ description: Using XC20 Tokens with Metamask
 Using XCM within the EVM environment is also simple as our network uses the XC20 interface, which maps the Assets pallet to an ERC20-compatible interface that EVM dApps can use.
 
 {% hint style="info" %}
-XC20s and ERC20s are very similar, some distinct differences are to be aware of.  XC20s are Substrate-based assets. In addition, XC20s transactions done via the Substrate API won’t be visible from EVM-based block explorers such as Subscan and Blocksout. Only transactions done via the Ethereum API are visible through those explorers.
+XC20s and ERC20s are very similar, some distinct differences are to be aware of.  XC20s are Substrate-based assets. In addition, XC20s transactions done via the Substrate API won’t be visible from EVM-based block explorers such as Blocksout. Only transactions done via the Ethereum API are visible through those explorers.
 
 \
 XC20s can interact through an ERC20 interface, so they have the additional benefit of being accessible from both the Substrate and Ethereum APIs. This ultimately provides greater flexibility for developers when working with these types of assets and allows seamless integrations with EVM-based smart contracts such as DEXs, and lending platforms, among others.
