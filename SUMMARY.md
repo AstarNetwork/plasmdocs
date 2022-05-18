@@ -50,12 +50,13 @@
 ## XCM
 
 * [Overview](xcm/overview.md)
-* [Using XCM on Astar](xcm/using-xcm-on-astar/README.md)
-  * [Native Transactions](xcm/using-xcm-on-astar/native-transactions.md)
-  * [Metamask and XC20 Tokens](xcm/using-xcm-on-astar/metamask-and-xc20-tokens.md)
-  * [XCM with dApps](xcm/using-xcm-on-astar/xcm-with-dapps.md)
-  * [Client Applications](xcm/using-xcm-on-astar/client-applications.md)
-  * [XC20 Assets available on Astar and Shiden](xcm/using-xcm-on-astar/xc20-assets-available-on-astar-and-shiden.md)
+* [Using XCM on Astar](xcm/using-xcm-on-astar.md)
+* [Building with XCM on Astar](xcm/building-with-xcm-on-astar/README.md)
+  * [Native Transactions](xcm/building-with-xcm-on-astar/native-transactions.md)
+  * [Metamask and XC20 Tokens](xcm/building-with-xcm-on-astar/metamask-and-xc20-tokens.md)
+  * [XCM with dApps](xcm/building-with-xcm-on-astar/xcm-with-dapps.md)
+  * [Client Applications](xcm/building-with-xcm-on-astar/client-applications.md)
+* [XCM Asset List](xcm/xcm-asset-list.md)
 
 ## Bridges
 

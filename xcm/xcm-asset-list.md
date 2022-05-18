@@ -1,6 +1,8 @@
-# XC20 Assets available on Astar and Shiden
+# XCM Asset List
 
-We can differentiate between managed projects' XC20 assets which have been tested by Astar and Shiden Network maintainers and other permissionless XC20 assets created on-chain.
+## XC20
+
+We can differentiate between managed project's XC20 assets which have been tested by Astar and Shiden Network maintainers and other permissionless XC20 assets created on-chain.
 
 Currently, this is a list of managed XC20 assets:
 

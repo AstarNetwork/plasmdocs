@@ -6,6 +6,13 @@ description: Using XC20 Tokens with Metamask
 
 Using XCM within the EVM environment is also simple as our network uses the XC20 interface, which maps the Assets pallet to an ERC20-compatible interface that EVM dApps can use.
 
+{% hint style="info" %}
+XC20s and ERC20s are very similar, some distinct differences are to be aware of.  XC20s are Substrate-based assets. In addition, XC20s transactions done via the Substrate API won’t be visible from EVM-based block explorers such as Subscan and Blocksout. Only transactions done via the Ethereum API are visible through those explorers.
+
+\
+XC20s can interact through an ERC20 interface, so they have the additional benefit of being accessible from both the Substrate and Ethereum APIs. This ultimately provides greater flexibility for developers when working with these types of assets and allows seamless integrations with EVM-based smart contracts such as DEXs, and lending platforms, among others.
+{% endhint %}
+
 First, let’s approach this at a high level, and then move on to a more technical example for dApps. Let’s say I want to move the KSM token from Kusama to `0xd2C6929A72e466213D1c2Df8359194784650A50e`. From the Kusama side of things, the payload for sending the KSM tokens will be similar to the ones we used in the previous section. However, the `Beneficiary` address (account ID) will be a mapped SS58 address of the recipient’s EVM address as that is the only address format that XCM can accept. You can read [this article](https://medium.com/astar-network/using-astar-network-account-between-substrate-and-evm-656643df22a0) on how to create the mapped address. To keep things short, address mappings are:
 
 * **H160:** `0x107bAe763DC63e0686C574FdE1B58115c7d19280`
