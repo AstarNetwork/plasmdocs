@@ -34,7 +34,7 @@ Select "Polygon" in the dropbox next to "From" and "Astar" in the dropbox next t
 
 You will be prompted to switch your wallet to Polygon if it's not already connected. Click “Approve” to add a network and then click “Switch network”.
 
-![](<../../.gitbook/assets/image (115) (1).png>)
+![](<../../.gitbook/assets/image (115) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (119) (1) (1) (1) (1).png>)
 
