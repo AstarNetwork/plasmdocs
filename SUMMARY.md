@@ -87,6 +87,7 @@
   * [Band Protocol](integration/oracles/band-protocol.md)
 * [Wallets](integration/wallets/README.md)
   * [Integrate SubWallet](integration/wallets/integrate-subwallet.md)
+  * [Transak](integration/wallets/transak.md)
 
 ## Build
 
