@@ -41,6 +41,7 @@
 * [For Stakers](dapp-staking/for-stakers/README.md)
   * [Staking on dApps](dapp-staking/for-stakers/staking-on-dapps.md)
   * [Unbond your stake](dapp-staking/for-stakers/unbond-your-stake.md)
+  * [Nomination Transfer](dapp-staking/for-stakers/nomination-transfer.md)
 * [For Developers](dapp-staking/for-developers/README.md)
   * [Requirements](dapp-staking/for-developers/requirements.md)
   * [Register dApp](dapp-staking/for-developers/register-dapp.md)

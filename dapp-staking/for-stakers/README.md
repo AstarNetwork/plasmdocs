@@ -19,3 +19,7 @@ Other pages that can be of interest:
 {% content-ref url="unbond-your-stake.md" %}
 [unbond-your-stake.md](unbond-your-stake.md)
 {% endcontent-ref %}
+
+{% content-ref url="nomination-transfer.md" %}
+[nomination-transfer.md](nomination-transfer.md)
+{% endcontent-ref %}
