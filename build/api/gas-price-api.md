@@ -10,11 +10,36 @@ Gas price API is a service that allows you to get the various gas prices of the 
 
 ## API
 
+API is provided in repo [https://github.com/AstarNetwork/gas-station](https://github.com/AstarNetwork/gas-station). node.js is the requirement to run the API server.
 
+Steps to setup the API server.
 
-* **Shibuya**: https://astar-gas-station.herokuapp.com/api/shibuya/gasnow
-* **Shiden**: https://astar-gas-station.herokuapp.com/api/shiden/gasnow
-* **Astar**: https://astar-gas-station.herokuapp.com/api/astar/gasnow
+Clone the repo.
+
+```
+> git clone https://github.com/AstarNetwork/gas-station
+```
+
+Install Dependencies.
+
+```
+> cd gas-station
+> yarn install
+```
+
+Start the server.
+
+```
+> yarn start
+```
+
+Server will start on port 3000 or environment variable PORT if provided.
+
+You can get the gas for different chain with these http APIs.
+
+* **Shibuya**: GET http://localhost:3000/api/shibuya/gasnow
+* **Shiden**: GET http://localhost:3000/api/shiden/gasnow
+* **Astar**: GET http://localhost:3000/api/astar/gasnow
 
 ### Response
 
@@ -24,22 +49,22 @@ Gas price API is a service that allows you to get the various gas prices of the 
 {
     "code":200,
     "data":{
-        "slow":1808883509,
-        "average":4931660024,
-        "fast":9456866567,
-        "timestamp":1652957590003,
+        "slow":"1746510000",
+        "average":"5119200000",
+        "fast":"9501250000",
+        "timestamp":1653037338668,
         "eip1559":{
             "priorityFeePerGas":{
-                "slow":808883509,
-                "average":3931660024,
-                "fast":8456866567
+                "slow":"746510000",
+                "average":"4119200000",
+                "fast":"8501250000"
             },
-            "baseFeePerGas":1000000000
+            "baseFeePerGas":"1000000000"
         },
         "tip":{
-            "slow":"0.000000808883509",
-            "average":"0.000003931660024",
-            "fast":"0.000008456866567"
+            "slow":"746510000000",
+            "average":"4119200000000",
+            "fast":"8501250000000"
         }
     }
 }
