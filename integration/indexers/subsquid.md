@@ -33,7 +33,7 @@ You can create a project by using the template repository made available by Subs
     cd squid-evm-template && npm i
     ```
 
-![npm install](https://camo.githubusercontent.com/ec537a61307f00a97c2ed6bd52f538694ef68a90cb878f2d3506f764a4625ce0/68747470733a2f2f692e6779617a6f2e636f6d2f61633638323263636431353961643031356365623365356436343832633665372e676966)
+![](https://camo.githubusercontent.com/ec537a61307f00a97c2ed6bd52f538694ef68a90cb878f2d3506f764a4625ce0/68747470733a2f2f692e6779617a6f2e636f6d2f61633638323263636431353961643031356365623365356436343832633665372e676966)
 
 The next sections will take the template and customize it, one aspect at a time, to obtain the right data and process it. To view the complete project, you can check out the [`squid-astar-example` repository on GitHub](https://github.com/subsquid/squid-astar-example).
 
@@ -289,7 +289,7 @@ When running the project locally, as it is the case for this guide, it is possib
 docker-compose up -d
 ```
 
-![Launch database container](https://camo.githubusercontent.com/56697bd7cdb420a071e7113f2655034b9809fbeab5735d701a342965066b76df/68747470733a2f2f692e6779617a6f2e636f6d2f39303765663535333731653163646231383339643266653766663130386565372e676966)
+![](https://camo.githubusercontent.com/56697bd7cdb420a071e7113f2655034b9809fbeab5735d701a342965066b76df/68747470733a2f2f692e6779617a6f2e636f6d2f39303765663535333731653163646231383339643266653766663130386565372e676966)
 
 !!! note The `-d` parameter is optional, it launches the container in `daemon` mode so the terminal will not be blocked and no further output will be visible.
 
@@ -329,7 +329,7 @@ To launch the processor (this will block the current terminal), you can run the 
 node -r dotenv/config lib/processor.js
 ```
 
-![Launch processor](https://camo.githubusercontent.com/3045817aabfc549167e202b0d3fafeeab74e5b47a1567608b0e69380ffc6e424/68747470733a2f2f692e6779617a6f2e636f6d2f36366162396331666566393230336433653234623665323734626261343765332e676966)
+![](https://camo.githubusercontent.com/3045817aabfc549167e202b0d3fafeeab74e5b47a1567608b0e69380ffc6e424/68747470733a2f2f692e6779617a6f2e636f6d2f36366162396331666566393230336433653234623665323734626261343765332e676966)
 
 Finally, in a separate terminal window, launch the GraphQL server:
 
