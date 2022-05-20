@@ -22,21 +22,26 @@ Gas price API is a service that allows you to get the various gas prices of the 
 
 ```
 {
-  "code": 200,
-  "data": {
-    "slow": 1265049135,
-    "average": 2233842329,
-    "fast": 10261948525,
-    "timestamp": 1651782278481,
-    "eip1559": {
-      "priorityFeePerGas": {
-        "slow": 265049135,
-        "average": 1233842329,
-        "fast": 9261948525
-      },
-      "baseFeePerGas": 1000000000
+    "code":200,
+    "data":{
+        "slow":1808883509,
+        "average":4931660024,
+        "fast":9456866567,
+        "timestamp":1652957590003,
+        "eip1559":{
+            "priorityFeePerGas":{
+                "slow":808883509,
+                "average":3931660024,
+                "fast":8456866567
+            },
+            "baseFeePerGas":1000000000
+        },
+        "tip":{
+            "slow":"0.000000808883509",
+            "average":"0.000003931660024",
+            "fast":"0.000008456866567"
+        }
     }
-  }
 }
 ```
 
@@ -57,3 +62,6 @@ EIP-1559's purpose is essentially to make gas fees more transparent and predicta
 
 * priorityFeePerGas: The variable part of the gas fee. Determined by the user.
 * baseFeePerGas: The fixed part of the gas fee. Determined by the network.
+*   tip: Tips are an optional transaction fee that users can add. Tips are not part of the inclusion fee and are an incentive to block authors for prioritizing a transaction, and the entire tip goes directly to the block author. Tip is provided in gas API and can be used when sending native transactions. Tip is provided for slow, average and fast speed.
+
+    \
