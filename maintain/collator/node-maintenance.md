@@ -6,6 +6,11 @@ Maintaining a backup node always sync for a collator is vital to make sure you a
 
 The collator session keys are stored into `/var/lib/astar/chains/${NETWORK}/keystore`.
 
+{% hint style="info" %}
+You may need to install rsync package depending on your distro\
+`sudo apt-get install rsync`
+{% endhint %}
+
 Make sure you save the content of this directory in  a **backup directory** on your **local machine**:
 
 ```
@@ -31,8 +36,8 @@ rsync --rsync-path="sudo rsync" -r ./keystore ${BACKUP_SERVER_IP}:/var/lib/astar
 On the **backup collator server**, update permission of the `keystore` folder and restart the collator service:
 
 ```
-sudo chown -R polkadot:polkadot /var/lib/astar/
-sudo systemctl restart ${NETWORK}.service1
+sudo chown -R astar:astar /var/lib/astar/
+sudo systemctl restart ${NETWORK}.service
 ```
 
 ## Get node logs
