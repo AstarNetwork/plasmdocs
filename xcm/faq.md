@@ -24,7 +24,7 @@ Not at the moment.
 
 ### Q: How can I send my DOT token back to Polkadot?
 
-This feature is in development and will be available soon.&#x20;
+This feature is in development and will be available soon for both EVM and native wallets.&#x20;
 
 ### Q: Why is XCM button for DOT/KSM disabled when I connect my wallet on the Astar Portal?
 
