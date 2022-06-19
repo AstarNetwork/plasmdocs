@@ -8,3 +8,4 @@ Use one of our infra partners:
 
 * [BwareLabs](https://app.bwarelabs.com/)
 * [OnFinality](https://www.onfinality.io/)
+* [Pinknode](https://www.pinknode.io/)
